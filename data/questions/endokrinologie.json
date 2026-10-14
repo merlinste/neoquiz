@@ -1,0 +1,581 @@
+{
+  "area": "endokrinologie",
+  "questions": [
+    {
+      "id": "endo-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie die **Ursachen der konnatalen (primären) Hypothyreose** und beschreiben Sie, warum die meisten Kinder bei Geburt **klinisch unauffällig** sind. Welche Symptome treten bei verspäteter Diagnose auf?",
+      "hints": ["Die häufigste Ursache ist eine Organentwicklungsstörung.", "Was passiert mit mütterlichem Thyroxin?"],
+      "answer": "Häufigste Ursache ist eine **Schilddrüsendysgenesie** (klassisch ca. 80–85 %, bei heute niedrigeren Screening-Cut-offs anteilig weniger, da mehr Kinder mit Drüse in loco erfasst werden: Ektopie – am häufigsten –, Aplasie, Hypoplasie), seltener eine **Dyshormonogenese** (Störung der Hormonsynthese, autosomal-rezessiv, oft mit Struma); daneben transiente Formen (Jodexposition oder -mangel, mütterliche TSH-Rezeptor-blockierende Antikörper, mütterliche Thyreostatika). Bei Geburt sind die meisten Kinder unauffällig, weil **mütterliches T4 transplazentar** übertritt und die fetale Hirnentwicklung teilweise schützt. Unbehandelt entwickeln sich in den ersten Lebenswochen: **Icterus prolongatus**, Trinkfaulheit, Obstipation, Lethargie, muskuläre Hypotonie, Makroglossie, Nabelhernie, große hintere Fontanelle, trockene Haut, Hypothermie, heiseres Schreien – mit irreversibler Beeinträchtigung der geistigen Entwicklung. Deshalb ist das **TSH-basierte Neugeborenenscreening** entscheidend.",
+      "keyPoints": [
+        "Dysgenesie (Ektopie am häufigsten) als häufigste Ursache",
+        "Dyshormonogenese, transiente Formen",
+        "Mütterliches T4 maskiert die Klinik bei Geburt",
+        "Spätsymptome: Icterus prolongatus, Trinkschwäche, Obstipation, Makroglossie, Nabelhernie",
+        "Unbehandelt geistige Behinderung"
+      ],
+      "tags": ["Konnatale Hypothyreose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Das Screeninglabor meldet Ihnen am 4. Lebenstag eines Reifgeborenen ein **TSH von 85 mU/l** im Trockenblut. Beschreiben Sie Ihr Vorgehen von der Bestätigungsdiagnostik bis zum Therapieziel.",
+      "hints": [
+        "Wie schnell muss die Therapie beginnen, und muss man auf die Bildgebung warten?",
+        "Startdosis und Ziele für fT4 und TSH."
+      ],
+      "answer": "1. **Sofortige** (am selben Tag) Einbestellung und klinische Untersuchung.\n2. **Venöse Bestätigung**: TSH und fT4 (ggf. Thyreoglobulin, bei Verdacht mütterliche Antikörper).\n3. Bei deutlich erhöhtem Screening-TSH **Therapiebeginn unmittelbar nach der Blutentnahme**, ohne auf Ergebnisse oder Bildgebung zu warten; bei nur leicht erhöhten Werten Entscheidung nach venösem Befund am selben oder nächsten Tag.\n4. **L-Thyroxin 10–15 µg/kg/d** einmal täglich oral (höhere Dosis bei schwerer Form), Tablette zerkleinert in wenig Flüssigkeit, nicht zusammen mit Soja, Eisen oder Calcium.\n5. **Ziele**: fT4 normalisiert innerhalb von ca. 2 Wochen, TSH innerhalb von ca. 4 Wochen; fT4 im oberen Normbereich, TSH im altersentsprechenden Normbereich.\n6. **Kontrollen** 1–2 Wochen nach Beginn, dann engmaschig (z. B. alle 2 Wochen bis zur Normalisierung, im ersten Lebensjahr alle 1–3 Monate) durch pädiatrische Endokrinologie.\n7. Ätiologie: Sonographie, ggf. Szintigraphie (ohne Therapieverzögerung); Hörtest; Ausschluss assoziierter Fehlbildungen (Herz).\n8. Elternberatung: gute Prognose bei frühem Beginn, voraussichtlich lebenslange Therapie; bei Drüse in loco Reevaluation im Alter von 2–3 Jahren.",
+      "keyPoints": [
+        "Sofortiger Recall, venöse TSH/fT4-Bestätigung",
+        "Therapiebeginn sofort nach Blutentnahme, nicht auf Bildgebung warten",
+        "L-T4 10–15 µg/kg/d",
+        "fT4 in 2 Wochen, TSH in 4 Wochen normal",
+        "Engmaschige Kontrollen, Endokrinologie",
+        "Sonographie, Hörtest, Elternberatung"
+      ],
+      "tags": ["Konnatale Hypothyreose", "Neugeborenenscreening", "L-Thyroxin"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ],
+      "source": "Congenital Hypothyroidism: 2020–2021 Consensus Guidelines Update (ENDO-ERN/ESPE, van Trotsenburg et al., Thyroid 2021)"
+    },
+    {
+      "id": "endo-003",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Aussage zur **L-Thyroxin-Therapie** der konnatalen Hypothyreose trifft zu?",
+      "hints": ["Wie hoch ist die Startdosis pro kg, und was beeinträchtigt die Resorption?"],
+      "options": [
+        {
+          "text": "Die Startdosis beträgt 10–15 µg/kg/d; die Tablette wird zerkleinert gegeben, nicht zusammen mit Soja-, Eisen- oder Calciumpräparaten.",
+          "correct": true
+        },
+        {
+          "text": "Die Therapie sollte erst nach erfolgter Szintigraphie begonnen werden, um die Diagnostik nicht zu verfälschen.",
+          "correct": false
+        },
+        {
+          "text": "Die Startdosis entspricht der Erwachsenendosis von 1–2 µg/kg/d, um eine Überdosierung zu vermeiden.",
+          "correct": false
+        },
+        {
+          "text": "Ziel ist ein TSH knapp oberhalb des Referenzbereichs, um eine Hyperthyreose sicher zu vermeiden.",
+          "correct": false
+        }
+      ],
+      "answer": "Die Startdosis beträgt 10–15 µg/kg/d (bei schwerer Hypothyreose am oberen Ende), damit fT4 rasch (innerhalb von ca. 2 Wochen) und TSH innerhalb von ca. 4 Wochen normalisiert werden – entscheidend für die neurokognitive Entwicklung. Soja, Eisen und Calcium vermindern die Resorption. Die Bildgebung darf den Therapiebeginn nicht verzögern; eine Szintigraphie ist nur in den ersten Tagen nach Therapiebeginn aussagekräftig. Ziel ist ein TSH im altersentsprechenden Normbereich bei fT4 in der oberen Hälfte.",
+      "keyPoints": [
+        "Startdosis 10–15 µg/kg/d",
+        "Resorptionsstörung durch Soja, Eisen, Calcium",
+        "Therapie nicht wegen Bildgebung verzögern"
+      ],
+      "tags": ["L-Thyroxin", "Konnatale Hypothyreose"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ],
+      "source": "Congenital Hypothyroidism: 2020–2021 Consensus Guidelines Update (ENDO-ERN/ESPE, van Trotsenburg et al., Thyroid 2021)"
+    },
+    {
+      "id": "endo-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Besonderheiten der Schilddrüsenfunktion beim Frühgeborenen** müssen Sie kennen, und welche Konsequenzen ergeben sich für das Screening?",
+      "hints": ["Niedriges T4 bei normalem TSH – behandeln oder nicht?", "Warum kann ein TSH-Anstieg verspätet auftreten?"],
+      "answer": "- **Transiente Hypothyroxinämie** der Frühgeborenen: niedriges T4/fT4 bei normalem oder niedrigem TSH infolge Unreife der Hypothalamus-Hypophysen-Schilddrüsen-Achse, Verlust des mütterlichen T4, schwerer Erkrankung und Medikamenten (z. B. Dopamin, Glukokortikoide, die TSH supprimieren). Eine L-Thyroxin-Behandlung hat in Studien keinen gesicherten Nutzen und wird nicht routinemäßig empfohlen.\n- **Verzögerter TSH-Anstieg**: Bei sehr unreifen oder kritisch kranken Frühgeborenen, nach Dopamin- oder Steroidtherapie und nach Transfusionen kann eine primäre Hypothyreose im Erstscreening übersehen werden. Deshalb soll die erste Screeningprobe nach Kinder-Richtlinie unabhängig vom Lebensalter **vor** Transfusion, Kortikosteroid- oder Dopamintherapie entnommen werden, und bei Geburt vor vollendeten 32 SSW ist ein abschließendes **Zweitscreening im korrigierten Alter von 32 SSW** vorgeschrieben (§ 20 Kinder-Richtlinie); viele Zentren kontrollieren TSH/fT4 bei Risikokindern zusätzlich nach einigen Wochen.\n- **Jodexposition** (jodhaltige Desinfektionsmittel, Röntgenkontrastmittel) oder Jodmangel kann eine **transiente Hypothyreose** auslösen; Amiodaron ebenfalls.\n- Interpretation immer mit **gestationsalterbezogenen Referenzwerten**.",
+      "keyPoints": [
+        "Transiente Hypothyroxinämie: keine Routinetherapie",
+        "Verzögerter TSH-Anstieg bei Unreife, Dopamin, Steroiden, Transfusion",
+        "Zweitscreening bei < 32 SSW (korrigiert 32 SSW)",
+        "Jodexposition → transiente Hypothyreose",
+        "Gestationsalterbezogene Referenzwerte"
+      ],
+      "tags": ["Schilddrüse", "Frühgeborene", "Neugeborenenscreening"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie, § 20 (Zeitpunkt der Probenentnahmen im erweiterten Neugeborenen-Screening)"
+    },
+    {
+      "id": "endo-005",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 25 SSW hatte mehrere Eingriffe mit großflächiger Hautdesinfektion durch **Povidon-Iod**. Welche Aussage trifft zu?",
+      "hints": ["Wolff-Chaikoff-Effekt."],
+      "options": [
+        {
+          "text": "Die Jodexposition kann über den Wolff-Chaikoff-Effekt eine transiente Hypothyreose auslösen; jodhaltige Desinfektionsmittel sollten bei Frühgeborenen vermieden werden.",
+          "correct": true
+        },
+        {
+          "text": "Jodexposition führt beim Frühgeborenen regelhaft zur Hyperthyreose (Jod-Basedow).",
+          "correct": false
+        },
+        { "text": "Durch die Haut des Frühgeborenen wird Jod praktisch nicht resorbiert.", "correct": false },
+        {
+          "text": "Eine Jodexposition beeinflusst das TSH-Screening nicht, da das TSH unabhängig von der Jodversorgung ist.",
+          "correct": false
+        }
+      ],
+      "answer": "Die dünne, durchlässige Haut des Frühgeborenen resorbiert Jod in relevanter Menge. Die unreife Schilddrüse kann der jodbedingten Hemmung der Hormonsynthese (Wolff-Chaikoff-Effekt) nicht entkommen, sodass eine transiente Hypothyreose mit TSH-Anstieg entstehen kann. Daher werden bei Frühgeborenen jodfreie Desinfektionsmittel bevorzugt; bei stattgehabter Exposition sind Schilddrüsenkontrollen sinnvoll.",
+      "keyPoints": [
+        "Transdermale Jodresorption",
+        "Wolff-Chaikoff-Effekt → transiente Hypothyreose",
+        "Jodfreie Desinfektion bei Frühgeborenen"
+      ],
+      "tags": ["Schilddrüse", "Frühgeborene", "Jod"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-006",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Schwangere hatte vor 4 Jahren einen **Morbus Basedow**, wurde **thyreoidektomiert** und ist jetzt unter L-Thyroxin euthyreot. Warum ist das für ihr Neugeborenes relevant, und wie gehen Sie postnatal vor?",
+      "hints": [
+        "Die Thyreoidektomie beseitigt nicht die Antikörper.",
+        "Warum kann sich eine Funktionsstörung verzögert zeigen, wenn die Mutter Thyreostatika einnimmt?"
+      ],
+      "answer": "**TSH-Rezeptor-Antikörper (TRAK)** können auch nach Thyreoidektomie oder Radiojodtherapie persistieren, sind IgG und passieren die Plazenta; stimulierende TRAK können beim Fetus/Neugeborenen eine **Hyperthyreose** auslösen (bei einem kleinen Teil der Kinder von Müttern mit aktuellem oder früherem Basedow, Risiko steigt mit der Höhe der TRAK). **Vorgehen**: TRAK der Mutter in der Schwangerschaft (spätes 2./3. Trimenon) erfragen; fetale Tachykardie oder Struma beachten. Sind die mütterlichen TRAK negativ, ist keine spezielle Diagnostik nötig. Bei positiven oder unbekannten TRAK: **TRAK beim Neugeborenen** (bzw. Nabelschnurblut) und **fT4/TSH-Kontrollen in den ersten Lebenstagen und erneut gegen Ende der 2. Lebenswoche**, klinische Überwachung (Tachykardie, Unruhe, Schwitzen, Gedeihstörung, Struma, Exophthalmus). Nimmt die Mutter Thyreostatika ein, kann sich die Hyperthyreose erst nach deren Abbau **verzögert** (nach einigen Tagen) manifestieren; Thyreostatika können zudem eine transiente Hypothyreose verursachen. Eine schlecht kontrollierte mütterliche Hyperthyreose kann umgekehrt eine **zentrale Hypothyreose** des Kindes bewirken.",
+      "keyPoints": [
+        "TRAK persistieren nach Thyreoidektomie/Radiojod",
+        "Plazentagängig → neonatale Hyperthyreose",
+        "Mütterliche TRAK entscheidend; negativ → keine Diagnostik",
+        "TRAK beim Kind, fT4/TSH in den ersten Tagen und Ende 2. Woche",
+        "Verzögerte Manifestation unter mütterlichen Thyreostatika"
+      ],
+      "tags": ["Morbus Basedow", "Neonatale Hyperthyreose", "Mütterliche Schilddrüsenerkrankung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-007",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes einer Mutter mit Morbus Basedow (unter Thiamazol) entwickelt am **8. Lebenstag** Unruhe, Schwitzen, Tachykardie um 210/min, Gewichtsabnahme und eine kleine Struma. fT4 deutlich erhöht, TSH supprimiert. Wie behandeln Sie, und wie ist der Verlauf?",
+      "hints": ["Thyreostatikum plus symptomatische Therapie.", "Wie lange halten mütterliche Antikörper an?"],
+      "answer": "**Neonatale Hyperthyreose** durch transplazentare stimulierende TRAK, Manifestation nach Abbau des mütterlichen Thiamazols. **Therapie** (mit pädiatrischer Endokrinologie):\n- **Thiamazol** (Methimazol) gewichtsbezogen in mehreren Tagesdosen; Propylthiouracil wird wegen Hepatotoxizität bei Kindern vermieden.\n- **Propranolol** bei Tachykardie und sympathikotoner Symptomatik (auf Hypoglykämie und Bradykardie achten).\n- In schweren Fällen zusätzlich Jodid (Lugol-Lösung) und Glukokortikoide, Behandlung einer Herzinsuffizienz; hochkalorische Ernährung.\n- **Monitoring**: Herzfrequenz, Gewicht, fT4/TSH engmaschig; DD Tachykardie: SVT (EKG).\n**Verlauf**: Die Erkrankung ist **transient**; mit dem Abbau der mütterlichen Antikörper (Halbwertszeit von IgG) klingt sie meist nach etwa 1–3 Monaten ab, die Therapie wird schrittweise reduziert. Unbehandelt drohen Herzinsuffizienz, Gedeihstörung, Kraniosynostose und Entwicklungsstörungen. Persistiert die Hyperthyreose bei negativen TRAK, an eine aktivierende TSH-Rezeptor-Mutation denken.",
+      "keyPoints": [
+        "Neonatale Hyperthyreose durch TRAK",
+        "Thiamazol, kein PTU",
+        "Propranolol symptomatisch",
+        "Schwer: Jodid, Steroide, Herzinsuffizienztherapie",
+        "Transient, meist 1–3 Monate"
+      ],
+      "tags": ["Neonatale Hyperthyreose", "Morbus Basedow"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "endo-008",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Eine Mutter mit **Hashimoto-Thyreoiditis** (TPO-Antikörper positiv) ist unter L-Thyroxin euthyreot. Was trifft für ihr reifes Neugeborenes zu?",
+      "hints": ["Welche Antikörper sind funktionell relevant für die kindliche Schilddrüse?"],
+      "options": [
+        {
+          "text": "TPO-Antikörper passieren zwar die Plazenta, verursachen beim Kind aber in der Regel keine Funktionsstörung; das reguläre Neugeborenenscreening genügt.",
+          "correct": true
+        },
+        {
+          "text": "Das Kind sollte prophylaktisch L-Thyroxin erhalten, bis die mütterlichen Antikörper abgebaut sind.",
+          "correct": false
+        },
+        { "text": "Stillen ist unter mütterlicher L-Thyroxin-Einnahme kontraindiziert.", "correct": false },
+        { "text": "Das Screening muss bereits in den ersten 12 Lebensstunden erfolgen.", "correct": false }
+      ],
+      "answer": "TPO- und Thyreoglobulin-Antikörper sind für die kindliche Schilddrüsenfunktion nicht relevant; Stillen unter L-Thyroxin ist unproblematisch. Das Neugeborenenscreening erfolgt regulär (36–72 h). Selten haben Mütter mit Autoimmunthyreopathie TSH-Rezeptor-blockierende Antikörper, die eine transiente kindliche Hypothyreose verursachen – diese würde im Screening auffallen. Wichtig für die Schwangerschaft ist eine euthyreote Einstellung der Mutter.",
+      "keyPoints": [
+        "TPO-AK für das Kind funktionell irrelevant",
+        "Stillen erlaubt",
+        "Reguläres Screening ausreichend",
+        "Selten TSH-Rezeptor-blockierende AK"
+      ],
+      "tags": ["Mütterliche Schilddrüsenerkrankung", "Hashimoto"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-009",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erläutern Sie Pathophysiologie und klinische Präsentation des **adrenogenitalen Syndroms (AGS) mit 21-Hydroxylase-Mangel** beim Neugeborenen. Warum fallen Jungen und Mädchen unterschiedlich auf?",
+      "hints": ["Cortisolmangel → ACTH ↑ → Substratstau.", "Was hat ein Mädchen intern, was sieht man beim Jungen?"],
+      "answer": "Autosomal-rezessiver Defekt (CYP21A2) – häufigste AGS-Form (> 90 %). Der **Cortisolmangel** (und beim **Salzverlust-Typ** zusätzlich **Aldosteronmangel**) führt zu erhöhtem **ACTH**, Nebennierenhyperplasie und Anstau von **17-Hydroxyprogesteron**, das in die **Androgensynthese** abfließt. **Mädchen (46,XX)**: pränatale **Virilisierung** des äußeren Genitales (Klitorishypertrophie, Fusion der Labioskrotalfalten, Sinus urogenitalis; Einteilung nach Prader) bei normalem innerem Genitale (Uterus, Ovarien) – häufigste Ursache eines uneindeutigen Genitales. **Jungen (46,XY)**: äußerlich unauffällig (evtl. Hyperpigmentierung), deshalb ohne Screening Diagnose oft erst bei der **Salzverlustkrise** in der **2.–3. Lebenswoche** (Erbrechen, Gedeihstörung, Dehydratation, Hyponatriämie, Hyperkaliämie, metabolische Azidose, Hypoglykämie, Schock). Das **Neugeborenenscreening** (17-OHP im Trockenblut) soll die Krise verhindern; falsch-positive Befunde bei Frühgeborenen und kranken Kindern.",
+      "keyPoints": [
+        "21-Hydroxylase-Mangel, autosomal-rezessiv",
+        "Cortisol-(± Aldosteron-)Mangel, ACTH ↑, 17-OHP ↑, Androgene ↑",
+        "Mädchen: Virilisierung bei normalem inneren Genitale",
+        "Jungen: Salzverlustkrise 2.–3. Woche",
+        "Screening 17-OHP"
+      ],
+      "tags": ["Adrenogenitales Syndrom", "Salzverlust"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifgeborener Junge wird am **12. Lebenstag** mit Erbrechen, Trinkschwäche, **Gewichtsverlust von 12 %** und verlängerter Rekapillarisierungszeit vorgestellt. Labor: **Na 121 mmol/l, K 7,9 mmol/l, BE −10 mmol/l, BZ 38 mg/dl**. Welche Verdachtsdiagnose haben Sie, und wie behandeln Sie akut?",
+      "hints": [
+        "Hyponatriämie plus Hyperkaliämie plus Hypoglykämie beim Jungen in der 2. Woche.",
+        "Welches Medikament ist lebensrettend, und was sollte vorher abgenommen werden?"
+      ],
+      "answer": "**Salzverlustkrise bei AGS** (Nebenniereninsuffizienz mit Glukokortikoid- und Mineralokortikoidmangel); DD: andere Nebenniereninsuffizienzen (z. B. kongenitale Nebennierenhypoplasie), Pseudohypoaldosteronismus (auch sekundär bei Harnwegsinfektion mit Fehlbildung). **Akuttherapie**:\n1. Zugang, Monitoring, **EKG** (Hyperkaliämie).\n2. Vor Hydrocortison möglichst **Serum/Plasma asservieren** (17-OHP, Steroidprofil, Cortisol, ACTH, Renin, Aldosteron) – darf die Therapie aber nicht verzögern.\n3. **Volumen**: NaCl 0,9 % 10–20 ml/kg als Bolus, ggf. wiederholen, danach natriumreiche Rehydratation ohne Kalium.\n4. **Hypoglykämie**: Glukose 10 % 2 ml/kg, dann glukosehaltige Infusion.\n5. **Hydrocortison i.v. in Stressdosis** (Bolus, beim Neugeborenen üblicherweise ca. 25 mg bzw. 50–100 mg/m², dann 50–100 mg/m²/d kontinuierlich oder verteilt); hohe Hydrocortisondosen wirken auch mineralokortikoid.\n6. **Hyperkaliämie**: bessert sich meist unter Volumen, Natrium und Hydrocortison; bei EKG-Veränderungen Calciumglukonat, ggf. Insulin-Glukose.\n7. Nach Stabilisierung orale Umstellung auf Hydrocortison-Erhaltungsdosis, **Fludrocortison** und **NaCl-Supplementierung**; Schulung der Eltern.",
+      "keyPoints": [
+        "Salzverlustkrise bei AGS",
+        "Proben vor Hydrocortison asservieren, aber nicht verzögern",
+        "NaCl 0,9 % 10–20 ml/kg, Glukose 10 % 2 ml/kg",
+        "Hydrocortison i.v. Stressdosis",
+        "Hyperkaliämie: EKG, ggf. Calcium",
+        "Danach Fludrocortison und NaCl"
+      ],
+      "tags": ["Adrenogenitales Syndrom", "Salzverlustkrise", "Nebenniereninsuffizienz"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-011",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit klassischem AGS wiegt **3,3 kg** und ist **50 cm** lang. Berechnen Sie die Körperoberfläche nach Mosteller und daraus die **Hydrocortison-Tagesdosis** bei **15 mg/m²/d**.",
+      "hints": ["KOF (m²) = √(Größe in cm · Gewicht in kg / 3600)"],
+      "answer": "KOF = √(50 · 3,3 / 3600) = √(165 / 3600) = √0,0458 ≈ 0,214 m². Hydrocortison = 15 mg/m²/d · 0,214 m² ≈ **3,2 mg/d**, verteilt auf **3 Einzeldosen** (ca. 1 mg pro Dosis). Für Säuglinge stehen niedrig dosierte Granulat-Zubereitungen zur Verfügung; ergänzend Fludrocortison und NaCl. Bei Fieber, Erbrechen oder Operationen Stressdosis (Verdoppelung bis Verdreifachung, parenteral wenn nötig).",
+      "keyPoints": ["KOF ≈ 0,214 m²", "Hydrocortison ≈ 3,2 mg/d", "Aufteilung auf 3 Einzeldosen"],
+      "solution": { "value": 3.21, "unit": "mg/d", "tolerance": 0.05 },
+      "tags": ["Adrenogenitales Syndrom", "Hydrocortison", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie sieht die **Langzeittherapie** eines Säuglings mit **klassischem AGS mit Salzverlust** aus, und was müssen die Eltern bei Erkrankungen wissen?",
+      "hints": ["Drei Substanzen im ersten Lebensjahr.", "Stressdosierung und Notfallausweis."],
+      "answer": "- **Hydrocortison** ca. 10–15 mg/m²/d in **3 Einzeldosen** (im Wachstumsalter keine langwirksamen Glukokortikoide wie Prednisolon oder Dexamethason wegen Wachstumshemmung).\n- **Fludrocortison** (ca. 0,05–0,2 mg/d), Säuglinge sind relativ mineralokortikoidresistent.\n- **NaCl-Supplementierung** im ersten Lebensjahr (ca. 1–2 g/d), da Muttermilch und Säuglingsnahrung natriumarm sind.\n- **Stressdosis**: bei Fieber, Infekt, Operation Verdopplung bis Verdreifachung der Hydrocortisondosis; bei **Erbrechen oder Bewusstseinsstörung parenterale Gabe** (Notfallset, z. B. Hydrocortison i.m. oder Glukokortikoid-Zäpfchen) und sofortige Vorstellung in einer Klinik.\n- **Notfallausweis**, Schulung der Eltern, schriftlicher Notfallplan.\n- **Verlaufskontrollen** in der pädiatrischen Endokrinologie: Wachstum, Gewicht, Blutdruck, 17-OHP/Androstendion, Renin, später Knochenalter.\n- Bei Mädchen Betreuung in einem **DSD-Kompetenzzentrum**; genetische Beratung (Wiederholungsrisiko 25 %).",
+      "keyPoints": [
+        "Hydrocortison 10–15 mg/m²/d in 3 Dosen",
+        "Fludrocortison",
+        "NaCl-Supplementierung im 1. Lebensjahr",
+        "Stressdosis 2–3-fach, bei Erbrechen parenteral",
+        "Notfallausweis und Schulung",
+        "Endokrinologische Kontrollen, genetische Beratung"
+      ],
+      "tags": ["Adrenogenitales Syndrom", "Stressdosis"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Ursachen einer **Nebenniereninsuffizienz** (außer AGS) kommen beim Neugeborenen in Betracht, und wie gehen Sie diagnostisch vor? Gehen Sie auch auf die **Nebennierenblutung** ein.",
+      "hints": [
+        "Primär (Nebenniere) und sekundär (Hypophyse) sowie iatrogen.",
+        "Welches Kind bekommt typischerweise eine Nebennierenblutung, und was ist die wichtigste sonographische Differenzialdiagnose?"
+      ],
+      "answer": "**Primär**: **Nebennierenblutung** (bilateral), X-chromosomale **kongenitale Nebennierenhypoplasie** (NR0B1/DAX1, Jungen, Salzverlust, später hypogonadotroper Hypogonadismus), **ACTH-Resistenz** (familiärer Glukokortikoidmangel: Hypoglykämie, Hyperpigmentierung, kein Salzverlust), seltene Steroidsynthesedefekte. **Sekundär**: **Hypopituitarismus** (kein Salzverlust, da Aldosteron reninabhängig). **Iatrogen**: nach längerer postnataler Steroidtherapie (z. B. Dexamethason bei BPD) → Ausschleichen, Stressabdeckung. **Klinik**: Hypoglykämie, therapierefraktäre Hypotension, Ikterus, bei primärer Form Hyponatriämie/Hyperkaliämie und Hyperpigmentierung. **Diagnostik**: Cortisol und ACTH simultan, Renin, Aldosteron, 17-OHP/Steroidprofil, ACTH-Test; Einzelwerte beim Neugeborenen schwer interpretierbar; Sonographie. **Nebennierenblutung**: makrosome Kinder, traumatische Geburt, Asphyxie, Sepsis; meist rechts; tastbare Flankenresistenz, Anämie, Ikterus, ggf. skrotales Hämatom; Insuffizienz nur bei beidseitiger ausgedehnter Blutung. Sonographische Verlaufskontrolle: Blutung verflüssigt sich, schrumpft und verkalkt – wichtigste Differenzialdiagnose ist das **Neuroblastom**.",
+      "keyPoints": [
+        "Primär: Nebennierenblutung, Nebennierenhypoplasie (DAX1), ACTH-Resistenz",
+        "Sekundär: Hypopituitarismus ohne Salzverlust",
+        "Iatrogen nach postnatalen Steroiden",
+        "Diagnostik: Cortisol + ACTH, Renin, Aldosteron, ACTH-Test",
+        "Nebennierenblutung: Makrosomie/Trauma, Verlauf sonographisch, DD Neuroblastom"
+      ],
+      "tags": ["Nebenniereninsuffizienz", "Nebennierenblutung"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "endo-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden zur U1 eines Reifgeborenen gerufen: Phallus 1,8 cm, perineale Hypospadie, partiell fusionierte Labioskrotalfalten, **keine Gonaden tastbar**. Die Eltern fragen: „Ist es ein Junge oder ein Mädchen?“ Wie reagieren Sie und welche Diagnostik veranlassen Sie?",
+      "hints": [
+        "Keine vorschnelle Festlegung – und welche lebensbedrohliche Erkrankung müssen Sie zuerst ausschließen?",
+        "Karyotyp, innere Genitalorgane, Hormone."
+      ],
+      "answer": "**Kommunikation**: ehrlich, ruhig, ohne Festlegung oder Spekulation; von „Ihrem Kind“ sprechen, erklären, dass sich das Genitale noch nicht eindeutig entwickelt hat und Untersuchungen nötig sind; Glückwunsch zur Geburt nicht vergessen; keine wechselnden Aussagen verschiedener Personen; frühzeitige Einbindung eines **DSD-Kompetenzzentrums** (Endokrinologie, Urologie/Kinderchirurgie, Genetik, Psychologie). **Diagnostik**: Nicht tastbare Gonaden → bis zum Beweis des Gegenteils **AGS bei 46,XX** ausschließen: **17-OHP/Steroidprofil** (aussagekräftig ab 2.–3. Lebenstag), **Elektrolyte und Glukose** täglich (Salzverlustkrise ab 2. Woche). **Karyotyp** (Schnelltest z. B. QF-PCR/FISH für X/Y bzw. SRY, dann konventionell), **Sonographie** des inneren Genitales (Uterus, Gonaden) und der Nieren, Hormonanalytik (Testosteron, ggf. DHT, LH, FSH, AMH; aussagekräftig auch in der Minipubertät), Urin-Steroidprofil, später ggf. hCG-Test und Molekulargenetik. Der Geschlechtseintrag kann zunächst offen bleiben.",
+      "keyPoints": [
+        "Keine vorschnelle Geschlechtszuordnung, neutrale Sprache",
+        "DSD-Kompetenzzentrum einbinden",
+        "AGS ausschließen: 17-OHP, Elektrolyte, Glukose",
+        "Karyotyp (Schnelltest), Sonographie inneres Genitale",
+        "Hormonanalytik (Testosteron, LH, FSH, AMH)"
+      ],
+      "tags": ["DSD", "Varianten der Geschlechtsentwicklung", "Elternkommunikation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Varianten der Geschlechtsentwicklung"
+    },
+    {
+      "id": "endo-015",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche **rechtlichen Rahmenbedingungen** in Deutschland müssen Sie bei einem Neugeborenen mit **Variante der Geschlechtsentwicklung** hinsichtlich **Personenstand** und **geschlechtsangleichender Eingriffe** kennen?",
+      "hints": [
+        "Personenstandsgesetz: welche Optionen gibt es für den Geschlechtseintrag?",
+        "Seit 2021 gibt es eine Regelung im BGB zum Schutz von Kindern mit Varianten der Geschlechtsentwicklung."
+      ],
+      "answer": "**Personenstand**: Kann das Kind weder dem weiblichen noch dem männlichen Geschlecht zugeordnet werden, kann der Geschlechtseintrag nach dem Personenstandsgesetz **offen bleiben** (ohne Angabe) oder **„divers“** lauten; eine spätere Änderung ist möglich (seit 11/2024 nach dem Selbstbestimmungsgesetz). Damit entfällt Zeitdruck bei der Geschlechtszuordnung. **Eingriffe**: Nach dem **Gesetz zum Schutz von Kindern mit Varianten der Geschlechtsentwicklung (2021, § 1631e BGB)** können Eltern nicht in Behandlungen eines nicht einwilligungsfähigen Kindes einwilligen, die allein darauf abzielen, das körperliche Erscheinungsbild an das männliche oder weibliche Geschlecht anzugleichen. Operative Eingriffe an inneren oder äußeren Geschlechtsmerkmalen, die eine solche Angleichung zur Folge haben könnten, und die nicht bis zur selbstbestimmten Entscheidung aufgeschoben werden können, dürfen die Eltern nur einwilligen, wenn der Eingriff nicht bis zu einer selbstbestimmten Entscheidung des Kindes aufgeschoben werden kann; diese Einwilligung bedarf der **Genehmigung des Familiengerichts** – außer wenn der Eingriff zur Abwehr einer Gefahr für Leben oder Gesundheit erforderlich ist und nicht bis zur Genehmigung aufgeschoben werden kann. Legen die Eltern eine befürwortende Stellungnahme einer **interdisziplinären Kommission** (u. a. mit pädiatrischer Endokrinologie, Psychologie/Psychiatrie, Ethik) vor, wird vermutet, dass der Eingriff dem Kindeswohl am besten entspricht. Für die Praxis: Indikationen streng prüfen, im Zweifel rechtliche Beratung; Anwendungsfragen (z. B. bei AGS) im DSD-Zentrum klären; ausführliche Dokumentation und Aufklärung der Eltern.",
+      "keyPoints": [
+        "Geschlechtseintrag offen oder „divers“ möglich",
+        "§ 1631e BGB (2021): keine elterliche Einwilligung in rein angleichende Eingriffe",
+        "Aufschiebbare Eingriffe bis zur Selbstbestimmung aufschieben; nicht aufschiebbare nur mit Genehmigung des Familiengerichts",
+        "Ausnahme nur bei unaufschiebbarer Gefahr für Leben/Gesundheit",
+        "Interdisziplinäre Kommission, Dokumentation, DSD-Zentrum"
+      ],
+      "tags": ["DSD", "Recht", "Personenstand"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ],
+      "source": "§ 1631e BGB (Gesetz zum Schutz von Kindern mit Varianten der Geschlechtsentwicklung, 2021); § 22 Abs. 3 PStG"
+    },
+    {
+      "id": "endo-016",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Bei einem phänotypisch männlichen Reifgeborenen sind **beidseits keine Hoden tastbar**, das Genitale ist sonst unauffällig. Was ist der wichtigste nächste Schritt?",
+      "hints": ["Ein schwer virilisiertes Mädchen kann wie ein Junge mit Kryptorchismus aussehen."],
+      "options": [
+        {
+          "text": "Abklärung als Variante der Geschlechtsentwicklung mit Ausschluss eines AGS bei 46,XX (17-OHP, Elektrolyte, Karyotyp, Sonographie des inneren Genitales)",
+          "correct": true
+        },
+        { "text": "Kontrolle bei der U3, da Hoden häufig spontan deszendieren", "correct": false },
+        { "text": "Orchidopexie im ersten Lebensmonat", "correct": false },
+        { "text": "hCG-Stimulation zur Hodendeszensusinduktion und Entlassung", "correct": false }
+      ],
+      "answer": "Ein beidseitiger Kryptorchismus mit nicht tastbaren Gonaden gilt als DSD-Konstellation, auch bei sonst unauffälligem Genitale: Ein stark virilisiertes Mädchen mit AGS kann wie ein Junge mit Hodenhochstand aussehen und droht in der 2.–3. Lebenswoche eine lebensbedrohliche Salzverlustkrise zu erleiden. Deshalb Karyotyp, 17-OHP/Steroidprofil, Elektrolyte, Glukose und Sonographie (Uterus?) vor Entlassung bzw. zeitnah. Einseitiger tastbarer Hodenhochstand wird dagegen beobachtet; eine Orchidopexie erfolgt bei persistierendem Hodenhochstand im ersten Lebensjahr.",
+      "keyPoints": [
+        "Beidseits nicht tastbare Hoden = DSD-Abklärung",
+        "AGS bei 46,XX ausschließen (Salzverlustgefahr)",
+        "Karyotyp, 17-OHP, Elektrolyte, Sonographie"
+      ],
+      "tags": ["DSD", "Kryptorchismus", "Adrenogenitales Syndrom"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein SGA-Reifgeborenes benötigt am 5. Lebenstag für normoglykämische Werte eine Glukosezufuhrrate von 11 mg/kg/min. Sie vermuten einen **Hyperinsulinismus**. Wie sichern Sie die Diagnose, und welche Formen unterscheiden Sie?",
+      "hints": ["Kritische Probe: Was ist bei Hypoglykämie „inadäquat“?", "Transiente und kongenitale (genetische) Formen."],
+      "answer": "**Diagnose** in einer kritischen Probe bei Hypoglykämie (< 50 mg/dl): **nachweisbares Insulin** (jede messbare Konzentration ist bei Hypoglykämie inadäquat) und C-Peptid, **supprimierte Ketone (β-Hydroxybutyrat)** und **niedrige freie Fettsäuren**, deutlicher **Glukoseanstieg nach Glukagon** (≥ 30 mg/dl); dazu hoher GIR-Bedarf (> 8 mg/kg/min). Insulin kann trotz Hyperinsulinismus unter der Nachweisgrenze liegen – entscheidend ist die Gesamtkonstellation. Zusätzlich Ammoniak (Hyperinsulinismus-Hyperammonämie-Syndrom, GLUD1), Acylcarnitine (HADH-Mangel), Cortisol und GH (Hypopituitarismus ausschließen). **Formen**: **transient** bei Kind diabetischer Mutter (Tage) oder als **perinataler Stress-Hyperinsulinismus** bei SGA, Asphyxie, Präeklampsie (Wochen bis Monate, meist diazoxidsensibel); **kongenital** (genetisch): am häufigsten KATP-Kanal-Mutationen (**ABCC8, KCNJ11**) mit **diffuser** oder **fokaler** Form, ferner GLUD1, GCK, HNF4A/HNF1A, HADH; **syndromal** (z. B. Beckwith-Wiedemann, Kabuki, Turner).",
+      "keyPoints": [
+        "Kritische Probe: Insulin/C-Peptid nachweisbar bei Hypoglykämie",
+        "β-Hydroxybutyrat und freie Fettsäuren supprimiert",
+        "Glukagonantwort ≥ 30 mg/dl, GIR > 8 mg/kg/min",
+        "Transient (IDM, perinataler Stress, SGA) vs. kongenital (ABCC8/KCNJ11, fokal/diffus)",
+        "Ammoniak, Acylcarnitine, Cortisol/GH ergänzend"
+      ],
+      "tags": ["Hyperinsulinismus", "Hypoglykämie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "endo-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes mit gesichertem **kongenitalem Hyperinsulinismus** benötigt eine GIR von 14 mg/kg/min. Beschreiben Sie die **Therapieoptionen** und das weitere diagnostische Vorgehen zur Unterscheidung fokaler und diffuser Formen.",
+      "hints": [
+        "Erstlinienmedikament mit typischen Nebenwirkungen.",
+        "Welche Bildgebung, und welche Rolle spielt die Genetik?"
+      ],
+      "answer": "**Akut**: Normoglykämie sichern (Zielwerte bei Hyperinsulinismus höher, z. B. > 70 mg/dl), **zentraler Zugang** für hochkonzentrierte Glukose, häufige bzw. kontinuierliche Nahrung, **Glukagon** als Dauerinfusion zur Überbrückung; Verlegung in ein spezialisiertes Zentrum. **Medikamentös**: **Diazoxid** (KATP-Kanal-Öffner, z. B. 5–15 mg/kg/d in 2–3 Dosen), meist mit Thiaziddiuretikum wegen **Flüssigkeitsretention**; Nebenwirkungen: Herzinsuffizienz durch Volumenretention, **pulmonale Hypertonie** (Warnhinweis, besonders bei Frühgeborenen/Risikokindern), Hypertrichose, Neutropenie. Ansprechen nach einigen Tagen anhand von Fastentoleranz beurteilen. **Diazoxid-Non-Responder** (häufig rezessive ABCC8/KCNJ11-Mutationen): rasche **Genetik** – ein einzelnes väterlich vererbtes KATP-Allel spricht für eine **fokale Form** → **18F-DOPA-PET/CT** zur Lokalisation, **partielle Pankreasresektion ist kurativ**. **Diffuse Form**: Somatostatinanaloga (Octreotid, langwirksame Präparate), Glukagon, kontinuierliche Ernährung; subtotale Pankreatektomie nur als Ultima Ratio (Folge: Diabetes, exokrine Insuffizienz). Langfristig entwicklungsneurologische Nachsorge, da Hypoglykämien Hirnschäden verursachen.",
+      "keyPoints": [
+        "Normoglykämie sichern, zentraler Zugang, Glukagon",
+        "Diazoxid + Thiazid; NW: Flüssigkeitsretention, pulmonale Hypertonie, Hypertrichose",
+        "Non-Responder: Genetik (paternales KATP-Allel → fokal)",
+        "18F-DOPA-PET, partielle Pankreatektomie kurativ bei fokaler Form",
+        "Diffus: Somatostatinanaloga, Pankreatektomie als Ultima Ratio"
+      ],
+      "tags": ["Hyperinsulinismus", "Diazoxid"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "endo-019",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit **3,5 kg** benötigt für normoglykämische Werte **Glukose 12,5 % mit 14 ml/h** (keine enterale Zufuhr). Berechnen Sie die **Glukosezufuhrrate** in mg/kg/min. Was folgern Sie?",
+      "hints": ["Glukose 12,5 % = 125 mg/ml.", "GIR = mg/h / 60 / kg"],
+      "answer": "14 ml/h · 125 mg/ml = 1750 mg/h; / 60 = 29,2 mg/min; / 3,5 kg = **8,3 mg/kg/min**. Ein Bedarf von mehr als ca. 8 mg/kg/min (normale hepatische Glukoseproduktion beim Reifgeborenen ca. 4–6 mg/kg/min) spricht für einen gesteigerten Glukoseverbrauch, typischerweise einen **Hyperinsulinismus** → kritische Probe abnehmen, Glukagontest erwägen.",
+      "keyPoints": ["1750 mg/h", "≈ 8,3 mg/kg/min", "GIR > 8 mg/kg/min → V. a. Hyperinsulinismus"],
+      "solution": { "value": 8.33, "unit": "mg/kg/min", "tolerance": 0.03 },
+      "tags": ["Hyperinsulinismus", "Glukosezufuhr", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        }
+      ]
+    },
+    {
+      "id": "endo-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifgeborener Junge hat rezidivierende **Hypoglykämien**, einen **prolongierten, cholestatischen Ikterus**, einen **Mikropenis** und einen **Nystagmus**. Woran denken Sie, wie sichern Sie die Diagnose, und was ist bei der Hormonsubstitution zu beachten?",
+      "hints": [
+        "Mehrere Hypophysenachsen sind betroffen; Mittelliniendefekt mit Sehnervenbeteiligung.",
+        "Welche Hormonsubstitution muss vor der Schilddrüsenhormongabe erfolgen?"
+      ],
+      "answer": "**Kongenitaler Hypopituitarismus** (multipler Hypophysenhormonmangel), z. B. im Rahmen einer **septooptischen Dysplasie** (Nystagmus durch Optikushypoplasie). Hypoglykämien durch **GH- und ACTH/Cortisol-Mangel**, cholestatischer Ikterus durch Cortisol- und GH-Mangel, Mikropenis und Kryptorchismus durch **Gonadotropinmangel**, zusätzlich **zentrale Hypothyreose** (wird im TSH-Screening nicht erfasst) und evtl. Diabetes insipidus. **Diagnostik**: kritische Probe bei Hypoglykämie (GH, Cortisol, Insulin, Ketone), **fT4 mit TSH** (fT4 niedrig, TSH inadäquat normal/niedrig), ACTH, Cortisol, LH/FSH/Testosteron (Minipubertät), Natrium, Urin- und Serumosmolalität; **MRT** Schädel (Hypophysenhypoplasie, ektope Neurohypophyse, Septum pellucidum, Sehnerven), augenärztliche Untersuchung. **Substitution**: zuerst **Hydrocortison**, erst danach **L-Thyroxin** – L-T4 steigert den Cortisolumsatz und kann bei unbehandeltem Cortisolmangel eine **Nebennierenkrise** auslösen. Wachstumshormon (bessert auch Hypoglykämien), Stressdosisschulung, ggf. Testosteron bei Mikropenis.",
+      "keyPoints": [
+        "Kongenitaler Hypopituitarismus / septooptische Dysplasie",
+        "Hypoglykämie (GH, Cortisol), Cholestase, Mikropenis (Gonadotropine)",
+        "Zentrale Hypothyreose im TSH-Screening nicht erkannt",
+        "Kritische Probe, fT4/TSH, MRT, Augenarzt",
+        "Hydrocortison vor L-Thyroxin"
+      ],
+      "tags": ["Hypopituitarismus", "Septooptische Dysplasie", "Hypoglykämie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    },
+    {
+      "id": "endo-021",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Form der Hypothyreose wird durch das in Deutschland übliche **TSH-basierte Neugeborenenscreening** typischerweise **nicht** erfasst?",
+      "hints": ["Welche Störung führt zu niedrigem fT4 ohne TSH-Anstieg?"],
+      "options": [
+        { "text": "Zentrale (sekundäre/tertiäre) Hypothyreose", "correct": true },
+        { "text": "Schilddrüsenektopie", "correct": false },
+        { "text": "Schilddrüsenaplasie", "correct": false },
+        { "text": "Dyshormonogenese mit Struma", "correct": false }
+      ],
+      "answer": "Das Screening misst TSH; bei der zentralen Hypothyreose (Hypophysen- oder Hypothalamusstörung) ist TSH nicht erhöht, sodass sie übersehen wird. Hinweise sind Hypoglykämien, Mittelliniendefekte, Mikropenis, Optikushypoplasie oder ein prolongierter Ikterus – dann gezielt fT4 und TSH bestimmen. Ektopie, Aplasie und Dyshormonogenese führen zu einem TSH-Anstieg und werden erfasst.",
+      "keyPoints": [
+        "TSH-Screening erfasst nur primäre Hypothyreose",
+        "Zentrale Hypothyreose: fT4 niedrig, TSH nicht erhöht",
+        "Klinischer Verdacht → fT4 + TSH"
+      ],
+      "tags": ["Zentrale Hypothyreose", "Neugeborenenscreening"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ]
+    }
+  ]
+}

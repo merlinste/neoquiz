@@ -1,0 +1,22 @@
+{
+  "name": "neoquiz-neonatologie",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lern-Quiz zur Vorbereitung auf die Schwerpunktprüfung Neonatologie (Landesärztekammer Hessen)",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "lookups": "node scripts/lookups.mjs",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "npm run build && npx serve public"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@netlify/blobs": "^10.7.13",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^4.1.0"
+  }
+}

@@ -1,0 +1,988 @@
+{
+  "area": "stoffwechsel",
+  "questions": [
+    {
+      "id": "stw-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie die **postnatale Glukosehomöostase** des gesunden Reifgeborenen und nennen Sie die **Risikogruppen**, bei denen Sie ein Blutzuckerscreening durchführen.",
+      "hints": [
+        "Was passiert mit der Glukosezufuhr beim Abnabeln, und wann liegt der Tiefpunkt?",
+        "Welche alternativen Energieträger nutzt das Gehirn?"
+      ],
+      "answer": "Mit dem Abnabeln endet die transplazentare Glukosezufuhr; der Blutzucker fällt physiologisch und erreicht nach etwa **1–2 Stunden** einen Tiefpunkt. Über Katecholamine, Glukagon und Cortisol werden **Glykogenolyse**, **Glukoneogenese**, Lipolyse und **Ketogenese** aktiviert; die Insulinsekretion ist in den ersten 1–2 Tagen noch auf eine niedrigere Glukoseschwelle eingestellt (transitionale Hypoglykämie). Ketonkörper und Laktat dienen als alternative Energiesubstrate für das Gehirn. **Risikogruppen** für ein Screening: Kinder diabetischer Mütter (inkl. Gestationsdiabetes), LGA/makrosome und **SGA**/wachstumsrestriktierte Kinder, Frühgeborene (auch späte Frühgeborene), perinataler Stress/Asphyxie, Hypothermie, Sepsis, Polyglobulie, mütterliche Medikamente (z. B. β-Blocker wie Labetalol), Syndrome wie Beckwith-Wiedemann; symptomatische Kinder immer.",
+      "keyPoints": [
+        "Physiologischer Nadir nach ca. 1–2 h",
+        "Glykogenolyse, Glukoneogenese, Ketogenese über Gegenregulation",
+        "Ketonkörper als alternative Hirnsubstrate",
+        "Risikogruppen: IDM, LGA, SGA, Frühgeborene, Asphyxie, Hypothermie, Sepsis, β-Blocker"
+      ],
+      "tags": ["Hypoglykämie", "Glukosehomöostase"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie organisieren Sie nach der AWMF-Leitlinie die **Betreuung eines Neugeborenen einer Mutter mit insulinpflichtigem Gestationsdiabetes** auf der Wochenstation in den ersten Lebenstagen?",
+      "hints": [
+        "Mutter-Kind-Einheit und frühe Ernährung stehen im Vordergrund.",
+        "Wann und womit messen Sie den Blutzucker?"
+      ],
+      "answer": "- **Keine Trennung** von Mutter und Kind ohne medizinischen Grund, Haut-zu-Haut-Kontakt, **Wärmeerhalt**; Geburt in einer Klinik, in der eine i.v.-Glukosetherapie ohne Verlegung in ein anderes Haus möglich ist.\n- **Erstes Anlegen bzw. Füttern spätestens 30 min nach der Geburt**, danach alle (2–)3 h; keine routinemäßige Gabe von Glukoselösung oder Tee. Bei hohem Hypoglykämierisiko (z. B. lange bestehender insulinpflichtiger Diabetes, Fütterung nicht erfolgreich, perinatale Azidose) kann einmalig **40-%-Glukosegel bukkal (0,5 ml/kg = 200 mg/kg)** 45–60 min postnatal erwogen werden.\n- **Blutzuckermessungen präprandial**: erste Messung nicht in der physiologischen Nadirphase, sondern **2–3 h postnatal unmittelbar vor der nächsten Mahlzeit** (noch vor Verlegung aus dem Kreißsaal), danach vor den folgenden Mahlzeiten; klinische Überwachung durch Hebamme/Pflege für 24 h (diätetisch eingestellter) bzw. **48 h (insulinbehandelter Diabetes)**. Bei zwei aufeinanderfolgenden präprandialen Werten > 35 mg/dl (bei asymptomatischen Kindern ohne perinatale Azidose) bzw. > 45 mg/dl (nach Symptomen oder perinataler Azidose) kann in der Regel auf weitere Messungen verzichtet werden.\n- Messung mit einer **geeigneten Methode** (Glukoseoxidase im Blutgasanalysator oder für Neugeborene zugelassene Messsysteme mit Hämatokritkorrektur), nicht mit handelsüblichen Teststreifen ohne Neugeborenenzulassung.\n- **Interventionsgrenzen nach AWMF-Leitlinie (Fassung 2017)**: ≤ 35 mg/dl (< 2,0 mmol/l) bei asymptomatischen Kindern bzw. < 45 mg/dl (2,5 mmol/l) bei Symptomen oder nach perinataler Azidose → zunächst orale Maßnahmen (Anlegen, Muttermilch, Glukosegel, ggf. Formula) und Kontrolle; **i.v.-Glukose** (kontinuierlich ca. 5 mg/kg/min, Boli vermeiden) bei Werten < 30 mg/dl, persistierenden Symptomen, rezidivierend niedrigen Werten oder wenn dauerhaft kein Anstieg über 45 mg/dl gelingt – möglichst ohne Trennung von Mutter und Kind. Viele Kliniken verwenden strengere Hausgrenzen (z. B. 45 mg/dl für alle Kinder). Werte ≤ 45 mg/dl jenseits von 48 h erfordern eine weitere Abklärung.\n- Klinische Überwachung auf Atemstörung, Polyglobulie, Ikterus, Herzgeräusch (Kardiomyopathie, Vitium), Fehlbildungen und Geburtsverletzungen (Plexusparese, Klavikulafraktur); routinemäßige Ca-, Mg- oder Hkt-Bestimmungen sind nicht erforderlich.",
+      "keyPoints": [
+        "Mutter-Kind-Einheit, Wärme, Anlegen spätestens nach 30 min, dann alle 2–3 h",
+        "Glukosegel 40 % 0,5 ml/kg bei hohem Risiko als Option",
+        "Erste präprandiale Messung 2–3 h postnatal, dann vor den Mahlzeiten; Überwachung 24 h (Diät) bzw. 48 h (Insulin)",
+        "Geeignete Messmethode (BGA/neonatal zugelassene Systeme)",
+        "Intervention ≤ 35 mg/dl asymptomatisch bzw. < 45 mg/dl symptomatisch/nach Azidose; i.v. bei < 30 mg/dl oder Persistenz",
+        "Überwachung auf typische IDM-Komplikationen"
+      ],
+      "tags": ["Kind diabetischer Mutter", "Hypoglykämie", "Wochenstation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Betreuung von Neugeborenen diabetischer Mütter (024-006, Fassung 2017)"
+    },
+    {
+      "id": "stw-003",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erklären Sie die **Pathophysiologie der diabetischen Fetopathie** und nennen Sie die typischen **neonatalen Komplikationen** eines Kindes diabetischer Mutter.",
+      "hints": ["Pedersen-Hypothese.", "Denken Sie an Atmung, Herz, Blut, Elektrolyte, Fehlbildungen."],
+      "answer": "**Pedersen-Hypothese**: Mütterliche Hyperglykämie → transplazentar fetale Hyperglykämie (Insulin passiert die Plazenta nicht) → **fetaler Hyperinsulinismus** → anaboles Wachstum (Makrosomie, Organomegalie, viszerales Fett), erhöhter O2-Verbrauch mit relativer Hypoxie und gesteigerter Erythropoese. Komplikationen: **Hypoglykämie** (persistierender Hyperinsulinismus nach Abnabeln), **Makrosomie** mit Geburtsverletzungen (Schulterdystokie, Plexusparese, Klavikulafraktur), **Atemnotsyndrom** (Insulin hemmt die Surfactantreifung) und transitorische Tachypnoe, **hypertrophe Kardiomyopathie** (Septumhypertrophie), **Polyglobulie** mit Hyperviskosität, **Hyperbilirubinämie**, **Hypokalzämie** und **Hypomagnesiämie**, Nierenvenenthrombose. Bei präkonzeptionell schlecht eingestelltem Diabetes **Fehlbildungen** (Herzfehler, Neuralrohrdefekte, kaudales Regressionssyndrom, Small-left-colon-Syndrom). Langfristig erhöhtes Risiko für Adipositas und gestörte Glukosetoleranz.",
+      "keyPoints": [
+        "Pedersen: mütterliche → fetale Hyperglykämie → fetaler Hyperinsulinismus",
+        "Hypoglykämie, Makrosomie mit Geburtsverletzungen",
+        "Atemnotsyndrom, Kardiomyopathie",
+        "Polyglobulie, Ikterus, Hypokalzämie/-magnesiämie",
+        "Fehlbildungen bei präkonzeptioneller Hyperglykämie (kaudale Regression)"
+      ],
+      "tags": ["Kind diabetischer Mutter", "Diabetische Fetopathie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Betreuung von Neugeborenen diabetischer Mütter (024-006, Fassung 2017)"
+    },
+    {
+      "id": "stw-004",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Kardiomyopathie beim Kind einer diabetischen Mutter** trifft zu?",
+      "hints": ["Welche Form der Hypertrophie, und was bewirken positiv inotrope Medikamente?"],
+      "options": [
+        {
+          "text": "Es handelt sich typischerweise um eine (asymmetrische) Septumhypertrophie, die sich meist innerhalb von Monaten zurückbildet; bei Ausflusstraktobstruktion sind positiv inotrope Substanzen ungünstig.",
+          "correct": true
+        },
+        {
+          "text": "Typisch ist eine dilatative Kardiomyopathie, die mit Digoxin und Katecholaminen behandelt wird.",
+          "correct": false
+        },
+        {
+          "text": "Die Kardiomyopathie ist dauerhaft und erfordert meist eine operative Myektomie.",
+          "correct": false
+        },
+        {
+          "text": "Das Ausmaß der Hypertrophie ist unabhängig von der mütterlichen Stoffwechseleinstellung.",
+          "correct": false
+        }
+      ],
+      "answer": "Der fetale Hyperinsulinismus führt zu einer hypertrophen, oft asymmetrischen Septumhypertrophie, die meist asymptomatisch ist und sich in den ersten Lebensmonaten zurückbildet; sie ist umso häufiger, je schlechter die mütterliche Stoffwechseleinstellung war. Bei linksventrikulärer Ausflusstraktobstruktion verstärken Katecholamine und Inotropika die Obstruktion; therapeutisch stehen ausreichende Vorlast (Volumen) und ggf. β-Blocker im Vordergrund. Diagnose per Echokardiographie bei Herzgeräusch oder Kreislaufproblemen.",
+      "keyPoints": [
+        "Hypertrophe Septumhypertrophie",
+        "Meist transient",
+        "Inotropika bei LVOT-Obstruktion ungünstig",
+        "Volumen, ggf. β-Blocker"
+      ],
+      "tags": ["Kind diabetischer Mutter", "Kardiomyopathie"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "stw-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes (39+5 SSW, **4450 g**, Mutter mit insulinpflichtigem Gestationsdiabetes) hat vor der zweiten Mahlzeit, **2,5 h postnatal**, einen Blutzucker von **32 mg/dl (1,8 mmol/l)** in der BGA. Es ist klinisch unauffällig und hat einmal an der Brust getrunken. Wie gehen Sie vor?",
+      "hints": [
+        "Asymptomatisch, Wert unter der Interventionsgrenze, aber nicht unter 30 mg/dl.",
+        "Welche orale Maßnahme kann die Verlegung vermeiden helfen?"
+      ],
+      "answer": "Asymptomatische Hypoglykämie unterhalb der Interventionsgrenze der AWMF-Leitlinie (≤ 35 mg/dl bei asymptomatischen Kindern ohne perinatale Azidose), aber nicht unter 30 mg/dl – daher zunächst **orale Maßnahmen** ohne Trennung von Mutter und Kind:\n1. **Sofort füttern**: Anlegen, ggf. abgepumptes Kolostrum, bei unzureichender Muttermilchmenge kleine Menge (hydrolysierte) Formula.\n2. Zusätzlich **orales Dextrosegel 40 %** (0,5 ml/kg = 200 mg/kg) in die Wangenschleimhaut – senkt in Studien die Rate an Verlegungen und erhält das Stillen.\n3. **Kontrolle nach 30–60 Minuten** mit geeigneter (laborgenauer) Methode, Temperatur sichern, Klinik beobachten.\n4. **i.v.-Glukose** als kontinuierliche Infusion (ca. 5 mg/kg/min ≈ 3 ml/kg/h Glukose 10 %, Bolusgaben laut Leitlinie vermeiden) bei Werten < 30 mg/dl, bei erneut ≤ 35 mg/dl trotz Fütterung, wenn dauerhaft kein Anstieg über 45 mg/dl gelingt oder bei Symptomen; i.v.-Therapie möglichst ohne Trennung von Mutter und Kind, sonst Verlegung auf die Neonatologie. Viele Kliniken arbeiten mit einer einheitlichen Hausgrenze von 45 mg/dl.\n5. Weitere präprandiale Messungen, bis zwei aufeinanderfolgende Werte über der Interventionsgrenze liegen; Überwachung bei insulinbehandeltem Diabetes über 48 h; Eltern einbeziehen.",
+      "keyPoints": [
+        "Asymptomatisch, ≤ 35 mg/dl: zuerst füttern",
+        "Dextrosegel 40 % 0,5 ml/kg (200 mg/kg) als Option",
+        "Kontrolle nach 30–60 min",
+        "i.v.-Glukose (kontinuierlich, ca. 5 mg/kg/min) bei < 30 mg/dl, Persistenz/Rezidiv oder Symptomen",
+        "Weitere präprandiale Kontrollen"
+      ],
+      "tags": ["Hypoglykämie", "Kind diabetischer Mutter", "Dextrosegel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Betreuung von Neugeborenen diabetischer Mütter (024-006, Fassung 2017)"
+    },
+    {
+      "id": "stw-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Symptome hat eine **neonatale Hypoglykämie**, und wie behandeln Sie eine **symptomatische Hypoglykämie** akut und im Verlauf?",
+      "hints": [
+        "Symptome sind unspezifisch – von Zittrigkeit bis Krampfanfall.",
+        "Kleiner Bolus, danach sofort Dauerinfusion."
+      ],
+      "answer": "**Symptome** (unspezifisch): Zittrigkeit, Trinkschwäche, Hypotonie, Lethargie, schrilles Schreien, Tachypnoe, Apnoen, Zyanose, Hypothermie, Schwitzen, **Krampfanfälle**, Koma. **Akuttherapie**: venöser Zugang, **Bolus Glukose 10 % 2 ml/kg (200 mg/kg)** über wenige Minuten, unmittelbar gefolgt von einer **Dauerinfusion** mit initial ca. **5–8 mg/kg/min**; Kontrolle nach 15–30 min. Die AWMF-Leitlinie zu Neugeborenen diabetischer Mütter rät generell zur Vermeidung von Bolusgaben; ein Minibolus 2 ml/kg Glukose 10 % ist bei ausgeprägter Symptomatik (z. B. Krampfanfall) üblich. Keine hochkonzentrierten Boli (Glukose 20–40 % i.v.), da sie Venen schädigen und eine reaktive Hyperinsulinämie mit Rebound-Hypoglykämie auslösen. **Verlauf**: GIR schrittweise anpassen, Konzentrationen > 12,5 % nur zentralvenös; enterale Ernährung fortführen und Infusion erst bei stabilen Werten langsam ausschleichen. Wenn eine GIR > 8–10 mg/kg/min nötig ist oder die Hypoglykämie über die ersten Lebenstage persistiert, an **Hyperinsulinismus** und andere Ursachen denken und eine kritische Probe abnehmen. Nach schwerer symptomatischer Hypoglykämie MRT erwägen (typisch parieto-okzipitale Läsionen) und entwicklungsneurologische Nachsorge.",
+      "keyPoints": [
+        "Unspezifische Symptome bis Krampfanfall",
+        "Bolus Glukose 10 % 2 ml/kg",
+        "Anschließend Dauerinfusion ca. 5–8 mg/kg/min",
+        "Keine hochprozentigen Boli, > 12,5 % zentral",
+        "Hoher GIR-Bedarf → Hyperinsulinismus abklären",
+        "MRT/Nachsorge nach schwerer Hypoglykämie"
+      ],
+      "tags": ["Hypoglykämie", "Glukosezufuhr"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-007",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit **3800 g** benötigt zur Stabilisierung des Blutzuckers eine Glukosezufuhrrate von **8 mg/kg/min**. Mit welcher Laufrate (ml/h) muss **Glukose 10 %** laufen?",
+      "hints": ["Glukose 10 % = 100 mg/ml.", "Erst mg/min, dann mg/h, dann ml/h."],
+      "answer": "8 mg/kg/min · 3,8 kg = 30,4 mg/min; · 60 = 1824 mg/h; / 100 mg/ml = **18,2 ml/h**. Das entspricht etwa 115 ml/kg/d – am ersten Lebenstag eine hohe Flüssigkeitsmenge; deshalb bei hohem Glukosebedarf eher höher konzentrierte Lösung über einen zentralen Zugang (z. B. Nabelvenenkatheter) wählen und an einen Hyperinsulinismus denken.",
+      "keyPoints": [
+        "30,4 mg/min",
+        "1824 mg/h",
+        "≈ 18,2 ml/h Glukose 10 %",
+        "Flüssigkeitsbelastung → ggf. höhere Konzentration zentral"
+      ],
+      "solution": { "value": 18.24, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Glukosezufuhr", "Hypoglykämie", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-008",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Aussage zur **Blutzuckermessung beim Neugeborenen** trifft zu?",
+      "hints": ["Wie genau sind einfache Teststreifengeräte im niedrigen Bereich?"],
+      "options": [
+        {
+          "text": "Handelsübliche Teststreifengeräte sind im hypoglykämischen Bereich ungenau; therapierelevante Werte sollen mit einer laborgenauen Methode (z. B. Blutgasanalysator) bestimmt werden.",
+          "correct": true
+        },
+        { "text": "Kapillärblut liefert bei Polyglobulie grundsätzlich zu hohe Glukosewerte.", "correct": false },
+        {
+          "text": "Die erste Messung bei Risikokindern sollte möglichst in den ersten 15 Lebensminuten erfolgen.",
+          "correct": false
+        },
+        {
+          "text": "Eine nicht sofort analysierte Vollblutprobe zeigt durch Stehenlassen eher zu hohe Glukosewerte.",
+          "correct": false
+        }
+      ],
+      "answer": "Einfache Teststreifengeräte haben gerade im niedrigen Bereich und bei hohem Hämatokrit (beim Neugeborenen häufig) relevante Messfehler; therapierelevante Werte werden daher mit laborgenauen Methoden (Glukoseoxidase/Hexokinase, Blutgasanalysator) bestimmt. Ein hoher Hämatokrit führt bei vielen Geräten eher zu falsch niedrigen Werten. Unverarbeitete Vollblutproben verlieren durch Glykolyse Glukose (falsch niedrig). Die erste Messung erfolgt nicht in der physiologischen Nadirphase, sondern nach einigen Stunden präprandial bzw. sofort bei Symptomen.",
+      "keyPoints": [
+        "Teststreifen im niedrigen Bereich ungenau",
+        "Laborgenaue Methode für Therapieentscheidungen",
+        "Glykolyse in der Probe → falsch niedrig"
+      ],
+      "tags": ["Hypoglykämie", "Messmethode"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-009",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Wann denken Sie an eine **persistierende bzw. nicht-transitionale Hypoglykämie**, und was gehört in die **„kritische Probe“**? Wie interpretieren Sie die Befunde?",
+      "hints": ["Zeitpunkt, Glukosebedarf, Begleitbefunde.", "Ketone und freie Fettsäuren trennen die Hauptgruppen."],
+      "answer": "**Hinweise**: Hypoglykämie über die ersten 48–72 h hinaus, **GIR-Bedarf > 8 mg/kg/min**, schwere oder symptomatische Episoden, Hypoglykämie bei normalem Fütterungsintervall, Mittelliniendefekte/Mikropenis (Hypopituitarismus), Hepatomegalie, Syndromhinweise (Beckwith-Wiedemann), positive Familienanamnese. **Kritische Probe** im Moment der Hypoglykämie (z. B. < 50 mg/dl): Glukose (Labor), **Insulin, C-Peptid, β-Hydroxybutyrat, freie Fettsäuren**, Cortisol, Wachstumshormon, Laktat, Ammoniak, BGA, **Acylcarnitinprofil** (Trockenblut), Aminosäuren; erster Urin danach (Ketone, organische Säuren); ggf. Glukagontest (Anstieg ≥ 30 mg/dl spricht für Hyperinsulinismus). **Interpretation**: niedrige Ketone und niedrige Fettsäuren → **Hyperinsulinismus**; niedrige Ketone bei hohen Fettsäuren → **Fettsäureoxidationsstörung**; erhöhtes Laktat ± Hepatomegalie → Glykogenose Typ I, Glukoneogenesestörung; Cortisol-/GH-Mangel kann beim Neugeborenen ebenfalls hypoketotisch verlaufen. Nach den ersten 48 h strebt man bei Verdacht auf persistierende Störung höhere Zielwerte an (z. B. > 60–70 mg/dl).",
+      "keyPoints": [
+        "Persistenz > 48–72 h, GIR > 8 mg/kg/min, Begleitbefunde",
+        "Kritische Probe: Insulin, C-Peptid, β-OHB, FFS, Cortisol, GH, Laktat, NH3, Acylcarnitine",
+        "Hypoketotisch + niedrige FFS → Hyperinsulinismus",
+        "Hypoketotisch + hohe FFS → Fettsäureoxidationsstörung",
+        "Laktat ↑ → Glykogenose/Glukoneogenesestörung"
+      ],
+      "tags": ["Hypoglykämie", "Kritische Probe", "Hyperinsulinismus"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 24+5 SSW (650 g) hat am 3. Lebenstag unter parenteraler Ernährung wiederholt **Blutzuckerwerte von 240–280 mg/dl** und eine Glukosurie. Welche Ursachen kommen in Betracht und wie gehen Sie vor?",
+      "hints": ["Warum sind extrem unreife Frühgeborene prädisponiert?", "Erst Glukosezufuhr anpassen – wann Insulin?"],
+      "answer": "**Ursachen**: relative Insulinresistenz und unzureichende Insulinsekretion des extrem unreifen Frühgeborenen, persistierende hepatische Glukoseproduktion trotz Zufuhr, **zu hohe GIR**, Stress, **Sepsis**/NEC, Medikamente (Steroide, Katecholamine), Schmerz; selten neonataler Diabetes. Risiken: osmotische Diurese mit Dehydratation, Elektrolytverschiebungen, Assoziation mit IVH, ROP und Mortalität. **Vorgehen**: Messfehler ausschließen, Infektion abklären; **GIR schrittweise reduzieren**, jedoch nicht unter ca. 4 mg/kg/min (Katabolie, Hypoglykämierisiko); **Aminosäurenzufuhr früh und ausreichend** (stimuliert die Insulinsekretion), Lipide fortführen, enteralen Aufbau fördern. **Insulin** nur, wenn trotz angemessener GIR-Reduktion eine ausgeprägte Hyperglykämie persistiert (ESPGHAN/ESPEN 2018: wiederholt > 180 mg/dl bzw. 10 mmol/l trotz angepasster GIR; Schwellen je nach Zentrum bis etwa 250 mg/dl), als niedrig dosierte Dauerinfusion mit engmaschigen BZ-Kontrollen; eine prophylaktische frühe Insulintherapie führte in Studien zu mehr Hypoglykämien ohne Nutzen.",
+      "keyPoints": [
+        "Unreife, Insulinresistenz, hohe GIR, Sepsis, Steroide/Katecholamine",
+        "GIR reduzieren, nicht unter ca. 4 mg/kg/min",
+        "Frühe Aminosäurenzufuhr",
+        "Insulin nur bei persistierender ausgeprägter Hyperglykämie",
+        "Kein prophylaktisches Insulin (Hypoglykämierisiko)"
+      ],
+      "tags": ["Hyperglykämie", "Extrem unreife Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-011",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein SGA-Reifgeborenes entwickelt in der 3. Lebenswoche eine anhaltende Hyperglykämie mit Gewichtsstillstand. Welche Aussage zum **neonatalen Diabetes mellitus** trifft zu?",
+      "hints": ["Monogen, nicht autoimmun.", "Welche Kanalstruktur der β-Zelle ist häufig betroffen?"],
+      "options": [
+        {
+          "text": "Bei Manifestation in den ersten 6 Lebensmonaten soll rasch eine genetische Diagnostik erfolgen, da bei KCNJ11- oder ABCC8-Mutationen oft eine Umstellung auf orale Sulfonylharnstoffe möglich ist.",
+          "correct": true
+        },
+        {
+          "text": "Typ-1-Diabetes-assoziierte Autoantikörper sind in diesem Alter meist positiv.",
+          "correct": false
+        },
+        { "text": "Kinder mit neonatalem Diabetes sind typischerweise makrosom.", "correct": false },
+        {
+          "text": "Ein transienter neonataler Diabetes (6q24) remittiert dauerhaft ohne Rezidivrisiko.",
+          "correct": false
+        }
+      ],
+      "answer": "Ein Diabetes mit Manifestation < 6 Monaten ist fast immer monogen. Häufige Ursachen sind aktivierende Mutationen im KATP-Kanal (KCNJ11, ABCC8) – hier wirken Sulfonylharnstoffe (z. B. Glibenclamid) oft besser als Insulin, teils mit Besserung neurologischer Symptome – sowie Imprinting-Störungen auf 6q24 (transient, Rezidiv im Kindes-/Jugendalter möglich). Wegen des intrauterinen Insulinmangels sind die Kinder meist wachstumsretardiert (SGA). Initial Insulin, rasche genetische Diagnostik in einem spezialisierten Labor.",
+      "keyPoints": [
+        "Manifestation < 6 Monate → genetische Diagnostik",
+        "KCNJ11/ABCC8 → Sulfonylharnstoffe",
+        "6q24: transient mit Rezidivrisiko",
+        "Typisch SGA, autoantikörpernegativ"
+      ],
+      "tags": ["Neonataler Diabetes", "Hyperglykämie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "stw-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie die Ursachen einer **Hyponatriämie** beim Frühgeborenen in den **ersten Lebenstagen** und im **späteren Verlauf** (ab 2.–3. Woche) und beschreiben Sie Ihr Vorgehen.",
+      "hints": [
+        "Früh: Wasser oder Natrium?",
+        "Spät: Was macht die unreife Niere mit Natrium, und welche Medikamente verstärken das?"
+      ],
+      "answer": "**Früh**: meist **Verdünnungshyponatriämie** durch relativen Wasserüberschuss (zu hohe Flüssigkeitszufuhr, mütterliche Hyponatriämie/hypotone Infusionen unter der Geburt), **SIADH** bei IVH, Asphyxie, Meningitis, Pneumothorax oder Beatmung, Oligurie bei akuter Nierenschädigung; Gewicht steigt oder fällt zu wenig. **Spät**: **renaler Natriumverlust** der unreifen Niere bei rasch wachsendem Frühgeborenen mit unzureichender Natriumzufuhr (Muttermilch ist natriumarm), **Diuretika** (Furosemid, Thiazide), Verluste über Stoma/Drainagen, seltener **AGS mit Salzverlust**, Pseudohypoaldosteronismus. **Vorgehen**: Gewicht, Bilanz, Urin-Natrium und -Osmolalität; früh primär **Flüssigkeitsrestriktion**, spät **Natriumsupplementierung** (Bedarf wachsender Frühgeborener deutlich erhöht). Symptomatische Hyponatriämie (Krampfanfall) mit hypertoner NaCl-Lösung akut anheben, ansonsten **langsame Korrektur** (nicht mehr als ca. 8–10 mmol/l in 24 h). Chronische Hyponatriämie beeinträchtigt Wachstum und neurologische Entwicklung.",
+      "keyPoints": [
+        "Früh: Verdünnung, SIADH, Oligurie → Flüssigkeitsrestriktion",
+        "Spät: renaler Na-Verlust, Muttermilch Na-arm, Diuretika → Na-Supplementierung",
+        "AGS als Differenzialdiagnose",
+        "Diagnostik: Gewicht, Bilanz, Urin-Na",
+        "Langsame Korrektur außer bei Symptomen"
+      ],
+      "tags": ["Hyponatriämie", "Frühgeborene", "Elektrolyte"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-013",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes (geboren 29 SSW, jetzt 4. Lebenswoche, **1450 g**) hat ein Serum-Natrium von **125 mmol/l** und ist asymptomatisch. Sie möchten auf **133 mmol/l** anheben. Berechnen Sie das **Natriumdefizit** bei einem Verteilungsvolumen von **0,7 l/kg**.",
+      "hints": ["Na-Defizit (mmol) = (Na Ziel − Na ist) · Verteilungsvolumen (l/kg) · Gewicht (kg)"],
+      "answer": "Na-Defizit = (133 − 125) mmol/l · 0,7 l/kg · 1,45 kg = 8 · 1,015 = **8,1 mmol**. Dieses Defizit wird zusätzlich zum Erhaltungsbedarf langsam (über mindestens 24–48 h) ausgeglichen, mit Natriumkontrollen; Anstieg nicht mehr als ca. 8–10 mmol/l pro 24 h. Ursache klären (Natriumverlust, Diuretika, unzureichende Zufuhr).",
+      "keyPoints": [
+        "Formel (Ziel − Ist) · 0,7 · kg",
+        "Ergebnis ≈ 8,1 mmol",
+        "Zusätzlich zum Erhaltungsbedarf, langsam korrigieren"
+      ],
+      "solution": { "value": 8.12, "unit": "mmol", "tolerance": 0.03 },
+      "tags": ["Hyponatriämie", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-014",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ausschließlich gestilltes Reifgeborenes wird am **5. Lebenstag** lethargisch mit einem **Gewichtsverlust von 14 %** vorgestellt. Serum-Natrium **162 mmol/l**, Harnstoff erhöht, Bilirubin 17 mg/dl. Wie gehen Sie vor und welche Gefahren bestehen?",
+      "hints": [
+        "Was ist die Ursache, und wie schnell darf das Natrium sinken?",
+        "Welche zerebralen Komplikationen drohen vor und während der Therapie?"
+      ],
+      "answer": "**Hypernatriämische Dehydratation** bei unzureichender Milchaufnahme (Stillproblem). Vorgehen:\n1. Kreislauf beurteilen; bei Schock **Bolus isotoner Lösung** (NaCl 0,9 % 10–20 ml/kg).\n2. Danach **langsame Rehydratation über ca. 48 h** mit isotoner bzw. nur leicht hypotoner Lösung; Natrium **nicht schneller als ca. 0,5 mmol/l/h bzw. 10–12 mmol/l in 24 h** senken, Natriumkontrollen alle 2–4 h.\n3. Labor: Glukose, Kreatinin, Harnstoff, Elektrolyte, Calcium, BGA, Bilirubin (Phototherapie nach Bilirubin-Leitlinie).\n4. Neurologische Überwachung.\n**Gefahren**: vor Therapie Hirnschrumpfung mit Gefäßzerreißung (intrakranielle Blutung), **Sinusvenenthrombose**, Krampfanfälle, akute Nierenschädigung; bei **zu rascher Korrektur Hirnödem** mit Krampfanfällen.\n**Begleitend**: Stillberatung, Abpumpen, ggf. Zufütterung, Untersuchung der Mutter (Brust, Milchbildung) und Prävention durch Gewichtskontrollen und Beratung in den ersten Lebenstagen (Gewichtsverlust > 10 % abklären).",
+      "keyPoints": [
+        "Hypernatriämische Dehydratation bei Stillproblem",
+        "Schock: isotoner Bolus",
+        "Langsame Na-Senkung ≤ 10–12 mmol/l pro 24 h über ca. 48 h",
+        "Risiken: Blutung, Sinusvenenthrombose, Hirnödem bei zu rascher Korrektur",
+        "Stillförderung und Prävention"
+      ],
+      "tags": ["Hypernatriämie", "Dehydratation", "Stillen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "stw-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 24+2 SSW (600 g) hat am 2. Lebenstag ohne Kaliumzufuhr ein Serum-Kalium von **7,4 mmol/l** bei **normaler Diurese**. Was liegt vor und wie behandeln Sie?",
+      "hints": [
+        "Kaliumverschiebung aus dem Intrazellulärraum bei Unreife.",
+        "Membranstabilisierung, Umverteilung, Elimination."
+      ],
+      "answer": "Wahrscheinlich eine **nichtoligurische Hyperkaliämie** extrem unreifer Frühgeborener in den ersten 72 h: Kaliumverschiebung von intra- nach extrazellulär durch Unreife der Na+/K+-ATPase, begünstigt durch Azidose, Hämolyse/Blutungen und Katabolie; eine pränatale Steroidgabe senkt das Risiko. **Vorgehen**: Wert mit nicht-hämolytischer Probe bestätigen, **EKG-Monitoring** (spitze T-Wellen, QRS-Verbreiterung, Arrhythmien), sämtliche Kaliumzufuhr stoppen. Bei EKG-Veränderungen **Calciumglukonat 10 %** langsam i.v. (Membranstabilisierung); **Umverteilung** mit Salbutamol (inhalativ oder i.v.) und/oder **Insulin-Glukose-Infusion** unter engmaschiger BZ-Kontrolle; Elimination über Furosemid bei ausreichender Diurese; Korrektur einer Azidose. Kationenaustauscherharze werden bei Frühgeborenen wegen Darmkomplikationen (Obstruktion, NEC) nicht empfohlen. Engmaschige Kalium-, Glukose- und Bilanzkontrollen.",
+      "keyPoints": [
+        "Nichtoligurische Hyperkaliämie (Na/K-ATPase-Unreife)",
+        "Hämolysefreie Bestätigung, EKG-Monitoring",
+        "Calciumglukonat bei EKG-Veränderungen",
+        "Salbutamol, Insulin-Glukose zur Umverteilung",
+        "Keine Austauscherharze bei Frühgeborenen"
+      ],
+      "tags": ["Hyperkaliämie", "Extrem unreife Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-016",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Bei einem klinisch stabilen Reifgeborenen wird in einer **kapillären Fersenblutprobe** ein Kalium von **7,8 mmol/l** gemessen, das Labor vermerkt „hämolytisch“. Das Monitor-EKG ist unauffällig. Was ist der nächste Schritt?",
+      "hints": ["Wie entsteht eine Pseudohyperkaliämie?"],
+      "options": [
+        {
+          "text": "Kontrolle aus einer frei fließenden, nicht hämolytischen venösen oder arteriellen Probe vor einer spezifischen Therapie",
+          "correct": true
+        },
+        { "text": "Sofortige Gabe von Insulin-Glukose und Salbutamol", "correct": false },
+        { "text": "Sofortiger Beginn einer Peritonealdialyse", "correct": false },
+        { "text": "Gabe eines rektalen Kationenaustauscherharzes", "correct": false }
+      ],
+      "answer": "Kapilläre Proben aus der gequetschten Ferse sind häufig hämolytisch und ergeben eine **Pseudohyperkaliämie**. Bei stabilem Kind ohne EKG-Veränderungen wird der Wert vor einer Therapie mit einer nicht hämolytischen venösen oder arteriellen Probe überprüft; das EKG-Monitoring läuft weiter. Bei EKG-Veränderungen dagegen sofortige Therapie.",
+      "keyPoints": [
+        "Hämolyse → Pseudohyperkaliämie",
+        "Kontrolle aus nicht hämolytischer Probe",
+        "EKG-Veränderungen → sofortige Therapie"
+      ],
+      "tags": ["Hyperkaliämie", "Präanalytik"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Unterscheiden Sie die **frühe und die späte neonatale Hypokalzämie** hinsichtlich Ursachen. Wie behandeln Sie eine **symptomatische Hypokalzämie**?",
+      "hints": [
+        "Früh: Frühgeburt, Diabetes, Asphyxie. Spät: Phosphat, Parathormon, Magnesium.",
+        "Welche Nebenwirkungen und Inkompatibilitäten hat i.v.-Calcium?"
+      ],
+      "answer": "Hypokalzämie: Gesamt-Calcium < 2,0 mmol/l beim Reifgeborenen (bei Frühgeborenen < 1,75 mmol/l) bzw. erniedrigtes ionisiertes Calcium (ca. < 1,0–1,1 mmol/l, laborabhängig). **Früh (erste 72 h)**: Verstärkung des physiologischen postnatalen Abfalls bei **Frühgeborenen**, **Kindern diabetischer Mütter**, **Asphyxie**, Sepsis, nach Bicarbonat oder Austauschtransfusion (Citrat). **Spät (ab ca. Ende der 1. Woche)**: hohe Phosphatzufuhr, **Hypoparathyreoidismus** (22q11-Deletion, transient bei **mütterlichem Hyperparathyreoidismus** – Calcium der Mutter bestimmen!), **Hypomagnesiämie**, Vitamin-D-Mangel. **Symptome**: Zittrigkeit, Hyperexzitabilität, Krampfanfälle, Laryngospasmus, Apnoen, QT-Verlängerung. **Therapie**: **Calciumglukonat 10 % 1–2 ml/kg (100–200 mg/kg) langsam über ca. 10 min i.v. unter EKG** (Bradykardie), danach Erhaltungszufuhr i.v. oder oral; sicherer Zugang wegen **Gewebsnekrosen bei Paravasat**; nicht mit Bicarbonat oder Phosphat in derselben Leitung (Ausfällung). Magnesium bestimmen und ausgleichen, da eine Hypokalzämie sonst therapierefraktär bleibt.",
+      "keyPoints": [
+        "Früh: Frühgeborene, IDM, Asphyxie",
+        "Spät: Phosphat, Hypoparathyreoidismus (22q11, mütterlicher HPT), Hypomagnesiämie, Vitamin D",
+        "Calciumglukonat 10 % 1–2 ml/kg langsam unter EKG",
+        "Paravasat-Nekrosen, Inkompatibilität mit Bicarbonat/Phosphat",
+        "Magnesium mitbehandeln"
+      ],
+      "tags": ["Hypokalzämie", "Calcium"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 31+0 SSW wird geboren, nachdem die Mutter wegen schwerer Präeklampsie und zur Neuroprotektion **Magnesiumsulfat** erhalten hat. Welche Auswirkungen kann eine **Hypermagnesiämie** beim Neugeborenen haben? Und wann sehen Sie umgekehrt eine **Hypomagnesiämie**?",
+      "hints": [
+        "Magnesium wirkt an der neuromuskulären Endplatte und an der glatten Muskulatur.",
+        "Hypomagnesiämie und Calcium hängen eng zusammen."
+      ],
+      "answer": "**Hypermagnesiämie**: muskuläre **Hypotonie**, Hyporeflexie, Atemdepression/Apnoen mit Unterstützungsbedarf, **verzögerter Mekoniumabgang/Ileus**, Trinkschwäche, Hypotension. Therapie überwiegend **supportiv** (Atemunterstützung, vorsichtiger Nahrungsaufbau, ausreichende Flüssigkeit zur renalen Elimination); bei schwerer Symptomatik kann Calcium als funktioneller Antagonist gegeben werden. Die mütterliche MgSO4-Gabe zur Neuroprotektion ist trotzdem sinnvoll (Reduktion der Zerebralparese). **Hypomagnesiämie**: bei Kindern diabetischer Mütter, IUGR, Malabsorption/Kurzdarm, Diuretika, Austauschtransfusion, selten angeborene Magnesiumresorptionsstörungen; Folge ist eine Störung der PTH-Sekretion und -Wirkung mit **therapierefraktärer Hypokalzämie** und Krampfanfällen. Therapie mit Magnesiumsulfat i.v. langsam unter Monitoring, dann Erhaltung.",
+      "keyPoints": [
+        "Hypermagnesiämie: Hypotonie, Atemdepression, Ileus/Mekoniumverhalt",
+        "Therapie supportiv, ggf. Calcium als Antagonist",
+        "Hypomagnesiämie: IDM, IUGR, Verluste",
+        "Hypomagnesiämie → refraktäre Hypokalzämie",
+        "Ausgleich mit MgSO4 i.v."
+      ],
+      "tags": ["Magnesium", "Hypokalzämie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-019",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein 4 Tage altes Neugeborenes hat folgende Werte: **Na 138 mmol/l, Cl 104 mmol/l, HCO3 12 mmol/l**, pH 7,18. Berechnen Sie die **Anionenlücke** (ohne Kalium) und bewerten Sie sie.",
+      "hints": ["Anionenlücke = Na − (Cl + HCO3)"],
+      "answer": "Anionenlücke = 138 − (104 + 12) = **22 mmol/l**. Normal sind etwa 8–16 mmol/l; es liegt also eine **metabolische Azidose mit erhöhter Anionenlücke** vor – Hinweis auf zusätzliche nicht gemessene Anionen: Laktat (Hypoxie, Schock, Sepsis, mitochondriale Erkrankung), organische Säuren (Organoazidurie), Ketonkörper oder Niereninsuffizienz. Diagnostik: Laktat, Ammoniak, Glukose, Ketone im Urin, organische Säuren, Acylcarnitine, Nierenwerte.",
+      "keyPoints": [
+        "Formel Na − (Cl + HCO3)",
+        "Ergebnis 22 mmol/l",
+        "Erhöht (Norm ca. 8–16)",
+        "DD: Laktat, Organoazidurie, Niereninsuffizienz"
+      ],
+      "solution": { "value": 22, "unit": "mmol/l", "tolerance": 0.03 },
+      "tags": ["Säure-Basen-Haushalt", "Anionenlücke", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 27 SSW hat in der 3. Lebenswoche unter parenteraler Ernährung eine **metabolische Azidose** (pH 7,26, BE −9 mmol/l, normale Laktatwerte, **normale Anionenlücke**, Chlorid 114 mmol/l). Was sind die Ursachen und wie gehen Sie vor?",
+      "hints": [
+        "Normale Anionenlücke heißt hyperchlorämisch – Bicarbonatverlust oder Chloridzufuhr.",
+        "Wie lässt sich die Chloridlast in der parenteralen Ernährung reduzieren?"
+      ],
+      "answer": "**Hyperchlorämische metabolische Azidose mit normaler Anionenlücke**. Ursachen beim Frühgeborenen: **renaler Bicarbonatverlust** durch die niedrige Bicarbonatschwelle der unreifen Niere (Spätazidose der Frühgeborenen), **hohe Chloridzufuhr** (NaCl-Infusionen, Spülungen, chloridreiche PE), gastrointestinale Verluste (Stoma, Diarrhö), Medikamente (z. B. Carboanhydrasehemmer), seltener renal-tubuläre Azidose. **Vorgehen**: Bilanz der Chloridzufuhr; in der parenteralen Ernährung **Natrium/Kalium teilweise als Acetat** statt Chlorid geben; Ursachen behandeln; bei persistierender Azidose mit Bicarbonatverlust ggf. orale/i.v. Pufferung (Bicarbonat oder Citrat) zur Förderung des Wachstums. Eine chronische Azidose beeinträchtigt Wachstum und Knochenmineralisation. Abgrenzung zur Azidose mit erhöhter Anionenlücke (Laktat, Organoazidurie, Niereninsuffizienz).",
+      "keyPoints": [
+        "Hyperchlorämische Azidose mit normaler Anionenlücke",
+        "Renaler Bicarbonatverlust (unreife Niere)",
+        "Hohe Chloridzufuhr",
+        "Acetat statt Chlorid in der PE",
+        "Chronische Azidose stört Wachstum"
+      ],
+      "tags": ["Säure-Basen-Haushalt", "Metabolische Azidose", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "stw-021",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **Natriumbicarbonat** in der Neonatologie trifft zu?",
+      "hints": [
+        "Was entsteht, wenn Bicarbonat Protonen puffert, und wie wirkt sich das bei eingeschränkter Ventilation aus?"
+      ],
+      "options": [
+        {
+          "text": "Bei metabolischer Azidose nach Asphyxie wird Bicarbonat nicht routinemäßig empfohlen; im Vordergrund stehen Ventilation, Kreislauf und Ursachenbehandlung.",
+          "correct": true
+        },
+        {
+          "text": "Eine rasche Bicarbonatgabe senkt das Risiko einer intraventrikulären Blutung bei Frühgeborenen.",
+          "correct": false
+        },
+        { "text": "Bicarbonat ist das Mittel der Wahl bei respiratorischer Azidose.", "correct": false },
+        { "text": "Bicarbonat senkt den pCO2 und erleichtert dadurch die Beatmung.", "correct": false },
+        {
+          "text": "Unverdünntes Bicarbonat 8,4 % als schneller Bolus über eine periphere Vene ist bei Frühgeborenen Standard.",
+          "correct": false
+        }
+      ],
+      "answer": "Bicarbonat puffert Protonen unter Bildung von CO2, das abgeatmet werden muss – bei unzureichender Ventilation steigt der pCO2 (intrazelluläre Azidose). Zudem bringt es eine hohe Natrium- und Osmolalitätslast; rasche Gaben sind mit IVH assoziiert. Ein Nutzen für das Outcome nach Asphyxie ist nicht belegt; bei der Reanimation wird Bicarbonat nach ERC/GRC höchstens bei prolongierter, auf andere Maßnahmen nicht ansprechender Reanimation erwogen. Sinnvoll kann eine langsame Pufferung bei chronischem Bicarbonatverlust (renal, enteral) sein.",
+      "keyPoints": [
+        "Kein Routineeinsatz nach Asphyxie",
+        "CO2-Bildung, Natrium- und Osmolalitätslast",
+        "IVH-Risiko bei rascher Gabe",
+        "Indikation eher bei chronischem Bicarbonatverlust"
+      ],
+      "tags": ["Säure-Basen-Haushalt", "Natriumbicarbonat"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "stw-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Frühgeborenen haben ein erhöhtes Risiko für eine **metabolische Knochenerkrankung (Osteopenie des Frühgeborenen)**, und wie führen Sie das **Screening** durch?",
+      "hints": [
+        "Der Großteil der fetalen Mineralisation findet im letzten Trimenon statt.",
+        "Zwei einfache Serumparameter, ergänzt durch Urin- und Hormonbefunde."
+      ],
+      "answer": "Etwa 80 % der fetalen Calcium- und Phosphateinlagerung erfolgen im **dritten Trimenon**, sehr unreife Frühgeborene verpassen diese Phase. **Risikofaktoren**: Gestationsalter < 28–30 SSW bzw. Geburtsgewicht < 1000–1500 g, SGA, **lange parenterale Ernährung**, unangereicherte Muttermilch, **Schleifendiuretika** (Hyperkalziurie), **Steroide**, Methylxanthine, Immobilisation, NEC/Kurzdarm, Cholestase. **Screening**: bei Risikokindern ab etwa der **3.–4. Lebenswoche** regelmäßig (z. B. alle 1–2 Wochen) **Phosphat** und **alkalische Phosphatase** im Serum; eine AP-Erhöhung (z. B. > 500 U/l zunehmend, > 900 U/l deutlich) in Kombination mit einem **Phosphat < 1,8 mmol/l** spricht stark für eine relevante Mineralisationsstörung. Ergänzend **Calcium und Phosphat im Urin** (tubuläre Phosphatrückresorption), **PTH** (erhöht bei Calciummangel), 25-OH-Vitamin D. Röntgenzeichen (Osteopenie, Metaphysenveränderungen, Frakturen) treten erst bei fortgeschrittenem Mineralverlust auf.",
+      "keyPoints": [
+        "Mineralisation im 3. Trimenon verpasst",
+        "Risiko: < 28–30 SSW, lange PE, unangereicherte MM, Diuretika, Steroide",
+        "Screening Phosphat und AP ab 3.–4. Woche",
+        "AP deutlich erhöht + Phosphat < 1,8 mmol/l",
+        "Ergänzend Urin-Ca/P, PTH, Vitamin D; Röntgen spät"
+      ],
+      "tags": ["Metabolische Knochenerkrankung", "Knochenstoffwechsel", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ]
+    },
+    {
+      "id": "stw-023",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 26+2 SSW ist in der **7. Lebenswoche**, voll enteral ernährt mit angereicherter Muttermilch, erhält wegen BPD **Furosemid**. Befunde: **AP 1150 U/l, Phosphat 1,2 mmol/l, Calcium 2,6 mmol/l, PTH normal**, tubuläre Phosphatrückresorption 99 %, Urin-Calcium erhöht. Wie interpretieren und behandeln Sie?",
+      "hints": ["Was bedeutet eine TRP nahe 100 % bei niedrigem Serumphosphat?", "Welche Rolle spielt das Diuretikum?"],
+      "answer": "**Metabolische Knochenerkrankung mit führendem Phosphatmangel**: niedriges Serumphosphat bei maximaler renaler Phosphatrückresorption (TRP ~99 %) und normalem PTH; Calcium wird mangels Phosphat nicht eingebaut und vermehrt ausgeschieden (Hyperkalziurie, verstärkt durch **Furosemid**). **Therapie**:\n- **Enterale Phosphatsupplementierung** (Natrium- oder Kaliumphosphat), titriert nach Serumphosphat, AP und Urin-Ca/P; Ziel: Calcium und Phosphat in kleinen Mengen gleichzeitig im Urin nachweisbar.\n- Anreicherung der Muttermilch überprüfen und optimieren (volle Fortifizierung, ausreichende Mineral- und Proteinzufuhr).\n- **Vitamin-D-Status** prüfen und Supplementierung sicherstellen.\n- **Schleifendiuretikum reduzieren bzw. absetzen** oder umstellen; Steroide minimieren.\n- **Sonographie der Nieren** (Nephrokalzinose).\n- Vorsichtiges Handling (Frakturrisiko), Verlaufskontrollen alle 1–2 Wochen.\nWäre das PTH erhöht, spräche das für einen Calciummangel – dann keine isolierte Phosphatgabe (Verstärkung des Hyperparathyreoidismus), sondern Calcium- und ggf. Vitamin-D-Optimierung.",
+      "keyPoints": [
+        "Phosphatmangel (niedriges P, TRP ↑, PTH normal)",
+        "Phosphatsupplementierung, titriert",
+        "Fortifizierung und Vitamin D optimieren",
+        "Furosemid reduzieren (Hyperkalziurie, Nephrokalzinose)",
+        "Nierensonographie",
+        "Bei erhöhtem PTH Calciummangel – kein isoliertes Phosphat"
+      ],
+      "tags": ["Metabolische Knochenerkrankung", "Knochenstoffwechsel", "Phosphat"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ]
+    },
+    {
+      "id": "stw-024",
+      "type": "calc",
+      "difficulty": 3,
+      "question": "Bei einem Frühgeborenen mit Verdacht auf metabolische Knochenerkrankung bestimmen Sie: **Serum-Phosphat 1,2 mmol/l, Urin-Phosphat 0,4 mmol/l, Serum-Kreatinin 30 µmol/l, Urin-Kreatinin 600 µmol/l**. Berechnen Sie die **tubuläre Phosphatrückresorption (TRP)** in Prozent.",
+      "hints": [
+        "TRP = 1 − (U-Phosphat · S-Kreatinin) / (S-Phosphat · U-Kreatinin)",
+        "Kreatinin in Serum und Urin in derselben Einheit einsetzen."
+      ],
+      "answer": "Fraktionelle Phosphatexkretion = (0,4 · 30) / (1,2 · 600) = 12 / 720 = 0,0167. TRP = 1 − 0,0167 = 0,983 = **98,3 %**. Eine TRP > 95 % bei niedrigem Serumphosphat zeigt, dass die Niere Phosphat maximal zurückhält – Hinweis auf eine **unzureichende Phosphatzufuhr** (Phosphatmangel), nicht auf einen renalen Verlust. Konsequenz: Phosphatzufuhr erhöhen.",
+      "keyPoints": [
+        "Formel TRP = 1 − (UP · SKrea)/(SP · UKrea)",
+        "Ergebnis ≈ 98,3 %",
+        "TRP > 95 % = Phosphatmangel durch zu geringe Zufuhr"
+      ],
+      "solution": { "value": 98.3, "unit": "%", "tolerance": 0.01 },
+      "tags": ["Knochenstoffwechsel", "Phosphat", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ]
+    },
+    {
+      "id": "stw-025",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes wurde wegen einer HIE mit **therapeutischer Hypothermie** behandelt. In der **4. Lebenswoche** fallen derbe, livide subkutane Knoten an Rücken und Gesäß auf; das Kind trinkt schlecht, erbricht, das Serum-Calcium beträgt **3,4 mmol/l**. Diagnose, Pathomechanismus und Therapie? Welche weiteren Ursachen einer neonatalen **Hyperkalzämie** kennen Sie?",
+      "hints": ["Die Hautveränderung ist eine Komplikation von Kälte und perinatalem Stress.", "Woher kommt das Calcitriol?"],
+      "answer": "**Subkutane Fettgewebsnekrose** mit Hyperkalzämie. Granulomatöses Infiltrat mit Makrophagen, die extrarenal **1α-Hydroxylase-Aktivität** besitzen (vermehrte Calcitriolbildung → intestinale Ca-Resorption ↑), zusätzlich Calciumfreisetzung aus nekrotischem Fett. Die Hyperkalzämie tritt typischerweise erst **Wochen** nach den Hautveränderungen auf und kann lebensbedrohlich sein (Nephrokalzinose, Arrhythmien, Krampfanfälle). **Therapie**: **Hydrierung** (NaCl 0,9 %), danach ggf. Furosemid zur Calciurese, **Vitamin-D-Supplementierung stoppen**, calcium- und vitamin-D-arme Ernährung, bei Persistenz **Glukokortikoide** (hemmen die Calcitriolbildung), in refraktären Fällen Bisphosphonate; Nierensonographie. Nach Hypothermie Calciumkontrollen über mehrere Wochen. **Weitere Ursachen**: iatrogen (Calcium-, Vitamin-D-Überdosierung, **Phosphatmangel** bei Frühgeborenen), Williams-Beuren-Syndrom, familiäre hypokalziurische Hyperkalzämie bzw. schwerer neonataler Hyperparathyreoidismus (CaSR), sekundärer Hyperparathyreoidismus bei mütterlicher Hypokalzämie, Hypophosphatasie.",
+      "keyPoints": [
+        "Subkutane Fettgewebsnekrose",
+        "Extrarenale Calcitriolbildung durch Makrophagen",
+        "Manifestation Wochen nach Hypothermie/Stress",
+        "Therapie: Hydrierung, Vitamin D stopp, Ca-arme Ernährung, Steroide, ggf. Bisphosphonate",
+        "DD: iatrogen, Phosphatmangel, Williams-Beuren, CaSR"
+      ],
+      "tags": ["Hyperkalzämie", "Fettgewebsnekrose", "Knochenstoffwechsel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ]
+    },
+    {
+      "id": "stw-026",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein zunächst gesundes Reifgeborenes entwickelt nach einem **symptomfreien Intervall** am 3. Lebenstag Trinkschwäche, Erbrechen, Lethargie und Tachypnoe; die Blutkultur bleibt steril. Woran denken Sie, welches **Notfalllabor** nehmen Sie ab und welche **Proben asservieren** Sie?",
+      "hints": [
+        "Die Symptome beginnen nach Beginn der Milchfütterung.",
+        "Ein Laborwert wird bei unklarer Enzephalopathie oft vergessen – und muss richtig abgenommen werden."
+      ],
+      "answer": "Neben Sepsis, Herzfehler und Hirnblutung an eine **angeborene Stoffwechselstörung mit Intoxikationstyp** denken (Harnstoffzyklusdefekt, Organoazidurie, Ahornsirupkrankheit, Galaktosämie, Fettsäureoxidationsstörung). Hinweise: symptomfreies Intervall, Konsanguinität, Geschwister mit ungeklärtem Tod, ungewöhnlicher Geruch, Hepatopathie, Kardiomyopathie. **Notfalllabor sofort**: BGA mit Laktat, **Glukose**, **Ammoniak** (frei fließend, auf Eis, sofortige Analyse innerhalb ca. 30 min), Elektrolyte mit **Anionenlücke**, Leberwerte, Gerinnung, CK, Harnsäure, Blutbild, CRP, **Ketone im Urin**. **Asservieren vor Therapiebeginn**: Plasma/Serum (eingefroren), Urin (eingefroren), **Trockenblutkarte**; Spezialanalytik: Aminosäuren im Plasma, **Acylcarnitinprofil**, **organische Säuren im Urin**, ggf. Orotsäure; Ergebnis des Neugeborenenscreenings erfragen. **Frühzeitig Kontakt zu einem Stoffwechselzentrum** aufnehmen; bei Verdacht Proteinzufuhr pausieren und anabole Glukoseinfusion beginnen.",
+      "keyPoints": [
+        "Intoxikationstyp nach symptomfreiem Intervall",
+        "Ammoniak korrekt abnehmen (frei fließend, Eis, sofort)",
+        "BGA, Glukose, Laktat, Anionenlücke, Urin-Ketone",
+        "Asservate: Plasma, Urin, Trockenblut vor Therapie",
+        "Aminosäuren, Acylcarnitine, organische Säuren",
+        "Stoffwechselzentrum kontaktieren"
+      ],
+      "tags": ["Angeborene Stoffwechselstörung", "Notfalldiagnostik"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "stw-027",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifgeborener Junge wird am 3. Lebenstag zunehmend lethargisch und tachypnoisch. BGA: **pH 7,49, pCO2 28 mmHg, BE −1 mmol/l**, Glukose normal, keine Ketonurie, **Ammoniak 680 µmol/l**. Was ist die wahrscheinlichste Diagnosegruppe und wie behandeln Sie?",
+      "hints": [
+        "Respiratorische Alkalose ohne metabolische Azidose bei Hyperammonämie.",
+        "Vier Säulen: Zufuhr stoppen, Anabolie, Ammoniak-Entgiftung medikamentös, extrakorporal."
+      ],
+      "answer": "Hyperammonämie mit **respiratorischer Alkalose** (zentrale Hyperventilation) ohne Azidose/Ketose → **Harnstoffzyklusdefekt** (beim Jungen z. B. X-chromosomaler OTC-Mangel; ferner CPS1-Mangel, Citrullinämie, Argininbernsteinsäurekrankheit, NAGS-Mangel). Notfalltherapie in enger Abstimmung mit einem **Stoffwechselzentrum**:\n1. **Proteinzufuhr stoppen** (für max. 24–48 h).\n2. **Anabolie**: hochdosierte Glukose (GIR ca. 8–10 mg/kg/min, bei Hyperglykämie Insulin), Lipide, ausreichende Energie, Elektrolyte; keine hypotonen Infusionen, kein Valproat.\n3. **Medikamentöse Ammoniakentgiftung** i.v.: **Natriumbenzoat** und/oder **Natriumphenylacetat bzw. -phenylbutyrat**, **L-Arginin-Hydrochlorid**, **Carglumsäure** (bei möglichem NAGS-Mangel); Dosierung nach Protokoll des Stoffwechselzentrums.\n4. Bei derart hohem Ammoniak sofortige Verlegung in ein Zentrum mit **extrakorporaler Entgiftung** (Hämodialyse/Hämodiafiltration); Austauschtransfusion ist ungeeignet.\n5. Intensivüberwachung, Intubation bei Koma, Krampfanfälle behandeln, Ammoniak alle 3–4 h.\n**Diagnostik**: Aminosäuren im Plasma (Citrullin niedrig bei OTC/CPS1, hoch bei Citrullinämie), **Orotsäure im Urin** (erhöht bei OTC-Mangel), Acylcarnitine, organische Säuren, Genetik. Prognose abhängig von Höhe und Dauer der Hyperammonämie.",
+      "keyPoints": [
+        "Harnstoffzyklusdefekt (resp. Alkalose, keine Azidose)",
+        "Proteinstopp, anabole Glukose-/Lipidzufuhr",
+        "Natriumbenzoat/-phenylbutyrat, L-Arginin, Carglumsäure",
+        "Extrakorporale Entgiftung (Hämodialyse) bei sehr hohem NH3",
+        "Plasma-Aminosäuren, Orotsäure im Urin",
+        "Stoffwechselzentrum sofort einbinden"
+      ],
+      "tags": ["Hyperammonämie", "Harnstoffzyklusdefekt", "Notfallmanagement"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "stw-028",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Differenzialdiagnose der neonatalen Hyperammonämie** trifft zu?",
+      "hints": ["Säure-Basen-Status und Ketone geben die Richtung vor."],
+      "options": [
+        {
+          "text": "Organoazidurien gehen typischerweise mit metabolischer Azidose, erhöhter Anionenlücke und Ketose einher, Harnstoffzyklusdefekte primär mit respiratorischer Alkalose.",
+          "correct": true
+        },
+        { "text": "Harnstoffzyklusdefekte zeigen typischerweise eine ausgeprägte Ketoazidose.", "correct": false },
+        {
+          "text": "Die transiente Hyperammonämie des Neugeborenen betrifft typischerweise gesunde Reifgeborene nach einem symptomfreien Intervall von einer Woche.",
+          "correct": false
+        },
+        {
+          "text": "Ammoniak aus gestautem Kapillarblut ist zuverlässig und muss nicht zeitnah analysiert werden.",
+          "correct": false
+        }
+      ],
+      "answer": "Bei Organoazidurien (Propionazidämie, Methylmalonazidurie, Isovalerianazidämie) entstehen organische Säuren, die eine metabolische Azidose mit erhöhter Anionenlücke und Ketose verursachen; die Hyperammonämie ist sekundär (Hemmung der NAGS). Harnstoffzyklusdefekte zeigen eine zentrale Hyperventilation mit respiratorischer Alkalose. Die transiente Hyperammonämie des Neugeborenen tritt eher bei Frühgeborenen sehr früh (erste 24–48 h) mit Atemstörung auf. Ammoniak erfordert eine korrekte Präanalytik (frei fließend, gekühlt, sofortige Messung), da es in der Probe ansteigt.",
+      "keyPoints": [
+        "Organoazidurie: Azidose, AL ↑, Ketose",
+        "Harnstoffzyklusdefekt: respiratorische Alkalose",
+        "Präanalytik Ammoniak"
+      ],
+      "tags": ["Hyperammonämie", "Organoazidurie", "Harnstoffzyklusdefekt"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "stw-029",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein voll gestilltes Neugeborenes zeigt am 6. Lebenstag Trinkschwäche, Erbrechen, Ikterus mit Anstieg des direkten Bilirubins, Hepatomegalie und eine Gerinnungsstörung; die Blutkultur ergibt **E. coli**. Welche Stoffwechselerkrankung müssen Sie bedenken und was ist die entscheidende Sofortmaßnahme?",
+      "hints": ["Muttermilch enthält Laktose.", "Nicht auf das Ergebnis der Enzymdiagnostik warten."],
+      "answer": "**Klassische Galaktosämie** (GALT-Mangel, autosomal-rezessiv): nach Beginn der laktosehaltigen Ernährung Leberfunktionsstörung (Ikterus, Gerinnungsstörung, Hepatomegalie), Erbrechen, Hypoglykämie, Tubulopathie, **Katarakt** und typischerweise **E.-coli-Sepsis**. **Sofortmaßnahme**: bei klinischem Verdacht **sofort laktose-/galaktosefreie Ernährung** (spezielle laktosefreie Säuglingsnahrung, z. B. auf Sojabasis), Stillen bzw. Muttermilch unterbrechen – noch vor Bestätigung. Diagnostik: Galaktose/Galaktose-1-Phosphat, **GALT-Aktivität in Erythrozyten** (nach Transfusion verfälscht → Molekulargenetik), Neugeborenenscreening-Befund erfragen, Spaltlampenuntersuchung. Supportive Therapie (Antibiotika, Vitamin K/Gerinnung, Glukose). Lebenslange galaktosearme Diät; trotz Therapie Langzeitrisiken (Entwicklungs- und Sprachstörungen, Ovarialinsuffizienz bei Mädchen).",
+      "keyPoints": [
+        "Klassische Galaktosämie (GALT)",
+        "Leberversagen, Katarakt, E.-coli-Sepsis",
+        "Sofort laktosefreie Ernährung, Stillen unterbrechen",
+        "GALT-Aktivität (Transfusion beachten), Screeningbefund",
+        "Langzeitkomplikationen trotz Diät"
+      ],
+      "tags": ["Galaktosämie", "Angeborene Stoffwechselstörung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    }
+  ]
+}

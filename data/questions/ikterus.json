@@ -1,0 +1,939 @@
+{
+  "area": "ikterus",
+  "questions": [
+    {
+      "id": "ikt-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie den **Bilirubinstoffwechsel** von der Bildung bis zur Ausscheidung und erklären Sie, warum fast jedes Neugeborene einen **physiologischen Ikterus** entwickelt.",
+      "hints": [
+        "Hämabbau – Transport – Konjugation – Ausscheidung.",
+        "Vermehrte Bildung, verminderte Konjugation, vermehrte Rückresorption."
+      ],
+      "answer": "Bilirubin entsteht überwiegend aus dem Abbau von Hämoglobin: **Hämoxygenase** spaltet Häm zu Biliverdin (unter Freisetzung von CO), die Biliverdinreduktase reduziert es zu **unkonjugiertem Bilirubin**. Dieses ist wasserunlöslich, wird an **Albumin** gebunden zur Leber transportiert, aufgenommen und durch die **UDP-Glucuronosyltransferase (UGT1A1)** zu Bilirubinglucuroniden konjugiert, die in die Galle ausgeschieden werden. Im Darm wird ein Teil durch β-Glucuronidase dekonjugiert und rückresorbiert (**enterohepatischer Kreislauf**), der Rest bakteriell zu Urobilinoiden abgebaut. Ursachen des physiologischen Ikterus: **erhöhte Bilirubinproduktion** (hohe Erythrozytenmasse, verkürzte Erythrozytenlebensdauer), **verminderte hepatische Aufnahme und Konjugation** (UGT1A1-Aktivität postnatal noch niedrig) und **gesteigerter enterohepatischer Kreislauf** (wenig Darmflora, verzögerte Mekoniumpassage, β-Glucuronidase). Der Gipfel liegt bei reifen Kindern um den 3.–5. Lebenstag, bei Frühgeborenen später und höher.",
+      "keyPoints": [
+        "Häm → Biliverdin → unkonjugiertes Bilirubin (Hämoxygenase, CO)",
+        "Albuminbindung, Konjugation durch UGT1A1, biliäre Ausscheidung",
+        "Enterohepatischer Kreislauf",
+        "Ursachen: Mehrproduktion, unreife Konjugation, vermehrte Rückresorption",
+        "Gipfel Tag 3–5, bei Frühgeborenen später/höher"
+      ],
+      "tags": ["Bilirubinstoffwechsel", "Physiologischer Ikterus"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-002",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Sie werden auf die Wochenstation gerufen: Ein reifes Neugeborenes ist **18 Stunden alt** und deutlich ikterisch. Welche Diagnostik veranlassen Sie, und warum handelt es sich um eine Notfallsituation?",
+      "hints": [
+        "Ein Ikterus in den ersten 24 Stunden ist nie physiologisch.",
+        "An welche Untersuchungen beim Kind und bei der Mutter denken Sie?"
+      ],
+      "answer": "Ein **Ikterus praecox** (in den ersten 24 Lebensstunden) ist immer pathologisch und bis zum Beweis des Gegenteils **hämolytisch** bedingt; das Bilirubin kann rasch ansteigen. Diagnostik sofort: **Gesamtbilirubin im Serum** (nicht nur transkutan), **Blutgruppe und Rhesusfaktor** von Kind und Mutter, **direkter Coombs-Test**, Blutbild mit **Retikulozyten** und Blutausstrich (Sphärozyten), ggf. Antikörpersuchtest der Mutter, konjugiertes Bilirubin, Albumin; bei klinischem Verdacht Infektionsdiagnostik. Weitere Ursachen: Sphärozytose, G6PD-Mangel, Infektion, große Hämatome. Wiederholte Bilirubinkontrollen zur Bestimmung der Anstiegsgeschwindigkeit; Phototherapiebedarf anhand der stundenbezogenen Grenzen prüfen.",
+      "keyPoints": [
+        "Ikterus < 24 h immer pathologisch, meist Hämolyse",
+        "Serumbilirubin, Blutgruppen Mutter/Kind, Coombs-Test",
+        "Blutbild, Retikulozyten, Ausstrich",
+        "Engmaschige Verlaufskontrollen (Anstiegsgeschwindigkeit)"
+      ],
+      "tags": ["Ikterus praecox", "Hämolyse", "Diagnostik"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen"
+    },
+    {
+      "id": "ikt-003",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein **3 Wochen alter**, voll gestillter, gut gedeihender Säugling ist noch ikterisch. Was ist der **wichtigste erste diagnostische Schritt**?",
+      "hints": ["Prolongierter Ikterus – welche Gefahr darf nicht übersehen werden?"],
+      "options": [
+        { "text": "Bestimmung des konjugierten (direkten) Bilirubins", "correct": true },
+        { "text": "Abstillen für 48 Stunden als Test auf Muttermilchikterus", "correct": false },
+        { "text": "Beginn einer Phototherapie zur Prophylaxe", "correct": false },
+        { "text": "Bestimmung des transkutanen Bilirubins in 2 Wochen", "correct": false }
+      ],
+      "answer": "Ein Ikterus über den **14. Lebenstag** (bei Frühgeborenen über den 21. Tag) hinaus ist ein **Ikterus prolongatus** und erfordert die Bestimmung des **konjugierten Bilirubins**, um eine **Cholestase** – insbesondere die Gallengangsatresie – nicht zu übersehen. Zusätzlich: Stuhl- und Urinfarbe, Schilddrüsenwerte (Hypothyreose) und das Neugeborenenscreening prüfen. Erst wenn eine Cholestase ausgeschlossen ist, kann ein Muttermilchikterus angenommen werden; Abstillen ist nicht erforderlich.",
+      "keyPoints": [
+        "Ikterus > 14 Tage = prolongiert",
+        "Konjugiertes Bilirubin zum Cholestase-Ausschluss",
+        "Stuhlfarbe, Schilddrüse, Screening prüfen",
+        "Kein Abstillen nötig"
+      ],
+      "tags": ["Ikterus prolongatus", "Cholestase"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie **Risikofaktoren für eine schwere Hyperbilirubinämie** und – davon zu unterscheiden – Faktoren, die das **Risiko einer Bilirubin-Neurotoxizität** erhöhen.",
+      "hints": ["Was erhöht den Bilirubinspiegel? Was macht das Gehirn verletzlicher?", "Albuminbindung."],
+      "answer": "**Risikofaktoren für hohe Bilirubinwerte**: niedriges Gestationsalter (auch späte Frühgeborene 35–37 SSW), Ikterus in den ersten 24 h, **Hämolyse** (Blutgruppenunverträglichkeit, Sphärozytose, G6PD-Mangel), Geschwister mit Phototherapie, Kephalhämatom oder ausgedehnte Hämatome, **unzureichende Trinkmenge beim Stillen** mit hohem Gewichtsverlust, ostasiatische Herkunft, Kind einer diabetischen Mutter, Polyglobulie. **Risikofaktoren für Neurotoxizität** (senken die Behandlungsgrenzen): **Frühgeburtlichkeit**, **Hämolyse**, **Sepsis**, **Azidose**, Asphyxie, **Hypalbuminämie** (z. B. Albumin < 3 g/dl), klinische Instabilität sowie Medikamente, die Bilirubin aus der Albuminbindung verdrängen (z. B. Ceftriaxon, Sulfonamide). Entscheidend ist, dass freies, nicht albumingebundenes Bilirubin die Blut-Hirn-Schranke passieren kann.",
+      "keyPoints": [
+        "Hyperbilirubinämie: Unreife, Hämolyse, früher Ikterus, Hämatome, Stillprobleme, Geschwister",
+        "Neurotoxizität: Unreife, Hämolyse, Sepsis, Azidose, Hypalbuminämie",
+        "Verdrängung aus Albuminbindung (Ceftriaxon, Sulfonamide)",
+        "Freies Bilirubin passiert die Blut-Hirn-Schranke"
+      ],
+      "tags": ["Risikofaktoren", "Neurotoxizität"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen"
+    },
+    {
+      "id": "ikt-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Möglichkeiten zur **Bilirubinmessung** gibt es, und welche Grenzen hat die **transkutane Messung**?",
+      "hints": ["Visuelle Einschätzung – verlässlich?", "Was passiert mit dem transkutanen Wert unter Phototherapie?"],
+      "answer": "Die **visuelle Einschätzung** (kephalokaudale Ausbreitung) ist unzuverlässig und darf nicht allein zur Therapieentscheidung genutzt werden, besonders bei dunkler Hautfarbe. Die **transkutane Bilirubinmessung (TcB)** ist ein nichtinvasives Screeninginstrument; sie korreliert gut im niedrigen bis mittleren Bereich, wird aber bei höheren Werten ungenauer, und **unter bzw. kurz nach Phototherapie** ist sie an belichteter Haut nicht verwertbar. Liegt der TcB-Wert nahe an der Behandlungsgrenze oder steigt rasch, muss das **Gesamtbilirubin im Serum (TSB)** bestimmt werden; die Therapieentscheidung beruht auf dem Serumwert. Bei Ikterus prolongatus oder Cholestaseverdacht zusätzlich **konjugiertes Bilirubin**. Kapillär gewonnene Werte sind für die Routine ausreichend; Geräte- und Labormethoden können differieren.",
+      "keyPoints": [
+        "Visuelle Schätzung unzuverlässig",
+        "TcB als Screening, ungenauer bei hohen Werten",
+        "TcB unter/nach Phototherapie nicht verwertbar",
+        "Therapieentscheidung nach Serumbilirubin",
+        "Konjugiertes Bilirubin bei prolongiertem Ikterus"
+      ],
+      "tags": ["Bilirubinmessung", "Transkutane Messung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen"
+    },
+    {
+      "id": "ikt-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie wirkt die **Phototherapie**? Gehen Sie auf Wellenlänge, Bestrahlungsstärke und die photochemischen Reaktionen ein.",
+      "hints": ["Blaues Licht.", "Welches Photoprodukt ist für die Ausscheidung am wichtigsten?"],
+      "answer": "Licht im **blau-grünen Spektrum (ca. 460–490 nm)**, das dem Absorptionsmaximum von Bilirubin entspricht, wandelt Bilirubin in der Haut und den oberflächlichen Kapillaren in wasserlösliche Photoisomere um, die **ohne Konjugation** über Galle und Urin ausgeschieden werden. Reaktionen: **Konfigurationsisomerisierung** (4Z,15E-Bilirubin – schnell, aber reversibel), **Strukturisomerisierung zu Lumirubin** (irreversibel, rasch ausgeschieden – für die Wirksamkeit am bedeutendsten) und in geringem Maß Photooxidation. Die Wirksamkeit hängt von **Bestrahlungsstärke** (intensive Phototherapie etwa ≥ 30 µW/cm²/nm), **bestrahlter Körperoberfläche** und **Wellenlänge** ab; LED-Systeme sind Standard. Daher: Kind möglichst unbekleidet (Windel klein), Abstand nach Herstellerangabe, ggf. Bestrahlung von oben und unten.",
+      "keyPoints": [
+        "Blau-grünes Licht ca. 460–490 nm",
+        "Photoisomere wasserlöslich, Ausscheidung ohne Konjugation",
+        "Lumirubin am wichtigsten",
+        "Wirksamkeit: Bestrahlungsstärke, Körperoberfläche, Wellenlänge"
+      ],
+      "tags": ["Phototherapie", "Pathophysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Worauf achten Sie bei **Durchführung, Überwachung und Beendigung** einer Phototherapie? Welche **Nebenwirkungen** kennen Sie?",
+      "hints": ["Augen, Temperatur, Flüssigkeit, Bindung.", "Rebound nach Beendigung."],
+      "answer": "**Durchführung**: möglichst große Hautfläche bestrahlen, **Augenschutz**, Temperaturkontrolle (Überwärmung bzw. Auskühlung), Kontrolle von Flüssigkeitsbilanz, Gewicht und Diurese; Stillen bzw. Füttern weiterführen – kurze Unterbrechungen zum Stillen sind bei nicht kritischen Werten unproblematisch. **Überwachung**: Serumbilirubin in Abständen je nach Höhe und Anstiegsgeschwindigkeit (bei Hämolyse engmaschig); TcB unter Therapie nicht verwertbar. **Beendigung**, wenn das Bilirubin ausreichend unter die Phototherapiegrenze gefallen ist; danach Kontrolle auf **Rebound** (insbesondere bei Hämolyse und Frühgeborenen). **Nebenwirkungen**: erhöhte Perspiratio insensibilis, Temperaturinstabilität, dünne Stühle, Hautausschlag, **Trennung von Mutter und Kind** mit Stillproblemen, **Bronze-Baby-Syndrom** bei Cholestase, retinale Schäden ohne Augenschutz; bei extrem unreifen Frühgeborenen wird oxidativer Stress diskutiert. Kontraindikation: kongenitale erythropoetische Porphyrie.",
+      "keyPoints": [
+        "Augenschutz, Temperatur, Flüssigkeitsbilanz",
+        "Serumkontrollen, TcB nicht verwertbar",
+        "Rebound-Kontrolle nach Ende",
+        "NW: Wasserverlust, Bronze-Baby bei Cholestase, Mutter-Kind-Trennung",
+        "Kontraindikation kongenitale Porphyrie"
+      ],
+      "tags": ["Phototherapie", "Nebenwirkungen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen"
+    },
+    {
+      "id": "ikt-008",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur Phototherapie ist **richtig**?",
+      "hints": ["Was passiert, wenn Photoprodukte nicht über die Galle ausgeschieden werden können?"],
+      "options": [
+        {
+          "text": "Bei Phototherapie eines Kindes mit Cholestase kann ein Bronze-Baby-Syndrom auftreten.",
+          "correct": true
+        },
+        {
+          "text": "Die Phototherapie ist die wirksamste Therapie einer konjugierten Hyperbilirubinämie.",
+          "correct": false
+        },
+        { "text": "Ein Augenschutz ist nur bei Frühgeborenen erforderlich.", "correct": false },
+        {
+          "text": "Unter Phototherapie ist die transkutane Bilirubinmessung besonders zuverlässig.",
+          "correct": false
+        }
+      ],
+      "answer": "Beim **Bronze-Baby-Syndrom** färbt sich die Haut unter Phototherapie bei **Cholestase** graubraun, vermutlich durch Akkumulation von Photoprodukten, die nicht biliär ausgeschieden werden; es ist meist reversibel. Die Phototherapie wirkt nur auf unkonjugiertes Bilirubin, ein Augenschutz ist bei allen Kindern nötig, und die TcB-Messung ist unter Phototherapie nicht verwertbar.",
+      "keyPoints": [
+        "Bronze-Baby-Syndrom bei Cholestase",
+        "Phototherapie wirkt auf unkonjugiertes Bilirubin",
+        "Augenschutz immer, TcB unter Therapie unbrauchbar"
+      ],
+      "tags": ["Phototherapie", "Cholestase"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wonach richtet sich die **Phototherapiegrenze**? Erläutern Sie das Prinzip nach der AWMF-Leitlinie und wie Risikofaktoren berücksichtigt werden.",
+      "hints": [
+        "Drei Größen: Reife, Lebensalter in Stunden, Risikofaktoren.",
+        "Für Frühgeborene gibt es eine einfache Faustregel."
+      ],
+      "answer": "Die Behandlungsgrenzen sind **nicht fix**, sondern hängen ab vom **Gestationsalter**, vom **postnatalen Alter in Stunden** und von **Risikofaktoren** (Hämolyse, Sepsis, Azidose, Hypalbuminämie, klinische Instabilität). Die AWMF-Leitlinie (Stand 2015) gibt einen einfachen Algorithmus vor: (1) reife Neugeborene ohne Hämolysehinweis ab einem Alter von 72 h: **20 mg/dl**; (2) bei einem **Gestationsalter unter 38 Wochen: Phototherapiegrenze (mg/dl) = aktuelles Gestationsalter in Wochen − 20**; (3) vor einem Alter von 72 h **Absenkung um 2 mg/dl pro 24 h**; (4) Absenkung um weitere 2 mg/dl bei wenig effektiver Phototherapie sowie bei schwer kranken Kindern mit Kapillarleck und Hypalbuminämie. Die Absenkungen sind additiv, die untere Grenze beträgt 5 mg/dl. Liegt das Bilirubin **5 mg/dl über der Phototherapiegrenze**, sind sofort intensive Phototherapie und Verlegung in eine Klinik mit Austauschmöglichkeit nötig (Austausch, wenn innerhalb von 4–6 h kein Abfall); **10 mg/dl über der Grenze** oder bei Zeichen einer Bilirubinenzephalopathie ist in der Regel eine Austauschtransfusion indiziert. International (z. B. AAP 2022) werden stundenbezogene, nach Gestationsalter und Neurotoxizitäts-Risikofaktoren getrennte Nomogramme verwendet, die teils abweichende Werte ergeben; maßgeblich ist der Klinikstandard.",
+      "keyPoints": [
+        "Abhängig von Gestationsalter, Lebensalter in Stunden, Risikofaktoren",
+        "Reif ohne Hämolyse ab 72 h: 20 mg/dl",
+        "< 38 SSW: aktuelles Gestationsalter in Wochen − 20 (mg/dl)",
+        "Vor 72 h minus 2 mg/dl pro 24 h; Absenkungen additiv, Minimum 5 mg/dl",
+        "Grenze + 5 mg/dl: intensive Phototherapie, Verlegung; + 10 mg/dl oder Enzephalopathie: Austausch"
+      ],
+      "tags": ["Phototherapie", "Behandlungsgrenzen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen – Diagnostik und Therapie (Stand 2015)"
+    },
+    {
+      "id": "ikt-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes 37+1 SSW, 2900 g, ist **52 Stunden alt**, voll gestillt, Gewichtsabnahme 9 %. TcB 16 mg/dl, Serumbilirubin **17,5 mg/dl**. Mutter Blutgruppe 0 Rh positiv, Kind A Rh positiv, **direkter Coombs-Test schwach positiv**. Wie bewerten Sie die Situation, und was tun Sie?",
+      "hints": ["Welche Risikofaktoren liegen vor?", "Neben dem Bilirubin auch die Ernährung behandeln."],
+      "answer": "Es liegen mehrere Risikofaktoren vor: **frühes Termin-/spätes Frühgeborenes (37 SSW)**, **AB0-Inkompatibilität mit Hämolysehinweis** (DAT positiv), **hoher Gewichtsverlust** bei unzureichender Trinkmenge und ein Alter < 72 h. Nach dem AWMF-Algorithmus liegt die Phototherapiegrenze bei 37 SSW ab 72 h bei 17 mg/dl, mit 52 h um 2 mg/dl niedriger (≈ 15 mg/dl); 17,5 mg/dl liegen also klar darüber, zumal eine Hämolyse vorliegt (auch nach den AAP-Nomogrammen 2022 mit Neurotoxizitäts-Risikofaktor deutlich über der Phototherapiegrenze). Daher **sofort intensive Phototherapie**; die Schwelle für Verlegung bzw. Austauschbereitschaft (Phototherapiegrenze + 5 mg/dl, hier ≈ 20 mg/dl) im Blick behalten. Ergänzende Diagnostik: Blutbild mit Hb, Retikulozyten und Ausstrich (Sphärozyten), Albumin, ggf. konjugiertes Bilirubin. **Ernährung**: Stillberatung und häufiges Anlegen (8–12-mal/24 h), bei unzureichender Milchmenge Zufüttern abgepumpter Muttermilch bzw. Formula (keine Tee- oder Glukoselösungen); Gewicht, Diurese und Stuhl dokumentieren. **Engmaschige Serumbilirubinkontrollen** (Anstiegsgeschwindigkeit) – bei weiterem Anstieg trotz intensiver Phototherapie Vorbereitung einer Austauschtransfusion; IVIG werden von der AWMF-Leitlinie nicht empfohlen, nach AAP 2022 bei Erreichen der Eskalationsgrenze erwogen (zentrumsabhängig). Nach Ende der Therapie Rebound-Kontrolle, später Hb-Kontrolle wegen möglicher Anämie; Eltern aufklären.",
+      "keyPoints": [
+        "Risikofaktoren: 37 SSW, AB0-Hämolyse, Gewichtsverlust, < 72 h",
+        "Sofort intensive Phototherapie (AWMF-Grenze bei 37 SSW mit 52 h ≈ 15 mg/dl)",
+        "Hämolysediagnostik: Hb, Retikulozyten, Ausstrich, Albumin",
+        "Stillförderung, ggf. Zufüttern, keine Tee-/Glukosegaben",
+        "Engmaschige Serumkontrollen, Eskalation bei Anstieg, Rebound- und Anämiekontrolle"
+      ],
+      "tags": ["AB0-Inkompatibilität", "Phototherapie", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen – Diagnostik und Therapie (Stand 2015)"
+    },
+    {
+      "id": "ikt-011",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Beschreiben Sie das klinische Bild der **akuten Bilirubinenzephalopathie** und des **chronischen Kernikterus**. Welche apparative Diagnostik ist hilfreich?",
+      "hints": ["Akut: drei Phasen.", "Chronisch: Bewegungsstörung, Hören, Augen, Zähne."],
+      "answer": "**Akute Bilirubinenzephalopathie**: frühe Phase mit Lethargie, Hypotonie und Trinkschwäche; intermediäre Phase mit Irritabilität, schrillem Schreien, **Hypertonie mit Retrocollis und Opisthotonus**, ggf. Fieber; fortgeschrittene Phase mit Stupor/Koma, Apnoen, Krampfanfällen – teils tödlich. Schon bei Verdacht ist eine **sofortige intensive Phototherapie und notfallmäßige Austauschtransfusion** indiziert, da frühe Stadien reversibel sein können. **Chronischer Kernikterus**: **athetoid-dyskinetische Zerebralparese**, **sensorineurale Hörstörung bzw. auditorische Neuropathie**, **vertikale Blickparese** (Blick nach oben), **Zahnschmelzdysplasie** der Milchzähne; die Kognition ist oft relativ erhalten. Diagnostik: **Hirnstammaudiometrie (BERA/AABR)** – otoakustische Emissionen können bei auditorischer Neuropathie normal sein –, **MRT** mit Signalveränderungen in den **Globus pallidus** beidseits (akut T1-, später T2-hyperintens) und weiteren Basalganglien. Ein klinischer Score (z. B. BIND) hilft bei der Einstufung.",
+      "keyPoints": [
+        "Akut: Lethargie/Hypotonie → Hypertonie, Opisthotonus, schrilles Schreien → Koma/Krampfanfälle",
+        "Sofort intensive Phototherapie und Austauschtransfusion",
+        "Chronisch: athetoide CP, auditorische Neuropathie, Blickparese, Zahnschmelzdefekte",
+        "BERA statt nur OAE",
+        "MRT: Globus pallidus beidseits"
+      ],
+      "tags": ["Kernikterus", "Bilirubinenzephalopathie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-012",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Befundkonstellation ist **typisch für einen chronischen Kernikterus**?",
+      "hints": ["Basalganglien und Hirnstammkerne."],
+      "options": [
+        {
+          "text": "Athetoide Zerebralparese, auditorische Neuropathie, vertikale Blickparese, Zahnschmelzdysplasie",
+          "correct": true
+        },
+        { "text": "Spastische Diplegie mit periventrikulären Zysten", "correct": false },
+        { "text": "Mikrozephalie, periventrikuläre Verkalkungen, Chorioretinitis", "correct": false },
+        { "text": "Hemiparese nach Mediainfarkt mit früher Händigkeit", "correct": false }
+      ],
+      "answer": "Bilirubin schädigt bevorzugt **Globus pallidus, Nucleus subthalamicus, Hirnstammkerne (Hör- und Okulomotorikkerne) und Kleinhirn**. Daraus ergibt sich die typische Tetrade aus **dyskinetisch-athetoider Zerebralparese, auditorischer Neuropathie/Hörstörung, Blickparese nach oben und Zahnschmelzdysplasie**. Spastische Diplegie mit Zysten spricht für eine PVL, Verkalkungen mit Chorioretinitis für eine konnatale Infektion, die Hemiparese für einen perinatalen Schlaganfall.",
+      "keyPoints": ["Athetoide/dyskinetische CP", "Auditorische Neuropathie", "Vertikale Blickparese, Zahnschmelzdysplasie"],
+      "tags": ["Kernikterus"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie Pathophysiologie, **pränatale Überwachung** und **Prävention** der **Rhesus-Inkompatibilität**.",
+      "hints": ["Sensibilisierung der Rh-negativen Mutter.", "Doppler der A. cerebri media; Anti-D-Prophylaxe."],
+      "answer": "Eine RhD-negative Mutter bildet nach Kontakt mit RhD-positiven fetalen Erythrozyten (Geburt, Abort, Blutungen, invasive Eingriffe) **IgG-Anti-D**, das in Folgeschwangerschaften diaplazentar übertritt und beim RhD-positiven Fetus eine **Hämolyse** mit Anämie, extramedullärer Blutbildung, Hepatosplenomegalie und im Extremfall **Hydrops fetalis** verursacht. Pränatal: Antikörpersuchtest und -titer, Bestimmung des fetalen RhD-Status, Überwachung der fetalen Anämie mittels **Doppler der maximalen systolischen Flussgeschwindigkeit in der A. cerebri media (MCA-PSV)**; bei relevanter Anämie **intrauterine Transfusionen** und geplante Entbindung im Perinatalzentrum. Prävention: **Anti-D-Prophylaxe** bei RhD-negativen, nicht sensibilisierten Schwangeren in der 28.–30. SSW sowie **innerhalb von 72 h nach Geburt** eines RhD-positiven Kindes und nach sensibilisierenden Ereignissen. Mit der nichtinvasiven Bestimmung des fetalen RhD-Status aus mütterlichem Blut kann die antepartale Prophylaxe auf Schwangere mit RhD-positivem Fetus beschränkt werden.",
+      "keyPoints": [
+        "IgG-Anti-D nach Sensibilisierung, Hämolyse beim RhD-positiven Fetus",
+        "Anämie, Hydrops fetalis",
+        "MCA-PSV-Doppler, intrauterine Transfusion",
+        "Anti-D-Prophylaxe 28.–30. SSW und ≤ 72 h postpartal",
+        "Nichtinvasive fetale RhD-Bestimmung"
+      ],
+      "tags": ["Rhesus-Inkompatibilität", "Pränatalmedizin"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-014",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Sie erwarten im Kreißsaal ein Kind der 35+0 SSW mit bekannter **Anti-D-Immunisierung**; es erhielt **zwei intrauterine Transfusionen**. Wie bereiten Sie sich vor, welche Befunde erheben Sie postnatal, und worauf achten Sie im weiteren Verlauf?",
+      "hints": [
+        "Was beeinflussen intrauterine Transfusionen an Blutgruppe und Coombs-Test?",
+        "Blutglukose – und die Wochen nach Entlassung."
+      ],
+      "answer": "**Vorbereitung**: Absprache mit Geburtshilfe und Blutbank, **Blutprodukte vorab bereitstellen** (Erythrozytenkonzentrat Blutgruppe 0 RhD-negativ, kompatibel mit mütterlichem Serum, bestrahlt), Team und Zugänge (Nabelvenenkatheter) für eine mögliche Notfall-Transfusion oder frühe Austauschtransfusion vorbereiten; bei Hydrops Ausrüstung für Punktion von Pleura-/Aszitesergüssen. **Postnatal aus Nabelschnurblut**: Hb/Hkt, Retikulozyten, **Bilirubin**, Blutgruppe, **direkter Coombs-Test**, Albumin, Thrombozyten, Blutzucker. Nach intrauterinen Transfusionen können **Blutgruppe (als 0 RhD-negativ) und Coombs-Test durch Spendererythrozyten verfälscht** sein, die Retikulozyten sind supprimiert. **Therapie**: sofortige **intensive Phototherapie**, engmaschige Bilirubin- und Hb-Kontrollen, Austauschtransfusion bei Erreichen der Austauschgrenze trotz Phototherapie bzw. bei schwerer Anämie; IVIG zentrumsabhängig (AWMF: nicht empfohlen, AAP 2022: Option bei Eskalation). Auf **Hypoglykämien** (Inselzellhyperplasie) und Thrombozytopenie achten. **Verlauf**: Gefahr einer **Spätanämie** über Wochen (persistierende Antikörper, supprimierte Erythropoese) – regelmäßige Hb- und Retikulozytenkontrollen nach Entlassung, ggf. Transfusion; Folsäuresupplementierung je nach Zentrum.",
+      "keyPoints": [
+        "Blutprodukte und NVK vorbereiten (0 Rh-neg, kompatibel, bestrahlt)",
+        "Nabelschnurblut: Hb, Bilirubin, Retikulozyten, DAT, Albumin, Glukose",
+        "Nach IUT: Blutgruppe/DAT verfälscht, Retikulozyten supprimiert",
+        "Sofortige intensive Phototherapie, Austausch bei Bedarf",
+        "Hypoglykämie, Spätanämie mit Hb-Kontrollen über Wochen"
+      ],
+      "tags": ["Rhesus-Inkompatibilität", "Fallbeispiel", "Austauschtransfusion"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **AB0-Inkompatibilität** ist **richtig**?",
+      "hints": ["Mütter mit Blutgruppe 0 haben „natürliche“ Antikörper."],
+      "options": [
+        {
+          "text": "Sie kann bereits in der ersten Schwangerschaft auftreten, da Mütter mit Blutgruppe 0 IgG-Anti-A/Anti-B besitzen können.",
+          "correct": true
+        },
+        {
+          "text": "Sie verläuft in der Regel schwerer als die Rhesus-Inkompatibilität und führt häufig zum Hydrops.",
+          "correct": false
+        },
+        { "text": "Der direkte Coombs-Test ist immer stark positiv.", "correct": false },
+        { "text": "Sie tritt typischerweise bei Mutter Blutgruppe A und Kind Blutgruppe 0 auf.", "correct": false }
+      ],
+      "answer": "Die AB0-Inkompatibilität betrifft typischerweise **Mütter mit Blutgruppe 0 und Kinder mit A oder B**. Da Mütter mit Blutgruppe 0 plazentagängige **IgG-Antikörper** besitzen können, ist keine vorherige Sensibilisierung nötig – sie kann **schon beim ersten Kind** auftreten. Sie verläuft meist **milder** als die Rh-Erkrankung (wenige A/B-Antigene auf fetalen Erythrozyten, Antikörperbindung auch an anderes Gewebe), ein Hydrops ist selten. Der direkte Coombs-Test ist oft nur schwach positiv oder sogar negativ; im Ausstrich finden sich Sphärozyten.",
+      "keyPoints": [
+        "Mutter 0, Kind A oder B",
+        "Auch in der ersten Schwangerschaft",
+        "Meist milder als Rh, DAT oft schwach/negativ",
+        "Sphärozyten im Ausstrich"
+      ],
+      "tags": ["AB0-Inkompatibilität", "Hämolyse"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann setzen Sie **intravenöse Immunglobuline (IVIG)** bei der Hyperbilirubinämie ein, wie werden sie dosiert, und wie ist die Evidenzlage?",
+      "hints": [
+        "Nur bei einer bestimmten Ursache der Hyperbilirubinämie.",
+        "Ziel ist die Vermeidung der Austauschtransfusion."
+      ],
+      "answer": "IVIG kommen allenfalls bei **immunhämolytischer Hyperbilirubinämie** (Rh-, AB0- oder andere Alloimmunhämolyse mit positivem Coombs-Test) in Betracht, wenn das **Bilirubin trotz intensiver Phototherapie ansteigt** bzw. sich der Austauschgrenze nähert. Sie blockieren Fc-Rezeptoren im retikuloendothelialen System und bremsen so die Hämolyse. Die **Evidenz ist schwach**: Ältere Studien zeigten weniger Austauschtransfusionen, neuere, methodisch bessere Studien und Übersichtsarbeiten konnten dies nicht bestätigen; zudem wurden Fälle von **NEC** bei reifen und fast reifen Neugeborenen beschrieben. Die **AWMF-Leitlinie (2015) empfiehlt IVIG beim Morbus haemolyticus neonatorum deshalb nicht**. Die AAP-Leitlinie 2022 sieht sie dagegen bei Erreichen der Eskalationsgrenze als Option vor (**0,5–1 g/kg über 2 Stunden**, ggf. Wiederholung nach 12 h). Weitere Nebenwirkungen: Volumenbelastung, Hämolyse, Infusionsreaktionen. Wenn überhaupt, ist der Einsatz eine individuelle Entscheidung nach lokalem Standard und ersetzt weder die intensive Phototherapie noch eine rechtzeitige Austauschtransfusion.",
+      "keyPoints": [
+        "Nur bei Immunhämolyse (DAT positiv) und Anstieg trotz intensiver Phototherapie",
+        "Wirkprinzip: Fc-Rezeptor-Blockade",
+        "Evidenz schwach, NEC-Fälle beschrieben",
+        "AWMF 2015: nicht empfohlen; AAP 2022: Option, 0,5–1 g/kg über 2 h",
+        "Kein Ersatz für Phototherapie bzw. Austausch"
+      ],
+      "tags": ["IVIG", "Immunhämolyse"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen – Diagnostik und Therapie (Stand 2015); AAP Clinical Practice Guideline Hyperbilirubinemia 2022"
+    },
+    {
+      "id": "ikt-017",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Nennen Sie die **Indikationen** zur **Austauschtransfusion** bei Hyperbilirubinämie, die Anforderungen an das **Blutprodukt** und die wichtigsten **Komplikationen**.",
+      "hints": [
+        "Grenzwert – aber auch klinische Zeichen.",
+        "Welche Elektrolyt- und Stoffwechselstörungen drohen durch das Spenderblut?"
+      ],
+      "answer": "**Indikationen** (AWMF): Bilirubin **mehr als 10 mg/dl über der Phototherapiegrenze** (beim reifen Kind ohne Risikofaktoren > 30 mg/dl) oder fehlender Abfall innerhalb von 4–6 h unter intensiver Phototherapie bei Werten **mehr als 5 mg/dl über der Grenze**; **klinische Zeichen einer akuten Bilirubinenzephalopathie** unabhängig vom Wert; schwere Immunhämolyse mit raschem Anstieg bzw. **schwerer Anämie/Hydrops** (dann ggf. partielle Austauschtransfusion mit Erythrozyten). **Blutprodukt**: Erythrozytenkonzentrat **Blutgruppe 0** (bei Rh-Erkrankung **RhD-negativ**), **kompatibel mit dem mütterlichen Serum**, möglichst frisch, **bestrahlt**, leukozytendepletiert, rekonstituiert mit kompatiblem Plasma (z. B. AB-Plasma) auf einen Hämatokrit von etwa 0,5–0,6, angewärmt. **Komplikationen**: Elektrolytstörungen (**Hyperkaliämie**, **Hypokalzämie** durch Citrat), **Hypo-/Hyperglykämie**, Azidose, **Thrombozytopenie** und Gerinnungsstörung, Volumenschwankungen, Arrhythmien und Herzstillstand, Katheterkomplikationen (Thrombose, Pfortaderthrombose, Perforation), NEC, Infektionen, GvHD (ohne Bestrahlung). Die Austauschtransfusion hat eine relevante Morbidität und Mortalität – besonders bei kranken Frühgeborenen – und gehört in erfahrene Hände mit kontinuierlichem Monitoring.",
+      "keyPoints": [
+        "Grenze + 10 mg/dl bzw. + 5 mg/dl ohne Abfall nach 4–6 h intensiver Phototherapie",
+        "Akute Bilirubinenzephalopathie immer Indikation",
+        "EK 0 (Rh-neg), kompatibel mit mütterlichem Serum, bestrahlt, frisch, Hkt 0,5–0,6",
+        "Komplikationen: Hyperkaliämie, Hypokalzämie, Hypoglykämie, Thrombozytopenie, Thrombose, NEC",
+        "Relevante Morbidität/Mortalität"
+      ],
+      "tags": ["Austauschtransfusion", "Hämotherapie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen"
+    },
+    {
+      "id": "ikt-018",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes mit **3400 g** benötigt eine **Austauschtransfusion mit doppeltem Blutvolumen**. Nehmen Sie ein Blutvolumen von **85 ml/kg** an. Wie viel Blut wird insgesamt ausgetauscht?",
+      "hints": ["Blutvolumen = Gewicht · ml/kg.", "Doppeltes Blutvolumen."],
+      "answer": "Blutvolumen = 3,4 kg · 85 ml/kg = 289 ml. Austauschvolumen = 2 · 289 ml = **578 ml**. Mit einem Doppelvolumenaustausch werden etwa 85–90 % der kindlichen Erythrozyten ersetzt; das Serumbilirubin sinkt etwa auf die Hälfte, steigt durch Umverteilung aus dem Gewebe aber wieder an.",
+      "keyPoints": [
+        "Blutvolumen 289 ml",
+        "Doppeltes Volumen = 578 ml",
+        "Ersatz von ca. 85–90 % der Erythrozyten, Bilirubin ca. halbiert, Rebound"
+      ],
+      "solution": { "value": 578, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Austauschtransfusion", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-019",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 32. SSW mit **1650 g** soll wegen Rh-Erkrankung eine **Doppelvolumen-Austauschtransfusion** erhalten. Nehmen Sie für dieses Frühgeborene ein Blutvolumen von **95 ml/kg** an. Welches Gesamtvolumen planen Sie?",
+      "hints": ["Frühgeborene haben ein höheres Blutvolumen pro kg als reife Neugeborene."],
+      "answer": "Blutvolumen = 1,65 kg · 95 ml/kg = 156,75 ml. Austauschvolumen = 2 · 156,75 ml ≈ **314 ml**. Der Austausch erfolgt in kleinen Portionen, angepasst an Gewicht und Kreislaufstabilität, unter kontinuierlichem Monitoring.",
+      "keyPoints": ["Blutvolumen ≈ 157 ml", "Austauschvolumen ≈ 314 ml", "Kleine Portionen, Monitoring"],
+      "solution": { "value": 313.5, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Austauschtransfusion", "Frühgeborene", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-020",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Labor meldet das Gesamtbilirubin in µmol/l, Ihre Grenzwertkurve ist in mg/dl. Rechnen Sie **15 mg/dl** in **µmol/l** um (Umrechnungsfaktor 17,1).",
+      "hints": ["mg/dl · 17,1 = µmol/l."],
+      "answer": "15 mg/dl · 17,1 = **256,5 µmol/l** (≈ 257 µmol/l). Umgekehrt gilt: µmol/l / 17,1 = mg/dl.",
+      "keyPoints": ["Faktor 17,1", "Ergebnis ≈ 257 µmol/l"],
+      "solution": { "value": 256.5, "unit": "µmol/l", "tolerance": 0.03 },
+      "tags": ["Einheiten", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "ikt-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was müssen Sie über den **Glukose-6-Phosphat-Dehydrogenase-Mangel** als Ursache einer neonatalen Hyperbilirubinämie wissen?",
+      "hints": ["Vererbung und Herkunft.", "Warum kann ein Enzymtest in der akuten Hämolyse falsch normal sein?"],
+      "answer": "Der G6PD-Mangel ist der häufigste Erythrozytenenzymdefekt, **X-chromosomal** vererbt (vor allem Jungen betroffen, heterozygote Mädchen variabel), gehäuft bei Herkunft aus dem **Mittelmeerraum, Afrika, Nahen Osten und Asien**. Die Erythrozyten sind gegenüber oxidativem Stress empfindlich; Auslöser einer akuten Hämolyse sind u. a. Infektionen, bestimmte Medikamente, Naphthalin und Fava-Bohnen (auch über die Muttermilch). Beim Neugeborenen kann eine **schwere Hyperbilirubinämie** auftreten, oft mit nur geringen Hämolysezeichen, weil zusätzlich die **Bilirubinkonjugation vermindert** ist (z. B. bei gleichzeitiger UGT1A1-Variante wie beim Gilbert-Syndrom). Das Risiko einer Bilirubinenzephalopathie ist erhöht, daher niedrigere Behandlungsgrenzen (Hämolyse als Risikofaktor). Diagnostik: quantitative **Enzymaktivität** – während akuter Hämolyse bzw. bei hoher Retikulozytenzahl oder nach Transfusion kann sie falsch normal sein, dann Wiederholung. Eltern erhalten eine Liste zu meidender Substanzen.",
+      "keyPoints": [
+        "X-chromosomal, Herkunft Mittelmeer/Afrika/Asien",
+        "Oxidativer Stress: Infektionen, Medikamente, Fava, Naphthalin",
+        "Schwere Hyperbilirubinämie trotz geringer Hämolysezeichen (Konjugationsstörung)",
+        "Niedrigere Behandlungsgrenzen",
+        "Enzymtest in akuter Hämolyse/nach Transfusion falsch normal"
+      ],
+      "tags": ["G6PD-Mangel", "Hämolyse"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hat am 2. Lebenstag einen ausgeprägten Ikterus mit **Coombs-negativer Hämolyse**; im Ausstrich finden sich **Sphärozyten**, die Blutgruppen sind kompatibel. Woran denken Sie, und wie gehen Sie diagnostisch und therapeutisch vor?",
+      "hints": ["Häufigste hereditäre hämolytische Anämie in Mitteleuropa.", "Welcher Labortest sichert die Diagnose?"],
+      "answer": "Verdacht auf **hereditäre Sphärozytose** (Membrandefekt, meist autosomal-dominant, in einem Teil der Fälle Neumutation oder rezessiv – eine leere Familienanamnese schließt sie nicht aus). Differenzialdiagnostisch AB0-Inkompatibilität mit negativem DAT bedenken. Diagnostik: Familienanamnese (Splenektomie, Gallensteine, Anämie), Blutbild mit **erhöhtem MCHC**, Retikulozyten, Ausstrich; **Eosin-5-Maleimid-Bindungstest (EMA-Test)** in der Durchflusszytometrie; osmotische Resistenz ist beim Neugeborenen weniger zuverlässig; ggf. Untersuchung der Eltern und Molekulargenetik. Therapie in der Neugeborenenzeit: **Phototherapie** nach den Grenzen für Kinder mit Hämolyse, selten Austauschtransfusion; in den ersten Lebensmonaten häufig **Transfusionsbedarf** wegen ausgeprägter Anämie (unreife Erythropoese) – engmaschige Hb- und Retikulozytenkontrollen nach Entlassung; Folsäure je nach Schweregrad; langfristig Anbindung an die pädiatrische Hämatologie.",
+      "keyPoints": [
+        "Hereditäre Sphärozytose, auch ohne positive Familienanamnese",
+        "MCHC erhöht, Retikulozyten, Ausstrich",
+        "EMA-Test zur Diagnosesicherung",
+        "Phototherapie mit Hämolyse-Grenzen",
+        "Transfusionsbedarf in den ersten Monaten, Hb-Kontrollen"
+      ],
+      "tags": ["Sphärozytose", "Hämolyse", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-023",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Welche Aussage zu den **hereditären unkonjugierten Hyperbilirubinämien** ist **richtig**?",
+      "hints": ["Unterschied zwischen fehlender und verminderter UGT1A1-Aktivität.", "Enzyminduktion."],
+      "options": [
+        {
+          "text": "Beim Crigler-Najjar-Syndrom Typ II sinkt das Bilirubin unter Phenobarbital deutlich ab, beim Typ I nicht.",
+          "correct": true
+        },
+        {
+          "text": "Das Gilbert-Syndrom führt typischerweise allein zu einem Kernikterus in der Neugeborenenzeit.",
+          "correct": false
+        },
+        {
+          "text": "Das Crigler-Najjar-Syndrom ist eine konjugierte Hyperbilirubinämie mit acholischen Stühlen.",
+          "correct": false
+        },
+        { "text": "Beim Crigler-Najjar-Syndrom Typ I ist eine Phototherapie wirkungslos.", "correct": false }
+      ],
+      "answer": "Beim **Crigler-Najjar-Syndrom Typ I** fehlt die UGT1A1-Aktivität praktisch vollständig: Es besteht lebenslang eine schwere unkonjugierte Hyperbilirubinämie mit hohem Kernikterusrisiko, die mit **täglicher, langdauernder Phototherapie** behandelt wird; definitive Therapie ist die **Lebertransplantation**. Beim **Typ II** besteht eine Restaktivität, die durch **Phenobarbital induzierbar** ist – das Bilirubin sinkt deutlich ab (diagnostisch und therapeutisch nutzbar). Das **Gilbert-Syndrom** ist harmlos, kann aber zusammen mit Hämolyse (z. B. G6PD-Mangel, Sphärozytose) oder Stillen zu einer stärkeren Neugeborenen-Hyperbilirubinämie beitragen.",
+      "keyPoints": [
+        "Typ I: fehlende UGT1A1, lebenslang Phototherapie, Lebertransplantation",
+        "Typ II: Phenobarbital senkt Bilirubin",
+        "Gilbert harmlos, aber additiv bei Hämolyse"
+      ],
+      "tags": ["Crigler-Najjar", "Gilbert-Syndrom"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-024",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Grenzen Sie den **Ikterus bei unzureichendem Stillen** („Stillikterus“) vom **Muttermilchikterus** ab. Was raten Sie der Mutter jeweils?",
+      "hints": ["Zeitpunkt und Gewichtsverlauf unterscheiden sich.", "Muss abgestillt werden?"],
+      "answer": "Der **Ikterus bei unzureichender Milchaufnahme** tritt in der **ersten Lebenswoche** auf: geringe Trinkmengen führen zu verzögerter Mekoniumentleerung, gesteigertem enterohepatischem Kreislauf und **hohem Gewichtsverlust**, wenigen Stühlen und wenig Urin. Therapie: **Stillförderung** (früh und häufig anlegen, 8–12-mal pro 24 h, Anlegetechnik prüfen, Stillberatung), bei Bedarf Zufüttern von abgepumpter Muttermilch oder Formula – **keine Tee- oder Glukoselösungen**; Phototherapie nach den üblichen Grenzen. Der **Muttermilchikterus** beginnt meist nach den ersten Lebenstagen, hält über Wochen an (oft bis 6–12 Wochen) bei **gut gedeihendem Kind**; die Ursache ist nicht vollständig geklärt (Faktoren der Muttermilch, die den enterohepatischen Kreislauf steigern bzw. die Konjugation hemmen). Er ist harmlos und eine **Ausschlussdiagnose**: Cholestase (konjugiertes Bilirubin), Hypothyreose, Hämolyse und Infektion ausschließen. **Weiterstillen** – ein Abstillen ist nicht nötig.",
+      "keyPoints": [
+        "Stillikterus: erste Woche, hoher Gewichtsverlust, wenig Stuhl/Urin",
+        "Stillförderung, ggf. Zufüttern, keine Tee/Glukose",
+        "Muttermilchikterus: später, prolongiert, gutes Gedeihen",
+        "Ausschlussdiagnose (konjugiertes Bilirubin, TSH)",
+        "Weiterstillen"
+      ],
+      "tags": ["Muttermilchikterus", "Stillen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ab wann sprechen Sie beim Neugeborenen von einer **Cholestase**, und wie gehen Sie diagnostisch vor? Welche **Sofortmaßnahme** dürfen Sie nicht vergessen?",
+      "hints": ["Grenzwert für konjugiertes Bilirubin.", "Fettlösliche Vitamine – welche Blutungskomplikation droht?"],
+      "answer": "Eine neonatale Cholestase liegt vor bei einem **konjugierten (direkten) Bilirubin > 1 mg/dl** (Empfehlung der nordamerikanischen und europäischen Fachgesellschaften für pädiatrische Gastroenterologie, ebenso die AWMF-Leitlinie). Klinik: Ikterus, **heller/acholischer Stuhl**, dunkler Urin, Hepatomegalie. Diagnostik stufenweise: Stuhlfarbe (Stuhlfarbkarte), Leberwerte inkl. **GGT**, Gerinnung, Albumin, Glukose; **Sonographie** (Gallenblase, Triangular-cord-Zeichen, Choledochuszyste, Polysplenie); Ausschluss von **Infektionen** (Harnwegsinfektion, Sepsis, CMV u. a.), **Hypothyreose/Hypopituitarismus**, Galaktosämie und weiterer Stoffwechselstörungen (Screeningbefunde prüfen), **α1-Antitrypsin-Mangel**, Mukoviszidose, Alagille-Syndrom (Herz, Wirbel, Augen), PFIC; bei Verdacht auf Gallengangsatresie rasche Vorstellung in einem Zentrum (ggf. Szintigraphie, Leberbiopsie, intraoperative Cholangiographie). **Sofortmaßnahme**: **Vitamin K parenteral** bei verlängerter Gerinnungszeit bzw. grundsätzlich bei Cholestase, da Vitamin-K-Mangelblutungen (auch intrakraniell) drohen; im Verlauf Substitution fettlöslicher Vitamine (A, D, E, K) und MCT-haltige Ernährung.",
+      "keyPoints": [
+        "Konjugiertes Bilirubin > 1 mg/dl",
+        "Stuhlfarbe, GGT, Gerinnung, Sonographie",
+        "Ausschluss Infektion, Hypothyreose, Galaktosämie, α1-AT-Mangel, Alagille",
+        "Bei Atresieverdacht rasch ins Zentrum",
+        "Vitamin K parenteral, ADEK-Substitution"
+      ],
+      "tags": ["Cholestase", "Diagnostik"],
+      "exam": ["KM", "HK"],
+      "source": "AWMF S2k-Leitlinie Cholestase im Neugeborenenalter"
+    },
+    {
+      "id": "ikt-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein **5 Wochen alter**, gut trinkender Säugling wird wegen anhaltenden Ikterus vorgestellt. Die Mutter berichtet über „hellgelbe, fast weiße“ Stühle und dunklen Urin. Die Leber ist vergrößert und derb. Woran denken Sie, und warum ist **Eile** geboten?",
+      "hints": [
+        "Häufigste Indikation zur Lebertransplantation im Kindesalter.",
+        "Das Operationsergebnis hängt vom Lebensalter ab."
+      ],
+      "answer": "Dringender Verdacht auf **Gallengangsatresie** – eine progrediente, obliterierende Cholangiopathie der extrahepatischen Gallenwege. Typisch sind gut gedeihende Kinder mit prolongiertem Ikterus, **acholischen Stühlen**, dunklem Urin und Hepatomegalie; eine Splenomegalie spricht für fortgeschrittene Fibrose. Diagnostik **ohne Zeitverzug**: konjugiertes Bilirubin, GGT, Gerinnung (Vitamin K parenteral!), Sonographie (kleine/fehlende Gallenblase, Triangular-cord-Zeichen, Polysplenie-Syndrom), Vorstellung in einem **Zentrum für Kinderhepatologie/Kinderchirurgie**, Sicherung durch intraoperative Cholangiographie. Therapie: **Hepatoportoenterostomie nach Kasai** – die Erfolgsaussichten sind umso besser, je früher operiert wird (möglichst **vor dem 60. Lebenstag**, noch bessere Ergebnisse bei Operation vor dem 30.–45. Lebenstag). Ohne erfolgreiche Galleableitung entwickelt sich eine biliäre Zirrhose; die Gallengangsatresie ist die **häufigste Indikation zur Lebertransplantation** im Kindesalter. Präventiv hilft die **Stuhlfarbkarte** im Kinderuntersuchungsheft, die Eltern zur frühen Erkennung acholischer Stühle anleitet.",
+      "keyPoints": [
+        "Verdacht Gallengangsatresie",
+        "Acholische Stühle, dunkler Urin, Hepatomegalie",
+        "Sofort: konj. Bilirubin, GGT, Gerinnung/Vitamin K, Sono, Zentrum",
+        "Kasai-Operation möglichst früh (vor dem 60. Lebenstag)",
+        "Häufigste Transplantationsindikation; Stuhlfarbkarte"
+      ],
+      "tags": ["Gallengangsatresie", "Cholestase", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "source": "AWMF S2k-Leitlinie Cholestase im Neugeborenenalter"
+    },
+    {
+      "id": "ikt-027",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Auf welches Warnzeichen sollen Eltern im Rahmen der Früherkennung einer **Gallengangsatresie** besonders achten?",
+      "hints": ["Dafür gibt es eine Farbkarte im Kinderuntersuchungsheft."],
+      "options": [
+        { "text": "Anhaltend helle, entfärbte (acholische) Stühle", "correct": true },
+        { "text": "Grünliche Stühle", "correct": false },
+        { "text": "Hellgelber Urin", "correct": false },
+        { "text": "Ikterus am 3. Lebenstag", "correct": false }
+      ],
+      "answer": "**Helle, entfärbte (acholische) Stühle** sind das wichtigste Warnzeichen einer Gallengangsatresie bzw. einer obstruktiven Cholestase; dazu dunkler Urin. Die **Stuhlfarbkarte** im Kinderuntersuchungsheft hilft Eltern beim Vergleich. Grüne Stühle und heller Urin sind unauffällig, ein Ikterus am 3. Lebenstag ist meist physiologisch.",
+      "keyPoints": ["Acholische Stühle als Leitsymptom", "Dunkler Urin", "Stuhlfarbkarte im Kinderuntersuchungsheft"],
+      "tags": ["Gallengangsatresie", "Elternberatung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ikt-028",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Was ist bei der Behandlung der Hyperbilirubinämie **extrem unreifer Frühgeborener** (< 1000 g) zu beachten? Diskutieren Sie Nutzen und mögliche Risiken einer aggressiven Phototherapie.",
+      "hints": ["Niedrige Grenzen – aber ist mehr immer besser?", "Große randomisierte Studie des NICHD-Netzwerks."],
+      "answer": "Bei extrem unreifen Frühgeborenen besteht ein **erhöhtes Risiko für Bilirubin-Neurotoxizität** schon bei vergleichsweise niedrigen Werten (unreife Blut-Hirn-Schranke, Hypalbuminämie, Azidose, Infektionen, Instabilität); Kernikterus kann ohne typische akute Symptomatik auftreten. Die **Behandlungsgrenzen sind deshalb niedrig** und orientieren sich am Gestationsalter bzw. Gewicht und an Risikofaktoren (Klinikstandard nach Leitlinie). Andererseits zeigte die große randomisierte Studie des NICHD Neonatal Research Network (aggressive vs. konservative Phototherapie bei ELBW-Kindern) zwar **weniger neurologische Entwicklungsstörungen** (ohne Unterschied im kombinierten Endpunkt Tod oder Entwicklungsstörung), in der **Untergruppe der kleinsten Kinder (501–750 g)** aber Hinweise auf eine **höhere Mortalität**; diskutiert werden oxidative Schäden durch Photoprodukte an der dünnen Haut. Konsequenz: Phototherapie **nicht unnötig früh und lange**, je nach Zentrum mit zunächst geringerer Bestrahlungsstärke, engmaschigen Serumkontrollen und konsequenter Behandlung der Risikofaktoren (Azidose, Infektion, Hypalbuminämie). Ergänzend wird das **Bilirubin/Albumin-Verhältnis** zur Entscheidung herangezogen; Austauschtransfusionen sind in dieser Gruppe besonders risikoreich.",
+      "keyPoints": [
+        "Erhöhte Neurotoxizität bei niedrigen Werten, oft ohne typische Klinik",
+        "Niedrige, gestations-/gewichtsabhängige Grenzen",
+        "NICHD-Studie: weniger NDI, aber mögliche Mortalitätssteigerung bei 501–750 g",
+        "Keine unnötig frühe/lange Phototherapie, Risikofaktoren behandeln",
+        "Bilirubin/Albumin-Verhältnis, Austausch sehr risikoreich"
+      ],
+      "tags": ["Phototherapie", "Extrem Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "Morris et al., NEJM 2008 (NICHD Neonatal Research Network); AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen – Diagnostik und Therapie (Stand 2015)"
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "area": "ethik",
+  "questions": [
+    {
+      "id": "ethik-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Für die Beratung bei drohender Frühgeburt an der Grenze der Lebensfähigkeit ist das Gestationsalter der wichtigste Faktor. Welche **weiteren Faktoren** beeinflussen die Prognose und sollten nach der AWMF-Leitlinie in die individuelle Risikoeinschätzung eingehen?",
+      "hints": [
+        "Denken Sie an das Kind (Gewicht, Geschlecht) und an die Schwangerschaft.",
+        "Auch der Ort der Geburt und pränatale Maßnahmen spielen eine Rolle."
+      ],
+      "answer": "Neben dem möglichst genau bestimmten Gestationsalter (Frühultraschall) beeinflussen die Prognose: das geschätzte Geburtsgewicht bzw. eine Wachstumsrestriktion, das Geschlecht (Mädchen haben bessere Chancen), die erfolgte antenatale Steroidgabe (Lungenreifeinduktion; protektiver Effekt besonders unter 24 SSW), Hinweise auf ein Amnioninfektionssyndrom bzw. eine floride Infektion, ein früher vorzeitiger Blasensprung mit Oligohydramnion sowie relevante Fehlbildungen. Wichtig ist auch der Geburtsort: Die Geburt in einem Perinatalzentrum Level 1 mit Erfahrung in der Versorgung extrem unreifer Kinder verbessert das Outcome, daher sollte die Mutter möglichst vor der Geburt verlegt werden. Der Einlings- bzw. Mehrlingsstatus spielt nach der Leitlinie dagegen eine untergeordnete oder keine Rolle mehr; Nabelarterien-pH, Vitalität direkt nach der Geburt und das Ansprechen auf die Erstversorgung erlauben bei extrem unreifen Kindern keine brauchbare Prognose. Für die Beratung sollen nationale Daten und, soweit vorhanden, die Ergebnisse der eigenen Klinik herangezogen werden.",
+      "keyPoints": [
+        "Gestationsalter möglichst exakt (Frühultraschall)",
+        "Gewicht/Wachstumsrestriktion, Geschlecht (Mehrlingsstatus kaum relevant)",
+        "antenatale Steroide, Infektion, Blasensprung/Oligohydramnion",
+        "Geburt im Perinatalzentrum Level 1",
+        "nationale und eigene Ergebnisdaten nutzen"
+      ],
+      "tags": ["Grenze der Lebensfähigkeit", "Prognosefaktoren"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.4 – Besonderheiten bei extrem unreifen Frühgeborenen",
+          "terms": ["extrem unreife Frühgeborene"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Frühgeborene an der Grenze der Lebensfähigkeit",
+          "terms": ["Grenze der Lebensfähigkeit"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Frühgeborene an der Grenze der Lebensfähigkeit (024-019, Fassung 2020)"
+    },
+    {
+      "id": "ethik-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Skizzieren Sie, wie sich die Empfehlungen der AWMF-Leitlinie **„Frühgeborene an der Grenze der Lebensfähigkeit“** zum Vorgehen (lebenserhaltende vs. palliative Versorgung) mit dem Gestationsalter verändern – von unter 22+0 SSW bis ab 24+0 SSW.",
+      "hints": [
+        "Es gibt einen Bereich, in dem beide Wege ethisch vertretbar sind.",
+        "Neben dem Gestationsalter verschiebt eine Gewichtsgrenze die Korridore."
+      ],
+      "answer": "Die Leitlinie (S2k, Fassung 2020) ordnet nach Gestationsalter **und** Gewicht (Grenze 400 g):\n- **< 22+0 SSW** (sowie < 23+0 SSW mit < 400 g): bis auf Einzelfälle keine realistische Überlebensmöglichkeit; lebenserhaltende Maßnahmen gelten in der Regel als aussichtslos – palliative Begleitung.\n- **22+0 bis 22+6 SSW** (sowie 23+0 bis 23+6 SSW mit < 400 g): Überleben mit z. T. erheblicher Morbidität möglich, valide Langzeitdaten fehlen; eine lebenserhaltende Behandlung soll nur auf **ausdrücklichen Wunsch der Eltern** nach ausführlicher interdisziplinärer Beratung, im vollen Bewusstsein der hohen Risiken und in einem entsprechend qualifizierten Perinatalzentrum erfolgen; die palliative Möglichkeit ist zu erläutern.\n- **23+0 bis 23+6 SSW** (sowie 24+0 bis 24+6 SSW mit < 400 g): Kern der Grauzone, Überlebenschance behandelter Kinder in spezialisierten Zentren über 50 %; lebenserhaltende und palliative Therapie sind gleichrangig, die Entscheidung wird gemeinsam mit den Eltern getroffen, deren Wertvorstellungen zentral sind.\n- **ab 24+0 SSW und ≥ 400 g**: im Regelfall lebenserhaltende Therapie.\nUnabhängig davon ist bei schweren angeborenen oder perinatal erworbenen Gesundheitsstörungen im Konsens mit den Eltern ein palliatives Vorgehen gerechtfertigt. Weil Gestationsalter, Schätzgewicht und Prognose unsicher sind, gilt: gemeinsame Beratung durch Geburtshilfe und Neonatologie, Dokumentation und regelmäßige Neubewertung des Therapieziels nach der Geburt und im Verlauf. (Die österreichische Empfehlung von 2024 hat die Grauzone auf 22+0 bis 23+6 SSW erweitert; in Deutschland gilt bis zur Revision die AWMF-Fassung 2020.)",
+      "keyPoints": [
+        "< 22+0 SSW (bzw. < 23+0 SSW und < 400 g): in der Regel aussichtslos, palliative Begleitung",
+        "22+0–22+6 SSW: lebenserhaltend nur auf ausdrücklichen Elternwunsch nach interdisziplinärer Beratung in qualifiziertem Zentrum",
+        "23+0–23+6 SSW: Grauzone, beide Wege gleichrangig, gemeinsame Entscheidung mit den Eltern",
+        "ab 24+0 SSW und ≥ 400 g: im Regelfall lebenserhaltende Therapie",
+        "Gewichtsgrenze 400 g verschiebt die Korridore; Neubewertung nach der Geburt"
+      ],
+      "tags": ["Grenze der Lebensfähigkeit", "Leitlinie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.4 – Besonderheiten bei extrem unreifen Frühgeborenen",
+          "terms": ["extrem unreife Frühgeborene"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Frühgeborene an der Grenze der Lebensfähigkeit",
+          "terms": ["Grenze der Lebensfähigkeit"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Frühgeborene an der Grenze der Lebensfähigkeit (024-019, Fassung 2020)"
+    },
+    {
+      "id": "ethik-003",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Eine Schwangere mit vorzeitigen Wehen bei **23+2 SSW** (Einling, Lungenreife begonnen, keine Infektzeichen) und ihr Partner entscheiden sich nach ausführlicher gemeinsamer Beratung durch Geburtshilfe und Neonatologie gegen lebenserhaltende Maßnahmen beim Kind. Welche Aussage trifft zu?",
+      "hints": ["Wo liegt 23+2 SSW im Leitlinienkorridor?"],
+      "options": [
+        {
+          "text": "Die Entscheidung ist ethisch und rechtlich vertretbar und sollte respektiert werden; es wird eine palliative Versorgung geplant und die Entscheidung dokumentiert.",
+          "correct": true
+        },
+        {
+          "text": "Die Ärzte sind verpflichtet, das Kind unabhängig vom Elternwillen zu reanimieren, da es lebensfähig sein könnte.",
+          "correct": false
+        },
+        { "text": "Die Entscheidung muss vom Familiengericht genehmigt werden.", "correct": false },
+        {
+          "text": "Die Entscheidung ist bindend und darf nach der Geburt unter keinen Umständen mehr überprüft werden.",
+          "correct": false
+        }
+      ],
+      "answer": "Bei 23+0 bis 23+6 SSW (Gewicht ≥ 400 g) sind lebenserhaltende und palliative Versorgung nach der Leitlinie gleichrangig; die Wertvorstellungen der gut informierten Eltern sind maßgeblich. Eine gerichtliche Genehmigung ist nicht erforderlich. Die Entscheidung wird dokumentiert, eine palliative Begleitung im Kreißsaal geplant; nach der Geburt kann eine Neubewertung erfolgen, wenn sich der Zustand des Kindes unerwartet anders darstellt (z. B. deutlich reifer als angenommen), und wird dann erneut mit den Eltern besprochen.",
+      "keyPoints": [
+        "23+x SSW: Grauzone, beide Wege vertretbar",
+        "Elternwille nach Beratung maßgeblich",
+        "keine gerichtliche Genehmigung nötig",
+        "Dokumentation und Neubewertung nach Geburt möglich"
+      ],
+      "tags": ["Grenze der Lebensfähigkeit", "Elternentscheidung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Frühgeborene an der Grenze der Lebensfähigkeit (024-019, Fassung 2020)"
+    },
+    {
+      "id": "ethik-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden auf den Kreißsaal gerufen, um eine Schwangere bei **23+5 SSW** mit vorzeitigem Blasensprung und ihren Partner pränatal zu beraten. Wie strukturieren Sie dieses **Beratungsgespräch**?",
+      "hints": [
+        "Wer sollte dabei sein, und was muss die Familie am Ende wissen?",
+        "Zahlen, Optionen, Entscheidung, Dokumentation."
+      ],
+      "answer": "Vorbereitung: Informationen zu Gestationsalter, Schätzgewicht, Lungenreife, Infektionszeichen einholen; Gespräch möglichst gemeinsam mit der Geburtshilfe und einer Pflegekraft in ruhigem Raum, mit beiden Eltern und bei Sprachbarriere mit professionellem Dolmetscher (nicht Angehörige). Zunächst erfragen, was die Eltern wissen, welche Werte und Wünsche sie haben. Dann verständlich informieren über Überlebenschancen und Risiken kurz- und langfristiger Beeinträchtigungen (nationale und eigene Daten, in absoluten Zahlen, mit Unsicherheit), über den Ablauf der Erstversorgung bei lebenserhaltender Therapie und über die Möglichkeit palliativer Begleitung. Gemeinsame Entscheidungsfindung (Shared Decision Making), Zeit für Fragen lassen, ggf. Folgegespräch anbieten. Die Entscheidung und die Inhalte werden schriftlich dokumentiert und an das Team kommuniziert; die Eltern wissen, dass Entscheidungen nach der Geburt neu bewertet werden können.",
+      "keyPoints": [
+        "interdisziplinär (Geburtshilfe + Neonatologie), ruhiger Rahmen, Dolmetscher",
+        "Werte und Wünsche der Eltern erfragen",
+        "Chancen und Risiken verständlich mit Unsicherheit, eigene Daten",
+        "Optionen lebenserhaltend vs. palliativ, Shared Decision Making",
+        "Dokumentation, Folgegespräch, Neubewertung nach Geburt"
+      ],
+      "tags": ["Pränatale Beratung", "Gesprächsführung", "Grenze der Lebensfähigkeit"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.4 – Besonderheiten bei extrem unreifen Frühgeborenen",
+          "terms": ["extrem unreife Frühgeborene"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Frühgeborene an der Grenze der Lebensfähigkeit",
+          "terms": ["Grenze der Lebensfähigkeit"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-005",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Schwangere bei **22+4 SSW** (Schätzgewicht 450 g, Zeichen eines Amnioninfektionssyndroms) und ihr Partner fordern nach Ihrer Beratung nachdrücklich „alles zu tun“, was möglich ist. Wie gehen Sie vor?",
+      "hints": [
+        "Wo liegt 22+4 SSW mit 450 g im Leitlinienkorridor – und welche Rolle spielt dort der Elternwunsch?",
+        "Wo liegen die Grenzen dessen, was Eltern einfordern können?"
+      ],
+      "answer": "Nach der AWMF-Leitlinie (Fassung 2020) liegt das Kind (22+4 SSW, Schätzgewicht ≥ 400 g) in dem Bereich, in dem eine lebenserhaltende Behandlung **auf ausdrücklichen Wunsch der Eltern** nach ausführlicher interdisziplinärer Beratung, im vollen Bewusstsein der hohen Risiken und in einem qualifizierten Perinatalzentrum vertretbar ist. Das Amnioninfektionssyndrom (floride Infektion) verschlechtert die Prognose zusätzlich. Vorgehen: Beweggründe und Hoffnungen der Eltern verstehen, gemeinsam mit der Geburtshilfe empathisch und ehrlich beraten (Überlebens- und Morbiditätsrisiken mit Unsicherheit), die palliative Alternative erläutern, ausreichend Zeit lassen. Halten die Eltern an ihrem Wunsch fest, wird er respektiert; dann ist der konsequente Einsatz der verfügbaren Maßnahmen sinnvoll (antenatale Steroide, Erstversorgung durch ein erfahrenes neonatologisches Team, verzögertes Abnabeln), während über Geburtsmodus und schwangerschaftsverlängernde Maßnahmen die Geburtshilfe unter Abwägung der mütterlichen Risiken entscheidet (bei Amnioninfektionssyndrom keine Schwangerschaftsverlängerung). Vereinbart wird, dass das Therapieziel nach der Geburt und im Verlauf anhand des Zustands des Kindes neu bewertet wird. Grenze: Medizinisch nicht (mehr) indizierte, aussichtslose Maßnahmen (z. B. < 22+0 SSW, < 400 g oder bei postnatal erkennbarer Aussichtslosigkeit) können Eltern nicht einfordern. Bei Dissens helfen eine Zweitmeinung und eine ethische Fallberatung; Gespräche und Absprachen werden sorgfältig dokumentiert und dem Kreißsaal- und Intensivteam mitgeteilt.",
+      "keyPoints": [
+        "22+0–22+6 SSW, ≥ 400 g: lebenserhaltende Therapie auf ausdrücklichen Elternwunsch nach Beratung vertretbar (AWMF 2020)",
+        "Amnioninfektionssyndrom als ungünstiger Faktor; ehrliche, empathische Beratung inkl. Palliativoption",
+        "bei fortbestehendem Wunsch konsequente Versorgung, mütterliche Risiken durch Geburtshilfe abwägen",
+        "Neubewertung nach Geburt/im Verlauf; aussichtslose Maßnahmen nicht einforderbar",
+        "Zweitmeinung/Ethikberatung, Dokumentation"
+      ],
+      "tags": ["Grenze der Lebensfähigkeit", "Konflikt mit Eltern", "Indikation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Frühgeborene an der Grenze der Lebensfähigkeit (024-019, Fassung 2020)"
+    },
+    {
+      "id": "ethik-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 24+3 SSW entwickelt am 12. Lebenstag eine fulminante NEC mit Multiorganversagen; die Operation zeigte eine Nekrose des gesamten Dünndarms. Wie gestalten Sie den Prozess einer **Therapiezieländerung**?",
+      "hints": [
+        "Erst Konsens im Team, dann Gespräch mit den Eltern.",
+        "Was wird beendet, was wird fortgeführt oder neu begonnen?"
+      ],
+      "answer": "Zunächst wird im interdisziplinären Team (Neonatologie, Kinderchirurgie, Pflege) die medizinische Situation bewertet: Bei Nekrose des gesamten Dünndarms mit Multiorganversagen ist ein Überleben nicht oder nur mit schwerster Belastung zu erwarten, kurative Therapie ist nicht mehr zielführend. Dann folgt ein geplantes Gespräch mit den Eltern in ruhiger Umgebung, mit ärztlicher und pflegerischer Bezugsperson: Die Lage wird ehrlich erklärt, die Empfehlung zur Änderung des Therapieziels von Heilung zu Linderung begründet, die Eltern werden in die Entscheidung einbezogen, ohne ihnen die alleinige Last aufzubürden. Wichtig ist die Formulierung: Es wird nicht „die Behandlung eingestellt“, sondern das Ziel geändert – Schmerzfreiheit, Atemerleichterung, Nähe der Eltern stehen im Vordergrund. Gemeinsam wird geplant: Verzicht auf Reanimation und Eskalation, Beendigung belastender Maßnahmen (z. B. Beatmung, Katecholamine, Laborentnahmen), Fortführen bzw. Intensivieren der Symptomkontrolle, Zeit, Ort und Begleitung (Känguru, Geschwister, Seelsorge). Die Entscheidung, die Beteiligten und der Plan werden dokumentiert und dem gesamten Team kommuniziert.",
+      "keyPoints": [
+        "Teamkonsens über infauste Prognose",
+        "geplantes Elterngespräch, Eltern einbeziehen ohne Alleinverantwortung",
+        "Therapieziel ändern statt „Behandlung einstellen“",
+        "Verzicht auf Eskalation/Reanimation, Symptomkontrolle, Nähe der Eltern",
+        "Dokumentation und Kommunikation im Team"
+      ],
+      "tags": ["Therapiezieländerung", "Palliativversorgung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nach gemeinsamer Entscheidung mit den Eltern soll bei einem beatmeten Reifgeborenen mit schwerster hypoxisch-ischämischer Enzephalopathie die Beatmung beendet werden (**palliative Extubation**). Wie bereiten Sie diese vor und führen Sie durch?",
+      "hints": [
+        "Denken Sie an Symptomkontrolle, Umgebung und die Begleitung der Eltern.",
+        "Was passiert mit Monitoren, Zugängen und Alarmen?"
+      ],
+      "answer": "Vorbereitung: Zeitpunkt mit den Eltern abstimmen, Angehörige und Seelsorge nach Wunsch einbeziehen, ruhigen, privaten Raum schaffen, ein erfahrenes Team (Arzt und Bezugspflege) bleibt präsent. Den Eltern vorab erklären, was sie erwarten kann: Schnappatmung, Farbveränderungen, eine Dauer von Minuten bis Stunden oder länger. Symptomkontrolle sicherstellen: vorab ausreichende Analgesie und Sedierung, z. B. Morphin als Bolus und ggf. kontinuierlich, ggf. ergänzt durch Midazolam, titriert nach Wirkung; Muskelrelaxanzien müssen vorher abgeklungen sein. Monitore und Alarme ausschalten, nicht benötigte Zugänge und Sonden entfernen, einen Zugang für Medikamente belassen, Tubuspflaster lösen und extubieren, Kind den Eltern in den Arm bzw. auf die Brust geben. Weiter: Symptome wie Atemnot oder Unruhe engmaschig behandeln, Herzschlag nur gelegentlich mit dem Stethoskop prüfen, Erinnerungen ermöglichen. Nach dem Tod: ärztliche Leichenschau, Abschied ohne Zeitdruck, Trauerbegleitung.",
+      "keyPoints": [
+        "Vorbereitung mit Eltern, private Umgebung, Seelsorge nach Wunsch",
+        "Aufklärung über möglichen Verlauf (Schnappatmung, Dauer)",
+        "vorab Analgesie/Sedierung (z. B. Morphin, Midazolam), Relaxanzien abgeklungen",
+        "Monitore/Alarme aus, Kind im Arm der Eltern",
+        "Symptomkontrolle, Leichenschau, Trauerbegleitung"
+      ],
+      "tags": ["Palliative Extubation", "Sterbebegleitung", "Symptomkontrolle"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-008",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes mit Trisomie 18 (2,4 kg) wird palliativ versorgt und zeigt Atemnot und Unruhe. Sie geben **Morphin 0,05 mg/kg i.v.** als Einzeldosis. Die Lösung enthält **0,1 mg/ml**. Wie viele ml ziehen Sie auf?",
+      "hints": ["Dosis = Gewicht × mg/kg", "Volumen = Dosis / Konzentration"],
+      "answer": "Dosis = 2,4 kg · 0,05 mg/kg = 0,12 mg. Volumen = 0,12 mg / 0,1 mg/ml = **1,2 ml**. Die Gabe wird nach Wirkung titriert und bei Bedarf wiederholt; in der Palliativsituation sind auch andere Applikationswege (z. B. bukkal, subkutan) möglich. Dosierungen vor Anwendung mit aktueller Fachinformation und lokalem Standard abgleichen.",
+      "keyPoints": ["Dosis 0,12 mg", "Volumen 1,2 ml", "Titration nach Wirkung"],
+      "solution": { "value": 1.2, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Morphin", "Symptomkontrolle", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-009",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Aussage zur **Begrenzung lebenserhaltender Therapie** bei Neugeborenen in Deutschland trifft zu?",
+      "hints": ["Unterscheiden Sie zwischen Sterbenlassen und gezielter Tötung."],
+      "options": [
+        {
+          "text": "Das Nicht-Beginnen und das Beenden einer nicht mehr indizierten lebenserhaltenden Therapie sind ethisch und rechtlich gleichwertig und zulässig.",
+          "correct": true
+        },
+        {
+          "text": "Eine einmal begonnene Beatmung darf rechtlich nicht mehr beendet werden; zulässig ist nur, sie nicht zu beginnen.",
+          "correct": false
+        },
+        {
+          "text": "Auf ausdrücklichen Wunsch der Eltern darf ein schwerkrankes Neugeborenes durch ein Medikament gezielt getötet werden.",
+          "correct": false
+        },
+        {
+          "text": "Eine Therapiebegrenzung erfordert immer die vorherige Genehmigung durch das Familiengericht.",
+          "correct": false
+        }
+      ],
+      "answer": "Die Beendigung einer Therapie, deren Ziel nicht mehr erreichbar ist oder die dem Willen bzw. dem Wohl des Patienten widerspricht, ist ein zulässiges Sterbenlassen (Behandlungsabbruch) und dem Nicht-Beginnen gleichwertig. Die gezielte Tötung ist dagegen strafbar, auch auf Verlangen. Eine gerichtliche Genehmigung ist bei Einvernehmen zwischen Eltern und Ärzten nicht erforderlich; das Familiengericht wird erst bei Konflikten, die das Kindeswohl gefährden, eingeschaltet.",
+      "keyPoints": [
+        "Nicht-Beginnen und Beenden gleichwertig",
+        "Behandlungsabbruch zulässig, aktive Tötung strafbar",
+        "keine Gerichtsgenehmigung bei Einvernehmen"
+      ],
+      "tags": ["Therapiebegrenzung", "Rechtliche Grundlagen"],
+      "exam": ["KM"],
+      "source": "Grundsätze der Bundesärztekammer zur ärztlichen Sterbebegleitung"
+    },
+    {
+      "id": "ethik-010",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Sie müssen Eltern mitteilen, dass bei ihrem Frühgeborenen eine **beidseitige höhergradige Hirnblutung** aufgetreten ist. Wie gehen Sie beim **Überbringen dieser schlechten Nachricht** vor? Nennen Sie ein strukturiertes Gesprächsmodell.",
+      "hints": ["Ein bekanntes Akronym mit sechs Schritten.", "Setting, Vorwissen, Information, Emotionen, Plan."],
+      "answer": "Bewährt ist das **SPIKES-Modell**: **S**etting – ruhiger Raum, genügend Zeit, Telefon abgeben, beide Eltern, Bezugspflegekraft, ggf. Dolmetscher, Sitzen auf Augenhöhe. **P**erception – erfragen, was die Eltern bereits wissen oder befürchten. **I**nvitation – klären, wie viel Information sie jetzt wünschen. **K**nowledge – Ankündigung („Ich habe leider keine guten Nachrichten“), dann in kleinen Portionen, in klarer Sprache ohne Fachjargon informieren, Pausen lassen. **E**motions – Emotionen wahrnehmen, benennen und aushalten, empathisch reagieren. **S**trategy/Summary – zusammenfassen, nächste Schritte und Folgegespräch vereinbaren, Unterstützung anbieten (Psychologie, Seelsorge). Das Gespräch wird dokumentiert und im Team weitergegeben, damit alle einheitlich kommunizieren.",
+      "keyPoints": [
+        "SPIKES: Setting, Perception, Invitation, Knowledge, Emotions, Strategy",
+        "ruhiger Rahmen, beide Eltern, Pflegekraft, ggf. Dolmetscher",
+        "Ankündigung, klare Sprache, kleine Portionen, Pausen",
+        "Emotionen aufgreifen, Folgegespräch und Unterstützung",
+        "Dokumentation, einheitliche Kommunikation im Team"
+      ],
+      "tags": ["Gesprächsführung", "Schlechte Nachrichten"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "ethik-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Feten wurde in der 22. SSW eine **Trisomie 18** mit komplexem Herzfehler diagnostiziert. Die Eltern möchten die Schwangerschaft fortsetzen und wünschen für ihr Kind eine palliative Begleitung. Was beinhaltet die **perinatale Palliativversorgung**, und wie planen Sie die Geburt?",
+      "hints": [
+        "Ein schriftlicher Plan, der vor der Geburt mit allen Beteiligten abgestimmt ist.",
+        "Was ist zu tun, wenn das Kind länger lebt als erwartet?"
+      ],
+      "answer": "Perinatale Palliativversorgung ist die interdisziplinäre Begleitung der Familie von der Diagnose an: Geburtshilfe, Neonatologie, Hebamme, Pflege, Psychologie, Seelsorge und ggf. das spezialisierte pädiatrische Palliativteam. Die Eltern werden ergebnisoffen über die Prognose (hohe Sterblichkeit in den ersten Lebenstagen bis -monaten, aber erhebliche Variabilität; einzelne Kinder überleben länger mit schwerer Behinderung) und ihre Optionen beraten. Gemeinsam wird ein **schriftlicher Geburts- und Palliativplan** erstellt: Geburtsmodus aus mütterlicher Indikation (in der Regel kein Kaiserschnitt aus kindlicher Indikation), keine CTG-gesteuerte Notsectio, Verzicht auf Reanimation und Intensivmaßnahmen, Wärme, Haut-zu-Haut-Kontakt, Stillen oder Füttern nach Wunsch, Symptomkontrolle (Analgesie, Atemnot), Rituale (Segnung/Taufe), Erinnerungen. Festgelegt wird auch, wer bei der Geburt dabei ist und wie verfahren wird, wenn das Kind länger lebt: Ernährung, Verlegung auf die Wochenstation oder nach Hause mit SAPV bzw. Kinderhospiz. Der Plan wird allen Beteiligten zugänglich gemacht und kann jederzeit angepasst werden.",
+      "keyPoints": [
+        "interdisziplinäre Begleitung ab Diagnose",
+        "ehrliche, ergebnisoffene Beratung zur Prognose",
+        "schriftlicher Geburts- und Palliativplan (Geburtsmodus, Verzicht auf Reanimation, Komfort)",
+        "Plan für längeres Überleben (Ernährung, Heimversorgung, SAPV/Hospiz)",
+        "Erinnerungen, Rituale, Anpassbarkeit"
+      ],
+      "tags": ["Perinatale Palliativversorgung", "Trisomie 18"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes ist auf Ihrer Station verstorben. Wie gestalten Sie die **Trauerbegleitung der Eltern** in den ersten Stunden und in den Wochen danach?",
+      "hints": ["Abschied, Erinnerungen, Formalitäten.", "Ein späteres Gespräch ist fester Bestandteil."],
+      "answer": "Unmittelbar: Abschied ohne Zeitdruck in ruhigem Raum ermöglichen, das Kind halten, waschen und anziehen lassen, Geschwister und Angehörige einbeziehen, Seelsorge bzw. religiöse Rituale nach Wunsch. Erinnerungen schaffen: Fotos, Hand- und Fußabdrücke, Haarlocke, Namensbändchen, Kleidung. Formales verständlich erklären: Leichenschau und Todesbescheinigung, Anzeige beim Standesamt, Bestattung (Bestatter, auch Sternenkinder-Grabfelder), Angebot einer Obduktion mit Erläuterung ihres Nutzens. Für die Mutter: Hebammenbetreuung, Besprechung von Abstillen oder Muttermilchspende, Hinweise zu Mutterschutz und sozialrechtlichen Fragen. Später: ein **Nachgespräch** nach einigen Wochen (mit Obduktions- und Laborbefunden, Bedeutung für weitere Schwangerschaften, ggf. genetische Beratung), Hinweis auf Selbsthilfegruppen, Trauerbegleitung und psychotherapeutische Hilfe; den Kinderarzt bzw. Frauenarzt informieren. Auch das Team braucht Raum für Trauer und Nachbesprechung.",
+      "keyPoints": [
+        "Abschied ohne Zeitdruck, Rituale, Seelsorge",
+        "Erinnerungen (Fotos, Abdrücke)",
+        "Formalitäten: Leichenschau, Standesamt, Bestattung, Obduktion anbieten",
+        "Versorgung der Mutter (Hebamme, Abstillen)",
+        "Nachgespräch nach Wochen, Selbsthilfe, Teamnachsorge"
+      ],
+      "tags": ["Trauerbegleitung", "Sterbebegleitung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-013",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Kind wird mit **21+5 SSW** und **420 g** geboren. Es atmet nicht, aber über etwa 20 Minuten ist ein Herzschlag sichtbar. Wie ist dies **personenstandsrechtlich** einzuordnen?",
+      "hints": ["Das Personenstandsrecht nennt drei Lebenszeichen.", "Gewicht und Gestationsalter spielen dann keine Rolle."],
+      "options": [
+        {
+          "text": "Lebendgeburt – Geburt und Tod müssen beim Standesamt angezeigt werden, eine ärztliche Leichenschau mit Todesbescheinigung ist erforderlich.",
+          "correct": true
+        },
+        {
+          "text": "Fehlgeburt, da das Gewicht unter 500 g und das Gestationsalter unter 24 SSW liegt.",
+          "correct": false
+        },
+        { "text": "Totgeburt, da keine Lungenatmung eingesetzt hat.", "correct": false },
+        { "text": "Lebendgeburt nur dann, wenn das Kind mindestens eine Stunde gelebt hat.", "correct": false }
+      ],
+      "answer": "Eine Lebendgeburt liegt nach der Personenstandsverordnung vor, wenn nach der Scheidung vom Mutterleib das Herz geschlagen, die Nabelschnur pulsiert oder die natürliche Lungenatmung eingesetzt hat – unabhängig von Gewicht und Gestationsalter. Damit sind Geburt und Tod beim Standesamt anzuzeigen, eine Leichenschau mit Todesbescheinigung ist durchzuführen, und es besteht Bestattungspflicht nach Landesrecht. Die Grenzen (Gewicht ≥ 500 g oder Erreichen der 24. SSW, § 31 Abs. 2 PStV) unterscheiden nur bei fehlenden Lebenszeichen zwischen Totgeburt und Fehlgeburt; eine Fehlgeburt wird nicht beurkundet, kann aber auf Wunsch der Eltern dem Standesamt angezeigt werden (Bescheinigung).",
+      "keyPoints": [
+        "Lebenszeichen: Herzschlag, Nabelschnurpulsation oder Lungenatmung",
+        "unabhängig von Gewicht und Gestationsalter",
+        "Anzeige von Geburt und Tod, Leichenschau, Bestattungspflicht"
+      ],
+      "tags": ["Personenstandsrecht", "Lebendgeburt", "Rechtliche Grundlagen"],
+      "exam": ["KM"],
+      "source": "Personenstandsverordnung (§ 31 PStV)"
+    },
+    {
+      "id": "ethik-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann ist eine **ethische Fallbesprechung** auf der Neonatologie sinnvoll, wie läuft sie ab, und welchen Stellenwert hat ihr Ergebnis?",
+      "hints": [
+        "Ein bekanntes strukturiertes Verfahren stammt aus den Niederlanden.",
+        "Wer trifft am Ende die Entscheidung?"
+      ],
+      "answer": "Sinnvoll ist sie bei Unsicherheit oder Dissens über das Therapieziel, z. B. bei fraglicher Fortführung intensivmedizinischer Maßnahmen, Konflikten zwischen Eltern und Team oder innerhalb des Teams, Behandlungswünschen gegen ärztlichen Rat oder vor schwerwiegenden Eingriffen bei schlechter Prognose. Teilnehmer sind die beteiligten Ärzte und Pflegenden, ggf. weitere Fachdisziplinen, Psychologie und Seelsorge, moderiert von einer in Ethikberatung geschulten Person; die Eltern können je nach Modell einbezogen werden. Der Ablauf folgt einer Struktur (z. B. Nimwegener Methode): Problem benennen, medizinische Fakten und Prognose, pflegerische Sicht, Wille und Werte der Eltern bzw. mutmaßliches Kindeswohl, ethische Bewertung von Handlungsoptionen (Wohltun, Nichtschaden, Autonomie, Gerechtigkeit), Empfehlung. Das Ergebnis ist eine **Empfehlung**, die dokumentiert wird; die Verantwortung für die Entscheidung bleibt bei den behandelnden Ärzten und den sorgeberechtigten Eltern.",
+      "keyPoints": [
+        "Anlässe: Unsicherheit/Dissens über Therapieziel, Konflikte",
+        "interdisziplinäre Teilnehmer, geschulte Moderation",
+        "strukturiertes Vorgehen (z. B. Nimwegener Methode), ethische Prinzipien",
+        "Ergebnis ist Empfehlung, Entscheidung bei Ärzten und Eltern",
+        "Dokumentation"
+      ],
+      "tags": ["Ethikberatung", "Fallbesprechung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-015",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes der 24+1 SSW ist jetzt 5 Monate alt und weiterhin invasiv beatmet (schwere BPD mit pulmonaler Hypertonie). Die Eltern wünschen eine Tracheotomie und Heimbeatmung. Mehrere Pflegende äußern, das Kind leide und man „verlängere nur das Sterben“. Wie gehen Sie mit diesem **Dissens im Team** um?",
+      "hints": [
+        "Moralischer Stress im Team ist ernst zu nehmen.",
+        "Ist die gewünschte Therapie medizinisch indiziert? Wer entscheidet?"
+      ],
+      "answer": "Die Sorgen des Teams werden ernst genommen und nicht abgetan; moralischer Stress ist ein relevantes Problem für die Versorgungsqualität. Zunächst wird die medizinische Faktenlage interdisziplinär geklärt (Neonatologie, Kinderpneumologie, Kinderkardiologie, Pflege): realistische Prognose, Belastung durch Symptome, Chancen auf Entwöhnung, Lebensqualität mit Heimbeatmung. Ist die Tracheotomie mit Heimbeatmung eine medizinisch vertretbare Option, liegt die Entscheidung im Rahmen des Kindeswohls bei den informierten Eltern; die Bewertung des Teams darf dann nicht gegen sie ausgespielt werden. Strukturiert hilft eine ethische Fallbesprechung mit allen Berufsgruppen, deren Ergebnis transparent gemacht wird. Gegenüber den Eltern wird mit einer Stimme kommuniziert, Symptomkontrolle (Analgesie, Sedierung, Pflege) wird optimiert, palliative Expertise kann parallel zur kurativen Therapie eingebunden werden. Für das Team: Raum für Gespräche, Supervision, Debriefings, ggf. Wechsel der Bezugspflege.",
+      "keyPoints": [
+        "moralischen Stress des Teams anerkennen",
+        "interdisziplinäre Klärung von Prognose und Indikation",
+        "bei vertretbarer Option entscheiden die informierten Eltern",
+        "ethische Fallbesprechung, einheitliche Kommunikation",
+        "Symptomkontrolle, parallele Palliativversorgung, Unterstützung des Teams"
+      ],
+      "tags": ["Teamkonflikt", "Moralischer Stress", "Ethikberatung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 27 SSW hat am 3. Lebenstag einen Hb von 7,5 g/dl mit Kreislaufinstabilität; eine Transfusion ist indiziert. Die Eltern sind **Zeugen Jehovas** und lehnen die Bluttransfusion ab. Wie gehen Sie vor?",
+      "hints": [
+        "Unterscheiden Sie zwischen Notfall und planbarer Situation.",
+        "Welche Paragraphen des BGB regeln Eingriffe in das Sorgerecht?"
+      ],
+      "answer": "Zunächst die Haltung der Eltern respektvoll erfragen und erklären, warum die Transfusion medizinisch nötig ist; klären, welche Alternativen und Blutbestandteile sie ggf. akzeptieren. Parallel alle blutsparenden Maßnahmen nutzen (minimale Blutentnahmen, Mikromethoden, Eisen, ggf. Erythropoetin), soweit sinnvoll. Die Eltern dürfen ihr Sorgerecht nicht so ausüben, dass das Kindeswohl gefährdet ist: Ist die Transfusion lebensnotwendig und duldet keinen Aufschub, wird im **Notfall** transfundiert (rechtfertigender Notstand, Kindeswohl). Ist Zeit, wird das **Familiengericht** angerufen, das nach § 1666 BGB die Einwilligung ersetzen bzw. einen Ergänzungspfleger für die Gesundheitssorge bestellen kann; dies ist auch telefonisch im Eilverfahren möglich. Die Eltern werden über diesen Schritt transparent informiert, das Vertrauensverhältnis soll möglichst erhalten bleiben. Alles wird sorgfältig dokumentiert.",
+      "keyPoints": [
+        "respektvolles Gespräch, akzeptierte Alternativen klären",
+        "blutsparende Strategien",
+        "Notfall: Transfusion zum Wohl des Kindes",
+        "planbar: Familiengericht (§ 1666 BGB), Eilentscheidung möglich",
+        "Transparenz gegenüber Eltern, Dokumentation"
+      ],
+      "tags": ["Bluttransfusion", "Sorgerecht", "Rechtliche Grundlagen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-017",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes mit Duodenalatresie soll operiert werden. Die Eltern sind **nicht miteinander verheiratet**, der Vater hat die Vaterschaft anerkannt, eine **Sorgeerklärung wurde nicht abgegeben**. Wer muss in die Operation einwilligen?",
+      "hints": ["§ 1626a BGB"],
+      "options": [
+        {
+          "text": "Die Mutter allein, da sie ohne Sorgeerklärung die alleinige elterliche Sorge hat.",
+          "correct": true
+        },
+        { "text": "Beide Eltern gemeinsam, da die Vaterschaft anerkannt ist.", "correct": false },
+        {
+          "text": "Der Vater allein, wenn die Mutter nach der Geburt noch nicht einwilligungsfähig ist.",
+          "correct": false
+        },
+        { "text": "Das Jugendamt als Amtsvormund.", "correct": false }
+      ],
+      "answer": "Sind die Eltern bei der Geburt nicht verheiratet, steht die elterliche Sorge der Mutter allein zu, solange keine Sorgeerklärungen abgegeben wurden, die Eltern nicht heiraten oder das Familiengericht die gemeinsame Sorge überträgt (§ 1626a BGB). Die Vaterschaftsanerkennung allein begründet kein Sorgerecht. Selbstverständlich wird der Vater, wenn die Mutter einverstanden ist, in die Aufklärung einbezogen. Ist die Mutter vorübergehend nicht einwilligungsfähig und die Operation dringlich, gilt der mutmaßliche Wille bzw. das Kindeswohl.",
+      "keyPoints": [
+        "nicht verheiratet ohne Sorgeerklärung: alleinige Sorge der Mutter",
+        "Vaterschaftsanerkennung begründet kein Sorgerecht",
+        "§ 1626a BGB"
+      ],
+      "tags": ["Sorgerecht", "Einwilligung", "Rechtliche Grundlagen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "§ 1626a BGB"
+    },
+    {
+      "id": "ethik-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes mit Abstinenzsyndrom liegt seit 10 Tagen auf Ihrer Station. Die Mutter (Beikonsum trotz Substitution) besucht selten, erscheint zweimal deutlich intoxikiert und zeigt wenig Interesse an der Versorgung. Wie gehen Sie bei Verdacht auf eine **Kindeswohlgefährdung** vor?",
+      "hints": [
+        "Das Gesetz zur Kooperation und Information im Kinderschutz (KKG) regelt die Befugnisse von Ärztinnen und Ärzten.",
+        "Wen können Sie vorab beraten, ohne Namen zu nennen?"
+      ],
+      "answer": "Beobachtungen sachlich und zeitnah dokumentieren, die Kinderschutzgruppe bzw. den Sozialdienst der Klinik einbeziehen. Nach § 4 KKG soll bei gewichtigen Anhaltspunkten zunächst mit der Mutter (und ggf. dem Vater) die Situation erörtert und auf die Inanspruchnahme von Hilfen hingewirkt werden, sofern dadurch der Schutz des Kindes nicht gefährdet wird. Zur Einschätzung besteht ein Anspruch auf Beratung durch eine **insoweit erfahrene Fachkraft** (pseudonymisiert). Ist ein Tätigwerden des Jugendamts erforderlich, um die Gefährdung abzuwenden, sind Ärzte befugt, das **Jugendamt** zu informieren und die nötigen Daten mitzuteilen; die Eltern werden vorab darauf hingewiesen, es sei denn, dies gefährdet den wirksamen Schutz des Kindes. Schätzen Ärzte die Gefahr als dringend ein, sollen sie das Jugendamt unverzüglich informieren (§ 4 Abs. 3 Satz 3 KKG); das Jugendamt soll ihnen zeitnah eine Rückmeldung geben (§ 4 Abs. 4 KKG). Eine Entlassung erfolgt erst, wenn gemeinsam mit dem Jugendamt ein tragfähiger Schutz- bzw. Hilfeplan besteht (z. B. Unterstützung zu Hause, Mutter-Kind-Einrichtung, Pflegefamilie); bei akuter Gefahr kann das Jugendamt das Kind in Obhut nehmen. Parallel: weiterhin wertschätzender Umgang mit der Mutter, Suchtberatung, Frühe Hilfen.",
+      "keyPoints": [
+        "Dokumentation, Kinderschutzgruppe/Sozialdienst",
+        "§ 4 KKG: Gespräch mit Eltern, Hinwirken auf Hilfen",
+        "Beratung durch insoweit erfahrene Fachkraft (pseudonymisiert)",
+        "Befugnis zur Information des Jugendamts, bei dringender Gefahr unverzüglich",
+        "Entlassung nur mit Schutz-/Hilfeplan, ggf. Inobhutnahme"
+      ],
+      "tags": ["Kindeswohlgefährdung", "Kinderschutz", "Abstinenzsyndrom"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ],
+      "source": "§ 4 KKG; AWMF S3+ Kinderschutzleitlinie"
+    },
+    {
+      "id": "ethik-019",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Was versteht man unter **familienzentrierter Versorgung** auf einer neonatologischen Intensivstation? Nennen Sie konkrete Elemente und deren Nutzen.",
+      "hints": ["Eltern sind keine Besucher.", "Känguru-Pflege ist nur ein Element."],
+      "answer": "Familienzentrierte Versorgung versteht die Eltern als wichtigste Bezugspersonen und Partner im Behandlungsteam, nicht als Besucher. Elemente sind uneingeschränkter Zugang rund um die Uhr, Känguru-Pflege (Haut-zu-Haut-Kontakt) so früh und lange wie möglich, aktive Beteiligung der Eltern an Pflege, Ernährung und Visiten, Förderung von Muttermilchernährung und Stillen, Anleitung und Schulung (z. B. Family Integrated Care), Rückzugs- und Übernachtungsmöglichkeiten bzw. Eltern-Kind-Zimmer, psychosoziale Unterstützung sowie Einbeziehung der Geschwister. Entwicklungsfördernde Pflege (z. B. NIDCAP-orientiert) mit Reduktion von Lärm, Licht und Stress gehört dazu. Nutzen: bessere Eltern-Kind-Bindung, weniger elterlicher Stress und Depressivität, höhere Stillraten, bessere Gewichtszunahme, größere Sicherheit der Eltern bei Entlassung und teilweise kürzere Liegedauer.",
+      "keyPoints": [
+        "Eltern als Partner, Zugang rund um die Uhr",
+        "Känguru-Pflege, Beteiligung an Pflege und Visite",
+        "Stillförderung, Elternschulung (z. B. Family Integrated Care)",
+        "entwicklungsfördernde Pflege, psychosoziale Unterstützung",
+        "Nutzen: Bindung, weniger Stress, Stillen, sichere Entlassung"
+      ],
+      "tags": ["Familienzentrierte Versorgung", "Känguru-Pflege"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "ethik-020",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Bei einem sterbenden Neugeborenen nach Therapiezieländerung bestehen trotz Morphin weiterhin Atemnot und Unruhe. Eine Pflegekraft fragt, ob eine weitere Dosissteigerung nicht „das Sterben beschleunigen“ könnte. Welche Aussage trifft zu?",
+      "hints": ["Entscheidend ist die Absicht und die Angemessenheit der Dosis."],
+      "options": [
+        {
+          "text": "Eine nach Wirkung titrierte Dosissteigerung zur Linderung von Symptomen ist zulässig und geboten, auch wenn eine Lebensverkürzung als nicht beabsichtigte Nebenwirkung nicht ausgeschlossen werden kann.",
+          "correct": true
+        },
+        {
+          "text": "Opioide dürfen in der Sterbephase nicht über die übliche Analgesiedosis hinaus gesteigert werden, da dies strafbare aktive Sterbehilfe wäre.",
+          "correct": false
+        },
+        {
+          "text": "Eine hohe Einzeldosis mit dem Ziel, den Tod rasch herbeizuführen, ist zulässig, wenn die Eltern zustimmen.",
+          "correct": false
+        },
+        {
+          "text": "Statt Opioiden sollen Muskelrelaxanzien gegeben werden, um die sichtbare Atemnot zu unterdrücken.",
+          "correct": false
+        }
+      ],
+      "answer": "Nach dem Prinzip der Doppelwirkung ist eine Symptomkontrolle mit angemessen titrierten Opioiden und Sedativa ethisch und rechtlich zulässig, auch wenn eine Lebensverkürzung als unbeabsichtigte Nebenfolge möglich ist (sog. indirekte Sterbehilfe). Unzulässig ist die gezielte Tötung, z. B. durch eine bewusst überhöhte Dosis mit Tötungsabsicht. Muskelrelaxanzien beseitigen keine Atemnot, sondern nur deren Ausdruck und sind in dieser Situation nicht indiziert. Indikation, Dosierung und Wirkung werden dokumentiert.",
+      "keyPoints": [
+        "Prinzip der Doppelwirkung",
+        "titrierte Symptomkontrolle zulässig und geboten",
+        "keine Tötungsabsicht, keine Muskelrelaxanzien",
+        "Dokumentation von Indikation und Dosis"
+      ],
+      "tags": ["Symptomkontrolle", "Doppelwirkung", "Sterbebegleitung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "Grundsätze der Bundesärztekammer zur ärztlichen Sterbebegleitung"
+    },
+    {
+      "id": "ethik-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 25+0 SSW, beatmet, zeigt am 3. Lebenstag sonographisch eine **IVH Grad 3 rechts mit ausgedehntem periventrikulärem hämorrhagischem Infarkt** und eine IVH Grad 2 links. Die Eltern fragen: „Wird unser Kind behindert sein?“ Wie führen Sie dieses Gespräch, und welche Optionen besprechen Sie?",
+      "hints": [
+        "Wie gehen Sie mit prognostischer Unsicherheit um?",
+        "Ist eine Therapiezieländerung hier eine legitime Option – und wer entscheidet?"
+      ],
+      "answer": "Ehrlich, aber ohne falsche Gewissheit: Ein ausgedehnter einseitiger periventrikulärer hämorrhagischer Infarkt geht mit einem hohen Risiko für eine Zerebralparese, typischerweise eine kontralaterale (hier linksseitige) spastische Hemiparese, einher; viele Kinder lernen dennoch zu laufen, die kognitive Entwicklung ist sehr variabel. Zusätzlich drohen ein posthämorrhagischer Hydrozephalus und die übrigen Risiken der extremen Frühgeburt. Ich würde Bandbreiten statt Einzelprognosen nennen, erklären, dass weitere Verlaufsbefunde (Sonographie-Verlauf, MRT zum Termin) die Einschätzung präzisieren, und nachfragen, was für die Eltern wichtig ist. Optionen: Fortführung der Intensivtherapie mit umfassender Förderung oder – angesichts der Schwere der Hirnschädigung zusammen mit der Unreife – eine Therapiezieländerung; bei diesem Befund sind beide Wege ethisch vertretbar, die Entscheidung wird gemeinsam mit den informierten Eltern getroffen (Shared Decision Making), ohne Zeitdruck, mit Folgegesprächen. Das Gespräch wird im Team vorbereitet, gemeinsam mit der Bezugspflege geführt und dokumentiert.",
+      "keyPoints": [
+        "ehrliche Prognose mit Unsicherheit und Bandbreiten",
+        "einseitiger PVHI: hohes Risiko kontralateraler Hemiparese, Kognition variabel",
+        "Verlauf (Hydrozephalus, MRT zum Termin) präzisiert Prognose",
+        "Optionen: Fortführung vs. Therapiezieländerung – beide vertretbar",
+        "Shared Decision Making, Folgegespräche, Dokumentation"
+      ],
+      "tags": ["Prognosegespräch", "Hirnblutung", "Therapiezieländerung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "ethik-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Säugling mit einer lebenslimitierenden Erkrankung (Trisomie 13 mit alobärer Holoprosenzephalie; die Eltern haben sich nach Beratung für eine rein palliative Versorgung entschieden) soll palliativ **nach Hause entlassen** werden. Welche Strukturen und Vorbereitungen sind erforderlich?",
+      "hints": [
+        "Es gibt eine spezialisierte ambulante Versorgungsform nach § 37b SGB V.",
+        "Was passiert, wenn die Eltern nachts den Rettungsdienst rufen?"
+      ],
+      "answer": "Zentral ist die **spezialisierte ambulante pädiatrische Palliativversorgung (SAPV für Kinder und Jugendliche, § 37b SGB V)**: ein multiprofessionelles Team mit 24-Stunden-Rufbereitschaft, das Symptomkontrolle (Atemnot, Sekret, Unruhe, Schmerzen), Pflege und Krisenintervention zu Hause übernimmt; verordnet wird sie vor der Entlassung. Weitere Bausteine: Kinder- und Jugendarzt, ambulanter Kinderpflegedienst, ambulanter Kinderhospizdienst und stationäres Kinderhospiz zur Entlastung, Hilfsmittel (z. B. Absaugung, Sauerstoff, Ernährungssonde bei Bedarf), Bedarfsmedikation mit schriftlichem Plan. Wichtig ist ein **Notfall- bzw. Palliativplan** mit dokumentiertem Verzicht auf Reanimation und Intensivtherapie, den die Eltern bei sich haben und der dem Rettungsdienst vorgelegt werden kann, sowie klare Ansprechpartner. Die Eltern werden geschult, psychosozial begleitet, Pflegegrad und sozialrechtliche Ansprüche werden geklärt, Geschwister einbezogen. Der Plan wird regelmäßig an die Wünsche der Familie angepasst.",
+      "keyPoints": [
+        "SAPV für Kinder (§ 37b SGB V) mit 24-h-Erreichbarkeit",
+        "Kinderarzt, Pflegedienst, Kinderhospizdienst/-hospiz",
+        "Hilfsmittel und Bedarfsmedikation mit Plan",
+        "Notfall-/Palliativplan mit Reanimationsverzicht für den Rettungsdienst",
+        "Elternschulung, psychosoziale und sozialrechtliche Unterstützung"
+      ],
+      "tags": ["Palliativversorgung", "SAPV", "Entlassung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "§ 37b SGB V"
+    }
+  ]
+}

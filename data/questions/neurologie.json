@@ -1,0 +1,930 @@
+{
+  "area": "neurologie",
+  "questions": [
+    {
+      "id": "neuro-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie die **Sarnat-Stadien** der hypoxisch-ischämischen Enzephalopathie (HIE) beim reifen Neugeborenen und ihre prognostische Bedeutung.",
+      "hints": [
+        "Drei Stadien: leicht, mittelschwer, schwer.",
+        "Achten Sie auf Bewusstseinslage, Muskeltonus, Reflexe, autonome Funktionen und Krampfanfälle."
+      ],
+      "answer": "**Stadium I (leicht):** übererregbar, hyperalert, normaler bis erhöhter Tonus, gesteigerte Reflexe, Mydriasis, sympathikotone Zeichen (Tachykardie), keine Anfälle, EEG normal; Dauer meist < 24 h, Prognose gut.\n**Stadium II (mittelschwer):** Lethargie, Hypotonie, schwacher Saug- und Moro-Reflex, Miosis, parasympathikotone Zeichen (Bradykardie, vermehrte Sekretion), häufig Krampfanfälle, EEG niedrigamplitudig/diskontinuierlich; Prognose ohne Behandlung bei einem relevanten Teil ungünstig.\n**Stadium III (schwer):** Stupor/Koma, schlaffer Tonus, erloschene Primitivreflexe, Pupillen schlecht reagibel, Atem- und Kreislaufinsuffizienz, EEG Burst-Suppression oder isoelektrisch; hohe Mortalität bzw. schwere Behinderung.\nDie Einteilung ist dynamisch (Verlauf über Tage) und wird in den Hypothermie-Studien in modifizierter Form (6 Kategorien, NICHD) zur Indikationsstellung genutzt.",
+      "keyPoints": [
+        "Stadium I: hyperalert, Sympathikotonus, keine Anfälle, gute Prognose",
+        "Stadium II: Lethargie, Hypotonie, Miosis, Anfälle häufig",
+        "Stadium III: Koma, schlaff, Reflexe erloschen, Burst-Suppression/isoelektrisch",
+        "Prognose verschlechtert sich mit Stadium; Einstufung ist dynamisch"
+      ],
+      "tags": ["HIE", "Sarnat"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **Pathophysiologie der hypoxisch-ischämischen Hirnschädigung** in Phasen (primäres und sekundäres Energieversagen) und begründen Sie daraus das therapeutische Fenster der Hypothermie.",
+      "hints": [
+        "Nach der Reperfusion erholt sich der Energiestoffwechsel zunächst teilweise.",
+        "Was passiert in der Latenzphase und was danach?"
+      ],
+      "answer": "Während der Hypoxie-Ischämie kommt es zum **primären Energieversagen**: ATP-Mangel, Ausfall der Ionenpumpen, Depolarisation, zytotoxisches Ödem, Glutamatfreisetzung (Exzitotoxizität), Kalziumeinstrom und primäre Nekrose. Nach Reperfusion folgt eine **Latenzphase** von etwa 6 Stunden mit teilweiser Erholung des oxidativen Stoffwechsels. Danach setzt das **sekundäre Energieversagen** ein (ca. 6–72 h): mitochondriale Dysfunktion, freie Radikale, Stickstoffmonoxid, Inflammation, Krampfanfälle und vor allem verzögerter apoptotischer Zelltod. Eine **tertiäre Phase** mit anhaltender Inflammation und gestörter Reparatur kann Wochen bis Monate dauern. Die Hypothermie wirkt in der Latenzphase, indem sie Stoffwechselrate, Exzitotoxizität, Radikalbildung und Apoptose reduziert – deshalb Beginn innerhalb von 6 Lebensstunden, und je früher, desto besser.",
+      "keyPoints": [
+        "Primäres Energieversagen: ATP-Mangel, Exzitotoxizität, Nekrose",
+        "Latenzphase ca. 6 h = therapeutisches Fenster",
+        "Sekundäres Energieversagen 6–72 h mit Apoptose, Radikalen, Inflammation",
+        "Tertiäre Phase (Wochen bis Monate)",
+        "Hypothermie hemmt sekundären Schaden – Beginn < 6 h, möglichst früh"
+      ],
+      "tags": ["HIE", "Pathophysiologie", "Hypothermie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden in eine Geburtsklinik ohne Kinderklinik gerufen: Reifes Neugeborenes **39+2 SSW, 3400 g**, Notsectio wegen prolongierter Bradykardie. APGAR 1/3/5, Nabelarterien-pH 6,88, BE −19 mmol/l. Nach 45 Minuten atmet das Kind unter CPAP spontan, ist **lethargisch, hypoton, saugt schwach**, die Pupillen sind eng. Erfüllt das Kind die Kriterien für eine **therapeutische Hypothermie**? Begründen Sie anhand der Leitlinienkriterien.",
+      "hints": [
+        "Die Kriterien sind in Gruppen (A, B, ggf. C) gegliedert.",
+        "A = Hinweise auf perinatale Asphyxie, B = Enzephalopathie, C = aEEG."
+      ],
+      "answer": "Ja. Voraussetzungen: **Gestationsalter ≥ 36+0 SSW** und Beginn **innerhalb von 6 Lebensstunden**.\n**A-Kriterien (Asphyxie, mindestens eines):** APGAR ≤ 5 nach 10 min, fortgesetzte Reanimation/Beatmung nach 10 min, pH < 7,0 oder Basendefizit ≥ 16 mmol/l (je nach Protokoll ≥ 15 mmol/l) in Nabelschnur- oder kindlicher Blutprobe innerhalb der ersten 60 min – hier mehrfach erfüllt (APGAR 5 nach 10 min, pH 6,88, BE −19).\n**B-Kriterien (mittelschwere bis schwere Enzephalopathie):** veränderte Bewusstseinslage (Lethargie, Stupor, Koma) plus mindestens eines von Hypotonie, abnormen Reflexen inkl. Pupillen-/Okulomotorikauffälligkeiten, schwachem/fehlendem Saugen oder klinischen Anfällen – hier erfüllt (Lethargie, Hypotonie, schwaches Saugen, Miosis = Sarnat II).\n**C-Kriterium (aEEG, Ableitung über mindestens 30 min):** mäßig oder schwer pathologische Hintergrundaktivität oder Anfälle. Die Kombination ist protokollabhängig: TOBY forderte A + B + C, das Deutsche Hypothermie-Register A + (B oder C); die AWMF-Leitlinie (Fassung 2013) ist abgelaufen und wird überarbeitet. Das aEEG darf den Beginn der Kühlung nicht verzögern.\nKonsequenz: sofort Kontakt mit dem Kühlzentrum, Verlegung organisieren, Überwärmung vermeiden, passive Kühlung nur mit kontinuierlicher Kerntemperaturmessung.",
+      "keyPoints": [
+        "GA ≥ 36 SSW, Beginn < 6 h",
+        "A-Kriterien: APGAR ≤ 5 nach 10 min, Reanimation nach 10 min, pH < 7,0 oder BE ≥ 16 mmol/l in 60 min",
+        "B-Kriterien: mittelschwere/schwere Enzephalopathie (Bewusstsein + Tonus/Reflexe/Saugen/Anfälle)",
+        "aEEG (≥ 30 min) als C-Kriterium, Kombination protokollabhängig; darf Beginn nicht verzögern",
+        "Sofort Verlegung ins Kühlzentrum organisieren"
+      ],
+      "tags": ["Hypothermie", "Indikation", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-023 Behandlung der neonatalen Asphyxie unter besonderer Berücksichtigung der therapeutischen Hypothermie (Fassung 2013, Gültigkeit abgelaufen, in Überarbeitung)"
+    },
+    {
+      "id": "neuro-004",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Bis zu welchem Zeitpunkt soll eine **therapeutische Hypothermie** bei mittelschwerer bis schwerer HIE eines reifen Neugeborenen laut Leitlinie spätestens begonnen werden?",
+      "hints": ["Denken Sie an die Latenzphase vor dem sekundären Energieversagen."],
+      "options": [
+        { "text": "Innerhalb der ersten 2 Lebensstunden, danach ist sie wirkungslos", "correct": false },
+        { "text": "Innerhalb der ersten 6 Lebensstunden, möglichst früher", "correct": true },
+        { "text": "Innerhalb der ersten 12 Lebensstunden", "correct": false },
+        { "text": "Innerhalb der ersten 24 Lebensstunden mit gleicher Wirksamkeit", "correct": false }
+      ],
+      "answer": "Die Hypothermie soll **innerhalb von 6 Lebensstunden** begonnen werden; das entspricht dem Einschlusskriterium der großen Studien und der Latenzphase vor dem sekundären Energieversagen. Ein früherer Beginn ist mit besserem Ergebnis assoziiert, deshalb keine Verzögerung durch Diagnostik. Ein später Beginn (6–24 h) wurde in einer NICHD-Studie untersucht; der Nutzen ist unsicher und kein Standard.",
+      "keyPoints": [
+        "Beginn innerhalb von 6 Lebensstunden",
+        "Je früher, desto besser",
+        "Später Beginn (6–24 h): Nutzen unsicher, kein Standard"
+      ],
+      "tags": ["Hypothermie", "Zeitfenster"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-023 Behandlung der neonatalen Asphyxie unter besonderer Berücksichtigung der therapeutischen Hypothermie (Fassung 2013, Gültigkeit abgelaufen, in Überarbeitung)"
+    },
+    {
+      "id": "neuro-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **praktische Durchführung der therapeutischen Hypothermie** auf Ihrer Intensivstation: Zieltemperatur, Messung, Dauer, Wiedererwärmung und Monitoring.",
+      "hints": ["Ganzkörperkühlung mit servokontrolliertem Gerät.", "Wie schnell darf wiedererwärmt werden?"],
+      "answer": "**Ganzkörperhypothermie** mit servokontrolliertem Kühlsystem (Matte/Wickel), **Zielkerntemperatur 33,5 °C (33–34 °C)**, kontinuierlich gemessen über rektale (oder ösophageale) Sonde; Hauttemperatur und Gerätewassertemperatur mitdokumentieren. **Dauer 72 Stunden** (ob ab Kühlbeginn oder ab Erreichen der Zieltemperatur gezählt wird, legt das Zentrumsprotokoll fest). **Wiedererwärmung langsam, höchstens 0,5 °C pro Stunde** (wie in den großen Studien; manche Zentren langsamer) bis 36,5–37 °C, danach **Hyperthermie strikt vermeiden**. Monitoring: kontinuierliches **aEEG** (am besten ab Aufnahme bis nach der Wiedererwärmung), EKG, invasive Blutdruckmessung, SpO2, Blutgase, Glukose, Laktat, Elektrolyte inkl. Kalium und Kalzium, Gerinnung und Thrombozyten, Nieren- und Leberwerte, Urinausscheidung, regelmäßige Hautinspektion. Anfälle unter der Wiedererwärmung sind möglich; dann je nach Zentrum Erwärmung pausieren.",
+      "keyPoints": [
+        "Zielkerntemperatur 33,5 °C (33–34 °C), rektal/ösophageal kontinuierlich",
+        "Servokontrolliertes Gerät",
+        "Dauer 72 h",
+        "Wiedererwärmung ≤ 0,5 °C/h, danach keine Hyperthermie",
+        "Monitoring: aEEG, invasiver RR, Labor (Glukose, Elektrolyte, Gerinnung), Haut"
+      ],
+      "tags": ["Hypothermie", "Durchführung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-023 Behandlung der neonatalen Asphyxie unter besonderer Berücksichtigung der therapeutischen Hypothermie (Fassung 2013, Gültigkeit abgelaufen, in Überarbeitung)"
+    },
+    {
+      "id": "neuro-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein asphyktisches Neugeborenes mit Kühlindikation muss aus einer Geburtsklinik in Ihr Perinatalzentrum verlegt werden. Was ist **bis zur Ankunft und während des Transports** zu beachten?",
+      "hints": ["Was ist schlimmer als keine Kühlung?", "Passive Kühlung ist möglich, aber nicht ohne Überwachung."],
+      "answer": "Oberstes Ziel ist die **Vermeidung von Hyperthermie** – Wärmestrahler ausschalten bzw. nicht aktiv wärmen, sobald die Indikation absehbar ist. **Passive Kühlung** nur mit **kontinuierlicher Messung der Kerntemperatur** (rektal), Ziel 33–34 °C; eine Überkühlung unter 33 °C ist häufig und gefährlich. Wo verfügbar, **aktive servokontrollierte Kühlung während des Transports**. Daneben: Atemwegssicherung nach Bedarf, Normoventilation (keine Hypokapnie), Hyperoxie vermeiden, Normoglykämie (früh i. v.-Zugang, Glukose), Kreislaufstabilisierung, Anfälle erkennen und behandeln. Dokumentation des neurologischen Befunds mit Uhrzeit, Blutgase, APGAR, Geburtsverlauf; Plazenta zur histologischen Untersuchung asservieren, Eltern informieren. Frühzeitige telefonische Absprache mit dem Kühlzentrum, damit der Beginn innerhalb von 6 h gesichert ist.",
+      "keyPoints": [
+        "Hyperthermie vermeiden, Wärmezufuhr stoppen",
+        "Passive Kühlung nur mit kontinuierlicher rektaler Temperatur, Ziel 33–34 °C, keine Überkühlung",
+        "Aktive servokontrollierte Transportkühlung, wenn verfügbar",
+        "Normokapnie, keine Hyperoxie, Normoglykämie, Anfallsbehandlung",
+        "Dokumentation, Plazenta asservieren, frühe Absprache mit Zentrum"
+      ],
+      "tags": ["Hypothermie", "Transport", "Erstversorgung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-023 Behandlung der neonatalen Asphyxie unter besonderer Berücksichtigung der therapeutischen Hypothermie (Fassung 2013, Gültigkeit abgelaufen, in Überarbeitung)"
+    },
+    {
+      "id": "neuro-007",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche **physiologischen Veränderungen und Komplikationen** erwarten Sie unter therapeutischer Hypothermie und Wiedererwärmung, und wie gehen Sie damit um?",
+      "hints": ["Herz-Kreislauf, Lunge, Gerinnung, Stoffwechsel, Haut.", "Auch die Pharmakokinetik ändert sich."],
+      "answer": "- **Herz-Kreislauf:** Sinusbradykardie (80–100/min) ist physiologisch, QT-Verlängerung; Hypotonie, v. a. bei Wiedererwärmung (Vasodilatation) → Volumen/Katecholamine nach Echo.\n- **Lunge:** Anstieg des pulmonalvaskulären Widerstands, PPHN-Risiko → Oxygenierung überwachen, ggf. iNO; die Hypothermie kann meist fortgeführt werden.\n- **Gerinnung:** Thrombozytopenie, verlängerte Gerinnungszeiten → bei Blutung oder vor Eingriffen substituieren.\n- **Stoffwechsel:** Hypo- und Hyperglykämie; Hypokaliämie während der Kühlung mit Rebound-Hyperkaliämie beim Erwärmen; Hypokalzämie, Hypomagnesiämie.\n- **Haut:** subkutane Fettgewebsnekrose mit späterer Hyperkalzämie → Kalziumkontrollen auch nach Entlassung.\n- **Pharmakokinetik:** verminderte Clearance (z. B. Morphin, Phenobarbital, Gentamicin) → Akkumulation, Spiegel und Intervalle anpassen.\n- **Stress/Kältezittern:** mindert die Neuroprotektion → Analgosedierung nach Zentrumsstandard.\nSchwere Blutung, refraktäre Hypotonie oder lebensbedrohliche Arrhythmie können im Einzelfall eine vorzeitige Wiedererwärmung rechtfertigen.",
+      "keyPoints": [
+        "Sinusbradykardie physiologisch, Hypotonie v. a. bei Wiedererwärmung",
+        "PPHN-Risiko, meist Fortführung mit iNO möglich",
+        "Thrombozytopenie/Koagulopathie",
+        "Glukose- und Kaliumschwankungen (Rebound-Hyperkaliämie)",
+        "Subkutane Fettgewebsnekrose mit Hyperkalzämie",
+        "Reduzierte Medikamenten-Clearance"
+      ],
+      "tags": ["Hypothermie", "Komplikationen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-008",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes mit HIE Sarnat II wird gekühlt. Beschreiben Sie die **supportive Intensivtherapie** in den ersten 72 Stunden (Beatmung, Kreislauf, Flüssigkeit, Glukose, Medikamente, Ernährung).",
+      "hints": ["Welche Blutgas- und Sauerstoffwerte sind schädlich?", "Viele Organe sind nach Asphyxie mitbetroffen."],
+      "answer": "- **Beatmung:** Normokapnie, **Hypokapnie vermeiden** (zerebrale Vasokonstriktion, schlechteres Outcome), **Hyperoxie vermeiden**; nur so viel Atemunterstützung wie nötig.\n- **Kreislauf:** altersentsprechender Mitteldruck, Echokardiographie bei Hypotonie (Myokarddysfunktion, PPHN), Katecholamine gezielt; arterielle Messung.\n- **Flüssigkeit/Niere:** Multiorganbeteiligung (akute Nierenschädigung, SIADH) – je nach Zentrum initial zurückhaltende Flüssigkeitszufuhr, Bilanz, Gewicht, Natrium.\n- **Glukose:** Normoglykämie, Hypo- und Hyperglykämie vermeiden, engmaschige Kontrollen.\n- **Infektion:** Sepsis als Differenzialdiagnose/Kofaktor → Blutkultur und kalkulierte Antibiose; Gentamicin mit verlängertem Intervall und Spiegelkontrolle.\n- **Analgosedierung:** Stress vermeiden; Opioide akkumulieren unter Hypothermie, daher niedrig dosieren und überwachen (je nach Zentrum auch Dexmedetomidin).\n- **Anfälle:** kontinuierliches aEEG, auch subklinische Anfälle behandeln.\n- **Ernährung:** minimale enterale Ernährung mit Muttermilch ist nach heutigem Kenntnisstand unter Kühlung möglich, Vorgehen je nach Zentrum; Leber- und Gerinnungswerte beachten.",
+      "keyPoints": [
+        "Normokapnie, keine Hypokapnie, keine Hyperoxie",
+        "Kreislauf echokardiographisch gesteuert, Myokarddysfunktion/PPHN",
+        "Multiorganbeteiligung: Niere, SIADH, Leber, Gerinnung – Bilanz",
+        "Normoglykämie",
+        "Antibiotika mit angepasstem Intervall, Opioid-Akkumulation",
+        "aEEG-Monitoring, Anfallsbehandlung"
+      ],
+      "tags": ["Hypothermie", "Intensivtherapie", "Multiorganversagen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-009",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes wird seit 10 Stunden auf **33,5 °C** gekühlt. Herzfrequenz **85/min** (Sinusrhythmus), Mitteldruck im Zielbereich, Laktat fallend. Welche Bewertung ist richtig?",
+      "hints": ["Welche Herzfrequenz ist bei 33,5 °C Kerntemperatur zu erwarten?"],
+      "options": [
+        {
+          "text": "Physiologische Sinusbradykardie unter Hypothermie – keine Therapie, EKG (QT-Zeit) beachten",
+          "correct": true
+        },
+        {
+          "text": "Atropin i. v., da eine Herzfrequenz < 100/min beim Neugeborenen immer behandlungsbedürftig ist",
+          "correct": false
+        },
+        { "text": "Sofortige Wiedererwärmung wegen kardialer Komplikation", "correct": false },
+        { "text": "Adrenalin-Dauerinfusion, um eine Herzfrequenz > 120/min zu erreichen", "correct": false }
+      ],
+      "answer": "Unter Hypothermie von 33,5 °C ist eine **Sinusbradykardie um 80–100/min** erwartet und physiologisch; bei stabilem Kreislauf und fallendem Laktat ist keine Therapie nötig. Eine Tachykardie unter Kühlung ist dagegen auffällig (Stress, Schmerz, Hypovolämie, Krampfanfall, Sepsis). Ein EKG mit Beurteilung der QT-Zeit ist sinnvoll, Elektrolyte im Blick behalten.",
+      "keyPoints": [
+        "Sinusbradykardie 80–100/min unter Kühlung ist physiologisch",
+        "Keine Therapie bei stabilem Kreislauf",
+        "Tachykardie unter Kühlung ist ein Warnzeichen (Stress, Schmerz, Hypovolämie)"
+      ],
+      "tags": ["Hypothermie", "Bradykardie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-010",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein gekühltes Neugeborenes (Kerntemperatur 33,5 °C) wird beatmet. Das Blutgasgerät misst bei 37 °C. Welche Aussage zur **Blutgasinterpretation unter Hypothermie** ist richtig?",
+      "hints": ["Die Löslichkeit von Gasen steigt bei niedriger Temperatur."],
+      "options": [
+        {
+          "text": "Der tatsächliche pCO2 im Blut des Kindes ist niedriger als der bei 37 °C gemessene, nicht temperaturkorrigierte Wert",
+          "correct": true
+        },
+        {
+          "text": "Der tatsächliche pCO2 im Blut des Kindes ist höher als der bei 37 °C gemessene Wert",
+          "correct": false
+        },
+        { "text": "Die Temperatur hat keinen Einfluss auf pCO2 und pO2", "correct": false },
+        {
+          "text": "Der tatsächliche pH-Wert des Kindes ist niedriger als der bei 37 °C gemessene Wert",
+          "correct": false
+        }
+      ],
+      "answer": "Bei Abkühlung steigt die Löslichkeit von CO2 und O2 im Blut, die Partialdrücke sinken und der pH steigt. Der **in vivo bei 33,5 °C vorliegende pCO2 ist also niedriger** als der bei 37 °C gemessene Wert. Wer nach unkorrigierten Werten auf „Normokapnie“ beatmet, riskiert eine tatsächliche Hypokapnie. Ob nach temperaturkorrigierten (pH-stat) oder unkorrigierten Werten (alpha-stat) gesteuert wird, ist zentrumsabhängig; wichtig sind die Eingabe der Körpertemperatur am Gerät, ein einheitliches Vorgehen und die Vermeidung von Hypokapnie.",
+      "keyPoints": [
+        "Kälte: höhere Gaslöslichkeit, niedrigere Partialdrücke, höherer pH",
+        "Tatsächlicher pCO2 niedriger als unkorrigierter Messwert",
+        "Risiko unbemerkter Hypokapnie",
+        "alpha-stat vs. pH-stat zentrumsabhängig, Körpertemperatur eingeben"
+      ],
+      "tags": ["Hypothermie", "Blutgasanalyse"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-011",
+      "type": "open",
+      "difficulty": 3,
+      "question": "In welchen Situationen ist die therapeutische Hypothermie **nicht etabliert oder sogar schädlich**? Gehen Sie auf Gestationsalter, Zeitpunkt, Schweregrad, Kühlungstiefe/-dauer und Versorgungssetting ein.",
+      "hints": ["Denken Sie an Frühgeborene, späte Kühlung und leichte HIE.", "Auch tiefer und länger ist nicht besser."],
+      "answer": "- **Frühgeborene < 36 SSW:** kein Standard; die randomisierte NICHD-Studie bei 33–35 SSW (Faix et al., JAMA Pediatrics 2025) zeigte keinen Nutzen, sondern eine Tendenz zu mehr Todesfällen bzw. Tod oder Behinderung unter Kühlung – Anwendung allenfalls in Studien.\n- **Beginn nach 6 h:** späte Kühlung (6–24 h) mit unsicherem Nutzen, allenfalls Einzelfallentscheidung.\n- **Leichte HIE (Sarnat I):** Nutzen nicht belegt, keine Standardindikation; Vorgehen zentrumsabhängig, Studien laufen.\n- **Tiefer (32 °C) oder länger (120 h):** in einer großen NICHD-Studie kein Vorteil, Tendenz zu höherer Mortalität – Abbruch wegen Futility; daher 33,5 °C über 72 h.\n- **Länder mit niedrigem/mittlerem Einkommen:** in der HELIX-Studie keine Verbesserung, sondern höhere Mortalität – Hypothermie ist an eine funktionierende Intensivmedizin gebunden.\n- **Relative Kontraindikationen:** schwere, nicht beherrschbare Blutung/Koagulopathie, letale Fehlbildungen bzw. palliatives Therapieziel. ECMO oder PPHN schließen die Kühlung nicht grundsätzlich aus.",
+      "keyPoints": [
+        "< 36 SSW kein Standard (NICHD-Studie 33–35 SSW: kein Nutzen, Tendenz zu Schaden)",
+        "Beginn > 6 h: Nutzen unsicher",
+        "Leichte HIE: keine belegte Indikation",
+        "32 °C oder 120 h nicht besser, eher schädlich",
+        "LMIC (HELIX): höhere Mortalität",
+        "Relative KI: schwere Blutung, palliatives Ziel"
+      ],
+      "tags": ["Hypothermie", "Kontraindikationen", "Evidenz"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie gut ist die **Wirksamkeit der therapeutischen Hypothermie** belegt, und welche **zusätzlichen neuroprotektiven Therapien** wurden untersucht?",
+      "hints": [
+        "Number needed to treat aus der Cochrane-Analyse.",
+        "Erythropoetin wurde in einer großen Studie (HEAL) geprüft."
+      ],
+      "answer": "Die Hypothermie ist durch mehrere randomisierte Studien (u. a. CoolCap, NICHD, TOBY) und Cochrane-Metaanalysen belegt: Sie senkt den kombinierten Endpunkt **Tod oder schwere Behinderung** mit einer **NNT von etwa 7**, reduziert Mortalität und Zerebralparese und erhöht das Überleben ohne Behinderung; der Effekt hält bis ins Schulalter an. Trotzdem hat ein großer Teil der behandelten Kinder ein ungünstiges Ergebnis. Adjuvante Ansätze: **Erythropoetin** zeigte in der HEAL-Studie keinen Nutzen, aber mehr schwere unerwünschte Ereignisse und wird nicht empfohlen; **Xenon** ohne Nutzen (TOBY-Xe); weitere Substanzen (z. B. Melatonin, Allopurinol, Zelltherapien) nur in Studien.",
+      "keyPoints": [
+        "Reduktion von Tod oder schwerer Behinderung, NNT ca. 7",
+        "Weniger Zerebralparese, mehr Überleben ohne Behinderung, Effekt anhaltend",
+        "Erythropoetin (HEAL): kein Nutzen, nicht empfohlen",
+        "Xenon kein Nutzen, andere Adjuvanzien nur in Studien"
+      ],
+      "tags": ["Hypothermie", "Evidenz", "Neuroprotektion"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erklären Sie die **Technik des amplitudenintegrierten EEG (aEEG)**: Elektrodenposition, Signalverarbeitung und Darstellung. Worauf achten Sie beim Anlegen?",
+      "hints": [
+        "Ein- oder zweikanalig, zentroparietal.",
+        "Filter, Gleichrichtung, Glättung, Zeitkompression, semilogarithmische Skala."
+      ],
+      "answer": "Das aEEG ist ein vereinfachtes, zeitkomprimiertes EEG mit meist **einem Kanal biparietal (P3–P4)** oder **zwei Kanälen (C3–P3 und C4–P4)** plus Referenz-/Erdelektrode; verwendet werden Nadel-, Hydrogel- oder Napfelektroden. Das Rohsignal wird **asymmetrisch bandpassgefiltert (betont 2–15 Hz)**, **gleichgerichtet, geglättet** und mit stark **komprimierter Zeitachse (ca. 6 cm/h)** auf einer **semilogarithmischen Amplitudenskala** dargestellt (0–10 µV linear, darüber logarithmisch). Man beurteilt das Band aus **unterem und oberem Rand**. Beim Anlegen: niedrige und seitengleiche **Impedanz** (z. B. < 10 kΩ), korrekte Positionen nach 10-20-System, Fixierung, Ableitung möglichst früh vor Medikamentengabe beginnen, Ereignisse (Pflege, Medikamente) markieren und das **Roh-EEG** mit aufzeichnen.",
+      "keyPoints": [
+        "Ein-/zweikanalig P3–P4 bzw. C3–P3/C4–P4",
+        "Filter 2–15 Hz, Gleichrichtung, Glättung",
+        "Zeitkompression ca. 6 cm/h, semilogarithmische Skala",
+        "Unterer und oberer Rand des Bandes",
+        "Niedrige Impedanz, Ereignismarkierung, Roh-EEG mitbeurteilen"
+      ],
+      "tags": ["aEEG", "Technik"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **Hintergrundmuster im aEEG** beim reifen Neugeborenen (Klassifikation nach Hellström-Westas) und den Schlaf-Wach-Zyklus.",
+      "hints": ["Fünf Muster von kontinuierlich normal bis flach.", "Entscheidend sind die Ränder bei 5, 10 und 25 µV."],
+      "answer": "- **Continuous normal voltage (CNV):** kontinuierliche Aktivität, unterer Rand etwa 5–10 µV, oberer Rand etwa 10–25(–50) µV – Normalbefund beim Reifgeborenen.\n- **Discontinuous normal voltage (DNV):** diskontinuierlich, unterer Rand variabel, überwiegend < 5 µV, oberer Rand > 10 µV – leicht pathologisch beim Reifgeborenen, beim Frühgeborenen altersentsprechend.\n- **Burst-Suppression (BS):** unterer Rand ohne Variabilität bei 0–2 µV, Bursts > 25 µV; BS+ mit ≥ 100 Bursts/h, BS− mit < 100 Bursts/h.\n- **Low voltage (LV):** kontinuierliches, sehr niedriges Band um oder unter 5 µV.\n- **Flat trace (FT, inaktiv):** überwiegend isoelektrisch, < 5 µV.\n**Schlaf-Wach-Zyklus (SWC):** zyklische Variation der Bandbreite (breiter im ruhigen Schlaf); fehlend, angedeutet/unreif oder entwickelt. Das Wiederauftreten des SWC ist prognostisch günstig.",
+      "keyPoints": [
+        "CNV: unterer Rand > 5 µV, oberer 10–25(–50) µV = normal",
+        "DNV: unterer Rand < 5 µV, oberer > 10 µV",
+        "Burst-Suppression: Rand 0–2 µV, Bursts > 25 µV (BS+/BS−)",
+        "Low voltage um/unter 5 µV, flat trace isoelektrisch",
+        "Schlaf-Wach-Zyklus: fehlend, unreif, entwickelt – prognostisch günstig"
+      ],
+      "tags": ["aEEG", "Hintergrundmuster"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Bei einem reifen Neugeborenen nach Asphyxie zeigt das aEEG 3 Stunden nach Geburt einen **oberen Rand von 8 µV** und einen **unteren Rand von 3 µV**. Wie ist der Befund nach der Amplitudenklassifikation (al Naqeeb) einzuordnen?",
+      "hints": ["Grenzwerte: oberer Rand 10 µV, unterer Rand 5 µV."],
+      "options": [
+        { "text": "Normal", "correct": false },
+        { "text": "Mäßig pathologisch (moderately abnormal)", "correct": false },
+        { "text": "Schwer pathologisch/supprimiert (suppressed)", "correct": true },
+        { "text": "Nicht klassifizierbar, da diese Einteilung nur für Frühgeborene gilt", "correct": false }
+      ],
+      "answer": "Nach al Naqeeb: **normal** = oberer Rand > 10 µV und unterer Rand > 5 µV; **mäßig pathologisch** = oberer Rand > 10 µV, unterer Rand ≤ 5 µV; **schwer pathologisch (supprimiert)** = oberer Rand < 10 µV und unterer Rand < 5 µV. Mit 8/3 µV liegt ein supprimierter Befund vor. Diese Einteilung wurde für reife Neugeborene mit HIE entwickelt und als Zusatzkriterium in Hypothermiestudien (TOBY) genutzt; vor Bewertung Artefakte und sedierende Medikamente ausschließen.",
+      "keyPoints": [
+        "Supprimiert: oberer Rand < 10 µV und unterer < 5 µV",
+        "Mäßig pathologisch: oberer > 10, unterer ≤ 5 µV",
+        "Für reife Neugeborene mit HIE entwickelt",
+        "Artefakte und Medikamente berücksichtigen"
+      ],
+      "tags": ["aEEG", "Klassifikation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Wie erkennen Sie **Krampfaktivität im aEEG**, welche **Grenzen** hat die Methode, und welche **Artefakte und Einflussfaktoren** müssen Sie kennen?",
+      "hints": [
+        "Wie verändert sich der untere Rand während eines Anfalls?",
+        "Was entgeht einem ein- bis zweikanaligen, komprimierten Verfahren?"
+      ],
+      "answer": "Ein Anfall zeigt sich typischerweise als **plötzlicher Anstieg des unteren (und meist auch oberen) Randes** mit nachfolgendem Abfall, oft mit kurzer postiktaler Suppression; im **Roh-EEG** sieht man eine rhythmische, sich entwickelnde Aktivität (≥ 10 s). Einzelanfälle, repetitive Anfälle („Sägezahnmuster“) und Status (kontinuierliche Anfallsaktivität) werden unterschieden. **Grenzen:** kurze (< 30 s), niedrigamplitudige oder fokale Anfälle fern der Elektroden werden übersehen; Sensitivität und Spezifität sind geringer als beim konventionellen (Video-)EEG, das bei Unklarheit der Goldstandard bleibt. **Artefakte:** hohe Impedanz, EKG-Einstreuung, HFOV/Beatmung, Bewegung, Pflegehandlungen, elektrische Störquellen – sie heben den unteren Rand an und können Anfälle oder bessere Hintergrundaktivität vortäuschen. **Medikamente** (Phenobarbital, Midazolam, Opioide) dämpfen die Hintergrundaktivität. Deshalb immer Roh-EEG prüfen und Ereignisse dokumentieren.",
+      "keyPoints": [
+        "Anfall: abrupter Anstieg von unterem und oberem Rand, Roh-EEG rhythmisch ≥ 10 s",
+        "Einzelanfall, repetitive Anfälle, Status",
+        "Kurze, fokale, niedrigamplitudige Anfälle werden übersehen",
+        "Konventionelles Video-EEG als Goldstandard",
+        "Artefakte heben unteren Rand an; Medikamente dämpfen Hintergrund",
+        "Roh-EEG immer mitbeurteilen"
+      ],
+      "tags": ["aEEG", "Krampfanfälle", "Artefakte"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-017",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein gekühltes Neugeborenes zeigt 6 Stunden nach Geburt im aEEG ein **Burst-Suppression-Muster**. Die Eltern fragen nach der Prognose. Welche **prognostische Aussagekraft** hat das aEEG unter Hypothermie?",
+      "hints": [
+        "Unter Hypothermie hat sich der Zeitpunkt der prognostischen Aussage verschoben.",
+        "Wichtig ist der Verlauf, nicht der Einzelbefund."
+      ],
+      "answer": "Ohne Hypothermie hatte ein schwer pathologisches aEEG in den ersten 6 Lebensstunden einen hohen positiven Vorhersagewert für ein ungünstiges Ergebnis. **Unter Hypothermie ist der positive Vorhersagewert eines frühen pathologischen Befunds deutlich geringer**, weil sich viele Kinder unter Kühlung erholen. Entscheidend ist der **Verlauf**: Normalisierung der Hintergrundaktivität bis etwa **48 Stunden** ist mit einem guten Ergebnis vereinbar; ein **über 48 h persistierend pathologischer Hintergrund** (Burst-Suppression, Low voltage, flat trace) und ein spätes oder fehlendes Wiederauftreten des Schlaf-Wach-Zyklus sind prognostisch ungünstig. Medikamenteneffekte müssen berücksichtigt werden. Gegenüber den Eltern daher keine frühe Festlegung; die Prognose wird aus Verlauf von Klinik und aEEG sowie dem MRT (Tag 4–7) gemeinsam abgeschätzt.",
+      "keyPoints": [
+        "Früher pathologischer Befund unter Hypothermie mit geringerem PPV",
+        "Normalisierung bis ca. 48 h mit gutem Ergebnis vereinbar",
+        "Persistierend pathologisch > 48 h und fehlender Schlaf-Wach-Zyklus ungünstig",
+        "Medikamenteneffekte beachten",
+        "Prognose aus Verlauf, Klinik und MRT – keine frühe Festlegung gegenüber Eltern"
+      ],
+      "tags": ["aEEG", "Prognose", "Hypothermie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann und wie führen Sie nach HIE und Hypothermie ein **MRT** durch, und welche **Schädigungsmuster** kennen Sie mit ihrer prognostischen Bedeutung?",
+      "hints": ["Diffusionsgewichtung zeigt früh, normalisiert sich aber.", "Basalganglien/Thalamus versus Wasserscheiden."],
+      "answer": "Ein MRT wird in der Regel **nach der Wiedererwärmung, etwa am 4.–7. Lebenstag** durchgeführt (optimal je nach Fragestellung bis ca. 14. Tag): **Diffusionswichtung (DWI)** ist früh (Tag 2–5) am sensitivsten, zeigt aber gegen Ende der ersten Woche eine **Pseudonormalisierung**; T1/T2-Veränderungen werden später deutlicher. Die **MR-Spektroskopie** (Laktat/NAA-Verhältnis bzw. NAA im Thalamus) ist einer der stärksten Prädiktoren. Muster: **Basalganglien-Thalamus-Muster** (inkl. Verlust des normalen Signals im hinteren Schenkel der Capsula interna) nach akuter schwerer (Sentinel-)Asphyxie – hohes Risiko für dyskinetische/spastische Zerebralparese; **Wasserscheidenmuster** (parasagittale Rinde und weiße Substanz) nach prolongierter partieller Asphyxie – eher kognitive und Verhaltensprobleme, oft später manifest; **globale Schädigung** mit sehr schlechter Prognose. Zusätzlich Differenzialdiagnosen (Schlaganfall, Blutung, Fehlbildung, Stoffwechselerkrankung) erkennen.",
+      "keyPoints": [
+        "Zeitpunkt etwa Tag 4–7 nach Wiedererwärmung",
+        "DWI früh sensitiv, Pseudonormalisierung Ende 1. Woche",
+        "MR-Spektroskopie (Laktat/NAA) starker Prädiktor",
+        "Basalganglien-Thalamus-Muster inkl. PLIC: hohes CP-Risiko",
+        "Wasserscheidenmuster: eher kognitive Folgen",
+        "Differenzialdiagnosen erkennen"
+      ],
+      "tags": ["HIE", "MRT", "Prognose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-019",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie sind **neonatale Krampfanfälle** definiert und nach der aktuellen ILAE-Klassifikation eingeteilt? Was versteht man unter **elektroklinischer Dissoziation**?",
+      "hints": ["Die Diagnose stützt sich auf das EEG.", "Motorisch, nicht-motorisch, sequenziell, rein elektrographisch."],
+      "answer": "Neonatale Anfälle sind **elektrographische Ereignisse** mit plötzlicher, repetitiver, sich entwickelnder, stereotyper Aktivität (mindestens ca. 10 s); die ILAE-Klassifikation (2021) setzt den **EEG-Nachweis** in den Mittelpunkt. Anfälle mit klinischem Korrelat werden nach dem führenden Merkmal eingeteilt: **motorisch** (Automatismen, klonisch, epileptische Spasmen, myoklonisch, tonisch), **nicht-motorisch** (autonom, Verhaltensarrest) und **sequenziell**; daneben **rein elektrographische Anfälle**. Fokale klonische und tonische Anfälle sind typisch, generalisierte tonisch-klonische Anfälle praktisch nie. **Elektroklinische Dissoziation**: Ein großer Teil der Anfälle ist subklinisch, besonders nach Gabe von Antikonvulsiva („Entkopplung“) – klinische Beobachtung allein unterschätzt die Anfallslast, daher (a)EEG-Monitoring. Ein neonataler Status liegt vor, wenn die kumulative Anfallsdauer mehr als die Hälfte einer Stunde ausmacht.",
+      "keyPoints": [
+        "Diagnose elektrographisch (≥ 10 s, rhythmisch, evolvierend)",
+        "ILAE 2021: motorisch, nicht-motorisch, sequenziell, rein elektrographisch",
+        "Fokal klonisch/tonisch typisch, keine generalisierten tonisch-klonischen",
+        "Elektroklinische Dissoziation, besonders nach Antikonvulsiva",
+        "Status: > 50 % einer Stunde Anfallsaktivität"
+      ],
+      "tags": ["Krampfanfälle", "Klassifikation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ],
+      "source": "ILAE-Klassifikation neonataler Anfälle (2021)"
+    },
+    {
+      "id": "neuro-020",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein 2 Tage altes reifes Neugeborenes zeigt **feinschlägiges Zittern** aller Extremitäten. Welcher Befund spricht am ehesten für **Jitteriness (Zittrigkeit)** und gegen einen epileptischen Anfall?",
+      "hints": ["Was passiert, wenn Sie die Extremität sanft festhalten?"],
+      "options": [
+        {
+          "text": "Das Zittern sistiert beim sanften Festhalten bzw. Beugen der Extremität und ist durch Reize auslösbar",
+          "correct": true
+        },
+        { "text": "Gleichzeitig tonische Blickdeviation nach rechts", "correct": false },
+        { "text": "Begleitende Apnoe und Sättigungsabfall", "correct": false },
+        {
+          "text": "Rhythmische Zuckungen von 1–3/s, die sich durch Festhalten nicht unterbrechen lassen",
+          "correct": false
+        }
+      ],
+      "answer": "**Jitteriness** ist ein hochfrequentes, symmetrisches Zittern, das **reizauslösbar** ist und **bei sanftem Festhalten oder Flexion sistiert**; es fehlen Augenbeteiligung und autonome Begleitsymptome. Klonische Anfälle sind langsamer, rhythmisch, nicht durch Festhalten zu unterbrechen und gehen oft mit Blickdeviation, Apnoe oder Kreislaufreaktionen einher. Bei Jitteriness an Hypoglykämie, Hypokalzämie, Entzug und Hyperthermie denken. Weitere nicht-epileptische Bewegungsmuster: benigner Schlafmyoklonus (nur im Schlaf, endet beim Wecken) und Hyperekplexie.",
+      "keyPoints": [
+        "Sistiert bei Festhalten, reizauslösbar",
+        "Keine Augenbeteiligung, keine autonomen Symptome",
+        "Ursachen: Hypoglykämie, Hypokalzämie, Entzug",
+        "DD: benigner Schlafmyoklonus, Hyperekplexie"
+      ],
+      "tags": ["Krampfanfälle", "Differenzialdiagnose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes zeigt am 2. Lebenstag fokale klonische Anfälle. Nennen Sie die **wichtigsten Ursachen neonataler Anfälle** und Ihre **diagnostische Abklärung** in sinnvoller Reihenfolge.",
+      "hints": ["Zuerst das, was sofort behandelbar ist.", "Strukturell, infektiös, metabolisch, genetisch."],
+      "answer": "**Ursachen:** am häufigsten **HIE**, dann **perinataler Schlaganfall** und **intrakranielle Blutung** (inkl. Sinusvenenthrombose), **Infektionen** (Meningitis, Enzephalitis inkl. HSV), **transiente metabolische Störungen** (Hypoglykämie, Hypokalzämie, Hypomagnesiämie, Hyponatriämie), **angeborene Stoffwechselerkrankungen** (Vitamin-B6-abhängige Epilepsie, PNPO-Mangel, nichtketotische Hyperglycinämie, Sulfitoxidase-/Molybdän-Kofaktor-Mangel, Harnstoffzyklusdefekte), **genetische Epilepsien** (z. B. KCNQ2, SCN2A, STXBP1), **Hirnfehlbildungen** sowie Entzug.\n**Diagnostik:** sofort Blutzucker, Blutgase, Natrium, Kalzium, Magnesium; Blutbild, CRP, Blutkultur, **Lumbalpunktion** (Zellzahl, Glukose, Laktat, Erreger inkl. HSV-PCR); Ammoniak, Laktat, Leberwerte; **aEEG/konventionelles EEG**; **Schädelsonographie** und **MRT mit DWI**. Bei unklarer Ursache oder Therapieresistenz: Aminosäuren in Plasma und Liquor, organische Säuren, Sulfocystein, Biomarker für Vitamin-B6-abhängige Epilepsie, Pyridoxin-Versuch unter EEG, genetische Epilepsie-Diagnostik.",
+      "keyPoints": [
+        "HIE, Schlaganfall, Blutung/Sinusvenenthrombose, Infektion",
+        "Metabolisch: Glukose, Kalzium, Magnesium, Natrium sofort",
+        "Angeborene Stoffwechselstörungen inkl. Vitamin-B6-abhängiger Epilepsie",
+        "Genetische Epilepsien (z. B. KCNQ2)",
+        "LP, EEG, Sonographie und MRT mit DWI"
+      ],
+      "tags": ["Krampfanfälle", "Ätiologie", "Diagnostik"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie Ihr **therapeutisches Vorgehen bei neonatalen Krampfanfällen** (Stufentherapie) nach aktuellen Empfehlungen.",
+      "hints": ["Zuerst korrigierbare Ursachen.", "Erstlinientherapie laut ILAE-Empfehlung 2023."],
+      "answer": "1. **Sofort korrigierbare Ursachen** behandeln: Hypoglykämie (Glukosebolus), Hypokalzämie, Hypomagnesiämie; bei Verdacht auf Infektion Antibiotika und Aciclovir.\n2. **Erstlinie: Phenobarbital 20 mg/kg i. v.** als Aufsättigung (ILAE 2023: Mittel der ersten Wahl unabhängig von der Ätiologie); bei Persistenz je nach Stationsstandard weitere 10–20 mg/kg bis ca. 40 mg/kg Gesamtdosis. In der NEOLEV2-Studie war Phenobarbital wirksamer als Levetiracetam.\n3. **Zweitlinie:** Phenytoin/Fosphenytoin, Levetiracetam, Midazolam oder Lidocain (Lidocain nicht nach Phenytoin, kardiale Überwachung). Bei Verdacht auf Kanalopathie (z. B. KCNQ2, positive Familienanamnese) laut ILAE Natriumkanalblocker (Phenytoin oder Carbamazepin) bereits als Erstlinie.\n4. **Therapieresistenz:** Pyridoxin-Versuch (z. B. 100 mg i. v. unter EEG und Reanimationsbereitschaft, Apnoegefahr), ggf. Pyridoxalphosphat und Folinsäure.\nAuch **rein elektrographische Anfälle** werden behandelt; Therapieerfolg per (a)EEG kontrollieren. Bei akut symptomatischen Anfällen Antikonvulsiva möglichst vor Entlassung absetzen. Unter Hypothermie Akkumulation beachten.",
+      "keyPoints": [
+        "Erst Glukose, Kalzium, Magnesium korrigieren",
+        "Phenobarbital 20 mg/kg i. v. Erstlinie, ggf. bis 40 mg/kg",
+        "Zweitlinie: Phenytoin, Levetiracetam, Midazolam, Lidocain",
+        "Pyridoxin-Versuch bei Therapieresistenz",
+        "EEG-Kontrolle, auch elektrographische Anfälle behandeln",
+        "Frühes Absetzen bei akut symptomatischen Anfällen"
+      ],
+      "tags": ["Krampfanfälle", "Antikonvulsiva"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ],
+      "source": "ILAE Task Force on Neonatal Seizures: Treatment of seizures in the neonate (2023)"
+    },
+    {
+      "id": "neuro-023",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes mit **3600 g** hat elektrographisch gesicherte Anfälle. Sie geben eine **Aufsättigung mit Phenobarbital 20 mg/kg i. v.** Wie viele Milligramm verabreichen Sie?",
+      "hints": ["Dosis pro kg mal Körpergewicht in kg."],
+      "answer": "Dosis = 20 mg/kg · 3,6 kg = **72 mg Phenobarbital** i. v. (langsam über ca. 15–20 min, Atem- und Kreislaufüberwachung). Bei Persistenz können weitere 10–20 mg/kg bis zu einer Gesamtdosis von ca. 40 mg/kg gegeben werden.",
+      "keyPoints": ["20 mg/kg × 3,6 kg", "72 mg", "Langsam i. v., Überwachung von Atmung und Kreislauf"],
+      "solution": { "value": 72, "unit": "mg", "tolerance": 0.03 },
+      "tags": ["Antikonvulsiva", "Berechnung"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "neuro-024",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Nach 72 Stunden Hypothermie mit einer Kerntemperatur von **33,5 °C** soll ein Neugeborenes auf **36,5 °C** wiedererwärmt werden. Wie viele Stunden dauert die Wiedererwärmung **mindestens**, wenn die übliche Vorgabe zur maximalen Erwärmungsgeschwindigkeit (wie in den großen Hypothermie-Studien) eingehalten wird?",
+      "hints": ["Maximal 0,5 °C pro Stunde."],
+      "answer": "Temperaturdifferenz 36,5 − 33,5 = 3,0 °C. Bei höchstens 0,5 °C/h: 3,0 / 0,5 = **6 Stunden** Mindestdauer. Langsames Erwärmen reduziert Hypotonie durch Vasodilatation, Rebound-Hyperkaliämie und das Risiko von Anfällen während der Wiedererwärmung.",
+      "keyPoints": ["Differenz 3,0 °C", "Maximal 0,5 °C/h", "Mindestens 6 h"],
+      "solution": { "value": 6, "unit": "h", "tolerance": 0.03 },
+      "tags": ["Hypothermie", "Wiedererwärmung", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes (4450 g) nach **Schulterdystokie** bewegt den rechten Arm nicht; er hängt innenrotiert und adduziert am Körper, der Ellenbogen ist gestreckt, die Greifbewegung erhalten. Welche Diagnose stellen Sie, welche **Differenzialdiagnosen und Begleitverletzungen** prüfen Sie, und wie ist das **weitere Vorgehen**?",
+      "hints": ["„Kellnerstellung“ – welche Nervenwurzeln?", "Wann wird an ein spezialisiertes Zentrum überwiesen?"],
+      "answer": "Es handelt sich um eine **obere Plexusparese (Erb-Duchenne, C5–C6, ggf. C7)** mit typischer „Kellnerstellung“ und asymmetrischem Moro-Reflex bei erhaltenem Greifen. Die **untere Plexusparese (Klumpke, C8–Th1)** betrifft die Hand; ein **Horner-Syndrom** weist auf eine Th1-Beteiligung bzw. schwere Läsion hin. **Begleitverletzungen/DD:** Klavikula- oder Humerusfraktur (Pseudoparalyse; Palpation, ggf. Röntgen/Sonographie), **Phrenikusparese** (C3–C5; Zwerchfellhochstand, Atemnot – Sonographie), Osteomyelitis/septische Arthritis, zentrale Ursache. **Vorgehen:** in den ersten Tagen schmerzarme Lagerung, dann **Physiotherapie mit passivem Bewegen** zur Vermeidung von Kontrakturen, Eltern anleiten. Die meisten Paresen bilden sich zurück; **fehlt bis etwa zum 3. Lebensmonat die Erholung der Bizepsfunktion** oder liegt ein Horner-Syndrom/totale Parese vor, frühzeitige Vorstellung in einem spezialisierten Zentrum (Diagnostik, ggf. mikrochirurgische Rekonstruktion).",
+      "keyPoints": [
+        "Erb-Duchenne C5–C6: Kellnerstellung, Greifen erhalten",
+        "Klumpke C8–Th1, Horner-Syndrom als Schwerezeichen",
+        "Fraktur (Klavikula/Humerus) und Phrenikusparese ausschließen",
+        "Physiotherapie, passives Bewegen, Elternanleitung",
+        "Keine Bizepserholung bis ca. 3 Monate → spezialisiertes Zentrum"
+      ],
+      "tags": ["Plexusparese", "Geburtsverletzung"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "neuro-026",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie untersuchen ein **muskulär hypotones reifes Neugeborenes** („floppy infant“). Wie unterscheiden Sie klinisch eine **zentrale von einer peripheren Hypotonie**, und welche Ursachen und Diagnostik kommen jeweils in Betracht?",
+      "hints": ["Kraft, Reflexe, Bewusstsein, Dysmorphien.", "Untersuchen Sie auch die Mutter."],
+      "answer": "**Zentrale Hypotonie** (häufiger): Hypotonie ohne wesentliche Schwäche, **Muskeleigenreflexe erhalten oder gesteigert**, oft Bewusstseinsstörung, Anfälle, Dysmorphien – Ursachen: HIE, Blutung, Fehlbildungen, Syndrome (Trisomie 21, **Prader-Willi**), Stoffwechselerkrankungen (z. B. peroxisomale Störungen, nichtketotische Hyperglycinämie), Sepsis, Medikamente. **Periphere (neuromuskuläre) Hypotonie:** ausgeprägte **Schwäche**, wache Kinder, **Reflexe abgeschwächt/fehlend**, Faszikulationen der Zunge (SMA), Gesichtsschwäche, Ptose, Kontrakturen, Ateminsuffizienz – Ursachen: **SMA**, **kongenitale myotone Dystrophie**, kongenitale Myopathien und Muskeldystrophien, kongenitale myasthene Syndrome, transiente neonatale Myasthenie (Mutter mit Myasthenie), Morbus Pompe. **Diagnostik:** Anamnese (Polyhydramnion, Kindsbewegungen, Familie), **Untersuchung der Mutter** (Myotonie, Myasthenie), CK, Glukose/Elektrolyte, Stoffwechselbasisdiagnostik, Echokardiographie (Pompe), Bildgebung, gezielte Genetik (SMN1, DMPK, Methylierungsanalyse 15q11–13), Array/Exom; EMG und Muskelbiopsie nur noch selten.",
+      "keyPoints": [
+        "Zentral: Reflexe erhalten, wenig Schwäche, Enzephalopathie/Dysmorphie",
+        "Peripher: Schwäche, Areflexie, wach, Zungenfaszikulationen",
+        "Ursachen: HIE, Prader-Willi, SMA, myotone Dystrophie, Myopathien, Myasthenie, Pompe",
+        "Mutter untersuchen",
+        "CK, Echo, gezielte Genetik (SMN1, DMPK, Methylierung)"
+      ],
+      "tags": ["Muskuläre Hypotonie", "Neuromuskuläre Erkrankungen"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "neuro-027",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes 37+1 SSW nach **Polyhydramnion** ist beatmungspflichtig, zeigt eine ausgeprägte **Gesichtsschwäche mit zeltförmiger Oberlippe**, Trinkschwäche und Klumpfüße. Die Mutter kann ihre Faust nach festem Händedruck nur verzögert öffnen. Welche Diagnose ist am wahrscheinlichsten?",
+      "hints": ["Die Mutter zeigt eine Myotonie.", "Antizipation über die Mutter."],
+      "options": [
+        { "text": "Spinale Muskelatrophie Typ 1", "correct": false },
+        { "text": "Kongenitale myotone Dystrophie Typ 1 (DM1)", "correct": true },
+        { "text": "Transiente neonatale Myasthenie", "correct": false },
+        { "text": "Prader-Willi-Syndrom", "correct": false }
+      ],
+      "answer": "Das Bild spricht für eine **kongenitale myotone Dystrophie Typ 1**: CTG-Repeat-Expansion im **DMPK-Gen**, autosomal-dominant mit **Antizipation**; die kongenitale Form wird nahezu immer **von der Mutter** vererbt. Typisch sind Polyhydramnion, verminderte Kindsbewegungen, Gesichtsdiplegie, Ateminsuffizienz, Trinkschwäche und Klumpfüße; eine klinische Myotonie fehlt beim Neugeborenen, findet sich aber bei der Mutter (Greifmyotonie). Diagnose molekulargenetisch; Prognose abhängig von der Dauer der Beatmungspflicht, häufig kognitive Beeinträchtigung. Genetische Beratung der Familie.",
+      "keyPoints": [
+        "DM1, CTG-Expansion im DMPK-Gen",
+        "Kongenitale Form fast immer maternal vererbt (Antizipation)",
+        "Mutter mit Greifmyotonie",
+        "Diagnose genetisch, Familienberatung"
+      ],
+      "tags": ["Myotone Dystrophie", "Neuromuskuläre Erkrankungen"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "neuro-028",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Am 5. Lebenstag meldet das Screeninglabor für ein klinisch unauffälliges reifes Neugeborenes einen **positiven Befund für spinale Muskelatrophie (SMA)**. Wie gehen Sie vor, und was besprechen Sie mit den Eltern?",
+      "hints": ["Was erfasst das Screening genau?", "Welche Untersuchung bestimmt Prognose und Dringlichkeit?"],
+      "answer": "Die SMA ist seit 2021 Bestandteil des Neugeborenen-Screenings in Deutschland; erfasst wird die **homozygote Deletion von SMN1** (Exon 7) – compound-heterozygote Formen mit Punktmutation werden nicht erkannt. Vorgehen: **umgehende Kontaktaufnahme mit den Eltern** und Vorstellung in einem **neuromuskulären Zentrum** innerhalb weniger Tage, **Bestätigung aus einer zweiten Probe** und Bestimmung der **SMN2-Kopienzahl**, die Schweregrad und Dringlichkeit bestimmt (2 Kopien meist SMA Typ 1 mit Beginn in den ersten Lebensmonaten). Klinische Baseline (Motorik, Reflexe, Atmung, Schlucken). Eine **präsymptomatische Therapie** (Nusinersen intrathekal, Gentherapie mit Onasemnogen-Abeparvovec, Risdiplam oral) erzielt deutlich bessere motorische Ergebnisse; die Auswahl erfolgt im Zentrum. Im Elterngespräch: Bedeutung des Befunds, Dringlichkeit, Therapieoptionen, genetische Beratung (autosomal-rezessiv, Wiederholungsrisiko 25 %).",
+      "keyPoints": [
+        "Screening erfasst homozygote SMN1-Deletion",
+        "Rasch Bestätigung und Vorstellung im neuromuskulären Zentrum",
+        "SMN2-Kopienzahl bestimmt Schwere und Dringlichkeit",
+        "Präsymptomatische Therapie (Nusinersen, Gentherapie, Risdiplam) verbessert Outcome",
+        "Genetische Beratung, autosomal-rezessiv"
+      ],
+      "tags": ["Spinale Muskelatrophie", "Neugeborenenscreening"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "neuro-029",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes, bisher unauffälliges Neugeborenes (40+1 SSW, Spontangeburt, APGAR 9/10/10) zeigt am **2. Lebenstag wiederholte fokale klonische Zuckungen des rechten Arms**; zwischen den Anfällen ist es wach und trinkt gut. Woran denken Sie, wie sichern Sie die Diagnose, und was sagen Sie den Eltern zur Prognose?",
+      "hints": ["Welche Arterie ist am häufigsten betroffen?", "Welche Bildgebung ist diagnostisch?"],
+      "answer": "Leitdiagnose ist ein **perinataler arterieller ischämischer Schlaganfall**, typischerweise im Versorgungsgebiet der **linken A. cerebri media**; Leitsymptom sind fokale Anfälle bei sonst gut adaptiertem Kind. Differenzialdiagnosen: Blutung, Sinusvenenthrombose, Infektion, metabolische Ursache. **Diagnostik:** Blutzucker, Elektrolyte, Infektionsdiagnostik, EEG; Schädelsonographie (häufig unauffällig) und **MRT mit Diffusionswichtung** (ggf. MR-Angiographie); Echokardiographie (Embolusquelle); Thrombophiliediagnostik je nach Zentrum, Aussagekraft begrenzt. Risikofaktoren sind u. a. maternal/plazentar (Präeklampsie, Chorioamnionitis, Infertilität). **Therapie:** Anfallsbehandlung, supportiv; eine Antikoagulation ist beim arteriellen Schlaganfall nur bei kardialer Emboliequelle zu erwägen. **Prognose:** Wiederholungsrisiko sehr gering; ein relevanter Teil entwickelt eine **unilaterale spastische Zerebralparese** – das Risiko steigt bei Mitbeteiligung von Kortex, Basalganglien und Capsula interna (DWI-Signal im Hirnschenkel); daneben Epilepsie-, Sprach- und Kognitionsrisiken. Neuropädiatrische Nachsorge und frühe Physiotherapie.",
+      "keyPoints": [
+        "Perinataler arterieller ischämischer Schlaganfall (meist links, A. cerebri media)",
+        "MRT mit DWI diagnostisch, Sonographie oft unauffällig",
+        "Echokardiographie, Ausschluss DD (Blutung, Sinusvenenthrombose, Infektion)",
+        "Keine routinemäßige Antikoagulation",
+        "Geringes Wiederholungsrisiko, Risiko unilateraler spastischer CP nach Läsionsausdehnung"
+      ],
+      "tags": ["Schlaganfall", "Krampfanfälle", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        }
+      ]
+    },
+    {
+      "id": "neuro-030",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Kind mit HIE Sarnat II hat die Hypothermie abgeschlossen. Das aEEG normalisierte sich innerhalb von 24 Stunden, das Kind trinkt inzwischen voll; das MRT an Tag 6 zeigt **geringe Wasserscheidenläsionen**. Führen Sie das **Entlassungsgespräch** mit den Eltern: Was sagen Sie zur Prognose, und welche **Nachsorge** planen Sie?",
+      "hints": ["Ehrlich, aber ohne falsche Gewissheit.", "Manche Folgen zeigen sich erst im Schulalter."],
+      "answer": "Ruhiger Rahmen, beide Eltern, Pflege dabei, ausreichend Zeit. Ich erkläre verständlich, was passiert ist, dass die Kühlbehandlung das Risiko für bleibende Schäden nachweislich senkt, und dass die **günstigen Faktoren** (rasche aEEG-Erholung, gutes Trinken, nur geringe Wasserscheidenläsionen) für eine überwiegend gute Prognose sprechen. Gleichzeitig benenne ich offen, dass **Wasserscheidenläsionen eher mit späteren kognitiven, sprachlichen oder Verhaltensauffälligkeiten** als mit schweren motorischen Störungen verbunden sind und manche Folgen erst im Schulalter sichtbar werden. **Nachsorge:** sozialpädiatrische/entwicklungsneurologische Verlaufskontrollen, standardisierte Entwicklungsdiagnostik (z. B. Bayley) etwa mit 2 Jahren, Hör- und Sehprüfung, Beobachtung von Kopfumfang, Fütterung und Anfällen; frühe Physiotherapie bzw. Frühförderung bei Auffälligkeiten, ggf. sozialmedizinische Nachsorge. Eltern auf Warnzeichen (Anfälle, Trinkprobleme) hinweisen, schriftliche Zusammenfassung und Gelegenheit für Rückfragen geben.",
+      "keyPoints": [
+        "Strukturiertes, ehrliches Gespräch ohne falsche Gewissheit",
+        "Günstige Faktoren benennen (aEEG-Erholung, MRT, Klinik)",
+        "Wasserscheidenläsionen: Risiko kognitiver/Verhaltensfolgen, ggf. spät manifest",
+        "Nachsorge: Entwicklungsdiagnostik mit 2 Jahren und darüber hinaus, Hören, Sehen",
+        "Frühförderung/Physiotherapie, Warnzeichen erklären"
+      ],
+      "tags": ["HIE", "Elternberatung", "Nachsorge"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    }
+  ]
+}

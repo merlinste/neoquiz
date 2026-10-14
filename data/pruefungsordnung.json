@@ -1,0 +1,411 @@
+{
+  "title": "Schwerpunktprüfung Neonatologie – Landesärztekammer Hessen",
+  "subtitle": "Grundlage: Weiterbildungsordnung für Ärztinnen und Ärzte in Hessen 2020 (WBO 2020) vom 23.11.2019, in Kraft seit 1.7.2020, aktuelle Fassung gültig seit 1.1.2025 (zuletzt geändert am 23.11.2024). Abschnitt B, Gebiet Kinder- und Jugendmedizin – Schwerpunkt Neonatologie (Neonatologe/Neonatologin).",
+  "asOf": "Oktober 2026, geprüft an den Originaldokumenten der LÄKH",
+  "facts": [
+    [
+      "Art der Bezeichnung",
+      "**Schwerpunkt** im Gebiet Kinder- und Jugendmedizin (keine Zusatz-Weiterbildung). Die Schwerpunktbezeichnung darf nur zusammen mit der Facharztbezeichnung geführt werden (§ 3 Abs. 2)."
+    ],
+    [
+      "Voraussetzung",
+      "Facharztanerkennung Kinder- und Jugendmedizin – die Zulassung zur Schwerpunktprüfung ist erst danach möglich (§ 12 Abs. 3). Die Schwerpunkt-Weiterbildung baut auf der Facharzt-Weiterbildung auf."
+    ],
+    [
+      "Weiterbildungszeit",
+      "**24 Monate Neonatologie** unter Befugnis an Weiterbildungsstätten. Mindestzeit; bei Teilzeit entsprechend länger (§ 4)."
+    ],
+    [
+      "Prüfungsform",
+      "**Mündliche Prüfung**, mindestens **30 Minuten**, nicht öffentlich, kann sich auf **alle Weiterbildungsinhalte** erstrecken (§ 14 Abs. 2). Eine Höchstdauer ist nicht geregelt."
+    ],
+    [
+      "Prüfungsausschuss",
+      "Drei Ärztinnen/Ärzte: Vorsitz und zwei Fachprüfer, von denen mindestens zwei die Schwerpunktbezeichnung führen (§ 13). Kontaktaufnahme zu den Prüfern vorab ist zu unterlassen."
+    ],
+    [
+      "Ergebnis",
+      "**Bestanden oder nicht bestanden** – es gibt keine Noten. Der Ausschuss entscheidet auf Grundlage der Zeugnisse und des Prüfungsergebnisses (§ 14 Abs. 4)."
+    ],
+    [
+      "eLogbuch",
+      "Pflicht. Das von den Weiterbildungsbefugten bestätigte eLogbuch muss für den Zulassungsantrag freigegeben und auf die aktuellste hessische WBO-Fassung umgestellt sein."
+    ],
+    [
+      "Übergangsrecht",
+      "Die Fünfjahresfrist zum Abschluss nach der WBO 2005 (§ 20 Abs. 5 WBO 2020) ist am 30.06.2025 abgelaufen – für Prüfungen heute gilt praktisch die WBO 2020."
+    ]
+  ],
+  "procedure": [
+    {
+      "ref": "§ 12",
+      "text": "**Zulassung** durch die LÄKH auf Antrag mit Zeugnissen und Nachweisen einschließlich eLogbuch. Antragsunterlagen: Online-Antrag, beglaubigte Kopien aller Weiterbildungszeugnisse, einfache Kopien der Arbeitsverträge. Bearbeitungszeit etwa 8–10 Wochen."
+    },
+    {
+      "ref": "§ 14 Abs. 1",
+      "text": "Die Prüfung findet **spätestens sechs Monate nach der Zulassung** statt. Ladung mindestens **zwei Wochen** vorher; die Namen der Prüfer werden spätestens mit der Ladung mitgeteilt."
+    },
+    {
+      "ref": "§ 14 Abs. 2",
+      "text": "Mündliche Prüfung, **mindestens 30 Minuten**, nicht öffentlich, über alle Weiterbildungsinhalte des Schwerpunkts."
+    },
+    {
+      "ref": "§ 14 Abs. 5–6",
+      "text": "Bei Nichtbestehen kann der Ausschuss eine **Verlängerung der Weiterbildung** (mindestens drei Monate, bei Schwerpunkten höchstens ein Jahr) mit inhaltlichen Anforderungen, den Erwerb zusätzlicher Kenntnisse bis zur Wiederholungsprüfung und/oder sonstige Auflagen beschließen."
+    },
+    {
+      "ref": "§ 14 Abs. 7",
+      "text": "Wer **ohne ausreichenden Grund** nicht erscheint oder abbricht, hat nicht bestanden. Dienstplan, private Termine oder unzureichende Vorbereitung gelten laut LÄKH nicht als ausreichender Grund; die Gebühr wird dann voll fällig."
+    },
+    {
+      "ref": "§ 15",
+      "text": "Das Ergebnis teilt der Vorsitz unmittelbar mit; ein Nichtbestehen wird grundsätzlich mündlich begründet. Bei Bestehen gibt es die Anerkennungsurkunde, bei Nichtbestehen einen schriftlichen, rechtsmittelfähigen Bescheid. Widerspruch ist möglich (Widerspruchsausschuss)."
+    },
+    {
+      "ref": "§ 16",
+      "text": "**Wiederholungsprüfung** frühestens drei Monate nach der nicht bestandenen Prüfung; eine Höchstzahl ist nicht geregelt."
+    }
+  ],
+  "examDay": [
+    "Prüfung in der Landesärztekammer Hessen in Frankfurt; spätestens **15 Minuten vorher** am Empfang anmelden.",
+    "**Lichtbildausweis** mitbringen.",
+    "Smartphone ausschalten.",
+    "Der Termin aus der Ladung ist verbindlich (§ 14 Abs. 7)."
+  ],
+  "contentsNote": "Wörtlich nach WBO 2020 Hessen, Abschnitt B, Schwerpunkt Neonatologie (S. 200–201 der aktuellen Fassung). KM = Kognitive und Methodenkompetenz (Kenntnisse), HK = Handlungskompetenz (Erfahrungen und Fertigkeiten). Richtzahlen sind die im eLogbuch nachzuweisenden Mindestzahlen. Rechts die Quiz-Gebiete, in denen der Inhalt geübt wird.",
+  "contents": [
+    {
+      "group": "Übergreifende Inhalte",
+      "items": [
+        {
+          "kind": "H",
+          "text": "Bewertung von Screeningbefunden und Einleitung adäquater Maßnahmen",
+          "areas": [
+            "adaptation",
+            "stoffwechsel",
+            "endokrinologie",
+            "sinnesorgane"
+          ]
+        },
+        {
+          "kind": "K",
+          "text": "Auswirkungen der Pharmakotherapie bei Schwangeren auf das Ungeborene und Neugeborene",
+          "areas": [
+            "perinatalmedizin",
+            "pharmakologie"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Teilnahme an Perinatalkonferenzen",
+          "areas": [
+            "perinatalmedizin"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Mitwirkung an der pränatalen Beratung bei erwarteter Morbidität",
+          "areas": [
+            "perinatalmedizin",
+            "ethik"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Erstversorgung von Früh- und Neugeborenen jeden Gestationsalters",
+          "areas": [
+            "erstversorgung"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Gesprächsführung in Bezug auf spezielle Fragestellungen der Neonatologie mit Eltern und im Team, z. B. Aussichtslosigkeit von Therapiemaßnahmen, Therapiezieländerung",
+          "areas": [
+            "ethik"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Palliativmedizinische Betreuung von Frühgeborenen und Reifgeborenen",
+          "areas": [
+            "ethik"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Sterbebegleitung in der Neonatologie",
+          "areas": [
+            "ethik"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Neonatologische Notfälle",
+      "items": [
+        {
+          "kind": "H",
+          "text": "Erstversorgung im Kreißsaal von Neugeborenen und Frühgeborenen mit vitaler Bedrohung",
+          "areas": [
+            "erstversorgung",
+            "faelle"
+          ],
+          "rz": "300, davon Frühgeborene < 1.500 g: 50"
+        }
+      ]
+    },
+    {
+      "group": "Postnatale Adaptation und Störungen der Kreislaufumstellung",
+      "items": [
+        {
+          "kind": "H",
+          "text": "Durchführung der Hypothermie-Therapie des asphyktischen Neugeborenen",
+          "areas": [
+            "neurologie"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Diagnostik, Überwachung und Therapie von Störungen der Adaptation und Kreislaufumstellung",
+          "areas": [
+            "adaptation",
+            "kreislauf"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Störungen der Sauerstoffaufnahme und des Sauerstofftransportes",
+      "items": [
+        {
+          "kind": "H",
+          "text": "Indikationsstellung und Befundinterpretation von Röntgenuntersuchungen im Kontext spezieller neonatologischer Krankheitsbilder und Fragestellungen",
+          "areas": [
+            "atemstoerungen",
+            "techniken"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Diagnostik und Therapie von Störungen der Sauerstoffaufnahme und des Sauerstofftransportes",
+          "areas": [
+            "atemstoerungen",
+            "lungenerkrankungen",
+            "herzfehler"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Differenzierte Beatmungstechniken und -entwöhnung einschließlich Surfactantapplikation bei invasiv beatmeten Neugeborenen",
+          "areas": [
+            "beatmung",
+            "atemstoerungen"
+          ],
+          "rz": "50"
+        }
+      ]
+    },
+    {
+      "group": "Infektionen",
+      "items": [
+        {
+          "kind": "K",
+          "text": "Krankenhaushygienische Maßnahmen unter besonderer Berücksichtigung der Spezifika bei unreifen Frühgeborenen und auf der neonatologischen Intensivstation",
+          "areas": [
+            "hygiene"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Diagnostik, Therapie und Prophylaxe von Infektionen im Früh- und Neugeborenenalter",
+          "areas": [
+            "infektionen",
+            "hygiene"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Neonatologische Krankheitsbilder",
+      "items": [
+        {
+          "kind": "H",
+          "text": "Prophylaxe, Diagnostik und Therapie komplexer neonatologischer Krankheitsbilder",
+          "areas": [
+            "gastroenterologie",
+            "fruehgeborenenhirn",
+            "haematologie",
+            "ikterus",
+            "niere",
+            "genetik",
+            "faelle"
+          ],
+          "rz": "100, davon Frühgeborene < 1.500 g: 50"
+        },
+        {
+          "kind": "H",
+          "text": "Pharmakotherapie bei Früh- und Neugeborenen",
+          "areas": [
+            "pharmakologie"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Berechnung enteraler und parenteraler Ernährung einschließlich der Berücksichtigung der Besonderheiten des Knochenstoffwechsels",
+          "areas": [
+            "fluessigkeit",
+            "ernaehrung",
+            "stoffwechsel"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Intensivmedizinische Maßnahmen",
+      "items": [
+        {
+          "kind": "K",
+          "text": "Bildgebende Diagnostik auf der neonatologischen Intensivstation unter besonderer Berücksichtigung der spezifischen Erkrankungen sehr unreifer Frühgeborener",
+          "areas": [
+            "techniken",
+            "fruehgeborenenhirn"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Sonographie und Dopplersonographie bei neonatologischen Krankheitsbildern auf der Intensivstation und bei unreifen Frühgeborenen",
+          "areas": [
+            "techniken",
+            "fruehgeborenenhirn",
+            "kreislauf"
+          ],
+          "rz": "200"
+        },
+        {
+          "kind": "H",
+          "text": "Durchführung intensivmedizinischer Messverfahren und Maßnahmen einschließlich der Beherrschung von Komplikationen",
+          "areas": [
+            "techniken",
+            "beatmung"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Intubation oder intratracheale Surfactantapplikation",
+          "areas": [
+            "techniken",
+            "atemstoerungen"
+          ],
+          "rz": "30, davon Frühgeborene < 1.500 g: 20"
+        },
+        {
+          "kind": "H",
+          "text": "Zentrale Venenkatheter einschließlich Nabelgefäßkatheter",
+          "areas": [
+            "techniken"
+          ],
+          "rz": "20"
+        },
+        {
+          "kind": "H",
+          "text": "Pleuradrainage",
+          "areas": [
+            "techniken"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Arterienkatheter",
+          "areas": [
+            "techniken"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Periphere Venenkatheter",
+          "areas": [
+            "techniken"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Durchführung und Befunderstellung des amplitudenintegrierten Elektroenzephalogramm (aEEG)",
+          "areas": [
+            "neurologie"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Durchführung und Befunderstellung von funktionellen Echokardiographien",
+          "areas": [
+            "kreislauf",
+            "herzfehler"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Transportbegleitung, Entlassungsmanagement und Nachsorge",
+      "items": [
+        {
+          "kind": "H",
+          "text": "Durchführung von Transporten kranker Reifgeborener und sehr unreifer Frühgeborener",
+          "areas": [
+            "perinatalmedizin"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Entlassungsmanagement und Nachsorge",
+          "areas": [
+            "nachsorge"
+          ]
+        },
+        {
+          "kind": "K",
+          "text": "Organisation von Netzwerken zur Unterstützung von Familien, sozialmedizinische Nachsorge, Nachbetreuung in sozialpädiatrischen Zentren und Frühfördereinrichtungen, Familienhebamme",
+          "areas": [
+            "nachsorge"
+          ]
+        },
+        {
+          "kind": "H",
+          "text": "Bewertung von Ergebnissen entwicklungsneurologischer Diagnostik hinsichtlich der Langzeitprognose, speziell nach schweren Erkrankungen während der Neonatalzeit und bei unreifen Frühgeborenen",
+          "areas": [
+            "nachsorge"
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "**Fallbasiert denken:** Die meisten Fragen beginnen mit einer Situation („Sie werden in den Kreißsaal gerufen …“). Antworte in der Reihenfolge Ersteinschätzung → Sofortmaßnahmen → Diagnostik → Differenzialdiagnosen → Therapie → Verlauf/Komplikationen → Gespräch mit den Eltern.",
+    "**Zahlen sicher können:** SpO2-Zielbereiche nach der Geburt, Beatmungsdrücke, Tubusgrößen, Glukose- und Flüssigkeitszufuhr, Standarddosen der Notfallmedikamente, Phototherapiegrenzen. Prüfer haken bei Zahlen gern nach.",
+    "**Leitlinien nennen:** „Laut aktueller AWMF-Leitlinie …“ oder „nach ERC 2025 …“ zeigt, dass du den Standard kennst. Wo Zentren unterschiedlich vorgehen, das offen sagen und die eigene Praxis begründen.",
+    "**Priorisieren:** In Notfallsituationen zuerst das Lebensbedrohliche (ABC), dann der Rest. Lieber strukturiert und vollständig als schnell und lückenhaft.",
+    "**Kommunikation gehört dazu:** Elterngespräch, Therapiezieländerung, Palliativversorgung und Teamkommunikation sind ausdrücklich Weiterbildungsinhalt.",
+    "**Hier im Quiz:** erst frei antworten (gern laut), dann Musterantwort lesen und ehrlich einschätzen. Unter „Prüfung“ simuliert Claude den Ausschuss – am besten mit Spracheingabe."
+  ],
+  "sources": [
+    {
+      "title": "WBO 2020 Hessen (aktuelle Fassung, PDF)",
+      "url": "https://www.laekh.de/fileadmin/user_upload/Aerzte/Weiterbildung/WBO_Antragstellung_Formulare/WBO_2020/WBO_2020.pdf"
+    },
+    {
+      "title": "LÄKH – Zulassung zur Prüfung",
+      "url": "https://www.laekh.de/fuer-aerztinnen-und-aerzte/weiterbildung/aerztinnen-und-aerzte-in-weiterbildung/zulassung-zur-pruefung"
+    },
+    {
+      "title": "LÄKH – Merkblatt zum Prüfungstag (PDF)",
+      "url": "https://www.laekh.de/fileadmin/user_upload/Aerzte/Weiterbildung/Aerzte_in_Weiterbildung/Zulassung_zur_Pruefung/Infos_zur_Pruefung_und_zum_Pruefungstag.pdf"
+    },
+    {
+      "title": "LÄKH – eLogbuch",
+      "url": "https://www.laekh.de/fuer-aerztinnen-und-aerzte/weiterbildung/aerztinnen-und-aerzte-in-weiterbildung/elogbuch-fuer-aerztinnen-und-aerzte-in-weiterbildung"
+    },
+    {
+      "title": "Checkliste Neonatologie, 8. Aufl. (Thieme)",
+      "url": "https://shop.thieme.de/Checkliste-Neonatologie/9783132457980"
+    }
+  ]
+}

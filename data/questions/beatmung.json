@@ -1,0 +1,739 @@
+{
+  "area": "beatmung",
+  "questions": [
+    {
+      "id": "beat-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erklären Sie die **Wirkmechanismen von CPAP** beim Frühgeborenen mit Atemnotsyndrom und nennen Sie typische Anfangsdrücke, Interfaces und Komplikationen.",
+      "hints": ["Was passiert mit der funktionellen Residualkapazität?", "Denken Sie auch an Nase und Magen."],
+      "answer": "**Wirkung:** CPAP stabilisiert die Alveolen endexspiratorisch, **erhöht und erhält die FRC**, verhindert Atelektasen, verbessert Ventilations-Perfusions-Verhältnis und Oxygenierung, schont endogenen Surfactant, schient die oberen Atemwege (weniger obstruktive Apnoen) und reduziert die Atemarbeit.\n\n**Praxis:** Bei Frühgeborenen mit RDS-Risiko nicht-invasive Atemunterstützung ab Geburt: nasaler CPAP mit etwa **6–8 cmH2O** (European Consensus 2025; alternativ NIPPV, bevorzugt synchronisiert), danach individuell anpassen. Interfaces: **kurze binasale Prongs oder Nasenmaske**, korrekte Größe und Fixierung, offener Mund vermindert den effektiven Druck. Systeme: variabler Flow, konventioneller Flow oder Bubble-CPAP.\n\n**Komplikationen:** Druckschäden an Nasenseptum und Nasenflügeln, Magenblähung („CPAP-Belly“, Magensonde offen ablaufen lassen), Air-Leak, bei zu hohem Druck Überblähung mit vermindertem venösem Rückstrom und CO2-Retention.",
+      "keyPoints": [
+        "FRC erhalten, Atelektasen verhindern, Surfactant schonen",
+        "obere Atemwege schienen, Atemarbeit reduzieren",
+        "Start ca. 6–8 cmH2O",
+        "kurze binasale Prongs oder Maske",
+        "Komplikationen: Nasenschäden, Magenblähung, Air-Leak, Überblähung"
+      ],
+      "tags": ["CPAP", "Nicht-invasive Atemunterstützung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was ist **High-Flow-Nasenkanülen-Therapie (HFNC)**, wie wirkt sie, und welchen Stellenwert hat sie im Vergleich zu CPAP bei Frühgeborenen?",
+      "hints": ["Totraum und unkontrollierter Distending Pressure.", "Primärtherapie oder nach Extubation?"],
+      "answer": "HFNC liefert angewärmtes, voll befeuchtetes Gas mit höheren Flüssen (beim Neugeborenen typischerweise etwa 2–8 l/min) über **nicht okkludierende** Nasenkanülen (Kanüle füllt das Nasenloch nur etwa zur Hälfte aus).\n\n**Wirkmechanismen:** Auswaschen des nasopharyngealen Totraums, Reduktion der Atemarbeit, gewisser positiver Atemwegsdruck – dieser ist jedoch **nicht gemessen und nicht konstant** (abhängig von Fluss, Leck, Mundöffnung).\n\n**Stellenwert:** Als **primäre** Atemunterstützung beim RDS ist HFNC dem CPAP hinsichtlich Therapieversagen **unterlegen** (HIPSTER-Studie, Kinder ≥ 28 SSW), wegen der Rescue-Option CPAP ist die Intubationsrate insgesamt aber nicht erhöht; für sehr unreife Frühgeborene < 28 SSW ist die Datenlage unzureichend, dort bleibt CPAP Standard. **Nach Extubation** führt HFNC im Vergleich zu CPAP häufiger zu Therapieversagen, bei verfügbarem Rescue-CPAP aber nicht zu mehr Reintubationen – bei reiferen Frühgeborenen eine vertretbare Alternative. In der **Entwöhnung** von CPAP ist HFNC etabliert, mit Vorteilen bei Nasenschäden und Komfort.",
+      "keyPoints": [
+        "angewärmter, befeuchteter Hochfluss über nicht okkludierende Kanülen",
+        "Totraumauswaschung, unkontrollierter Druck",
+        "primär beim RDS CPAP unterlegen (HIPSTER)",
+        "< 28 SSW: CPAP Standard",
+        "nach Extubation mehr Therapieversagen (Rescue-CPAP), im Weaning etabliert, weniger Nasenschäden"
+      ],
+      "tags": ["High-Flow", "Nicht-invasive Atemunterstützung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-003",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **High-Flow-Therapie** bei Frühgeborenen ist richtig?",
+      "hints": ["Denken Sie an den Druck, der tatsächlich in der Lunge ankommt."],
+      "options": [
+        {
+          "text": "Der erzeugte Atemwegsdruck ist nicht direkt gemessen und schwankt mit Leck und Mundöffnung.",
+          "correct": true
+        },
+        {
+          "text": "Die Nasenkanülen sollen die Nasenlöcher vollständig abdichten, um einen definierten PEEP zu erzeugen.",
+          "correct": false
+        },
+        { "text": "HFNC ist als primäre Atemunterstützung beim RDS dem CPAP überlegen.", "correct": false },
+        { "text": "Bei High-Flow ist eine Befeuchtung des Atemgases nicht erforderlich.", "correct": false }
+      ],
+      "answer": "Bei HFNC entsteht ein **nicht kontrollierter** positiver Druck, der von Flussrate, Kanülengröße, Leck und Mundöffnung abhängt. Die Kanülen dürfen das Nasenloch nicht abdichten (Gefahr unkontrolliert hoher Drücke). Als Primärtherapie des RDS ist HFNC dem CPAP unterlegen; Anwärmung und Befeuchtung sind bei hohen Flüssen zwingend.",
+      "keyPoints": [
+        "Druck bei HFNC nicht kontrolliert/gemessen",
+        "Kanülen nicht okkludierend",
+        "primär CPAP überlegen",
+        "Befeuchtung zwingend"
+      ],
+      "tags": ["High-Flow"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was versteht man unter **NIPPV** (nasale intermittierende Überdruckbeatmung), welche Vorteile gegenüber CPAP sind belegt, und welche neueren nicht-invasiven Verfahren kennen Sie?",
+      "hints": ["Synchronisiert oder nicht synchronisiert?", "Extubationsversagen."],
+      "answer": "**NIPPV** überlagert einen CPAP-Grunddruck mit intermittierenden Druckhüben über nasale Prongs oder Maske – nicht synchronisiert oder synchronisiert (sNIPPV, z. B. über abdominelle Sensoren oder NAVA). Die Druckübertragung in die Lunge ist variabel.\n\n**Evidenz:** Nach Extubation senkt NIPPV im Vergleich zu CPAP das **Extubationsversagen** (Cochrane), mit Vorteil für synchronisierte Verfahren (sNIPPV möglicherweise auch weniger BPD). Als primäre Atemunterstützung bei RDS reduziert NIPPV im Vergleich zu CPAP die Notwendigkeit einer Intubation; ein klarer Effekt auf BPD ist nicht konsistent belegt. Der European Consensus 2025 nennt NIPPV (bevorzugt synchronisiert) daher als Alternative zum CPAP für die primäre Atemunterstützung.\n\n**Neuere Verfahren:** **NIV-NAVA** (Triggerung über die elektrische Zwerchfellaktivität) und **nasale Hochfrequenzoszillation (nHFOV)** – letztere zeigte in Studien vor allem aus China weniger Reintubationen, ist aber in Deutschland noch kein Standard. Die Einstellungen sind zentrumsabhängig.",
+      "keyPoints": [
+        "CPAP plus intermittierende Druckhübe, nasal",
+        "synchronisiert besser als nicht synchronisiert",
+        "weniger Extubationsversagen als CPAP",
+        "primär: weniger Intubationen",
+        "NIV-NAVA, nHFOV als neuere Verfahren, noch nicht Standard"
+      ],
+      "tags": ["NIPPV", "Nicht-invasive Atemunterstützung", "Extubation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 26+1 SSW wird seit Geburt mit CPAP behandelt und hat LISA erhalten. Nach welchen **Kriterien** entscheiden Sie über **Intubation und invasive Beatmung**?",
+      "hints": ["Oxygenierung, Ventilation, Atemantrieb, Kreislauf.", "Grenzwerte sind zentrumsabhängig."],
+      "answer": "Invasive Beatmung ist indiziert, wenn nicht-invasive Verfahren (optimierter CPAP bzw. NIPPV, Surfactant, Koffein) versagen. Typische Kriterien (**zentrumsabhängige Grenzwerte**):\n- **Oxygenierungsversagen:** anhaltend hoher FiO2-Bedarf (häufig > 0,4–0,6) trotz optimiertem CPAP und Surfactant;\n- **Ventilationsversagen:** respiratorische Azidose, z. B. pH < 7,20–7,25 mit pCO2 > 60–65 mmHg, mit Tendenz zur Verschlechterung;\n- **rezidivierende Apnoen** mit Bradykardie, die eine Masken-/Beutelbeatmung erfordern, trotz Koffein und NIPPV;\n- zunehmende Erschöpfung bzw. schwere Atemarbeit;\n- Schock, Sepsis, Krampfanfälle, notwendige Operation, Reanimation.\n\nZiel ist, unnötige Intubationen zu vermeiden, aber ein Kind mit drohender Erschöpfung nicht zu spät zu intubieren. Intubation möglichst als geplanter Eingriff mit Prämedikation (sofern keine Notfallsituation).",
+      "keyPoints": [
+        "Versagen der nicht-invasiven Unterstützung trotz Surfactant und Koffein",
+        "hoher FiO2-Bedarf (z. B. > 0,4–0,6)",
+        "respiratorische Azidose (z. B. pH < 7,20–7,25, pCO2 > 60–65 mmHg)",
+        "rezidivierende Apnoen mit Beutelbeatmung",
+        "Grenzwerte zentrumsabhängig, geplante Intubation mit Prämedikation"
+      ],
+      "tags": ["Intubation", "Indikation", "Frühgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "beat-006",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche Beatmungsparameter beeinflussen bei der konventionellen Beatmung primär die **Oxygenierung** und welche primär die **Ventilation (CO2-Elimination)**?",
+      "hints": ["Mittlerer Atemwegsdruck und FiO2.", "Atemminutenvolumen = Tidalvolumen · Frequenz."],
+      "answer": "**Oxygenierung:** abhängig von **FiO2** und **mittlerem Atemwegsdruck (MAP)** – dieser wird bestimmt durch PEEP, Spitzendruck (PIP), Inspirationszeit und Frequenz. Ein ausreichender PEEP sichert die Rekrutierung der Alveolen.\n\n**Ventilation:** abhängig vom **Atemminutenvolumen** = Tidalvolumen · Frequenz. Das Tidalvolumen ergibt sich bei druckkontrollierter Beatmung aus der Druckamplitude (PIP minus PEEP) und der Compliance bzw. wird bei Volumengarantie direkt eingestellt. Zu kurze Exspirationszeit (hohe Frequenz) kann zu Air-Trapping führen und die CO2-Elimination verschlechtern.",
+      "keyPoints": [
+        "Oxygenierung: FiO2 und MAP (PEEP, PIP, Ti)",
+        "Ventilation: Tidalvolumen und Frequenz (Minutenvolumen)",
+        "VT abhängig von PIP–PEEP und Compliance bzw. VG",
+        "zu kurze Te: Air-Trapping"
+      ],
+      "tags": ["Beatmungsphysiologie", "Konventionelle Beatmung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie das Prinzip der **volumengarantierten Beatmung (VG/VTV)** beim Frühgeborenen: Funktionsweise, typisches Ziel-Tidalvolumen, Vorteile laut Evidenz und Limitationen.",
+      "hints": ["Der Respirator passt den Spitzendruck Atemzug für Atemzug an.", "Was passiert bei großem Tubusleck?"],
+      "answer": "**Prinzip:** druckbegrenzte, zeitgesteuerte Beatmung, bei der der Respirator den **Spitzendruck Atemzug für Atemzug** anhand des gemessenen exspiratorischen Tidalvolumens so regelt, dass das eingestellte **Ziel-Tidalvolumen** erreicht wird; eingestellt wird eine Druckobergrenze (Pmax) mit etwas Reserve. Verbessert sich die Compliance (z. B. nach Surfactant), sinkt der Druck automatisch („Auto-Weaning“).\n\n**Ziel-VT:** Start mit etwa **5 ml/kg** (üblicher Bereich etwa 4–7 ml/kg; laut European Consensus 2025 meist 5–7 ml/kg); sehr kleine Frühgeborene benötigen wegen des Totraums von Flowsensor und Tubus eher Werte im oberen Bereich, mit zunehmendem Lebensalter bzw. sich entwickelnder BPD höhere Volumina. Pmax mit Reserve einstellen (Konsensus: etwa 25–30 cmH2O).\n\n**Evidenz (Cochrane):** Im Vergleich zur rein druckkontrollierten Beatmung weniger **Tod oder BPD**, weniger Pneumothoraces, Hypokapnie und schwere IVH/PVL sowie kürzere Beatmungsdauer.\n\n**Limitationen:** großes Tubusleck (etwa > 40–50 %, geräteabhängig) verfälscht die Volumenmessung, ungenügende Druckobergrenze führt zu Unterschreiten des Ziel-VT, Flowsensor erhöht den Totraum.",
+      "keyPoints": [
+        "Respirator regelt PIP anhand des exspiratorischen VT",
+        "Ziel-VT initial ca. 5 ml/kg (meist 4–7 ml/kg)",
+        "Auto-Weaning bei steigender Compliance",
+        "Evidenz: weniger Tod/BPD, Pneumothorax, Hypokapnie, IVH/PVL",
+        "Limitation: Leck, Pmax, Totraum"
+      ],
+      "tags": ["Volumengarantie", "Konventionelle Beatmung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-008",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Vergleichen Sie die synchronisierten Beatmungsmodi **A/C (SIPPV)**, **SIMV** und **PSV** beim Neugeborenen: Wie funktionieren sie, und wie entwöhnen Sie jeweils?",
+      "hints": ["Welche spontanen Atemzüge werden unterstützt?", "Weaning über Frequenz oder über Druck/Volumen?"],
+      "answer": "- **A/C (Assist/Control, SIPPV):** Jeder getriggerte Spontanatemzug wird mit dem eingestellten Druck bzw. Volumen unterstützt; bei Apnoe greift eine Backup-Frequenz. **Weaning** über Reduktion des Drucks bzw. Ziel-VT und FiO2, nicht über die Frequenz.\n- **SIMV:** Nur eine eingestellte Anzahl von Atemzügen wird synchronisiert unterstützt, dazwischen atmet das Kind ohne Unterstützung gegen den Tubuswiderstand. **Weaning** über Reduktion der Frequenz; bei Frühgeborenen erhöht reines SIMV mit niedriger Frequenz die Atemarbeit – daher oft mit Druckunterstützung kombiniert.\n- **PSV (Pressure Support):** Jeder Spontanatemzug wird druckunterstützt, die Inspiration endet **flowgesteuert** (Abfall des Inspirationsflusses auf einen Prozentsatz des Spitzenflusses), das Kind bestimmt die Inspirationszeit.\n\nTriggerung meist über Flowsensor; Probleme sind **Autotriggerung** durch Leck oder Wasser im Schlauch und fehlende Triggerung bei schwachem Atemantrieb. Häufig werden A/C oder PSV mit Volumengarantie kombiniert.",
+      "keyPoints": [
+        "A/C: jeder Atemzug unterstützt, Weaning über Druck/VT",
+        "SIMV: feste Anzahl unterstützter Atemzüge, Weaning über Frequenz",
+        "PSV: flowgesteuertes Inspirationsende",
+        "Flowtrigger, Autotriggerung bei Leck",
+        "Kombination mit Volumengarantie üblich"
+      ],
+      "tags": ["Beatmungsmodi", "Weaning"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-009",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche **Inspirationszeit** ist bei der konventionellen Beatmung eines Frühgeborenen mit akutem RDS üblich?",
+      "hints": ["Die Zeitkonstante der RDS-Lunge ist kurz."],
+      "options": [
+        { "text": "0,3–0,4 s", "correct": true },
+        { "text": "0,1 s", "correct": false },
+        { "text": "0,7–0,9 s", "correct": false },
+        { "text": "1,0–1,5 s", "correct": false }
+      ],
+      "answer": "Beim akuten RDS ist die Zeitkonstante der Lunge (Compliance · Resistance) kurz; Inspirationszeiten von etwa **0,3–0,4 s** reichen zur Füllung aus. Längere Inspirationszeiten erhöhen MAP und Air-Leak-Risiko und begünstigen Asynchronie; deutlich längere Ti werden erst bei etablierter schwerer BPD mit langen Zeitkonstanten eingesetzt.",
+      "keyPoints": ["Ti 0,3–0,4 s beim RDS", "kurze Zeitkonstante", "lange Ti erst bei schwerer BPD"],
+      "tags": ["Konventionelle Beatmung", "Einstellung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-010",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes wird druckkontrolliert beatmet: **PIP 20 cmH2O, PEEP 5 cmH2O, Inspirationszeit 0,35 s, Frequenz 60/min**. Berechnen Sie den **mittleren Atemwegsdruck (MAP)** unter Annahme einer rechteckigen Druckkurve.",
+      "hints": ["MAP = (PIP · Ti + PEEP · Te) / (Ti + Te)", "Bei 60/min dauert ein Atemzyklus 1 s."],
+      "answer": "Zykluszeit = 60 s / 60 = 1 s, Te = 1 − 0,35 = 0,65 s.\nMAP = (PIP · Ti + PEEP · Te) / (Ti + Te) = (20 · 0,35 + 5 · 0,65) / 1 = (7 + 3,25) / 1 = **10,25 cmH2O** (≈ 10,3 cmH2O).",
+      "keyPoints": ["Te = 0,65 s", "Formel MAP = (PIP·Ti + PEEP·Te)/Ttot", "Ergebnis ≈ 10,3 cmH2O"],
+      "solution": { "value": 10.25, "unit": "cmH2O", "tolerance": 0.03 },
+      "tags": ["Mittlerer Atemwegsdruck", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "beat-011",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes mit Mekoniumaspiration wird mit einem **MAP von 12 cmH2O** und **FiO2 0,6** beatmet. Der arterielle **paO2 beträgt 45 mmHg**. Berechnen Sie den **Oxygenierungsindex (OI)**.",
+      "hints": ["OI = MAP · FiO2 · 100 / paO2 (in mmHg)"],
+      "answer": "OI = MAP · FiO2 · 100 / paO2 = 12 · 0,6 · 100 / 45 = 720 / 45 = **16**.\nEin OI von 16 entspricht einem mittelgradigen Oxygenierungsversagen; Werte ≥ 25 gelten als schwer (Indikationsbereich für iNO), Werte > 40 als ECMO-Kriterium.",
+      "keyPoints": ["Formel OI = MAP · FiO2 · 100 / paO2", "Ergebnis OI = 16", "Einordnung: ≥ 25 schwer, > 40 ECMO-Bereich"],
+      "solution": { "value": 16, "unit": "", "tolerance": 0.03 },
+      "tags": ["Oxygenierungsindex", "Berechnung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ]
+    },
+    {
+      "id": "beat-012",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit PPHN wird unter HFOV mit einem **MAP von 18 cmH2O** und **FiO2 1,0** behandelt. Die arterielle BGA zeigt einen **paO2 von 5,3 kPa**. Berechnen Sie den **Oxygenierungsindex**.",
+      "hints": ["Der OI wird mit paO2 in mmHg berechnet.", "1 kPa = 7,5 mmHg"],
+      "answer": "Umrechnung: 5,3 kPa · 7,5 = 39,75 mmHg.\nOI = 18 · 1,0 · 100 / 39,75 ≈ **45,3**.\nDamit liegt ein schweres Oxygenierungsversagen vor (OI > 40) – bei anhaltendem Wert ist das Kind ein ECMO-Kandidat; das ECMO-Zentrum sollte bereits deutlich früher kontaktiert worden sein.",
+      "keyPoints": ["Umrechnung kPa in mmHg (· 7,5)", "OI ≈ 45", "OI > 40: ECMO-Kriterium"],
+      "solution": { "value": 45.3, "unit": "", "tolerance": 0.04 },
+      "tags": ["Oxygenierungsindex", "Berechnung", "ECMO"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ]
+    },
+    {
+      "id": "beat-013",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Bei einem beatmeten Neugeborenen liegt keine arterielle Blutgasanalyse vor. **MAP 14 cmH2O, FiO2 0,8, präduktale SpO2 88 %.** Berechnen Sie den **Sauerstoffsättigungsindex (OSI)** und erläutern Sie kurz seinen Nutzen.",
+      "hints": ["OSI = MAP · FiO2 · 100 / SpO2 (präduktal)", "Der OSI entspricht grob dem halben OI."],
+      "answer": "OSI = MAP · FiO2 · 100 / SpO2 = 14 · 0,8 · 100 / 88 = 1120 / 88 ≈ **12,7**.\nDer OSI ist eine **nicht-invasive Alternative zum OI**, ohne arterielle Punktion kontinuierlich verfügbar. Er korreliert gut mit dem OI (OI etwa doppelt so hoch wie der OSI), ist aber bei SpO2-Werten über ca. 97 % (flacher Teil der Sauerstoffbindungskurve) wenig aussagekräftig.",
+      "keyPoints": [
+        "Formel OSI = MAP · FiO2 · 100 / SpO2",
+        "Ergebnis ≈ 12,7",
+        "OI ≈ 2 · OSI",
+        "nicht-invasiv, bei hoher SpO2 unzuverlässig"
+      ],
+      "solution": { "value": 12.7, "unit": "", "tolerance": 0.03 },
+      "tags": ["Sauerstoffsättigungsindex", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "beat-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie das **Funktionsprinzip der Hochfrequenzoszillationsbeatmung (HFOV)** und die Bedeutung der Parameter **MAP, Amplitude, Frequenz und I:E-Verhältnis**.",
+      "hints": [
+        "Oxygenierung und Ventilation sind bei HFOV weitgehend entkoppelt.",
+        "Die CO2-Elimination ist proportional zu f · VT²."
+      ],
+      "answer": "Bei HFOV wird um einen konstanten **mittleren Atemwegsdruck** mit sehr kleinen Tidalvolumina (meist unter dem Totraumvolumen) und hohen Frequenzen oszilliert; der Gasaustausch erfolgt über Mechanismen wie augmentierte Diffusion, Pendelluft und asymmetrische Strömungsprofile.\n\n- **MAP:** bestimmt das Lungenvolumen und damit die **Oxygenierung** (Rekrutierung, „Open-Lung“-Strategie). Röntgenologisch optimales Volumen etwa bei Zwerchfellstand in Höhe der 8.–9. dorsalen Rippe.\n- **Amplitude (ΔP):** bestimmt das oszillatorische Tidalvolumen und damit die **CO2-Elimination**; klinisch sichtbare Thoraxvibration.\n- **Frequenz:** beim Frühgeborenen meist etwa 10–15 Hz; da die CO2-Elimination (DCO2) proportional zu **f · VT²** ist und das VT bei niedrigerer Frequenz zunimmt, **senkt eine Frequenzreduktion den pCO2** (bei Geräten mit fester Amplitude).\n- **I:E:** meist 1:2 (33 % Inspiration), um Air-Trapping zu vermeiden.\n\nModerne Geräte bieten **HFOV mit Volumengarantie** (fixes oszillatorisches VT).",
+      "keyPoints": [
+        "konstanter MAP mit kleinen VT, hohe Frequenz",
+        "MAP → Lungenvolumen/Oxygenierung",
+        "Amplitude → CO2-Elimination",
+        "DCO2 ∝ f · VT²: niedrigere Frequenz senkt pCO2",
+        "I:E 1:2, Frequenz ca. 10–15 Hz"
+      ],
+      "tags": ["HFOV", "Beatmungsphysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes unter **HFOV** hat einen pCO2 von 68 mmHg bei guter Oxygenierung und optimal belüfteter Lunge. Welche Maßnahme senkt den pCO2 am ehesten?",
+      "hints": ["Welcher Parameter bestimmt das oszillatorische Volumen?"],
+      "options": [
+        { "text": "Amplitude erhöhen (ggf. Frequenz senken)", "correct": true },
+        { "text": "Frequenz erhöhen", "correct": false },
+        { "text": "MAP deutlich erhöhen", "correct": false },
+        { "text": "FiO2 erhöhen", "correct": false }
+      ],
+      "answer": "Die CO2-Elimination unter HFOV hängt vom oszillatorischen Tidalvolumen ab (DCO2 ∝ f · VT²). Eine **höhere Amplitude** vergrößert das VT; auch eine **niedrigere Frequenz** vergrößert das VT. Eine Frequenzerhöhung verkleinert das VT und kann den pCO2 erhöhen. MAP und FiO2 wirken primär auf die Oxygenierung; eine Überblähung durch zu hohen MAP verschlechtert sogar die CO2-Elimination.",
+      "keyPoints": ["Amplitude erhöhen", "Frequenz senken vergrößert VT", "MAP/FiO2 primär Oxygenierung"],
+      "tags": ["HFOV", "Hyperkapnie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ]
+    },
+    {
+      "id": "beat-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Beschreiben Sie das Vorgehen bei einem **Rekrutierungsmanöver nach dem „Open-Lung“-Konzept** unter HFOV bei einem Frühgeborenen mit schwerem RDS. Woran erkennen Sie Über- und Unterblähung?",
+      "hints": ["Schrittweise MAP-Erhöhung, gesteuert über den FiO2.", "Öffnungsdruck – Verschlussdruck – optimaler Druck."],
+      "answer": "**Vorgehen (oxygenierungsgesteuert):**\n1. Ausgehend vom MAP der konventionellen Beatmung den MAP in **kleinen Schritten (ca. 1–2 cmH2O alle paar Minuten)** erhöhen, solange sich die Oxygenierung verbessert und der FiO2 reduziert werden kann – bis keine weitere Verbesserung oder ein niedriger FiO2 (z. B. ≤ 0,25–0,30) erreicht ist (**Öffnungsdruck**).\n2. Danach den MAP schrittweise **senken**, bis die SpO2 abfällt (**Verschlussdruck**).\n3. Lunge mit dem Öffnungsdruck kurz **re-rekrutieren** und den MAP dann etwa **2 cmH2O über dem Verschlussdruck** einstellen (optimaler Druck auf dem deflationären Schenkel der Druck-Volumen-Kurve).\n\n**Überblähung:** steigender FiO2-Bedarf trotz MAP-Erhöhung, Hyperkapnie, Kreislaufbeeinträchtigung (Tachykardie, Hypotonie durch verminderten venösen Rückstrom), abgeflachte Zwerchfelle bzw. Zwerchfell tiefer als ca. 9. Rippe, kleines Herz im Röntgen.\n**Unterblähung:** hoher FiO2-Bedarf, Atelektasen, hochstehende Zwerchfelle.\nDie Kreislaufsituation muss während des Manövers engmaschig überwacht werden.",
+      "keyPoints": [
+        "schrittweise MAP-Erhöhung nach Oxygenierung (Öffnungsdruck)",
+        "schrittweise Reduktion bis Desaturation (Verschlussdruck)",
+        "Re-Rekrutierung, MAP ca. 2 cmH2O über Verschlussdruck",
+        "Überblähung: steigender FiO2, Hyperkapnie, Hypotonie, flache Zwerchfelle",
+        "Kreislauf überwachen"
+      ],
+      "tags": ["HFOV", "Rekrutierung", "Open Lung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ]
+    },
+    {
+      "id": "beat-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Blutgas-Zielwerte** streben Sie bei einem beatmeten Frühgeborenen in den ersten Lebenstagen an? Erklären Sie das Konzept der **permissiven Hyperkapnie** und warum **Hypokapnie** vermieden werden muss.",
+      "hints": ["pH-Untergrenze laut European Consensus.", "CO2 ist ein starker zerebraler Vasoregulator."],
+      "answer": "**Zielwerte** (zentrumsabhängig): pH **≥ 7,22–7,25**, pCO2 etwa **45–55 (–60) mmHg**, paO2 etwa **50–70 mmHg** bzw. SpO2 im Zielbereich 90–94 %.\n\n**Permissive Hyperkapnie:** Moderat erhöhte pCO2-Werte werden toleriert, um Tidalvolumina und Drücke niedrig zu halten (weniger Volutrauma, kürzere Beatmung). Die European Consensus Guidelines 2025 halten eine moderate Hyperkapnie für vertretbar, solange der **pH über 7,22** liegt. Ausgeprägte Hyperkapnie und starke **pCO2-Schwankungen** in den ersten Lebenstagen sind dagegen mit einem höheren IVH-Risiko assoziiert (zerebrale Vasodilatation, Fluktuation des zerebralen Blutflusses).\n\n**Hypokapnie** (pCO2 < ca. 35 mmHg) führt zu **zerebraler Vasokonstriktion** mit Minderperfusion und ist mit **periventrikulärer Leukomalazie** und BPD assoziiert; sie tritt typischerweise nach Surfactantgabe oder bei Überbeatmung auf und muss rasch korrigiert werden. Kapilläre Blutgase sind bei guter Perfusion für pH und pCO2 verwertbar, nicht jedoch für den paO2.",
+      "keyPoints": [
+        "pH ≥ 7,22, pCO2 ca. 45–55(–60) mmHg",
+        "permissive Hyperkapnie: lungenschonend",
+        "starke pCO2-Schwankungen/Hyperkapnie: IVH-Risiko",
+        "Hypokapnie < 35 mmHg: Vasokonstriktion, PVL",
+        "kapilläre BGA: paO2 nicht verwertbar"
+      ],
+      "tags": ["Blutgasanalyse", "Permissive Hyperkapnie", "Zielwerte"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-018",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Arterielle BGA eines beatmeten Frühgeborenen: **pH 7,18, pCO2 72 mmHg, HCO3− 26 mmol/l, BE −1 mmol/l**. Wie interpretieren Sie den Befund?",
+      "hints": ["Bicarbonat und BE sind normal."],
+      "options": [
+        { "text": "Akute (nicht kompensierte) respiratorische Azidose", "correct": true },
+        { "text": "Metabolische Azidose mit respiratorischer Kompensation", "correct": false },
+        { "text": "Kombinierte respiratorisch-metabolische Azidose", "correct": false },
+        { "text": "Respiratorische Azidose mit vollständiger metabolischer Kompensation", "correct": false }
+      ],
+      "answer": "Der pH ist erniedrigt, der pCO2 deutlich erhöht, Bicarbonat und Basenüberschuss sind normal – es liegt eine **akute respiratorische Azidose** ohne metabolische Komponente und ohne renale Kompensation vor. Ursachen: unzureichende Ventilation (Tubusobstruktion/-dislokation, Atelektase, Überblähung, zu niedriges VT bzw. Frequenz). Erst prüfen, dann die Ventilation anpassen.",
+      "keyPoints": ["pH ↓, pCO2 ↑, HCO3−/BE normal", "akute respiratorische Azidose", "Ursachensuche vor Anpassung der Beatmung"],
+      "tags": ["Blutgasanalyse"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-019",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit Sepsis hat folgende BGA: **pH 7,08, pCO2 62 mmHg, HCO3− 18 mmol/l, BE −12 mmol/l, Laktat 7 mmol/l**. Welche Störung liegt vor?",
+      "hints": ["Betrachten Sie pCO2 und BE getrennt."],
+      "options": [
+        { "text": "Kombinierte respiratorische und metabolische (Laktat-)Azidose", "correct": true },
+        { "text": "Reine metabolische Azidose mit adäquater respiratorischer Kompensation", "correct": false },
+        { "text": "Reine respiratorische Azidose", "correct": false },
+        { "text": "Metabolische Alkalose mit Hypoventilation", "correct": false }
+      ],
+      "answer": "Erhöhter pCO2 (respiratorische Komponente) **und** negativer BE mit erniedrigtem Bicarbonat und Laktaterhöhung (metabolische Komponente) – es liegt eine **kombinierte Azidose** vor. Bei metabolischer Azidose wäre kompensatorisch ein **erniedrigter** pCO2 zu erwarten. Therapie: Ventilation verbessern und Ursache der Laktatazidose behandeln (Kreislauf, Perfusion, Sepsistherapie); Natriumbicarbonat ist keine Routinemaßnahme.",
+      "keyPoints": [
+        "pCO2 ↑ = respiratorisch",
+        "BE −12, Laktat ↑ = metabolisch",
+        "kombinierte Azidose",
+        "Ursachen behandeln, Bicarbonat nicht routinemäßig"
+      ],
+      "tags": ["Blutgasanalyse", "Säure-Basen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **SpO2-Zielbereiche** gelten für Frühgeborene unter Sauerstofftherapie, und auf welcher Evidenz beruhen sie? Erläutern Sie die Folgen von Hyperoxie und Hypoxie.",
+      "hints": ["NeOProM-Metaanalyse.", "Was passierte in der Gruppe mit dem niedrigeren Zielbereich?"],
+      "answer": "Empfohlen wird für Frühgeborene unter Sauerstoff ein **SpO2-Zielbereich von 90–94 %** mit Alarmgrenzen bei etwa **89 % und 95 %** (European Consensus Guidelines 2025, Empfehlung für < 28 SSW; bei BPD mit pulmonaler Hypertonie höhere Zielwerte erwägen).\n\n**Evidenz:** Die **NeOProM-Metaanalyse** (SUPPORT, BOOST II, COT; Kinder < 28 SSW) verglich 85–89 % mit 91–95 %: Der **niedrigere Bereich** war mit **höherer Mortalität** und mehr **NEC** assoziiert, der höhere Bereich mit mehr **behandlungsbedürftiger ROP**.\n\n**Hyperoxie:** oxidativer Stress bei unreifen antioxidativen Schutzsystemen – ROP, BPD, mögliche Hirnschädigung. **Hypoxie:** erhöhte Mortalität, NEC, pulmonale Vasokonstriktion, möglicherweise neurologische Schäden.\n\nIn der Praxis wichtig: hohe Zeit im Zielbereich, zeitnahe FiO2-Anpassung, sinnvolle Alarmgrenzen; automatische FiO2-Regelung (closed-loop) erhöht die Zeit im Zielbereich, ein Outcome-Vorteil ist noch nicht gesichert.",
+      "keyPoints": [
+        "Ziel 90–94 %, Alarme 89/95 %",
+        "NeOProM: 85–89 % → höhere Mortalität und NEC",
+        "91–95 % → mehr ROP",
+        "Hyperoxie: ROP, BPD; Hypoxie: Mortalität, NEC",
+        "Zeit im Zielbereich, ggf. Closed-Loop-FiO2"
+      ],
+      "tags": ["SpO2-Zielwerte", "Sauerstofftoxizität"],
+      "exam": ["KM", "HK"],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie den Einsatz von **inhalativem Stickstoffmonoxid (iNO)**: Wirkprinzip, Indikation, Startdosis, Voraussetzungen für ein Ansprechen, Monitoring und Ausschleichen.",
+      "hints": [
+        "Selektive pulmonale Vasodilatation – nur in belüfteten Arealen.",
+        "Zulassung ab einem bestimmten Gestationsalter."
+      ],
+      "answer": "**Wirkprinzip:** NO diffundiert in die glatte Gefäßmuskulatur belüfteter Alveolarbezirke, aktiviert die Guanylatcyclase (cGMP) und bewirkt eine **selektive pulmonale Vasodilatation** mit Verbesserung des Ventilations-Perfusions-Verhältnisses; im Blut wird es durch Hämoglobin rasch inaktiviert.\n\n**Indikation:** Neugeborene **≥ 34 SSW** mit hypoxämischem Lungenversagen und klinischem bzw. echokardiographischem Nachweis einer **pulmonalen Hypertonie (PPHN)**, typischerweise bei **OI ≥ 25** (Zulassung, Studienlage); senkt den ECMO-Bedarf. Bei Frühgeborenen nicht routinemäßig empfohlen (Einzelfall, z. B. Lungenhypoplasie nach frühem Blasensprung mit nachgewiesener PH).\n\n**Startdosis:** **20 ppm** (zugleich Höchstdosis laut Fachinformation); höhere Dosen bringen keinen Zusatznutzen.\n\n**Voraussetzung:** gut **rekrutierte Lunge** (Surfactant, adäquater MAP/HFOV) und ausreichender Systemblutdruck; Echo zum Ausschluss eines ductusabhängigen Herzfehlers.\n\n**Monitoring:** Methämoglobin, NO2-Konzentration im Inspirationsgas, Oxygenierung (OI). **Ausschleichen** (Fachinformation INOmax): möglichst innerhalb von 4–24 h auf **5 ppm** reduzieren, sofern die Oxygenierung ausreichend bleibt; Entwöhnung versuchen, sobald die Beatmung deutlich reduziert ist (z. B. FiO2 < 0,60), spätestens nach 96 h; vor dem Absetzen 30–60 min **1 ppm**, bei Abfall der Oxygenierung um > 20 % zurück auf 5 ppm – **kein abruptes Absetzen** wegen Rebound-Hypertonie.",
+      "keyPoints": [
+        "selektive pulmonale Vasodilatation über cGMP",
+        "Indikation ≥ 34 SSW, PPHN, OI ≥ 25",
+        "Startdosis 20 ppm",
+        "Voraussetzung rekrutierte Lunge, Herzfehler ausgeschlossen",
+        "MetHb/NO2-Monitoring, Ausschleichen über 5 ppm und 1 ppm (Rebound)"
+      ],
+      "tags": ["iNO", "PPHN"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ],
+      "source": "Fachinformation INOmax"
+    },
+    {
+      "id": "beat-022",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Bei welcher der folgenden Situationen ist **iNO kontraindiziert** bzw. potenziell gefährlich?",
+      "hints": ["Was passiert, wenn der Lungenwiderstand bei ductusabhängiger Systemperfusion fällt?"],
+      "options": [
+        { "text": "Hypoplastisches Linksherzsyndrom mit ductusabhängiger Systemperfusion", "correct": true },
+        { "text": "PPHN bei Mekoniumaspiration eines reifen Neugeborenen", "correct": false },
+        { "text": "Idiopathische PPHN mit OI 28", "correct": false },
+        {
+          "text": "Hypoxämisches Lungenversagen bei Sepsis eines Neugeborenen der 38 SSW mit echokardiographisch nachgewiesener PH",
+          "correct": false
+        }
+      ],
+      "answer": "Bei **ductusabhängiger Systemperfusion** (HLHS, kritische Aortenstenose, unterbrochener Aortenbogen) führt die Senkung des pulmonalen Widerstands zu einer Umverteilung des Blutflusses in die Lunge („pulmonary steal“) mit Lungenödem und systemischer Minderperfusion. Auch bei schwerer linksventrikulärer Dysfunktion kann iNO ein Lungenödem verstärken. Deshalb vor iNO stets **Echokardiographie** zum Ausschluss eines solchen Herzfehlers.",
+      "keyPoints": [
+        "ductusabhängige Systemperfusion (HLHS) = Kontraindikation",
+        "Lungenüberflutung, systemische Minderperfusion",
+        "auch schwere LV-Dysfunktion problematisch",
+        "vor iNO Echokardiographie"
+      ],
+      "tags": ["iNO", "Herzfehler"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "beat-023",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Nennen Sie die **Indikationen und Voraussetzungen für eine ECMO-Therapie** beim Neugeborenen mit respiratorischem Versagen. Wann kontaktieren Sie das ECMO-Zentrum, und welche Grunderkrankungen sind typisch?",
+      "hints": ["Oxygenierungsindex mit Zeitkriterium.", "Gestationsalter, Gewicht, Hirnblutung, Reversibilität."],
+      "answer": "**Indikationen** (in Anlehnung an die ELSO-Leitlinien) trotz maximaler konventioneller Therapie (Rekrutierung, HFOV, Surfactant, iNO, Kreislauftherapie):\n- **OI > 40** über mehrere Stunden (ELSO: > 4 h),\n- OI > 20 ohne Besserung über > 24 h bzw. rezidivierende schwere Hypoxämie-Episoden,\n- schwere pulmonale Hypertonie mit Rechts- oder Linksherzversagen, therapierefraktäre Hypotension.\n\n**Voraussetzungen (relative Kontraindikationen):** Gestationsalter ≥ 34 SSW, Gewicht ≥ 2 kg, **keine relevante Hirnblutung**, keine unkontrollierbare Blutung, **reversible** Lungenerkrankung, keine letalen Fehlbildungen oder schweren Chromosomenstörungen, Beatmungsdauer möglichst < 10–14 Tage.\n\n**Typische Erkrankungen:** Mekoniumaspiration (beste Prognose), PPHN, Sepsis/Pneumonie, kongenitale Zwerchfellhernie (schlechtere Prognose).\n\n**Kontakt:** frühzeitig, bereits bei steigendem OI (etwa ab 20–25) bzw. fehlendem Ansprechen auf iNO, da der Transport eines kritisch kranken Kindes mit OI > 40 sehr risikoreich ist (ggf. mobiles ECMO-Team). Verfahren: veno-arteriell oder veno-venös.",
+      "keyPoints": [
+        "OI > 40 (> 4 h) bzw. OI > 20 ohne Besserung > 24 h",
+        "Voraussetzungen ≥ 34 SSW, ≥ 2 kg, keine relevante IVH, reversible Erkrankung",
+        "keine letalen Fehlbildungen, Beatmung < 10–14 Tage",
+        "MAS, PPHN, Sepsis, CDH",
+        "frühzeitiger Kontakt (OI 20–25), Transportrisiko"
+      ],
+      "tags": ["ECMO", "Oxygenierungsindex", "Lungenversagen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ],
+      "source": "ELSO Guidelines for Neonatal Respiratory Failure"
+    },
+    {
+      "id": "beat-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes (41+2 SSW) mit **Mekoniumaspiration** ist intubiert und konventionell beatmet: **PIP 30 cmH2O, PEEP 6 cmH2O, MAP 15 cmH2O, FiO2 1,0, paO2 40 mmHg**, pCO2 70 mmHg, Blutdruck grenzwertig, präduktale SpO2 85 %, postduktal 70 %. Beschreiben Sie Ihr schrittweises Vorgehen.",
+      "hints": ["Berechnen Sie zuerst den OI.", "Lunge, Gefäße, Kreislauf, Sedierung – und wann das ECMO-Zentrum?"],
+      "answer": "**Einschätzung:** OI = 15 · 1,0 · 100 / 40 = **37,5** – schweres hypoxämisches Lungenversagen mit **PPHN** (prä-postduktale Differenz) und Hyperkapnie.\n\n**Vorgehen:**\n1. DOPE-Ursachen ausschließen, Röntgen (Air-Leak?).\n2. **Lungenrekrutierung:** Wechsel auf **HFOV** mit Open-Lung-Strategie, **Surfactant-Bolus**.\n3. **Echokardiographie:** PH-Schweregrad, Shuntrichtung, Ventrikelfunktion, Herzfehler ausschließen.\n4. **iNO 20 ppm** bei bestätigter PPHN und rekrutierter Lunge.\n5. **Kreislauf:** Systemdruck stabilisieren (Volumen nach Bedarf, Katecholamine je nach Echo, z. B. Noradrenalin; bei RV/LV-Dysfunktion ggf. Milrinon nach Zentrumsstandard), Azidose und Hypokalzämie korrigieren, Hypoglykämie vermeiden.\n6. **Analgosedierung**, minimal handling; Relaxierung nur zurückhaltend.\n7. Infektionsdiagnostik und Antibiotika.\n8. **ECMO-Zentrum jetzt kontaktieren** (OI bereits > 25, an der Schwelle zu 40) – Verlegung, solange das Kind noch transportfähig ist.",
+      "keyPoints": [
+        "OI 37,5 berechnen, PPHN erkennen",
+        "HFOV und Surfactant zur Rekrutierung",
+        "Echokardiographie, dann iNO 20 ppm",
+        "Kreislauf- und Säure-Basen-Stabilisierung, Sedierung",
+        "frühzeitige Kontaktaufnahme mit ECMO-Zentrum"
+      ],
+      "tags": ["Mekoniumaspiration", "PPHN", "ECMO", "HFOV"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ]
+    },
+    {
+      "id": "beat-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie gehen Sie bei der **Entwöhnung (Weaning) und Extubation** eines beatmeten Frühgeborenen vor? Nennen Sie Kriterien der Extubationsbereitschaft und Maßnahmen, die ein Extubationsversagen verhindern sollen.",
+      "hints": [
+        "Koffein, nicht-invasive Atemunterstützung nach Extubation.",
+        "Was empfiehlt der Konsensus für Kinder, die nach 1–2 Wochen noch beatmet sind?"
+      ],
+      "answer": "**Grundsatz:** Beatmungsdauer so kurz wie möglich – aktives, tägliches Prüfen der Extubationsbereitschaft.\n\n**Weaning:** unter Volumengarantie sinkt der Spitzendruck mit verbesserter Compliance automatisch; FiO2 nach SpO2-Ziel reduzieren; moderate Hyperkapnie tolerieren (pH > 7,22).\n\n**Extubationsbereitschaft** (zentrumsabhängige Grenzwerte): MAP etwa 7–8 cmH2O unter konventioneller Beatmung bzw. CDP etwa 8–9 cmH2O unter HFOV (European Consensus 2025), FiO2 etwa ≤ 0,30–0,40, ausreichender Atemantrieb mit regelmäßiger Spontanatmung, stabile Kreislaufsituation, keine akute Infektion. Spontanatmungsversuche am Tubus-CPAP sind beim Frühgeborenen nicht hilfreich, Vorhersagemodelle bisher unzuverlässig.\n\n**Prävention des Extubationsversagens:**\n- **Koffein** vor der Extubation,\n- Extubation auf **synchronisierte NIPPV** (senkt Reintubationen, möglicherweise BPD) oder **CPAP mit relativ hohem Druck** – in der ECLAT-Studie (< 28 SSW) senkte CPAP 9–11 vs. 6–8 cmH2O die Reintubationsrate innerhalb von 7 Tagen; der gewählte Druck ist zentrumsabhängig,\n- bei Kindern, die nach **1–2 Wochen** noch beatmet sind, ein kurzer, niedrig dosierter **Dexamethason**-Kurs (z. B. DART-Schema) zur Erleichterung der Extubation nach Elternaufklärung.",
+      "keyPoints": [
+        "Beatmungsdauer minimieren, tägliche Evaluation",
+        "Kriterien: niedriger MAP/FiO2, suffiziente Spontanatmung",
+        "Koffein vor Extubation",
+        "Extubation auf (s)NIPPV oder CPAP mit relativ hohem Druck (ECLAT: 9–11 cmH2O)",
+        "low-dose Dexamethason bei Beatmung > 1–2 Wochen"
+      ],
+      "tags": ["Weaning", "Extubation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "beat-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 27 SSW (jetzt 4 Wochen alt) muss **zum dritten Mal nach Extubation reintubiert** werden; nach der letzten Extubation fiel ein inspiratorischer Stridor auf. Welche Ursachen des **Extubationsversagens** ziehen Sie in Betracht, und wie gehen Sie diagnostisch und therapeutisch vor?",
+      "hints": [
+        "Pulmonal, Atemantrieb, kardiovaskulär, obere Atemwege.",
+        "Wiederholte Intubationen schädigen die Subglottis."
+      ],
+      "answer": "**Ursachen:**\n- **Obere Atemwege:** Postextubationsödem, **subglottische Stenose**, Granulome, Laryngo-/Tracheomalazie, Stimmbandparese (z. B. nach PDA-Ligatur);\n- **Lunge:** Atelektasen, sich entwickelnde BPD, Pneumonie;\n- **Atemantrieb:** Apnoen (Koffein-Dosis?), Sedierung, Infektion, IVH;\n- **Kardiovaskulär:** hämodynamisch relevanter PDA, pulmonale Hypertonie;\n- **Weitere:** Zwerchfellparese, Anämie, Muskelschwäche/Mangelernährung, metabolische Alkalose (Diuretika).\n\n**Vorgehen:** Infektionsdiagnostik, Röntgen, Echokardiographie, Koffeindosis überprüfen. Wegen des Stridors **flexible Laryngotracheoskopie** (HNO/pädiatrische Pneumologie) zum Ausschluss einer subglottischen Stenose oder Malazie. Vor erneuter Extubation optimale Vorbereitung: Atelektasen behandeln, PDA ggf. therapieren, niedrig dosierte Dexamethason-Therapie (DART) nach Aufklärung erwägen, Extubation auf NIPPV. Bei Postextubationsstridor werden Adrenalin-Inhalation und – bei Hochrisikokindern auch prophylaktisch – Dexamethason eingesetzt; die Evidenz beim Neugeborenen ist begrenzt. Bei fixierter Stenose bzw. wiederholtem Versagen frühe interdisziplinäre Planung (ggf. Laryngotracheale Rekonstruktion, Tracheotomie).",
+      "keyPoints": [
+        "obere Atemwege: Ödem, subglottische Stenose, Malazie, Stimmbandparese",
+        "Lunge: Atelektase, BPD, Pneumonie",
+        "Apnoen, PDA, PH, Zwerchfellparese, Ernährung",
+        "Endoskopie bei Stridor, Infekt-/Echodiagnostik",
+        "Dexamethason (DART), Extubation auf NIPPV, interdisziplinäre Planung"
+      ],
+      "tags": ["Extubationsversagen", "Subglottische Stenose", "Stridor"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-027",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein intubiertes Frühgeborenes desaturiert plötzlich auf 50 % und wird bradykard. Nach welchem **Schema** gehen Sie systematisch vor?",
+      "hints": ["Ein englisches Akronym mit vier Buchstaben.", "Erst das Kind vom Respirator nehmen?"],
+      "answer": "Systematik nach **DOPE** (ggf. ergänzt um S für Stomach):\n- **D – Dislokation** des Tubus (einseitig/gar kein Atemgeräusch, fehlender CO2-Nachweis, Tubusmarke an der Lippe prüfen),\n- **O – Obstruktion** (Sekret, abgeknickter Tubus) – Absaugen, ggf. Tubuswechsel,\n- **P – Pneumothorax** – Kaltlicht, Sonographie, bei Spannungszeichen sofortige Punktion,\n- **E – Equipment** (Respirator, Gasversorgung, Schläuche, Flowsensor),\n- **S – Stomach**: geblähter Magen behindert das Zwerchfell – Magen entlasten.\n\nPraktisch: Kind vom Respirator nehmen und **manuell mit Beutel bzw. T-Stück** beatmen, FiO2 erhöhen, Thoraxexkursion und Auskultation beurteilen, CO2-Detektor verwenden. Bessert sich das Kind am Beutel, liegt das Problem eher am Respirator.",
+      "keyPoints": [
+        "D: Dislokation",
+        "O: Obstruktion",
+        "P: Pneumothorax",
+        "E: Equipment (+ S: Magen)",
+        "manuelle Beatmung, CO2-Detektion"
+      ],
+      "tags": ["Notfall", "Beatmung", "DOPE"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-028",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Was versteht man unter **beatmungsassoziierter Lungenschädigung (VILI)**? Nennen Sie die Mechanismen und die Grundsätze lungenschonender Beatmung beim Frühgeborenen.",
+      "hints": ["Volu-, Baro-, Atelekt-, Bio-Trauma.", "Und der Sauerstoff?"],
+      "answer": "**Mechanismen:**\n- **Volutrauma:** Überdehnung durch zu große Tidalvolumina – wichtiger als hohe Drücke per se;\n- **Barotrauma:** hohe Drücke mit Air-Leak;\n- **Atelektrauma:** Scherkräfte durch zyklisches Öffnen und Kollabieren von Alveolen bei zu niedrigem PEEP;\n- **Biotrauma:** Freisetzung von Entzündungsmediatoren;\n- **Sauerstofftoxizität** (oxidativer Stress).\nVILI trägt wesentlich zur Entstehung der BPD bei.\n\n**Lungenschonende Strategie:** Beatmung vermeiden bzw. kurz halten (CPAP, LISA, Koffein, frühe Extubation), volumengarantierte Beatmung mit **VT initial ca. 5 ml/kg** (meist 4–7 ml/kg), ausreichender **PEEP** (Open-Lung), permissive Hyperkapnie, Vermeidung von Hypokapnie, SpO2-Zielbereich einhalten, Synchronisation, ggf. HFOV als Rescue.",
+      "keyPoints": [
+        "Volutrauma wichtiger als Barotrauma",
+        "Atelektrauma durch zu niedrigen PEEP",
+        "Biotrauma und O2-Toxizität → BPD",
+        "VG mit ca. 4–7 ml/kg (Start ~5 ml/kg), adäquater PEEP",
+        "Beatmung vermeiden/kurz halten, permissive Hyperkapnie"
+      ],
+      "tags": ["VILI", "Lungenprotektive Beatmung", "BPD"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-029",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Informationen liefert Ihnen das **grafische Beatmungsmonitoring** (Druck-, Flow- und Volumenkurven, Druck-Volumen-Schleife)? Beschreiben Sie typische Befunde bei **Leckage, Air-Trapping und Überblähung** und Ihre Konsequenzen.",
+      "hints": ["Kehrt der exspiratorische Flow zur Nulllinie zurück?", "„Entenschnabel“ in der Druck-Volumen-Schleife."],
+      "answer": "- **Leckage (Tubusleck):** exspiratorisches VT deutlich kleiner als inspiratorisches, Volumenkurve kehrt nicht zur Nulllinie zurück, offene Druck-Volumen-Schleife; Folge: unzuverlässige Volumenmessung, Autotriggerung. Konsequenz: Kopfposition, ggf. größerer Tubus, bei großem Leck VG-Messung kritisch werten.\n- **Air-Trapping (inadvertenter PEEP):** exspiratorischer Flow erreicht vor dem nächsten Atemzug **nicht die Nulllinie**; Ursachen: zu kurze Exspirationszeit, hohe Resistance (Sekret, BPD). Konsequenz: Frequenz senken, Ti verkürzen bzw. Te verlängern, Atemwege freimachen.\n- **Überblähung:** in der Druck-Volumen-Schleife Abflachung am Ende der Inspiration (**„Entenschnabel“** – Druck steigt ohne Volumenzunahme); Konsequenz: Spitzendruck bzw. VT reduzieren, ggf. PEEP überprüfen.\n- Weitere Befunde: zu kurze Ti (inspiratorischer Flow erreicht nicht null), Sekret (sägezahnartige Flowkurve), Asynchronie.",
+      "keyPoints": [
+        "Leck: exspiratorisches < inspiratorisches VT, offene Schleife, Autotriggerung",
+        "Air-Trapping: Flow erreicht Nulllinie nicht – Te verlängern",
+        "Überblähung: Entenschnabel – Druck/VT reduzieren",
+        "Sekret: Sägezahnmuster",
+        "zu kurze Ti: inspiratorischer Flow nicht bei null"
+      ],
+      "tags": ["Beatmungsmonitoring", "Konventionelle Beatmung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "beat-030",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Möglichkeiten der **nicht-invasiven CO2-Überwachung** gibt es beim beatmeten Neugeborenen? Nennen Sie Vor- und Nachteile von **transkutaner pCO2-Messung** und **endtidaler CO2-Messung**.",
+      "hints": [
+        "Die eine Methode benötigt eine beheizte Elektrode.",
+        "Bei kleinem Tidalvolumen und Lungenerkrankung unterschätzt die andere Methode den paCO2."
+      ],
+      "answer": "**Transkutane pCO2-Messung (tcpCO2):** beheizte Elektrode auf der Haut; kontinuierlicher Trend, gut zur Vermeidung von Hypo- und Hyperkapnie (z. B. nach Surfactant, unter HFOV). Nachteile: Kalibrierung und Aufwärmzeit, Abweichungen bei schlechter Hautperfusion, Ödem oder Schock, **Hautverbrennungen** bei unreifer Haut – regelmäßiges Umsetzen des Sensors; Werte regelmäßig mit BGA abgleichen.\n\n**Endtidale CO2-Messung (etCO2, Kapnometrie/Kapnographie):** Hauptstrom- oder Nebenstromverfahren. Sicher etabliert zur **Bestätigung der Tubuslage** (CO2-Detektor). Zur Abschätzung des paCO2 beim Neugeborenen eingeschränkt: Bei kleinem VT, hoher Frequenz, Leck und Ventilations-Perfusions-Störung **unterschätzt** etCO2 den paCO2 häufig deutlich; zusätzlicher Totraum durch den Sensor. Unter HFOV nicht verwertbar.",
+      "keyPoints": [
+        "tcpCO2: kontinuierlicher Trend, Abgleich mit BGA",
+        "tcpCO2-Nachteile: Perfusion, Kalibrierung, Hautverbrennung",
+        "etCO2: Tubuslagekontrolle",
+        "etCO2 unterschätzt paCO2 bei Lungenerkrankung/kleinem VT",
+        "etCO2 unter HFOV nicht verwertbar"
+      ],
+      "tags": ["Monitoring", "Kapnometrie", "Transkutane Messung"],
+      "exam": ["KM", "HK"]
+    }
+  ]
+}

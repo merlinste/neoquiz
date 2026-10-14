@@ -1,0 +1,770 @@
+{
+  "area": "techniken",
+  "questions": [
+    {
+      "id": "tech-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Sie bereiten die **elektive orotracheale Intubation** eines Frühgeborenen mit 1400 g vor. Welche Materialien legen Sie bereit (mit Größen), und woran erkennen Sie nach der Intubation die korrekte Tubuslage?",
+      "hints": [
+        "Spatelgröße und Tubusinnendurchmesser richten sich nach Gewicht/Gestationsalter.",
+        "Welcher Lagenachweis ist am schnellsten und zuverlässigsten?"
+      ],
+      "answer": "**Material**: Laryngoskop mit geradem Spatel (Größe 00 für extrem unreife, 0 für Frühgeborene, 1 für Reifgeborene), Tubus nach Gewicht (Orientierung: < 1000 g 2,5 mm ID, 1000–2000 g 3,0 mm, > 2000 g 3,5 mm; jeweils eine Größe kleiner bereit), ggf. Führungsstab, Absaugung mit passenden Kathetern, Beatmungsbeutel/T-Stück und Maske, Sauerstoff/Blender, **CO2-Detektor**, Pflaster/Fixierung, Stethoskop, Monitoring, Prämedikation; ggf. Videolaryngoskop. Intubationsversuch zeitlich begrenzen (gebräuchlicher Richtwert ca. 30 Sekunden, je nach Standard), bei Abfall von Herzfrequenz/Sättigung abbrechen und mit Maske beatmen.\n**Lagekontrolle**: **exspiratorischer CO2-Nachweis** (kolorimetrisch oder Kapnographie) als schnellster Nachweis, Anstieg von Herzfrequenz und Sättigung, symmetrische Thoraxexkursionen, seitengleiches Atemgeräusch (axillär), kein Atemgeräusch über dem Magen, Beschlagen des Tubus; Einführtiefe an der Lippe dokumentieren; **Röntgen-Thorax**: Tubusspitze in Trachealmitte etwa in Höhe BWK 1–2, oberhalb der Carina.",
+      "keyPoints": [
+        "Gerader Spatel 00/0/1",
+        "Tubusgröße nach Gewicht (2,5/3,0/3,5 mm ID)",
+        "Absaugung, Maske, CO2-Detektor, Prämedikation",
+        "Zeitlimit pro Versuch (Richtwert ca. 30 s)",
+        "Lagekontrolle: CO2, HF/SpO2, Auskultation, Rö: BWK 1–2"
+      ],
+      "tags": ["Intubation", "Tubusgröße", "Lagekontrolle"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.3 – Intubation",
+          "terms": ["Intubation", "Tubusgröße"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "tech-002",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit 1800 g wird oral intubiert. Berechnen Sie die **Einführtiefe an der Oberlippe** nach der Faustregel „Gewicht (kg) + 6 cm“.",
+      "hints": ["Einfach einsetzen."],
+      "answer": "Einführtiefe = 1,8 + 6 = **7,8 cm** an der Oberlippe. Die Regel ist nur eine Orientierung; bei sehr kleinen Frühgeborenen (< 1000 g) führt sie eher zu tiefer Lage, daher werden auch Tabellen nach Gestationsalter oder die Nasen-Tragus-Länge + 1 cm verwendet. Entscheidend sind klinische Lagekontrolle und Röntgenbild.",
+      "keyPoints": ["Formel kg + 6 cm (oral)", "Ergebnis 7,8 cm", "Nur Orientierung, Kontrolle klinisch/radiologisch"],
+      "solution": { "value": 7.8, "unit": "cm", "tolerance": 0.05 },
+      "tags": ["Intubation", "Einführtiefe", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.3 – Intubation",
+          "terms": ["Intubation", "Tubusgröße"]
+        }
+      ]
+    },
+    {
+      "id": "tech-003",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Während einer Reanimation mit Thoraxkompressionen intubieren Sie ein Neugeborenes unter Sicht durch die Stimmbänder. Der kolorimetrische CO2-Detektor zeigt keinen Farbumschlag. Was ist die wahrscheinlichste Erklärung?",
+      "hints": ["CO2 muss zur Lunge transportiert werden, um abgeatmet zu werden."],
+      "options": [
+        { "text": "Fehlende bzw. sehr geringe Lungenperfusion bei Kreislaufstillstand", "correct": true },
+        { "text": "Einseitige Intubation des rechten Hauptbronchus", "correct": false },
+        { "text": "Zu hoher Beatmungsdruck", "correct": false },
+        { "text": "Kontamination des Detektors mit Adrenalin", "correct": false }
+      ],
+      "answer": "Ein fehlender CO2-Nachweis trotz korrekter Lage ist typisch bei **sehr niedrigem Herzzeitvolumen bzw. Kreislaufstillstand**, weil kaum CO2 in die Lunge gelangt (auch bei sehr kleinen Tidalvolumina extrem unreifer Kinder möglich). Eine einseitige Intubation liefert trotzdem CO2. Adrenalin- oder Surfactantkontamination kann dagegen einen **falsch positiven** Farbumschlag bewirken. Bei Zweifel: direkte Laryngoskopie, Auskultation, ggf. Neuintubation.",
+      "keyPoints": [
+        "Falsch negativ bei fehlender Lungenperfusion",
+        "Einseitige Intubation zeigt CO2",
+        "Adrenalin/Surfactant: falsch positiv"
+      ],
+      "tags": ["Intubation", "CO2-Detektion", "Reanimation"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ]
+    },
+    {
+      "id": "tech-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein intubiertes und beatmetes Frühgeborenes (27 SSW, 900 g) desaturiert plötzlich auf 60 % und wird bradykard. Wie gehen Sie strukturiert vor?",
+      "hints": ["Merkhilfe aus vier Buchstaben.", "Erster Schritt: vom Gerät nehmen."],
+      "answer": "Strukturierte Suche nach **DOPE**: **D**islokation (Tubus extubiert oder einseitig zu tief), **O**bstruktion (Sekret, Abknicken), **P**neumothorax, **E**quipment (Beatmungsgerät, Schläuche, Gasversorgung); zusätzlich Magenüberblähung. Vorgehen: FiO2 erhöhen, **vom Gerät nehmen und manuell beatmen** (T-Stück/Beutel), dabei Thoraxexkursion, Auskultation (seitengleich?), **CO2-Nachweis** und Einführtiefe an der Lippe prüfen; bei Verdacht auf Obstruktion **absaugen**; bei weiter fehlender Besserung **Tubus entfernen**, mit Maske beatmen und neu intubieren. Pneumothorax: **Kaltlicht-Transillumination** oder **Lungensonographie**, bei Spannungspneumothorax sofortige Punktion. Bei Besserung unter Handbeatmung: Gerät und Einstellungen prüfen. Bradykardie unter effektiver Beatmung behandeln.",
+      "keyPoints": [
+        "DOPE: Dislokation, Obstruktion, Pneumothorax, Equipment",
+        "Vom Gerät nehmen, manuell beatmen",
+        "CO2, Auskultation, Tubustiefe, Absaugen",
+        "Im Zweifel umintubieren",
+        "Pneumothorax: Transillumination/Sono, Punktion"
+      ],
+      "tags": ["Beatmung", "Komplikationen", "Notfall"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "tech-005",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 26+4 SSW unter CPAP benötigt zunehmend Sauerstoff. Sie entscheiden sich für eine **Surfactantgabe über einen dünnen Katheter (LISA)**. Beschreiben Sie Voraussetzungen, Durchführung und typische Probleme.",
+      "hints": [
+        "Spontanatmung unter CPAP bleibt erhalten.",
+        "Katheter wenige Zentimeter unter die Stimmbänder.",
+        "Was tun bei Reflux oder Bradykardie?"
+      ],
+      "answer": "**Voraussetzungen**: spontan atmendes Frühgeborenes unter CPAP mit RDS und Surfactantindikation (nach European Consensus 2025 frühe Gabe bei RDS, z. B. FiO2 ≥ 0,30 unter nicht-invasiver Atemunterstützung mit einem Druck ≥ 6 cmH2O oder bei entsprechendem Lungenultraschallbefund; die Vorversion 2022 nannte FiO2 ≥ 0,30 unter ≥ 6 cmH2O), Koffein nach Standard, erfahrenes Team, Monitoring, Intubationsbereitschaft. **Durchführung**: Surfactant anwärmen und aufziehen, Magen entlasten; CPAP weiterführen; Laryngoskopie (direkt oder Video), dünner Katheter (z. B. Magensonde mit Magill-Zange oder halbstarrer Spezialkatheter) **unter Sicht wenige Zentimeter unter die Stimmbänder** (Tiefe je nach Gestationsalter, ca. 1–2 cm), Laryngoskop entfernen, Surfactant **langsam in kleinen Portionen** (meist über etwa 1–3 Minuten, je nach Toleranz länger) applizieren, Katheter entfernen. Prämedikation (z. B. niedrig dosiertes Opioid oder Propofol) wird uneinheitlich gehandhabt – Abwägung Komfort vs. Apnoe/Beatmungsbedarf. **Probleme**: Surfactantreflux in den Rachen, Hustenreiz, Bradykardie/Desaturation (Pause, ggf. kurz blähen bzw. Maskenbeatmung), Apnoe, ösophageale Fehllage, Fehlversuche. Vorteil gegenüber INSURE/Intubation: weniger Beatmung und in Studien geringeres Risiko für Tod oder BPD.",
+      "keyPoints": [
+        "Spontanatmung unter CPAP, RDS mit Surfactantindikation",
+        "Katheter unter Sicht ca. 1–2 cm unter die Stimmbänder",
+        "Langsame, fraktionierte Gabe (meist ca. 1–3 min)",
+        "Prämedikation uneinheitlich",
+        "Komplikationen: Reflux, Bradykardie/Desaturation, Apnoe"
+      ],
+      "tags": ["Surfactant", "LISA", "Frühgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome"
+    },
+    {
+      "id": "tech-006",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit 900 g soll die Initialdosis **Poractant alfa** von 200 mg/kg erhalten. Die Suspension enthält 80 mg/ml. Wie viele ml applizieren Sie?",
+      "hints": ["Dosis in mg berechnen, dann durch 80 mg/ml teilen."],
+      "answer": "Dosis = 200 mg/kg · 0,9 kg = 180 mg. Volumen = 180 mg / 80 mg/ml = **2,25 ml**. Für Poractant alfa ist 200 mg/kg als Initialdosis wirksamer als 100 mg/kg; Folgedosen betragen 100 mg/kg.",
+      "keyPoints": ["Dosis 180 mg", "Volumen 2,25 ml", "Initialdosis 200 mg/kg, Folgedosis 100 mg/kg"],
+      "solution": { "value": 2.25, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Surfactant", "Dosisberechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome"
+    },
+    {
+      "id": "tech-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie Indikationen, Durchführung und die wichtigsten Komplikationen des **Nabelvenenkatheters (NVK)**. Was unterscheidet den Notfall-NVK im Kreißsaal vom zentralen NVK auf der Intensivstation?",
+      "hints": [
+        "Wie tief wird im Notfall vorgeschoben?",
+        "Wo soll die Spitze beim zentralen NVK liegen, wo auf keinen Fall?"
+      ],
+      "answer": "**Indikationen**: Notfallzugang in der Reanimation (Medikamente, Volumen), zentraler Zugang in den ersten Lebenstagen (parenterale Ernährung, Katecholamine, hyperosmolare Lösungen), Austauschtransfusion. **Durchführung**: steril, Nabelschnur kürzen, Vene (dünnwandig, meist bei 12 Uhr) aufsuchen, mit NaCl gefüllten Katheter (z. B. 3,5–5 Fr) vorschieben, Einführtiefe nach Formel bzw. Körpermaß abschätzen, **Lagekontrolle** per Röntgen und/oder Sonographie. Die Spitze soll im Übergang V. cava inferior/rechter Vorhof liegen, **nicht in der Leber/Pfortader** und nicht intrakardial (linker Vorhof über das Foramen ovale). **Notfall-NVK**: nur so weit vorschieben, bis Blut frei aspiriert werden kann (wenige Zentimeter), da Lage im Lebergewebe sonst Schäden verursacht; später ersetzen bzw. kontrollieren. **Komplikationen**: Fehllage in Pfortadersystem/Leber (Lebernekrose, Paravasat von Ernährungslösung), Pfortaderthrombose, Perikarderguss/Tamponade, Arrhythmien, Pleuraerguss, Infektion (CLABSI), Luftembolie, Blutung. Liegedauer begrenzen (häufig Wechsel auf PICC nach etwa 7–10 Tagen, international max. etwa 14 Tage).",
+      "keyPoints": [
+        "Notfallzugang und zentraler Zugang der ersten Tage",
+        "Spitze am Übergang VCI/rechter Vorhof, nicht Leber, nicht intrakardial",
+        "Notfall-NVK nur bis Blutaspiration (wenige cm)",
+        "Komplikationen: Leber/Pfortader, Thrombose, Tamponade, Infektion",
+        "Liegedauer begrenzen"
+      ],
+      "tags": ["Nabelvenenkatheter", "Zentraler Zugang"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "tech-008",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit 1200 g erhält einen Nabelvenenkatheter. Berechnen Sie die **Einführtiefe** nach der modifizierten Shukla-Formel „NVK (cm) = (3 · Gewicht in kg + 9) / 2 + 1“.",
+      "hints": ["Erst den Klammerausdruck, dann halbieren, dann +1."],
+      "answer": "(3 · 1,2 + 9) / 2 + 1 = (3,6 + 9) / 2 + 1 = 12,6 / 2 + 1 = 6,3 + 1 = **7,3 cm** (Bezugspunkt je nach Standard: Bauchhaut/Nabelring, ggf. zuzüglich Länge des Nabelstumpfs). Die Formel führt nicht selten zu zu tiefer Lage; deshalb Lagekontrolle mit Röntgen und/oder Sonographie und Korrektur.",
+      "keyPoints": ["Formel (3 · kg + 9)/2 + 1 = 1,5 · kg + 5,5", "Ergebnis 7,3 cm", "Lagekontrolle obligat"],
+      "solution": { "value": 7.3, "unit": "cm", "tolerance": 0.05 },
+      "tags": ["Nabelvenenkatheter", "Einführtiefe", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "tech-009",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Beim gleichen Frühgeborenen (1200 g) legen Sie einen **Nabelarterienkatheter in hoher Position**. Berechnen Sie die Einführtiefe nach Shukla und Ferrara: „NAK (cm) = 3 · Gewicht in kg + 9“.",
+      "hints": ["Einsetzen: 3 · 1,2 + 9"],
+      "answer": "3 · 1,2 + 9 = 3,6 + 9 = **12,6 cm** (ggf. zuzüglich Nabelstumpflänge, je nach Bezugspunkt). Ziel ist eine hohe Lage mit der Spitze etwa in Höhe **BWK 6–9**, oberhalb des Abgangs von Truncus coeliacus, A. mesenterica superior und Nierenarterien. Röntgenkontrolle: Katheter verläuft vom Nabel zunächst nach kaudal in die A. iliaca interna und dann in der Aorta links paravertebral nach kranial.",
+      "keyPoints": [
+        "Formel 3 · kg + 9",
+        "Ergebnis 12,6 cm",
+        "Hohe Lage BWK 6–9",
+        "Röntgenkontrolle, typischer Verlauf über A. iliaca"
+      ],
+      "solution": { "value": 12.6, "unit": "cm", "tolerance": 0.05 },
+      "tags": ["Nabelarterienkatheter", "Einführtiefe", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "tech-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Positionen der Nabelarterienkatheterspitze** sind akzeptabel, welche nicht, und welche Komplikationen eines NAK müssen Sie kennen? Wie reagieren Sie, wenn nach Anlage ein Bein blass wird?",
+      "hints": ["Zwei akzeptable Zonen, eine verbotene dazwischen.", "Durchblutung der unteren Extremität und der Organe."],
+      "answer": "**Akzeptabel**: **hohe Lage** BWK 6–9 (oberhalb der Viszeral- und Nierenarterien, unterhalb des Aortenbogens) – heute meist bevorzugt, weniger Gefäßkomplikationen – oder **tiefe Lage** LWK 3–4 (unterhalb der Nierenarterien, oberhalb der Aortenbifurkation). **Nicht akzeptabel**: etwa BWK 10 bis LWK 2 (Abgänge von Truncus coeliacus, A. mesenterica superior, Nierenarterien) sowie im Aortenbogen. **Komplikationen**: Vasospasmus und Ischämie von Bein/Gesäß, Thrombose/Embolie (Aorta, Nierenarterien mit arterieller Hypertonie, Mesenterialarterien mit NEC-Risiko), Blutung bei Diskonnektion, Infektion, Luftembolie, Gefäßperforation. **Blasses Bein**: Katheterlage überprüfen; bei anhaltender Minderperfusion **Katheter entfernen**, Perfusion dokumentieren, Doppler-Sonographie zur Thrombosesuche. Prävention: niedrig dosiertes Heparin in der Spüllösung (verlängert die Funktionsdauer), Liegedauer kurz halten (international meist max. etwa 5 Tage).",
+      "keyPoints": [
+        "Hoch: BWK 6–9; tief: LWK 3–4",
+        "Verbotene Zone BWK 10–LWK 2 (Viszeral-/Nierenarterien)",
+        "Ischämie, Thrombose (Hypertonie, NEC), Blutung, Infektion",
+        "Blasses Bein: Katheter entfernen, Doppler",
+        "Heparinisierte Spüllösung, kurze Liegedauer (ca. 5 Tage)"
+      ],
+      "tags": ["Nabelarterienkatheter", "Komplikationen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "tech-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie befunden eine **Röntgen-Thoraxaufnahme zur Lagekontrolle** bei einem frisch versorgten Frühgeborenen mit Tubus, Magensonde, NVK und NAK. Wo sollen die Spitzen jeweils liegen, und woran unterscheiden Sie NVK und NAK im Bild?",
+      "hints": ["Wirbelkörper als Bezugspunkte.", "Der arterielle Katheter macht einen Umweg."],
+      "answer": "- **Tubus**: Spitze in Trachealmitte, etwa **BWK 1–2**, oberhalb der Carina (Kopfhaltung beachten: Flexion schiebt den Tubus tiefer, Extension höher).\n- **Magensonde**: Spitze sicher im Magen, unterhalb des Zwerchfells.\n- **NVK**: verläuft vom Nabel **direkt nach kranial** über Ductus venosus in die V. cava inferior; Spitze am Übergang V. cava inferior/rechter Vorhof, etwa in Höhe des Zwerchfells bzw. knapp darüber (ca. BWK 8–10); keine Abweichung in die Leber (Pfortaderäste), nicht im Herzen.\n- **NAK**: verläuft vom Nabel zunächst **nach kaudal** ins Becken (A. iliaca interna), dann in der Aorta links paravertebral nach kranial; Spitze hoch BWK 6–9 oder tief LWK 3–4.\nZusätzlich beurteilen: Pneumothorax, Lungenbefund, Fehllagen (z. B. Katheterschlinge), und dass Wirbelkörper korrekt gezählt werden. Die Sonographie ergänzt die Lagekontrolle zentraler Katheter zunehmend und ist bei der Spitzenlokalisation oft genauer.",
+      "keyPoints": [
+        "Tubus BWK 1–2, Kopfhaltung beachten",
+        "NVK direkt kranial, Spitze VCI/RA-Übergang (ca. BWK 8–10)",
+        "NAK zuerst kaudal, dann kranial; BWK 6–9 oder LWK 3–4",
+        "Magensonde im Magen",
+        "Ergänzend Sonographie"
+      ],
+      "tags": ["Röntgen", "Lagekontrolle", "Nabelkatheter"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "tech-012",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 25+6 SSW (750 g) mit PICC über die rechte V. basilica zeigt am 9. Lebenstag plötzlich Bradykardie, Hypotonie und Desaturation; die Pulse sind schwach, die Herztöne leise. Woran müssen Sie sofort denken, und was tun Sie?",
+      "hints": ["Komplikation einer intrakardialen Katheterspitze.", "Diagnose am Bett, Therapie in Minuten."],
+      "answer": "Sofort an einen **Perikarderguss mit Herzbeuteltamponade** durch Infusionsparavasat (zentraler Katheter mit Spitze im Herzen) denken – seltene, aber oft tödliche Komplikation. Vorgehen: **Infusion über den Katheter stoppen**, Hilfe holen, **Bedside-Echokardiographie** (Perikarderguss, Kompression der Herzhöhlen). Bei Tamponade: zunächst Versuch, über den liegenden Katheter **zu aspirieren**, dann sofortige **Perikardpunktion** (subxiphoidal, Nadel im flachen Winkel Richtung linke Schulter, möglichst unter Sonokontrolle, mit Aspiration), Flüssigkeit asservieren (Analyse: Glukose/Lipide wie Infusionslösung). Parallel Reanimationsmaßnahmen nach Bedarf, Volumen. Danach Katheter zurückziehen bzw. entfernen. Prävention: Spitze **außerhalb des Herzens** (V. cava superior/inferior), regelmäßige Lagekontrollen (Migration durch Bewegung und Wachstum), standardisierte Armposition bei Röntgen.",
+      "keyPoints": [
+        "Perikardtamponade durch intrakardiale Katheterspitze",
+        "Infusion stoppen, Bedside-Echo",
+        "Aspiration über Katheter, Perikardpunktion subxiphoidal",
+        "Erguss = Infusat (Analyse)",
+        "Prävention: Spitze außerhalb des Herzens, Lagekontrollen"
+      ],
+      "tags": ["PICC", "Perikardtamponade", "Komplikationen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "tech-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie Indikation, Anlage und Lagekontrolle eines **perkutan eingeführten zentralen Katheters (PICC)** beim Frühgeborenen. Welche Fallstricke gibt es bei der Beurteilung der Spitzenlage?",
+      "hints": ["Welche Venen eignen sich?", "Vorher messen – und die Extremitätenstellung bedenken."],
+      "answer": "**Indikation**: länger dauernde parenterale Ernährung oder Infusion hyperosmolarer/gewebetoxischer Lösungen, wenn ein NVK nicht (mehr) möglich ist. **Venen**: V. basilica/cephalica oder axillaris, V. saphena magna, V. poplitea, Kopfvenen (V. temporalis superficialis, V. auricularis posterior). **Anlage**: maximale Barrieremaßnahmen, Länge vorher von der Punktionsstelle entlang des Venenverlaufs bis zur Zielposition messen, Punktion mit Einführkanüle, Katheter (z. B. 1–2 Fr) vorschieben, Analgesie (Glukose, ggf. Opioid). **Lagekontrolle** per Röntgen (ggf. mit wenig Kontrastmittel) und/oder Sonographie; Ziel: Spitze in der **V. cava superior bzw. inferior außerhalb des Herzens**. **Fallstricke**: Arm- und Beinbewegungen verschieben die Spitze (bei Basilica-Kathetern meist tiefer bei Adduktion und Ellenbogenbeugung) – Röntgen in standardisierter Extremitätenstellung; Fehllagen (V. jugularis, Gegenseite, aufsteigende Lendenvene, Spitze im Herzen); feine Katheter sind ohne Kontrast schwer sichtbar. Komplikationen: Infektion, Thrombose, Okklusion, Paravasat, Perikard-/Pleuraerguss, Katheterbruch.",
+      "keyPoints": [
+        "Indikation: längere PE/hyperosmolare Lösungen",
+        "Venenwahl, Länge vorher messen, Asepsis",
+        "Spitze in VCS/VCI außerhalb des Herzens",
+        "Migration durch Extremitätenstellung, standardisierte Lagerung",
+        "Röntgen (ggf. Kontrast) und/oder Sonographie"
+      ],
+      "tags": ["PICC", "Zentraler Zugang", "Lagekontrolle"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "tech-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie können Sie die **Lage zentraler Katheter (NVK, PICC) sonographisch** kontrollieren, und welche Vorteile hat das gegenüber dem Röntgenbild?",
+      "hints": ["Subkostale Schnitte für die V. cava inferior.", "Ein kleiner Flüssigkeitsbolus kann helfen."],
+      "answer": "Die Katheterspitze wird direkt dargestellt: beim NVK im **subkostalen Sagittal- bzw. Längsschnitt** (Verlauf durch Ductus venosus in die V. cava inferior, Spitze am Übergang zum rechten Vorhof), beim PICC je nach Zugang über V. cava superior/inferior und **apikale bzw. subkostale Vierkammerblicke**. Ist die Spitze schlecht sichtbar, hilft ein kleiner **NaCl-Bolus** (Mikrobläschen/Turbulenz zeigen den Austrittspunkt). **Vorteile**: keine Strahlenbelastung, direkte Darstellung der Spitze relativ zu Herzhöhlen und Leber statt Projektion auf Wirbelkörper (Röntgen kann Spitzenlage im Herzen oder in Pfortaderästen verkennen), wiederholbar am Bett, Korrektur in Echtzeit, zusätzlich Erkennung von Thrombus, Perikarderguss und Leberparavasat. Grenzen: untersucherabhängig, Luftüberlagerung; viele Zentren kombinieren beide Verfahren.",
+      "keyPoints": [
+        "Direkte Darstellung der Spitze (subkostal, apikal)",
+        "NaCl-Bolus zur Lokalisation",
+        "Keine Strahlung, genauer als Projektion auf Wirbelkörper",
+        "Zusätzlich Thrombus, Erguss, Paravasat erkennbar",
+        "Untersucherabhängig"
+      ],
+      "tags": ["Sonographie", "Lagekontrolle", "Zentraler Zugang"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "tech-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem kreislaufinstabilen Frühgeborenen wird ein **peripherer Arterienkatheter** in die A. radialis gelegt. Was prüfen Sie vor der Anlage, wie stellen Sie eine korrekte **invasive Blutdruckmessung** sicher, und welche Komplikationen beachten Sie?",
+      "hints": ["Kollateralkreislauf der Hand.", "Nullpunkt, Höhe, Dämpfung.", "Spülen kann gefährlich sein."],
+      "answer": "**Vor Anlage**: Kollateralversorgung über die A. ulnaris prüfen (modifizierter Allen-Test, bei Frühgeborenen oft per Kaltlicht-Transillumination), Gerinnung, steriles Vorgehen. **Messung**: Druckaufnehmer auf **Herzhöhe** (rechter Vorhof), **Nullabgleich** gegen Atmosphärendruck, kontinuierliche Spülung mit niedrig dosiert heparinisierter Lösung mit niedriger Laufrate, luftblasenfreies, kurzes, starres Schlauchsystem; Kurvenform beurteilen und **Dämpfung** prüfen (Fast-Flush-Test): Überdämpfung (Luftblasen, Gerinnsel, Knick) unterschätzt den systolischen Druck, Unterdämpfung überschätzt ihn; der Mitteldruck ist am robustesten. **Komplikationen**: Ischämie/Nekrose der Finger (Hand regelmäßig inspizieren, bei Blässe entfernen), Blutung bei Diskonnektion (Luer-Lock, sichtbar lagern), Thrombose, Infektion, **retrograde Luft- oder Thrombusembolie** bis in die zerebralen Gefäße durch zu schnelles oder großvolumiges Spülen – nur kleine Volumina langsam spülen.",
+      "keyPoints": [
+        "Kollateralen prüfen (Allen-Test/Transillumination)",
+        "Druckaufnehmer auf Herzhöhe, Nullabgleich",
+        "Dämpfung prüfen, Mitteldruck robust",
+        "Ischämie, Blutung, Thrombose, Infektion",
+        "Retrograde Embolie: langsam, kleine Volumina spülen"
+      ],
+      "tags": ["Arterienkatheter", "Invasive Blutdruckmessung", "Monitoring"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "tech-016",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Bei einem reanimationspflichtigen Neugeborenen gelingt kein Nabelvenenkatheter. Wo legen Sie einen **intraossären Zugang**?",
+      "hints": ["Großer, oberflächlich gelegener Röhrenknochen der unteren Extremität."],
+      "options": [
+        {
+          "text": "Proximale Tibia, anteromediale Fläche etwa 1–2 cm unterhalb der Tuberositas tibiae",
+          "correct": true
+        },
+        { "text": "Sternum in Höhe des 2. Interkostalraums", "correct": false },
+        { "text": "Proximaler Humerus (Tuberculum majus)", "correct": false },
+        { "text": "Beckenkamm (Spina iliaca anterior superior)", "correct": false },
+        { "text": "Distaler Radius", "correct": false }
+      ],
+      "answer": "Standardpunktionsort beim Neugeborenen ist die **proximale Tibia** (flache anteromediale Fläche, etwa 1–2 cm unterhalb der Tuberositas tibiae), unter Schonung der Wachstumsfuge. Beim Neugeborenen ist der intraossäre Zugang die Alternative zum NVK, wenn dieser nicht rasch gelingt; Lage durch Aspiration/leichtes Injizieren ohne Schwellung prüfen. Komplikationen: Paravasat, Kompartmentsyndrom, Fraktur, Osteomyelitis.",
+      "keyPoints": [
+        "Proximale Tibia anteromedial, 1–2 cm unter Tuberositas",
+        "Alternative zum NVK in der Reanimation",
+        "Komplikationen: Paravasat, Kompartment, Osteomyelitis"
+      ],
+      "tags": ["Intraossärer Zugang", "Reanimation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "tech-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Frühgeborenen (31 SSW) mit peripherer Infusion (Glukose 12,5 % mit Calcium) bemerken Sie eine weiße, harte Schwellung am Handrücken, die Haut ist blass. Wie gehen Sie bei diesem **Paravasat** vor?",
+      "hints": ["Erst stoppen, dann aspirieren.", "Dokumentation und Stadieneinteilung."],
+      "answer": "**Sofort**: Infusion stoppen, Kanüle zunächst belassen und **Infusat aspirieren**, dann Kanüle entfernen; Extremität **hochlagern**, Schmuck/Pflaster lösen, keine Kompression. Ausdehnung markieren, **fotodokumentieren**, Schweregrad einteilen (Schwellung, Blässe, Kapillarfüllung, Blasen, Nekrose), Durchblutung distal kontrollieren. Je nach Schwere und Zentrum: Spülung des Gewebes über kleine Stichinzisionen mit NaCl und/oder Infiltration von **Hyaluronidase** bei hyperosmolaren Lösungen (möglichst innerhalb weniger Stunden); bei vasoaktiven Substanzen (z. B. Adrenalin) wird Phentolamin beschrieben. Bei Blasen/Nekrose plastische Chirurgie einbinden, steriles Wundmanagement, Schmerztherapie. Eltern informieren, CIRS-Meldung. **Prävention**: Calcium- und hyperosmolare Lösungen möglichst zentral, regelmäßige Inspektion der Punktionsstelle, gut sichtbare Fixierung.",
+      "keyPoints": [
+        "Infusion stoppen, aspirieren, Kanüle entfernen",
+        "Hochlagern, keine Kompression",
+        "Markieren, fotodokumentieren, Schweregrad",
+        "Je nach Schwere Spülung/Hyaluronidase, Plastische Chirurgie",
+        "Prävention: hyperosmolare/Ca-Lösungen zentral, Inspektion"
+      ],
+      "tags": ["Paravasat", "Komplikationen", "Gefäßzugang"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "tech-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein beatmetes Reifgeborenes mit Mekoniumaspiration verschlechtert sich plötzlich: SpO2 55 %, Herzfrequenz 80/min, rechter Hemithorax hebt sich weniger, die Kaltlichtlampe zeigt eine rechtsseitige Aufhellung. Wie gehen Sie vor? Beschreiben Sie die **Entlastungspunktion und die Anlage einer Thoraxdrainage**.",
+      "hints": ["Kein Röntgen abwarten.", "Wo punktieren, wo drainieren, und welche Strukturen schonen?"],
+      "answer": "Verdacht auf **Spannungspneumothorax rechts** – Diagnose klinisch, Transillumination oder Lungensonographie (fehlendes Pleuragleiten, Lungenpunkt); **kein Röntgen abwarten**. **Entlastungspunktion**: Desinfektion, Venenverweilkanüle (z. B. 20–24 G, je nach Größe des Kindes) oder Butterfly mit Dreiwegehahn und Spritze im **2. ICR medioklavikulär** (oder 4./5. ICR vordere Axillarlinie) **am Oberrand der Rippe** einstechen, Luft aspirieren. **Thoraxdrainage** anschließend: Analgesie (Lidocain lokal, systemisches Opioid), Lagerung mit leicht angehobener Seite, Zugang im **4.–5. ICR vordere bis mittlere Axillarlinie** (Mamille und Brustdrüsenanlage schonen), stumpfe Präparation oder Seldinger-/Pigtail-Technik (z. B. 8–12 Fr), **keine scharfe Trokarspitze** blind vorschieben, Spitze bei Pneumothorax nach **ventral-kranial**. Anschluss an ein geschlossenes Ableitungssystem mit Wasserschloss bzw. geringem Sog (nach Stationsstandard), Fixierung, **Röntgenkontrolle**. Komplikationen: Lungenperforation, Blutung, Phrenikusläsion, Brustdrüsenverletzung, Fehllage, Infektion.",
+      "keyPoints": [
+        "Klinische Diagnose, Transillumination/Lungensono, kein Röntgen abwarten",
+        "Punktion 2. ICR MCL oder 4./5. ICR vordere Axillarlinie, Oberrand der Rippe",
+        "Drainage 4.–5. ICR vordere/mittlere Axillarlinie, Spitze ventral-kranial",
+        "Analgesie, kein scharfer Trokar, Mamille schonen",
+        "Ableitung, Röntgenkontrolle, Komplikationen"
+      ],
+      "tags": ["Pneumothorax", "Thoraxdrainage", "Notfall"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "tech-019",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Warum wird bei der Pleurapunktion bzw. Thoraxdrainage **am Oberrand der Rippe** eingegangen?",
+      "hints": ["Anatomie des Interkostalraums."],
+      "options": [
+        { "text": "Weil Interkostalarterie, -vene und -nerv am Unterrand der Rippe verlaufen", "correct": true },
+        { "text": "Weil der Pleuraspalt am Oberrand der Rippe am breitesten ist", "correct": false },
+        { "text": "Weil so der N. phrenicus geschont wird", "correct": false },
+        { "text": "Weil die Drainage dadurch automatisch nach ventral zeigt", "correct": false }
+      ],
+      "answer": "Das **Gefäß-Nerven-Bündel** (V., A., N. intercostalis) verläuft im Sulcus costae am **Unterrand** der Rippe. Durch Eingehen am Oberrand der unteren Rippe werden Blutungen und Nervenverletzungen vermieden. Der N. phrenicus kann durch zu tief vorgeschobene Drainagen medial verletzt werden, wird aber nicht durch die Wahl des Rippenrandes geschützt.",
+      "keyPoints": ["Gefäß-Nerven-Bündel am Unterrand der Rippe", "Vermeidung von Blutung/Nervenläsion"],
+      "tags": ["Thoraxdrainage", "Anatomie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "tech-020",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie die Durchführung einer **Lumbalpunktion** beim Neugeborenen: Lagerung, Punktionshöhe, Material und Untersuchungen des Liquors. Wann verschieben Sie die LP?",
+      "hints": ["Wo endet der Conus medullaris beim Neugeborenen?", "Die Lagerung kann die Atmung beeinträchtigen."],
+      "answer": "**Lagerung**: sitzend oder in Seitenlage mit gekrümmtem Rücken, durch erfahrene Assistenz gehalten; **Hals nicht stark beugen** (Atemwegsobstruktion, Hypoxämie) – Monitoring mit Pulsoxymetrie, ggf. O2. **Punktionshöhe**: **L4/L5** (oder L3/L4); Orientierung an der Verbindungslinie der Beckenkämme (ca. L4); der Conus medullaris reicht beim Neugeborenen tiefer als beim Erwachsenen (meist L1–L2, normal bis etwa L2/L3). **Material**: steril, dünne Spinalnadel mit **Mandrin** (verringert das Risiko epidermaler Einschlusstumoren), Analgesie (Glukose, ggf. EMLA/Lidocain). **Liquor**: Zellzahl mit Differenzierung, Eiweiß, Glukose (mit zeitgleicher Blutglukose), Gram-Präparat, Kultur, ggf. PCR (z. B. HSV, Enteroviren); Normwerte des Neugeborenen (höhere Zellzahl und Eiweiß) beachten. **Verschieben** bei kardiorespiratorischer Instabilität, schwerer Thrombozytopenie/Gerinnungsstörung, Infektion der Punktionsstelle – Antibiotika dann nicht verzögern, LP nachholen.",
+      "keyPoints": [
+        "Sitzend oder Seitenlage, Hals nicht überbeugen, Monitoring",
+        "Punktion L4/L5 (L3/L4), Conus tiefer als beim Erwachsenen",
+        "Nadel mit Mandrin, steril, Analgesie",
+        "Liquor: Zellen, Eiweiß, Glukose (mit Blutglukose), Kultur, PCR",
+        "Aufschub bei Instabilität/Gerinnungsstörung, Antibiotika nicht verzögern"
+      ],
+      "tags": ["Lumbalpunktion", "Meningitis"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "tech-021",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Bei einem 3 Wochen alten Säugling mit Fieber wollen Sie eine **suprapubische Blasenpunktion** durchführen. Beschreiben Sie Voraussetzungen, Technik und Komplikationen. Warum ist Beutelurin ungeeignet?",
+      "hints": ["Ohne gefüllte Blase kein Erfolg.", "Mittellinie, knapp oberhalb der Symphyse."],
+      "answer": "**Voraussetzungen**: gefüllte Blase – letzte Miktion möglichst länger her, Füllung **sonographisch bestätigen**; keine Gerinnungsstörung, keine Hautinfektion, kein stark geblähtes Abdomen. **Technik**: Rückenlage, Beine gehalten, Desinfektion, Punktion in der **Mittellinie ca. 1–2 cm oberhalb der Symphyse** senkrecht zur Haut mit dünner Kanüle und aufgesetzter Spritze unter Aspiration (sonographisch gesteuert erhöht die Erfolgsrate); bei Jungen ggf. Penis leicht komprimieren, um eine Spontanmiktion zu verhindern. Analgesie z. B. Glukose oral. **Komplikationen** (selten): vorübergehende Mikro-/Makrohämaturie, Darmpunktion, Infektion. Alternative: Katheterurin. **Beutelurin** ist häufig mit Hautflora kontaminiert; er kann einen HWI nur ausschließen (negativer Befund), aber nicht beweisen – für Kultur und Diagnose beim fiebernden jungen Säugling ungeeignet.",
+      "keyPoints": [
+        "Gefüllte Blase, sonographisch bestätigt",
+        "Mittellinie 1–2 cm über Symphyse, Aspiration",
+        "Komplikationen: Hämaturie, Darmpunktion (selten)",
+        "Alternative Katheterurin",
+        "Beutelurin: Kontamination, nur Ausschluss möglich"
+      ],
+      "tags": ["Blasenpunktion", "Harnwegsinfektion"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "tech-022",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem reifen Neugeborenen mit Rhesus-Inkompatibilität ist eine **Austauschtransfusion** indiziert. Beschreiben Sie Blutprodukt, Zugang, Technik, Überwachung und Komplikationen.",
+      "hints": [
+        "Welche Eigenschaften muss das Blutprodukt haben (Bestrahlung, Blutgruppe)?",
+        "Push-Pull oder isovolumetrisch.",
+        "Welche Elektrolyte und Laborwerte verschieben sich?"
+      ],
+      "answer": "**Blutprodukt**: möglichst frisches, **bestrahltes**, leukozytendepletiertes Erythrozytenkonzentrat der **Blutgruppe 0, RhD-negativ** (verträglich mit den mütterlichen Antikörpern; Verträglichkeitsprobe mit mütterlichem Serum), rekonstituiert mit kompatiblem Plasma (z. B. AB-Plasma) auf einen Hämatokrit von etwa 0,5–0,6; nach Bestrahlung zeitnah verwenden (Kaliumanstieg), angewärmt über Blutwärmer. Austauschvolumen meist das **Doppelte des Blutvolumens** (entfernt einen Großteil der Antikörper-beladenen Erythrozyten und des Bilirubins). **Zugang**: NVK (Push-Pull über einen Zugang) oder isovolumetrisch (arterielle Entnahme über NAK/periphere Arterie, venöse Gabe). **Technik**: kleine Einzelportionen, langsam, über etwa 1–2 Stunden, genaue Bilanzierung. **Überwachung**: kontinuierliches Monitoring (EKG, SpO2, Blutdruck, Temperatur), Laborkontrollen vor, während und nach dem Austausch: **Glukose** (Hypo-/reaktive Hypoglykämie), **ionisiertes Calcium** (Citrat), **Kalium**, Blutgasanalyse, Blutbild (**Thrombozytopenie**), Gerinnung, Bilirubin (Rebound). **Komplikationen**: Arrhythmien, Kreislaufinstabilität, Hypokalzämie, Hyperkaliämie, Thrombozytopenie, Infektion, Thrombose/Pfortaderthrombose, **NEC**, Luftembolie, GvHD (daher Bestrahlung), Todesfälle; deshalb nur in erfahrenen Zentren.",
+      "keyPoints": [
+        "Frisches, bestrahltes EK 0 RhD-neg., mit mütterlichem Serum verträglich, + Plasma (Hkt ca. 0,5–0,6), angewärmt",
+        "Doppeltes Blutvolumen",
+        "NVK Push-Pull oder isovolumetrisch, kleine Portionen, 1–2 h",
+        "Monitoring: Glukose, iCa, Kalium, BGA, Thrombozyten",
+        "Komplikationen: Arrhythmie, Elektrolyte, Thrombopenie, NEC, Infektion, Thrombose"
+      ],
+      "tags": ["Austauschtransfusion", "Rhesus-Inkompatibilität"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "Querschnitts-Leitlinien der Bundesärztekammer zur Therapie mit Blutkomponenten und Plasmaderivaten"
+    },
+    {
+      "id": "tech-023",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Über welches Schallfenster lassen sich bei der Schädelsonographie **Kleinhirnblutungen und die hintere Schädelgrube** am besten beurteilen?",
+      "hints": ["Ein zusätzliches Fenster hinter dem Ohr."],
+      "options": [
+        { "text": "Mastoidfontanelle (posterolaterale Fontanelle)", "correct": true },
+        { "text": "Große Fontanelle im Koronarschnitt", "correct": false },
+        { "text": "Temporales Fenster oberhalb des Ohres", "correct": false },
+        { "text": "Kleine (hintere) Fontanelle im Sagittalschnitt allein", "correct": false }
+      ],
+      "answer": "Über die **große Fontanelle** werden die Standard-Koronar- und Sagittalschnitte angefertigt; die hintere Schädelgrube liegt dabei weit entfernt und wird schlecht dargestellt. Über die **Mastoidfontanelle** gelingt die Beurteilung von Kleinhirn, IV. Ventrikel und Cisterna magna deutlich besser – Kleinhirnblutungen bei sehr kleinen Frühgeborenen werden sonst häufig übersehen. Die **hintere Fontanelle** ergänzt die Beurteilung der Hinterhörner und des okzipitalen Marklagers.",
+      "keyPoints": [
+        "Mastoidfontanelle für hintere Schädelgrube/Kleinhirn",
+        "Große Fontanelle: Standardschnitte",
+        "Hintere Fontanelle: Hinterhörner, okzipitales Marklager"
+      ],
+      "tags": ["Schädelsonographie", "Kleinhirnblutung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "tech-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Erklären Sie den **Resistance-Index (RI)** in der Doppler-Sonographie der A. cerebri anterior. Wie interpretieren Sie einen erniedrigten RI bei einem asphyktischen Reifgeborenen am 2. Lebenstag und einen erhöhten RI mit fehlendem diastolischem Fluss bei einem Frühgeborenen?",
+      "hints": [
+        "RI = (systolische − enddiastolische Geschwindigkeit) / systolische Geschwindigkeit.",
+        "Diastolischer Fluss hängt vom Gefäßwiderstand – und vom Ductus – ab."
+      ],
+      "answer": "**RI = (Vmax systolisch − V enddiastolisch) / Vmax systolisch**; er beschreibt den Widerstand des nachgeschalteten Gefäßbetts (z. B. 40 cm/s systolisch, 10 cm/s diastolisch → RI 0,75). **Erniedrigter RI** nach Asphyxie (hoher diastolischer Fluss, häufig zitierte Grenze < 0,55) spricht für eine **Vasoparalyse mit Verlust der Autoregulation** und ist mit ungünstiger Prognose assoziiert; unter therapeutischer Hypothermie ist die Aussagekraft eingeschränkt, und auch Hyperkapnie erniedrigt den RI. **Erhöhter RI mit fehlendem oder retrogradem enddiastolischem Fluss** beim Frühgeborenen weist auf einen **hämodynamisch relevanten PDA** (diastolischer Steal) hin; weitere Ursachen sind erhöhter intrakranieller Druck (z. B. progredienter posthämorrhagischer Hydrozephalus – RI-Anstieg unter Fontanellenkompression), Hypokapnie oder Kompression durch den Schallkopf. RI immer mit Klinik, Blutgasen und Echokardiographie interpretieren.",
+      "keyPoints": [
+        "RI = (Vs − Vd)/Vs, Maß für Gefäßwiderstand",
+        "Niedriger RI nach Asphyxie: Vasoparalyse, schlechte Prognose",
+        "Eingeschränkte Aussage unter Hypothermie, CO2-Einfluss",
+        "Hoher RI/fehlender diastolischer Fluss: PDA-Steal, erhöhter Hirndruck",
+        "Interpretation im Kontext"
+      ],
+      "tags": ["Doppler-Sonographie", "Resistance-Index", "Asphyxie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "tech-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Befunde der **Lungensonographie** sind bei Neugeborenen diagnostisch relevant? Beschreiben Sie den Normalbefund und die Befunde bei RDS, transitorischer Tachypnoe, Pneumothorax und Pleuraerguss.",
+      "hints": ["Horizontale und vertikale Artefakte.", "Ein Befund ist für den Pneumothorax beweisend."],
+      "answer": "- **Normal**: glatte Pleuralinie mit **Pleuragleiten**, horizontale **A-Linien** (Wiederholungsartefakte), allenfalls einzelne B-Linien.\n- **RDS**: verdickte, unregelmäßige Pleuralinie, konfluierende B-Linien („**weiße Lunge**“) beidseits homogen, kleine subpleurale Konsolidierungen.\n- **Transitorische Tachypnoe**: B-Linien v. a. in den unteren Feldern bei weniger betroffenen oberen Feldern (**„Doppellungenpunkt“**), Pleuralinie meist regelrecht; rasche Rückbildung.\n- **Pneumothorax**: fehlendes Pleuragleiten, keine B-Linien, nur A-Linien; der **Lungenpunkt** (Übergang zwischen anliegender und abgehobener Lunge) ist spezifisch.\n- **Pleuraerguss**: echofreier Raum oberhalb des Zwerchfells, ggf. mit Septen; Chylothorax nicht sonographisch abgrenzbar.\nDie Lungensonographie ist strahlungsfrei, am Bett wiederholbar und wird zunehmend auch für Surfactantentscheidungen (Lungenscores) eingesetzt; Röntgen bleibt für Lagekontrollen und bestimmte Fragestellungen nötig.",
+      "keyPoints": [
+        "Normal: Pleuragleiten, A-Linien",
+        "RDS: konfluierende B-Linien, weiße Lunge",
+        "TTN: Doppellungenpunkt",
+        "Pneumothorax: kein Gleiten, Lungenpunkt",
+        "Erguss: echofreier Raum"
+      ],
+      "tags": ["Lungensonographie", "Point-of-Care-Ultraschall"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "tech-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Fragestellungen beantworten Sie mit der **gezielten (funktionellen) Echokardiographie** auf der neonatologischen Intensivstation? Wie schätzen Sie den systolischen pulmonalarteriellen Druck ab?",
+      "hints": ["Ductus, Druck rechts, Funktion, Füllung, Erguss.", "Vereinfachte Bernoulli-Gleichung."],
+      "answer": "**Fragestellungen**: **PDA** (Durchmesser, Shuntrichtung und Flussmuster, Volumenbelastung des linken Herzens z. B. LA/Ao-Verhältnis, fehlender/retrograder diastolischer Fluss in Aorta descendens oder Mesenterialarterien); **pulmonale Hypertonie** (Shuntrichtung über PDA/Foramen ovale, Septumstellung, rechtsventrikuläre Funktion); **Myokardfunktion** und **Volumenstatus/Füllung** bei Hypotonie, Perikarderguss, Katheterlage, Ausschluss struktureller Herzfehler (dafür kinderkardiologische Untersuchung). **Druckabschätzung**: aus der maximalen Geschwindigkeit des Trikuspidalinsuffizienzjets mit der **vereinfachten Bernoulli-Gleichung ΔP = 4 · v²** plus geschätztem Vorhofdruck. Beispiel: v = 3,5 m/s → 4 · 12,25 = 49 mmHg + ca. 5 mmHg = ca. 54 mmHg systolischer RV- bzw. PA-Druck (ohne Pulmonalstenose); Vergleich mit dem systemischen systolischen Blutdruck (suprasystemisch → schwere PH). Alternativ Gradient über den PDA. Grenzen: untersucherabhängig, Trikuspidalinsuffizienz nicht immer messbar.",
+      "keyPoints": [
+        "PDA-Beurteilung (Größe, Shunt, Volumenbelastung, diastolischer Steal)",
+        "Pulmonale Hypertonie: Shuntrichtung, Septum, RV-Funktion",
+        "Funktion, Füllung, Erguss, Katheterlage",
+        "Bernoulli: ΔP = 4 v² + Vorhofdruck",
+        "Vergleich mit systemischem Blutdruck"
+      ],
+      "tags": ["Funktionelle Echokardiographie", "PDA", "Pulmonale Hypertonie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "tech-027",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wie befunden Sie eine **Röntgen-Thoraxaufnahme beim Neugeborenen** systematisch? Woran erkennen Sie im Liegen einen Pneumothorax?",
+      "hints": ["Erst Technik und Fremdmaterial, dann Organe.", "Freie Luft sammelt sich im Liegen ventral."],
+      "answer": "**Systematik**: Patientendaten und Aufnahmetechnik (Rotation – Abstand der Klavikulaenden zur Mittellinie, **Inspirationstiefe** – Zwerchfell etwa in Höhe der 8.–9. dorsalen Rippe, Belichtung); **Fremdmaterial** (Tubus, Katheter, Sonden, Drainagen, Elektroden); **Lunge** (Transparenz, Volumen, Aerobronchogramm, retikulogranuläre Zeichnung, Seitendifferenz, Atelektasen); **Pleura** (Luft, Erguss); **Herz/Mediastinum** (Herzgröße und -form, Thymus mit Segelzeichen, Mediastinalverlagerung); **Zwerchfell**; **Skelett** (Rippen, Wirbel, Frakturen); miterfasstes **Abdomen** (Gasverteilung, Pneumatosis, freie Luft). **Pneumothorax im Liegen**: Luft sammelt sich **ventral und basal** – einseitig vermehrte Transparenz, auffallend scharfer Herz-/Zwerchfellrand, „deep sulcus sign“; bei Spannung Mediastinalverlagerung und Zwerchfelltiefstand. Eine Pleuralinie ist oft nicht sichtbar; ggf. Aufnahme mit horizontalem Strahlengang oder Lungensonographie.",
+      "keyPoints": [
+        "Technik: Rotation, Inspirationstiefe",
+        "Fremdmaterial",
+        "Lunge, Pleura, Herz/Thymus, Zwerchfell, Skelett, Abdomen",
+        "Pneumothorax im Liegen: ventral, Hypertransparenz, scharfer Herzrand, deep sulcus",
+        "Spannungszeichen: Mediastinalverlagerung"
+      ],
+      "tags": ["Röntgen", "Thorax", "Pneumothorax"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "tech-028",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Bei einem beatmeten Frühgeborenen mit geblähtem Abdomen besteht Verdacht auf eine **Darmperforation**. Welche Röntgenaufnahme eignet sich am besten zum Nachweis kleiner Mengen freier Luft, wenn das Kind gelagert werden kann?",
+      "hints": ["Luft steigt nach oben – über einem soliden Organ sieht man sie am besten."],
+      "options": [
+        { "text": "Abdomenaufnahme in Linksseitenlage mit horizontalem Strahlengang", "correct": true },
+        { "text": "Abdomenaufnahme in Rückenlage mit vertikalem Strahlengang", "correct": false },
+        { "text": "Abdomenaufnahme in Rechtsseitenlage mit horizontalem Strahlengang", "correct": false },
+        { "text": "Aufnahme in Bauchlage mit vertikalem Strahlengang", "correct": false }
+      ],
+      "answer": "In **Linksseitenlage mit horizontalem Strahlengang** steigt freie Luft zwischen **Leber und lateraler Bauchwand** auf und ist dort gut abgrenzbar. Bei instabilen Kindern ist alternativ eine Aufnahme in Rückenlage mit horizontalem Strahlengang (Cross-Table) möglich (Luft ventral). In der a.p.-Aufnahme in Rückenlage werden kleine Mengen freier Luft leicht übersehen (Zeichen: Rigler-Zeichen, Football-Zeichen, Darstellung des Lig. falciforme). In Rechtsseitenlage überlagert die Magenblase.",
+      "keyPoints": ["Linksseitenlage, horizontaler Strahlengang", "Luft über der Leber", "Alternative: Rückenlage Cross-Table"],
+      "tags": ["Röntgen", "Freie Luft", "Perforation"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "tech-029",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie Messprinzip, Fehlerquellen und Grenzen von **Pulsoxymetrie, transkutaner pO2/pCO2-Messung, Kapnographie und NIRS** auf der neonatologischen Intensivstation.",
+      "hints": ["Rot- und Infrarotlicht, pulsatile Komponente.", "Hautheizung, Totraum, regionale Sättigung."],
+      "answer": "- **Pulsoxymetrie**: Absorption von Rot- und Infrarotlicht durch oxygeniertes bzw. desoxygeniertes Hämoglobin, ausgewertet nur der **pulsatile** Anteil. Fehler: Bewegung, schlechte Perfusion, Fremdlicht, Sensorlage, Dyshämoglobine, dunkle Hautpigmentierung; bei niedriger Sättigung ungenauer (eher Überschätzung). Prä- (rechte Hand) vs. postduktal unterscheiden. Erkennt keine Hyperoxie sicher – deshalb obere Alarmgrenzen.\n- **Transkutane pO2/pCO2**: beheizte Elektrode erhöht die lokale Hautperfusion; tcpCO2 korreliert gut mit paCO2 (Trend, Vermeidung von Hypokapnie), tcpO2 unterschätzt bei schlechter Perfusion/Ödem. Kalibrierung, Aufwärmzeit; **Verbrennungsgefahr** bei Frühgeborenen → niedrige Sensortemperatur, regelmäßiger Positionswechsel.\n- **Kapnographie**: endtidales CO2 beim Neugeborenen meist niedriger als paCO2 (Totraum, Leck, Lungenerkrankung, kleine Tidalvolumina); Hauptstrom erhöht Totraum, Nebenstrom verzögert; nützlich für Tubuslage und Trend.\n- **NIRS**: regionale Gewebesättigung (z. B. zerebral) als Gemisch aus arteriellem, kapillärem und vor allem venösem Blut; zeigt Trends von O2-Angebot und -Verbrauch. Eine NIRS-gesteuerte Therapie hat in einer großen randomisierten Studie (SafeBoosC III) Tod oder schwere Hirnschädigung bei extrem Frühgeborenen nicht reduziert – daher kein Routinestandard.",
+      "keyPoints": [
+        "Pulsoxymetrie: pulsatile Absorption, Fehlerquellen, keine Hyperoxie-Erkennung",
+        "tc-Messung: beheizter Sensor, tcpCO2 gut, Verbrennungsgefahr",
+        "etCO2 < paCO2 bei Neugeborenen, Trend/Tubuslage",
+        "NIRS: regionale Sättigung, Trend, kein Outcome-Vorteil (SafeBoosC III)"
+      ],
+      "tags": ["Monitoring", "Pulsoxymetrie", "NIRS"],
+      "exam": ["KM"]
+    }
+  ]
+}

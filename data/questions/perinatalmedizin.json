@@ -1,0 +1,730 @@
+{
+  "area": "perinatalmedizin",
+  "questions": [
+    {
+      "id": "peri-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **Versorgungsstufen** unterscheidet die QFR-Richtlinie des G-BA, und nach welchen Kriterien werden Schwangere einem **Perinatalzentrum Level 1** bzw. **Level 2** zugewiesen?",
+      "hints": [
+        "Es gibt vier Stufen.",
+        "Level 1 und Level 2 werden über Gestationsalter und geschätztes Geburtsgewicht abgegrenzt – plus Mehrlinge und pränatale Diagnosen."
+      ],
+      "answer": "Die QFR-RL unterscheidet vier Stufen: **Perinatalzentrum Level 1**, **Perinatalzentrum Level 2**, **Perinataler Schwerpunkt** und **Geburtsklinik**.\n- **Level 1:** erwartetes Frühgeborenes < 1250 g geschätztes Gewicht oder < 29+0 SSW; Drillinge < 33+0 SSW sowie mehr als drei Mehrlinge; alle pränatal diagnostizierten fetalen oder mütterlichen Erkrankungen, bei denen nach der Geburt eine unmittelbare spezialisierte Intensivversorgung des Neugeborenen absehbar ist.\n- **Level 2:** 1250–1499 g oder 29+0 bis 31+6 SSW; schwere schwangerschaftsassoziierte Erkrankungen oder fetale Wachstumsretardierung unter der 3. Perzentile; insulinpflichtiger Diabetes mit absehbarer Gefährdung von Fetus/Neugeborenem.\n- **Perinataler Schwerpunkt:** ≥ 1500 g und 32+0 bis 36+6 SSW, Wachstumsretardierung zwischen 3. und 10. Perzentile, insulinpflichtiger Diabetes ohne absehbare Gefährdung.\n- **Geburtsklinik:** Schwangere ab 37+0 SSW ohne zu erwartende Komplikationen.\nTritt ein höheres Risiko ein, ist die Schwangere unverzüglich an einen geeigneten Standort zu verlegen (Abweichungen nur im begründeten, dokumentierten Einzelfall).",
+      "keyPoints": [
+        "Vier Stufen: Level 1, Level 2, Perinataler Schwerpunkt, Geburtsklinik",
+        "Level 1: < 1250 g oder < 29+0 SSW, Drillinge < 33+0 SSW, pränatale Diagnosen mit sofortigem spezialisiertem Intensivbedarf",
+        "Level 2: 1250–1499 g bzw. 29+0–31+6 SSW, schwere Schwangerschaftserkrankungen, FGR < 3. Perzentile, insulinpflichtiger Diabetes mit Gefährdung",
+        "Pflicht zur risikoadaptierten Zuweisung/Verlegung der Schwangeren"
+      ],
+      "tags": ["QFR-RL", "Versorgungsstufen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "peri-002",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Schwangere muss nach QFR-RL in einem **Perinatalzentrum Level 1** entbunden werden (sofern ein Transport noch möglich ist)?",
+      "hints": ["Achten Sie auf Mehrlinge.", "Bei Drillingen gilt eine höhere SSW-Grenze als beim Einling."],
+      "options": [
+        { "text": "Einling, 29+4 SSW, Schätzgewicht 1300 g", "correct": false },
+        { "text": "Drillingsschwangerschaft, 32+3 SSW", "correct": true },
+        { "text": "Zwillinge, 30+5 SSW, Schätzgewichte je ca. 1450 g", "correct": false },
+        { "text": "Einling, 33+2 SSW, Schätzgewicht 1900 g, sonst unauffällig", "correct": false }
+      ],
+      "answer": "Richtig ist die **Drillingsschwangerschaft mit 32+3 SSW**: Drillinge < 33+0 SSW (und alle höhergradigen Mehrlinge) sind Level-1-Kriterium. Der Einling mit 29+4 SSW/1300 g und die Zwillinge mit 30+5 SSW/1450 g erfüllen Level-2-Kriterien (29+0–31+6 SSW bzw. 1250–1499 g), der Einling mit 33+2 SSW/1900 g gehört in einen Perinatalen Schwerpunkt.",
+      "keyPoints": [
+        "Drillinge < 33+0 SSW sind Level-1-Kriterium",
+        "29+0–31+6 SSW bzw. 1250–1499 g entspricht Level 2",
+        "≥ 32+0 SSW und ≥ 1500 g: Perinataler Schwerpunkt"
+      ],
+      "tags": ["QFR-RL", "Versorgungsstufen", "Mehrlinge"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "peri-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie die wesentlichen **Struktur- und Personalanforderungen** der QFR-RL an die Neonatologie eines **Perinatalzentrums Level 1**.",
+      "hints": [
+        "Denken Sie an ärztliche Leitung und Präsenz, Pflegequalifikation und -schlüssel.",
+        "Räumliche Anordnung von Kreißsaal, OP und NICU; Kinderchirurgie; Transport; psychosoziale Betreuung."
+      ],
+      "answer": "**Ärztlich:** Leitung und Stellvertretung mit Schwerpunkt Neonatologie; Behandlungsleitung in der Neonatalperiode durch Neonatologen; **24-h-Arztpräsenz im Schichtdienst** (kein Bereitschaftsdienst) für NICU und Kreißsaal, zusätzlich Rufbereitschaft, mindestens eine Person davon mit Schwerpunkt Neonatologie.\n**Pflege:** (Kinder-)Pflegefachpersonen mit pädiatrischer Qualifikation, **mindestens 40 % mit Fachweiterbildung pädiatrische Intensivpflege**; Regelschlüssel **1:2**, **1:1** u. a. bei < 1000 g in den ersten 72 Lebensstunden, kardiorespiratorischer Instabilität, am OP-Tag, bei Austauschtransfusion/ECMO, Hypothermiebehandlung in den ersten 24 h und Sterbebegleitung; **1:4**, wenn ausschließlich Monitoring, Sauerstofftherapie, Sonde/Stoma, Infusion oder Phototherapie erforderlich sind; Nichterfüllung ist dem G-BA zu melden (klärender Dialog).\n**Infrastruktur:** Entbindungsbereich, OP und NICU im selben Gebäude (möglichst **Wand an Wand**) oder in verbundenen Gebäuden; mindestens sechs Intensivtherapieplätze; Röntgen, Sonographie inkl. Echo, (a)EEG, BGA-Gerät rasch verfügbar.\n**Weiteres:** Kinderchirurgie in Rufbereitschaft (innerhalb 1 h tätig), Kinderkardiologie, Radiologie, Konsile (Neuropädiatrie, Ophthalmologie, Humangenetik); mobile Intensiveinheit für Notfälle außerhalb des Zentrums; professionelle psychosoziale Elternbetreuung; Nachsorge (Entlassmanagement, Nachuntersuchung mit 2 Jahren korrigiert), Infektions-Surveillance (NEO-KISS-äquivalent), regelmäßige interdisziplinäre Fallbesprechungen.",
+      "keyPoints": [
+        "Leitung mit Schwerpunkt Neonatologie, 24-h-Präsenz im Schichtdienst",
+        "Fachweiterbildungsquote 40 %, Pflegeschlüssel 1:2, 1:1 bzw. 1:4 nach Kriterien",
+        "Kreißsaal, OP und NICU im selben/verbundenen Gebäude",
+        "Kinderchirurgie verfügbar, mobile Intensiveinheit",
+        "Psychosoziale Betreuung, Nachsorge, Surveillance, Fallkonferenzen"
+      ],
+      "tags": ["QFR-RL", "Strukturqualität", "Pflegeschlüssel"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "peri-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was regelt die **Mindestmenge** für die Versorgung sehr kleiner Frühgeborener in Deutschland, wie hoch ist sie, und welche Konsequenzen hat sie für die Kliniken?",
+      "hints": ["Sie bezieht sich auf ein Aufnahmegewicht.", "Der G-BA hat sie schrittweise angehoben."],
+      "answer": "Die Mindestmengenregelungen des G-BA legen für die **Versorgung von Früh- und Reifgeborenen mit einem Aufnahmegewicht < 1250 g** eine Mindestfallzahl von **25 pro Jahr und Standort** fest (schrittweise angehoben von 14 über 20 im Jahr 2023 auf 25 ab 2024). Hintergrund ist der gut belegte Zusammenhang zwischen Fallzahl und Ergebnis (Mortalität, schwere Morbidität). Diese Kinder dürfen ohnehin nur in Perinatalzentren Level 1 geplant versorgt werden; ein Standort muss jährlich eine begründete Prognose abgeben, dass er die Mindestmenge erreicht (Regelvermutung: Erreichen im Vorjahr). Wer die Leistung ohne Berechtigung erbringt, hat keinen Vergütungsanspruch; Landesbehörden können zur Sicherstellung der flächendeckenden Versorgung Ausnahmen zulassen. Die Notfallversorgung eines unerwartet geborenen Kindes bleibt selbstverständlich geboten, danach wird verlegt. Die Regelung ist gesundheitspolitisch umstritten: Baden-Württemberg, Schleswig-Holstein und Sachsen-Anhalt haben 2025 wegen eines Eingriffs in die Krankenhausplanung der Länder ein Verfahren vor dem Bundesverfassungsgericht angestrengt; den aktuellen Verfahrens- und Rechtsstand vor der Prüfung nachsehen.",
+      "keyPoints": [
+        "Aufnahmegewicht < 1250 g",
+        "25 Fälle pro Jahr und Standort (seit 2024)",
+        "Volume-Outcome-Zusammenhang als Begründung",
+        "Prognosepflicht, kein Vergütungsanspruch bei Unterschreiten, Ausnahmen durch Länder",
+        "Notfallversorgung und anschließende Verlegung"
+      ],
+      "tags": ["Mindestmengen", "Qualitätssicherung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA Mindestmengenregelungen"
+    },
+    {
+      "id": "peri-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Eine Schwangere wird mit vorzeitigen Wehen bei 27+2 SSW aufgenommen. Erläutern Sie die **antenatale Kortikosteroidgabe**: Präparat, Dosierung, Zeitfenster, Effekte auf das Neugeborene und offene Fragen.",
+      "hints": [
+        "Betamethason ist das in Deutschland übliche Präparat.",
+        "Wann ist der Effekt am größten, und was gilt nach 34+0 SSW?"
+      ],
+      "answer": "Standard ist **Betamethason 2 × 12 mg i.m. im Abstand von 24 h** (alternativ Dexamethason 4 × 6 mg alle 12 h), wenn eine Frühgeburt innerhalb der nächsten 7 Tage droht, in der Regel zwischen 24+0 und 33+6 SSW; ab 22+0 SSW nur, wenn nach Beratung eine lebenserhaltende Therapie des Kindes geplant ist. Der Nutzen ist am größten, wenn die Geburt **24 h bis 7 Tage nach der ersten Gabe** erfolgt, aber auch eine unvollständige Gabe ist sinnvoll. Effekte: geringere neonatale Mortalität, weniger RDS und Surfactantbedarf, weniger höhergradige IVH und NEC. Eine einmalige Wiederholungsgabe (Rescue) kann nach der AWMF-Leitlinie nach Reevaluation erwogen werden, wenn die Erstgabe **vor 29+0 SSW** erfolgte, **mehr als 7 Tage** zurückliegt und erneut eine Frühgeburt unmittelbar droht; wiederholte Zyklen sind wegen geringerer Geburtsmaße und unklarer Langzeitfolgen nicht empfohlen. Nach 34+0 SSW wird sie in Deutschland nicht routinemäßig gegeben (weniger respiratorische Morbidität, aber mehr **neonatale Hypoglykämien**, Langzeitfolgen unklar). Neonatologisch wichtig: Zeitpunkt der Gabe dokumentieren, nach Steroiden Blutzucker des Neugeborenen beachten.",
+      "keyPoints": [
+        "Betamethason 2 × 12 mg i.m. im Abstand von 24 h",
+        "Indikation ca. 24+0 bis 33+6 SSW, ab 22+0 bei geplanter Lebenserhaltung",
+        "Optimaler Effekt 24 h bis 7 Tage nach Erstgabe",
+        "Weniger Mortalität, RDS, IVH, NEC",
+        "Keine Routine ≥ 34+0 SSW (Hypoglykämie); Rescue allenfalls einmalig (Erstgabe < 29+0 SSW, > 7 Tage zurück)"
+      ],
+      "tags": ["Lungenreifeinduktion", "Frühgeburt"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": ["Lungenreifeinduktion", "CTG", "Frühgeburtlichkeit"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Prävention und Therapie der Frühgeburt"
+    },
+    {
+      "id": "peri-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann und wie wird **Magnesiumsulfat zur fetalen Neuroprotektion** gegeben, welchen Nutzen hat es, und worauf achten Sie beim Neugeborenen?",
+      "hints": ["Es geht um die Zerebralparese.", "Grenze des Gestationsalters und unmittelbarer Geburtszeitpunkt."],
+      "answer": "Nach AWMF-Leitlinie zu erwägen bei **unmittelbar drohender Frühgeburt < 32+0 SSW** (geplant oder unaufhaltsam, idealerweise Beginn innerhalb der letzten 24 h vor der Geburt). Schema nach AWMF-Leitlinie: **4–6 g i.v. als Bolus über 30 min**, anschließend **1–2 g/h für 12 h**; erfolgt die Geburt nicht, kann die Gabe bei erneut unmittelbar drohender Frühgeburt später wiederholt werden. International verbreitet ist auch 4 g Bolus und 1 g/h bis zur Geburt (max. 24 h) – lokale Protokolle beachten. Nutzen: Reduktion der Zerebralparese und der groben motorischen Dysfunktion ohne Anstieg der Mortalität. Mütterlich: Überwachung von Reflexen, Atmung und Diurese, Antidot Kalziumglukonat. Beim Neugeborenen kann eine Hypermagnesiämie zu **muskulärer Hypotonie, Atemdepression/Apnoe, Trinkschwäche** und selten Hypotension führen – Erstversorgung entsprechend vorbereiten. Eine Langzeitgabe zur Tokolyse über mehrere Tage ist zu vermeiden (fetale Hypokalzämie und Knochenmineralisationsstörungen beschrieben).",
+      "keyPoints": [
+        "Indikation < 32+0 SSW bei unmittelbar drohender Geburt",
+        "4–6 g Bolus über 30 min, danach 1–2 g/h für 12 h (AWMF; Protokolle variieren)",
+        "Reduktion der Zerebralparese",
+        "Neonatal: Hypotonie, Atemdepression möglich",
+        "Keine Langzeitgabe zur Tokolyse"
+      ],
+      "tags": ["Magnesiumsulfat", "Neuroprotektion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Prävention und Therapie der Frühgeburt"
+    },
+    {
+      "id": "peri-007",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Für die Erhaltungsdosis Magnesiumsulfat zur fetalen Neuroprotektion werden **20 g Magnesiumsulfat in insgesamt 500 ml** Infusionslösung zubereitet. Mit welcher Laufrate (ml/h) erhält die Schwangere **1 g/h**?",
+      "hints": ["Berechnen Sie zuerst die Konzentration in mg/ml.", "Laufrate = Dosis pro Stunde / Konzentration."],
+      "answer": "Konzentration: 20 000 mg / 500 ml = **40 mg/ml**. Laufrate: 1000 mg/h / 40 mg/ml = **25 ml/h**.",
+      "keyPoints": ["Konzentration 40 mg/ml", "1000 mg/h geteilt durch 40 mg/ml", "Ergebnis 25 ml/h"],
+      "solution": { "value": 25, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Magnesiumsulfat", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": ["Lungenreifeinduktion", "CTG", "Frühgeburtlichkeit"]
+        }
+      ]
+    },
+    {
+      "id": "peri-008",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Tokolytika** werden eingesetzt, und welche **Auswirkungen auf Fetus und Neugeborenes** müssen Sie als Neonatologin/Neonatologe kennen?",
+      "hints": [
+        "Oxytocin-Rezeptorantagonist, Kalziumantagonist, Betamimetikum, Prostaglandinsynthesehemmer.",
+        "Bei einem dieser Medikamente ist der fetale Ductus arteriosus gefährdet."
+      ],
+      "answer": "- **Atosiban** (Oxytocin-Rezeptorantagonist, zugelassen): keine relevanten fetalen/neonatalen Nebenwirkungen bekannt.\n- **Nifedipin** (off-label): mütterliche Hypotonie mit möglicher Minderperfusion der Plazenta; neonatal kaum relevant.\n- **Betamimetika** (Fenoterol): wegen mütterlicher NW (Tachykardie, Lungenödem) kaum noch eingesetzt; beim Neugeborenen **Hypoglykämie** und Tachykardie.\n- **Indometacin** (off-label, von der AWMF-Leitlinie dennoch neben Nifedipin und Atosiban als bevorzugtes Tokolytikum genannt; üblicherweise nur < 32 SSW und kurzzeitig, ≤ 48–72 h): **Konstriktion des fetalen Ductus arteriosus** (Risiko steigt mit dem Gestationsalter), **Oligohydramnion** durch reduzierte fetale Nierenperfusion, postnatal eingeschränkte Nierenfunktion; ein Zusammenhang mit NEC/IVH wird diskutiert, die Daten sind uneinheitlich.\n- **Magnesiumsulfat** ist als Tokolytikum nicht wirksam genug; bei Langzeitgabe drohen fetale Hypokalzämie und Mineralisationsstörungen.\nTokolyse dient vor allem dem Zeitgewinn für Lungenreife und In-utero-Transport; eine Erhaltungstokolyse ist nicht indiziert.",
+      "keyPoints": [
+        "Atosiban und Nifedipin neonatal weitgehend unproblematisch",
+        "Betamimetika: neonatale Hypoglykämie, Tachykardie",
+        "Indometacin: Ductuskonstriktion, Oligohydramnion, Nierenfunktion",
+        "Magnesium nicht als Tokolytikum, Langzeitgabe vermeiden",
+        "Ziel: Zeitgewinn für Lungenreife und Verlegung"
+      ],
+      "tags": ["Tokolyse", "Pharmakotherapie Schwangerschaft"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": ["Lungenreifeinduktion", "CTG", "Frühgeburtlichkeit"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Prävention und Therapie der Frühgeburt"
+    },
+    {
+      "id": "peri-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes (39+1 SSW, 3350 g) zeigt 10 Stunden nach der Geburt **Zittrigkeit, Irritabilität, Tachypnoe und Trinkschwäche**. Die Mutter nimmt seit der Frühschwangerschaft **Sertralin**. Wie ordnen Sie das ein, und wie gehen Sie vor?",
+      "hints": [
+        "Es gibt ein typisches neonatales Anpassungssyndrom nach SSRI-Exposition.",
+        "Welche wichtigen Differenzialdiagnosen müssen Sie ausschließen, und welches seltene, aber ernste Krankheitsbild ist mit SSRI assoziiert?"
+      ],
+      "answer": "Am wahrscheinlichsten ist ein **neonatales Anpassungssyndrom nach SSRI-Exposition** (poor neonatal adaptation syndrome), das bei einem relevanten Teil exponierter Kinder auftritt: Zittrigkeit, Hypertonie, Irritabilität, Tachypnoe, Trinkschwäche, gelegentlich Hypoglykämie; Beginn in den ersten Stunden bis Tagen, meist mild und selbstlimitierend. **Ausschlussdiagnostik:** Blutzucker, Kalzium/Magnesium, Infektionszeichen (Klinik, Labor), SpO2 prä-/postduktal, ggf. toxikologisches Screening bei Verdacht auf weitere Substanzen. Die SSRI-Exposition in der Spätschwangerschaft ist mit einem leicht erhöhten (absolut niedrigen) Risiko einer **PPHN** verbunden – daher Sättigung überwachen. Vorgehen: Überwachung in den ersten 2–3 Lebenstagen (keine Frühentlassung), supportive Maßnahmen (reizarme Umgebung, häufige kleine Mahlzeiten), keine spezifische Therapie. Stillen ist unter Sertralin in der Regel möglich und erwünscht; die mütterliche Therapie soll nicht abrupt abgesetzt werden. Eltern beruhigend aufklären.",
+      "keyPoints": [
+        "SSRI-assoziiertes neonatales Anpassungssyndrom, meist selbstlimitierend",
+        "Ausschluss von Hypoglykämie, Elektrolytstörung, Infektion",
+        "Leicht erhöhtes PPHN-Risiko – Sättigung überwachen",
+        "Überwachung 2–3 Tage, supportiv",
+        "Stillen unter Sertralin möglich, Therapie der Mutter fortführen"
+      ],
+      "tags": ["SSRI", "Pharmakotherapie Schwangerschaft", "Anpassungsstörung"],
+      "exam": ["KM", "HK"],
+      "source": "Embryotox (Pharmakovigilanz- und Beratungszentrum für Embryonaltoxikologie, Charité)"
+    },
+    {
+      "id": "peri-010",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Eine Schwangere mit chronischer Hypertonie wurde bis zur Geburt mit **Metoprolol** behandelt. Welche Überwachung des reifen Neugeborenen ist besonders angezeigt?",
+      "hints": ["Betablocker wirken auf Herz und Glukosestoffwechsel."],
+      "options": [
+        {
+          "text": "Engmaschige Blutzuckerkontrollen sowie Monitoring von Herzfrequenz und Blutdruck in den ersten 24–48 Lebensstunden",
+          "correct": true
+        },
+        { "text": "Echokardiographie zum Ausschluss eines vorzeitigen Ductusverschlusses", "correct": false },
+        { "text": "Bestimmung von TSH und fT4 am 1. Lebenstag", "correct": false },
+        { "text": "Bestimmung von Serum-Magnesium und -Kalzium wegen Hypermagnesiämie", "correct": false }
+      ],
+      "answer": "Betablocker passieren die Plazenta; beim Neugeborenen können **Bradykardie, Hypotonie und Hypoglykämie** auftreten (verminderte Glykogenolyse, maskierte adrenerge Gegenregulation). Daher Blutzucker nach Hypoglykämie-Risikoschema sowie Herzfrequenz-/Blutdrucküberwachung in den ersten 24–48 h. Ductuskonstriktion betrifft Prostaglandinsynthesehemmer, Schilddrüsenwerte sind bei Thyreostatika/Amiodaron relevant, Hypermagnesiämie bei Magnesiumgabe.",
+      "keyPoints": [
+        "Betablocker: neonatale Bradykardie, Hypotonie, Hypoglykämie",
+        "BZ-Kontrollen und Kreislaufmonitoring 24–48 h"
+      ],
+      "tags": ["Betablocker", "Pharmakotherapie Schwangerschaft", "Hypoglykämie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    },
+    {
+      "id": "peri-011",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Schwangere hat bis 31 SSW einen **ACE-Hemmer (Ramipril)** eingenommen. Der Fetus zeigt ein Anhydramnion. Welche **Fetopathie** erwarten Sie, welche Probleme drohen dem Neugeborenen, und wie bereiten Sie die Versorgung vor?",
+      "hints": [
+        "Das fetale Renin-Angiotensin-System ist für die Nierenperfusion essenziell.",
+        "Denken Sie an Lunge, Niere, Kreislauf und Schädel."
+      ],
+      "answer": "ACE-Hemmer und AT1-Antagonisten sind ab dem 2. Trimenon kontraindiziert (Exposition im 1. Trimenon: geringes Fehlbildungsrisiko, umstellen). Die Hemmung des fetalen RAAS führt zu **fetaler Oligurie/Anurie → Oligo-/Anhydramnion** mit **Lungenhypoplasie**, Gelenkkontrakturen und Potter-Gesicht, außerdem zu **renaler tubulärer Dysgenesie** und **Hypoossifikation der Schädelkalotte**. Postnatal drohen: **therapierefraktäre arterielle Hypotonie**, **Oligurie/Anurie mit akutem Nierenversagen** und Hyperkaliämie, respiratorische Insuffizienz durch Lungenhypoplasie mit Pneumothorax- und PPHN-Risiko. Vorbereitung: Entbindung im Level-1-Zentrum, Perinatalkonferenz mit Kindernephrologie, Elternberatung über die unsichere Prognose (bestimmt durch Lungen- und Nierenfunktion). Postnatal: Beatmung/Surfactant, ggf. iNO, Volumen und Katecholamine, strikte Bilanz, Kreatinin/Elektrolyte, Nierensonographie, frühzeitige Planung einer Peritonealdialyse. Meldung an Embryotox bzw. Pharmakovigilanz.",
+      "keyPoints": [
+        "Kontraindikation ab 2. Trimenon (RAAS-Blockade)",
+        "Anurie, Oligohydramnion, Lungenhypoplasie, Kontrakturen, Kalottenhypoplasie",
+        "Postnatal refraktäre Hypotension und Nierenversagen",
+        "Level-1-Zentrum, Kindernephrologie, Dialyseoption",
+        "Prognose durch Lunge und Niere bestimmt, Elternberatung"
+      ],
+      "tags": ["ACE-Hemmer", "Fetopathie", "Pharmakotherapie Schwangerschaft"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ],
+      "source": "Embryotox (Pharmakovigilanz- und Beratungszentrum für Embryonaltoxikologie, Charité)"
+    },
+    {
+      "id": "peri-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Eine Mutter mit Epilepsie wird antiepileptisch behandelt. Welche **Risiken verschiedener Antiepileptika** für Embryo, Fetus und Neugeborenes kennen Sie, und was ist postnatal zu beachten?",
+      "hints": [
+        "Ein Präparat sticht in Fehlbildungsrate und neurokognitiven Folgen heraus.",
+        "Postnatal: Anpassung, Vitamin K, Stillen."
+      ],
+      "answer": "**Valproat** hat das höchste Risiko: dosisabhängig deutlich erhöhte Fehlbildungsrate (u. a. Neuralrohrdefekte, Herzfehler, Gesichtsdysmorphie – fetales Valproat-Syndrom) sowie kognitive Beeinträchtigungen und Autismus-Spektrum-Störungen; es soll bei Frauen im gebärfähigen Alter nur unter strengen Auflagen eingesetzt werden. **Topiramat**, Phenobarbital und Phenytoin sind ebenfalls mit erhöhten Fehlbildungsrisiken (z. B. Lippen-Kiefer-Gaumen-Spalten) bzw. Wachstumsrestriktion verbunden; **Lamotrigin und Levetiracetam** gelten als am besten untersucht und vergleichsweise risikoarm. Postnatal: Untersuchung auf Fehlbildungen, Beobachtung auf **Anpassungsstörungen bzw. Entzugssymptome** (Sedierung, Trinkschwäche, Zittrigkeit – v. a. Phenobarbital, Benzodiazepine), **konsequente Vitamin-K-Prophylaxe** (enzyminduzierende Antiepileptika erhöhen das Risiko einer frühen Vitamin-K-Mangelblutung). Stillen ist unter den meisten Antiepileptika möglich, bei sedierenden Substanzen mit Beobachtung des Kindes. Beratung über Embryotox.",
+      "keyPoints": [
+        "Valproat: höchste Fehlbildungsrate, Neuralrohrdefekte, neurokognitive Folgen",
+        "Lamotrigin/Levetiracetam vergleichsweise risikoarm",
+        "Neonatal: Anpassungsstörung/Entzug, Sedierung",
+        "Vitamin-K-Prophylaxe konsequent (Enzyminduktoren)",
+        "Stillen meist möglich"
+      ],
+      "tags": ["Antiepileptika", "Pharmakotherapie Schwangerschaft"],
+      "exam": ["KM"],
+      "source": "Embryotox (Pharmakovigilanz- und Beratungszentrum für Embryonaltoxikologie, Charité)"
+    },
+    {
+      "id": "peri-013",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Eine Mutter mit bipolarer Störung wurde bis zur Geburt mit **Lithium** behandelt. Welche Befundkonstellation ist beim Neugeborenen typisch für eine Lithiumwirkung?",
+      "hints": ["Lithium beeinflusst u. a. Schilddrüse und renale Wasserrückresorption."],
+      "options": [
+        {
+          "text": "Muskuläre Hypotonie, Trinkschwäche und Lethargie, Hypothyreose, Polyurie durch nephrogenen Diabetes insipidus",
+          "correct": true
+        },
+        { "text": "Bradykardie, Hypoglykämie und arterielle Hypotonie", "correct": false },
+        { "text": "Anurie, refraktäre Hypotension und Hypoossifikation der Schädelkalotte", "correct": false },
+        { "text": "Vorzeitiger Verschluss des Ductus arteriosus mit pulmonaler Hypertension", "correct": false }
+      ],
+      "answer": "Lithium passiert die Plazenta nahezu vollständig. Beim Neugeborenen sind **Hypotonie, Lethargie, Trinkschwäche, Zyanose/Atemprobleme** („floppy infant“), **Hypothyreose/Struma**, **nephrogener Diabetes insipidus** und Herzrhythmusstörungen beschrieben. Vorgehen: Lithiumspiegel beim Kind, TSH/fT4, Bilanz und Natrium, EKG; Stillen nur nach individueller Abwägung mit Spiegelkontrollen. Die Ebstein-Anomalie ist nach Exposition im 1. Trimenon beschrieben, das absolute Risiko ist aber gering. Die übrigen Optionen passen zu Betablockern, ACE-Hemmern bzw. Prostaglandinsynthesehemmern.",
+      "keyPoints": [
+        "Lithium: Hypotonie, Lethargie, Trinkschwäche",
+        "Hypothyreose und nephrogener Diabetes insipidus",
+        "Lithiumspiegel, TSH, Bilanz und EKG beim Kind"
+      ],
+      "tags": ["Lithium", "Pharmakotherapie Schwangerschaft"],
+      "exam": ["KM"],
+      "source": "Embryotox (Pharmakovigilanz- und Beratungszentrum für Embryonaltoxikologie, Charité)"
+    },
+    {
+      "id": "peri-014",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Was ist eine **Perinatalkonferenz**? Wer nimmt teil, wann wird sie einberufen, und welche Ergebnisse sollen am Ende feststehen?",
+      "hints": [
+        "Interdisziplinäre Fallbesprechung vor der Geburt.",
+        "Denken Sie an Entbindungsplanung, Erstversorgung und Elterngespräch."
+      ],
+      "answer": "Die Perinatalkonferenz ist eine **strukturierte interdisziplinäre Fallbesprechung vor der Geburt** bei Risikoschwangerschaften, drohender extremer Frühgeburt oder pränatal diagnostizierten Fehlbildungen. Teilnehmende: Geburtshilfe/Pränatalmedizin, Neonatologie, Hebamme und Pflege, je nach Fall Kinderchirurgie, Kinderkardiologie, Neurochirurgie, Humangenetik, Anästhesie, psychosozialer Dienst und Palliativteam. Ergebnisse: gemeinsame Einschätzung von Diagnose und Prognose, **Entbindungsort, -zeitpunkt und -modus**, Behandlungsziel (kurativ, begrenzt oder palliativ), konkreter **Plan für die Erstversorgung** (Team, Material, erste Maßnahmen), postnatale Diagnostik und Therapie sowie Inhalte und Zuständigkeit der **Elternberatung**. Das Ergebnis wird schriftlich in der Akte der Mutter dokumentiert und an die Dienstteams weitergegeben; bei Befundänderungen wird neu beraten. Die QFR-RL fordert zudem regelmäßige interdisziplinäre Fallbesprechungen, in denen jedes Frühgeborene < 1500 g innerhalb von 14 Tagen nach Geburt vorgestellt werden soll.",
+      "keyPoints": [
+        "Interdisziplinäre pränatale Fallbesprechung",
+        "Geburtshilfe, Neonatologie, fallabhängig weitere Disziplinen und psychosozialer Dienst",
+        "Festlegung von Ort, Zeitpunkt, Modus, Therapieziel, Erstversorgungsplan",
+        "Gemeinsame Elternberatung und Dokumentation"
+      ],
+      "tags": ["Perinatalkonferenz", "Interdisziplinarität"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "peri-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden zur **pränatalen Beratung** einer Schwangeren mit vorzeitigem Blasensprung bei **25+0 SSW** gerufen. Wie gestalten Sie das Gespräch, und welche Inhalte gehören hinein?",
+      "hints": [
+        "Rahmenbedingungen, Zahlen, Ablauf im Kreißsaal, Zeit auf der Station.",
+        "Was können die Eltern selbst beitragen?"
+      ],
+      "answer": "**Rahmen:** möglichst beide Eltern, ruhiger Raum, ausreichend Zeit, ggf. Dolmetscher, gemeinsam mit Geburtshilfe; zuerst erfragen, was die Eltern wissen und befürchten. **Inhalte:** realistische Überlebens- und Morbiditätschancen anhand **aktueller Zentrums- und nationaler Daten**, mit Hinweis auf individuelle Faktoren (Gewicht, Geschlecht, Lungenreife, Einling, Blasensprung/Infektion). Ablauf der Erstversorgung (Team, Wärmeschutz, Atemunterstützung, ggf. Surfactant/Intubation, Anwesenheit der Eltern möglich). Verlauf auf der NICU: Aufenthalt meist bis etwa zum errechneten Termin, typische Komplikationen (Infektionen, IVH, NEC, BPD, ROP), Unsicherheit der ersten Tage. Langzeitprognose und strukturierte Nachsorge. **Elternrolle:** Muttermilch (früh abpumpen), Känguru-Pflege, Besuchsmöglichkeiten, psychosoziale Unterstützung. Verständnis rückversichern, schriftliche Informationen anbieten, Gespräch dokumentieren und Folgegespräche anbieten.",
+      "keyPoints": [
+        "Gesprächsrahmen und Erwartungen der Eltern erfragen",
+        "Zentrums- und nationale Ergebnisdaten mit individuellen Prognosefaktoren",
+        "Ablauf Erstversorgung und NICU-Verlauf mit typischen Komplikationen",
+        "Muttermilch, Känguru-Pflege, psychosoziale Unterstützung",
+        "Dokumentation und Folgegespräche"
+      ],
+      "tags": ["Pränatale Beratung", "Extreme Frühgeburt", "Elterngespräch"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "peri-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche **pränatal diagnostizierten Erkrankungen** erfordern eine geplante Entbindung in einem Zentrum mit spezieller Expertise? Nennen Sie Beispiele und die jeweils notwendigen Disziplinen bzw. Sofortmaßnahmen.",
+      "hints": [
+        "Herz, Zwerchfell, Bauchwand, Neuralrohr, Atemweg.",
+        "Bei einem Herzfehler kann direkt nach Geburt ein Kathetereingriff nötig sein."
+      ],
+      "answer": "- **Ductusabhängige Herzfehler** (z. B. HLHS, Pulmonalatresie, kritische Aortenstenose/ISTA): Kinderkardiologie, Prostaglandin E1. **TGA mit restriktivem Foramen ovale**: Geburt dort, wo sofort eine Ballonatrioseptostomie möglich ist.\n- **Kongenitale Zwerchfellhernie**: Level 1 mit Kinderchirurgie, Erfahrung mit HFOV/iNO, ECMO-Option; ggf. pränatale FETO in spezialisierten Zentren; postnatal sofortige Intubation, keine Maskenbeatmung.\n- **Gastroschisis/Omphalozele**: Kinderchirurgie, Darm steril abdecken.\n- **Myelomeningozele**: Neurochirurgie, ggf. fetale Chirurgie in spezialisierten Zentren.\n- **Fetale Atemwegsobstruktion** (große Halstumoren): EXIT-Prozedur mit Anästhesie, HNO/Kinderchirurgie.\n- **Hydrops fetalis**: Möglichkeit zu Punktion, Transfusion, Beatmung.\n- **Fetale Tachyarrhythmie oder kompletter AV-Block**: Kinderkardiologie, ggf. Schrittmacher.\n- **LUTO/Potter-Konstellation**: Kindernephrologie/-urologie, Lungenhypoplasie.\nNach QFR-RL gehören alle Schwangeren mit pränatal diagnostizierten Erkrankungen, bei denen eine unmittelbare spezialisierte Intensivversorgung absehbar ist, in ein Level-1-Zentrum. Immer: Perinatalkonferenz, humangenetische Mitbeurteilung bei Syndromverdacht, Elternberatung inkl. palliativer Optionen bei infauster Prognose.",
+      "keyPoints": [
+        "Ductusabhängige Herzfehler, TGA mit restriktivem FO: Kinderkardiologie, PGE1, Rashkind",
+        "CDH: Kinderchirurgie, HFOV/iNO/ECMO, sofortige Intubation",
+        "Bauchwanddefekte, MMC, Atemwegsobstruktion (EXIT), Hydrops",
+        "QFR-RL: Level 1 bei absehbarem spezialisiertem Intensivbedarf",
+        "Perinatalkonferenz, Humangenetik, Elternberatung"
+      ],
+      "tags": ["Pränataldiagnostik", "Fehlbildungen", "Entbindungsort"],
+      "exam": ["KM", "HK"],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "peri-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Warum ist der **In-utero-Transport** dem postnatalen Transport eines sehr unreifen Frühgeborenen vorzuziehen, und wann ist er **nicht mehr vertretbar**?",
+      "hints": [
+        "Vergleichen Sie die Ergebnisse inborn versus outborn.",
+        "Denken Sie an Geburtsfortschritt und mütterliche Stabilität."
+      ],
+      "answer": "Sehr unreife Frühgeborene, die außerhalb eines Perinatalzentrums geboren und postnatal verlegt werden (outborn), haben eine **höhere Mortalität und mehr schwere Hirnblutungen** als im Zentrum geborene Kinder (inborn). Ursachen: suboptimale Erstversorgung, Hypothermie, Transportbelastung, fehlende Lungenreife- und Magnesiumgabe. Daher sollen Schwangere mit Risiko frühzeitig in die passende Versorgungsstufe verlegt werden (Pflicht nach QFR-RL). **Nicht mehr vertretbar** ist der In-utero-Transport, wenn die Geburt während des Transports droht (fortgeschrittene Muttermundsweite, Austreibungsphase), bei instabiler Mutter (z. B. schwere Blutung, Eklampsie, HELLP mit Komplikationen) oder akuter fetaler Gefährdung, die eine sofortige Entbindung erfordert. Dann wird das neonatologische Team des Zentrums (mobile Intensiveinheit) zur Geburt in die abgebende Klinik gerufen, und das Kind wird nach Stabilisierung verlegt.",
+      "keyPoints": [
+        "Outborn: höhere Mortalität und mehr IVH",
+        "Frühzeitige Verlegung in adäquate Versorgungsstufe",
+        "Kontraindikationen: drohende Geburt im Transport, instabile Mutter, akute fetale Gefährdung",
+        "Alternative: Neonatologisches Team zur Geburt in die abgebende Klinik"
+      ],
+      "tags": ["In-utero-Transport", "Neugeborenentransport"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ]
+    },
+    {
+      "id": "peri-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden mit dem Transportteam in eine Geburtsklinik gerufen: Frühgeborenes **30+4 SSW, 1400 g**, intubiert und beatmet. Wie **stabilisieren** Sie das Kind vor dem Transport, und was müssen Sie organisieren?",
+      "hints": [
+        "Erst stabilisieren, dann fahren.",
+        "Atemweg, Atmung, Kreislauf, Temperatur, Glukose, Zugänge, Dokumentation, Eltern."
+      ],
+      "answer": "Grundsatz: **Stabilisierung vor Abfahrt**, kein „scoop and run“.\n- **Atemweg/Beatmung:** Tubuslage klinisch und möglichst radiologisch prüfen, Tubus sicher fixieren; Beatmung am Transportrespirator, BGA (Normokapnie, keine Hyperoxie), ggf. Surfactant vor Abfahrt; Pneumothorax ausschließen.\n- **Kreislauf:** Blutdruck, Rekapillarisierung, ggf. Volumen/Katecholamine.\n- **Temperatur:** vorgewärmter Transportinkubator, Normothermie 36,5–37,5 °C, Temperatur kontrollieren.\n- **Glukose:** BZ messen, Glukoseinfusion über sicheren Zugang (Nabelvenenkatheter oder peripher).\n- **Weiteres:** Magensonde offen, Infektionsdiagnostik und Antibiose je nach Indikation, Monitoring (EKG, SpO2, Temperatur, möglichst CO2), Sauerstoff- und Stromreserve berechnen.\n- **Organisation:** Unterlagen und Befunde der Mutter (Blutgruppe, Serologien, Infektionsrisiko), mütterliche Blutprobe und Plazenta mitnehmen, Zielstation vorinformieren, Eltern informieren (Foto, Station und Telefonnummer, Muttermilch abpumpen), Transport lückenlos dokumentieren.",
+      "keyPoints": [
+        "Stabilisierung vor Transport",
+        "Tubuslage sichern, Beatmung und BGA, Pneumothorax ausschließen",
+        "Normothermie, Glukoseinfusion, sicherer Zugang, Kreislauf",
+        "Monitoring sowie Sauerstoff- und Stromreserve",
+        "Unterlagen, mütterliches Blut, Zielklinik und Eltern informieren"
+      ],
+      "tags": ["Neugeborenentransport", "Stabilisierung"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "peri-019",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Für einen Neugeborenentransport steht eine **2-Liter-Sauerstoffflasche mit 150 bar** Fülldruck zur Verfügung. Der Transportrespirator verbraucht einschließlich Antriebsgas etwa **6 l/min** Sauerstoff. Wie viele Minuten reicht der Vorrat rechnerisch?",
+      "hints": ["Gasvolumen = Flaschenvolumen × Fülldruck.", "Dann durch den Verbrauch pro Minute teilen."],
+      "answer": "Verfügbares Gasvolumen: 2 l × 150 bar = **300 l**. Reichweite: 300 l / 6 l/min = **50 min**. In der Praxis wird eine großzügige Reserve eingeplant (Restdruck, Verzögerungen, höherer Bedarf), z. B. mindestens die doppelte erwartete Transportzeit.",
+      "keyPoints": ["Volumen = 2 l × 150 bar = 300 l", "300 l / 6 l/min", "Ergebnis 50 min, Reserve einplanen"],
+      "solution": { "value": 50, "unit": "min", "tolerance": 0.03 },
+      "tags": ["Neugeborenentransport", "Berechnung"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "peri-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes mit **mittelschwerer hypoxisch-ischämischer Enzephalopathie** (NA-pH 6,92, Apgar 2/4/5) soll aus einer Geburtsklinik zur **therapeutischen Hypothermie** in ein Level-1-Zentrum verlegt werden. Worauf achten Sie bei Stabilisierung und Transport?",
+      "hints": [
+        "Zeitfenster und Temperaturführung sind entscheidend.",
+        "Passive Kühlung ist nur mit kontinuierlicher Temperaturmessung sicher."
+      ],
+      "answer": "Die Hypothermie soll innerhalb von **6 Lebensstunden** beginnen, daher rasche Kontaktaufnahme und frühe Verlegungsentscheidung. Temperatur: **keine Hyperthermie**; Zieltemperatur 33–34 °C. Idealerweise **aktive, servokontrollierte Kühlung** während des Transports; wo nicht verfügbar, passive Kühlung (Wärmequellen ausschalten) nur unter **kontinuierlicher rektaler Temperaturmessung**, da Überkühlung < 33 °C droht. Weitere Punkte: Beatmung mit Normokapnie (Hypokapnie vermeiden) und ohne Hyperoxie, Kreislaufunterstützung (Sinusbradykardie unter Kühlung ist erwartbar), Blutzucker im Normbereich, Krampfanfälle erkennen und behandeln, Gerinnung und Elektrolyte, keine unnötige Flüssigkeitsbelastung. Genaue Dokumentation von Geburtszeit, Befunden (pH, BE, Apgar, neurologischer Status) und Kühlbeginn. Eltern informieren, Verlegung der Mutter bzw. Muttermilch organisieren.",
+      "keyPoints": [
+        "Beginn der Hypothermie innerhalb 6 h",
+        "Hyperthermie strikt vermeiden, Ziel 33–34 °C",
+        "Aktive servokontrollierte Kühlung oder passive Kühlung nur mit kontinuierlicher Rektaltemperatur",
+        "Normokapnie, Normoglykämie, Anfallsbehandlung, Kreislauf",
+        "Dokumentation und Elterninformation"
+      ],
+      "tags": ["Neugeborenentransport", "Hypothermie", "HIE"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "peri-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein beatmetes Frühgeborenes soll per **Hubschrauber bzw. Flugzeug** verlegt werden. Welche **physikalischen Besonderheiten** des Lufttransports sind relevant, und welche Konsequenzen ziehen Sie?",
+      "hints": [
+        "Boyle-Mariotte und Dalton.",
+        "Was passiert mit eingeschlossener Luft und mit dem Sauerstoffpartialdruck in der Höhe?"
+      ],
+      "answer": "Mit zunehmender Höhe sinkt der Umgebungsdruck. **Boyle-Mariotte:** eingeschlossene Gasvolumina dehnen sich aus – ein kleiner Pneumothorax kann sich zum Spannungspneumothorax entwickeln, Luft im Darm (NEC, Ileus) nimmt zu. Konsequenz: Pneumothorax **vor dem Flug drainieren**, Magensonde offen ablaufen lassen, Luft in Infusionssystemen und geschlossenen Behältern beachten. **Dalton:** der inspiratorische O2-Partialdruck sinkt bei gleicher FiO2 – der Sauerstoffbedarf steigt, also FiO2 nach SpO2 anpassen und ausreichend O2-Vorrat einplanen (Druckkabine reduziert, aber beseitigt den Effekt nicht). Weitere Faktoren: Lärm (Gehörschutz), Vibration, Beschleunigung, Kälte, eingeschränkter Zugang zum Patienten und begrenzte Interventionsmöglichkeiten – daher besonders sorgfältige Stabilisierung, sichere Fixierung von Tubus und Zugängen sowie Monitoring vor dem Start.",
+      "keyPoints": [
+        "Gasausdehnung bei sinkendem Umgebungsdruck (Boyle-Mariotte)",
+        "Pneumothorax vor Flug drainieren, Magensonde offen",
+        "Sinkender pO2 bei gleicher FiO2 (Dalton) – O2-Bedarf und -Vorrat",
+        "Lärm, Vibration, Kälte, eingeschränkter Zugang – Stabilisierung vor Start"
+      ],
+      "tags": ["Lufttransport", "Neugeborenentransport"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "peri-022",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welcher der folgenden Faktoren **verschlechtert** bei einem Frühgeborenen von 23–24 SSW unabhängig vom Gestationsalter die Überlebenschance?",
+      "hints": ["Alle anderen genannten Faktoren sind günstig."],
+      "options": [
+        { "text": "Weibliches Geschlecht", "correct": false },
+        { "text": "Vollständige antenatale Kortikosteroidgabe", "correct": false },
+        { "text": "Einlingsschwangerschaft", "correct": false },
+        {
+          "text": "Geburt in einer Klinik ohne neonatologische Intensivstation mit anschließendem postnatalem Transport",
+          "correct": true
+        }
+      ],
+      "answer": "Neben dem Gestationsalter beeinflussen u. a. **Geschlecht** (Mädchen günstiger), **Geburtsgewicht**, **antenatale Steroide**, **Einling** versus Mehrling und der **Geburtsort** die Prognose. Die Geburt außerhalb eines Perinatalzentrums mit postnatalem Transport (outborn) ist mit höherer Mortalität und mehr schweren Hirnblutungen verbunden – deshalb ist der rechtzeitige In-utero-Transport so wichtig. Diese Faktoren fließen in die individuelle pränatale Beratung ein.",
+      "keyPoints": [
+        "Outborn-Geburt mit postnatalem Transport verschlechtert die Prognose",
+        "Günstig: weiblich, Steroide, Einling, höheres Gewicht"
+      ],
+      "tags": ["Grenze der Lebensfähigkeit", "Prognose", "In-utero-Transport"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ]
+    },
+    {
+      "id": "peri-023",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Schwangere stellt sich mit drohender Frühgeburt bei **23+2 SSW** vor. Wie stimmen Sie die **geburtshilflichen Maßnahmen** mit dem **neonatologischen Behandlungsziel** ab?",
+      "hints": [
+        "Die Entscheidung kurativ oder palliativ muss vor der Geburt gemeinsam mit den Eltern getroffen werden.",
+        "Steroide, Magnesium, Verlegung, CTG und Sectio hängen davon ab."
+      ],
+      "answer": "Nach der AWMF-Leitlinie zu Frühgeborenen an der Grenze der Lebensfähigkeit ist zwischen 23+0 und 23+6 SSW sowohl eine **lebenserhaltende** als auch eine **palliative** Behandlung vertretbar; die Eltern entscheiden nach ausführlicher gemeinsamer Beratung durch Geburtshilfe und Neonatologie mit (shared decision making). Die geburtshilflichen Maßnahmen müssen konsistent sein:\n- **Lebenserhaltendes Ziel:** Verlegung/Entbindung im Level-1-Zentrum, Lungenreifeinduktion, Magnesium zur Neuroprotektion, Antibiotika bei Blasensprung, fetale Überwachung, schonender Geburtsmodus – eine Sectio aus kindlicher Indikation wird individuell abgewogen (mütterliche Risiken, Folgeschwangerschaften); erfahrenes neonatologisches Team bei Geburt.\n- **Palliatives Ziel:** keine Steroide oder Sectio aus kindlicher Indikation, kein CTG-gesteuertes Eingreifen, palliativer Geburtsplan mit Wärme, Körperkontakt, Schmerz- und Symptomkontrolle, Zeit für Abschied, Seelsorge/Trauerbegleitung.\nDie Entscheidung wird dokumentiert und bei neuen Informationen (z. B. Zustand nach Geburt) überprüft; auch eine abgestufte Vereinbarung über den Umfang der Reanimation ist möglich.",
+      "keyPoints": [
+        "23+0–23+6 SSW: lebenserhaltend oder palliativ nach gemeinsamer Elternentscheidung",
+        "Kurativ: Level 1, Steroide, Magnesium, Antibiotika, fetale Überwachung, erfahrenes Team",
+        "Palliativ: keine fetal indizierten Interventionen, palliativer Geburtsplan",
+        "Konsistenz geburtshilflicher und neonatologischer Maßnahmen",
+        "Dokumentation, Neubewertung, ggf. begrenzter Reanimationsumfang"
+      ],
+      "tags": ["Grenze der Lebensfähigkeit", "Pränatale Beratung", "Interdisziplinarität"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Frühgeborene an der Grenze der Lebensfähigkeit"
+    },
+    {
+      "id": "peri-024",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie **mütterliche Erkrankungen bzw. Schwangerschaftsrisiken** und die jeweils typischen **neonatalen Probleme**, auf die Sie sich bei der Geburt vorbereiten.",
+      "hints": [
+        "Hypertensive Erkrankungen, Diabetes, Infektion, Autoimmunerkrankungen, Blutgruppenantikörper, Substanzgebrauch."
+      ],
+      "answer": "- **Präeklampsie/HELLP:** Frühgeburt, Wachstumsrestriktion, Neutropenie, Thrombozytopenie, Hypoglykämie.\n- **Diabetes:** Makrosomie mit Schulterdystokie, Hypoglykämie, Polyglobulie, Atemstörung, Hypokalzämie, bei präkonzeptionellem Diabetes Fehlbildungen und Kardiomyopathie.\n- **Vorzeitiger Blasensprung/Fieber unter der Geburt:** Early-onset-Sepsis.\n- **Autoimmunerkrankungen:** Anti-Ro/SSA-Antikörper (kongenitaler AV-Block, neonataler Lupus), Morbus Basedow (neonatale Hyperthyreose durch TRAK), ITP (Thrombozytopenie), Myasthenia gravis (transiente neonatale Myasthenie).\n- **Irreguläre Blutgruppenantikörper:** hämolytische Erkrankung, Anämie, Hydrops, Hyperbilirubinämie.\n- **Substanzgebrauch** (Opioide, Alkohol, Nikotin): neonatales Abstinenzsyndrom, FASD, Wachstumsrestriktion.\n- **Mütterliche Infektionen** (HIV, Hepatitis B, GBS-Besiedlung, HSV): Postexpositionsprophylaxe bzw. Simultanimpfung.\nKonsequenz: rechtzeitige Information der Neonatologie, Wahl der Versorgungsstufe, Vorbereitung von Personal und Material.",
+      "keyPoints": [
+        "Präeklampsie: FGR, Neutro-/Thrombozytopenie",
+        "Diabetes: Makrosomie, Hypoglykämie, Polyglobulie",
+        "Autoimmun: AV-Block, Hyperthyreose, Thrombozytopenie, Myasthenie",
+        "Blutgruppenantikörper, Infektionen, Substanzgebrauch",
+        "Konsequenz für Versorgungsstufe und Vorbereitung"
+      ],
+      "tags": ["Risikoschwangerschaft", "Mütterliche Erkrankungen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "peri-025",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu den Anforderungen der **QFR-Richtlinie** ist **richtig**?",
+      "hints": ["Denken Sie an die räumlichen Vorgaben im Level-1-Zentrum."],
+      "options": [
+        {
+          "text": "Ein Perinatalzentrum Level 2 darf Schwangere mit erwarteter Geburt bei 27+0 SSW regulär aufnehmen.",
+          "correct": false
+        },
+        {
+          "text": "Im Perinatalzentrum Level 1 liegen Entbindungsbereich, OP und neonatologische Intensivstation im selben Gebäude (möglichst Wand an Wand) oder in miteinander verbundenen Gebäuden.",
+          "correct": true
+        },
+        {
+          "text": "Für jedes Frühgeborene < 1500 g gilt während des gesamten Aufenthalts ein Pflegeschlüssel von 1:1.",
+          "correct": false
+        },
+        {
+          "text": "Schwangere mit Drillingen ab 30+0 SSW können regulär in einem Perinatalen Schwerpunkt entbunden werden.",
+          "correct": false
+        }
+      ],
+      "answer": "Richtig ist die räumliche Vorgabe: Kreißsaal, OP und NICU im selben Gebäude (möglichst Wand an Wand) oder in verbundenen Gebäuden – Transportwege nach der Geburt sollen kurz und ohne Außentransport sein. Geburten < 29+0 SSW gehören in Level 1; Drillinge < 33+0 SSW ebenfalls. Der Pflegeschlüssel ist in der aktuellen Fassung kriterienbasiert: Regel 1:2, 1:1 nur bei definierten Situationen (z. B. < 1000 g in den ersten 72 h, kardiorespiratorische Instabilität), 1:4 bei ausschließlich geringem Betreuungsbedarf (z. B. nur Monitoring, Sauerstoff, Sonde, Infusion, Phototherapie).",
+      "keyPoints": [
+        "Räumliche Einheit von Kreißsaal, OP und NICU",
+        "< 29+0 SSW und Drillinge < 33+0 SSW: Level 1",
+        "Pflegeschlüssel kriterienbasiert 1:2, 1:1 bzw. 1:4"
+      ],
+      "tags": ["QFR-RL", "Strukturqualität"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "peri-026",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei 28+0 SSW wird eine schwere **fetale Wachstumsrestriktion** mit enddiastolischem Null- bzw. Rückfluss in der Nabelarterie festgestellt (Schätzgewicht 750 g). Welche **neonatalen Probleme** erwarten Sie, und was besprechen Sie in der Perinatalkonferenz?",
+      "hints": ["Kombination aus Frühgeburt und chronischer Plazentainsuffizienz.", "Glukose, Blutbild, Darm, Lunge."],
+      "answer": "Entbindungszeitpunkt und -modus bestimmt die Geburtshilfe anhand von Doppler (u. a. Ductus venosus), CTG-Kurzzeitvariation und mütterlichem Zustand; Entbindung im Level-1-Zentrum (< 1250 g, < 29+0 SSW), Lungenreife und Magnesium. Neonatal zu erwarten: Probleme der Unreife (RDS, Apnoen, IVH-Risiko) plus FGR-spezifische Probleme: **Hypoglykämie** (geringe Glykogenreserven) bzw. Hyperglykämie unter Infusion, **Hypothermie**, **Polyglobulie**, **Thrombozytopenie und Neutropenie** (v. a. bei mütterlicher Präeklampsie), erhöhtes **NEC-Risiko** (vorsichtiger, aber früher Nahrungsaufbau mit Muttermilch), höheres Risiko für BPD und pulmonale Hypertonie sowie ungünstigere neurologische Langzeitprognose. Mit den Eltern werden Prognose, Ablauf der Erstversorgung und die Unsicherheit bei sehr niedrigem Schätzgewicht besprochen.",
+      "keyPoints": [
+        "Entbindung im Level-1-Zentrum, Zeitpunkt nach Doppler/CTG",
+        "Hypoglykämie, Hypothermie, Polyglobulie",
+        "Thrombozytopenie und Neutropenie",
+        "Erhöhtes NEC-Risiko – vorsichtiger Nahrungsaufbau mit Muttermilch",
+        "BPD/PH-Risiko, Langzeitprognose, Elternberatung"
+      ],
+      "tags": ["Wachstumsrestriktion", "Perinatalkonferenz"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": ["Lungenreifeinduktion", "CTG", "Frühgeburtlichkeit"]
+        }
+      ]
+    }
+  ]
+}

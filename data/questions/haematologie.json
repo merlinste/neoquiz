@@ -1,0 +1,767 @@
+{
+  "area": "haematologie",
+  "questions": [
+    {
+      "id": "haem-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie die **physiologische Hb-Entwicklung** des Reifgeborenen in den ersten Lebensmonaten und erklären Sie, warum die **Frühgeborenenanämie** früher und ausgeprägter auftritt.",
+      "hints": [
+        "Was passiert postnatal mit der Sauerstoffsättigung und dem Erythropoetin?",
+        "Denken Sie an Erythrozytenlebensdauer, Wachstum und Blutentnahmen."
+      ],
+      "answer": "Mit Beginn der Lungenatmung steigt die O2-Sättigung, die Erythropoetin-(EPO-)Produktion wird supprimiert und die Erythropoese kommt weitgehend zum Erliegen. Zusammen mit der kürzeren Lebensdauer fetaler Erythrozyten und der Zunahme des Blutvolumens durch Wachstum fällt das Hb ab; beim Reifgeborenen liegt der Nadir etwa in der **8.–12. Lebenswoche** bei ca. 9–11 g/dl (physiologische Trimenonreduktion). Beim Frühgeborenen tritt der Nadir **früher (ca. 4.–8. Woche) und tiefer** auf (oft 7–9 g/dl, bei sehr unreifen Kindern auch darunter), weil Erythrozytenmasse und Eisenspeicher bei Geburt geringer sind, das Wachstum relativ schneller ist, die EPO-Antwort auf Anämie unzureichend ist (Produktion überwiegend hepatisch), die Erythrozyten noch kürzer leben und **iatrogene Blutverluste** durch Blutentnahmen hinzukommen.",
+      "keyPoints": [
+        "Postnatale EPO-Suppression durch höhere Oxygenierung",
+        "Nadir Reifgeborene ca. 8.–12. Woche, ca. 9–11 g/dl",
+        "Frühgeborene früher und tiefer",
+        "Ursachen: geringe Reserven, schnelles Wachstum, unzureichende EPO-Antwort, kurze Erythrozytenlebensdauer, Blutentnahmen"
+      ],
+      "tags": ["Frühgeborenenanämie", "Trimenonreduktion"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "haem-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Maßnahmen setzen Sie auf Ihrer Station zur **Prävention der Frühgeborenenanämie** und zur Reduktion von Transfusionen ein?",
+      "hints": ["Beginnen Sie im Kreißsaal.", "Iatrogene Ursachen, Eisen, Transfusionsstrategie."],
+      "answer": "1. **Verzögertes Abnabeln** bei stabilen Kindern (nach ERC/GRC mindestens 60 s), das Blutvolumen und Eisenspeicher erhöht und Transfusionen reduziert; Ausstreichen der intakten Nabelschnur bei Kindern < 28 SSW wird wegen eines möglichen IVH-Risikos nicht empfohlen.\n2. **Blutentnahmen minimieren**: nur indizierte Laboruntersuchungen, Mikromethoden, Point-of-Care-Analytik, nicht-invasives Monitoring, Bilanzierung des entnommenen Blutvolumens.\n3. **Enterale Eisensupplementierung** bei Frühgeborenen, üblich 2–3 mg/kg/d ab etwa der 2.–6. Lebenswoche, sobald die enterale Ernährung etabliert ist.\n4. Ausreichende Protein- und Energiezufuhr.\n5. **Restriktive Transfusionsgrenzen** nach aktueller Evidenz (ETTNO, TOP) und Querschnitts-Leitlinien.\n6. Erythropoetin wird in Deutschland nicht routinemäßig eingesetzt (nur mäßiger Effekt auf die Transfusionszahl).",
+      "keyPoints": [
+        "Verzögertes Abnabeln (≥ 60 s bei stabilen Kindern)",
+        "Iatrogenen Blutverlust minimieren",
+        "Eisen 2–3 mg/kg/d ab ca. 2.–6. Woche",
+        "Restriktive Transfusionsstrategie",
+        "EPO nicht routinemäßig"
+      ],
+      "tags": ["Frühgeborenenanämie", "Abnabelung", "Eisen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "haem-003",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **Erythropoetin (EPO)** bei Frühgeborenen trifft zu?",
+      "hints": ["Denken Sie an Cochrane-Analysen und die PENUT-Studie."],
+      "options": [
+        {
+          "text": "EPO reduziert die Zahl der Transfusionen nur mäßig und wird in Deutschland nicht routinemäßig zur Anämieprophylaxe eingesetzt.",
+          "correct": true
+        },
+        {
+          "text": "Hochdosiertes EPO verbesserte in der PENUT-Studie das neurologische Outcome extrem unreifer Frühgeborener mit 2 Jahren signifikant.",
+          "correct": false
+        },
+        { "text": "EPO macht eine begleitende Eisensupplementierung überflüssig.", "correct": false },
+        {
+          "text": "Eine frühe EPO-Gabe senkt nachweislich das Risiko einer Frühgeborenenretinopathie.",
+          "correct": false
+        },
+        {
+          "text": "EPO ist Standard bei allen Frühgeborenen < 32 SSW und verhindert Transfusionen sicher.",
+          "correct": false
+        }
+      ],
+      "answer": "EPO senkt in Metaanalysen die Zahl der Transfusionen und Spenderexpositionen nur in klinisch begrenztem Ausmaß und wird deshalb nicht routinemäßig eingesetzt. Es wirkt nur bei ausreichender Eisenzufuhr. Für die frühe EPO-Gabe wurde ein möglicher Zusammenhang mit einer höheren ROP-Rate diskutiert. In der PENUT-Studie (hochdosiertes EPO bei 24–27 SSW zur Neuroprotektion) zeigte sich kein Unterschied in Tod oder schwerer neurologischer Entwicklungsstörung.",
+      "keyPoints": [
+        "Nur mäßige Reduktion der Transfusionen",
+        "Kein Routineeinsatz in Deutschland",
+        "Eisen erforderlich",
+        "PENUT: kein neuroprotektiver Nutzen"
+      ],
+      "tags": ["Erythropoetin", "Frühgeborenenanämie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3 und 13.7 – Anämie, Bluttransfusion und Blutprodukte",
+          "terms": ["Anämie", "Transfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "Richtlinie Hämotherapie/Querschnitts-Leitlinien",
+          "terms": ["Transfusionsgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "haem-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 26+0 SSW ist jetzt am **24. Lebenstag**, atmet Raumluft ohne Atemunterstützung, nimmt gut zu, hat keine Apnoen und eine Herzfrequenz um 160/min. Das **Hb beträgt 8,0 g/dl**, die Retikulozyten steigen an. Die Mutter fragt, ob ihr Kind Blut bekommt. Wie entscheiden Sie und welche Prinzipien liegen aktuellen **Transfusionsgrenzen** zugrunde?",
+      "hints": [
+        "Zwei große randomisierte Studien haben liberale und restriktive Grenzen verglichen.",
+        "Die Schwellen hängen von Lebensalter und Atemunterstützung ab."
+      ],
+      "answer": "Ich würde **nicht transfundieren**, solange das Kind klinisch stabil ist. Die großen RCTs **ETTNO** und **TOP** zeigten bei extrem unreifen Frühgeborenen keinen Unterschied zwischen liberalen und restriktiven Transfusionsgrenzen hinsichtlich Tod oder neurologischer Entwicklungsstörung mit 2 Jahren – restriktive Grenzen sind also sicher und vermeiden Spenderexpositionen. Die Schwellen werden nach **postnatalem Alter** und **Atemunterstützung/kritischem Zustand** gestaffelt; z. B. lagen die restriktiven TOP-Schwellen ab der 3. Lebenswoche bei 8,5 g/dl mit und 7,0 g/dl ohne Atemunterstützung. Zusätzlich berücksichtige ich Klinik (Tachykardie, Apnoen, Laktatanstieg, schlechte Gewichtszunahme) und Regeneration (Retikulozyten); Die Querschnitts-Leitlinien der BÄK (Gesamtnovelle 2020, vor Publikation von ETTNO/TOP erstellt, Überarbeitung angekündigt) nennen als Beispiel für Frühgeborene < 32 SSW jenseits des 14. Lebenstags Schwellen von < 7,5 g/dl unter Raumluft, < 8,5 g/dl bei O2-Therapie/nicht-invasiver Atemhilfe und < 10 g/dl bei invasiver Beatmung – auch danach besteht hier keine Indikation; ergänzend gilt der lokale Standard. Weiter: Eisen und Ernährung optimieren, Hb kontrollieren.",
+      "keyPoints": [
+        "Keine Transfusion bei stabilem Kind mit Hb 8,0 g/dl ab 3. Woche ohne Atemhilfe",
+        "ETTNO/TOP: restriktiv = liberal bzgl. Tod/Entwicklung",
+        "Schwellen nach Lebensalter und Atemunterstützung",
+        "Klinik und Retikulozyten mitbewerten",
+        "Elterngespräch"
+      ],
+      "tags": ["Transfusionsgrenzen", "Erythrozytenkonzentrat", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3 und 13.7 – Anämie, Bluttransfusion und Blutprodukte",
+          "terms": ["Anämie", "Transfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "Richtlinie Hämotherapie/Querschnitts-Leitlinien",
+          "terms": ["Transfusionsgrenze"]
+        }
+      ],
+      "source": "Querschnitts-Leitlinien (BÄK) zur Therapie mit Blutkomponenten und Plasmaderivaten"
+    },
+    {
+      "id": "haem-005",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit **900 g** hat einen Hämatokrit von **25 %**. Sie möchten einen Ziel-Hämatokrit von **35 %** erreichen. Nehmen Sie ein Blutvolumen von **100 ml/kg** und einen Hämatokrit des Erythrozytenkonzentrats von **60 %** an. Wie viel ml EK transfundieren Sie?",
+      "hints": ["Volumen = Körpergewicht · Blutvolumen pro kg · (Hkt Ziel − Hkt aktuell) / Hkt EK"],
+      "answer": "Volumen = KG · BV · (Hkt Ziel − Hkt ist) / Hkt EK = 0,9 kg · 100 ml/kg · (35 − 25) / 60 = 90 · 10 / 60 = **15 ml**. Das entspricht rund 17 ml/kg und liegt damit im üblichen Bereich von 15–20 ml/kg, transfundiert über etwa 3–4 Stunden.",
+      "keyPoints": ["Formel mit Blutvolumen und Hkt-Differenz", "Division durch Hkt des EK", "Ergebnis 15 ml (≈ 17 ml/kg)"],
+      "solution": { "value": 15, "unit": "ml", "tolerance": 0.05 },
+      "tags": ["Transfusionsvolumen", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3 und 13.7 – Anämie, Bluttransfusion und Blutprodukte",
+          "terms": ["Anämie", "Transfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "Richtlinie Hämotherapie/Querschnitts-Leitlinien",
+          "terms": ["Transfusionsgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "haem-006",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **780 g** soll **15 ml/kg Erythrozytenkonzentrat** über **3 Stunden** erhalten. Welche Laufrate (ml/h) stellen Sie am Perfusor ein?",
+      "hints": ["Erst das Gesamtvolumen berechnen, dann durch die Laufzeit teilen."],
+      "answer": "Gesamtvolumen = 0,78 kg · 15 ml/kg = 11,7 ml. Laufrate = 11,7 ml / 3 h = **3,9 ml/h**. Die Transfusion erfolgt über ein Transfusionsbesteck mit Standardfilter, bei engmaschiger Überwachung der Vitalparameter.",
+      "keyPoints": ["Volumen 11,7 ml", "Laufrate 3,9 ml/h"],
+      "solution": { "value": 3.9, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Transfusionsvolumen", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3 und 13.7 – Anämie, Bluttransfusion und Blutprodukte",
+          "terms": ["Anämie", "Transfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "Richtlinie Hämotherapie/Querschnitts-Leitlinien",
+          "terms": ["Transfusionsgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "haem-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **praktische Durchführung einer Erythrozytentransfusion** bei einem Frühgeborenen – von der Indikation bis zur Dokumentation.",
+      "hints": [
+        "Aufklärung, Blutgruppenserologie, Produktwahl.",
+        "Was muss unmittelbar vor der Transfusion am Bett erfolgen?"
+      ],
+      "answer": "- **Indikation** dokumentieren (Hb/Hkt, Klinik, Atemunterstützung) und **Eltern aufklären**, Einwilligung einholen.\n- **Blutgruppenbestimmung** (AB0, RhD), direkter Coombs-Test, **Antikörpersuchtest** und Verträglichkeitsprobe (beim Neugeborenen mit mütterlichem, sonst kindlichem Serum/Plasma); bei fehlenden irregulären Antikörpern der Mutter kann bis Ende der 4. Lebenswoche nach errechnetem Termin (Baby-EK) auf deren Wiederholung verzichtet werden.\n- **Produkt**: leukozytendepletiertes EK (in Deutschland Standard, gilt als CMV-sicher), AB0-kompatibel auch zu mütterlichen Antikörpern, RhD nach Kind; Bestrahlung und ggf. zusätzlich CMV-negative Spender nach Indikation bzw. Hausstandard; möglichst Aufteilung eines Spenders in Portionen (Satellitenbeutel), um Spenderexpositionen zu reduzieren.\n- Unmittelbar vor Transfusion **Identitätssicherung** (Patient, Präparat, Begleitschein) und grundsätzlich **AB0-Identitätstest (Bedside-Test)** beim Empfänger durch den transfundierenden Arzt bzw. unter seiner direkten Aufsicht; nach Hämotherapie-Richtlinie kann bei Früh- und Neugeborenen darauf verzichtet werden, wenn ausschließlich EK der Blutgruppe 0 gegeben werden (vor Plasma- oder Thrombozytengabe erforderlich, außer bei ausschließlich AB-Präparaten).\n- 15–20 ml/kg über ca. 3–4 h per Perfusor mit Transfusionsfilter, eigener Zugang, keine Mischung mit Glukose- oder calciumhaltigen Lösungen.\n- **Überwachung**: Vitalparameter, Temperatur, Zeichen der Transfusionsreaktion, Volumenbelastung; Nahrungspause während der Transfusion wird je nach Zentrum gehandhabt (Zusammenhang mit NEC unklar).\n- **Dokumentation** mit Chargennummer (patientenbezogene Chargendokumentation nach Transfusionsgesetz), Wirksamkeitskontrolle (Hb).",
+      "keyPoints": [
+        "Indikation, Aufklärung, Einwilligung",
+        "Blutgruppe, DAT, Antikörpersuchtest",
+        "Leukozytendepletiertes, kompatibles EK; Bestrahlung/CMV nach Indikation",
+        "Identitätssicherung, Bedside-Test (beim Neugeborenen entbehrlich bei ausschließlich Blutgruppe-0-EK)",
+        "15–20 ml/kg über 3–4 h mit Monitoring",
+        "Chargendokumentation"
+      ],
+      "tags": ["Erythrozytenkonzentrat", "Hämotherapie-Richtlinie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3 und 13.7 – Anämie, Bluttransfusion und Blutprodukte",
+          "terms": ["Anämie", "Transfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "Richtlinie Hämotherapie/Querschnitts-Leitlinien",
+          "terms": ["Transfusionsgrenze"]
+        }
+      ],
+      "source": "Richtlinie Hämotherapie (BÄK, Gesamtnovelle 2023)"
+    },
+    {
+      "id": "haem-008",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche **immunhämatologischen Besonderheiten** müssen Sie bei der Auswahl von Blutprodukten für **Neugeborene in den ersten Lebensmonaten** beachten? Gehen Sie auf Erythrozytenkonzentrat, Plasma und Thrombozyten ein.",
+      "hints": [
+        "Woher stammen die Antikörper im Plasma eines Neugeborenen?",
+        "Isoagglutinine werden erst im Lauf der ersten Lebensmonate selbst gebildet."
+      ],
+      "answer": "Neugeborene bilden in den ersten Lebensmonaten praktisch keine eigenen Isoagglutinine; vorhandene Antikörper (Anti-A, Anti-B als IgG, irreguläre Antikörper) sind **mütterlichen Ursprungs**. Deshalb wird die Serologie unter Einbeziehung der Mutter durchgeführt (Antikörpersuchtest mit mütterlichem oder kindlichem Serum, DAT beim Kind); sind bei der Mutter keine irregulären Antikörper nachweisbar, kann nach Hämotherapie-Richtlinie bis zum Ende der 4. Lebenswoche nach errechnetem Geburtstermin (bei Baby-EK) auf die Wiederholung von Kreuzprobe und Antikörpersuchtest verzichtet werden; die AB0-Serumgegenprobe kann bis zum Ende des 3. Lebensmonats entfallen (Befund dann vorläufig).\n- **EK**: AB0-kompatibel zu Kind **und** mütterlichen Antikörpern – praktisch häufig Blutgruppe 0 –, RhD entsprechend dem Kind (RhD-negativ bei RhD-negativem Kind), bei mütterlichen irregulären Antikörpern antigennegativ.\n- **Plasma**: AB0-kompatibel zu den kindlichen Erythrozyten (Gruppe des Kindes oder AB).\n- **Thrombozyten**: möglichst AB0-kompatibel; bei RhD-negativen Mädchen RhD-negative Präparate bzw. Anti-D-Prophylaxe erwägen; bei NAIT HPA-kompatible Präparate.\n- Zusätzlich: Indikationen für Bestrahlung (intrauterine Transfusion und alle nachfolgenden Transfusionen, Austauschtransfusion, Verdacht auf angeborenen T-Zell-Immundefekt, gerichtete Spenden von Blutsverwandten) nach Querschnitts-Leitlinien und Hämotherapie-Richtlinie.",
+      "keyPoints": [
+        "Antikörper beim Neugeborenen sind mütterlich (keine eigenen Isoagglutinine)",
+        "Serologie mit mütterlichem Serum, DAT beim Kind",
+        "EK kompatibel zu Kind und Mutter, meist Blutgruppe 0, RhD nach Kind",
+        "Plasma AB0-kompatibel (Kindgruppe oder AB)",
+        "Bestrahlungsindikationen kennen"
+      ],
+      "tags": ["Hämotherapie-Richtlinie", "Blutprodukte", "Blutgruppenserologie"],
+      "exam": ["KM"],
+      "source": "Querschnitts-Leitlinien (BÄK) zur Therapie mit Blutkomponenten und Plasmaderivaten, Gesamtnovelle 2020; Richtlinie Hämotherapie 2023"
+    },
+    {
+      "id": "haem-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden in den Kreißsaal gerufen: Reifgeborenes, 39+2 SSW, nach unauffälliger Spontangeburt **blass**, Herzfrequenz 190/min, Rekapillarisierungszeit 4 s, schwache periphere Pulse. Das Hb aus der Nabelvene beträgt **14 g/dl**. Wie interpretieren Sie den Befund, was tun Sie, und wie unterscheiden Sie akuten von chronischem Blutverlust?",
+      "hints": [
+        "Warum kann das Hb bei akutem Blutverlust initial normal sein?",
+        "Welchen Test führen Sie im mütterlichen Blut durch?"
+      ],
+      "answer": "Das klinische Bild entspricht einem **hypovolämischen Schock durch akuten Blutverlust**; das Hb ist initial oft noch normal, weil die Hämodilution erst über Stunden eintritt. Ursachen: **fetomaternale Transfusion**, Plazenta-/Nabelschnurblutung (Vasa praevia, Placenta praevia, Nabelschnurriss), fetofetale Transfusion bei Zwillingen, innere Blutungen (subgaleale Blutung, Leber-/Milzruptur, Nebennierenblutung).\n**Therapie**: Wärme, Monitoring, rascher Zugang (Nabelvenenkatheter), **Volumen 10 ml/kg** isotone Kristalloidlösung oder **0-RhD-negatives Notfall-EK** über einige Minuten, bei Bedarf wiederholen; Hb-Kontrollen.\n**Diagnostik**: **Kleihauer-Betke-Test** bzw. Durchflusszytometrie (HbF-Zellen im mütterlichen Blut), Blutgruppen, Gerinnung, Sonographie von Schädel und Abdomen, Plazenta begutachten.\n**Chronischer Blutverlust**: blass, aber kreislaufstabil, kompensiert, niedriges Hb mit mikrozytär-hypochromen Indizes und Retikulozytose, ggf. Hydrops; Transfusion langsam, Eisensubstitution.",
+      "keyPoints": [
+        "Hypovolämischer Schock trotz initial normalem Hb",
+        "Volumen 10 ml/kg NaCl 0,9 % oder 0-negatives EK",
+        "Ursachen: fetomaternale Transfusion, Plazenta-/Nabelschnurblutung, innere Blutung",
+        "Kleihauer-Betke-Test",
+        "Chronisch: kompensiert, mikrozytär, Retikulozytose"
+      ],
+      "tags": ["Blutungsanämie", "Fetomaternale Transfusion", "Schock"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "haem-010",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Definieren Sie die **Polyglobulie** des Neugeborenen und nennen Sie Ursachen und klinische Folgen der **Hyperviskosität**.",
+      "hints": ["Kapillär oder venös gemessen?", "Aktive (intrauterine Hypoxie) und passive Ursachen."],
+      "answer": "Polyglobulie: **venöser Hämatokrit > 65 %** (bzw. Hb > 22 g/dl); kapilläre Werte liegen höher und müssen venös bestätigt werden. Ursachen: **aktiv** durch gesteigerte fetale Erythropoese bei chronischer intrauteriner Hypoxie (Plazentainsuffizienz/SGA, Präeklampsie, mütterlicher Diabetes, Rauchen, Übertragung); **passiv** durch Transfusion (spätes Abnabeln, Empfänger beim fetofetalen Transfusionssyndrom, maternofetale Transfusion); außerdem Trisomie 21, Beckwith-Wiedemann-Syndrom, Hypothyreose. Folgen der Hyperviskosität: Plethora, Lethargie, Trinkschwäche, Zittrigkeit, Atemstörung/Zyanose, **Hypoglykämie**, Hyperbilirubinämie, Thrombozytopenie, selten Krampfanfälle, NEC, Nierenvenenthrombose oder Priapismus.",
+      "keyPoints": [
+        "Venöser Hkt > 65 %",
+        "Kapillärwert venös bestätigen",
+        "Aktive (Hypoxie, Diabetes, SGA) vs. passive Ursachen (Transfusion, FFTS)",
+        "Hypoglykämie, Ikterus, Thrombozytopenie, NEC, Thrombose"
+      ],
+      "tags": ["Polyglobulie", "Hyperviskosität"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "haem-011",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes mit **3500 g** hat einen venösen Hämatokrit von **72 %** und ist symptomatisch (Trinkschwäche, rezidivierende Hypoglykämien). Sie entscheiden sich für eine **partielle Austauschtransfusion mit NaCl 0,9 %**. Ziel-Hkt **55 %**, Blutvolumen **85 ml/kg**. Wie viel ml tauschen Sie aus?",
+      "hints": ["Austauschvolumen = Blutvolumen · (Hkt ist − Hkt Ziel) / Hkt ist"],
+      "answer": "Blutvolumen = 3,5 kg · 85 ml/kg = 297,5 ml. Austauschvolumen = 297,5 ml · (72 − 55) / 72 = 297,5 · 17 / 72 ≈ **70 ml**. Der Austausch erfolgt in kleinen Portionen (isovolämisch, z. B. Entnahme über Nabelvene/arteriellen Zugang, Ersatz mit NaCl 0,9 %), danach Hkt- und Blutzuckerkontrolle.",
+      "keyPoints": ["Blutvolumen 297,5 ml", "Formel mit Hkt-Differenz / Hkt ist", "Ergebnis ≈ 70 ml NaCl 0,9 %"],
+      "solution": { "value": 70.2, "unit": "ml", "tolerance": 0.04 },
+      "tags": ["Polyglobulie", "Partielle Austauschtransfusion", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "haem-012",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Behandlung der Polyglobulie** trifft zu?",
+      "hints": ["Was weiß man über Langzeitnutzen und Nebenwirkungen der partiellen Austauschtransfusion?"],
+      "options": [
+        {
+          "text": "Die partielle Austauschtransfusion senkt den Hkt rasch, ein langfristiger neurologischer Nutzen ist aber nicht belegt; sie ist mit einem erhöhten NEC-Risiko assoziiert.",
+          "correct": true
+        },
+        {
+          "text": "Ein kapillärer Hämatokrit von 68 % ist ohne venöse Kontrolle beweisend und behandlungsbedürftig.",
+          "correct": false
+        },
+        { "text": "Als Austauschflüssigkeit ist Albumin 5 % dem NaCl 0,9 % klar überlegen.", "correct": false },
+        {
+          "text": "Jedes asymptomatische Neugeborene mit venösem Hkt > 65 % benötigt eine partielle Austauschtransfusion.",
+          "correct": false
+        },
+        {
+          "text": "Verzögertes Abnabeln ist bei Reifgeborenen wegen des Polyglobulierisikos kontraindiziert.",
+          "correct": false
+        }
+      ],
+      "answer": "Die partielle Austauschtransfusion senkt Hkt und Viskosität, Studien zeigen aber keinen gesicherten Langzeitnutzen; NEC trat in Studien häufiger auf. Deshalb wird sie meist nur bei symptomatischen Kindern mit venösem Hkt > 65 % oder bei sehr hohen Werten (je nach Zentrum > 70–75 %) auch ohne Symptome durchgeführt. NaCl 0,9 % ist gleich wirksam wie Albumin und wird bevorzugt. Asymptomatische Kinder: ausreichende Flüssigkeitszufuhr, Blutzucker- und Bilirubinkontrollen.",
+      "keyPoints": [
+        "Kein belegter Langzeitnutzen",
+        "Erhöhtes NEC-Risiko",
+        "Indikation v. a. bei symptomatischen Kindern",
+        "NaCl 0,9 % als Austauschflüssigkeit"
+      ],
+      "tags": ["Polyglobulie", "Partielle Austauschtransfusion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "haem-013",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ab wann spricht man von einer **neonatalen Thrombozytopenie**, und welche Ursachen kommen bei **früher (< 72 h)** bzw. **später (> 72 h)** Manifestation in Betracht?",
+      "hints": [
+        "Die häufigste frühe Ursache hat mit der Plazenta zu tun.",
+        "Bei später Manifestation an Sepsis und NEC denken."
+      ],
+      "answer": "Thrombozytopenie: **< 150 000/µl**, schwer < 50 000/µl. **Früh (< 72 h)**: am häufigsten im Rahmen einer **Plazentainsuffizienz** (Präeklampsie, intrauterine Wachstumsrestriktion, mütterlicher Diabetes) – meist leicht bis mäßig und innerhalb von etwa 10 Tagen rückläufig; daneben perinatale Asphyxie, Early-onset-Sepsis, konnatale Infektionen (z. B. CMV), DIC, **NAIT**, mütterliche Autoimmunthrombozytopenie (ITP, SLE), Aneuploidien (Trisomie 13, 18, 21), Thrombosen, Kasabach-Merritt-Phänomen, angeborene Thrombozytopenien (z. B. TAR-Syndrom). **Spät (> 72 h)**: **Late-onset-Sepsis** (bakteriell, Pilze) und **NEC** – oft schwer –, katheterassoziierte Thrombosen, seltener medikamentös. Eine schwere Thrombozytopenie bei einem sonst gesunden Reifgeborenen spricht für eine NAIT.",
+      "keyPoints": [
+        "Definition < 150 000/µl",
+        "Früh: Plazentainsuffizienz am häufigsten",
+        "Früh: NAIT, mütterliche ITP, Infektion, Asphyxie, Aneuploidie",
+        "Spät: Sepsis und NEC",
+        "Gesundes Kind + schwere Thrombozytopenie → NAIT"
+      ],
+      "tags": ["Thrombozytopenie", "Differenzialdiagnose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-014",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein **erstgeborenes** Reifgeborenes (40+1 SSW, 3400 g) fällt in der 2. Lebensstunde mit **generalisierten Petechien** auf, ist sonst klinisch unauffällig. Thrombozyten **9 000/µl**, Hb und Gerinnung normal, keine Infektionszeichen. Die Thrombozyten der Mutter sind normal. Wie gehen Sie vor und was sagen Sie den Eltern im Hinblick auf künftige Schwangerschaften?",
+      "hints": [
+        "Mutter normal, Kind schwer thrombozytopen, Erstgeborenes – was ist das Pendant zum Morbus haemolyticus?",
+        "Welche Komplikation müssen Sie sofort ausschließen?"
+      ],
+      "answer": "Verdacht auf **neonatale Alloimmunthrombozytopenie (NAIT)** durch mütterliche Antikörper gegen väterlich vererbte Plättchenantigene (meist **HPA-1a**, seltener z. B. HPA-5b); anders als beim Rh-Morbus ist häufig bereits das erste Kind betroffen.\n- **Sofort Schädelsonographie** (intrakranielle Blutung, oft schon pränatal entstanden).\n- **Thrombozytentransfusion** sofort: wenn verfügbar HPA-kompatible (HPA-1a/5b-negative) Präparate, sonst **nicht warten** und Standardpräparate geben (oft zumindest vorübergehend wirksam); Schwellen nach Querschnitts-Leitlinien der BÄK: ohne Blutung < 30 000/µl, bei Blutungszeichen bzw. ICH bei einem Geschwister < 50 000/µl, bei größerer (z. B. intrakranieller) Blutung < 100 000/µl.\n- **Intravenöse Immunglobuline** (z. B. 1 g/kg) werden vielerorts ergänzend gegeben (verzögerter Wirkeintritt); ein zusätzlicher Nutzen gegenüber der Thrombozytentransfusion ist nicht belegt, eine alleinige IVIG-Therapie wird nicht empfohlen.\n- Diagnostik im Speziallabor: HPA-Antikörper im mütterlichen Serum, HPA-Typisierung von Eltern (und Kind), Kreuzprobe mütterliches Serum gegen väterliche Thrombozyten; tägliche Thrombozytenkontrollen bis zur Stabilisierung, keine i.m.-Injektionen.\n- **Elternberatung**: hohes Wiederholungsrisiko (bei homozygot HPA-1a-positivem Vater nahezu jedes Kind betroffen), oft gleich schwer oder schwerer; in Folgeschwangerschaften frühzeitige Anbindung an ein spezialisiertes Zentrum, pränatale Therapie der Mutter mit IVIG; Information auch für Schwestern der Mutter.",
+      "keyPoints": [
+        "Verdachtsdiagnose NAIT (HPA-1a), erstes Kind betroffen",
+        "Sofort Schädelsonographie",
+        "Sofortige Thrombozytentransfusion, HPA-kompatibel wenn verfügbar, sonst nicht warten",
+        "IVIG allenfalls ergänzend, nie als alleinige Therapie",
+        "HPA-Diagnostik der Eltern",
+        "Hohes Wiederholungsrisiko, pränatale IVIG in Folgeschwangerschaft"
+      ],
+      "tags": ["NAIT", "Thrombozytopenie", "Elternberatung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ],
+      "source": "Querschnitts-Leitlinien (BÄK) zur Therapie mit Blutkomponenten und Plasmaderivaten, Gesamtnovelle 2020; Richtlinie Hämotherapie 2023"
+    },
+    {
+      "id": "haem-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur Unterscheidung von **NAIT** und **Thrombozytopenie bei mütterlicher Immunthrombozytopenie (ITP)** trifft zu?",
+      "hints": ["Gegen welche Antigene richten sich die Antikörper jeweils, und ist die Mutter selbst betroffen?"],
+      "options": [
+        {
+          "text": "Bei mütterlicher ITP ist die Mutter meist selbst thrombozytopen bzw. die Erkrankung bekannt; schwere intrakranielle Blutungen beim Kind sind selten.",
+          "correct": true
+        },
+        { "text": "Eine NAIT tritt typischerweise erst ab der zweiten Schwangerschaft auf.", "correct": false },
+        { "text": "Bei NAIT ist die Mutter regelhaft ebenfalls thrombozytopen.", "correct": false },
+        {
+          "text": "Bei mütterlicher ITP liegt der Thrombozyten-Nadir des Kindes unmittelbar nach der Geburt und steigt danach rasch an.",
+          "correct": false
+        },
+        {
+          "text": "Bei NAIT richten sich die Antikörper meist gegen HLA-Antigene, HPA-1a spielt kaum eine Rolle.",
+          "correct": false
+        }
+      ],
+      "answer": "Bei ITP richten sich mütterliche Autoantikörper gegen Antigene, die auch auf den eigenen Thrombozyten vorhanden sind; die Mutter ist daher meist thrombozytopen oder anamnestisch bekannt. Die kindliche Thrombozytopenie ist meist milder, der Nadir liegt typischerweise erst einige Tage nach der Geburt (daher Verlaufskontrollen), schwere ICH sind selten. Bei NAIT ist die Mutter normal, häufig ist das erste Kind betroffen, die häufigste Ursache in Europa sind Anti-HPA-1a-Antikörper, das ICH-Risiko ist relevant.",
+      "keyPoints": [
+        "ITP: Mutter thrombozytopen, Kind meist milder betroffen",
+        "ITP: Nadir nach einigen Tagen",
+        "NAIT: Mutter normal, Erstgeborene betroffen, HPA-1a"
+      ],
+      "tags": ["NAIT", "ITP", "Thrombozytopenie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 27+2 SSW hat am 12. Lebenstag bei klinischem Verdacht auf Late-onset-Sepsis **Thrombozyten von 32 000/µl**, keine Blutungszeichen. Transfundieren Sie Thrombozyten? Begründen Sie Ihr Vorgehen mit der aktuellen Evidenz.",
+      "hints": ["Denken Sie an die PlaNeT-2-Studie.", "Wann gelten höhere Schwellen?"],
+      "answer": "Nein, eine **prophylaktische** Transfusion ist bei 32 000/µl ohne Blutung nicht indiziert. In **PlaNeT-2** führte eine Transfusionsschwelle von 50 000/µl im Vergleich zu **25 000/µl** bei Frühgeborenen < 34 SSW zu **mehr Todesfällen oder schweren Blutungen** (und mehr BPD); Thrombozytentransfusionen sind also nicht harmlos. Prophylaktische Transfusion daher bei stabilen, nicht blutenden Frühgeborenen erst **< 25 000/µl**. Höhere Schwellen bei aktiver Blutung, vor invasiven Eingriffen oder Operationen, bei NAIT mit Blutung sowie nach Zentrumsstandard in besonderen Situationen. Die Querschnitts-Leitlinien der BÄK (2020) übernehmen dies: ohne Blutungszeichen < 25 000/µl, bei Blutungszeichen/Koagulopathie < 50 000/µl, bei größerer Blutung oder vor größerer Operation < 100 000/µl. Dosis üblicherweise 10–15 ml/kg (PlaNeT-2: 15 ml/kg; je nach Zentrum bis 20 ml/kg). Parallel: Sepsistherapie, engmaschige Kontrollen, Blutungszeichen und Schädelsonographie.",
+      "keyPoints": [
+        "Keine prophylaktische Transfusion bei 32 000/µl ohne Blutung",
+        "PlaNeT-2: höhere Schwelle schadet (mehr Tod/schwere Blutung)",
+        "Prophylaxe-Schwelle < 25 000/µl",
+        "Höhere Schwellen bei Blutung/Eingriffen",
+        "Dosis ca. 10–15 ml/kg (zentrumsabhängig bis 20 ml/kg)"
+      ],
+      "tags": ["Thrombozytentransfusion", "Transfusionsgrenzen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3 und 13.7 – Anämie, Bluttransfusion und Blutprodukte",
+          "terms": ["Anämie", "Transfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "Richtlinie Hämotherapie/Querschnitts-Leitlinien",
+          "terms": ["Transfusionsgrenze"]
+        }
+      ],
+      "source": "Querschnitts-Leitlinien (BÄK) zur Therapie mit Blutkomponenten und Plasmaderivaten, Gesamtnovelle 2020"
+    },
+    {
+      "id": "haem-017",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie die **Formen der Vitamin-K-Mangelblutung** mit Zeitpunkt, typischen Blutungslokalisationen und Risikofaktoren.",
+      "hints": [
+        "Drei Formen nach Manifestationszeitpunkt.",
+        "Welche Form ist wegen der Blutungslokalisation am gefährlichsten?"
+      ],
+      "answer": "- **Frühe Form (< 24 h)**: durch mütterliche Medikamente, die den Vitamin-K-Stoffwechsel stören (enzyminduzierende Antiepileptika wie Phenytoin, Carbamazepin, Phenobarbital; Rifampicin, Isoniazid; Vitamin-K-Antagonisten). Blutungen z. B. Kephalhämatom, intrakraniell, intraabdominell.\n- **Klassische Form (2.–7. Lebenstag)**: bei fehlender Prophylaxe und geringer Zufuhr; gastrointestinale Blutung, Nabel-, Haut-, Schleimhautblutungen, Nachblutung nach Punktion/Zirkumzision.\n- **Späte Form (ab 2. Woche bis ca. 3. Lebensmonat)**: v. a. bei **ausschließlich gestillten Kindern ohne oder mit unzureichender Prophylaxe** sowie bei **Cholestase/Malabsorption** (Gallengangsatresie, α1-Antitrypsin-Mangel, Mukoviszidose); in etwa der Hälfte der Fälle **intrakranielle Blutung** mit hoher Mortalität und Morbidität.\nPrävention in Deutschland: 3 × 2 mg Vitamin K oral (U1, U2, U3).",
+      "keyPoints": [
+        "Frühform < 24 h durch mütterliche Medikamente",
+        "Klassische Form 2.–7. Tag, GI-/Hautblutungen",
+        "Späte Form 2.–12. Woche, gestillte Kinder, Cholestase",
+        "Späte Form: häufig intrakranielle Blutung",
+        "Prophylaxe 3 × 2 mg oral"
+      ],
+      "tags": ["Vitamin-K-Mangelblutung", "Gerinnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein **5 Wochen alter**, ausschließlich gestillter Säugling (Hausgeburt, Eltern haben die Vitamin-K-Prophylaxe abgelehnt) wird mit Erbrechen, **gespannter Fontanelle** und einem fokalen Krampfanfall vorgestellt. Ihnen fällt ein leichter Sklerenikterus auf. Was ist Ihre Verdachtsdiagnose, wie gehen Sie vor und woran müssen Sie zusätzlich denken?",
+      "hints": ["Spätform einer Blutungskrankheit.", "Warum ist der Ikterus mit 5 Wochen ein wichtiger Befund?"],
+      "answer": "Verdacht auf **späte Vitamin-K-Mangelblutung mit intrakranieller Blutung**.\n- Stabilisierung (ABC), Krampfanfall behandeln, Labor: **Quick/INR, PTT** (verlängert), Thrombozyten und Fibrinogen (normal), Blutbild, Blutgruppe; ggf. PIVKA-II.\n- **Vitamin K 1 mg langsam i.v.** sofort (Wirkung erst nach Stunden); bei lebensbedrohlicher Blutung zusätzlich sofortige Faktorensubstitution mit **Prothrombinkomplex (PPSB)** oder, falls nicht verfügbar, **Frischplasma 10–20 ml/kg**.\n- Bildgebung (Sonographie, CT/MRT), neurochirurgisches Konsil.\n- Der Ikterus mit 5 Wochen ist ein **Cholestasewarnzeichen**: direktes/konjugiertes Bilirubin, Stuhlfarbe (acholisch?), Leberwerte, Sonographie – **Gallengangsatresie**, α1-Antitrypsin-Mangel, Mukoviszidose als Ursache der Vitamin-K-Malabsorption.\n- Bei intrakranieller Blutung ohne Gerinnungsstörung wäre an eine Kindesmisshandlung zu denken.",
+      "keyPoints": [
+        "Späte VKDB mit ICH",
+        "Vitamin K 1 mg i.v.",
+        "PPSB oder FFP bei lebensbedrohlicher Blutung",
+        "Labor: Quick ↓, PTT ↑, Thrombozyten/Fibrinogen normal",
+        "Cholestase abklären (Gallengangsatresie)"
+      ],
+      "tags": ["Vitamin-K-Mangelblutung", "Intrakranielle Blutung", "Cholestase"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-019",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Laborkonstellation ist typisch für eine **Vitamin-K-Mangelblutung**?",
+      "hints": ["Welche Gerinnungsfaktoren sind Vitamin-K-abhängig, und welche Tests erfassen sie?"],
+      "options": [
+        {
+          "text": "Quick erniedrigt (INR erhöht), PTT verlängert, Thrombozyten und Fibrinogen normal",
+          "correct": true
+        },
+        { "text": "Quick normal, PTT isoliert verlängert, Thrombozyten normal", "correct": false },
+        {
+          "text": "Quick erniedrigt, PTT verlängert, Thrombozyten und Fibrinogen erniedrigt, D-Dimere stark erhöht",
+          "correct": false
+        },
+        { "text": "Alle Gerinnungstests normal, Thrombozyten erniedrigt", "correct": false }
+      ],
+      "answer": "Vitamin K ist für die γ-Carboxylierung der Faktoren II, VII, IX und X (sowie Protein C und S) notwendig. Ein Mangel verlängert daher Quick/INR (Faktor VII am empfindlichsten) und PTT; Thrombozyten und Fibrinogen bleiben normal. Die Konstellation mit erniedrigten Thrombozyten, erniedrigtem Fibrinogen und erhöhten D-Dimeren spricht für eine DIC, eine isoliert verlängerte PTT z. B. für eine Hämophilie.",
+      "keyPoints": [
+        "Vitamin-K-abhängige Faktoren II, VII, IX, X",
+        "Quick ↓/INR ↑ und PTT ↑",
+        "Thrombozyten und Fibrinogen normal (Abgrenzung DIC)"
+      ],
+      "tags": ["Vitamin-K-Mangelblutung", "Gerinnungsdiagnostik"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Besonderheiten des Gerinnungssystems** beim Früh- und Neugeborenen müssen Sie bei der Interpretation von Gerinnungstests kennen?",
+      "hints": [
+        "Prokoagulatorische und antikoagulatorische Faktoren sind gleichermaßen betroffen.",
+        "Welche Faktoren sind normal oder sogar erhöht?"
+      ],
+      "answer": "Die Vitamin-K-abhängigen Faktoren (II, VII, IX, X) und die Kontaktfaktoren (XI, XII) sind bei Geburt auf etwa die Hälfte der Erwachsenenwerte erniedrigt, bei Frühgeborenen noch stärker; dadurch sind **PTT und Quick/INR physiologisch verlängert**. Fibrinogen, Faktor V, VIII und von-Willebrand-Faktor sind normal bis erhöht (vWF mit großen Multimeren). Auch die Inhibitoren **Antithrombin, Protein C und S** sind erniedrigt. Insgesamt ist das System **ausgeglichen**, gesunde Neugeborene bluten nicht spontan, haben aber eine geringere Reserve (Blutungs- und Thromboserisiko unter Stress, Sepsis, Kathetern). Konsequenzen: **gestationsalter- und altersabhängige Referenzwerte** verwenden, präanalytische Fehler beachten (hoher Hkt verfälscht das Citrat-Verhältnis, Heparin aus Kathetern), Gerinnungstests nicht routinemäßig „korrigieren“; eine leichte Hämophilie B ist wegen des physiologisch niedrigen Faktor IX postnatal schwer zu diagnostizieren, Faktor VIII ist dagegen gut messbar.",
+      "keyPoints": [
+        "Vitamin-K-abhängige und Kontaktfaktoren erniedrigt → PTT/Quick physiologisch verlängert",
+        "Fibrinogen, FV, FVIII, vWF normal bis erhöht",
+        "AT, Protein C und S erniedrigt",
+        "Ausgeglichenes System mit geringer Reserve",
+        "Altersabhängige Referenzwerte, Präanalytik"
+      ],
+      "tags": ["Gerinnung", "Entwicklungshämostase"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Eine Schwangere ist bekannte **Konduktorin für Hämophilie A** und erwartet einen Jungen. Wie planen Sie Geburt und postnatale Versorgung?",
+      "hints": [
+        "Was vermeiden Sie unter der Geburt und in den ersten Lebenstagen?",
+        "Aus welchem Material diagnostizieren Sie direkt postnatal?"
+      ],
+      "answer": "Pränatale Planung gemeinsam mit einem **Hämophiliezentrum** und Geburt in einem Perinatalzentrum. Unter der Geburt **keine vaginal-operative Entbindung (Vakuum, Forzeps)**, keine Kopfschwartenelektrode oder Mikroblutuntersuchung; eine primäre Sectio ist nicht generell erforderlich, die Schwelle zur Sectio bei protrahierter Geburt ist niedrig (Vorgehen je nach Zentrum). Postnatal **Faktor-VIII-Aktivität aus Nabelschnurblut** (beim Neugeborenen bereits zuverlässig messbar), **keine i.m.-Injektionen** (Vitamin K oral), arterielle Punktionen vermeiden, Kompression nach Punktionen, Zirkumzision aufschieben. **Schädelsonographie** vor Entlassung, da intrakranielle und subgaleale Blutungen bei Neugeborenen mit Hämophilie gehäuft vorkommen. Bei Blutung oder bestätigter schwerer Hämophilie Substitution mit **Faktor-VIII-Konzentrat** nach Absprache mit dem Hämophiliezentrum; Frischplasma nur, wenn die Diagnose noch unklar ist und kein Konzentrat verfügbar ist.",
+      "keyPoints": [
+        "Planung mit Hämophiliezentrum",
+        "Keine Vakuum-/Forzepsentbindung, keine Kopfschwartenelektrode",
+        "FVIII aus Nabelschnurblut",
+        "Keine i.m.-Injektionen, Vitamin K oral",
+        "Schädelsonographie",
+        "FVIII-Konzentrat bei Blutung"
+      ],
+      "tags": ["Hämophilie", "Gerinnungsstörung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann ist **Frischplasma (GFP)** beim Neugeborenen indiziert, und wann nicht? Gehen Sie auch auf die **DIC** ein.",
+      "hints": ["Prophylaxe einer Hirnblutung? Volumenersatz?", "Was steht bei der DIC an erster Stelle?"],
+      "answer": "**Indikationen**: Blutung oder dringender invasiver Eingriff bei **DIC** bzw. Verbrauchskoagulopathie, lebensbedrohliche Vitamin-K-Mangelblutung, wenn kein PPSB verfügbar ist, angeborene Faktorenmängel ohne verfügbares Konzentrat, schwerer Protein-C/S-Mangel (Purpura fulminans), Austauschtransfusion (Rekonstitution). Dosis **10–20 ml/kg**.\n**Keine Indikation**: Volumenersatz, „Korrektur“ pathologischer Laborwerte ohne Blutung, **Prophylaxe der IVH** (in Studien ohne Nutzen).\n**DIC**: Thrombozyten ↓, Fibrinogen ↓, D-Dimere ↑, Quick ↓, PTT ↑; Auslöser Sepsis, Asphyxie, NEC, Schock, Hypothermie, abgestorbener Zwilling. Therapie: zuerst **Grunderkrankung** behandeln, bei Blutung GFP, Thrombozyten, bei deutlich erniedrigtem Fibrinogen Fibrinogenkonzentrat (bzw. Kryopräzipitat), Vitamin K.",
+      "keyPoints": [
+        "GFP 10–20 ml/kg bei Blutung mit Gerinnungsstörung (DIC)",
+        "Nicht zur Volumentherapie, Laborkorrektur oder IVH-Prophylaxe",
+        "DIC-Labor: Thrombozyten ↓, Fibrinogen ↓, D-Dimere ↑",
+        "Ursache behandeln"
+      ],
+      "tags": ["Frischplasma", "DIC", "Blutprodukte"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ],
+      "source": "Querschnitts-Leitlinien (BÄK) zur Therapie mit Blutkomponenten und Plasmaderivaten"
+    },
+    {
+      "id": "haem-023",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes einer Mutter mit insulinpflichtigem Diabetes fällt am 2. Lebenstag mit **Makrohämaturie**, einer **tastbaren Resistenz in der linken Flanke** und **Thrombozyten von 65 000/µl** auf. Was vermuten Sie, wie sichern Sie die Diagnose und wie behandeln Sie? Erläutern Sie dabei die Grundsätze der Antikoagulation beim Neugeborenen.",
+      "hints": [
+        "Klassische Trias einer Thrombose im Neugeborenenalter.",
+        "Welche Antikoagulation wird überwiegend eingesetzt und wie wird sie gesteuert?"
+      ],
+      "answer": "Klassische Trias der **Nierenvenenthrombose** (Hämaturie, Flankentumor, Thrombozytopenie); Risikofaktoren: diabetische Mutter, Polyglobulie, Dehydratation, Asphyxie, Sepsis, Thrombophilie. **Diagnose**: Farbdopplersonographie (vergrößerte echoreiche Niere, fehlender venöser Fluss, Ausdehnung in die V. cava inferior, Gegenseite, Nebennierenblutung), Kreatinin, Elektrolyte, Blutdruck, Gerinnung; Thrombophiliediagnostik nach Zentrumsstandard. **Therapie**: supportiv (Flüssigkeit, Elektrolyte, Hypertonie); **Antikoagulation** mit niedermolekularem Heparin (z. B. Enoxaparin) bei bilateraler Thrombose oder Ausdehnung in die V. cava, bei unilateraler Thrombose je nach Zentrum; Thrombolyse nur bei lebens- oder organbedrohender (bilateraler) Thrombose mit Nierenversagen. **Grundsätze der Antikoagulation**: NMH gewichtsadaptiert alle 12 h, Steuerung über **Anti-Xa-Spiegel (Ziel ca. 0,5–1,0 IE/ml, 4–6 h nach Gabe)**, Dauer meist 6 Wochen bis 3 Monate, Kontrolle von Thrombozyten und Schädelsonographie. Langzeitfolgen: Nierenatrophie, arterielle Hypertonie – nephrologische Nachsorge.",
+      "keyPoints": [
+        "Trias: Hämaturie, Flankentumor, Thrombozytopenie",
+        "Dopplersonographie inkl. V. cava",
+        "NMH bei bilateraler Thrombose/V.-cava-Beteiligung",
+        "Anti-Xa-Ziel ca. 0,5–1,0 IE/ml",
+        "Thrombolyse nur bei Lebens-/Organbedrohung",
+        "Nachsorge: Hypertonie, Nierenatrophie"
+      ],
+      "tags": ["Nierenvenenthrombose", "Thrombose", "Antikoagulation"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "haem-024",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes entwickelt in den ersten Lebensstunden rasch progrediente, scharf begrenzte **purpurne Hautnekrosen** an Extremitäten und Gesäß; die Gerinnungsdiagnostik zeigt eine DIC-Konstellation. Was ist die wahrscheinlichste Ursache?",
+      "hints": ["Purpura fulminans neonatalis ohne Infektion.", "Welcher natürliche Inhibitor fehlt?"],
+      "options": [
+        { "text": "Homozygoter bzw. compound-heterozygoter Protein-C-Mangel", "correct": true },
+        { "text": "Heterozygote Faktor-V-Leiden-Mutation", "correct": false },
+        { "text": "Neonatale Alloimmunthrombozytopenie", "correct": false },
+        { "text": "Klassische Vitamin-K-Mangelblutung", "correct": false },
+        { "text": "Hämophilie A", "correct": false }
+      ],
+      "answer": "Eine Purpura fulminans neonatalis in den ersten Lebensstunden bis -tagen ohne Infektion ist typisch für einen **schweren angeborenen Protein-C-Mangel** (seltener Protein-S-Mangel); oft kommen intrakranielle Thrombosen und Augenbeteiligung (Glaskörperblutung, Netzhautthrombosen) hinzu. Therapie: sofort **Frischplasma** (10–20 ml/kg, wiederholt) bzw. **Protein-C-Konzentrat**, im Verlauf Antikoagulation. Heterozygote Faktor-V-Leiden-Mutationen verursachen keine Purpura fulminans im Neugeborenenalter. Differenzialdiagnostisch muss eine Sepsis mit DIC ausgeschlossen werden.",
+      "keyPoints": [
+        "Schwerer (homozygoter) Protein-C-Mangel",
+        "Purpura fulminans, Hautnekrosen, DIC",
+        "Therapie: FFP und Protein-C-Konzentrat",
+        "DD Sepsis/DIC"
+      ],
+      "tags": ["Purpura fulminans", "Protein-C-Mangel", "Thrombophilie"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "haem-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein SGA-Frühgeborenes (31+0 SSW, 1050 g) einer Mutter mit schwerer Präeklampsie hat am 1. Lebenstag **Neutrophile von 900/µl** bei unauffälliger Klinik und negativem CRP. Wie bewerten Sie den Befund? Nennen Sie die wichtigsten **Ursachen der neonatalen Neutropenie**.",
+      "hints": [
+        "Die häufigste Ursache in dieser Konstellation ist mütterlich bedingt und transient.",
+        "Denken Sie auch an Immunneutropenien und angeborene Formen."
+      ],
+      "answer": "Neutropenie: Neutrophile < 1500/µl (Referenzwerte abhängig von Lebensstunde und Gestationsalter). In dieser Konstellation am wahrscheinlichsten eine **Neutropenie bei mütterlicher Präeklampsie/Plazentainsuffizienz** (verminderte Produktion), die sich meist innerhalb von Tagen spontan normalisiert; sie ist mit einem etwas erhöhten Risiko für Late-onset-Infektionen assoziiert, daher Verlaufskontrollen. Weitere Ursachen: **Sepsis** (Verbrauch, prognostisch ungünstig – Neutropenie spricht bei Sepsis für einen schweren Verlauf), **Alloimmunneutropenie** (mütterliche Antikörper gegen kindliche HNA-Antigene, analog zur NAIT, über Wochen), mütterliche Autoimmunneutropenie, Medikamente, sowie seltene **angeborene Neutropenien** (z. B. schwere kongenitale Neutropenie, Shwachman-Diamond-Syndrom). G-CSF wird bei neonataler Sepsis nicht routinemäßig empfohlen; bei angeborenen Formen nach Hämatologie.",
+      "keyPoints": [
+        "Definition < 1500/µl, altersabhängige Referenzwerte",
+        "Präeklampsie/Plazentainsuffizienz: transient, häufig",
+        "Sepsis als prognostisch ungünstige Ursache",
+        "Alloimmunneutropenie (HNA)",
+        "Angeborene Neutropenien, kein G-CSF routinemäßig"
+      ],
+      "tags": ["Neutropenie", "Präeklampsie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": ["Lungenreifeinduktion", "CTG", "Frühgeburtlichkeit"]
+        }
+      ]
+    },
+    {
+      "id": "haem-026",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie gehen Sie **systematisch** bei einer **Anämie in der ersten Lebenswoche** vor? Ordnen Sie die Differenzialdiagnosen nach Pathomechanismus und nennen Sie die entscheidenden Basisuntersuchungen.",
+      "hints": ["Drei Hauptgruppen: Verlust, Abbau, Bildung.", "Retikulozyten, Coombs-Test, Ausstrich."],
+      "answer": "1. **Blutverlust** (am häufigsten): fetomaternal, fetofetal, plazentar/Nabelschnur, innere Blutungen (subgaleal, intrakraniell, Leber, Nebenniere), iatrogen; Retikulozyten normal bis erhöht, Bilirubin nicht erhöht.\n2. **Hämolyse**: immunologisch mit **positivem direktem Coombs-Test** (Rh-, AB0-, andere Blutgruppeninkompatibilitäten); nicht immunologisch, Coombs-negativ: Membrandefekte (hereditäre Sphärozytose), Enzymdefekte (G6PD-, Pyruvatkinase-Mangel), Hämoglobinopathien (α-Thalassämie), Infektionen, DIC/mikroangiopathisch; Retikulozyten und Bilirubin erhöht.\n3. **Verminderte Bildung** (selten): Parvovirus-B19-Infektion, konnatale Infektionen, Diamond-Blackfan-Anämie, kongenitale dyserythropoetische Anämie, Knochenmarkinfiltration (z. B. transiente abnorme Myelopoese bei Trisomie 21); Retikulozyten niedrig.\n**Basisdiagnostik**: Blutbild mit Erythrozytenindizes, **Retikulozyten**, **Blutausstrich**, Blutgruppe Mutter/Kind, **direkter Coombs-Test**, Bilirubin; je nach Befund Kleihauer-Betke-Test bei der Mutter, Sonographie (Schädel, Abdomen), Infektionsdiagnostik, Enzym- und Membranuntersuchungen (vor Transfusion Blut asservieren!).",
+      "keyPoints": [
+        "Einteilung: Blutverlust, Hämolyse, verminderte Bildung",
+        "Coombs-positiv vs. Coombs-negativ hämolytisch",
+        "Retikulozyten trennen Bildungsstörung von Verlust/Hämolyse",
+        "Basisdiagnostik: BB, Retikulozyten, Ausstrich, Blutgruppen, DAT, Bilirubin",
+        "Vor Transfusion Material asservieren"
+      ],
+      "tags": ["Anämie", "Hämolyse", "Differenzialdiagnose"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    }
+  ]
+}

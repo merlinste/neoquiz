@@ -1,0 +1,642 @@
+{
+  "area": "sinnesorgane",
+  "questions": [
+    {
+      "id": "sinn-001",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erklären Sie die **Pathophysiologie der Frühgeborenen-Retinopathie (ROP)** anhand des Zwei-Phasen-Modells. Welche Rolle spielen VEGF, IGF-1 und Sauerstoff?",
+      "hints": [
+        "Phase 1: Wachstumsstopp der Netzhautgefäße.",
+        "Phase 2: Neovaskularisation durch Hypoxie der avaskulären Netzhaut."
+      ],
+      "answer": "Die Netzhautgefäße wachsen intrauterin von der Papille zur Peripherie und erreichen die nasale Ora serrata etwa um 36, die temporale um 40 SSW. **Phase 1 (nach Geburt bis ca. 30–32 Wochen postmenstruell):** Die extrauterine, relativ hyperoxische Umgebung (und zusätzliche O2-Gabe) supprimiert **VEGF**; zugleich fehlt mütterliches **IGF-1** – das physiologische Gefäßwachstum stoppt, teils kommt es zur Vasoobliteration. **Phase 2 (ab ca. 32–34 Wochen postmenstruell):** Die wachsende, aber avaskuläre periphere Netzhaut wird **hypoxisch**, VEGF steigt stark an, IGF-1 nimmt mit zunehmender Reife zu – es entsteht eine **pathologische extraretinale Neovaskularisation** an der Grenze zwischen vaskularisierter und avaskulärer Netzhaut, im Extremfall mit Traktionsablatio. Daraus folgen: Hyperoxie und Sättigungsschwankungen in Phase 1 vermeiden, gutes postnatales Wachstum fördern; Anti-VEGF-Therapie greift in Phase 2 ein.",
+      "keyPoints": [
+        "Vaskularisation von zentral nach peripher, abgeschlossen um den Termin",
+        "Phase 1: Hyperoxie → VEGF-Suppression, IGF-1-Mangel → Gefäßwachstumsstopp",
+        "Phase 2: Hypoxie der avaskulären Netzhaut → VEGF-Anstieg → Neovaskularisation",
+        "Konsequenz: Hyperoxie/Schwankungen vermeiden, Wachstum fördern, Anti-VEGF in Phase 2"
+      ],
+      "tags": ["ROP", "Pathophysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-002",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie die wichtigsten **Risikofaktoren der ROP** und die Maßnahmen, mit denen Sie als Neonatologin/Neonatologe das Risiko beeinflussen können.",
+      "hints": ["Unreife ist der stärkste Faktor.", "Sauerstoffzielbereiche – aber Achtung: zu niedrig ist auch schädlich."],
+      "answer": "**Risikofaktoren:** niedriges Gestationsalter und Geburtsgewicht (stärkste Faktoren), **Hyperoxie und Sättigungsschwankungen**, lange Beatmungs- und Sauerstoffdauer, **schlechte postnatale Gewichtszunahme** (niedriges IGF-1), Sepsis/Inflammation, NEC, Hyperglykämie, Transfusionen, BPD. **Beeinflussbar:** angemessene **SpO2-Zielbereiche** (in der Regel 90–95 %), konsequentes Vermeiden von Hyperoxie und Schwankungen (Alarmgrenzen, angepasste FiO2-Steuerung), wobei niedrigere Zielbereiche (85–89 %) zwar weniger ROP, aber mehr Todesfälle und NEC zur Folge hatten (NeOProM). Daneben **optimale Ernährung und Wachstum** (Muttermilch), Infektionsprävention, Vermeidung unnötiger Transfusionen, Normoglykämie. Die Gewichtszunahme kann über Vorhersagemodelle (z. B. WINROP) das Risiko mit abschätzen, ersetzt aber das Screening nicht.",
+      "keyPoints": [
+        "Unreife und niedriges Geburtsgewicht",
+        "Hyperoxie, Sättigungsschwankungen, lange O2-Therapie",
+        "Schlechtes Wachstum (IGF-1), Sepsis, NEC, Transfusionen",
+        "SpO2-Ziel 90–95 %; niedrigere Ziele erhöhen Mortalität (NeOProM)",
+        "Ernährung/Wachstum optimieren"
+      ],
+      "tags": ["ROP", "Risikofaktoren", "Prävention"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Frühgeborenen müssen nach der aktuellen deutschen Leitlinie **augenärztlich auf ROP gescreent** werden, und wer ist für die Organisation verantwortlich?",
+      "hints": [
+        "Die Gestationsaltersgrenze wurde bei der letzten Revision abgesenkt.",
+        "Ältere Frühgeborene werden bei zusätzlichem Risiko gescreent – denken Sie an die Dauer der Sauerstofftherapie."
+      ],
+      "answer": "Nach der S2k-Leitlinie „Augenärztliche Screening-Untersuchung bei Frühgeborenen“ (Revision 2020; Gültigkeit formal abgelaufen, Überarbeitung angekündigt) werden **alle Frühgeborenen mit einem Gestationsalter < 31+0 SSW** (bei unsicherem Gestationsalter: Geburtsgewicht < 1500 g) **unabhängig von einer Sauerstofftherapie** gescreent (zuvor < 32+0 SSW). **Alle übrigen Frühgeborenen (< 37+0 SSW)** werden gescreent, wenn sie nach Einschätzung der behandelnden Neonatologie ein ROP-Risiko haben, z. B. bei **postnataler Sauerstoffgabe über mehr als 5 Tage oder ECMO** oder bei relevanten Begleiterkrankungen (z. B. schwere NEC, BPD, Sepsis, transfusionsbedürftige Anämie). Die **Verantwortung für die Einleitung** und für die lückenlose Fortführung liegt bei der behandelnden Neonatologie: Termine organisieren, Befunde und nächste Termine im Verlegungs- bzw. Entlassbrief dokumentieren, den ersten Termin nach Entlassung bei ROP-erfahrenen Augenärztinnen/-ärzten vereinbaren und die Eltern über Bedeutung und Termine informieren, damit das Screening nach Entlassung oder Verlegung nicht abbricht.",
+      "keyPoints": [
+        "Alle FG < 31+0 SSW unabhängig von O2 (bei unsicherem GA: < 1500 g)",
+        "FG < 37+0 SSW mit Risiko nach Einschätzung der Neonatologie: O2 > 5 Tage, ECMO, schwere Komorbidität",
+        "Verantwortung für Einleitung und Fortführung bei der Neonatologie",
+        "Termine im Entlassbrief, erster Termin nach Entlassung vereinbart, Eltern informieren"
+      ],
+      "tags": ["ROP", "Screening"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-010 Augenärztliche Screening-Untersuchung bei Frühgeborenen (Fassung 2020)"
+    },
+    {
+      "id": "sinn-004",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Wann soll die **erste ROP-Screening-Untersuchung** bei einem Frühgeborenen nach der deutschen Leitlinie stattfinden?",
+      "hints": ["Kombination aus postnatalem und postmenstruellem Alter."],
+      "options": [
+        { "text": "Am 7. Lebenstag, unabhängig vom Gestationsalter", "correct": false },
+        {
+          "text": "In der 6. postnatalen Woche, jedoch nicht vor 31 Wochen postmenstruellem Alter",
+          "correct": true
+        },
+        { "text": "Erst beim Erreichen von 36 Wochen postmenstruellem Alter", "correct": false },
+        { "text": "Unmittelbar vor der Entlassung", "correct": false }
+      ],
+      "answer": "Die erste Untersuchung erfolgt in der **6. postnatalen Woche (36.–42. Lebenstag), aber nicht vor einem postmenstruellen Alter von 31+0 Wochen**; auch bei extrem unreifen Frühgeborenen ist ein Beginn mit 31+0 Wochen ausreichend früh. Damit wird sie bei den unreifsten Kindern am postmenstruellen Alter, bei reiferen am Lebensalter ausgerichtet; eine behandlungsbedürftige ROP entsteht typischerweise erst ab etwa 32–34 Wochen postmenstruell. Zu frühe Untersuchungen belasten das Kind ohne Zusatznutzen, zu späte gefährden das rechtzeitige Erkennen.",
+      "keyPoints": [
+        "6. postnatale Woche (36.–42. Lebenstag)",
+        "Nicht vor 31 Wochen postmenstruell",
+        "Behandlungsbedürftige ROP meist ab 32–34 Wochen PMA"
+      ],
+      "tags": ["ROP", "Screening"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-010 Augenärztliche Screening-Untersuchung bei Frühgeborenen (Fassung 2020)"
+    },
+    {
+      "id": "sinn-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie den **Ablauf einer ROP-Screening-Untersuchung** auf Ihrer Station. Was müssen Sie als Neonatologin/Neonatologe vorbereiten und überwachen, und wie lange wird gescreent?",
+      "hints": ["Weitstellung der Pupillen, Schmerzreduktion, Monitoring.", "Wann ist das Screening beendet?"],
+      "answer": "**Vorbereitung:** Pupillenerweiterung mit mydriatischen Augentropfen (niedrig konzentrierte Kombination nach Hausstandard, z. B. Phenylephrin und Tropicamid) ca. 30–60 min vorher; Nahrungspause bzw. zeitliche Abstimmung mit der Mahlzeit nach Standard. **Durchführung:** durch eine in der ROP-Diagnostik erfahrene Augenärztin/einen Augenarzt mittels **indirekter binokularer Ophthalmoskopie** mit Lidsperrer und Skleraindentation (alternativ Weitwinkel-Fundusfotografie). **Schmerz/Stress:** orale Saccharose oder Muttermilch, Einwickeln, nicht-nutritives Saugen, Lokalanästhetikum-Augentropfen. **Monitoring:** Apnoen, Bradykardien und Sättigungsabfälle sind häufig, auch noch Stunden danach – Überwachung und Sauerstoffbereitschaft, ggf. Atemunterstützung. **Dokumentation:** Zone, Stadium, Plus-Zeichen, Ausdehnung, nächster Termin. **Intervalle** laut Leitlinie grundsätzlich **2 Wochen**; **wöchentlich** (bei rascher Progression auch kürzer), wenn die Vaskularisationsgrenze in Zone I oder hinterer Zone II liegt, bei Stadium 2 oder 3 in vorderer Zone II oder bei jeder Plus-Erkrankung; **3 Wochen**, wenn die Vaskularisationsgrenze ohne ROP in Zone III liegt; Verlängerung um eine weitere Woche möglich bei Befundbesserung über mehrere Untersuchungen oder nach dem errechneten Termin. **Ende des Screenings** (ohne Behandlung): bei **zirkulär vollständig vaskularisierter peripherer Netzhaut** oder bei **eindeutiger Regression** der ROP-Veränderungen, letzteres aber erst **nach dem errechneten Termin** – unabhängig davon, ob das Kind noch stationär ist.",
+      "keyPoints": [
+        "Mydriasis mit niedrig dosierten Tropfen",
+        "Indirekte Ophthalmoskopie durch erfahrene Augenärzte",
+        "Schmerzreduktion (Saccharose, Einwickeln, Lokalanästhetikum)",
+        "Monitoring auf Apnoen/Bradykardien auch nach der Untersuchung",
+        "Intervall grundsätzlich 2 Wochen, wöchentlich bei Zone I/hinterer Zone II/Plus, 3 Wochen bei Zone III ohne ROP; Ende bei vollständiger Vaskularisation oder Regression nach dem Termin"
+      ],
+      "tags": ["ROP", "Screening", "Durchführung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie 024-010 Augenärztliche Screening-Untersuchung bei Frühgeborenen (Fassung 2020)"
+    },
+    {
+      "id": "sinn-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **Klassifikation der ROP nach ICROP (3. Revision, 2021)**: Zonen, Stadien, Plus-Erkrankung und A-ROP.",
+      "hints": ["Drei Zonen um die Papille, neu: hintere Zone II.", "Stadien 1–5, Stadium 4 und 5 mit Unterteilungen."],
+      "answer": "**Zonen:** Zone I = Kreis um die Papille mit dem Radius des doppelten Abstands Papille–Fovea; **hintere Zone II** (neu): Bereich von zwei Papillendurchmessern peripher der Zone-I-Grenze; Zone II bis zur nasalen Ora serrata; Zone III = temporaler Sichelbereich. **Stadien:** 1 Demarkationslinie; 2 prominente Leiste (Ridge); 3 extraretinale fibrovaskuläre Proliferation; 4 partielle Netzhautablösung (4A ohne, 4B mit Fovea); 5 totale Ablösung (5A Papille noch sichtbar/offener Trichter, 5B Papille durch retrolentales Gewebe bzw. geschlossenen Trichter nicht sichtbar, 5C zusätzlich Veränderungen des vorderen Augenabschnitts). **Plus-Erkrankung:** Dilatation und Tortuositas der Gefäße innerhalb von Zone I; nach ICROP3 nicht mehr an eine Mindestzahl von Quadranten gebunden, sondern als Kontinuum von normal über **Präplus** bis Plus beschrieben. **A-ROP (aggressive ROP)**, früher AP-ROP: rasch progrediente Form mit ausgeprägter Plus-Erkrankung und flacher Neovaskularisation, meist in Zone I/hinterer Zone II, auch bei reiferen Kindern möglich; ohne die übliche Stadienabfolge. Zusätzlich werden Ausdehnung in Uhrzeiten, Regression und Reaktivierung beschrieben.",
+      "keyPoints": [
+        "Zone I: Radius doppelter Papille-Fovea-Abstand; hintere Zone II neu",
+        "Stadien 1–5 (Demarkationslinie, Leiste, extraretinale Proliferation, Teil-/Totalablatio)",
+        "Plus/Präplus als Kontinuum, beurteilt an den Gefäßen in Zone I (keine Quadrantenregel mehr)",
+        "A-ROP: aggressiv, zentral, ohne Stadienabfolge",
+        "Ausdehnung, Regression, Reaktivierung"
+      ],
+      "tags": ["ROP", "Klassifikation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-007",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welcher Befund ist eine **Behandlungsindikation (Typ-1-ROP nach ETROP)**?",
+      "hints": ["Plus-Erkrankung ist entscheidend, in Zone I auch Stadium 3 ohne Plus."],
+      "options": [
+        { "text": "Zone II, Stadium 3 ohne Plus-Erkrankung", "correct": false },
+        { "text": "Zone I, Stadium 2 ohne Plus-Erkrankung", "correct": false },
+        { "text": "Zone II, Stadium 2 mit Plus-Erkrankung", "correct": true },
+        { "text": "Zone III, Stadium 3 ohne Plus-Erkrankung", "correct": false }
+      ],
+      "answer": "**Typ-1-ROP** (behandlungsbedürftig): Zone I jedes Stadium **mit** Plus; Zone I Stadium 3 **ohne** Plus; **Zone II Stadium 2 oder 3 mit Plus**. Die Behandlung soll zeitnah erfolgen (in der Regel innerhalb weniger Tage, häufig ≤ 48–72 h); A-ROP ist besonders dringlich (möglichst sofort, teils innerhalb von 24 h). Hinweis: Die deutsche Leitlinie (2020) nennt für Zone II als spätesten Behandlungszeitpunkt Stadium 3 mit Plus (Schwellenstadium) und hält eine frühere Behandlung von Stadium 3+ für sinnvoll; die ETROP-Typ-1-Definition schließt Zone II Stadium 2 mit Plus ein. **Typ-2-ROP** (engmaschige Kontrolle): Zone I Stadium 1–2 ohne Plus, Zone II Stadium 3 ohne Plus. Zone-III-Befunde ohne Plus bilden sich meist spontan zurück.",
+      "keyPoints": [
+        "Typ 1: Zone I mit Plus, Zone I Stadium 3, Zone II Stadium 2–3 mit Plus",
+        "Behandlung zeitnah, A-ROP besonders dringlich",
+        "Typ 2: engmaschige Kontrolle"
+      ],
+      "tags": ["ROP", "Therapieindikation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-008",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Vergleichen Sie **Laserkoagulation und intravitreale Anti-VEGF-Therapie** bei behandlungsbedürftiger ROP: Wirkprinzip, Vor- und Nachteile, Zulassungssituation.",
+      "hints": [
+        "Ablation der avaskulären Netzhaut versus VEGF-Hemmung.",
+        "Was passiert mit der Netzhautperipherie nach Anti-VEGF?"
+      ],
+      "answer": "**Laserkoagulation:** Verödung der avaskulären peripheren Netzhaut, dadurch Wegfall der VEGF-Quelle; dauerhaft wirksam, geringe Reaktivierungsrate. Nachteile: Durchführung meist in Analgosedierung/Narkose und mit längerer Dauer, irreversible Zerstörung peripherer Netzhaut (Gesichtsfeldeinschränkung), höhere Rate an **Myopie**; bei Zone I und A-ROP weniger wirksam. **Anti-VEGF intravitreal:** rasche Rückbildung der Plus-Erkrankung, kurze Prozedur, **weitere physiologische Vaskularisation** der Peripherie möglich, weniger Myopie, Vorteile vor allem bei **Zone I und A-ROP** (BEAT-ROP: Vorteil für Bevacizumab in Zone I, nicht in Zone II). Nachteile: **Spätreaktivierungen** mit der Notwendigkeit langer, engmaschiger Nachkontrollen; systemische Resorption mit VEGF-Suppression – mögliche Langzeitfolgen (u. a. Neuroentwicklung) sind nicht abschließend geklärt; Endophthalmitisrisiko. **Zulassung:** Ranibizumab ist seit 2019 in der EU für ROP zugelassen (RAINBOW-Studie), inzwischen auch Aflibercept (FIREFLEYE); Bevacizumab wird off-label eingesetzt. Die deutsche Screening-Leitlinie (2020) nennt noch nur Ranibizumab als zugelassen. Die Wahl erfolgt individuell durch erfahrene Ophthalmologen nach Befund und Aufklärung der Eltern; Vitrektomie bei Stadium 4/5.",
+      "keyPoints": [
+        "Laser: ablativ, dauerhaft, Myopie, Gesichtsfeldverlust, Narkose",
+        "Anti-VEGF: schnell, periphere Vaskularisation möglich, Vorteil bei Zone I/A-ROP",
+        "Anti-VEGF: Spätreaktivierung, lange Nachkontrollen, systemische Effekte unklar",
+        "Ranibizumab (und Aflibercept) zugelassen, Bevacizumab off-label",
+        "Vitrektomie bei Stadium 4/5"
+      ],
+      "tags": ["ROP", "Therapie", "Anti-VEGF"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-009",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes der 24+3 SSW wurde mit 34 Wochen postmenstruell wegen ROP Zone I mit Plus **intravitreal mit Anti-VEGF behandelt** und soll jetzt mit 39 Wochen nach Hause entlassen werden. Was müssen Sie bei der Entlassung organisieren und mit den Eltern besprechen? Welche **augenärztlichen Langzeitfolgen** sind zu beachten?",
+      "hints": ["Reaktivierungen können spät auftreten.", "Auch ohne Ablatio sind Folgen für das Sehen häufig."],
+      "answer": "Nach Anti-VEGF-Therapie kann die ROP **noch Wochen bis Monate später reaktivieren** – oft nach dem errechneten Termin, wenn das Kind schon zu Hause ist. Daher: **feste augenärztliche Kontrolltermine** vor Entlassung vereinbaren und im Entlassbrief dokumentieren (Befund, Therapie, Datum, nächste Kontrolle, verantwortliche Augenklinik), Eltern **ausdrücklich über die Bedeutung** der Termine aufklären (Erblindungsgefahr bei verpasster Reaktivierung), Erreichbarkeit sicherstellen; Kontrollen bis zur vollständigen Vaskularisation oder ggf. ergänzende Laserbehandlung. Ggf. sozialmedizinische Nachsorge einbinden. **Langzeitfolgen** (auch nach Laser oder spontan regredienter ROP): **Myopie**, **Strabismus**, **Amblyopie**, Anisometropie, späte Netzhautablösung, zerebrale Sehstörungen bei Hirnschädigung – daher augenärztliche Verlaufsuntersuchungen im ersten Lebensjahr und darüber hinaus.",
+      "keyPoints": [
+        "Spätreaktivierung nach Anti-VEGF, oft nach Entlassung",
+        "Feste Kontrolltermine vor Entlassung, Dokumentation im Brief",
+        "Eltern über Erblindungsrisiko bei verpassten Terminen aufklären",
+        "Langzeitfolgen: Myopie, Strabismus, Amblyopie, späte Ablatio",
+        "Augenärztliche Nachsorge über das 1. Lebensjahr hinaus"
+      ],
+      "tags": ["ROP", "Anti-VEGF", "Nachsorge"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem Frühgeborenen der 25+1 SSW (jetzt 33+2 Wochen postmenstruell) findet die Augenärztin am Freitagnachmittag eine **A-ROP beidseits**. In Ihrer Klinik ist keine ROP-Therapie möglich. Was tun Sie?",
+      "hints": ["Wie dringlich ist die Behandlung?", "Organisation, Transport, Eltern."],
+      "answer": "Eine A-ROP ist hochdringlich und kann innerhalb weniger Tage zur Netzhautablösung führen; die Behandlung soll laut Leitlinie **so rasch wie möglich (teils innerhalb von 24 h)** erfolgen – auch am Wochenende; schon wenige Tage Verzögerung können zum Therapieversagen führen. Vorgehen: unmittelbare Kontaktaufnahme mit einem **ROP-Behandlungszentrum** (Augenklinik mit Erfahrung in Anti-VEGF/Laser und neonatologischer Mitbetreuung), Übermittlung der Befunde (ggf. Fundusbilder), **Verlegung bzw. Transport** planen (Atemunterstützung, Transportrisiko gegen Dringlichkeit abwägen) oder Behandlung vor Ort durch ein externes Team, falls etabliert. Bei A-ROP wird häufig eine **Anti-VEGF-Therapie** bevorzugt. **Eltern** zeitnah aufklären: Diagnose, Dringlichkeit, Behandlungsoptionen, Risiken, Einwilligung (Off-Label-Aspekte, falls zutreffend). Lückenlose Dokumentation und Absprache der Nachkontrollen und Rückverlegung.",
+      "keyPoints": [
+        "A-ROP hochdringlich, Behandlung so rasch wie möglich (teils innerhalb 24 h)",
+        "Sofort Kontakt zu ROP-Behandlungszentrum, auch am Wochenende",
+        "Verlegung/Transport planen oder externes Team",
+        "Häufig Anti-VEGF bei A-ROP",
+        "Elternaufklärung und Einwilligung, Nachkontrollen festlegen"
+      ],
+      "tags": ["ROP", "A-ROP", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-011",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Das **Neugeborenen-Hörscreening** eines Kindes ist im Erstscreening rechts auffällig. Wie ist das weitere Vorgehen nach der **Kinder-Richtlinie**, und welche Fristen gelten?",
+      "hints": [
+        "Kontrolle – mit welcher Methode und in welchem Zeitfenster?",
+        "Bis wann soll die Diagnose stehen, bis wann die Versorgung?"
+      ],
+      "answer": "Ein auffälliges Erstscreening (TEOAE oder AABR; auffällig ist eine ein- oder beidseitige Hörschwelle ≥ 35 dB) ist **kein Befund einer Hörstörung**, sondern eine Indikation zur Kontrolle. Nach der Kinder-Richtlinie (Änderung durch G-BA-Beschluss vom 18.06.2026, in Kraft seit 20.08.2026) erfolgt eine **Kontrolluntersuchung an beiden Ohren frühestens 5 Stunden nach der Erstuntersuchung und spätestens bis zur U2**, und zwar **mit derselben Methode wie die Erstuntersuchung** (bisher war ausschließlich eine Kontroll-AABR vorgesehen); pro Ohr sind höchstens drei Testversuche zulässig. Bei Risikokindern wird von vornherein die AABR verwendet. Ist auch die Kontrolle auffällig, muss eine **umfassende pädaudiologische Konfirmationsdiagnostik bis zur 12. Lebenswoche** erfolgen. Ziel (internationaler 1-3-6-Standard) ist der **Therapiebeginn (z. B. Hörgeräteversorgung) bis spätestens zum 6. Lebensmonat**, da Hörbahnreifung und Sprachentwicklung davon abhängen. Ergebnisse werden im Gelben Heft dokumentiert, die Nachverfolgung erfolgt über regionale Screeningzentralen (Tracking). Das Erstscreening soll bis zum 3. Lebenstag erfolgen, bei Frühgeborenen spätestens zum errechneten Termin.",
+      "keyPoints": [
+        "Auffälliges Erstscreening (≥ 35 dB, auch einseitig) = Kontrollindikation",
+        "Kontrolluntersuchung beidseits, ≥ 5 h nach Erstuntersuchung, spätestens bis U2, mit derselben Methode (seit 08/2026)",
+        "Pädaudiologische Konfirmationsdiagnostik bis 12. Lebenswoche",
+        "Therapiebeginn bis spätestens 6. Lebensmonat",
+        "Dokumentation und Tracking"
+      ],
+      "tags": ["Hörscreening", "Kinder-Richtlinie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.19 – Hörscreening",
+          "terms": ["Hörscreening"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie (Neugeborenen-Hörscreening, Änderung vom 18.06.2026)"
+    },
+    {
+      "id": "sinn-012",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie **Risikofaktoren für eine kindliche Hörstörung** bei Neugeborenen einer Intensivstation. Warum wird bei diesen Kindern die **AABR** statt der OAE eingesetzt?",
+      "hints": ["Denken Sie an die Hörbahn jenseits der Cochlea.", "Auditorische Neuropathie."],
+      "answer": "**Risikofaktoren:** familiäre Hörstörung, **konnatale Infektionen (v. a. CMV**, auch Toxoplasmose, Röteln, Lues), kraniofaziale Fehlbildungen und Syndrome (z. B. CHARGE, Trisomie 21), **schwere Hyperbilirubinämie** (v. a. mit Austauschtransfusion), **Asphyxie/HIE**, extreme Unreife, längere Intensivbehandlung und Beatmung, **ototoxische Medikamente** (Aminoglykoside, Schleifendiuretika), ECMO, bakterielle Meningitis. Die **OAE** prüft nur die Funktion der äußeren Haarzellen der Cochlea. Bei Risikokindern kommt gehäuft eine **auditorische Neuropathie/Synaptopathie** vor (Störung von inneren Haarzellen, Synapse oder Hörnerv), bei der die OAE normal, die **AABR** aber pathologisch ist. Deshalb ist bei Risikokindern laut Kinder-Richtlinie ausschließlich die AABR vorgesehen (auch für die Kontrolluntersuchung, die mit derselben Methode erfolgt).",
+      "keyPoints": [
+        "Familienanamnese, CMV und andere konnatale Infektionen",
+        "Hyperbilirubinämie, Asphyxie, Unreife, Beatmung, ECMO, Meningitis",
+        "Ototoxische Medikamente, Syndrome/Fehlbildungen",
+        "OAE prüft nur äußere Haarzellen",
+        "Auditorische Neuropathie nur mit AABR erfassbar"
+      ],
+      "tags": ["Hörscreening", "Risikofaktoren", "Auditorische Neuropathie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.19 – Hörscreening",
+          "terms": ["Hörscreening"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "sinn-013",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hatte eine **schwere Hyperbilirubinämie mit Austauschtransfusion**. Die TEOAE sind beidseits unauffällig, die AABR ist beidseits auffällig. Welche Diagnose ist am wahrscheinlichsten?",
+      "hints": ["Die Cochlea funktioniert – wo liegt dann die Störung?"],
+      "options": [
+        { "text": "Schallleitungsschwerhörigkeit durch Fruchtwasser im Mittelohr", "correct": false },
+        { "text": "Auditorische Neuropathie/Synaptopathie", "correct": true },
+        { "text": "Sensorineurale Schwerhörigkeit mit Ausfall der äußeren Haarzellen", "correct": false },
+        { "text": "Normalbefund, da unauffällige OAE eine Hörstörung ausschließen", "correct": false }
+      ],
+      "answer": "Normale OAE bei pathologischer AABR sprechen für eine **auditorische Neuropathie/Synaptopathie**: Die äußeren Haarzellen funktionieren, die Weiterleitung über innere Haarzellen, Synapse oder Hörnerv ist gestört. Bilirubin ist ein klassischer Auslöser (Schädigung des Hirnstamms und der Hörbahn), ebenso Hypoxie und Unreife. Diese Störung wird durch ein reines OAE-Screening übersehen. Konsequenz: pädaudiologische Konfirmationsdiagnostik; der Verlauf ist variabel, teils mit Besserung.",
+      "keyPoints": [
+        "OAE normal + AABR pathologisch = auditorische Neuropathie",
+        "Bilirubin, Hypoxie, Unreife als Ursachen",
+        "Wird durch OAE-Screening übersehen",
+        "Pädaudiologische Abklärung"
+      ],
+      "tags": ["Hörscreening", "Auditorische Neuropathie", "Hyperbilirubinämie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.19 – Hörscreening",
+          "terms": ["Hörscreening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit **konnataler CMV-Infektion** hat das Hörscreening beidseits bestanden. Die Eltern fragen, ob damit das Gehör in Ordnung ist. Was antworten Sie, und welche **Nachsorge** planen Sie?",
+      "hints": ["CMV-bedingte Hörstörungen können später auftreten oder fortschreiten."],
+      "answer": "Ein bestandenes Screening schließt eine **spätere oder progrediente Hörstörung** nicht aus. Die konnatale CMV-Infektion ist die **häufigste nicht-genetische Ursache** einer sensorineuralen Schwerhörigkeit im Kindesalter; der Hörverlust kann sich **verzögert entwickeln, fluktuieren oder fortschreiten**, auch bei initial asymptomatischen Kindern. Deshalb: **regelmäßige pädaudiologische Verlaufskontrollen** in den ersten Lebensjahren (engmaschig im ersten Lebensjahr, danach in größeren Abständen bis ins Vorschulalter, Schema je nach Zentrum), Eltern auf Warnzeichen hinweisen (fehlende Reaktion auf Geräusche, verzögerte Sprachentwicklung). Bei symptomatischer cCMV wird eine antivirale Therapie mit Valganciclovir in einem infektiologischen Zentrum erwogen; Indikation und Vorgehen gehören zum Gebiet der Infektionen. Ebenso Augenkontrollen und Entwicklungsnachsorge.",
+      "keyPoints": [
+        "Bestandenes Screening schließt späte/progrediente Hörstörung nicht aus",
+        "CMV häufigste nicht-genetische Ursache sensorineuraler Schwerhörigkeit",
+        "Regelmäßige pädaudiologische Kontrollen über Jahre",
+        "Eltern auf Warnzeichen hinweisen",
+        "Antivirale Therapie bei symptomatischer cCMV im Zentrum erwägen"
+      ],
+      "tags": ["Hörstörung", "CMV", "Nachsorge"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.19 – Hörscreening",
+          "terms": ["Hörscreening"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Besonderheiten hat die **Haut sehr unreifer Frühgeborener**, und welche **Pflegemaßnahmen** leiten Sie daraus ab?",
+      "hints": ["Stratum corneum, transepidermaler Wasserverlust.", "Pflaster, Antiseptika, Luftfeuchtigkeit."],
+      "answer": "**Besonderheiten:** sehr dünnes, kaum ausgebildetes **Stratum corneum**, schwache dermo-epidermale Verbindung, hoher **transepidermaler Wasser- und Wärmeverlust**, erhöhte **Resorption** von Substanzen (Toxizität), leichte Verletzbarkeit und Eintrittspforte für Erreger. Die Barriere reift postnatal innerhalb einiger Wochen nach. **Pflege:** Plastikfolie/-beutel bei der Erstversorgung, **Inkubator mit hoher Luftfeuchtigkeit** in den ersten Lebenstagen, danach schrittweise Reduktion (Zielwerte je nach Zentrum); **Pflaster minimieren**, hautschonende Fixierungen (Silikon, Hydrokolloid), Pflaster langsam und mit Hilfsmitteln lösen; Sensoren regelmäßig umsetzen (Druck- und Verbrennungsgefahr); Hautantiseptik mit geeignetem Präparat nach Hausstandard und KRINKO, **keine Pfützen alkoholischer Lösungen** unter dem Kind, **keine jodhaltigen Antiseptika** (Hypothyreose); keine routinemäßigen Öl-/Salbenanwendungen bei extrem unreifen Kindern (in Studien mehr Infektionen); seltenes, schonendes Baden; Lagerungsmaterialien gegen Druckstellen; Paravasate früh erkennen.",
+      "keyPoints": [
+        "Dünnes Stratum corneum, hoher transepidermaler Wasserverlust, erhöhte Resorption",
+        "Hohe Luftfeuchtigkeit initial, dann reduzieren",
+        "Pflaster minimieren, hautschonende Fixierung, Sensoren umsetzen",
+        "Keine Jodpräparate, keine alkoholischen Pfützen",
+        "Keine routinemäßigen Emollienzien bei extrem Unreifen"
+      ],
+      "tags": ["Haut", "Frühgeborene", "Pflege"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes hat bei Geburt **Blasen und Erosionen** an Händen, Füßen und Knien, an Stellen mechanischer Belastung entstehen neue Blasen. Wie gehen Sie in der **Erstversorgung** vor, welche Differenzialdiagnosen bedenken Sie, und wie wird die Diagnose gesichert?",
+      "hints": ["Reibung vermeiden – auch beim Hochheben.", "Spaltebene der Haut bestimmt den Typ."],
+      "answer": "Verdacht auf **Epidermolysis bullosa (EB)**. **Erstversorgung:** jede Reibung und Scherkraft vermeiden – Kind nicht unter den Achseln hochheben, sondern auf flacher Hand bzw. weicher Unterlage (Nacken und Gesäß) tragen; **keine Klebepflaster** auf der Haut, Elektroden/Zugänge mit Silikonmaterial oder Verbänden fixieren, Blutdruckmanschette polstern; **Blasen steril anstechen** und das Blasendach belassen; **nicht haftende Wundauflagen** (z. B. Silikon, Fettgaze) mit weicher Polsterung; keine Kleidung mit Nähten nach innen, Kind ggf. ohne Windelbund. Schmerztherapie, Infektionsüberwachung, Wärme, Ernährung mit weichem Sauger (Mundschleimhaut!). Frühzeitig Kontakt mit einem **EB-Zentrum**. **DD:** bullöse Impetigo/SSSS, HSV, konnatale Lues, Inkontinentia pigmenti, Mastozytose, Aplasia cutis, Verbrennung/Verletzung. **Diagnosesicherung:** Hautbiopsie einer frisch induzierten Blase (Immunfluoreszenz-Mapping, ggf. Elektronenmikroskopie) zur Bestimmung der Spaltebene (simplex, junktional, dystroph, Kindler) und **molekulargenetische Diagnostik**; genetische Beratung.",
+      "keyPoints": [
+        "Keine Reibung/Scherkräfte, nicht unter den Achseln heben",
+        "Keine Pflaster, nicht haftende Verbände, Blasen anstechen und Dach belassen",
+        "Schmerz, Infektion, Ernährung beachten; EB-Zentrum einbeziehen",
+        "DD: bullöse Impetigo/SSSS, HSV, Lues, Inkontinentia pigmenti",
+        "Biopsie (Immunfluoreszenz-Mapping) und Genetik"
+      ],
+      "tags": ["Epidermolysis bullosa", "Haut"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie den **natürlichen Verlauf infantiler Hämangiome** und nennen Sie die Konstellationen, bei denen eine **frühzeitige Behandlung** bzw. Vorstellung in einem spezialisierten Zentrum notwendig ist.",
+      "hints": [
+        "Die stärkste Wachstumsphase liegt in den ersten Lebensmonaten.",
+        "Lokalisation entscheidet über Funktion und Komplikationen."
+      ],
+      "answer": "Infantile Hämangiome sind bei Geburt meist **nicht oder nur als Vorläuferläsion** (Teleangiektasien, blasser Fleck) sichtbar, **wachsen in den ersten Lebensmonaten rasch** (größter Teil des Wachstums in den ersten ca. 3 Monaten) und **bilden sich dann über Jahre zurück**, oft mit Residuen (Fibrofettgewebe, Teleangiektasien, schlaffe Haut). Frühgeborene, Mädchen und Mehrlinge sind häufiger betroffen; histologisch GLUT1-positiv. **Frühe Behandlung/Zentrum bei:** **periokulärer** Lage (Amblyopiegefahr), **Atemwege** (Bartverteilung – subglottisches Hämangiom, Stridor), **Lippe, Nase, Ohr** (Entstellung), **Ulzeration** (Schmerz, Narben; Anogenitalregion), **segmentale Gesichtshämangiome** (PHACE-Syndrom), **lumbosakrale** Hämangiome (spinale Dysraphie, LUMBAR), **rasch wachsende große Hämangiome**, **multiple Hämangiome (≥ 5)** mit Frage nach Leberbeteiligung (Sonographie; Herzinsuffizienz, Hypothyreose). Die Vorstellung sollte früh in der Wachstumsphase erfolgen.",
+      "keyPoints": [
+        "Bei Geburt fehlend oder Vorläufer, rasches Wachstum in den ersten Monaten, langsame Regression",
+        "Risiko: Frühgeborene, Mädchen, Mehrlinge",
+        "Hochrisiko: periokulär, Atemwege, Gesicht/zentrofazial, Ulzeration",
+        "Segmental (PHACE), lumbosakral (Dysraphie)",
+        "≥ 5 Hämangiome → Lebersonographie"
+      ],
+      "tags": ["Hämangiom", "Haut"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-018",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein 8 Wochen alter Säugling (**4,2 kg**) mit periokulärem infantilem Hämangiom erhält **Propranolol-Lösung 3,75 mg/ml**. Die Erhaltungsdosis beträgt laut Fachinformation **3 mg/kg/Tag, aufgeteilt auf 2 Einzeldosen**. Wie viele Milliliter erhält das Kind **pro Einzeldosis**?",
+      "hints": ["Erst Tagesdosis, dann Einzeldosis, dann Volumen.", "3 mg/kg/d × kg ÷ 2 ÷ 3,75 mg/ml"],
+      "answer": "Tagesdosis: 3 mg/kg/d · 4,2 kg = 12,6 mg/d. Einzeldosis: 12,6 / 2 = 6,3 mg. Volumen: 6,3 mg / 3,75 mg/ml = **1,68 ml pro Einzeldosis** (ca. 1,7 ml), zweimal täglich zu bzw. direkt nach einer Mahlzeit. Laut Fachinformation wird aufdosiert: 1 mg/kg/d für eine Woche, 2 mg/kg/d für eine Woche, dann 3 mg/kg/d als Erhaltungsdosis über 6 Monate (Therapiebeginn im Alter von 5 Wochen bis 5 Monaten); bei Nahrungskarenz oder Erbrechen Dosis auslassen (Hypoglykämiegefahr), Herzfrequenz und Blutdruck nach der ersten Gabe und nach jeder Dosissteigerung (ca. 2 h) kontrollieren.",
+      "keyPoints": [
+        "Tagesdosis 12,6 mg",
+        "Einzeldosis 6,3 mg",
+        "Volumen 1,68 ml",
+        "Gabe mit Mahlzeit (Hypoglykämie), Kreislaufkontrollen bei Aufdosierung"
+      ],
+      "solution": { "value": 1.68, "unit": "ml", "tolerance": 0.04 },
+      "tags": ["Hämangiom", "Propranolol", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ],
+      "source": "Fachinformation Hemangiol (Propranolol)"
+    },
+    {
+      "id": "sinn-019",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein 3 Wochen alter Säugling hat ein **großflächiges segmentales Hämangiom** im Bereich der linken Stirn und Schläfe. Welche Abklärung ist vor Therapiebeginn am ehesten indiziert?",
+      "hints": ["Denken Sie an das Akronym PHACE(S)."],
+      "options": [
+        {
+          "text": "Keine Abklärung nötig, sofortiger Beginn mit Propranolol in Höchstdosis ambulant",
+          "correct": false
+        },
+        {
+          "text": "MRT/MR-Angiographie von Kopf und Hals, Echokardiographie (inkl. Aortenbogen) und augenärztliche Untersuchung",
+          "correct": true
+        },
+        { "text": "Ausschließlich Abdomensonographie der Leber", "correct": false },
+        { "text": "Hautbiopsie zur GLUT1-Färbung", "correct": false }
+      ],
+      "answer": "Großflächige **segmentale Gesichtshämangiome** sind mit dem **PHACE-Syndrom** assoziiert: **P**osterior-fossa-Fehlbildungen, **H**ämangiom, **A**rterielle Anomalien der Hirn- und Halsgefäße, **C**ardiale Fehlbildungen (v. a. Aortenisthmusstenose/Aortenbogenanomalien), **E**ye (Augenanomalien), ggf. **S**ternumdefekt/supraumbilikale Raphe. Vor einer Propranolol-Therapie sind daher **MRT/MRA von Kopf und Hals**, **Echokardiographie** und eine **augenärztliche Untersuchung** angezeigt, da hochgradige Gefäßstenosen unter Betablockade ein Schlaganfallrisiko bergen können (dann vorsichtigere Aufdosierung, Therapieentscheidung im Zentrum).",
+      "keyPoints": [
+        "Segmentales Gesichtshämangiom → PHACE-Abklärung",
+        "MRT/MRA Kopf und Hals, Echo inkl. Aortenbogen, Augenuntersuchung",
+        "Gefäßanomalien relevant für Propranolol-Sicherheit"
+      ],
+      "tags": ["Hämangiom", "PHACE"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-020",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie häufige **harmlose Hautbefunde des Neugeborenen** und erklären Sie, warum die Dokumentation **dermaler Melanozytosen** („Mongolenflecken“) wichtig ist.",
+      "hints": ["Erythema toxicum, Milien, Pustelmelanose …", "Blaugraue Flecken können mit Hämatomen verwechselt werden."],
+      "answer": "Harmlose, selbstlimitierende Befunde: **Erythema toxicum neonatorum** (erythematöse Maculae mit gelblichen Papeln/Pusteln, eosinophilenreich, ab ca. 2. Lebenstag), **transiente neonatale pustulöse Melanose** (bei Geburt vorhandene sterile Pusteln, hinterlassen pigmentierte Maculae; häufiger bei dunkler Haut), **Milien** und Talgdrüsenhyperplasie an Nase und Wangen, **Miliaria** (Wärmestau), **Storchenbiss** (Naevus simplex, Nacken/Stirn), physiologische Schuppung und Cutis marmorata. Wichtig ist die Abgrenzung zu infektiösen Pusteln (Staphylokokken, HSV, Candida). **Dermale Melanozytosen** sind blaugraue, unscharf begrenzte Flecken, meist lumbosakral und gluteal, aber auch an anderen Stellen; sie verändern sich nicht innerhalb von Tagen. Ihre **Dokumentation (Lokalisation, Größe, ggf. Foto)** in U-Heft und Akte ist wichtig, weil sie später mit **Hämatomen verwechselt** und fälschlich als Hinweis auf Misshandlung gedeutet werden können.",
+      "keyPoints": [
+        "Erythema toxicum, transiente pustulöse Melanose, Milien, Miliaria, Storchenbiss",
+        "Abgrenzung zu infektiösen Pusteln (Staphylokokken, HSV, Candida)",
+        "Dermale Melanozytose: blaugrau, stabil",
+        "Dokumentation wegen Verwechslung mit Hämatomen/Misshandlung"
+      ],
+      "tags": ["Haut", "Neugeborenes", "Dokumentation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes nach Asphyxie und therapeutischer Hypothermie entwickelt in der 2. Lebenswoche **derbe, rötlich-livide Knoten und Plaques an Rücken, Schultern und Gesäß**. Welche Diagnose stellen Sie, welche **Komplikation** müssen Sie überwachen, und wie behandeln Sie diese?",
+      "hints": ["Fettgewebe reagiert auf Kälte und Hypoxie.", "Ein Elektrolyt kann Wochen später entgleisen."],
+      "answer": "Es handelt sich um eine **subkutane Fettgewebsnekrose (Adiponecrosis subcutanea neonatorum)**; Risikofaktoren sind Asphyxie, **therapeutische Hypothermie**, Mekoniumaspiration, mütterlicher Diabetes, Geburtstrauma. Die Läsionen sind meist selbstlimitierend und bilden sich über Wochen bis Monate zurück; Verkalkungen oder Ulzerationen sind möglich. Wichtigste Komplikation ist die **Hyperkalzämie**, die **verzögert (Wochen bis Monate)** auftreten kann (u. a. durch vermehrte Calcitriol-Bildung in Granulomen) – daher **Kalziumkontrollen über mehrere Monate**, auch nach Entlassung. Behandlung der Hyperkalzämie: Hydratation, ggf. Furosemid, kalzium- und Vitamin-D-arme Ernährung bzw. Pausieren der Vitamin-D-Prophylaxe, bei schweren Verläufen Glukokortikoide oder Bisphosphonate (in Absprache mit Endokrinologie); Nephrokalzinose sonographisch kontrollieren. **DD:** Sklerema neonatorum (diffuse Verhärtung bei schwer krankem Kind, schlechte Prognose), Infektion/Abszess, Hämatom.",
+      "keyPoints": [
+        "Subkutane Fettgewebsnekrose, Risikofaktor Hypothermie/Asphyxie",
+        "Selbstlimitierend über Wochen bis Monate",
+        "Verzögerte Hyperkalzämie – Kalziumkontrollen über Monate",
+        "Therapie: Hydratation, Furosemid, kalzium-/Vitamin-D-arme Ernährung, ggf. Steroide/Bisphosphonate",
+        "DD: Sklerema neonatorum"
+      ],
+      "tags": ["Haut", "Fettgewebsnekrose", "Hyperkalzämie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "sinn-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei der U2 fällt Ihnen im **Brückner-Test** rechts ein **fehlender roter Fundusreflex mit weißlichem Pupillenreflex (Leukokorie)** auf. Welche Differenzialdiagnosen bedenken Sie, und wie dringlich ist die weitere Abklärung?",
+      "hints": ["Linse, Glaskörper, Netzhaut.", "Kritische Phase der Sehentwicklung."],
+      "answer": "Eine Leukokorie ist **immer dringend augenärztlich abzuklären** (innerhalb weniger Tage). **Differenzialdiagnosen:** **kongenitale Katarakt** (häufigste Ursache; idiopathisch, genetisch, konnatale Infektionen wie Röteln, Galaktosämie, Trisomie 21, andere Syndrome), **Retinoblastom** (lebensbedrohlich; bei positiver Familienanamnese Screening ab Geburt), **persistierende fetale Gefäßstrukturen (PFV/PHPV)**, **ROP Stadium 5**, Kolobom von Aderhaut/Netzhaut, Morbus Coats, Netzhautablösung, Glaskörperblutung. **Dringlichkeit:** Bei visusrelevanter kongenitaler Katarakt droht eine **Deprivationsamblyopie** und Nystagmus; die Operation erfolgt daher **in den ersten Lebenswochen** (einseitig besonders zeitkritisch), gefolgt von optischer Korrektur und Okklusionsbehandlung. Ergänzende Diagnostik nach Befund: Infektionsserologie, Stoffwechsel (Galaktosämie im Neugeborenenscreening), genetische Abklärung, Familienanamnese.",
+      "keyPoints": [
+        "Leukokorie = dringliche augenärztliche Abklärung",
+        "DD: Katarakt, Retinoblastom, PFV, ROP 5, Kolobom, Coats",
+        "Katarakt-Ursachen: genetisch, Röteln, Galaktosämie, Syndrome",
+        "Deprivationsamblyopie → Operation in den ersten Lebenswochen",
+        "Ergänzend Infektions-, Stoffwechsel-, genetische Diagnostik"
+      ],
+      "tags": ["Augenbefunde", "Leukokorie", "Katarakt"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "sinn-023",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein 2 Wochen alter Säugling zeigt **Tränenträufeln, Lichtscheu und Lidkrampf** rechts; die rechte Hornhaut wirkt größer und leicht trüb. Welche Diagnose müssen Sie vor allem ausschließen?",
+      "hints": ["Eine häufige Fehldiagnose ist die Tränenwegsstenose."],
+      "options": [
+        { "text": "Konnatale Tränenwegsstenose – Abwarten und Massage", "correct": false },
+        { "text": "Kongenitales Glaukom – dringliche augenärztliche Vorstellung", "correct": true },
+        { "text": "Konjunktivitis durch Chlamydien – lokale Antibiose", "correct": false },
+        { "text": "Physiologische Hornhauttrübung des Neugeborenen", "correct": false }
+      ],
+      "answer": "Die Trias **Epiphora, Photophobie und Blepharospasmus** mit **vergrößerter (Buphthalmus) und getrübter Hornhaut** ist typisch für ein **kongenitales Glaukom**. Es ist ein Notfall für die Augenheilkunde: Die Therapie ist **operativ** (z. B. Goniotomie oder Trabekulotomie), Medikamente dienen nur der Überbrückung; unbehandelt drohen Optikusschädigung und Erblindung. Assoziationen: Sturge-Weber-Syndrom (Feuermal im Versorgungsgebiet des N. ophthalmicus), Aniridie, Neurofibromatose, Röteln. Eine Tränenwegsstenose verursacht Tränen und Sekret, aber **keine Lichtscheu und keine Hornhautveränderungen**.",
+      "keyPoints": [
+        "Trias Epiphora, Photophobie, Blepharospasmus + große/trübe Hornhaut",
+        "Kongenitales Glaukom, operative Therapie",
+        "Assoziation Sturge-Weber, Aniridie",
+        "Tränenwegsstenose ohne Photophobie/Hornhautbefund"
+      ],
+      "tags": ["Augenbefunde", "Glaukom"],
+      "exam": ["KM"]
+    }
+  ]
+}

@@ -1,0 +1,1808 @@
+{
+  "area": "faelle",
+  "questions": [
+    {
+      "id": "fall-001",
+      "type": "case",
+      "difficulty": 3,
+      "question": "Eine 31-jährige Erstgebärende wird mit vorzeitigen Wehen bei **24+5 SSW** in Ihr Perinatalzentrum Level 1 aufgenommen. Die Lungenreifeinduktion ist abgeschlossen (2. Gabe vor 36 h), Magnesium wurde zur Neuroprotektion gegeben, kein Hinweis auf Amnioninfektionssyndrom. Die Eltern haben sich nach Beratung für eine lebenserhaltende Therapie entschieden. Ein Junge wird spontan geboren, Geburtsgewicht **680 g**. Wir begleiten das Kind vom Kreißsaal bis zur Entlassung.",
+      "hints": [
+        "Wärme, Atmung, Sauerstoff – in dieser Reihenfolge denken.",
+        "Typische Stationen im Verlauf: Infusion, Ductus, Netzhaut, Entlassung."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 6,
+          "question": "Wie bereiten Sie sich vor, und wie gestalten Sie die ersten Minuten der Versorgung (Wärme, Abnabelung, Atemunterstützung, Sauerstoff)?",
+          "answer": "Vorbereitung: erfahrenes Team mit klarer Rollenverteilung, Check von Beatmungsgerät/T-Stück, Masken, Absaugung, Laryngoskop und Tuben, Surfactant, Nabelkatheter-Set. Wärme: Raumtemperatur über 25 °C, vorgewärmte Reanimationseinheit, Kind ohne Abtrocknen in Plastikfolie/-beutel einhüllen, Mütze, ggf. Wärmematratze, Ziel-Körpertemperatur 36,5–37,5 °C, Hyperthermie vermeiden. Abnabelung: verzögert (mindestens 60 s), sofern das Kind keine sofortige Reanimation benötigt; Atemunterstützung kann bei intakter Nabelschnur beginnen, wenn die Ausrüstung dies erlaubt. Atmung: frühzeitig CPAP bzw. PEEP von 5–6 cm H2O über Maske; bei fehlender oder unzureichender Spontanatmung Blähbeatmung mit initial etwa 25 cm H2O, Kontrolle über Herzfrequenz und Thoraxexkursion. Sauerstoff: Start mit FiO2 0,30, Titration nach präduktaler SpO2 (rechte Hand) entsprechend den Zielwerten der ersten Minuten. Bei Intubationsbedarf: Surfactant über den Tubus.",
+          "keyPoints": [
+            "Raumtemperatur > 25 °C, Plastikfolie ohne Abtrocknen, Ziel 36,5–37,5 °C",
+            "verzögerte Abnabelung ≥ 60 s, wenn keine sofortige Reanimation nötig",
+            "CPAP/PEEP 5–6 cm H2O, ggf. Blähbeatmung ca. 25 cm H2O",
+            "FiO2 0,30, Titration nach präduktaler SpO2"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Das Kind wird auf die Intensivstation aufgenommen. Welche Maßnahmen ergreifen Sie in den ersten Lebensstunden (Umgebung, Zugänge, Infusion/Ernährung, Prävention)?",
+          "answer": "Inkubator mit hoher Luftfeuchtigkeit (in der ersten Lebenswoche meist etwa 70–85 %, Zielwerte zentrumsabhängig, dann schrittweise reduzieren) zur Verminderung der Perspiratio insensibilis, Temperatur-Monitoring. Nabelvenenkatheter (ggf. Nabelarterienkatheter für Blutdruck und Blutgase) mit radiologischer bzw. sonographischer Lagekontrolle. Infusion mit Glukose und früher parenteraler Ernährung mit Aminosäuren bereits am ersten Lebenstag sowie Lipiden; Kolostrum für die Mundpflege und früher Beginn trophischer Muttermilchernährung. Koffein frühzeitig. Minimal Handling, neutrale Kopf-Mittellage zur IVH-Prävention, Schmerzvermeidung. Hygienische Maßnahmen und Kolonisationsscreening nach KRINKO. Elterngespräch und frühe Einbeziehung der Eltern.",
+          "keyPoints": [
+            "Inkubator mit hoher Luftfeuchtigkeit",
+            "Nabelkatheter mit Lagekontrolle",
+            "frühe parenterale Ernährung mit Aminosäuren, Kolostrum/Muttermilch",
+            "Koffein, Minimal Handling, Kopf-Mittellage",
+            "Eltern einbeziehen"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 4,
+          "question": "Am 1. Lebenstag erhält das Kind (680 g) insgesamt 90 ml/kg/d einer Glukose-10-%-Lösung. Berechnen Sie die Glukosezufuhrrate (GIR) in mg/kg/min.",
+          "answer": "90 ml/kg/d · 100 mg/ml = 9000 mg/kg/d. GIR = 9000 / 1440 min ≈ **6,25 mg/kg/min**. Das liegt im üblichen Startbereich (etwa 4–8 mg/kg/min); sehr kleine Frühgeborene neigen jedoch zur Hyperglykämie, daher engmaschige Blutzuckerkontrollen.",
+          "keyPoints": ["9000 mg/kg/d", "Division durch 1440", "GIR ≈ 6,25 mg/kg/min"],
+          "solution": { "value": 6.25, "unit": "mg/kg/min", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 6,
+          "question": "Am 6. Lebenstag steigen Sauerstoffbedarf und Beatmungsdrücke, Sie tasten springende Pulse, die Blutdruckamplitude ist weit, es besteht ein leises Systolikum. Woran denken Sie, wie sichern Sie die Diagnose, und welche Therapieoptionen gibt es?",
+          "answer": "Verdacht auf einen hämodynamisch relevanten persistierenden Ductus arteriosus (PDA) mit Links-rechts-Shunt, Lungenüberflutung und Steal-Phänomen. Diagnostik: Echokardiographie mit Ductusdurchmesser und Flussmuster, Zeichen der Volumenbelastung (z. B. erhöhtes LA/Ao-Verhältnis, vergrößerter linker Vorhof und Ventrikel) und des systemischen Steals (fehlender oder retrograder diastolischer Fluss in Aorta descendens bzw. Mesenterial- oder Zerebralarterien). Therapie: Basismaßnahmen (angemessene Beatmung mit ausreichendem PEEP, keine Flüssigkeitsüberladung); medikamentöser Verschluss mit Ibuprofen (Standardschema 10–5–5 mg/kg im Abstand von 24 h) oder Paracetamol, Kontraindikationen beachten (NEC, aktive Blutung, schwere Thrombozytopenie, Nierenversagen); bei Versagen und anhaltender Relevanz interventioneller oder chirurgischer Verschluss. Die Indikation zur Behandlung wird zunehmend zurückhaltend gestellt, da Studien für einen abwartenden Ansatz keine schlechteren Ergebnisse zeigten; das Vorgehen ist zentrumsabhängig.",
+          "keyPoints": [
+            "Verdacht auf hämodynamisch relevanten PDA",
+            "Echokardiographie: Ductusgröße, Volumenbelastung, diastolischer Steal",
+            "medikamentös Ibuprofen oder Paracetamol, Kontraindikationen",
+            "interventionell/chirurgisch bei Versagen",
+            "zunehmend zurückhaltende Indikation, zentrumsabhängig"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Bei der ROP-Screening-Untersuchung mit 35 Wochen postmenstruell findet die Augenärztin eine Retinopathie Stadium 3 in Zone II mit Plus-Erkrankung. Wie ist der Befund einzuordnen, und wie geht es weiter?",
+          "answer": "Eine ROP Stadium 3 in Zone II mit Plus-Erkrankung ist eine behandlungsbedürftige ROP (Typ-1-ROP), die zeitnah behandelt werden sollte – in der Regel innerhalb weniger Tage, eine aggressive ROP (A-ROP) so rasch wie möglich, teils innerhalb von 24 Stunden. Optionen sind die Laserkoagulation der avaskulären Netzhaut oder eine intravitreale Anti-VEGF-Injektion (Ranibizumab ist für die ROP zugelassen, Bevacizumab wird off-label eingesetzt); die Wahl ist zentrumsabhängig und wird mit den Eltern besprochen. Nach Anti-VEGF-Therapie sind wegen möglicher Spätreaktivierung längere und engmaschigere Kontrollen nötig. Langfristig benötigen die Kinder augenärztliche Nachsorge wegen erhöhten Risikos für Myopie, Strabismus und Amblyopie. Analgesie und Monitoring während Untersuchung und Therapie sind selbstverständlich.",
+          "keyPoints": [
+            "Typ-1-ROP, Behandlung zeitnah",
+            "Laserkoagulation oder Anti-VEGF (Ranibizumab zugelassen)",
+            "nach Anti-VEGF längere Kontrollen wegen Reaktivierung",
+            "Langzeitnachsorge: Myopie, Strabismus, Amblyopie"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 5,
+          "question": "Mit 38+2 Wochen postmenstruell trinkt das Kind vollständig, atmet ohne Sauerstoff und hatte seit über einer Woche keine Apnoen. Was muss vor der Entlassung erledigt bzw. organisiert sein?",
+          "answer": "Screenings: erweitertes Neugeborenenscreening einschließlich Zweitscreening (bei < 32 SSW), Hörscreening mit AABR, ROP-Kontrollen bis zur vollständigen Vaskularisation bzw. Regression terminiert, Hüftsonographie geplant. Impfungen nach chronologischem Alter (ab vollendeten 2 Lebensmonaten, Frühgeborene im 3+1-Schema), bei sehr unreifen Frühgeborenen erste Impfung unter stationärem Monitoring; RSV-Prophylaxe mit einem monoklonalen Antikörper (Nirsevimab oder – laut STIKO seit 09/2026 – Clesrovimab) vor bzw. zu Beginn der Saison. Ernährung: Muttermilch ggf. angereichert bzw. Frühgeborenennahrung nach Plan, Vitamin D, Eisen. Nachsorge: Arztbrief an den Kinderarzt, sozialmedizinische Nachsorge, entwicklungsneurologische Nachuntersuchung (u. a. mit 2 Jahren korrigiert), Elternschulung inkl. SIDS-Prävention und ggf. Reanimationskurs.",
+          "keyPoints": [
+            "Stoffwechsel-Zweitscreening, AABR, ROP-Termine, Hüftsonographie",
+            "Impfungen nach chronologischem Alter, RSV-Prophylaxe",
+            "Ernährungsplan mit Vitamin D und Eisen",
+            "Arztbrief, SMN, entwicklungsneurologische Nachuntersuchung",
+            "Elternschulung und SIDS-Prävention"
+          ]
+        }
+      ],
+      "answer": "Der Fall deckt die Versorgung eines extrem unreifen Frühgeborenen ab: Wärmemanagement mit Plastikfolie, verzögerte Abnabelung, CPAP/PEEP und FiO2 0,30 im Kreißsaal; Luftfeuchtigkeit, Nabelkatheter, frühe parenterale Ernährung und Koffein auf der Station; GIR-Berechnung (≈ 6,25 mg/kg/min); Diagnostik und differenzierte Therapie des PDA; Einordnung und Behandlung einer Typ-1-ROP; strukturierte Entlassungsvorbereitung mit Screenings, Impfungen, RSV-Prophylaxe und Nachsorge.",
+      "keyPoints": [
+        "Erstversorgung: Wärme, verzögerte Abnabelung, CPAP, FiO2 0,30",
+        "frühe parenterale Ernährung, GIR-Berechnung",
+        "PDA: Echo-Kriterien, Therapieoptionen, zurückhaltende Indikation",
+        "Typ-1-ROP: Laser oder Anti-VEGF",
+        "Entlassung: Screenings, Impfungen, RSV, Nachsorge"
+      ],
+      "tags": ["Extrem Frühgeborene", "Erstversorgung", "PDA", "ROP"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 – Frühgeborenenretinopathie",
+          "terms": ["ROP"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": ["ROP-Screening"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "fall-002",
+      "type": "case",
+      "difficulty": 3,
+      "question": "Sie werden notfallmäßig in den Kreißsaal gerufen: **39+3 SSW**, Schulterdystokie, pathologisches CTG. Ein Junge (**3400 g**) wird schlaff, blass und apnoisch geboren. Nach Abtrocknen und Stimulation keine Spontanatmung, Herzfrequenz etwa 50/min.",
+      "hints": [
+        "Atemwege und Beatmung sind der wichtigste Schritt.",
+        "Später: Kriterien und Durchführung der therapeutischen Hypothermie."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 5,
+          "question": "Beschreiben Sie Ihr Vorgehen bei der Reanimation nach aktuellem Algorithmus, bis die Herzfrequenz ansteigt.",
+          "answer": "Wärme sichern, Atemwege öffnen (Kopf in Neutralposition), 5 Blähbeatmungen mit etwa 30 cm H2O über 2–3 s bei Raumluft, danach Kontrolle von Herzfrequenz und Thoraxexkursion. Hebt sich der Thorax nicht, Maßnahmen zur Atemwegsoptimierung (Maskensitz, Kopflage, Esmarch-Handgriff, zweite Person, ggf. Absaugen unter Sicht, Larynxmaske oder Intubation), dann Blähbeatmung wiederholen und mit etwa 30 Beatmungen/min fortsetzen. Liegt die Herzfrequenz trotz 30 s effektiver Beatmung unter 60/min: Thoraxkompressionen mit Zwei-Daumen-Technik im Verhältnis 3:1, FiO2 auf 1,0 erhöhen, Atemweg sichern (Intubation bevorzugt), Hilfe holen. Nabelvenenkatheter legen und Adrenalin i.v. geben, Wiederholung alle 3–5 min, Volumen bei Verdacht auf Blutverlust erwägen. Alle 30 s Herzfrequenz reevaluieren, Thoraxkompressionen bei HF > 60/min beenden.",
+          "keyPoints": [
+            "5 Blähbeatmungen mit ca. 30 cm H2O, Raumluft",
+            "Atemwegsoptimierung, wenn kein Thoraxheben",
+            "HF < 60/min trotz 30 s effektiver Beatmung: Thoraxkompressionen 3:1, FiO2 1,0",
+            "Nabelvenenkatheter, Adrenalin i.v., Reevaluation alle 30 s"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "calc",
+          "points": 3,
+          "question": "Sie geben Adrenalin **20 µg/kg i.v.** über den Nabelvenenkatheter. Wie viele ml einer Lösung 1:10.000 (0,1 mg/ml) benötigen Sie bei 3,4 kg?",
+          "answer": "Dosis = 3,4 kg · 20 µg/kg = 68 µg = 0,068 mg. Volumen = 0,068 mg / 0,1 mg/ml = **0,68 ml** (entspricht 0,2 ml/kg der 1:10.000-Lösung), anschließend mit NaCl 0,9 % nachspülen.",
+          "keyPoints": ["68 µg", "0,68 ml der 1:10.000-Lösung", "0,2 ml/kg, nachspülen"],
+          "solution": { "value": 0.68, "unit": "ml", "tolerance": 0.05 }
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 5,
+          "question": "Nach erfolgreicher Reanimation: Nabelarterien-pH 6,85, BE −18 mmol/l, APGAR 1/3/5. Mit 45 Minuten ist das Kind lethargisch, hypoton, mit schwachem Saugreflex. Prüfen Sie die Indikation zur therapeutischen Hypothermie.",
+          "answer": "Die Kriterien sind erfüllt: Gestationsalter ≥ 36+0 SSW und Beginn innerhalb von 6 Lebensstunden möglich. **Kriterium A** (Asphyxiezeichen, mindestens eines): APGAR ≤ 5 nach 10 min, fortgesetzte Reanimation/Beatmung mit 10 min, pH < 7,0 oder Basendefizit ≥ 16 mmol/l (BE ≤ −16; je nach Protokoll ≥ 15 mmol/l) im Nabelschnurblut oder in einer kindlichen Probe innerhalb der ersten 60 min – hier mehrfach erfüllt (APGAR 5 nach 10 min, pH 6,85, BE −18). **Kriterium B**: mittelschwere bis schwere Enzephalopathie (veränderte Bewusstseinslage plus z. B. Hypotonie, abnorme Reflexe, schwaches oder fehlendes Saugen) oder klinische Anfälle – Lethargie, Hypotonie und schwacher Saugreflex entsprechen einer moderaten Enzephalopathie (Sarnat II). **Kriterium C**: pathologisches aEEG (Ableitung über mindestens 30 min); die geforderte Kombination ist protokollabhängig (TOBY: A + B + C; Deutsches Hypothermie-Register: A + (B oder C)), das aEEG darf den Beginn nicht verzögern. Die AWMF-Leitlinie 024-023 (Fassung 2013) ist abgelaufen und in Überarbeitung. Das Kind sollte unverzüglich gekühlt bzw. in ein Zentrum mit Hypothermieerfahrung verlegt werden; bis dahin aktive Wärmezufuhr beenden, Hyperthermie strikt vermeiden und die Kerntemperatur kontinuierlich messen.",
+          "keyPoints": [
+            "≥ 36 SSW, Beginn innerhalb von 6 h",
+            "A: pH < 7,0 oder Basendefizit ≥ 16 (je nach Protokoll ≥ 15) mmol/l in 60 min, APGAR ≤ 5 mit 10 min oder Reanimation",
+            "B: moderate/schwere Enzephalopathie oder Krampfanfälle",
+            "C: aEEG, Kombination protokollabhängig (TOBY A+B+C, Register A+(B oder C))",
+            "unverzüglicher Beginn, Hyperthermie vermeiden"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 5,
+          "question": "Wie führen Sie die Hypothermie durch, und auf welche Komplikationen und Besonderheiten achten Sie?",
+          "answer": "Ganzkörperkühlung mit servokontrolliertem Gerät auf eine Kerntemperatur von 33,5 °C (33–34 °C), kontinuierlich rektal oder ösophageal gemessen, für 72 Stunden, danach langsame Wiedererwärmung um höchstens 0,5 °C pro Stunde. Monitoring: aEEG kontinuierlich, Blutdruck, Herzfrequenz (Sinusbradykardie ist unter Hypothermie normal), Blutgase, Glukose, Elektrolyte, Gerinnung, Thrombozyten, Nieren- und Leberwerte, Urinausscheidung. Komplikationen und Besonderheiten: Hypotonie, pulmonale Hypertonie, Koagulopathie und Thrombozytopenie, Hypo- oder Hyperglykämie, Hyponatriämie, akute Nierenschädigung, subkutane Fettgewebsnekrose (später Hyperkalzämie möglich). Medikamente mit veränderter Clearance (z. B. Gentamicin, Phenobarbital) angepasst dosieren bzw. Spiegel kontrollieren. Stress und Schmerzen behandeln, Hypokapnie und Hyperoxie vermeiden.",
+          "keyPoints": [
+            "33,5 °C für 72 h, servokontrolliert, Kerntemperatur",
+            "Wiedererwärmung ≤ 0,5 °C/h",
+            "Monitoring inkl. aEEG; Bradykardie physiologisch",
+            "Komplikationen: Hypotonie, PPHN, Gerinnung, Thrombozyten, Fettgewebsnekrose",
+            "veränderte Medikamentenclearance, Hypokapnie/Hyperoxie vermeiden"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "calc",
+          "points": 3,
+          "question": "Nach 8 Stunden zeigt das aEEG wiederholte Anfallsmuster. Sie geben Phenobarbital als Initialdosis **20 mg/kg i.v.** Wie viel mg erhält das Kind?",
+          "answer": "3,4 kg · 20 mg/kg = **68 mg** Phenobarbital langsam i.v. Bei Persistenz der Anfälle sind weitere Dosen von 10 mg/kg bis zu einer Gesamtdosis von etwa 40 mg/kg möglich, danach Wechsel auf ein Zweitlinienmedikament. Unter Hypothermie und bei Leber-/Nierenfunktionsstörung ist die Clearance vermindert, daher Spiegelkontrollen.",
+          "keyPoints": ["68 mg", "Aufsättigung bis ca. 40 mg/kg möglich", "Spiegelkontrolle, verminderte Clearance"],
+          "solution": { "value": 68, "unit": "mg", "tolerance": 0.03 }
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 5,
+          "question": "Wie schätzen Sie nach Abschluss der Hypothermie die Prognose ab, und was besprechen Sie mit den Eltern?",
+          "answer": "Die Prognoseeinschätzung stützt sich auf mehrere Bausteine: klinischer Verlauf (Normalisierung des neurologischen Status, Trinkverhalten), aEEG/EEG (Erholung der Hintergrundaktivität und Auftreten eines Schlaf-Wach-Zyklus innerhalb von etwa 48 h unter Hypothermie sind günstig, persistierend pathologische Muster ungünstig) und vor allem die MRT mit Diffusionswichtung, idealerweise etwa am 4.–7. Lebenstag nach der Wiedererwärmung. Läsionen von Basalganglien und Thalamus sowie der hinteren Kapsel sprechen für ein hohes Risiko einer schweren motorischen Beeinträchtigung (dyskinetische/spastische CP), Wasserscheidenläsionen eher für kognitive und Verhaltensprobleme. Mit den Eltern werden die Befunde ehrlich, mit verbleibender Unsicherheit besprochen; vereinbart werden strukturierte Nachsorge (entwicklungsneurologische Kontrollen inkl. General Movements, Seh- und Hörprüfung, Nachuntersuchung mit 2 Jahren), Frühförderung bei Bedarf und psychosoziale Unterstützung.",
+          "keyPoints": [
+            "Kombination aus Klinik, aEEG/EEG und MRT",
+            "MRT mit DWI etwa am 4.–7. Lebenstag",
+            "Basalganglien/Thalamus/PLIC-Läsion = hohes Risiko schwerer CP",
+            "ehrliches Elterngespräch mit Unsicherheit",
+            "strukturierte Nachsorge und Förderung"
+          ]
+        }
+      ],
+      "answer": "Asphyxiefall mit Reanimation nach ERC/GRC (Blähbeatmung, Atemwegsoptimierung, Thoraxkompressionen 3:1 bei HF < 60/min trotz effektiver Beatmung, Adrenalin 20 µg/kg i.v. = 0,68 ml der 1:10.000-Lösung), anschließender Indikationsprüfung (Kriterien A, B, ggf. C) und Durchführung der therapeutischen Hypothermie (33,5 °C, 72 h, langsame Wiedererwärmung), Behandlung von Krampfanfällen mit Phenobarbital 20 mg/kg (68 mg) sowie Prognoseeinschätzung mittels aEEG und MRT und Elternberatung.",
+      "keyPoints": [
+        "Reanimationsalgorithmus mit Beatmung im Fokus",
+        "Adrenalin 20 µg/kg i.v.",
+        "Hypothermiekriterien und Beginn < 6 h",
+        "33,5 °C für 72 h, Komplikationsmanagement",
+        "Prognose über aEEG und MRT, strukturierte Nachsorge"
+      ],
+      "tags": ["Asphyxie", "Hypothermie", "Reanimation", "HIE"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support; AWMF S2k-Leitlinie 024-023 Behandlung der neonatalen Asphyxie unter besonderer Berücksichtigung der therapeutischen Hypothermie (Fassung 2013, Gültigkeit abgelaufen, in Überarbeitung)"
+    },
+    {
+      "id": "fall-003",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes (**38+2 SSW, 3200 g**) wird nach sturzgeburtartigem Verlauf geboren. Die Mutter ist **GBS-kolonisiert**, die intrapartale Antibiotikaprophylaxe wurde 40 Minuten vor der Geburt begonnen, unter der Geburt hatte sie **38,6 °C**. Mit 8 Lebensstunden ruft Sie die Hebamme: Das Kind stöhnt, ist tachypnoisch (80/min), marmoriert, die Rekapillarisierungszeit beträgt 4 s.",
+      "hints": [
+        "Risikofaktoren und Klinik passen zusammen.",
+        "Kulturen vor Antibiotika – aber Antibiotika ohne Verzögerung."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie schätzen Sie die Situation ein? Nennen Sie Risikofaktoren und Differenzialdiagnosen.",
+          "answer": "Hochgradiger Verdacht auf eine Early-onset-Sepsis mit beginnendem Schock. Risikofaktoren: mütterliche GBS-Kolonisation mit inadäquater Prophylaxe (Beginn weniger als 4 Stunden vor Geburt), mütterliches Fieber unter der Geburt als Hinweis auf eine intraamniale Infektion. Differenzialdiagnosen der Atemstörung und Kreislaufsymptomatik: transitorische Tachypnoe, Atemnotsyndrom, Pneumonie, Pneumothorax, PPHN, kritischer Herzfehler, Hypoglykämie, Stoffwechselerkrankung; die Kombination mit Schockzeichen macht eine Sepsis jedoch am wahrscheinlichsten.",
+          "keyPoints": [
+            "Verdacht auf Early-onset-Sepsis mit Schock",
+            "inadäquate GBS-Prophylaxe (< 4 h)",
+            "mütterliches Fieber/intraamniale Infektion",
+            "DD: TTN, RDS, Pneumothorax, PPHN, Herzfehler, Hypoglykämie"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Diagnostik veranlassen Sie sofort, und was hat zeitliche Priorität?",
+          "answer": "Verlegung auf die Intensivstation, Monitoring, venöser Zugang. Vor der ersten Antibiotikagabe: Blutkultur (mindestens 1 ml Blut), Blutbild mit Differenzierung, CRP und ggf. IL-6 bzw. Procalcitonin, Blutzucker, Blutgasanalyse mit Laktat, Elektrolyte. Röntgen-Thorax, bei Bedarf Echokardiographie. Eine Lumbalpunktion ist bei Sepsisverdacht indiziert, wird aber bei instabilem Kind verschoben und darf den Beginn der Antibiotikatherapie nicht verzögern. Priorität hat die rasche Antibiotikagabe (innerhalb einer Stunde) nach Abnahme der Blutkultur sowie die Kreislaufstabilisierung.",
+          "keyPoints": [
+            "Blutkultur ≥ 1 ml vor Antibiotika",
+            "Blutbild, CRP/IL-6, Blutzucker, BGA mit Laktat",
+            "Röntgen-Thorax, ggf. Echo",
+            "LP indiziert, aber nicht bei Instabilität und ohne Verzögerung der Antibiose",
+            "Antibiotika innerhalb 1 h"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Sie beginnen mit Ampicillin und Gentamicin. Laut Klinikstandard beträgt die Gentamicin-Dosis **5 mg/kg i.v. alle 24 h**. Wie viel mg Gentamicin erhält das Kind pro Gabe?",
+          "answer": "3,2 kg · 5 mg/kg = **16 mg** alle 24 Stunden. Talspiegelkontrolle (z. B. vor der 2. oder 3. Gabe) nach lokalem Standard wegen Nephro- und Ototoxizität; die Dosierung (4–5 mg/kg, Intervall abhängig von Gestations- und Lebensalter) variiert zwischen Zentren.",
+          "keyPoints": ["16 mg pro Gabe", "Talspiegelkontrolle", "Dosis/Intervall nach Gestationsalter und Klinikstandard"],
+          "solution": { "value": 16, "unit": "mg", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 5,
+          "question": "Trotz zweier Volumenboli (je 10 ml/kg) bleibt das Kind hypoton, das Laktat steigt auf 6 mmol/l, die präduktale SpO2 liegt bei 94 %, die postduktale bei 82 %. Wie gehen Sie weiter vor?",
+          "answer": "Es liegt ein volumenrefraktärer septischer Schock mit Hinweis auf eine begleitende PPHN (präpostduktale Sättigungsdifferenz) vor. Maßnahmen: Intubation und Beatmung mit ausreichender Analgosedierung, Optimierung der Oxygenierung (Hypoxie und Azidose vermeiden), echokardiographische Beurteilung von Myokardfunktion, Füllung und pulmonalem Druck. Katecholamine über einen zentralen Zugang, je nach Hämodynamik z. B. Adrenalin oder Noradrenalin (Noradrenalin hebt den Systemdruck und kann bei PPHN günstig sein); bei katecholaminrefraktärem Schock Hydrocortison. Bei relevanter PPHN inhalatives NO. Korrektur von Hypoglykämie, Hypokalzämie und Gerinnungsstörungen, Bilanzierung, Kontakt zu einem ECMO-Zentrum bei weiterer Verschlechterung.",
+          "keyPoints": [
+            "volumenrefraktärer septischer Schock mit PPHN",
+            "Intubation, Oxygenierung optimieren, Echo",
+            "Katecholamine (Adrenalin/Noradrenalin), Hydrocortison bei Refraktärität",
+            "iNO bei PPHN",
+            "Metabolik/Gerinnung korrigieren, ECMO-Kontakt"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Die Blutkultur wächst mit Streptococcus agalactiae. Nach Stabilisierung zeigt der Liquor 850 Zellen/µl, erhöhtes Eiweiß und erniedrigte Glukose. Wie passen Sie die Therapie an?",
+          "answer": "Es handelt sich um eine GBS-Sepsis mit Meningitis. Gezielte Therapie mit Penicillin G oder Ampicillin in meningitischer (deutlich höherer) Dosierung; Gentamicin kann nach Stabilisierung bzw. nach einigen Tagen beendet werden (zentrumsabhängig). Die Therapiedauer beträgt bei unkomplizierter GBS-Meningitis mindestens 14 Tage, bei Komplikationen (z. B. Ventrikulitis, Abszess, Infarkte) länger. Eine Kontroll-Lumbalpunktion nach 24–48 h zur Dokumentation der Liquorsterilität wird von vielen Experten (u. a. AAP) empfohlen; Vorgehen und weitere Kontrollen (z. B. bei kompliziertem Verlauf) sind zentrumsabhängig. Bildgebung (Sonographie, MRT) bei Komplikationsverdacht bzw. vor Therapieende, Monitoring auf Krampfanfälle, Hydrozephalus und SIADH.",
+          "keyPoints": [
+            "GBS-Meningitis",
+            "Penicillin G/Ampicillin in meningitischer Dosierung",
+            "Dauer mindestens 14 Tage",
+            "Kontroll-LP nach 24–48 h (zentrumsabhängig)",
+            "Bildgebung, Komplikationen beachten"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Nachsorge planen Sie, und was teilen Sie den Eltern mit Blick auf eine weitere Schwangerschaft mit?",
+          "answer": "Nach Meningitis: Hörprüfung mittels BERA vor Entlassung (Risiko sensorineuraler Hörstörung), neurologische Untersuchung und strukturierte entwicklungsneurologische Nachsorge, da Entwicklungsstörungen, Epilepsie und Hydrozephalus mögliche Folgen sind; Sehprüfung bei Komplikationen. Die Eltern werden ehrlich über das Risiko von Folgeschäden informiert. Für eine weitere Schwangerschaft gilt: Nach einem Kind mit GBS-Erkrankung erhält die Mutter bei der nächsten Geburt unabhängig vom Screeningbefund eine intrapartale Antibiotikaprophylaxe; dies sollte im Mutterpass bzw. Arztbrief dokumentiert werden. Zudem ist auf späte GBS-Rezidive bzw. Late-onset-Erkrankungen zu achten.",
+          "keyPoints": [
+            "BERA vor Entlassung",
+            "entwicklungsneurologische Nachsorge",
+            "Aufklärung über Folgerisiken",
+            "nächste Schwangerschaft: IAP unabhängig vom Screening",
+            "Dokumentation im Arztbrief"
+          ]
+        }
+      ],
+      "answer": "Early-onset-GBS-Sepsis bei inadäquater Prophylaxe und mütterlichem Fieber: rasche Diagnostik mit Blutkultur vor Antibiotika, Ampicillin plus Gentamicin (hier 16 mg), Schockmanagement mit Volumen, Katecholaminen, ggf. Hydrocortison und iNO bei begleitender PPHN, Anpassung an eine GBS-Meningitis (meningitische Dosierung, ≥ 14 Tage, ggf. Kontroll-LP) sowie Nachsorge mit BERA und Hinweis auf IAP in der nächsten Schwangerschaft.",
+      "keyPoints": [
+        "Risikofaktoren erkennen, Antibiotika innerhalb 1 h",
+        "Ampicillin + Gentamicin, Dosisberechnung",
+        "septischer Schock mit PPHN behandeln",
+        "GBS-Meningitis: Dosis, Dauer, Kontroll-LP",
+        "Nachsorge und IAP in Folgeschwangerschaft"
+      ],
+      "tags": ["Early-onset-Sepsis", "GBS", "Meningitis", "Septischer Schock"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen"
+    },
+    {
+      "id": "fall-004",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der **27+3 SSW** (Geburtsgewicht **900 g**), am **14. Lebenstag**, erhält 120 ml/kg/d Muttermilch über die Magensonde. Seit dem Morgen ist das Abdomen gebläht und druckschmerzhaft, es gibt gallige Magenreste, blutig tingierte Stühle und vermehrt Apnoen.",
+      "hints": [
+        "Die klassische Erkrankung dieses Alters und Reifegrads.",
+        "Röntgen, Labor, Stadieneinteilung, konservative vs. operative Therapie."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Verdachtsdiagnose haben Sie, welche Differenzialdiagnosen, und was tun Sie sofort?",
+          "answer": "Verdacht auf nekrotisierende Enterokolitis (NEC). Differenzialdiagnosen: fokale intestinale Perforation (eher früher, ohne vorausgehende Ernährungszeichen, oft unter Indometacin/Steroiden), Sepsis mit paralytischem Ileus, Volvulus, Morbus Hirschsprung, Milchproteinintoleranz. Sofortmaßnahmen: Nahrungskarenz, offene Magensonde zur Entlastung (ggf. Ablaufsonde mit Sog), parenterale Flüssigkeits- und Ernährungstherapie, Diagnostik (Blutkultur, Labor, Röntgen) und unmittelbarer Beginn einer Breitspektrum-Antibiotikatherapie, Analgesie, Information der Kinderchirurgie.",
+          "keyPoints": [
+            "Verdacht auf NEC",
+            "DD: fokale intestinale Perforation, Sepsis/Ileus, Volvulus",
+            "Nahrungskarenz, Magenentlastung",
+            "Antibiotika, Analgesie, Kinderchirurgie informieren"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 5,
+          "question": "Welche radiologischen und laborchemischen Befunde erwarten Sie, und wie teilen Sie die NEC nach Bell ein?",
+          "answer": "Röntgen-Abdomen (a.-p. und linksseitige Seitenlage bzw. Seitenstrahl zur Suche nach freier Luft): Darmdistension, Pneumatosis intestinalis, Gas in der Pfortader, stehende Schlinge, freie Luft bei Perforation. Abdomensonographie: Darmwanddicke und -perfusion, Peristaltik, intramurales und portalvenöses Gas, freie Flüssigkeit. Labor: CRP-Anstieg, Leukozytose oder Leukopenie, Thrombozytopenie, metabolische Azidose, Laktat, Hyponatriämie, Gerinnungsstörung. Bell-Stadien (modifiziert): I = Verdacht (unspezifische systemische und abdominelle Zeichen), II = gesicherte NEC mit Pneumatosis intestinalis (IIA mild, IIB mit portalvenösem Gas, Aszites, Azidose, Thrombozytopenie), III = fortgeschrittene NEC mit kritischem Zustand (IIIA ohne, IIIB mit Perforation).",
+          "keyPoints": [
+            "Röntgen inkl. Seitenlage: Pneumatosis, Pfortadergas, freie Luft",
+            "Sonographie: Wand, Perfusion, freie Flüssigkeit",
+            "Labor: CRP, Thrombozytopenie, Azidose",
+            "Bell I Verdacht, II gesichert (Pneumatosis), III fortgeschritten (IIIB Perforation)"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 5,
+          "question": "Röntgenologisch zeigt sich eine ausgedehnte Pneumatosis intestinalis ohne freie Luft. Beschreiben Sie die konservative Therapie und das Monitoring.",
+          "answer": "Nahrungskarenz mit Magenentlastung, vollständige parenterale Ernährung über einen zentralen Zugang. Breitspektrum-Antibiotikatherapie mit Erfassung auch von Anaerobiern (z. B. Ampicillin plus Gentamicin plus Metronidazol oder ein Carbapenem bzw. nach lokalem Resistenzmuster und Kolonisationsbefunden), Dauer in der Regel 7–14 Tage je nach Stadium und Verlauf (zentrumsabhängig). Analgesie (z. B. Opioide), Kreislaufunterstützung mit Volumen und ggf. Katecholaminen, Beatmung bei Apnoen oder Bauchdruckanstieg, Korrektur von Gerinnung, Thrombozytopenie und Azidose. Monitoring: klinische Untersuchung (Bauchumfang, Bauchdecke) mehrfach täglich, Röntgen- bzw. Sonographieverlauf alle 6–24 h in der Akutphase, Labor, Bilanz. Der Nahrungsaufbau beginnt nach klinischer Stabilisierung, bevorzugt mit Muttermilch.",
+          "keyPoints": [
+            "Nahrungskarenz, Magenentlastung, parenterale Ernährung",
+            "Breitspektrum-Antibiose inkl. Anaerobier, 7–14 Tage",
+            "Analgesie, Kreislauf, Gerinnung",
+            "engmaschige klinische und radiologische Kontrollen",
+            "Nahrungsaufbau mit Muttermilch nach Stabilisierung"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 3,
+          "question": "Die Thrombozyten sind auf 22 G/l gefallen, eine Operation ist nicht ausgeschlossen. Sie transfundieren **15 ml/kg** Thrombozytenkonzentrat. Wie viel ml erhält das Kind (Gewicht aktuell 0,9 kg)?",
+          "answer": "0,9 kg · 15 ml/kg = **13,5 ml** Thrombozytenkonzentrat (bestrahlt, CMV-sicher bzw. leukozytendepletiert, nach Hämotherapie-Richtlinie). Bei Kindern ohne Blutung werden heute restriktive Grenzwerte (etwa 25 G/l) empfohlen; bei Blutung, NEC mit drohender Operation oder vor Eingriffen werden höhere Werte (etwa 50 G/l) angestrebt.",
+          "keyPoints": ["13,5 ml", "restriktive Transfusionsgrenze ohne Blutung", "höhere Grenze bei Blutung/Operation"],
+          "solution": { "value": 13.5, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Am Folgetag zeigt die Seitenlage-Aufnahme freie intraabdominelle Luft, das Kind ist kreislaufinstabil. Welche Indikationen zur Operation kennen Sie, und welche operativen Optionen gibt es?",
+          "answer": "Freie Luft (Perforation) ist eine absolute Operationsindikation. Relative Indikationen sind klinische Verschlechterung trotz maximaler konservativer Therapie, stehende Schlinge, Bauchwandrötung bzw. -ödem, tastbare Resistenz, persistierende Azidose und Thrombozytopenie sowie Hinweise auf Gangrän im Ultraschall (fehlende Perfusion, komplexer Aszites). Optionen: Laparotomie mit Resektion nekrotischer Darmabschnitte, meist mit Anlage eines Enterostomas, bei ausgedehntem Befund ggf. Second-look-Operation; bei sehr kleinen, instabilen Frühgeborenen alternativ eine primäre Peritonealdrainage, entweder als Überbrückung oder definitiv – die Wahl ist zentrumsabhängig. Wichtig ist der Erhalt von möglichst viel Darmlänge.",
+          "keyPoints": [
+            "freie Luft = absolute OP-Indikation",
+            "relative Indikationen: Verschlechterung, stehende Schlinge, Bauchwandrötung, Gangrän",
+            "Laparotomie mit Resektion und Enterostoma",
+            "primäre Peritonealdrainage bei sehr kleinen, instabilen Kindern",
+            "maximaler Darmerhalt"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Langzeitfolgen nach NEC kennen Sie, und welche präventiven Maßnahmen sind belegt bzw. werden diskutiert?",
+          "answer": "Langzeitfolgen: Darmstrikturen (auch nach konservativer Therapie, typischerweise einige Wochen später, oft im Kolon), Kurzdarmsyndrom mit Darmversagen und parenteraler Ernährungsabhängigkeit, Cholestase, Gedeihstörung sowie ein erhöhtes Risiko für neurologische Entwicklungsstörungen, besonders nach chirurgischer NEC. Prävention: Ernährung mit Muttermilch (eigene Muttermilch, sonst Spenderinnenmilch statt Formula) ist am besten belegt; standardisierte Nahrungsaufbauschemata, antenatale Steroide, Vermeidung unnötig langer Antibiotikatherapien und von H2-Blockern. Probiotika senken in Metaanalysen das NEC-Risiko, ihr Routineeinsatz wird jedoch wegen Fragen zu Produktqualität und Sicherheit unterschiedlich gehandhabt (zentrumsabhängig).",
+          "keyPoints": [
+            "Strikturen, Kurzdarmsyndrom, Cholestase",
+            "erhöhtes Risiko neurologischer Entwicklungsstörungen",
+            "Muttermilch/Spenderinnenmilch als wichtigste Prävention",
+            "Probiotika diskutiert, zentrumsabhängig",
+            "Antibiotika- und H2-Blocker-Zurückhaltung"
+          ]
+        }
+      ],
+      "answer": "Klassische NEC beim sehr kleinen Frühgeborenen: Erkennen und Sofortmaßnahmen (Nahrungskarenz, Entlastung, Antibiotika), radiologische Befunde und Bell-Stadien, konservatives Management mit engmaschigem Monitoring, Thrombozytentransfusion (13,5 ml), Operationsindikationen (freie Luft absolut) und Verfahren (Laparotomie vs. Peritonealdrainage), Langzeitfolgen und Prävention durch Muttermilch.",
+      "keyPoints": [
+        "Verdacht und Sofortmaßnahmen",
+        "Bell-Stadien, Pneumatosis, freie Luft",
+        "konservative Therapie mit Antibiose inkl. Anaerobier",
+        "OP-Indikationen und -Verfahren",
+        "Strikturen/Kurzdarm, Prävention mit Muttermilch"
+      ],
+      "tags": ["NEC", "Frühgeborene", "Kinderchirurgie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "fall-005",
+      "type": "case",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes (**41+2 SSW, 3800 g**) wird nach pathologischem CTG aus **dick mekoniumhaltigem Fruchtwasser** geboren. Es ist schlaff und atmet nicht ausreichend.",
+      "hints": [
+        "Was empfehlen die aktuellen Leitlinien beim nicht vitalen Kind mit Mekonium?",
+        "Später: prä-/postduktale Sättigungsdifferenz und Oxygenierungsindex."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie gehen Sie in den ersten Minuten vor? Ist eine routinemäßige tracheale Absaugung indiziert?",
+          "answer": "Nach aktuellen Leitlinien wird bei nicht vitalen Kindern mit mekoniumhaltigem Fruchtwasser keine routinemäßige Intubation mit trachealer Absaugung mehr empfohlen, da sie die Beatmung verzögert und keinen Nutzen gezeigt hat. Vorgehen wie bei jedem nicht vitalen Neugeborenen: Wärme, Atemwege öffnen, Beatmung innerhalb der ersten Lebensminute beginnen (Blähbeatmung, dann Beatmung), Herzfrequenz und Thoraxexkursion kontrollieren. Nur wenn trotz korrekter Technik keine effektive Beatmung möglich ist und eine Atemwegsobstruktion vermutet wird, erfolgt eine Laryngoskopie mit Absaugung unter Sicht bzw. Intubation und tracheale Absaugung.",
+          "keyPoints": [
+            "keine routinemäßige tracheale Absaugung",
+            "Beatmung innerhalb der ersten Minute beginnen",
+            "Absaugen unter Sicht nur bei Verdacht auf Atemwegsobstruktion"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Auf der Intensivstation ist das Kind intubiert. Unter FiO2 1,0 beträgt die präduktale SpO2 92 %, die postduktale 78 %. Was bedeutet dieser Befund, und wie sichern Sie die Diagnose?",
+          "answer": "Die präpostduktale Sättigungsdifferenz von mehr als 10 % zeigt einen Rechts-links-Shunt über den Ductus arteriosus und spricht für eine persistierende pulmonale Hypertonie des Neugeborenen (PPHN), hier sekundär bei Mekoniumaspiration (Surfactantinaktivierung, Atelektasen, Überblähung, Entzündung). Diagnosesicherung durch Echokardiographie: Ausschluss eines strukturellen Herzfehlers (besonders einer totalen Lungenvenenfehlmündung mit Obstruktion), Nachweis des Shunts über Ductus und Foramen ovale, Abschätzung des pulmonalarteriellen Drucks (Trikuspidalinsuffizienz-Jet, Septumposition) und Beurteilung der Ventrikelfunktion. Röntgen-Thorax zum Ausschluss eines Pneumothorax und zur Beurteilung der Lungenbelüftung.",
+          "keyPoints": [
+            "Differenz > 10 % = Rechts-links-Shunt über Ductus",
+            "PPHN bei Mekoniumaspiration",
+            "Echo: Herzfehler ausschließen (v. a. TAPVR)",
+            "Shuntrichtung, pulmonaler Druck, Ventrikelfunktion",
+            "Röntgen: Pneumothorax ausschließen"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Unter konventioneller Beatmung beträgt der mittlere Atemwegsdruck (MAP) 16 cm H2O bei FiO2 1,0, der arterielle paO2 40 mmHg. Berechnen Sie den Oxygenierungsindex (OI = MAP · FiO2 · 100 / paO2).",
+          "answer": "OI = 16 · 1,0 · 100 / 40 = **40**. Ein OI von 40 entspricht einem schweren Oxygenierungsversagen; bei anhaltenden Werten in diesem Bereich trotz optimaler Therapie ist eine ECMO zu erwägen.",
+          "keyPoints": ["korrekte Formel", "OI = 40", "schweres Oxygenierungsversagen"],
+          "solution": { "value": 40, "unit": "", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 6,
+          "question": "Beschreiben Sie die Behandlungsstrategie der PPHN bei Mekoniumaspiration.",
+          "answer": "Optimale Lungenrekrutierung: Surfactant (Bolus, ggf. wiederholt) bei Mekoniumaspiration, ggf. Wechsel auf Hochfrequenzoszillation; Überblähung vermeiden. Ziele: präduktale SpO2 etwa 90–95 %, Normokapnie, Hyperoxie und Hyperventilation vermeiden, Azidose korrigieren. Ausreichende Analgosedierung, minimal handling, Muskelrelaxation nur ausnahmsweise. Systemischen Blutdruck stützen (Volumen bei Hypovolämie, Katecholamine – z. B. Noradrenalin, um den systemischen über den pulmonalen Druck zu heben), Echo-gesteuert. Inhalatives NO mit 20 ppm bei relevanter PPHN (OI über etwa 20–25); bei Ansprechen schrittweise Reduktion. Zusätzliche Optionen: Milrinon bei Ventrikeldysfunktion (Cave Hypotension), Sildenafil i.v., Hydrocortison bei refraktärer Hypotension; Prostaglandin E1 bei Rechtsherzversagen mit restriktivem Ductus. Normoglykämie, Normokalzämie, Infektionsbehandlung.",
+          "keyPoints": [
+            "Lungenrekrutierung: Surfactant, ggf. HFOV",
+            "präduktale SpO2 ca. 90–95 %, Normokapnie, keine Hyperventilation/Hyperoxie",
+            "Analgosedierung, minimal handling",
+            "Systemdruck stützen (z. B. Noradrenalin)",
+            "iNO 20 ppm, ggf. Milrinon/Sildenafil/PGE1"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Trotz iNO bleibt der OI über mehrere Stunden über 40. Wann kontaktieren Sie ein ECMO-Zentrum, und welche Voraussetzungen bzw. Kontraindikationen beachten Sie?",
+          "answer": "Ein ECMO-Zentrum sollte frühzeitig kontaktiert werden, bereits bei fehlendem Ansprechen auf iNO und steigendem OI (etwa ab 25–30), da der Transport eines instabilen Kindes riskant ist; klassische Indikation ist ein über mehrere Stunden anhaltender OI über 40 trotz optimaler Therapie bzw. therapierefraktäre Hypoxämie oder Kreislaufversagen. Voraussetzungen und relative Kontraindikationen: Gestationsalter in der Regel ≥ 34 SSW und Gewicht ≥ etwa 2 kg, keine relevante intrakranielle Blutung, keine unbehandelbare Gerinnungsstörung, reversible Grunderkrankung, keine letale Fehlbildung, Beatmungsdauer zuvor nicht zu lang. Vor Transport Schädelsonographie und Echokardiographie.",
+          "keyPoints": [
+            "frühzeitiger Kontakt (OI ca. 25–30, kein iNO-Ansprechen)",
+            "OI > 40 anhaltend als klassische Indikation",
+            "≥ 34 SSW, ≥ ca. 2 kg, keine relevante ICH",
+            "reversible Erkrankung, keine letale Fehlbildung"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 3,
+          "question": "Welche Nachsorge ist nach überstandener schwerer PPHN erforderlich?",
+          "answer": "Kinder nach schwerer PPHN haben ein erhöhtes Risiko für (auch spät auftretende oder progrediente) sensorineurale Hörstörungen, daher Hörprüfung vor Entlassung und wiederholte audiologische Kontrollen. Zudem besteht ein Risiko für neurologische Entwicklungsstörungen, insbesondere nach Asphyxie oder ECMO, sodass eine strukturierte entwicklungsneurologische Nachsorge erfolgen sollte. Weiterhin: kardiologische Kontrolle bis zur Normalisierung der Druckverhältnisse, Beachtung von Atemwegserkrankungen nach Mekoniumaspiration und Elternberatung.",
+          "keyPoints": [
+            "Hörprüfung und wiederholte audiologische Kontrollen",
+            "entwicklungsneurologische Nachsorge",
+            "kardiologische Verlaufskontrolle"
+          ]
+        }
+      ],
+      "answer": "Mekoniumaspiration mit sekundärer PPHN: keine routinemäßige tracheale Absaugung, frühe Beatmung; Diagnose der PPHN über präpostduktale Sättigungsdifferenz und Echo (Ausschluss TAPVR); OI-Berechnung (40); Therapie mit Lungenrekrutierung (Surfactant, HFOV), Vermeidung von Hyperoxie und Hyperventilation, Kreislaufunterstützung, iNO 20 ppm und weiteren Vasodilatatoren; frühzeitiger ECMO-Kontakt; Nachsorge mit Hörprüfung und Entwicklungskontrolle.",
+      "keyPoints": [
+        "Mekonium: Beatmung statt Routineabsaugung",
+        "präpostduktale Differenz und Echo",
+        "OI = 40",
+        "Rekrutierung, iNO, Systemdruck",
+        "ECMO-Kriterien, Hör- und Entwicklungsnachsorge"
+      ],
+      "tags": ["PPHN", "Mekoniumaspiration", "Oxygenierungsindex", "iNO"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "fall-006",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein Junge (**40+0 SSW, 3300 g**) wurde nach unauffälliger Schwangerschaft am 2. Lebenstag mit unauffälligem Pulsoxymetrie-Screening nach Hause entlassen. Am **3. Lebenstag** bringen die Eltern ihn in die Notaufnahme: grau-blass, tachypnoisch, trinkt nicht, Rekapillarisierungszeit 5 s, Leber 3 cm unter dem Rippenbogen, Femoralispulse kaum tastbar. Laktat 9 mmol/l, pH 7,08.",
+      "hints": [
+        "Was passiert in den ersten Lebenstagen physiologisch mit dem Ductus arteriosus?",
+        "Welche Herzfehler entgehen dem Pulsoxymetrie-Screening besonders oft?"
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Differenzialdiagnosen ziehen Sie in Betracht, und welche ist am wahrscheinlichsten?",
+          "answer": "Differenzialdiagnosen des Schocks am 3. Lebenstag: ductusabhängige Systemperfusion bei linksobstruktivem Herzfehler (kritische Aortenisthmusstenose, unterbrochener Aortenbogen, hypoplastisches Linksherzsyndrom, kritische Aortenstenose), Sepsis, angeborene Stoffwechselerkrankung, Volumenmangel, Herzrhythmusstörung (z. B. supraventrikuläre Tachykardie), Myokarditis/Kardiomyopathie, Salzverlust beim AGS (meist etwas später). Am wahrscheinlichsten ist hier wegen kaum tastbarer Femoralispulse, Hepatomegalie und Manifestation beim Ductusverschluss eine ductusabhängige Systemperfusion, z. B. eine kritische Aortenisthmusstenose.",
+          "keyPoints": [
+            "ductusabhängige Systemperfusion (CoA, IAA, HLHS, kritische AS)",
+            "Sepsis, Stoffwechselerkrankung, Rhythmusstörung, Myokarditis",
+            "Femoralispulse, Hepatomegalie, Zeitpunkt = Ductusverschluss"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Diagnostik führen Sie durch, und warum hat das Pulsoxymetrie-Screening diesen Befund nicht erkannt?",
+          "answer": "Blutdruckmessung an allen vier Extremitäten (Gradient obere/untere Extremität), prä- und postduktale Sättigung, Pulsstatus, Echokardiographie als entscheidende Untersuchung, Blutgasanalyse mit Laktat, Blutzucker, Elektrolyte, Nierenfunktion, Blutkultur und Entzündungswerte (Sepsis bleibt Differenzialdiagnose, parallel kalkulierte Antibiotika), Röntgen-Thorax (Kardiomegalie, Lungenstauung), EKG. Das Pulsoxymetrie-Screening erkennt vor allem zyanotische Herzfehler; bei linksobstruktiven Läsionen ist die Sättigung oft normal, solange der Ductus offen ist bzw. der Rechts-links-Shunt gering ist. Deshalb werden gerade die Aortenisthmusstenose und der unterbrochene Aortenbogen häufig nicht erfasst; das Screening ersetzt nicht die klinische Untersuchung einschließlich Femoralispulsen.",
+          "keyPoints": [
+            "Blutdruck an 4 Extremitäten, prä-/postduktale SpO2",
+            "Echokardiographie entscheidend",
+            "Labor inkl. Laktat, Blutkultur; Röntgen, EKG",
+            "Screening erfasst linksobstruktive Läsionen oft nicht"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 4,
+          "question": "Sie beginnen Prostaglandin E1 (Alprostadil) mit **0,05 µg/kg/min**. Der Perfusor enthält **500 µg in 50 ml** (10 µg/ml). Welche Laufrate in ml/h stellen Sie ein?",
+          "answer": "Dosis pro Stunde = 0,05 µg/kg/min · 3,3 kg · 60 min/h = 9,9 µg/h. Laufrate = 9,9 µg/h / 10 µg/ml = **0,99 ml/h**. Nach Wiedereröffnung des Ductus wird auf die niedrigste wirksame Erhaltungsdosis reduziert.",
+          "keyPoints": ["9,9 µg/h", "Laufrate ≈ 0,99 ml/h", "später Reduktion auf niedrigste wirksame Dosis"],
+          "solution": { "value": 0.99, "unit": "ml/h", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 5,
+          "question": "Welche Nebenwirkungen von Prostaglandin E1 müssen Sie beachten, und welche weiteren Maßnahmen zur Stabilisierung ergreifen Sie?",
+          "answer": "Nebenwirkungen: Apnoen (dosisabhängig, daher Bereitschaft zur Intubation; vor Transport wird bei hoher Dosis häufig elektiv intubiert), Fieber, Flush, Hypotension, Ödeme, Tachykardie, Krampfanfälle; bei Langzeittherapie kortikale Hyperostosen und Magenausgangsobstruktion. Weitere Maßnahmen: Kreislaufunterstützung (vorsichtige Volumengabe, Inotropika wie niedrig dosiertes Adrenalin bei ventrikulärer Dysfunktion), Korrektur von Azidose und Hypoglykämie, Beatmung bei Erschöpfung. Hohe FiO2 und Hyperventilation vermeiden, da sie den Lungengefäßwiderstand senken und die Lungendurchblutung auf Kosten der Systemperfusion steigern können. Nahrungskarenz bzw. vorsichtige enterale Ernährung wegen des NEC-Risikos, Monitoring von Urinausscheidung und Laktat.",
+          "keyPoints": [
+            "Apnoen – Intubationsbereitschaft",
+            "Fieber, Flush, Hypotension; langfristig Hyperostosen",
+            "Inotropika, Azidose- und Glukosekorrektur",
+            "keine hohe FiO2/Hyperventilation (Qp/Qs)",
+            "NEC-Risiko beachten"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Die Echokardiographie bestätigt eine kritische Aortenisthmusstenose mit offenem Ductus nach PGE1-Gabe. Wie geht es weiter, und was besprechen Sie mit den Eltern?",
+          "answer": "Verlegung in ein Kinderherzzentrum mit erfahrenem Transportteam unter laufender PGE1-Infusion, nach Stabilisierung von Kreislauf, Nieren- und Leberfunktion. Die Therapie der Wahl ist beim Neugeborenen die operative Korrektur (meist Resektion mit End-zu-End-Anastomose bzw. erweiterter Anastomose); assoziierte Fehlbildungen (bikuspide Aortenklappe, VSD, weitere Linksobstruktionen) und genetische Ursachen (z. B. Turner-Syndrom bei Mädchen, 22q11-Deletion bei unterbrochenem Aortenbogen) werden geprüft. Mit den Eltern: Erklärung des Befundes und warum das Screening unauffällig war (ohne Schuldzuweisung), Ablauf von Verlegung und Operation, gute Langzeitprognose nach erfolgreicher Korrektur, aber lebenslange kardiologische Kontrollen wegen Restenose und arterieller Hypertonie.",
+          "keyPoints": [
+            "Verlegung ins Kinderherzzentrum unter PGE1",
+            "operative Korrektur (Resektion, End-zu-End-Anastomose)",
+            "assoziierte Fehlbildungen und genetische Ursachen prüfen",
+            "Elterngespräch: Erklärung, Prognose, lebenslange Kontrollen"
+          ]
+        }
+      ],
+      "answer": "Neugeborenes im Schock am 3. Lebenstag nach Ductusverschluss: ductusabhängige Systemperfusion (kritische Aortenisthmusstenose) als wahrscheinlichste Diagnose, Pulsoxymetrie-Screening erfasst linksobstruktive Läsionen oft nicht. Diagnostik mit Vier-Extremitäten-Blutdruck und Echo, sofortiges PGE1 (0,99 ml/h bei 0,05 µg/kg/min), Beachtung von Apnoen, Vermeidung hoher FiO2, Stabilisierung und Verlegung ins Kinderherzzentrum zur operativen Korrektur.",
+      "keyPoints": [
+        "DD Schock am 3. LT: Ductusverschluss denken",
+        "Femoralispulse, 4-Extremitäten-RR, Echo",
+        "PGE1 sofort, Laufrate berechnen",
+        "Apnoe-Risiko, Qp/Qs-Balance",
+        "Kinderherzzentrum, operative Korrektur"
+      ],
+      "tags": ["Ductusabhängiger Herzfehler", "Aortenisthmusstenose", "Prostaglandin E1"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        }
+      ]
+    },
+    {
+      "id": "fall-007",
+      "type": "case",
+      "difficulty": 1,
+      "question": "Ein Junge wird mit **37+5 SSW** und **4450 g** (> 97. Perzentile) geboren. Die Mutter hat einen **insulinpflichtigen Gestationsdiabetes** mit schwankender Einstellung im letzten Trimenon. Das Kind wird nach der Geburt an die Brust angelegt. Mit **2 Lebensstunden** ist es zittrig, trinkt schlecht; der Blutzucker beträgt **22 mg/dl (1,2 mmol/l)**.",
+      "hints": ["Pathophysiologie: fetaler Hyperinsulinismus.", "Symptomatische Hypoglykämie wird intravenös behandelt."],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Erklären Sie die Pathophysiologie der Hypoglykämie beim Kind einer diabetischen Mutter, und wie sollte die Blutzuckerüberwachung organisiert sein?",
+          "answer": "Mütterliche Hyperglykämie führt über die Plazenta zu fetaler Hyperglykämie und reaktivem fetalem Hyperinsulinismus (Pedersen-Hypothese) mit Makrosomie. Nach der Abnabelung entfällt die Glukosezufuhr, der Hyperinsulinismus persistiert vorübergehend, die Glukoneogenese und Ketogenese sind gehemmt – es droht eine frühe Hypoglykämie, meist in den ersten Lebensstunden. Überwachung: frühes und häufiges Anlegen bzw. Füttern (erste Mahlzeit innerhalb der ersten Lebensstunde), Blutzuckermessungen nach Klinikstandard ab den ersten Lebensstunden präprandial, bis mehrere Werte stabil im Zielbereich liegen; Messung mit einer für Neugeborene geeigneten Methode und Bestätigung niedriger Werte im Labor bzw. mit Blutgasanalysator, ohne die Therapie zu verzögern. Interventionsgrenzen nach AWMF-Leitlinie bzw. Klinikstandard.",
+          "keyPoints": [
+            "fetaler Hyperinsulinismus (Pedersen)",
+            "postnatal fehlende Glukosezufuhr bei persistierendem Insulin",
+            "frühes Füttern, präprandiale BZ-Messungen",
+            "Bestätigung niedriger Werte ohne Therapieverzögerung"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Wie behandeln Sie die aktuelle Situation, und welche anderen Ursachen der Zittrigkeit bedenken Sie?",
+          "answer": "Es liegt eine symptomatische Hypoglykämie vor, die intravenös behandelt wird: Glukosebolus 200 mg/kg (2 ml/kg Glukose 10 %) langsam i.v., anschließend kontinuierliche Glukoseinfusion mit einer GIR von etwa 4–6 mg/kg/min, Kontrolle nach 30–60 Minuten und Anpassung. Die enterale Ernährung (Stillen, ggf. Zufütterung) wird fortgesetzt. Bei asymptomatischen Kindern mit grenzwertigen Werten wären frühes Füttern und ggf. Glukosegel (40 %) Optionen, nicht jedoch bei symptomatischer Hypoglykämie. Differenzialdiagnosen der Zittrigkeit: Hypokalzämie, Hypomagnesiämie (beide typisch beim Kind diabetischer Mütter), Polyglobulie, Entzugssymptomatik, Krampfanfälle (Unterscheidung: Jitteriness ist durch Festhalten unterdrückbar, stimulusabhängig, ohne Blickdeviation).",
+          "keyPoints": [
+            "symptomatisch = i.v. Therapie",
+            "Bolus 2 ml/kg G10 %, dann GIR 4–6 mg/kg/min",
+            "Kontrolle nach 30–60 min, Ernährung fortsetzen",
+            "DD: Hypokalzämie, Hypomagnesiämie, Krampfanfall"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Berechnen Sie das Volumen des Glukosebolus (2 ml/kg Glukose 10 %) für das Kind mit 4450 g.",
+          "answer": "4,45 kg · 2 ml/kg = **8,9 ml** Glukose 10 % (entspricht 890 mg Glukose bzw. 200 mg/kg), langsam über einige Minuten i.v.",
+          "keyPoints": ["8,9 ml", "200 mg/kg", "langsam i.v."],
+          "solution": { "value": 8.9, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 4,
+          "question": "Anschließend soll eine GIR von **6 mg/kg/min** mit Glukose 10 % laufen. Welche Infusionsrate in ml/h stellen Sie ein?",
+          "answer": "Glukosebedarf = 6 mg/kg/min · 4,45 kg = 26,7 mg/min = 1602 mg/h. Glukose 10 % = 100 mg/ml → 1602 / 100 = **16,0 ml/h** (entspricht etwa 86 ml/kg/d).",
+          "keyPoints": ["26,7 mg/min bzw. 1602 mg/h", "Division durch 100 mg/ml", "≈ 16 ml/h"],
+          "solution": { "value": 16, "unit": "ml/h", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Am 3. Lebenstag benötigt das Kind weiterhin eine GIR von 12 mg/kg/min, um normoglykäm zu bleiben. Wie interpretieren Sie dies, und welche Diagnostik und Therapie folgen?",
+          "answer": "Ein Glukosebedarf über etwa 8–10 mg/kg/min spricht für einen Hyperinsulinismus. Beim Kind einer diabetischen Mutter ist er meist transient und klingt innerhalb weniger Tage ab; persistiert er länger (etwa über eine Woche) oder ist er sehr ausgeprägt, muss an einen kongenitalen Hyperinsulinismus oder andere Ursachen gedacht werden. Diagnostik: Kritische Probe während einer Hypoglykämie (Glukose, Insulin, C-Peptid, β-Hydroxybutyrat, freie Fettsäuren, Cortisol, Wachstumshormon, Laktat, Ammoniak, Acylcarnitine); beim Hyperinsulinismus ist Insulin inadäquat nachweisbar, Ketone und Fettsäuren sind supprimiert, Glukagon führt zu deutlichem Blutzuckeranstieg. Therapie: hochprozentige Glukose über einen zentralen Zugang (peripher in der Regel maximal 12,5 %), häufige Mahlzeiten, Glukagon als Notfall- oder Dauertherapie, bei persistierendem Hyperinsulinismus Diazoxid; Mitbetreuung durch die pädiatrische Endokrinologie.",
+          "keyPoints": [
+            "hoher Glukosebedarf = Hyperinsulinismus",
+            "bei IDM meist transient, bei Persistenz kongenitalen HI erwägen",
+            "kritische Probe: Insulin, C-Peptid, β-Hydroxybutyrat, FFS, Cortisol, GH",
+            "zentraler Zugang für > 12,5 % Glukose, Glukagon, ggf. Diazoxid",
+            "Endokrinologie einbeziehen"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 4,
+          "question": "Welche weiteren Probleme müssen Sie bei einem Kind einer diabetischen Mutter beachten?",
+          "answer": "Metabolisch: Hypokalzämie und Hypomagnesiämie. Hämatologisch: Polyglobulie mit Hyperviskosität, Hyperbilirubinämie, Nierenvenenthrombose. Respiratorisch: verzögerte Lungenreife mit Atemnotsyndrom, transitorische Tachypnoe. Kardial: hypertrophe (septumbetonte) Kardiomyopathie, meist reversibel – positiv inotrope Medikamente vermeiden. Geburtstraumatisch bei Makrosomie: Plexusparese, Klavikulafraktur, Asphyxie. Fehlbildungen bei präkonzeptionell manifestem Diabetes: Herzfehler, Neuralrohrdefekte, kaudales Regressionssyndrom, Small-left-colon-Syndrom. Langfristig erhöhtes Risiko für Adipositas und Glukosestoffwechselstörungen.",
+          "keyPoints": [
+            "Hypokalzämie, Hypomagnesiämie",
+            "Polyglobulie, Hyperbilirubinämie",
+            "RDS, hypertrophe Kardiomyopathie",
+            "Geburtstrauma (Plexus, Klavikula)",
+            "Fehlbildungen (kaudale Regression, Herzfehler)"
+          ]
+        }
+      ],
+      "answer": "Symptomatische Hypoglykämie beim makrosomen Kind einer diabetischen Mutter: fetaler Hyperinsulinismus als Ursache, Glukosebolus 2 ml/kg G10 % (8,9 ml) und Dauerinfusion mit GIR 6 mg/kg/min (16 ml/h), bei hohem Glukosebedarf Abklärung eines Hyperinsulinismus mit kritischer Probe und zentralem Zugang, sowie Beachtung typischer Begleitprobleme (Hypokalzämie, Polyglobulie, Kardiomyopathie, Geburtstrauma, Fehlbildungen).",
+      "keyPoints": [
+        "Pathophysiologie Hyperinsulinismus",
+        "symptomatisch = i.v. Glukose",
+        "Bolus- und GIR-Berechnung",
+        "persistierender Bedarf → kritische Probe",
+        "Begleitprobleme beim IDM"
+      ],
+      "tags": ["Hypoglykämie", "Diabetische Mutter", "GIR"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Betreuung von Neugeborenen diabetischer Mütter (024-006, Fassung 2017)"
+    },
+    {
+      "id": "fall-008",
+      "type": "case",
+      "difficulty": 3,
+      "question": "Eine Schwangere wird bei **32+1 SSW** mit einem pränatal diagnostizierten **Hydrops fetalis** (Aszites, beidseitige Pleuraergüsse, Hautödem) und Polyhydramnion in Ihr Zentrum verlegt. Antikörpersuchtest negativ, Parvovirus-B19-Serologie ausstehend. Wegen pathologischen CTGs wird eine Sectio geplant. Schätzgewicht **2100 g**.",
+      "hints": [
+        "Immun vs. nicht-immun – und welche Ursachengruppen gibt es?",
+        "Die Erstversorgung erfordert Vorbereitung für Punktionen."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Definieren Sie den Hydrops fetalis und nennen Sie die wichtigsten Ursachengruppen.",
+          "answer": "Hydrops fetalis bezeichnet die pathologische Flüssigkeitsansammlung in mindestens zwei fetalen Kompartimenten (Aszites, Pleuraerguss, Perikarderguss, generalisiertes Hautödem). Man unterscheidet den immunologischen Hydrops (Alloimmunisierung, v. a. Rh-Inkompatibilität, heute selten) vom weitaus häufigeren nicht-immunologischen Hydrops. Ursachen des nicht-immunologischen Hydrops: kardiovaskulär (strukturelle Herzfehler, Tachyarrhythmien, AV-Block), chromosomal und syndromal (Turner, Trisomien, Noonan-Syndrom), hämatologisch (Parvovirus-B19-Anämie, α-Thalassämie, fetomaternale Transfusion), Infektionen (Parvovirus, CMV, Toxoplasmose, Lues), lymphatische Fehlbildungen (kongenitaler Chylothorax, Lymphangiektasie), thorakale Raumforderungen (CPAM), Zwillingskomplikationen (feto-fetales Transfusionssyndrom), Stoffwechselerkrankungen (lysosomale Speicherkrankheiten) und idiopathisch.",
+          "keyPoints": [
+            "≥ 2 Kompartimente betroffen",
+            "immun vs. nicht-immun (heute überwiegend)",
+            "kardial, chromosomal/syndromal, hämatologisch (Parvo, α-Thal)",
+            "Infektionen, lymphatisch (Chylothorax), Stoffwechsel, TTTS"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 5,
+          "question": "Wie bereiten Sie die Erstversorgung vor, und wie gehen Sie im Kreißsaal vor?",
+          "answer": "Vorbereitung: erfahrenes Team mit mehreren Ärzten und Pflegekräften, klare Aufgabenverteilung, Material für Intubation, Pleurapunktion bzw. Thoraxdrainage und Aszitespunktion (Venenverweilkanülen, Dreiwegehahn, Spritzen), Nabelvenenkatheter, Surfactant, Erythrozytenkonzentrat 0 Rh-negativ bereitstellen. Versorgung: Wärme, frühzeitige Intubation (Maskenbeatmung bei Ödemen und Ergüssen oft insuffizient) mit ggf. höheren Beatmungsdrücken, Surfactant. Gelingt keine ausreichende Belüftung, sofortige Pleurapunktion beidseits und ggf. Entlastung des Aszites, der das Zwerchfell nach oben drängt. Nabelvenenkatheter, Blutentnahme für Diagnostik vor Transfusionen, Blutgasanalyse und Hb; bei schwerer Anämie zügige Korrektur. Vorsichtige Flüssigkeitszufuhr, Kreislaufunterstützung.",
+          "keyPoints": [
+            "erfahrenes Team, Punktionsmaterial, EK 0 Rh-negativ bereit",
+            "frühe Intubation, hohe Drücke, Surfactant",
+            "Pleurapunktion/Aszitesentlastung bei Ventilationsproblemen",
+            "Diagnostik-Blut vor Transfusion",
+            "Flüssigkeitsrestriktion, Kreislaufunterstützung"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 4,
+          "question": "Welche postnatale Diagnostik veranlassen Sie zur Ursachenklärung?",
+          "answer": "Blutbild mit Retikulozyten, Blutgruppe und direkter Coombs-Test, Hb-Elektrophorese bzw. Thalassämie-Diagnostik je nach Herkunft, Gesamteiweiß und Albumin, Leber- und Nierenwerte, Gerinnung. Infektionsdiagnostik: Parvovirus B19 (PCR), CMV, Toxoplasmose, Lues. Genetik: Chromosomenanalyse bzw. Array, bei Verdacht gezielte Panel- oder Exomdiagnostik (z. B. RASopathien). Echokardiographie und EKG. Punktat-Analyse: Zellzahl und Differenzierung, Triglyceride, Eiweiß, Kultur. Bildgebung: Sonographie von Abdomen und Schädel. Bei unklarer Ursache Stoffwechseldiagnostik (lysosomale Speicherkrankheiten). Plazentahistologie.",
+          "keyPoints": [
+            "Blutbild, Coombs, Hb-Diagnostik",
+            "Infektionen (Parvo-PCR, CMV, Toxo, Lues)",
+            "Genetik (Array/Exom), Echo",
+            "Punktatanalyse (Zellen, Triglyceride)",
+            "Stoffwechsel, Plazentahistologie"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 4,
+          "question": "Das Kind (2,1 kg) hat einen Hb von **6 g/dl**. Um eine Volumenbelastung zu vermeiden, planen Sie eine **partielle Austauschtransfusion** mit Erythrozytenkonzentrat (Hb 20 g/dl), Ziel-Hb 12 g/dl, Blutvolumen 90 ml/kg. Formel: V = Blutvolumen · (Hb-Ziel − Hb-Ist) / (Hb-EK − Hb-Ist). Wie viel ml werden ausgetauscht?",
+          "answer": "Blutvolumen = 2,1 kg · 90 ml/kg = 189 ml. V = 189 · (12 − 6) / (20 − 6) = 189 · 6 / 14 = **81 ml**. Es werden also schrittweise kleine Portionen Blut entnommen und durch Erythrozytenkonzentrat ersetzt (isovolämisch).",
+          "keyPoints": ["Blutvolumen 189 ml", "189 · 6/14", "≈ 81 ml isovolämisch austauschen"],
+          "solution": { "value": 81, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Nach Beginn der enteralen Ernährung zeigt das erneut gewonnene Pleurapunktat eine milchige Flüssigkeit mit hohen Triglyceriden und über 80 % Lymphozyten. Diagnose und Therapie?",
+          "answer": "Kongenitaler Chylothorax, eine typische Ursache des nicht-immunologischen Hydrops. Therapie: Drainage bei respiratorischer Relevanz (Thoraxdrainage), Ernährung mit MCT-reicher Spezialnahrung oder vorübergehende Nahrungskarenz mit parenteraler Ernährung, Ersatz von Eiweiß-, Immunglobulin-, Gerinnungs- und Elektrolytverlusten, Infektionsprophylaxe bzw. -überwachung (Lymphozytenverlust). Bei Persistenz Octreotid (off-label), weitere Optionen sind Pleurodese, Lymphgefäßdarstellung mit Intervention oder chirurgische Verfahren. Die meisten kongenitalen Chylothoraces bilden sich unter konservativer Therapie über Wochen zurück.",
+          "keyPoints": [
+            "kongenitaler Chylothorax",
+            "Drainage, MCT-Nahrung oder Nahrungskarenz mit PN",
+            "Ersatz von Eiweiß, Immunglobulinen, Elektrolyten",
+            "Octreotid off-label, Pleurodese/Intervention bei Persistenz"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 3,
+          "question": "Was besprechen Sie mit den Eltern zu Prognose und weiteren Schwangerschaften?",
+          "answer": "Die Prognose des nicht-immunologischen Hydrops ist insgesamt ernst und hängt wesentlich von der Ursache, dem Gestationsalter bei Geburt und dem Ausmaß der Lungenhypoplasie ab; behandelbare Ursachen wie ein isolierter Chylothorax oder eine Parvovirus-Anämie haben eine deutlich bessere Prognose als chromosomale oder syndromale Ursachen. Die Eltern werden ehrlich und schrittweise informiert. Für weitere Schwangerschaften ist die Ursache entscheidend: genetische Ursachen und Stoffwechselerkrankungen können ein Wiederholungsrisiko bergen, daher genetische Beratung und frühzeitige pränatale Betreuung in einem Zentrum.",
+          "keyPoints": [
+            "Prognose abhängig von Ursache, GA und Lungenhypoplasie",
+            "Chylothorax/Parvo günstiger als chromosomal",
+            "genetische Beratung, Wiederholungsrisiko",
+            "pränatale Betreuung in Folgeschwangerschaft"
+          ]
+        }
+      ],
+      "answer": "Nicht-immunologischer Hydrops fetalis: Definition (≥ 2 Kompartimente) und Ursachengruppen, sorgfältig vorbereitete Erstversorgung mit früher Intubation, Pleura- und Aszitespunktion, strukturierte Ursachendiagnostik, partielle Austauschtransfusion bei schwerer Anämie (≈ 81 ml), Diagnose und Therapie eines kongenitalen Chylothorax sowie ursachenabhängige Prognose und genetische Beratung.",
+      "keyPoints": [
+        "Definition und Ursachen des NIHF",
+        "Kreißsaal: Intubation, Punktionen",
+        "Diagnostik vor Transfusion",
+        "partielle Austauschtransfusion berechnen",
+        "Chylothorax, Prognose, genetische Beratung"
+      ],
+      "tags": ["Hydrops fetalis", "Chylothorax", "Austauschtransfusion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ]
+    },
+    {
+      "id": "fall-009",
+      "type": "case",
+      "difficulty": 3,
+      "question": "Bei einem Feten wurde in der 22. SSW eine **linksseitige kongenitale Zwerchfellhernie** diagnostiziert, das observed/expected Lung-to-Head-Ratio (o/e LHR) beträgt **30 %**, Teile der Leber liegen intrathorakal. Karyotyp und fetale Echokardiographie sind unauffällig. Die geplante Geburt erfolgt mit **38+2 SSW** in Ihrem Zentrum, Geburtsgewicht **3100 g**.",
+      "hints": [
+        "Was ist bei der Erstversorgung strikt zu vermeiden?",
+        "Die pulmonale Hypertonie bestimmt den Verlauf; die Operation ist kein Notfall."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie schätzen Sie die Prognose pränatal ein, und welche fetale Therapieoption gibt es?",
+          "answer": "Wichtige pränatale Prognoseparameter sind das o/e LHR (bzw. das MRT-Lungenvolumen), die Leberposition, die Seite (rechtsseitig ungünstiger), assoziierte Fehlbildungen und der Karyotyp. Ein o/e LHR von 26–35 % entspricht einer mittelschweren Hypoplasie, die intrathorakale Leber verschlechtert die Prognose zusätzlich. Als fetale Therapie steht die fetoskopische endoluminale Trachealokklusion (FETO) zur Verfügung: Bei schwerer linksseitiger CDH verbesserte sie im TOTAL-Trial das Überleben, bei mittelschwerer Ausprägung war der Effekt nicht signifikant, bei erhöhtem Frühgeburtsrisiko. Die Beratung erfolgt interdisziplinär in einem CDH-Zentrum, die Geburt wird dort geplant.",
+          "keyPoints": [
+            "o/e LHR, Leberposition, Seite, Begleitfehlbildungen",
+            "o/e LHR 30 % = mittelschwer, Leber intrathorakal ungünstig",
+            "FETO: Überlebensvorteil bei schwerer CDH, Frühgeburtsrisiko",
+            "Geburt im CDH-Zentrum"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 5,
+          "question": "Beschreiben Sie die Erstversorgung im Kreißsaal.",
+          "answer": "Keine Maskenbeatmung, um eine Luftfüllung des intrathorakal gelegenen Magens und Darms zu vermeiden; sofortige Intubation nach der Geburt. Magen-Doppellumensonde (z. B. Replogle) mit kontinuierlichem Sog zur Dekompression. Schonende Beatmung mit Spitzendrücken möglichst ≤ 25 cm H2O und PEEP etwa 2–5 cm H2O, um Barotrauma und Pneumothorax der hypoplastischen Lunge zu vermeiden. Zielwerte: präduktale SpO2 80–95 % (in den ersten zwei Stunden werden auch niedrigere Werte toleriert, solange sie ansteigen und die Organperfusion gut ist), Monitoring prä- und postduktal. Venöser und arterieller Zugang (Nabelgefäße), Analgosedierung, Kreislaufunterstützung bei Hypotension. Kein routinemäßiger Surfactant.",
+          "keyPoints": [
+            "keine Maskenbeatmung, sofortige Intubation",
+            "Magensonde mit Sog (Replogle)",
+            "PIP ≤ 25 cm H2O, PEEP 2–5 cm H2O",
+            "präduktale SpO2 80–95 %, Toleranz in den ersten 2 h",
+            "Zugänge, Sedierung, kein Routine-Surfactant"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Mit 6 Lebensstunden: MAP 14 cm H2O, FiO2 0,8, paO2 45 mmHg. Berechnen Sie den Oxygenierungsindex (OI = MAP · FiO2 · 100 / paO2).",
+          "answer": "OI = 14 · 0,8 · 100 / 45 = 1120 / 45 ≈ **24,9**. Das entspricht einer relevanten Oxygenierungsstörung; die Echokardiographie zur Beurteilung der pulmonalen Hypertonie und der Ventrikelfunktion ist erforderlich.",
+          "keyPoints": ["korrekte Formel", "OI ≈ 24,9", "Echo zur PH-Beurteilung"],
+          "solution": { "value": 24.9, "unit": "", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 5,
+          "question": "Wie behandeln Sie die pulmonale Hypertonie und das Oxygenierungsversagen bei CDH?",
+          "answer": "Lungenschonende Beatmung mit permissiver Hyperkapnie (pCO2 etwa 50–70 mmHg), bei Versagen der konventionellen Beatmung Hochfrequenzoszillation als Rescue. Systemischen Blutdruck im altersentsprechenden Normbereich halten (Volumen, Katecholamine), Echo-gesteuert. Inhalatives NO als Therapieversuch bei relevanter pulmonaler Hypertonie mit Rechts-links-Shunt (z. B. OI > 20 und Sättigungsdifferenz), bei CDH jedoch mit begrenzter Wirksamkeit; bei linksventrikulärer Dysfunktion eher Milrinon. Bei suprasystemischem pulmonalem Druck mit Rechtsherzbelastung und restriktivem Ductus Prostaglandin E1 zur Rechtsherzentlastung. Bei anhaltendem Versagen (z. B. OI dauerhaft > 40, präduktale SpO2 < 85 % trotz optimaler Therapie, Laktatanstieg) ECMO, sofern keine Kontraindikationen bestehen.",
+          "keyPoints": [
+            "permissive Hyperkapnie, HFOV als Rescue",
+            "Systemdruck stützen, Echo-gesteuert",
+            "iNO-Versuch (begrenzte Wirksamkeit), Milrinon bei LV-Dysfunktion",
+            "PGE1 bei RV-Belastung",
+            "ECMO bei Versagen"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Wann ist der richtige Zeitpunkt für die operative Korrektur, und wie wird operiert?",
+          "answer": "Die Zwerchfellhernie ist kein chirurgischer Notfall; operiert wird nach physiologischer Stabilisierung, z. B. bei normalem arteriellem Mitteldruck, präduktaler SpO2 von 85–95 % unter FiO2 < 0,5, Laktat < 3 mmol/l und Urinausscheidung > 1 ml/kg/h sowie Rückgang der pulmonalen Hypertonie. Operation: Reposition der Bauchorgane, Verschluss des Zwerchfelldefekts primär oder bei großem Defekt mit Patch (höheres Rezidivrisiko), je nach Zentrum offen oder minimalinvasiv; bei Kindern an der ECMO wird der Zeitpunkt individuell festgelegt.",
+          "keyPoints": [
+            "kein Notfall, OP nach Stabilisierung",
+            "Stabilitätskriterien (MAP, SpO2 bei FiO2 < 0,5, Laktat, Diurese)",
+            "Primärverschluss oder Patch",
+            "Patch: höheres Rezidivrisiko"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 3,
+          "question": "Welche Langzeitprobleme erfordern eine strukturierte Nachsorge?",
+          "answer": "Pulmonal: chronische Lungenerkrankung, persistierende pulmonale Hypertonie (Echo-Kontrollen), rezidivierende Infekte. Gastrointestinal: gastroösophagealer Reflux, Ess- und Gedeihstörungen (oft Sondenernährung nötig). Chirurgisch: Hernienrezidiv (v. a. nach Patch), Adhäsionsileus, Thoraxwanddeformitäten und Skoliose. Neurologisch: Entwicklungsverzögerung, besonders nach ECMO, sowie sensorineurale Hörstörungen. Daher multidisziplinäre Nachsorge (Neonatologie, Kinderchirurgie, Kinderpneumologie und -kardiologie, Ernährung, Entwicklungsdiagnostik, Audiologie), RSV-Prophylaxe und Impfungen.",
+          "keyPoints": [
+            "chronische Lungenerkrankung, pulmonale Hypertonie",
+            "GÖR, Gedeihstörung",
+            "Hernienrezidiv, Skoliose/Thoraxdeformität",
+            "Entwicklung und Hören",
+            "multidisziplinäre Nachsorge"
+          ]
+        }
+      ],
+      "answer": "Linksseitige CDH mit mittelschwerer Lungenhypoplasie und intrathorakaler Leber: pränatale Prognoseparameter und FETO, Erstversorgung ohne Maskenbeatmung mit sofortiger Intubation, Magendekompression und lungenschonender Beatmung, OI-Berechnung (≈ 24,9), Management der pulmonalen Hypertonie (permissive Hyperkapnie, HFOV, iNO-Versuch, Milrinon, PGE1, ECMO), operative Korrektur erst nach Stabilisierung und multidisziplinäre Langzeitnachsorge.",
+      "keyPoints": [
+        "o/e LHR, Leberposition, FETO",
+        "keine Maskenbeatmung, Replogle, PIP ≤ 25",
+        "OI ≈ 24,9",
+        "PH-Management bis ECMO",
+        "OP nach Stabilisierung, Langzeitnachsorge"
+      ],
+      "tags": ["Zwerchfellhernie", "Pulmonale Hypertonie", "Erstversorgung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.6 – Zwerchfellhernie (CDH)",
+          "terms": ["Zwerchfellhernie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.12–10.14 – HFOV, iNO, ECMO",
+          "terms": ["HFOV", "iNO", "ECMO"]
+        }
+      ]
+    },
+    {
+      "id": "fall-010",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein Mädchen (**39+1 SSW, 3000 g**) wird von einer Mutter in **Methadonsubstitution** geboren; im Drogenscreening der Mutter finden sich zusätzlich Benzodiazepine. HIV-Test negativ, HBsAg negativ, Anti-HCV positiv. Mit **48 Lebensstunden** ist das Kind unruhig, schreit schrill, zeigt Tremor bei Berührung, trinkt schlecht und hat dünne Stühle.",
+      "hints": [
+        "Zeitlicher Verlauf hängt von der Substanz ab.",
+        "Scoring, nicht-medikamentöse und medikamentöse Therapie, soziale Aspekte."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Diagnose stellen Sie, und welchen zeitlichen Verlauf erwarten Sie bei Methadon und zusätzlichem Benzodiazepinkonsum?",
+          "answer": "Neonatales Abstinenzsyndrom (neonatales Opioidentzugssyndrom) mit typischen zentralnervösen (Unruhe, schrilles Schreien, Tremor, Hypertonie, gestörter Schlaf, im Extremfall Krampfanfälle), gastrointestinalen (Trinkschwäche, Erbrechen, Durchfall) und vegetativen Zeichen (Schwitzen, Niesen, Tachypnoe, Fieber). Bei Methadon beginnen die Symptome meist am 2.–3. Lebenstag, gelegentlich später, und können lange anhalten; bei Heroin früher (innerhalb des ersten Tages). Benzodiazepine führen zu verzögertem Beginn und protrahiertem Verlauf, Polytoxikomanie verstärkt die Symptomatik. Deshalb ist eine stationäre Beobachtung über mehrere Tage (zentrumsabhängig, meist mindestens 4–7 Tage) nötig. Differenzialdiagnostisch sind Hypoglykämie, Hypokalzämie, Infektion und ZNS-Erkrankungen auszuschließen.",
+          "keyPoints": [
+            "neonatales Abstinenzsyndrom",
+            "ZNS-, GI- und vegetative Symptome",
+            "Methadon: Beginn meist 2.–3. Tag, lange Dauer",
+            "Benzodiazepine: späterer, protrahierter Verlauf",
+            "DD ausschließen, mehrtägige Beobachtung"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Wie erfassen Sie den Schweregrad, und wann ist eine medikamentöse Therapie indiziert?",
+          "answer": "Standardisierte Erfassung mit einem Scoring-System, z. B. dem modifizierten Finnegan-Score, durch geschultes Personal in regelmäßigen Abständen (etwa alle 3–4 Stunden, nach den Mahlzeiten). Eine medikamentöse Therapie ist nach klassischem Vorgehen indiziert, wenn mehrere aufeinanderfolgende Scores erhöht sind (z. B. drei Werte ≥ 8 oder zwei Werte ≥ 12) und nicht-medikamentöse Maßnahmen ausgeschöpft sind. Zunehmend wird der funktionelle Ansatz „Eat, Sleep, Console“ genutzt, der darauf abstellt, ob das Kind ausreichend trinken, schlafen und sich beruhigen lassen kann; er reduziert in Studien den Medikamentenbedarf und die Liegedauer. Das Vorgehen ist zentrumsabhängig.",
+          "keyPoints": [
+            "Finnegan-Score regelmäßig durch geschultes Personal",
+            "Therapie bei wiederholt erhöhten Scores (z. B. 3× ≥ 8 oder 2× ≥ 12)",
+            "nicht-medikamentöse Maßnahmen zuerst",
+            "Eat-Sleep-Console als Alternative"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 4,
+          "question": "Welche nicht-medikamentösen Maßnahmen setzen Sie ein? Darf die Mutter stillen?",
+          "answer": "Rooming-in mit der Mutter, reizarme Umgebung (gedämpftes Licht, wenig Lärm), Pucken bzw. enges Einwickeln, Körperkontakt (Känguru), ruhiges Tragen, Schnuller, häufige kleine Mahlzeiten mit ausreichender Kalorienzufuhr, Hautpflege im Windelbereich. Stillen wird bei stabiler Substitution ohne Beikonsum empfohlen, da es die Entzugssymptomatik mildert und die Bindung fördert; eine HCV-Infektion der Mutter ist keine Kontraindikation (Ausnahme: blutende, wunde Mamillen). Bei aktuellem Beikonsum, hier Benzodiazepine, muss individuell abgewogen werden; bei fortgesetztem unkontrolliertem Beikonsum wird vom Stillen abgeraten. Bei einer HIV-Infektion der Mutter ist Stillen nach aktueller deutsch-österreichischer Leitlinie nur bei dauerhaft supprimierter Viruslast und nach ausführlicher Beratung eine Option, sonst wird abgeraten.",
+          "keyPoints": [
+            "Rooming-in, reizarme Umgebung, Pucken, Körperkontakt",
+            "häufige kleine Mahlzeiten",
+            "Stillen bei stabiler Substitution ohne Beikonsum",
+            "HCV keine Kontraindikation",
+            "unkontrollierter Beikonsum: vom Stillen abraten"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 3,
+          "question": "Die Scores bleiben hoch. Sie beginnen mit oraler Morphinlösung, Startdosis laut Klinikstandard **0,04 mg/kg alle 4 Stunden**. Die Lösung enthält **0,1 mg/ml**. Wie viele ml erhält das Kind (3,0 kg) pro Einzeldosis?",
+          "answer": "Dosis = 3,0 kg · 0,04 mg/kg = 0,12 mg. Volumen = 0,12 mg / 0,1 mg/ml = **1,2 ml** alle 4 Stunden. Die Dosis wird nach Score bzw. klinischem Zustand schrittweise gesteigert, bis die Symptome kontrolliert sind; Monitoring wegen möglicher Atemdepression.",
+          "keyPoints": ["0,12 mg pro Dosis", "1,2 ml alle 4 h", "Titration nach Score, Monitoring"],
+          "solution": { "value": 1.2, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Trotz Morphin-Dosissteigerung bleibt das Kind sehr unruhig. Welche zusätzlichen Optionen haben Sie, und wie beenden Sie die Therapie?",
+          "answer": "Bei Polytoxikomanie, insbesondere zusätzlichem Benzodiazepinkonsum, und unzureichendem Ansprechen auf Opioide kann ein Zweitmedikament ergänzt werden: Phenobarbital oder Clonidin (zentrumsabhängig). Andere Ursachen der Unruhe (Hunger, Infektion, Stoffwechselstörung) werden erneut geprüft. Nach Stabilisierung der Scores über etwa 48 Stunden wird das Morphin schrittweise reduziert, z. B. um etwa 10 % der Dosis alle 24–48 Stunden, solange die Scores stabil bleiben; bei Wiederanstieg wird auf die letzte wirksame Dosis zurückgekehrt. Phenobarbital kann ggf. nach Entlassung ambulant ausgeschlichen werden, was ein verlässliches Umfeld voraussetzt.",
+          "keyPoints": [
+            "Zweitmedikament: Phenobarbital oder Clonidin",
+            "andere Ursachen erneut prüfen",
+            "schrittweise Reduktion (ca. 10 % alle 24–48 h)",
+            "bei Rückfall letzte wirksame Dosis"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 5,
+          "question": "Welche weiteren medizinischen und psychosozialen Aspekte sind vor der Entlassung zu klären?",
+          "answer": "Medizinisch: HCV-Diagnostik beim Kind (HCV-RNA frühestens ab etwa 2 Monaten bzw. Anti-HCV nach Abklingen der mütterlichen Antikörper mit etwa 18 Monaten), vollständige Impfungen einschließlich Hepatitis-B-Impfung nach STIKO, Hörscreening, Beratung zum erhöhten SIDS-Risiko (Rauchen meiden). Psychosozial: frühzeitige Einbindung des Sozialdienstes und mit Einverständnis der Mutter des Jugendamts bzw. der Frühen Hilfen, Abstimmung mit dem substituierenden Arzt und der Suchtberatung, Einschätzung der Versorgungsfähigkeit und des Kindeswohls (Beikonsum!). Bei gewichtigen Anhaltspunkten für eine Kindeswohlgefährdung Vorgehen nach § 4 KKG; eine Entlassung erfolgt nur mit tragfähigem Hilfe- bzw. Schutzplan (z. B. Familienhebamme, sozialpädagogische Familienhilfe, Mutter-Kind-Einrichtung). Anbindung an Kinderarzt und ggf. sozialmedizinische Nachsorge, entwicklungsneurologische Kontrollen.",
+          "keyPoints": [
+            "HCV-Diagnostik des Kindes im Verlauf, Impfungen",
+            "SIDS-Beratung",
+            "Sozialdienst, Jugendamt/Frühe Hilfen, Suchthilfe",
+            "Kindeswohl prüfen, § 4 KKG",
+            "Entlassung nur mit Hilfeplan"
+          ]
+        }
+      ],
+      "answer": "Neonatales Abstinenzsyndrom bei Methadonsubstitution mit Benzodiazepin-Beikonsum: typische Symptome und substanzabhängiger Verlauf, standardisiertes Scoring (Finnegan bzw. Eat-Sleep-Console), nicht-medikamentöse Maßnahmen und Stillen bei stabiler Substitution, orales Morphin (hier 1,2 ml), ggf. Phenobarbital oder Clonidin, schrittweise Reduktion sowie HCV-Nachsorge und psychosoziale Absicherung inkl. Kinderschutz.",
+      "keyPoints": [
+        "Symptome und zeitlicher Verlauf",
+        "Scoring und Therapieindikation",
+        "nicht-medikamentöse Maßnahmen, Stillen",
+        "Morphin-Dosisberechnung, Zweitmedikament",
+        "HCV, Kinderschutz, Hilfeplan"
+      ],
+      "tags": ["Abstinenzsyndrom", "Methadon", "Kinderschutz"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        }
+      ]
+    },
+    {
+      "id": "fall-011",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Eine Mutter (Blutgruppe **0 Rh-negativ**) hat in der vorangegangenen Schwangerschaft keine Anti-D-Prophylaxe erhalten; jetzt ist **Anti-D** nachweisbar, intrauterine Transfusionen waren nicht erforderlich. Ein Junge wird mit **37+2 SSW** und **3100 g** geboren. Mit **6 Lebensstunden** ist er sichtbar ikterisch. Nabelschnurblut: Hb 11,5 g/dl, direkter Coombs-Test positiv.",
+      "hints": [
+        "Ikterus in den ersten 24 Stunden ist immer pathologisch.",
+        "Anstiegsgeschwindigkeit, Phototherapie, Immunglobuline, Austauschtransfusion."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Erklären Sie die Pathophysiologie und nennen Sie die initial notwendige Diagnostik.",
+          "answer": "Morbus haemolyticus neonatorum durch Rh-Inkompatibilität: Die Mutter wurde durch Rh-positive kindliche Erythrozyten in einer früheren Schwangerschaft sensibilisiert und bildet IgG-Anti-D, das plazentagängig ist und kindliche Rh-positive Erythrozyten hämolysiert. Folgen sind Anämie bis Hydrops sowie postnatal ein rasch ansteigender, unkonjugierter Bilirubinspiegel, da die plazentare Elimination entfällt. Diagnostik: Blutgruppe und Rhesusfaktor des Kindes, direkter Coombs-Test, Blutbild mit Retikulozyten (und Erythroblasten), Gesamtbilirubin und direktes Bilirubin, Albumin, Blutzucker; serielle Bilirubinkontrollen alle 4–6 Stunden zur Bestimmung der Anstiegsgeschwindigkeit; Kreuzblut für eine mögliche Austauschtransfusion.",
+          "keyPoints": [
+            "Sensibilisierung, IgG-Anti-D plazentagängig",
+            "Hämolyse mit Anämie und raschem Bilirubinanstieg",
+            "Blutgruppe, Coombs, Blutbild mit Retikulozyten",
+            "serielle Bilirubinkontrollen, Kreuzblut"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "calc",
+          "points": 3,
+          "question": "Das Gesamtbilirubin beträgt mit 10 Lebensstunden **12,0 mg/dl**, mit 16 Lebensstunden unter Phototherapie **15,6 mg/dl**. Berechnen Sie die Anstiegsgeschwindigkeit in mg/dl/h.",
+          "answer": "Anstieg = (15,6 − 12,0) mg/dl / (16 − 10) h = 3,6 / 6 = **0,6 mg/dl/h**. Ein Anstieg von mehr als etwa 0,5 mg/dl/h trotz Phototherapie gilt klassisch als Zeichen einer ausgeprägten Hämolyse (kein Grenzwert der AWMF-Leitlinie); die Vorbereitung einer Austauschtransfusion ist angezeigt.",
+          "keyPoints": ["Δ 3,6 mg/dl in 6 h", "0,6 mg/dl/h", "Hinweis auf schwere Hämolyse, Austausch vorbereiten"],
+          "solution": { "value": 0.6, "unit": "mg/dl/h", "tolerance": 0.03 }
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 5,
+          "question": "Beschreiben Sie Ihre Therapie bis zur Entscheidung über eine Austauschtransfusion.",
+          "answer": "Intensivierte Phototherapie mit blauem Licht (Wellenlänge um 460–490 nm) und hoher Bestrahlungsstärke, möglichst große Körperoberfläche (ggf. Licht von oben und unten), Augenschutz, Temperatur- und Flüssigkeitsbilanz, Fortführung der Ernährung. Grenzwerte nach AWMF-Leitlinie 024-007 (Fassung 2015): Phototherapiegrenze bei < 38 SSW = Gestationsalter in Wochen − 20 mg/dl ab 72 h (hier 37 − 20 = 17 mg/dl), vor 72 h je 24 h um 2 mg/dl niedriger (in den ersten 24 h hier also etwa 11 mg/dl); dieser Algorithmus gilt für Kinder ohne Hämolyse – bei Alloimmunhämolyse werden zusätzlich Anstiegsdynamik und Anämie berücksichtigt und es wird eher früher behandelt. Eine Austauschtransfusion ist einzuleiten, wenn das Bilirubin ≥ 5 mg/dl über der Phototherapiegrenze liegt und unter intensiver Phototherapie innerhalb von 4–6 h nicht abfällt, bei Werten > 10 mg/dl über der Grenze sowie bei Zeichen einer akuten Bilirubinenzephalopathie (Lethargie, Trinkschwäche, Hypertonie, Opisthotonus, schrilles Schreien); beim Morbus haemolyticus gehen außerdem das Ausmaß der Anämie und die Entfernung der Antikörper in die Entscheidung ein. Intravenöse Immunglobuline werden von der AWMF-Leitlinie beim Morbus haemolyticus wegen geringer Wirksamkeit und beschriebener NEC-Fälle nicht empfohlen (die AAP 2022 nennt 0,5–1 g/kg als Option; Vorgehen zentrumsabhängig). Parallel wird die Austauschtransfusion vorbereitet (Blutbank informieren, Nabelvenenkatheter).",
+          "keyPoints": [
+            "intensivierte Phototherapie (Blaulicht, große Fläche)",
+            "AWMF-Grenzen: GA − 20 mg/dl, vor 72 h −2 mg/dl je 24 h; bei Hämolyse eher früher",
+            "IVIG laut AWMF nicht empfohlen (AAP: Option 0,5–1 g/kg)",
+            "Austausch vorbereiten; Indikation bei ≥ Grenze + 5 ohne Abfall nach 4–6 h bzw. > Grenze + 10",
+            "neurologische Zeichen = sofortiger Austausch"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 4,
+          "question": "Der Austauschgrenzwert wird überschritten. Sie planen einen **doppelten Blutvolumenaustausch** (Blutvolumen **85 ml/kg**). Wie viel ml Blut werden insgesamt ausgetauscht (3,1 kg)?",
+          "answer": "Blutvolumen = 3,1 kg · 85 ml/kg = 263,5 ml. Doppeltes Blutvolumen = 2 · 263,5 = **527 ml**. Damit werden etwa 85–90 % der kindlichen Erythrozyten ersetzt und das Bilirubin etwa halbiert (Rebound durch Rückverteilung aus dem Gewebe).",
+          "keyPoints": [
+            "Blutvolumen 263,5 ml",
+            "Austauschvolumen ≈ 527 ml",
+            "ca. 85–90 % Erythrozytenaustausch, Bilirubin-Rebound"
+          ],
+          "solution": { "value": 527, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Welche Anforderungen stellen Sie an das Blutprodukt, wie führen Sie den Austausch durch, und welche Komplikationen kennen Sie?",
+          "answer": "Blutprodukt: Rh-negative Erythrozyten der Blutgruppe 0 (bzw. mit Mutter und Kind kompatibel), verträglich mit dem mütterlichen Serum gekreuzt, möglichst frisch, bestrahlt, leukozytendepletiert, rekonstituiert mit AB-Plasma auf einen Hämatokrit von etwa 50–60 %, angewärmt. Durchführung: unter Monitoring über Nabelvenenkatheter im Push-pull-Verfahren oder isovolämisch über Nabelarterie und -vene, in kleinen Portionen (etwa 5–10 ml) über 1–2 Stunden, Bilanz führen, Kontrollen von Blutzucker, Kalzium, Kalium, Blutgasen, Thrombozyten und Bilirubin. Komplikationen: Hypokalzämie (Zitrat), Hyperkaliämie, Hypoglykämie (reaktiv), Azidose, Thrombozytopenie und Gerinnungsstörung, Volumenentgleisung, Arrhythmien, Katheterkomplikationen (Thrombose, Pfortaderthrombose, Perforation), NEC, Infektionen, transfusionsassoziierte GvHD (deshalb Bestrahlung), selten Tod.",
+          "keyPoints": [
+            "0 Rh-negativ, gegen mütterliches Serum gekreuzt, frisch, bestrahlt",
+            "rekonstituiert mit AB-Plasma, angewärmt",
+            "kleine Portionen über 1–2 h, Monitoring und Laborkontrollen",
+            "Komplikationen: Elektrolyte, Glukose, Thrombozyten, Katheter, NEC, Infektion, GvHD"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Nachsorge ist nach Rh-Hämolyse und Austauschtransfusion erforderlich?",
+          "answer": "Kontrolle des Bilirubins nach dem Austausch (Rebound) und bis zur Stabilisierung. Wegen fortbestehender mütterlicher Antikörper und supprimierter Erythropoese droht eine Spätanämie in den ersten Lebenswochen bis -monaten, daher regelmäßige Hb- und Retikulozytenkontrollen (Intervall zentrumsabhängig) und ggf. Transfusion; Folsäuresubstitution wird häufig gegeben. Hörprüfung mittels BERA nach schwerer Hyperbilirubinämie und Austauschtransfusion, neurologische Nachuntersuchung zur Erkennung von Bilirubinfolgen. Für die Mutter: Beratung zu weiteren Schwangerschaften (Betreuung in einem Pränatalzentrum mit Antikörpertiter- und Doppler-Überwachung der A. cerebri media); eine Anti-D-Prophylaxe ist bei bereits bestehender Sensibilisierung nicht mehr wirksam.",
+          "keyPoints": [
+            "Bilirubin-Rebound kontrollieren",
+            "Spätanämie: Hb-/Retikulozytenkontrollen über Wochen",
+            "BERA und neurologische Nachsorge",
+            "Folgeschwangerschaft: Pränatalzentrum, MCA-Doppler"
+          ]
+        }
+      ],
+      "answer": "Morbus haemolyticus neonatorum bei Anti-D-Sensibilisierung: Pathophysiologie und Diagnostik, Anstiegsgeschwindigkeit (0,6 mg/dl/h) als Zeichen schwerer Hämolyse, intensivierte Phototherapie und Austauschindikation nach AWMF-Grenzwerten, IVIG laut AWMF-Leitlinie nicht empfohlen, doppelter Blutvolumenaustausch (≈ 527 ml) mit geeignetem Blutprodukt, Kenntnis der Komplikationen und Nachsorge mit Spätanämie-Kontrollen und BERA.",
+      "keyPoints": [
+        "Rh-Sensibilisierung, Ikterus < 24 h",
+        "Bilirubin-Anstiegsrate berechnen",
+        "Phototherapie, Austauschindikation, Stellenwert von IVIG",
+        "Austauschvolumen und Blutprodukt",
+        "Spätanämie, BERA"
+      ],
+      "tags": ["Rh-Inkompatibilität", "Hyperbilirubinämie", "Austauschtransfusion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": ["Ikterus", "Phototherapie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.18 – Austauschtransfusion",
+          "terms": ["Austauschtransfusion"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": ["Phototherapie", "Austauschgrenze"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Hyperbilirubinämie des Neugeborenen"
+    },
+    {
+      "id": "fall-012",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes der **25+1 SSW** (Geburtsgewicht 740 g) ist jetzt **38 Wochen postmenstruell** alt, wiegt 2350 g und trinkt teilweise selbst. Es benötigt seit Wochen Sauerstoff über eine Nasenbrille mit **0,3 l/min**, um eine SpO2 über 92 % zu halten. Im Verlauf wurde es 4 Wochen invasiv beatmet.",
+      "hints": [
+        "Definition und Schweregradeinteilung erfolgen zu einem festen postmenstruellen Zeitpunkt.",
+        "Vor Entlassung mit Heimsauerstoff: pulmonale Hypertonie ausschließen."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie ist die bronchopulmonale Dysplasie definiert, und wie würden Sie den Schweregrad dieses Kindes einordnen?",
+          "answer": "Nach der verbreiteten NIH-Definition liegt eine BPD vor, wenn ein Frühgeborenes < 32 SSW mindestens 28 Tage Sauerstoff benötigt hat; der Schweregrad wird mit 36 Wochen postmenstruell beurteilt: leicht = Raumluft, mittelschwer = Sauerstoffbedarf < 30 %, schwer = ≥ 30 % Sauerstoff und/oder positive Druckunterstützung (CPAP, Beatmung). Neuere Definitionen (z. B. nach Jensen 2019) stufen allein nach der Art der Atemunterstützung mit 36 Wochen ein. Das Kind hat mit 0,3 l/min Low-Flow-Sauerstoff nach den Angaben vermutlich eine mittelschwere BPD; die effektive FiO2 einer Nasenbrille hängt von Fluss und Gewicht ab, daher ist ein standardisierter Raumluft-Belastungstest (physiologische Definition) sinnvoll, um den tatsächlichen Sauerstoffbedarf zu belegen.",
+          "keyPoints": [
+            "NIH: ≥ 28 Tage O2, Beurteilung mit 36 Wochen PMA",
+            "leicht/mittelschwer/schwer nach O2-Bedarf und Druckunterstützung",
+            "neuere Definition nach Art der Atemunterstützung",
+            "Raumluft-Test zur Objektivierung"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Untersuchungen und Zielwerte legen Sie vor einer Entlassung mit Heimsauerstoff fest?",
+          "answer": "Echokardiographisches Screening auf eine BPD-assoziierte pulmonale Hypertonie (bei Nachweis kardiologische Mitbetreuung, ggf. höhere Sättigungsziele und spezifische Therapie). Festlegung der Ziel-SpO2 unter Heimsauerstoff (zentrumsabhängig, meist etwa 92–95 %, bei pulmonaler Hypertonie eher im oberen Bereich), Dokumentation stabiler Sättigung unter dem geplanten Fluss in Ruhe, im Schlaf und beim Trinken (z. B. Langzeit-Pulsoxymetrie). Ausschluss weiterer Ursachen bei unerwartetem Verlauf (z. B. Aspiration bei GÖR, Atemwegsmalazie). Prüfung von Ernährung und Wachstum (Kalorienbedarf erhöht, oft 120–150 kcal/kg/d), ggf. Diuretika nur nach individueller Indikation, da die Evidenz begrenzt ist.",
+          "keyPoints": [
+            "Echo-Screening auf pulmonale Hypertonie",
+            "Ziel-SpO2 festlegen (meist 92–95 %)",
+            "Langzeit-Pulsoxymetrie inkl. Schlaf und Trinken",
+            "Ernährung/Wachstum, erhöhter Kalorienbedarf",
+            "Diuretika nur individuell"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Für Arzttermine erhalten die Eltern eine mobile Sauerstoffflasche mit **2 Litern** Volumen und **200 bar** Fülldruck. Wie lange (in Stunden) reicht die Flasche bei einem Fluss von **0,5 l/min** (Restdruck vernachlässigen)?",
+          "answer": "Sauerstoffvorrat = 2 l · 200 bar = 400 l. Dauer = 400 l / 0,5 l/min = 800 min ≈ **13,3 h**. In der Praxis wird ein Restdruck nicht unterschritten, daher ist mit kürzerer Nutzungsdauer zu planen.",
+          "keyPoints": ["400 l Vorrat", "800 min", "≈ 13,3 h, Restdruck beachten"],
+          "solution": { "value": 13.3, "unit": "h", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 4,
+          "question": "Wie organisieren Sie die Heimsauerstofftherapie?",
+          "answer": "Verordnung von Sauerstoffkonzentrator (stationär) und mobilem Sauerstoffsystem sowie eines Pulsoxymeters mit Alarmfunktion; Klärung der Kostenübernahme und Lieferung vor der Entlassung. Schulung der Eltern in der Handhabung der Geräte, Nasenbrillenpflege, Erkennen von Warnzeichen (Atemnot, Zyanose, Trinkschwäche), Anpassung bzw. Rücksprache bei Infekten sowie in Reanimationsmaßnahmen. Sicherheit: kein Rauchen, kein offenes Feuer. Schriftlicher Plan mit Flussrate und Zielwerten, Notfallplan und Ansprechpartner. Sozialmedizinische Nachsorge beantragen, ggf. Pflegegrad, Information des Kinderarztes, regelmäßige Kontrolltermine (Neonatologie bzw. Kinderpneumologie, Kinderkardiologie).",
+          "keyPoints": [
+            "Konzentrator, mobiles System, Pulsoxymeter verordnen",
+            "Elternschulung inkl. Warnzeichen und Reanimation",
+            "Sicherheitsregeln (kein Rauchen/Feuer)",
+            "schriftlicher Plan, Notfallnummern",
+            "SMN, Kinderarzt, Kontrolltermine"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Infektionsprophylaxe und Präventionsmaßnahmen empfehlen Sie für das erste und zweite Lebensjahr?",
+          "answer": "RSV-Prophylaxe: in der ersten Saison ein monoklonaler Antikörper für alle Säuglinge gemäß STIKO (Nirsevimab, seit 09/2026 alternativ Clesrovimab); in der zweiten Saison bei fortbestehendem Risiko (z. B. BPD mit Sauerstoff- bzw. Therapiebedarf in den letzten Monaten) Nirsevimab nach aktueller Empfehlung der Fachgesellschaften bzw. G-BA-Therapiehinweis (Clesrovimab nur für die erste Saison zugelassen, Palivizumab nur noch Alternative). Impfungen nach chronologischem Alter gemäß STIKO (Frühgeborene im 3+1-Schema), Influenza-Impfung des Kindes ab 6 Monaten und aller Haushaltskontakte, Pertussis- und COVID-Impfstatus der Kontaktpersonen prüfen. Rauchfreie Umgebung, Händehygiene, Vermeidung von Kontakt zu Erkälteten, kritische Prüfung eines frühen Krippenbesuchs. Bei Atemwegsinfekten frühzeitige ärztliche Vorstellung.",
+          "keyPoints": [
+            "Antikörperprophylaxe in der 1. Saison (Nirsevimab/Clesrovimab), Nirsevimab in der 2. Saison bei BPD",
+            "Impfungen nach chronologischem Alter",
+            "Influenza-Impfung (Kind ab 6 Monaten, Kontaktpersonen)",
+            "rauchfreie Umgebung, Infektvermeidung"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 4,
+          "question": "Wie und wann wird der Heimsauerstoff beendet, und welche Langzeitfolgen der BPD sind zu beachten?",
+          "answer": "Die Entwöhnung erfolgt schrittweise bei gutem Gedeihen und stabiler Sättigung: zunächst stundenweise Raumluft im Wachzustand, dann auch im Schlaf, kontrolliert mit (Langzeit-)Pulsoxymetrie; Voraussetzung ist eine fehlende bzw. regrediente pulmonale Hypertonie. Bei Infekten kann vorübergehend wieder Sauerstoff nötig sein, daher wird die Ausrüstung meist noch eine Zeit lang vorgehalten. Langzeitfolgen: vermehrte Atemwegsinfekte und Rehospitalisierungen in den ersten Lebensjahren, obstruktive Atemwegserkrankung bzw. asthmaähnliche Symptome, eingeschränkte Lungenfunktion bis ins Erwachsenenalter, pulmonale Hypertonie, Gedeihstörung sowie ein erhöhtes Risiko für neurologische Entwicklungsstörungen. Nachsorge in Kinderpneumologie und entwicklungsneurologischer Nachsorge.",
+          "keyPoints": [
+            "schrittweise Entwöhnung mit Pulsoxymetrie-Kontrolle",
+            "Voraussetzung: gutes Gedeihen, keine relevante PH",
+            "Infekte, Rehospitalisierungen, obstruktive Atemwegserkrankung",
+            "eingeschränkte Lungenfunktion langfristig, Entwicklungsrisiko"
+          ]
+        }
+      ],
+      "answer": "Frühgeborenes mit BPD und Heimsauerstoffbedarf: Definition und Schweregrad mit 36 Wochen PMA, Echo-Screening auf pulmonale Hypertonie und Festlegung der Zielsättigung, Berechnung der Flaschenreichweite (≈ 13,3 h), Organisation der Heimsauerstofftherapie mit Elternschulung und Nachsorge, RSV-Prophylaxe und Impfungen sowie strukturierte Entwöhnung und Kenntnis der Langzeitfolgen.",
+      "keyPoints": [
+        "BPD-Definition und Schweregrad",
+        "PH-Screening, Ziel-SpO2",
+        "Sauerstoffvorrat berechnen",
+        "Heimsauerstoff organisieren, Schulung",
+        "RSV-Prophylaxe, Entwöhnung, Langzeitfolgen"
+      ],
+      "tags": ["BPD", "Heimsauerstoff", "Entlassung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8 – Impfempfehlungen für Frühgeborene",
+          "terms": ["Impfung"]
+        }
+      ]
+    },
+    {
+      "id": "fall-013",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes (**40+1 SSW, 3600 g**) nach unauffälliger Schwangerschaft und Spontangeburt, APGAR 9/10/10, wird von der Wochenstation verlegt: Mit **30 Lebensstunden** zeigt es wiederholt **rhythmische Zuckungen des rechten Arms** über 1–2 Minuten, einmal mit Apnoe und Sättigungsabfall. Zwischen den Episoden ist es wach und trinkt.",
+      "hints": [
+        "Fokal-klonische Anfälle beim sonst gesunden Reifgeborenen in den ersten Tagen – an welche Ursache denken Sie besonders?",
+        "Viele neonatale Anfälle sind nur elektrographisch sichtbar."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie grenzen Sie neonatale Krampfanfälle von nicht-epileptischen Bewegungen ab, und welche Rolle spielt das EEG?",
+          "answer": "Nicht-epileptische Bewegungen wie Jitteriness bzw. Tremor sind stimulusabhängig, durch Festhalten oder Lageänderung unterdrückbar, rhythmisch-symmetrisch mit gleicher Amplitude und ohne autonome Begleitzeichen oder Blickdeviation; auch benigner Schlafmyoklonus tritt nur im Schlaf auf und sistiert beim Wecken. Epileptische Anfälle sind nicht unterdrückbar, oft fokal-klonisch oder tonisch, können mit Apnoe, Tachykardie, Sättigungsabfall oder Automatismen einhergehen. Da viele neonatale Anfälle subtil oder rein elektrographisch sind und die klinische Einschätzung unzuverlässig ist, sollte die Diagnose durch EEG bestätigt werden (konventionelles Video-EEG als Goldstandard, aEEG als Monitoring-Methode mit eingeschränkter Sensitivität für kurze oder fokale Anfälle).",
+          "keyPoints": [
+            "Jitteriness: stimulusabhängig, unterdrückbar, ohne autonome Zeichen",
+            "Anfälle: nicht unterdrückbar, fokal-klonisch/tonisch, Apnoe/Desaturation",
+            "viele Anfälle subtil oder nur elektrographisch",
+            "Video-EEG Goldstandard, aEEG Monitoring"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 5,
+          "question": "Nennen Sie die wichtigsten Differenzialdiagnosen und Ihre initiale Diagnostik.",
+          "answer": "Differenzialdiagnosen akuter symptomatischer Anfälle: hypoxisch-ischämische Enzephalopathie (hier anamnestisch unwahrscheinlich), perinataler arterieller ischämischer Schlaganfall (typisch: fokal-klonische Anfälle bei sonst gesundem Reifgeborenen am 1.–3. Tag), intrakranielle Blutung, Sinusvenenthrombose, Infektionen (bakterielle Meningitis, HSV-Enzephalitis), metabolisch (Hypoglykämie, Hypokalzämie, Hypomagnesiämie, Hypo-/Hypernatriämie), angeborene Stoffwechselstörungen (inkl. pyridoxinabhängiger Epilepsie), Entzug, genetische Epilepsien (z. B. KCNQ2), Fehlbildungen. Diagnostik: sofort Blutzucker, Blutgasanalyse, Elektrolyte inkl. Kalzium und Magnesium; Blutbild, CRP, Blutkultur, Lumbalpunktion mit HSV-PCR; Laktat, Ammoniak, ggf. erweiterte Stoffwechseldiagnostik; Schädelsonographie, EEG; MRT mit Diffusionswichtung als entscheidende Bildgebung.",
+          "keyPoints": [
+            "perinataler arterieller Schlaganfall typisch bei diesem Bild",
+            "Infektion inkl. HSV, ICH, Sinusvenenthrombose",
+            "metabolisch: Glukose, Ca, Mg, Na; Stoffwechseldefekte",
+            "Labor, LP mit HSV-PCR, EEG",
+            "MRT mit DWI"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Die Anfälle wiederholen sich. Sie geben Phenobarbital **20 mg/kg i.v.** Wie viel mg erhält das Kind (3,6 kg)?",
+          "answer": "3,6 kg · 20 mg/kg = **72 mg** Phenobarbital als langsame i.v. Initialdosis. Phenobarbital ist nach aktueller ILAE-Empfehlung das Mittel der ersten Wahl; bei Persistenz ist eine weitere Gabe von 10–20 mg/kg möglich, dann Wechsel auf ein Zweitlinienmedikament.",
+          "keyPoints": ["72 mg", "Phenobarbital first line", "weitere Dosis bzw. Zweitlinie bei Persistenz"],
+          "solution": { "value": 72, "unit": "mg", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 4,
+          "question": "Trotz Phenobarbital treten im EEG weitere Anfälle auf; die Lumbalpunktion war aufgrund einer Blutbeimengung nicht eindeutig zu beurteilen. Wie gehen Sie weiter vor?",
+          "answer": "Zweitlinientherapie nach ILAE-Empfehlung, z. B. Phenytoin bzw. Fosphenytoin, Levetiracetam, Midazolam oder Lidocain (Auswahl zentrumsabhängig; bei Lidocain kardiale Kontraindikationen beachten, nicht mit Phenytoin kombinieren). Bei Verdacht auf eine Kanalopathie (z. B. KCNQ2) sind Natriumkanalblocker wie Phenytoin oder Carbamazepin besonders wirksam. Bis zum Ausschluss einer bakteriellen Meningitis bzw. HSV-Infektion werden Antibiotika in meningitischer Dosierung und Aciclovir gegeben. Bei therapierefraktären Anfällen ohne erkennbare Ursache Pyridoxin-Versuch unter EEG-Kontrolle (Cave Apnoe). Kontinuierliches EEG-Monitoring, Atemwegssicherung bereithalten, MRT so bald wie möglich.",
+          "keyPoints": [
+            "Zweitlinie: Phenytoin, Levetiracetam, Midazolam, Lidocain",
+            "Kanalopathie: Natriumkanalblocker",
+            "Antibiotika + Aciclovir bis Ausschluss",
+            "Pyridoxin-Versuch bei refraktären Anfällen",
+            "kontinuierliches EEG, MRT"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Die MRT zeigt einen frischen Infarkt im Versorgungsgebiet der linken A. cerebri media. Welche Therapie und Diagnostik folgen, und was sagen Sie den Eltern zur Prognose?",
+          "answer": "Beim perinatalen arteriellen ischämischen Schlaganfall erfolgt in der Regel keine Antikoagulation oder Thrombozytenaggregationshemmung, außer bei nachgewiesener kardialer Emboliequelle oder anderen besonderen Konstellationen. Echokardiographie zur Suche nach Emboliequelle; eine Thrombophiliediagnostik wird nicht routinemäßig, sondern je nach Zentrum und Familienanamnese durchgeführt; Plazentahistologie, falls möglich. Prognose: Das Risiko für eine kontralaterale, also rechtsseitige unilaterale spastische Zerebralparese hängt vor allem von der Beteiligung von Kortex, Basalganglien und Capsula interna ab; daneben sind Epilepsie, Sprach-, Kognitions- und Verhaltensauffälligkeiten möglich. Viele Kinder entwickeln sich dennoch gut, die Hemiparese zeigt sich oft erst nach Monaten. Das Wiederholungsrisiko ist sehr gering. Empfohlen werden frühe Entwicklungsdiagnostik (General Movements, HINE, Handgebrauch), frühe Therapie und Elternanleitung.",
+          "keyPoints": [
+            "meist keine Antikoagulation (außer kardioembolisch)",
+            "Echo, Thrombophilie nicht routinemäßig",
+            "Risiko kontralateraler Hemiparese abhängig von Läsionslokalisation",
+            "Epilepsie- und Entwicklungsrisiko, Wiederholungsrisiko gering",
+            "frühe Diagnostik und Therapie"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 3,
+          "question": "Das Kind ist seit 5 Tagen anfallsfrei. Wie gehen Sie mit der antikonvulsiven Therapie vor der Entlassung um?",
+          "answer": "Nach aktueller ILAE-Empfehlung wird die antikonvulsive Therapie bei akut symptomatischen Anfällen, die sistiert sind, bereits vor der Entlassung beendet, auch bei struktureller Ursache wie einem Schlaganfall, da eine Erhaltungstherapie das Risiko späterer Epilepsie nicht senkt und Nebenwirkungen auf die Hirnentwicklung möglich sind. Die Eltern werden über Anfallszeichen und das Vorgehen im Anfall informiert, eine Notfallmedikation bzw. ein Notfallplan wird besprochen. Weitere Nachsorge: neuropädiatrische und entwicklungsneurologische Kontrollen, Physiotherapie bei Bedarf.",
+          "keyPoints": [
+            "Absetzen vor Entlassung (ILAE)",
+            "keine Prävention späterer Epilepsie durch Erhaltungstherapie",
+            "Elterninformation, Notfallplan",
+            "neuropädiatrische Nachsorge"
+          ]
+        }
+      ],
+      "answer": "Fokal-klonische Anfälle beim Reifgeborenen am 2. Lebenstag: Abgrenzung von Jitteriness, EEG-Bestätigung, breite Differenzialdiagnostik mit sofortiger metabolischer Abklärung, LP inkl. HSV-PCR und MRT, Phenobarbital als Erstlinie (72 mg), Zweitlinientherapie, Antibiotika und Aciclovir bis Ausschluss, Diagnose eines perinatalen arteriellen Schlaganfalls ohne Routine-Antikoagulation, Prognoseberatung und Absetzen der Antikonvulsiva vor Entlassung.",
+      "keyPoints": [
+        "Anfall vs. Jitteriness, EEG",
+        "DD und metabolische Sofortdiagnostik",
+        "Phenobarbital 20 mg/kg, Zweitlinie",
+        "perinataler Schlaganfall: keine Routine-Antikoagulation",
+        "Absetzen vor Entlassung, Nachsorge"
+      ],
+      "tags": ["Neonatale Krampfanfälle", "Perinataler Schlaganfall", "Phenobarbital"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.16 – aEEG",
+          "terms": ["aEEG"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 – Zerebrale Krampfanfälle",
+          "terms": ["Krampfanfälle"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "fall-014",
+      "type": "case",
+      "difficulty": 3,
+      "question": "Ein Mädchen wird mit **38+0 SSW** und **1850 g** geboren; pränatal waren nur eine Wachstumsrestriktion und ein Polyhydramnion bekannt. Sie sehen überlappende Finger, Wiegenkufenfüße, ein kurzes Sternum und hören ein lautes Systolikum. Das Kind trinkt sehr schlecht und hat wiederholt zentrale Apnoen. Die Schnelldiagnostik bestätigt am 3. Lebenstag eine **Trisomie 18**.",
+      "hints": [
+        "Die Prognose ist ernst, aber nicht einheitlich.",
+        "Gemeinsame Entscheidung, Symptomkontrolle, Versorgung zu Hause, Abschied."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie sichern Sie die Diagnose, und welche Begleitfehlbildungen suchen Sie gezielt?",
+          "answer": "Schnelldiagnostik mittels FISH oder QF-PCR, bestätigt durch eine Chromosomenanalyse (Karyotyp), um eine freie Trisomie von einer Translokation oder einem Mosaik zu unterscheiden – relevant für Prognose und Wiederholungsrisiko. Gezielte Suche nach Begleitfehlbildungen: Echokardiographie (VSD, Klappendysplasien, häufig), Abdomen- und Nierensonographie, Schädelsonographie, Beurteilung von Ösophagus (Atresie) und Gastrointestinaltrakt, Augen. Die Befunde sind Grundlage für die gemeinsame Therapieplanung mit den Eltern.",
+          "keyPoints": [
+            "FISH/QF-PCR, dann Karyotyp",
+            "Unterscheidung freie Trisomie/Translokation/Mosaik",
+            "Echo, Sonographie von Abdomen, Nieren, Schädel",
+            "Ösophagus/GI-Trakt prüfen"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 5,
+          "question": "Wie führen Sie das Gespräch mit den Eltern über Prognose und Behandlungsoptionen?",
+          "answer": "Gut vorbereitet, in ruhigem Rahmen, mit beiden Eltern, Bezugspflege und ggf. Dolmetscher; schrittweise informieren (z. B. nach SPIKES), Emotionen Raum geben. Inhaltlich: Trisomie 18 ist eine schwere, lebenslimitierende Erkrankung; ein großer Teil der Kinder verstirbt in den ersten Lebenswochen bis -monaten, vor allem an zentralen Apnoen und Herzinsuffizienz, eine Minderheit lebt länger, dann stets mit schwerer geistiger und körperlicher Behinderung. Die Prognose ist individuell unsicher. Optionen reichen von rein palliativer Versorgung über eine begrenzte Unterstützung (z. B. Sondenernährung, Sauerstoff, Medikamente gegen Herzinsuffizienz) bis zu – in einzelnen Zentren angebotenen – intensivmedizinischen und chirurgischen Maßnahmen. Ziel ist eine gemeinsame, an den Werten der Familie orientierte Entscheidung ohne Zeitdruck, mit Folgegesprächen, Angebot psychosozialer und seelsorgerischer Begleitung und sorgfältiger Dokumentation.",
+          "keyPoints": [
+            "strukturiertes, empathisches Gespräch (z. B. SPIKES)",
+            "lebenslimitierend, hohe frühe Sterblichkeit, schwere Behinderung bei Überleben",
+            "individuelle Unsicherheit ehrlich benennen",
+            "Optionen von palliativ bis intensivmedizinisch",
+            "Shared Decision Making, Folgegespräche, Dokumentation"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 4,
+          "question": "Die Eltern entscheiden sich für eine palliative Versorgung ohne Reanimation und Beatmung. Wie gestalten Sie die Symptomkontrolle und die Ernährung?",
+          "answer": "Leitend ist das Wohlbefinden des Kindes: Wärme, Haut-zu-Haut-Kontakt, ruhige Umgebung, Reduktion belastender Maßnahmen (keine routinemäßigen Blutentnahmen, Monitoring nur, wenn es den Eltern oder der Symptomkontrolle dient). Ernährung: Anlegen oder Flasche nach Möglichkeit; bei Trinkschwäche ist eine Magensonde zur Sättigung und Linderung von Hungergefühl eine akzeptierte Komfortmaßnahme, wenn sie das Kind nicht belastet und dem Wunsch der Eltern entspricht – nicht jede Ernährungsmaßnahme ist in der Palliativsituation verpflichtend. Symptomkontrolle: bei Atemnot oder Unruhe Morphin, titriert nach Wirkung, ggf. ergänzt durch Midazolam; Sekretmanagement durch Lagerung und schonendes Absaugen; Sauerstoff nur, wenn er subjektiv lindert. Apnoen werden nicht durch Beatmung behandelt, ggf. sanfte Stimulation. Die Eltern werden in Pflege und Beobachtung eingebunden.",
+          "keyPoints": [
+            "Komfort, Haut-zu-Haut, Reduktion belastender Maßnahmen",
+            "Magensonde als akzeptierte Komfortmaßnahme nach Elternwunsch",
+            "Morphin bei Atemnot/Unruhe, ggf. Midazolam",
+            "Sekretmanagement, Sauerstoff nur bei Linderung",
+            "Eltern einbinden"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "open",
+          "points": 4,
+          "question": "Das Kind ist nach 2 Wochen stabil, die Eltern möchten es mit nach Hause nehmen. Was organisieren Sie?",
+          "answer": "Spezialisierte ambulante pädiatrische Palliativversorgung (SAPV für Kinder, § 37b SGB V) mit 24-Stunden-Erreichbarkeit, Einbindung des Kinderarztes, ggf. ambulanter Kinderkrankenpflegedienst und ambulanter Kinderhospizdienst, Information über stationäre Kinderhospize zur Entlastung. Hilfsmittel (Ernährungspumpe, Sonden, Absaugung, ggf. Sauerstoff) und Bedarfsmedikation mit schriftlichem Plan. Ein Notfallplan mit dokumentiertem Verzicht auf Reanimation und Intensivtherapie, der beim Kind verbleibt und dem Rettungsdienst vorgelegt werden kann. Elternschulung, Pflegegrad-Antrag, psychosoziale Begleitung der Familie inkl. Geschwister, Rückkehrmöglichkeit in die Klinik.",
+          "keyPoints": [
+            "SAPV für Kinder mit 24-h-Erreichbarkeit",
+            "Kinderarzt, Pflegedienst, Kinderhospizdienst/-hospiz",
+            "Hilfsmittel und Bedarfsmedikation",
+            "Notfallplan mit Reanimationsverzicht",
+            "Schulung, Pflegegrad, psychosoziale Begleitung"
+          ]
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Das Kind verstirbt nach 7 Wochen zu Hause. Welche formalen Schritte sind erforderlich, und wie begleiten Sie die Familie danach?",
+          "answer": "Ärztliche Leichenschau mit Ausstellung der Todesbescheinigung (natürlicher Tod bei bekannter lebenslimitierender Grunderkrankung und palliativer Situation), Anzeige beim Standesamt, Bestattung über einen Bestatter nach Landesrecht; Abschied zu Hause ohne Zeitdruck ist möglich. Den Eltern werden Erinnerungsstücke (Fotos, Abdrücke) und eine Obduktion angeboten, ohne Druck. Nachsorge: Kondolenz bzw. Kontakt durch das betreuende Team, Nachgespräch nach einigen Wochen, Hinweis auf Trauerbegleitung, Selbsthilfegruppen und ggf. psychotherapeutische Unterstützung; Geschwisterkinder einbeziehen.",
+          "keyPoints": [
+            "Leichenschau, Todesbescheinigung (natürlicher Tod)",
+            "Standesamt, Bestattung",
+            "Abschied, Erinnerungen, Obduktion anbieten",
+            "Nachgespräch, Trauerbegleitung, Geschwister"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 3,
+          "question": "Die Eltern fragen nach dem Wiederholungsrisiko in einer weiteren Schwangerschaft. Was antworten Sie?",
+          "answer": "Bei einer freien Trisomie 18 ist das Wiederholungsrisiko gering; es liegt etwa im Bereich von 1 % bzw. entspricht dem altersabhängigen Risiko der Mutter, falls dieses höher ist. Bei einer Translokationstrisomie muss eine Chromosomenanalyse der Eltern erfolgen, da bei balancierter Translokation eines Elternteils ein deutlich höheres Risiko bestehen kann. Den Eltern wird eine humangenetische Beratung sowie eine frühzeitige pränatale Diagnostik in einer Folgeschwangerschaft angeboten.",
+          "keyPoints": [
+            "freie Trisomie: geringes Wiederholungsrisiko (ca. 1 % bzw. altersabhängig)",
+            "Translokation: Karyotyp der Eltern, höheres Risiko möglich",
+            "humangenetische Beratung, pränatale Diagnostik"
+          ]
+        }
+      ],
+      "answer": "Postnatal diagnostizierte Trisomie 18: Diagnosesicherung mit Unterscheidung freie Trisomie/Translokation, strukturiertes Prognosegespräch mit Shared Decision Making, palliative Symptomkontrolle und Ernährung als Komfortmaßnahme, Entlassung nach Hause mit SAPV und Notfallplan, formale Schritte und Trauerbegleitung nach dem Tod sowie humangenetische Beratung zum Wiederholungsrisiko.",
+      "keyPoints": [
+        "FISH/QF-PCR und Karyotyp",
+        "ehrliches Prognosegespräch, gemeinsame Entscheidung",
+        "Symptomkontrolle (Morphin), Komfort-Ernährung",
+        "SAPV, Notfallplan, Hospiz",
+        "Leichenschau, Trauerbegleitung, genetische Beratung"
+      ],
+      "tags": ["Palliativversorgung", "Trisomie 18", "SAPV"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "fall-015",
+      "type": "case",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes der **28+3 SSW** (**1100 g**) wird nach abgeschlossener Lungenreifeinduktion per Sectio geboren. Es atmet spontan, aber unregelmäßig und stöhnt.",
+      "hints": ["CPAP zuerst, Surfactant nach Sauerstoffbedarf.", "Koffein und Zielsättigung gehören dazu."],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Wie gestalten Sie die Erstversorgung im Kreißsaal (Wärme, Atmung, Sauerstoff, Sättigungsziele)?",
+          "answer": "Verzögerte Abnabelung, wenn das Kind stabil ist, Wärmeerhalt mit Plastikfolie ohne Abtrocknen, Mütze und Wärmestrahler (Ziel 36,5–37,5 °C). Bei spontan atmendem Kind frühzeitig CPAP mit 6 cm H2O über Maske oder Prongs; bei Apnoe oder unzureichender Atmung Blähbeatmung bzw. Maskenbeatmung mit PEEP. Start-FiO2 bei < 32 SSW 0,30 (ERC 2025), Titration nach präduktaler SpO2; Zielbereiche nach ERC 2025 etwa 70–75 % nach 3 min, 80–85 % nach 5 min und 85–95 % nach 10 min, Sauerstoff reduzieren bei > 95 %; SpO2 < 80 % bzw. Bradykardie nach 5 min vermeiden. Transport auf die Intensivstation unter CPAP.",
+          "keyPoints": [
+            "verzögerte Abnabelung, Plastikfolie, 36,5–37,5 °C",
+            "CPAP 6 cm H2O früh",
+            "Start-FiO2 0,30 bei < 32 SSW",
+            "SpO2-Ziele: 3 min 70–75 %, 5 min 80–85 %, 10 min 85–95 %"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Eine Stunde nach Aufnahme benötigt das Kind unter CPAP 7 cm H2O eine FiO2 von 0,38 bei zunehmenden Einziehungen. Wann und wie geben Sie Surfactant?",
+          "answer": "Nach den European Consensus Guidelines RDS 2025 ist Surfactant früh indiziert, wenn unter nicht-invasiver Atemhilfe mit mindestens 6 cm H2O eine FiO2 ≥ 0,30 benötigt wird (alternativ nach Lungenultraschall); dies ist hier erfüllt. Bei spontan atmendem Kind unter CPAP ist die weniger invasive Surfactant-Applikation (LISA/MIST) über einen dünnen Katheter unter Laryngoskopie die bevorzugte Methode, damit eine mechanische Beatmung vermieden wird; Prämedikation bzw. Sedierung wird zentrumsabhängig gehandhabt. Alternativ Intubation, Surfactantgabe und rasche Extubation (INSURE). Eine zweite Dosis wird bei anhaltend hohem Sauerstoffbedarf erwogen.",
+          "keyPoints": [
+            "Indikation: FiO2 ≥ 0,30 unter ≥ 6 cm H2O (RDS-Konsensus 2025)",
+            "LISA/MIST bevorzugt bei Spontanatmung",
+            "Prämedikation zentrumsabhängig, alternativ INSURE",
+            "ggf. zweite Dosis"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "calc",
+          "points": 3,
+          "question": "Sie geben Poractant alfa in einer Dosis von **200 mg/kg**. Die Suspension enthält **80 mg/ml**. Wie viele ml applizieren Sie (1,1 kg)?",
+          "answer": "Dosis = 1,1 kg · 200 mg/kg = 220 mg. Volumen = 220 mg / 80 mg/ml = **2,75 ml**. Die Initialdosis von 200 mg/kg Poractant alfa ist mit einem besseren Outcome verbunden als 100 mg/kg.",
+          "keyPoints": ["220 mg", "2,75 ml", "200 mg/kg als Initialdosis"],
+          "solution": { "value": 2.75, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 3,
+          "question": "Sie beginnen Koffeincitrat mit einer Aufsättigungsdosis von **20 mg/kg**. Die Lösung enthält **20 mg/ml** Koffeincitrat. Wie viele ml erhält das Kind?",
+          "answer": "Dosis = 1,1 kg · 20 mg/kg = 22 mg Koffeincitrat. Volumen = 22 mg / 20 mg/ml = **1,1 ml**. Danach Erhaltungsdosis von 5–10 mg/kg/d Koffeincitrat einmal täglich. Wichtig ist die Unterscheidung zwischen Koffeincitrat und Koffeinbase (Base = halbe Citratdosis).",
+          "keyPoints": ["22 mg Koffeincitrat", "1,1 ml", "Erhaltung 5–10 mg/kg/d, Citrat vs. Base"],
+          "solution": { "value": 1.1, "unit": "ml", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Sauerstoffsättigungsziele und Alarmgrenzen legen Sie auf der Intensivstation fest, und warum?",
+          "answer": "Nach den europäischen Konsensusempfehlungen wird bei Frühgeborenen unter Sauerstofftherapie eine SpO2 von 90–94 % angestrebt, mit Alarmgrenzen von etwa 89 % und 95 %. Niedrigere Zielbereiche (85–89 %) waren in großen Studien mit höherer Mortalität und NEC-Rate verbunden, höhere Zielbereiche mit mehr ROP und BPD. Wichtig sind konsequente Alarmeinstellungen, Vermeidung von Sauerstoffschwankungen sowie Schulung des Teams; automatisierte FiO2-Regelung kann die Zeit im Zielbereich erhöhen.",
+          "keyPoints": [
+            "Ziel-SpO2 90–94 %",
+            "Alarmgrenzen ca. 89 % und 95 %",
+            "zu niedrig: Mortalität/NEC, zu hoch: ROP/BPD",
+            "Schwankungen vermeiden"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 5,
+          "question": "Am 2. Lebenstag verschlechtert sich das Kind plötzlich: FiO2-Bedarf 0,8, Bradykardien, abgeschwächtes Atemgeräusch rechts. Was vermuten Sie, wie sichern Sie die Diagnose, und was tun Sie?",
+          "answer": "Verdacht auf einen Spannungspneumothorax rechts (Air-Leak als Komplikation von RDS und Atemunterstützung). Differenzialdiagnostisch bei beatmeten Kindern an Tubusprobleme denken (Dislokation, Obstruktion, Gerät – DOPE-Schema), außerdem Lungenblutung, Sepsis, IVH. Diagnostik: Kaltlichttransillumination (rasch am Bett), Lungensonographie (fehlendes Lungengleiten, Lungenpunkt), Röntgen-Thorax, wenn die Situation es erlaubt. Beim instabilen Kind sofortige Entlastungspunktion im 2. ICR medioklavikulär (bzw. 4.–5. ICR vordere Axillarlinie) mit Venenverweilkanüle und Dreiwegehahn, anschließend Anlage einer Thoraxdrainage, Analgesie. Danach Röntgenkontrolle und Überprüfung der Beatmungseinstellungen.",
+          "keyPoints": [
+            "Verdacht auf Spannungspneumothorax",
+            "DD: DOPE, Lungenblutung",
+            "Transillumination, Lungensonographie, Röntgen",
+            "sofortige Entlastungspunktion, dann Thoraxdrainage",
+            "Analgesie, Beatmungseinstellung prüfen"
+          ]
+        }
+      ],
+      "answer": "Atemnotsyndrom bei 28+3 SSW: Erstversorgung mit verzögerter Abnabelung, Wärmeschutz, frühem CPAP und SpO2-gesteuerter FiO2, Surfactant bei FiO2 ≥ 0,30 unter ≥ 6 cm H2O bevorzugt per LISA (Poractant 200 mg/kg = 2,75 ml), Koffeincitrat-Aufsättigung (1,1 ml), Ziel-SpO2 90–94 % und Erkennung und Akuttherapie eines Spannungspneumothorax.",
+      "keyPoints": [
+        "CPAP und SpO2-Ziele im Kreißsaal",
+        "Surfactant-Indikation und LISA",
+        "Surfactant- und Koffeinberechnung",
+        "Ziel-SpO2 90–94 %",
+        "Pneumothorax: Diagnose und Entlastung"
+      ],
+      "tags": ["Atemnotsyndrom", "Surfactant", "LISA", "Koffein"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome"
+    },
+    {
+      "id": "fall-016",
+      "type": "case",
+      "difficulty": 2,
+      "question": "Ein bisher gesundes, gestilltes Reifgeborenes (**3500 g**) wird am **5. Lebenstag** in die Notaufnahme gebracht: Seit 3 Stunden erbricht es wiederholt **grünlich-gallig**. Das Abdomen ist anfangs weich und wenig gebläht, das Kind wirkt unruhig. Herzfrequenz 175/min, Rekapillarisierungszeit 3 s.",
+      "hints": [
+        "Galliges Erbrechen beim Neugeborenen ist bis zum Beweis des Gegenteils ein chirurgischer Notfall.",
+        "Ein unauffälliges Abdomen schließt die gefährlichste Ursache nicht aus."
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Bedeutung hat galliges Erbrechen, und welche Differenzialdiagnosen bedenken Sie?",
+          "answer": "Galliges Erbrechen weist auf eine Obstruktion distal der Papilla Vateri hin und ist beim Neugeborenen bis zum Beweis des Gegenteils ein chirurgischer Notfall. Die gefährlichste Ursache ist die Malrotation mit Mitteldarmvolvulus, die innerhalb weniger Stunden zur Darmischämie mit Verlust des gesamten Dünndarms führen kann; ein weiches, kaum geblähtes Abdomen schließt sie nicht aus. Weitere Differenzialdiagnosen: Duodenalstenose bzw. -atresie (meist früher), Jejunal-/Ileumatresie, Mekoniumileus, Morbus Hirschsprung, Darmduplikatur, inkarzerierte Hernie, NEC sowie sepsisbedingter Ileus.",
+          "keyPoints": [
+            "Obstruktion distal der Papille",
+            "chirurgischer Notfall bis zum Beweis des Gegenteils",
+            "Malrotation mit Volvulus als gefährlichste Ursache",
+            "weiches Abdomen schließt Volvulus nicht aus",
+            "DD: Atresien, Hirschsprung, Mekoniumileus, Sepsis"
+          ]
+        },
+        {
+          "id": "b",
+          "type": "open",
+          "points": 4,
+          "question": "Welche Sofortmaßnahmen ergreifen Sie?",
+          "answer": "Nahrungskarenz, großlumige Magensonde mit offenem Ablauf bzw. Sog zur Entlastung und Aspirationsprophylaxe, sicherer venöser Zugang, Labor (Blutgasanalyse mit Laktat, Elektrolyte, Blutzucker, Blutbild, CRP, Gerinnung, Kreuzblut, Blutkultur), Flüssigkeitsbolus bei Zeichen der Hypovolämie und anschließende Erhaltungsinfusion mit Ersatz der Magenverluste, Analgesie. Sofortige Information der Kinderchirurgie, damit bei Verdacht auf Volvulus ohne Zeitverlust operiert werden kann; bei Kreislaufinstabilität oder Peritonitiszeichen breite Antibiotikatherapie.",
+          "keyPoints": [
+            "Nahrungskarenz, Magensonde offen",
+            "Zugang, Labor inkl. Laktat und Kreuzblut",
+            "Volumen bei Hypovolämie, Ersatz der Verluste",
+            "sofort Kinderchirurgie informieren"
+          ]
+        },
+        {
+          "id": "c",
+          "type": "open",
+          "points": 5,
+          "question": "Welche Bildgebung ist geeignet, und welche Befunde sprechen für eine Malrotation mit Volvulus?",
+          "answer": "Die Abdomen-Übersichtsaufnahme kann normal sein oder ein Double-Bubble-ähnliches Bild mit wenig distaler Luft zeigen und schließt einen Volvulus nicht aus. Die obere Magen-Darm-Passage mit Kontrastmittel gilt als Goldstandard: Bei Malrotation liegt die duodenojejunale Flexur (Treitz-Band) nicht links der Wirbelsäule auf Höhe des Bulbus, bei Volvulus zeigt sich ein korkenzieherartiger Verlauf oder ein Kontrastmittelabbruch im Duodenum. In der Sonographie sprechen eine Lageumkehr von A. und V. mesenterica superior und das Whirlpool-Zeichen (Verdrillung der Mesenterialgefäße) für einen Volvulus. Bei instabilem Kind und hochgradigem klinischem Verdacht darf die Diagnostik die Operation nicht verzögern.",
+          "keyPoints": [
+            "Übersichtsaufnahme kann normal sein",
+            "obere MDP als Goldstandard: Lage der Flexura duodenojejunalis",
+            "Korkenzieher/Abbruch bei Volvulus",
+            "Sonographie: SMA/SMV-Lageumkehr, Whirlpool-Zeichen",
+            "Diagnostik darf OP nicht verzögern"
+          ]
+        },
+        {
+          "id": "d",
+          "type": "calc",
+          "points": 3,
+          "question": "Bis zur Operation erhält das Kind eine Erhaltungsinfusion von **150 ml/kg/d**. Welche Laufrate in ml/h ergibt sich (3,5 kg)?",
+          "answer": "Tagesvolumen = 3,5 kg · 150 ml/kg/d = 525 ml/d. Laufrate = 525 / 24 ≈ **21,9 ml/h**. Zusätzlich werden die Magenverluste (z. B. Milliliter für Milliliter mit isotoner Elektrolytlösung mit Kaliumzusatz) ersetzt.",
+          "keyPoints": ["525 ml/d", "≈ 21,9 ml/h", "Magenverluste zusätzlich ersetzen"],
+          "solution": { "value": 21.9, "unit": "ml/h", "tolerance": 0.03 }
+        },
+        {
+          "id": "e",
+          "type": "open",
+          "points": 5,
+          "question": "Die Passage zeigt einen Kontrastmittelabbruch im Duodenum mit Korkenzieherzeichen. Wie wird operiert?",
+          "answer": "Notfalllaparotomie ohne Verzögerung. Ladd-Operation: Detorsion des Volvulus (meist gegen den Uhrzeigersinn, da der Volvulus typischerweise im Uhrzeigersinn verdreht ist), Beurteilung der Darmvitalität, Durchtrennung der Ladd-Bänder über dem Duodenum, Verbreiterung der Mesenterialwurzel, Platzierung des Dünndarms rechts und des Kolons links im Abdomen (Nonrotationsstellung) und meist Appendektomie, da die Appendix später atypisch liegt. Bei fraglich vitalem Darm wird nur eindeutig nekrotisches Gewebe reseziert und eine Second-look-Operation nach 24–48 Stunden geplant, um möglichst viel Darmlänge zu erhalten.",
+          "keyPoints": [
+            "Notfalllaparotomie",
+            "Detorsion gegen den Uhrzeigersinn",
+            "Ladd-Bänder durchtrennen, Mesenterialwurzel verbreitern",
+            "Dünndarm rechts, Kolon links, Appendektomie",
+            "Second look bei fraglicher Vitalität"
+          ]
+        },
+        {
+          "id": "f",
+          "type": "open",
+          "points": 3,
+          "question": "Welche Komplikationen und Langzeitfolgen besprechen Sie mit den Eltern?",
+          "answer": "Bei rechtzeitiger Operation ohne Darmnekrose ist die Prognose gut. Komplikationen sind postoperativer Ileus, Adhäsionsileus (lebenslang möglich), selten Rezidivvolvulus, Wundinfektion. Nach ausgedehnter Darmnekrose und Resektion drohen ein Kurzdarmsyndrom mit Darmversagen, langfristiger parenteraler Ernährung, Katheterinfektionen und Leberschäden sowie eine deutlich schlechtere Prognose; diese Kinder werden in einem Zentrum für intestinale Rehabilitation betreut. Die Eltern sollten wissen, dass erneutes galliges Erbrechen oder Bauchschmerzen eine sofortige Vorstellung erfordern.",
+          "keyPoints": [
+            "gute Prognose ohne Nekrose",
+            "Adhäsionsileus, selten Rezidiv",
+            "Kurzdarmsyndrom nach ausgedehnter Resektion",
+            "Warnzeichen: galliges Erbrechen"
+          ]
+        }
+      ],
+      "answer": "Galliges Erbrechen am 5. Lebenstag: chirurgischer Notfall mit Verdacht auf Malrotation und Mitteldarmvolvulus, Sofortmaßnahmen (Nahrungskarenz, Magensonde, Volumen, Kinderchirurgie), obere Magen-Darm-Passage bzw. Sonographie ohne Verzögerung der Operation, Erhaltungsinfusion (≈ 21,9 ml/h), Ladd-Operation und Aufklärung über Prognose, Adhäsionsileus und Kurzdarmsyndrom.",
+      "keyPoints": [
+        "galliges Erbrechen = Notfall",
+        "Malrotation/Volvulus trotz weichem Abdomen",
+        "obere MDP, Sonographie, keine OP-Verzögerung",
+        "Infusionsberechnung",
+        "Ladd-Operation, Langzeitfolgen"
+      ],
+      "tags": ["Galliges Erbrechen", "Malrotation", "Volvulus", "Kinderchirurgie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    }
+  ]
+}

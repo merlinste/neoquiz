@@ -1,0 +1,756 @@
+{
+  "area": "pharmakologie",
+  "questions": [
+    {
+      "id": "pharm-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erläutern Sie die wichtigsten Besonderheiten der **Pharmakokinetik** bei Früh- und Neugeborenen im Vergleich zu älteren Kindern (Resorption, Verteilung, Metabolismus, Elimination) mit je einem Beispiel.",
+      "hints": ["Körperwasser, Albumin, Leberenzyme, Nierenfunktion.", "Ein historisches Beispiel ist das Gray-Syndrom."],
+      "answer": "- **Resorption**: höherer Magen-pH, verzögerte und unregelmäßige Magenentleerung, variable enterale Resorption; dünne, gut durchblutete Haut des Frühgeborenen resorbiert topische Substanzen stark (z. B. Alkohol, Jod).\n- **Verteilung**: hoher Gesamtkörperwasseranteil → größeres Verteilungsvolumen hydrophiler Substanzen (z. B. Aminoglykoside: höhere Dosis/kg, niedrigere Spiegel); geringere Albuminkonzentration und -bindung → höherer freier Anteil; Verdrängung von Bilirubin aus der Albuminbindung (z. B. Sulfonamide, Ceftriaxon).\n- **Metabolismus**: unreife Cytochrom-P450-Enzyme und Glucuronidierung (Gray-Syndrom durch Chloramphenicol); Paracetamol wird überwiegend sulfatiert.\n- **Elimination**: niedrige GFR, die mit postmenstruellem und postnatalem Alter ansteigt → längere Halbwertszeiten renal eliminierter Substanzen, daher Dosisintervalle nach Gestations- und Lebensalter und Spiegelkontrollen (TDM).",
+      "keyPoints": [
+        "Variable Resorption, starke Hautresorption bei FG",
+        "Größeres Verteilungsvolumen hydrophiler Substanzen",
+        "Geringere Proteinbindung, Bilirubinverdrängung",
+        "Unreife Glucuronidierung/CYP (Gray-Syndrom)",
+        "Niedrige GFR → Intervalle nach PMA/Lebensalter, TDM"
+      ],
+      "tags": ["Entwicklungspharmakologie", "Pharmakokinetik"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Am Beispiel **Gentamicin**: Warum unterscheiden sich Dosierung und Dosierungsintervall zwischen einem Frühgeborenen der 25. SSW und einem Reifgeborenen, und wie steuern Sie die Therapie mit Spiegelbestimmungen?",
+      "hints": [
+        "Konzentrationsabhängige Wirkung, zeitabhängige Toxizität.",
+        "Welcher Spiegel steht für die Toxizität?",
+        "Eine mitochondriale Variante erhöht das Ototoxizitätsrisiko."
+      ],
+      "answer": "Gentamicin ist hydrophil (großes Verteilungsvolumen) und wird nahezu ausschließlich **renal** eliminiert. Weil die GFR bei extrem unreifen Frühgeborenen sehr niedrig ist, wird die Einzeldosis zwar ähnlich oder höher pro kg gewählt, das **Dosierungsintervall aber verlängert** (z. B. 36–48 h statt 24 h, je nach Gestations- und Lebensalter nach Klinikstandard). Aminoglykoside wirken **konzentrationsabhängig** (hoher Spitzenspiegel erwünscht), Oto- und Nephrotoxizität korrelieren mit **erhöhten Talspiegeln** und Therapiedauer. Daher: **Talspiegel vor der nächsten Gabe** (Zielwert je nach Zentrum meist unter 1–2 mg/l), bei erhöhtem Spiegel Intervall verlängern; Spitzenspiegel je nach Standard. Therapie nach 36–48 h bei negativer Blutkultur und fehlender Klinik beenden. Weitere Risiken: gleichzeitige nephrotoxische Medikamente (z. B. Vancomycin, Furosemid, NSAR); die mitochondriale Variante m.1555A>G (MT-RNR1) prädisponiert zu aminoglykosidinduzierter Taubheit.",
+      "keyPoints": [
+        "Renale Elimination, GFR abhängig von Gestations-/Lebensalter",
+        "Intervallverlängerung bei unreifen FG",
+        "Konzentrationsabhängige Wirkung, Toxizität korreliert mit Talspiegel",
+        "TDM: Talspiegel vor nächster Gabe, Intervall anpassen",
+        "Kofaktoren: Nephrotoxine, m.1555A>G"
+      ],
+      "tags": ["Aminoglykoside", "TDM", "Dosierung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-003",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **Ceftriaxon** bei Neugeborenen trifft laut Fachinformation zu?",
+      "hints": ["Zwei Probleme: Protein-Bindung und Präzipitate."],
+      "options": [
+        {
+          "text": "Es ist bei hyperbilirubinämischen Neugeborenen kontraindiziert und darf bei Neugeborenen (≤ 28 Tage) nicht gegeben werden, wenn calciumhaltige i.v. Lösungen erforderlich sind.",
+          "correct": true
+        },
+        {
+          "text": "Es ist das Mittel der Wahl zur kalkulierten Therapie der Early-onset-Sepsis bei Frühgeborenen.",
+          "correct": false
+        },
+        {
+          "text": "Es darf mit calciumhaltiger parenteraler Ernährung über denselben Zugang laufen, wenn zeitversetzt gespült wird.",
+          "correct": false
+        },
+        {
+          "text": "Es verdrängt Bilirubin nicht aus der Albuminbindung und ist deshalb bei Ikterus besonders geeignet.",
+          "correct": false
+        }
+      ],
+      "answer": "Ceftriaxon **verdrängt Bilirubin aus der Albuminbindung** (Risiko der Bilirubinenzephalopathie) und ist bei hyperbilirubinämischen Neugeborenen kontraindiziert; bei Frühgeborenen bis zu einem korrigierten Alter von 41 Wochen (Gestationsalter + Lebensalter) ebenfalls. Mit Calcium bildet es **Präzipitate** (Todesfälle durch Ablagerungen in Lunge und Niere wurden berichtet), daher Kontraindikation bei Neugeborenen ≤ 28 Tage, die calciumhaltige i.v. Lösungen (inkl. parenteraler Ernährung) benötigen – auch bei getrennten Zugängen. In der Neonatologie wird deshalb **Cefotaxim** bevorzugt.",
+      "keyPoints": [
+        "Bilirubinverdrängung aus Albuminbindung",
+        "Ca-Ceftriaxon-Präzipitate, Kontraindikation mit Ca-haltigen Infusionen bei NG ≤ 28 Tage",
+        "Cefotaxim als Alternative"
+      ],
+      "tags": ["Cephalosporine", "Arzneimittelsicherheit"],
+      "exam": ["KM"],
+      "source": "Fachinformation Ceftriaxon"
+    },
+    {
+      "id": "pharm-004",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welcher pharmazeutische **Hilfsstoff** hat in den 1980er-Jahren bei Frühgeborenen das „Gasping-Syndrom“ mit metabolischer Azidose, Schnappatmung, Kreislaufversagen und Todesfällen verursacht?",
+      "hints": ["Konservierungsmittel in Spüllösungen und manchen Injektionslösungen."],
+      "options": [
+        { "text": "Benzylalkohol", "correct": true },
+        { "text": "Polysorbat 80", "correct": false },
+        { "text": "Mannitol", "correct": false },
+        { "text": "Natriumcitrat", "correct": false },
+        { "text": "Glycerol", "correct": false }
+      ],
+      "answer": "Das Gasping-Syndrom wurde durch **Benzylalkohol** in Spül- und Injektionslösungen verursacht: Er wird über Benzoesäure verstoffwechselt, die bei Frühgeborenen wegen unreifer Glycinkonjugation akkumuliert. Folge sind metabolische Azidose, Schnappatmung, ZNS-Depression, Kreislaufversagen und Tod. Auch heute müssen Hilfsstoffe (Benzylalkohol, Propylenglykol, Ethanol) bei der Auswahl von Präparaten für Neugeborene beachtet werden.",
+      "keyPoints": [
+        "Benzylalkohol → Benzoesäure-Akkumulation",
+        "Metabolische Azidose, Gasping, Tod",
+        "Hilfsstoffe bei Präparatewahl beachten"
+      ],
+      "tags": ["Hilfsstoffe", "Arzneimittelsicherheit"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "pharm-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein großer Teil der Arzneimittel auf einer neonatologischen Intensivstation wird **off-label** eingesetzt. Was bedeutet das, wann ist es zulässig, und welche Pflichten ergeben sich daraus für Sie?",
+      "hints": ["Unterscheiden Sie off-label und unlicensed.", "Aufklärung, Dokumentation, Haftung."],
+      "answer": "**Off-label** heißt: Einsatz eines zugelassenen Arzneimittels außerhalb der Zulassung (Indikation, Altersgruppe, Dosis, Applikationsweg); **unlicensed** heißt: Arzneimittel ohne Zulassung in Deutschland (z. B. Import, Rezeptur). Zulässig ist der Einsatz im Rahmen der ärztlichen Therapiefreiheit, wenn er dem **wissenschaftlichen Erkenntnisstand** entspricht (Leitlinien, Studien, etablierte Standards) und keine zugelassene, gleichwertige Alternative besteht. Pflichten: **Aufklärung der Eltern** über den Off-label-Charakter, Nutzen und Risiken, **Dokumentation**, sorgfältige Dosisberechnung und Überwachung, Meldung unerwünschter Wirkungen. Die Haftung verlagert sich stärker auf die Ärztin/den Arzt, da die Gefährdungshaftung des Herstellers für den nicht bestimmungsgemäßen Gebrauch ggf. nicht greift. Ziel der EU-Kinderarzneimittelverordnung (seit 2007, pädiatrische Prüfkonzepte) ist es, die Zahl zugelassener Kinderarzneimittel zu erhöhen.",
+      "keyPoints": [
+        "Definition off-label vs. unlicensed",
+        "Zulässig bei wissenschaftlich begründetem Einsatz ohne zugelassene Alternative",
+        "Aufklärung der Eltern und Dokumentation",
+        "Haftung verlagert sich auf die Ärztin/den Arzt",
+        "EU-Kinderarzneimittelverordnung"
+      ],
+      "tags": ["Off-Label-Use", "Recht"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "pharm-006",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem Frühgeborenen mit 780 g wurde versehentlich die **zehnfache Morphindosis** über den Perfusor verabreicht. Was tun Sie akut, und welche Maßnahmen verringern solche Fehler auf einer neonatologischen Intensivstation?",
+      "hints": [
+        "Akut: Atmung, Kreislauf, Antagonist – und die Eltern.",
+        "Systemisch: Standardisierung und Kontrollen statt Schuldzuweisung."
+      ],
+      "answer": "**Akut**: Infusion stoppen, Vitalparameter und Atmung sichern (Atemdepression, Apnoen, Hypotonie, Bradykardie), ggf. Beatmung; bei relevanter Atemdepression **Naloxon** titriert unter Monitoring (Wirkdauer kürzer als Morphin, Rebound beachten); Oberärztin/Oberarzt informieren, Eltern **offen informieren**, sachliche Dokumentation, **CIRS-/Fehlermeldung**.\n**Prävention**: zehnfache Fehler sind bei Neugeborenen wegen der kleinen Dosen und Verdünnungen typisch. Maßnahmen: **Standardkonzentrationen** und vorgefertigte Perfusortabellen, elektronische Verordnung mit Dosisgrenzen (Dosisrechner, „Smart Pumps“ mit Medikamentenbibliothek), **unabhängige Doppelkontrolle** bei Hochrisikomedikamenten, aktuelles Arbeitsgewicht, Einheiten ausschreiben (Mikrogramm statt µg/mcg), keine nachgestellten Nullen („5“ statt „5,0“), führende Null („0,5“), klare Kommunikation (Closed Loop), Schulungen, Medikationsreview durch Stationsapotheker.",
+      "keyPoints": [
+        "Stopp, Atmung/Kreislauf sichern, ggf. Naloxon titriert",
+        "Eltern offen informieren, Dokumentation, CIRS",
+        "Standardkonzentrationen, Perfusortabellen",
+        "Elektronische Verordnung, Smart Pumps, Doppelkontrolle",
+        "Einheiten/Nullen-Regeln, Closed-Loop-Kommunikation"
+      ],
+      "tags": ["Medikationsfehler", "Patientensicherheit", "Opioide"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-007",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem Frühgeborenen mit 600 g laufen Katecholamine, Analgosedierung und parenterale Ernährung über einen zentralen Zugang mit sehr niedrigen Laufraten (teils 0,1 ml/h). Welche **infusionstechnischen Probleme** entstehen, und wie begegnen Sie ihnen?",
+      "hints": ["Totraum, Verzögerung, Bolus.", "Was passiert beim Spritzenwechsel oder beim Anheben der Spritzenpumpe?"],
+      "answer": "- **Verzögerter Wirkeintritt**: Bei niedriger Laufrate dauert es lange, bis das Medikament den Totraum der Leitung passiert hat (Leitungsvolumen / Laufrate) – Leitungen vorfüllen, kleinvolumige Leitungen, patientennahe Zuspritzung, ggf. Trägerlösung mit konstanter Rate.\n- **Unbeabsichtigte Boli**: beim Spülen des Zugangs, bei Laufratenänderung der Trägerlösung, nach Lösen einer Okklusion oder durch **Siphon-Effekt** (Spritzenpumpe über Patientenniveau, nicht korrekt eingelegter Kolben) – Pumpen auf Patientenhöhe, Spritze korrekt einrasten.\n- **Unterbrechung** beim Spritzenwechsel und Anlaufverzögerung durch Spritzencompliance – überlappender Wechsel, Pumpen mit kurzer Anlaufzeit, Startbolus-Funktion.\n- **Inkompatibilitäten** mehrerer Medikamente in einem Lumen (z. B. mit Bicarbonat, Calcium/Phosphat) – Kompatibilitätstabellen, mehrlumige Katheter, Apotheke.\n- Volumenbelastung durch viele Perfusoren – höhere, standardisierte Konzentrationen.",
+      "keyPoints": [
+        "Totraum → verzögerter Wirkeintritt",
+        "Bolusgefahr (Spülen, Siphon-Effekt, Laufratenänderung)",
+        "Spritzenwechsel und Anlaufverzögerung",
+        "Inkompatibilitäten",
+        "Pumpe auf Patientenhöhe, Trägerlösung, kleine Totraumvolumina"
+      ],
+      "tags": ["Infusionstechnik", "Patientensicherheit"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "pharm-008",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes (3,6 kg) erhält postoperativ **Paracetamol i.v.** in der Einzeldosis von 7,5 mg/kg (Fachinformation für Reifgeborene und Säuglinge bis 10 kg). Die Lösung enthält 10 mg/ml. Wie viele **ml** verabreichen Sie pro Gabe?",
+      "hints": ["Erst die Dosis in mg, dann in ml umrechnen."],
+      "answer": "Dosis = 7,5 mg/kg · 3,6 kg = 27 mg. Volumen = 27 mg / 10 mg/ml = **2,7 ml** (bis zu 4-mal täglich, maximal 30 mg/kg/d laut Fachinformation). Typischer Fehler ist die Verwechslung von mg und ml mit zehnfacher Überdosierung. Bei Frühgeborenen ist i.v. Paracetamol off-label; Dosierung dann nach Klinikstandard.",
+      "keyPoints": ["Dosis 27 mg", "Volumen 2,7 ml", "Höchstdosis 30 mg/kg/d, Verwechslung mg/ml vermeiden"],
+      "solution": { "value": 2.7, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Paracetamol", "Dosisberechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ],
+      "source": "Fachinformation Paracetamol 10 mg/ml Infusionslösung"
+    },
+    {
+      "id": "pharm-009",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein beatmetes Frühgeborenes mit 1500 g soll eine **Morphin-Dauerinfusion** mit 10 µg/kg/h erhalten. Der Perfusor ist mit 1 mg Morphin auf 50 ml NaCl 0,9 % angesetzt. Welche Laufrate (ml/h) stellen Sie ein?",
+      "hints": ["Konzentration in µg/ml berechnen.", "Stundenbedarf in µg durch Konzentration teilen."],
+      "answer": "Konzentration: 1000 µg / 50 ml = 20 µg/ml. Stundenbedarf: 10 µg/kg/h · 1,5 kg = 15 µg/h. Laufrate = 15 µg/h / 20 µg/ml = **0,75 ml/h**. Die Dosis wird anschließend nach Schmerz-/Sedierungsscore titriert; auf Hypotonie, Darmmotilitätsstörung und Harnverhalt achten.",
+      "keyPoints": ["Konzentration 20 µg/ml", "Bedarf 15 µg/h", "Laufrate 0,75 ml/h", "Titration nach Schmerzscore"],
+      "solution": { "value": 0.75, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Morphin", "Perfusorberechnung", "Analgosedierung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-010",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes (2,5 kg) mit Zwerchfellhernie wird analgosediert. Sie ziehen 100 µg **Fentanyl** auf 50 ml auf. Die Zieldosis beträgt 1,5 µg/kg/h. Welche Laufrate (ml/h) stellen Sie ein?",
+      "hints": ["100 µg / 50 ml = ? µg/ml"],
+      "answer": "Konzentration: 100 µg / 50 ml = 2 µg/ml. Bedarf: 1,5 µg/kg/h · 2,5 kg = 3,75 µg/h. Laufrate = 3,75 / 2 = **1,875 ml/h ≈ 1,9 ml/h**. Unter längerer Fentanylgabe rasche Toleranzentwicklung, nach mehreren Tagen ausschleichen (Entzugsgefahr).",
+      "keyPoints": ["Konzentration 2 µg/ml", "Bedarf 3,75 µg/h", "Laufrate ≈ 1,9 ml/h"],
+      "solution": { "value": 1.875, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Fentanyl", "Perfusorberechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-011",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes (3,2 kg) soll vor einer Thoraxdrainagenanlage einen **Morphinbolus von 0,05 mg/kg** i.v. erhalten. Sie verdünnen 1 ml Morphin (10 mg/ml) mit 9 ml NaCl 0,9 %. Wie viele **ml** dieser Verdünnung geben Sie?",
+      "hints": ["Konzentration nach Verdünnung: 10 mg in 10 ml.", "Dosis in mg = 0,05 · 3,2"],
+      "answer": "Verdünnung: 10 mg / 10 ml = 1 mg/ml. Dosis: 0,05 mg/kg · 3,2 kg = 0,16 mg. Volumen = 0,16 mg / 1 mg/ml = **0,16 ml**. Weil sich ein so kleines Volumen schlecht genau abmessen lässt, ist eine weitere Verdünnung (z. B. auf 0,1 mg/ml → 1,6 ml) sicherer; langsam injizieren, Atmung überwachen.",
+      "keyPoints": ["Konzentration 1 mg/ml", "Dosis 0,16 mg", "Volumen 0,16 ml", "Weitere Verdünnung für genaue Dosierung"],
+      "solution": { "value": 0.16, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Morphin", "Verdünnung", "Dosisberechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-012",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wie erfassen Sie **Schmerz** bei Früh- und Neugeborenen? Nennen Sie validierte Instrumente und die Grundsätze ihres Einsatzes.",
+      "hints": [
+        "Neugeborene können Schmerz nicht berichten – Verhalten und Physiologie.",
+        "Manche Scores erfassen auch Sedierung."
+      ],
+      "answer": "Schmerz wird mit **validierten Fremdbeobachtungsskalen** aus Verhaltens- (Mimik, Körperbewegung, Schreien, Schlaf) und physiologischen Parametern (Herzfrequenz, Sättigung) erfasst, teils mit Korrektur für das Gestationsalter. Beispiele: **Berner Schmerzscore für Neugeborene (BSN)**, **PIPP/PIPP-R** (Premature Infant Pain Profile, akuter Prozedurenschmerz), **N-PASS** (Schmerz und Sedierung, auch bei Beatmung), **COMFORT(-neo)** für Langzeitbeatmete, **KUSS** für postoperativen Schmerz im Säuglingsalter. Grundsätze: ein Instrument stationseinheitlich verwenden, **regelmäßig** (z. B. mit den Pflegerunden) und nach jeder Intervention erneut erheben, Interventionsschwellen festlegen, dokumentieren. Grenzen: sehr unreife oder relaxierte/sedierte Kinder zeigen wenig Verhaltensreaktion – fehlende Reaktion bedeutet nicht fehlenden Schmerz.",
+      "keyPoints": [
+        "Validierte Fremdbeobachtungsskalen (Verhalten + Physiologie)",
+        "Beispiele: BSN, PIPP-R, N-PASS, COMFORT, KUSS",
+        "Regelmäßig und nach Intervention, Schwellen, Dokumentation",
+        "Grenzen bei sehr Unreifen/Sedierten"
+      ],
+      "tags": ["Schmerzerfassung", "Analgesie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-013",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **nicht-pharmakologischen Maßnahmen** zur Schmerzreduktion bei kleinen Eingriffen (z. B. Fersenblutentnahme, Venenpunktion) kennen Sie, und wie ist ihre Wirksamkeit einzuschätzen?",
+      "hints": ["Süßes, Saugen, Halt, Eltern.", "Welche Blutentnahmetechnik ist beim Reifgeborenen weniger schmerzhaft?"],
+      "answer": "- **Orale Glukose-/Saccharoselösung** in kleinen Mengen ca. 2 Minuten vor dem Eingriff, kombiniert mit **nicht-nutritivem Saugen** (Schnuller).\n- **Stillen** bzw. Haut-zu-Haut-Kontakt (Känguru) während der Prozedur, Anwesenheit der Eltern.\n- **Facilitated Tucking**/Pucken, Nesting, reizarme Umgebung, Bündelung von Maßnahmen, Vermeiden unnötiger Eingriffe.\n- Technik: beim Reifgeborenen ist die **Venenpunktion weniger schmerzhaft** als die Fersenpunktion; mechanische Lanzetten statt manueller Stich.\nWirksamkeit: Süße Lösungen, Stillen und Hautkontakt reduzieren Verhaltens-Schmerzscores gut belegt; ob sie die zentrale Nozizeption tatsächlich vermindern, ist umstritten. Für größere Eingriffe ersetzen sie keine Analgetika, sondern ergänzen sie.",
+      "keyPoints": [
+        "Glukose/Saccharose oral + nicht-nutritives Saugen",
+        "Stillen, Känguru, Eltern einbeziehen",
+        "Facilitated Tucking, Bündelung, weniger Eingriffe",
+        "Venenpunktion statt Fersenstich beim Reifgeborenen",
+        "Wirksam auf Schmerzscores, kein Ersatz für Analgetika bei größeren Eingriffen"
+      ],
+      "tags": ["Nicht-pharmakologische Analgesie", "Prozedurenschmerz"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie gestalten Sie die **Analgesie** bei folgenden Prozeduren: Lumbalpunktion, Anlage einer Thoraxdrainage beim nicht beatmeten Kind, ROP-Screening? Worauf achten Sie bei Lokalanästhetika?",
+      "hints": [
+        "Kombinieren Sie lokale, systemische und nicht-pharmakologische Maßnahmen.",
+        "Ein topisches Lokalanästhetikum kann Methämoglobin bilden."
+      ],
+      "answer": "- **Lumbalpunktion**: Glukose oral, Nesting; topisch Lidocain/Prilocain-Creme (EMLA, Einwirkzeit beachten; bei Frühgeborenen < 37 SSW laut Fachinformation nicht anzuwenden) oder Lidocain-Infiltration; ruhige, nicht zu stark flektierte Lagerung.\n- **Thoraxdrainage**: Lokalinfiltration mit **Lidocain** (Höchstdosis beachten) **plus systemisches Opioid** (z. B. Morphin oder Fentanyl), sofern es die Situation zulässt; beim Spannungspneumothorax keine Verzögerung der Entlastung.\n- **ROP-Screening**: lokalanästhetische Augentropfen, orale Glukose, Nesting/Halten, schonende Technik; ggf. Schnuller.\n**Lokalanästhetika**: Dosis in mg/kg berechnen (geringe Masse, unreifer Metabolismus → Toxizität: Krampfanfälle, Arrhythmien). **Prilocain** (in EMLA) kann eine **Methämoglobinämie** auslösen – laut Fachinformation bei Neugeborenen und Säuglingen bis 2 Monate höchstens 1 g auf max. 10 cm² für max. 1 Stunde, nicht bei Frühgeborenen < 37 SSW, nicht bei gleichzeitiger Gabe anderer Met-Hb-Bildner; bei Fersenstich ist EMLA unwirksam.",
+      "keyPoints": [
+        "LP: Glukose, EMLA oder Lidocain",
+        "Thoraxdrainage: Lidocain-Infiltration + systemisches Opioid",
+        "ROP: Lokalanästhetische Tropfen, Glukose",
+        "Lokalanästhetika: Dosis in mg/kg, Toxizität",
+        "Prilocain → Methämoglobinämie"
+      ],
+      "tags": ["Prozedurenschmerz", "Lokalanästhesie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 29+0 SSW (1150 g) unter CPAP muss wegen zunehmender Apnoen **elektiv intubiert** werden. Soll eine Prämedikation gegeben werden? Beschreiben Sie ein mögliches Vorgehen und typische Fehler.",
+      "hints": [
+        "Eine Intubation ohne Prämedikation ist nur im Notfall/bei Reanimation gerechtfertigt.",
+        "Analgetikum/Hypnotikum, Muskelrelaxans, ggf. Vagolytikum."
+      ],
+      "answer": "Ja – außer in der Reanimation sollen Neugeborene **vor jeder Intubation prämediziert** werden: weniger Schmerz und Stress, weniger Bradykardien und Blutdruckspitzen, kürzere Intubationszeit und höhere Erfolgsrate beim ersten Versuch. Ein mögliches Schema (zentrumsabhängig): **Opioid** (z. B. Fentanyl 1–2 µg/kg **langsam**) oder Hypnotikum (z. B. Propofol in reduzierter Dosis, Blutdruck beachten), dazu ein **Muskelrelaxans** (z. B. Rocuronium oder Mivacurium), wenn Maskenbeatmung sicher möglich ist; ggf. **Atropin** (ca. 10–20 µg/kg) gegen vagale Bradykardie. Vorbereitung: Material, Tubus, Absaugung, CO2-Detektor, Maskenbeatmung, erfahrene Person, Präoxygenierung, Monitoring. Fehler: **Midazolam als alleiniges Mittel** bei Frühgeborenen (Hypotonie, keine Analgesie), zu schnelle Fentanylinjektion (Thoraxrigidität), Muskelrelaxation ohne Sicherheit für Maskenbeatmung, unzureichende Überwachung von Blutdruck und Sättigung.",
+      "keyPoints": [
+        "Prämedikation bei jeder nicht-notfallmäßigen Intubation",
+        "Analgetikum/Hypnotikum + Muskelrelaxans ± Atropin",
+        "Fentanyl langsam (Thoraxrigidität)",
+        "Kein Midazolam allein bei FG",
+        "Vorbereitung, Maskenbeatmung sicher, Monitoring"
+      ],
+      "tags": ["Prämedikation", "Intubation", "Analgesie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-016",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Nach einer schnell injizierten Fentanyl-Bolusgabe lässt sich ein Neugeborenes plötzlich kaum noch mit Maske beatmen, der Thorax ist starr. Welche Nebenwirkung liegt am ehesten vor?",
+      "hints": ["Typisch für hochpotente Opioide bei rascher Injektion."],
+      "options": [
+        { "text": "Thoraxwandrigidität (Rigid-Chest-Syndrom)", "correct": true },
+        { "text": "Anaphylaktische Reaktion mit Bronchospasmus durch Histaminfreisetzung", "correct": false },
+        { "text": "Spannungspneumothorax", "correct": false },
+        { "text": "Malignes neuroleptisches Syndrom", "correct": false }
+      ],
+      "answer": "Die rasche Injektion hochpotenter Opioide (Fentanyl, Remifentanil) kann eine **Thoraxwandrigidität** mit Glottisverschluss auslösen, sodass Beatmung kaum möglich ist. Therapie: **Muskelrelaxans** (und Intubation) oder **Naloxon**; Prävention durch langsame Injektion über mehrere Minuten. Histaminfreisetzung ist eher bei Morphin typisch (Hypotonie). Ein Pneumothorax sollte als Differenzialdiagnose bedacht werden.",
+      "keyPoints": [
+        "Thoraxrigidität nach schneller Fentanylgabe",
+        "Therapie: Muskelrelaxans oder Naloxon",
+        "Prävention: langsame Injektion"
+      ],
+      "tags": ["Fentanyl", "Opioide", "Nebenwirkungen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-017",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Soll jedes beatmete Frühgeborene eine **kontinuierliche Opioid-Analgosedierung** erhalten? Begründen Sie Ihre Haltung mit der Studienlage und vergleichen Sie Morphin und Fentanyl.",
+      "hints": ["Große randomisierte Studie mit Morphin bei beatmeten Frühgeborenen.", "Kreislauf, Darm, Toleranz."],
+      "answer": "Nein – eine **routinemäßige** Dauerinfusion wird nicht empfohlen. In randomisierten Studien (u. a. NEOPAIN) reduzierte präemptives Morphin bei beatmeten Frühgeborenen den kombinierten Endpunkt aus Tod, schwerer IVH und PVL nicht; bei den unreifsten Kindern (23–26 SSW) traten unter Morphin vermehrt **Hypotonien** auf, und zusätzliche Bolusgaben waren mit schlechterem Outcome assoziiert. Opioide werden daher **individuell, schmerzscoregesteuert** und in der niedrigsten wirksamen Dosis eingesetzt, kombiniert mit nicht-pharmakologischen Maßnahmen. **Morphin**: Histaminfreisetzung → Hypotonie, verzögerte Darmmotilität (verlängerter Nahrungsaufbau), Harnverhalt, längere Beatmungsdauer; längere Wirkdauer, mit Metaboliten renal eliminiert. **Fentanyl**: kreislaufstabiler, schneller Wirkbeginn, aber rasche **Toleranz**, Thoraxrigidität bei Bolus, Akkumulation bei Dauerinfusion. Beiden gemeinsam: Atemdepression, Entzugssymptomatik nach längerer Gabe.",
+      "keyPoints": [
+        "Keine routinemäßige Dauerinfusion bei allen beatmeten FG",
+        "NEOPAIN: kein Vorteil, Hypotonie bei sehr Unreifen",
+        "Individuell nach Schmerzscore, niedrigste wirksame Dosis",
+        "Morphin: Hypotonie, Darmmotilität, Harnverhalt",
+        "Fentanyl: kreislaufstabil, Toleranz, Thoraxrigidität"
+      ],
+      "tags": ["Analgosedierung", "Opioide", "Beatmung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes wurde nach Operation einer Zwerchfellhernie 12 Tage mit Fentanyl und Midazolam analgosediert. Welche Probleme erwarten Sie beim Absetzen, und wie gehen Sie vor?",
+      "hints": [
+        "Toleranz und Abhängigkeit nach längerer Gabe.",
+        "Ausschleichen, Scores, Ersatz durch länger wirksame Substanzen."
+      ],
+      "answer": "Nach mehrtägiger kontinuierlicher Opioid- und/oder Benzodiazepingabe (Risiko steigt deutlich ab etwa 5 Tagen und mit kumulativer Dosis) entwickeln sich **Toleranz** und körperliche Abhängigkeit; abruptes Absetzen führt zu einem **iatrogenen Entzugssyndrom**: Unruhe, Tremor, schrilles Schreien, Hypertonus, Schlafstörung, Tachykardie, Tachypnoe, Schwitzen, Fieber, Erbrechen/Durchfall, selten Krampfanfälle. Vorgehen: **schrittweises Ausschleichen** nach Stationsprotokoll (Geschwindigkeit abhängig von Dauer und Dosis), ggf. Umstellung auf enterale, länger wirksame Präparate (z. B. Methadon oder orales Morphin, für Benzodiazepine z. B. orales Präparat) und adjuvant α2-Agonisten (Clonidin; Dexmedetomidin ist bei Neugeborenen off-label, Bradykardie/Hypotonie beachten). Regelmäßige Erfassung mit einem **Entzugsscore** (z. B. WAT-1, SOS oder modifizierter Finnegan-Score), Unterscheidung von Schmerz und Delir, nicht-pharmakologische Maßnahmen. Prävention: Sedierung nach Zielscore, tägliche Reevaluation.",
+      "keyPoints": [
+        "Toleranz und Abhängigkeit nach > ca. 5 Tagen Dauerinfusion",
+        "Iatrogenes Entzugssyndrom: Symptome",
+        "Ausschleichen nach Protokoll, ggf. enterale Umstellung (Methadon)",
+        "Adjuvant Clonidin/Dexmedetomidin",
+        "Entzugsscore (WAT-1, SOS, Finnegan)"
+      ],
+      "tags": ["Iatrogener Entzug", "Analgosedierung", "Ausschleichen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-019",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **Midazolam** bei Frühgeborenen trifft zu?",
+      "hints": ["Kein Analgetikum."],
+      "options": [
+        {
+          "text": "Midazolam kann insbesondere als Bolus und in Kombination mit Opioiden eine relevante Hypotonie verursachen und ist zur Routine-Dauersedierung beatmeter Frühgeborener nicht zu empfehlen.",
+          "correct": true
+        },
+        {
+          "text": "Midazolam ist das Medikament der ersten Wahl zur Analgesie bei der Thoraxdrainagenanlage.",
+          "correct": false
+        },
+        {
+          "text": "Midazolam verbessert in Studien das neurologische Outcome beatmeter Frühgeborener gegenüber Morphin.",
+          "correct": false
+        },
+        { "text": "Midazolam führt auch nach wochenlanger Gabe nicht zu Entzugssymptomen.", "correct": false }
+      ],
+      "answer": "Midazolam wirkt sedierend, aber **nicht analgetisch**. Bei Frühgeborenen sind **Hypotonie** (besonders bei Bolusgabe und in Kombination mit Opioiden), myoklonusartige Bewegungen und ein ungünstiges Sicherheitsprofil beschrieben; in einer randomisierten Pilotstudie (NOPAIN) schnitt Midazolam beim kombinierten neurologischen Endpunkt schlechter ab als Morphin. Systematische Übersichten sehen keine ausreichende Evidenz für den Routineeinsatz als Dauersedierung. Nach längerer Gabe sind Entzugssymptome typisch.",
+      "keyPoints": [
+        "Keine Analgesie",
+        "Hypotonie, v. a. als Bolus mit Opioiden",
+        "Kein Routineeinsatz zur Dauersedierung bei FG"
+      ],
+      "tags": ["Midazolam", "Sedierung", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.13 – Analgosedierung",
+          "terms": ["Analgosedierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.6–20.7 – Analgetika, Sedativa",
+          "terms": ["Analgetika", "Sedativa"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Eine Mutter ist unter Methadonsubstitution, mit gelegentlichem Beikonsum. Wann und mit welchen Symptomen rechnen Sie beim Neugeborenen mit einem **neonatalen Abstinenzsyndrom (NAS)**? Welche Substanzen können ein Entzugsbild verursachen?",
+      "hints": ["Halbwertszeit der Substanz bestimmt den Beginn.", "ZNS, vegetativ, gastrointestinal."],
+      "answer": "**Substanzen**: v. a. Opioide (Heroin, Methadon, Buprenorphin, auch therapeutische Opioide), daneben Benzodiazepine, Barbiturate, Alkohol; SSRI verursachen ein ähnliches Anpassungssyndrom. **Beginn** abhängig von der Halbwertszeit: Heroin meist innerhalb von 24 h, **Methadon** typischerweise nach 24–72 h, teils später (bis zu mehreren Tagen), Buprenorphin ähnlich verzögert; Benzodiazepine können noch später auftreten. **Symptome**: ZNS (Irritabilität, schrilles Schreien, Tremor, Hypertonus, gesteigerte Reflexe, Schlafstörungen, Krampfanfälle), vegetativ (Schwitzen, Fieber, Gähnen, Niesen, verstopfte Nase, Tachypnoe, Hautmarmorierung), gastrointestinal (unkoordiniertes, exzessives Saugen bei Trinkschwäche, Erbrechen, Durchfall, Gewichtsverlust). Deshalb stationäre Beobachtung über mehrere Tage (nach Methadon/Buprenorphin länger als nach kurzwirksamen Opioiden), mit Scoring ab Geburt.",
+      "keyPoints": [
+        "Opioide, Benzodiazepine, Barbiturate, Alkohol; SSRI-Anpassungssyndrom",
+        "Beginn nach Halbwertszeit: Heroin < 24 h, Methadon 24–72 h oder später",
+        "ZNS-, vegetative und GI-Symptome",
+        "Stationäre Beobachtung über mehrere Tage mit Scoring"
+      ],
+      "tags": ["Neonatales Abstinenzsyndrom", "Opioide"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie wird ein **neonatales Abstinenzsyndrom** im Verlauf bewertet? Erläutern Sie den Finnegan-Score und alternative Konzepte wie „Eat, Sleep, Console“.",
+      "hints": [
+        "Regelmäßige Scores in Abständen von einigen Stunden.",
+        "Ein neueres Konzept fragt nach Funktion statt nach Symptomzahl."
+      ],
+      "answer": "Der **(modifizierte) Finnegan-Score** erfasst ZNS-, vegetative und gastrointestinale Symptome mit Punktwerten; er wird ab Geburt **alle 3–4 Stunden** (nach dem Füttern, durch geschultes Personal) erhoben. Klassische Behandlungsschwelle: **drei aufeinanderfolgende Werte ≥ 8** oder **zwei aufeinanderfolgende Werte ≥ 12**, wenn nicht-pharmakologische Maßnahmen ausgeschöpft sind; die Schwellen sind je nach Zentrum leicht unterschiedlich. Das Konzept **„Eat, Sleep, Console“ (ESC)** bewertet funktionell, ob das Kind ausreichend trinkt, mindestens etwa eine Stunde am Stück schläft und sich innerhalb kurzer Zeit beruhigen lässt; es betont Rooming-in und elterliche Versorgung. In Studien (darunter eine große randomisierte Studie 2023) verkürzte ESC die Zeit bis zur medizinischen Entlassungsfähigkeit und reduzierte die Opioidtherapie, ohne erkennbare Nachteile in der Kurzzeitsicherheit. Die Umsetzung in Deutschland ist uneinheitlich.",
+      "keyPoints": [
+        "Finnegan-Score alle 3–4 h, ZNS/vegetativ/GI",
+        "Behandlungsschwelle: 3× ≥ 8 oder 2× ≥ 12",
+        "ESC: Trinken, Schlafen, Beruhigbarkeit",
+        "ESC: kürzere Behandlung, weniger Opioide",
+        "Zentrumsabhängige Umsetzung"
+      ],
+      "tags": ["Neonatales Abstinenzsyndrom", "Finnegan-Score", "Eat Sleep Console"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes einer methadonsubstituierten Mutter hat am 3. Lebenstag trotz Rooming-in und reizarmer Umgebung wiederholt Finnegan-Werte von 10–13, trinkt schlecht und nimmt ab. Wie behandeln Sie?",
+      "hints": ["Ersetzen Sie die entzogene Substanzklasse.", "Welche Substanz eher bei Mischkonsum?"],
+      "answer": "Nicht-pharmakologische Maßnahmen weiterführen (Rooming-in, Haut-zu-Haut, reizarm, Pucken, häufige kleine Mahlzeiten, ggf. hochkalorische Nahrung, Stillen fördern). **Pharmakotherapie** des Opioidentzugs: Mittel der Wahl ist ein **Opioid**, meist **orales Morphin** (Morphinhydrochlorid-Lösung), alternativ Methadon oder Buprenorphin; Startdosis und Steigerung nach Stationsprotokoll, Titration nach Score, nach Stabilisierung über einige Tage schrittweise reduzieren. **Phenobarbital** bei Entzug von Nicht-Opioiden (Benzodiazepine, Barbiturate) bzw. als Zusatz bei polytoxischem Konsum oder unzureichender Wirkung, alternativ **Clonidin** als Adjuvans. Begleitend: Monitoring (Atmung unter Opioid), Gewicht, Flüssigkeit, Ausschluss anderer Ursachen (Hypoglykämie, Hypokalzämie, Infektion, ZNS-Blutung). **Kein Naloxon**.",
+      "keyPoints": [
+        "Nicht-pharmakologische Maßnahmen fortführen",
+        "Opioidentzug: orales Morphin (alternativ Methadon/Buprenorphin)",
+        "Phenobarbital bei Nicht-Opioid-/Mischkonsum, Clonidin adjuvant",
+        "Titration nach Score, Ausschleichen",
+        "DD ausschließen, kein Naloxon"
+      ],
+      "tags": ["Neonatales Abstinenzsyndrom", "Morphin", "Phenobarbital"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-023",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes einer heroinabhängigen Mutter ist nach Geburt atemdepressiv; die Mutter hat 2 Stunden vor Geburt Pethidin erhalten. Welche Aussage zu **Naloxon** trifft zu?",
+      "hints": ["Akuter Entzug kann lebensbedrohlich sein."],
+      "options": [
+        {
+          "text": "Naloxon ist kontraindiziert, weil es einen akuten Entzug mit Krampfanfällen auslösen kann; die Atmung wird primär durch Beatmung gesichert.",
+          "correct": true
+        },
+        {
+          "text": "Naloxon soll in dieser Situation vor Beginn der Maskenbeatmung gegeben werden.",
+          "correct": false
+        },
+        { "text": "Naloxon wirkt länger als Pethidin; eine Nachbeobachtung ist nicht nötig.", "correct": false },
+        {
+          "text": "Naloxon ist bei Kindern opioidabhängiger Mütter das Mittel der Wahl gegen Entzugssymptome.",
+          "correct": false
+        }
+      ],
+      "answer": "Bei Kindern von **opioidabhängigen oder substituierten Müttern** ist Naloxon **kontraindiziert**, da es einen akuten Entzug mit Krampfanfällen auslösen kann. Grundsätzlich wird Naloxon in der Erstversorgung nicht routinemäßig empfohlen; Atemdepression wird durch Atemunterstützung/Beatmung behandelt. Naloxon wirkt zudem kürzer als viele Opioide (Rebound).",
+      "keyPoints": [
+        "Naloxon kontraindiziert bei mütterlicher Opioidabhängigkeit",
+        "Akuter Entzug, Krampfanfälle",
+        "Atemunterstützung hat Vorrang"
+      ],
+      "tags": ["Naloxon", "Neonatales Abstinenzsyndrom", "Erstversorgung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine 22-jährige Mutter ist seit der 20. SSW in Methadonsubstitution, im Urin war zuletzt kein Beikonsum nachweisbar; der HIV-Test ist negativ, Hepatitis C-Antikörper sind positiv. Sie möchte stillen. Was raten Sie, und was organisieren Sie bis zur Entlassung des Kindes?",
+      "hints": [
+        "Stillen hat bei stabiler Substitution Vorteile auch für das NAS.",
+        "HCV und HIV unterschiedlich bewerten.",
+        "Kindeswohl und Netzwerk."
+      ],
+      "answer": "**Stillen**: bei stabiler Substitution (Methadon oder Buprenorphin), fehlendem Beikonsum und negativem HIV-Status wird Stillen **empfohlen** – die in die Milch übergehende Opioidmenge ist gering, Stillen mildert das NAS, fördert Bindung und verkürzt die Behandlung. Hepatitis C ist keine Kontraindikation (Pausieren bei blutenden Mamillen). Bei aktivem Beikonsum (z. B. Heroin, Kokain, Benzodiazepine) wird vom Stillen abgeraten; bei mütterlicher HIV-Infektion ist Stillen nur nach spezialisierter Beratung gemäß aktueller Leitlinie (allenfalls bei dauerhaft supprimierter Viruslast) möglich. **Organisation**: HCV-Nachsorge des Kindes (HCV-RNA im Verlauf, Antikörper erst nach Abklingen der mütterlichen Leihantikörper), Hepatitis-B-Status der Mutter prüfen; frühzeitige Einbindung von **Sozialdienst**, Substitutionsarzt und mit Einverständnis Jugendamt/Frühe Hilfen; Helferkonferenz und Einschätzung der Versorgungssituation vor Entlassung (Kindeswohl), Anleitung der Eltern, Aufklärung zum plötzlichen Kindstod (Nichtrauchen), sichere Aufbewahrung des Methadons (Vergiftungsgefahr), ambulante Nachsorge.",
+      "keyPoints": [
+        "Stillen empfohlen bei stabiler Substitution, kein Beikonsum, HIV-negativ",
+        "HCV keine Stillkontraindikation; HCV-Nachsorge des Kindes",
+        "Sozialdienst, Substitutionsarzt, Jugendamt/Frühe Hilfen, Helferkonferenz",
+        "Kindeswohleinschätzung vor Entlassung",
+        "SIDS-Prävention, sichere Aufbewahrung von Methadon"
+      ],
+      "tags": ["Neonatales Abstinenzsyndrom", "Stillen", "Sozialmedizin"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Neugeborene nach Drogenabusus in der Schwangerschaft",
+          "terms": ["Drogenabusus", "Abstinenzsyndrom"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-025",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Mutter hat bis zur Geburt **Sertralin** wegen einer Depression eingenommen. Ihr reifes Neugeborenes ist am ersten Lebenstag zittrig, tachypnoisch, trinkt schlecht und ist sehr irritabel. Was ist die wahrscheinliche Ursache, welche Differenzialdiagnosen schließen Sie aus, und wie beraten Sie die Mutter zum Stillen?",
+      "hints": [
+        "Vorübergehendes Anpassungssyndrom.",
+        "Eine seltene, aber gefährliche pulmonale Komplikation ist leicht häufiger."
+      ],
+      "answer": "Wahrscheinlich liegt eine **neonatale Anpassungsstörung nach SSRI-Exposition** (poor neonatal adaptation syndrome) vor – bei einem relevanten Anteil exponierter Kinder: Tremor, Irritabilität, Hyper- oder Hypotonie, Tachypnoe, Trinkschwäche, Schlafstörungen, selten Hypoglykämie oder Krampfanfälle. Der Verlauf ist in der Regel **selbstlimitierend innerhalb weniger Tage**; Behandlung supportiv, Überwachung (z. B. Pulsoxymetrie, Blutzucker) über die ersten Lebenstage nach Klinikstandard. Exposition im späten Schwangerschaftsverlauf ist mit einem **leicht erhöhten Risiko für PPHN** verbunden (absolut gering) – auf Zyanose/Sättigungsdifferenz achten. DD: Hypoglykämie, Hypokalzämie, Infektion/Sepsis, Entzug anderer Substanzen, Krampfanfälle anderer Genese. **Stillen**: Sertralin ist ein in der Stillzeit bevorzugtes Antidepressivum mit geringem Übergang in die Muttermilch – Stillen ausdrücklich unterstützen, Medikament nicht eigenmächtig absetzen (Rückfallrisiko der Mutter).",
+      "keyPoints": [
+        "SSRI-Anpassungssyndrom, selbstlimitierend",
+        "Leicht erhöhtes PPHN-Risiko",
+        "Supportiv, Überwachung",
+        "DD: Hypoglykämie, Hypokalzämie, Sepsis, anderer Entzug",
+        "Stillen unter Sertralin möglich, nicht absetzen"
+      ],
+      "tags": ["SSRI", "Anpassungsstörung", "Stillzeit"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "pharm-026",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes einer Mutter mit chronischer Hypertonie ist anurisch und hypoton; pränatal war ein Oligohydramnion aufgefallen. Welche mütterliche Medikation im 2./3. Trimenon erklärt dieses Bild am ehesten?",
+      "hints": ["Hemmung des fetalen Renin-Angiotensin-Systems."],
+      "options": [
+        { "text": "Angiotensin-II-Rezeptorantagonist (Sartan)", "correct": true },
+        { "text": "α-Methyldopa", "correct": false },
+        { "text": "Nifedipin", "correct": false },
+        { "text": "Labetalol", "correct": false },
+        { "text": "Magnesiumsulfat", "correct": false }
+      ],
+      "answer": "**ACE-Hemmer und Sartane** im 2./3. Trimenon hemmen das fetale Renin-Angiotensin-System und verursachen eine **Fetopathie**: Nierenschädigung mit Oligohydramnion, Anurie und therapieresistenter Hypotonie beim Neugeborenen, Lungenhypoplasie, Schädelossifikationsstörungen, Kontrakturen. Methyldopa, Nifedipin und Labetalol sind in der Schwangerschaft gebräuchliche Antihypertensiva (Labetalol und andere Betablocker: Hypoglykämie- und Bradykardierisiko beim Neugeborenen).",
+      "keyPoints": ["ACE-Hemmer/Sartane: Fetopathie im 2./3. Trimenon", "Oligohydramnion, Anurie, Hypotonie, Lungenhypoplasie"],
+      "tags": ["Arzneimittel in der Schwangerschaft", "Antihypertensiva"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "pharm-027",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie mütterliche Medikamente in der Schwangerschaft bzw. unter der Geburt, die beim Neugeborenen **typische Probleme** verursachen, jeweils mit der zu erwartenden Störung und Ihrer Konsequenz für die Überwachung.",
+      "hints": [
+        "Denken Sie an Hypertonie-, Epilepsie-, Psychiatrie- und Tokolysemedikamente.",
+        "Blutzucker, Atmung, Schilddrüse, Ductus."
+      ],
+      "answer": "- **Betablocker** (z. B. Labetalol, Metoprolol): Hypoglykämie, Bradykardie → Blutzuckerkontrollen.\n- **Magnesiumsulfat** (Neuroprotektion/Präeklampsie): muskuläre Hypotonie, Atemdepression, Trinkschwäche → Überwachung, ggf. Mg-Spiegel.\n- **Opioide unter der Geburt** (Pethidin, Remifentanil-PCA): Atemdepression → Atemunterstützung bereithalten.\n- **Benzodiazepine**: „Floppy-Infant“, Atemdepression, später Entzug.\n- **SSRI**: Anpassungssyndrom, gering erhöhtes PPHN-Risiko.\n- **Thyreostatika** (Thiamazol, Propylthiouracil): fetale Hypothyreose/Struma; bei M. Basedow zusätzlich Risiko einer neonatalen Hyperthyreose durch TRAK → Schilddrüsenwerte im Verlauf.\n- **NSAR/Indometacin** (Tokolyse): Oligohydramnion, vorzeitige Ductuseinengung → PPHN-Risiko.\n- **Valproat**: Neuralrohrdefekte, Fehlbildungen, spätere Entwicklungsstörungen; **Lithium**: Hypotonie, Hypothyreose, Diabetes insipidus, Herzfehler.\n- **Vitamin-K-Antagonisten**: Embryopathie, Blutungsrisiko.",
+      "keyPoints": [
+        "Betablocker: Hypoglykämie, Bradykardie",
+        "Magnesium/Opioide/Benzodiazepine: Atemdepression, Hypotonie",
+        "SSRI: Anpassungssyndrom, PPHN",
+        "Thyreostatika/TRAK: Schilddrüse kontrollieren",
+        "NSAR: Ductuseinengung; Valproat, Lithium, Vitamin-K-Antagonisten: Embryopathie"
+      ],
+      "tags": ["Arzneimittel in der Schwangerschaft", "Neonatale Komplikationen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": ["Lungenreifeinduktion", "CTG", "Frühgeburtlichkeit"]
+        }
+      ]
+    },
+    {
+      "id": "pharm-028",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Eine stillende Mutter eines ehemaligen Frühgeborenen (jetzt 35 SSW korrigiert) fragt, ob sie ein ihr verordnetes Medikament weiter nehmen und stillen darf. Nach welchen Kriterien beurteilen Sie das **Risiko eines Arzneimittels in der Stillzeit**, und wo informieren Sie sich?",
+      "hints": [
+        "Wie viel kommt beim Kind an, und was macht das Kind daraus?",
+        "Eine deutsche Beratungsstelle gibt Auskunft."
+      ],
+      "answer": "Kriterien: **Übergang in die Milch** (geringe Proteinbindung, niedriges Molekulargewicht, Lipophilie, Milch-Plasma-Quotient), **relative Kinderdosis** (Anteil der gewichtsbezogenen mütterlichen Dosis, die das Kind erhält; unter etwa 10 % gilt meist als akzeptabel), **orale Bioverfügbarkeit** beim Kind, **Halbwertszeit** und Akkumulation, Toxizität/therapeutische Breite, sowie **Reife des Kindes** – Frühgeborene und junge Neugeborene eliminieren schlechter, daher strengere Bewertung. Bevorzugt Substanzen mit langer Erfahrung, kurzer Halbwertszeit, Monotherapie, Gabe direkt nach dem Stillen. Kontraindiziert bzw. nur nach Rücksprache: z. B. Zytostatika, Radiopharmaka (Stillpause), Amiodaron, jodhaltige Präparate in hoher Dosis; Lithium nur mit Überwachung. Abstillen ist selten nötig. Quellen: **Embryotox** (Charité Berlin), LactMed, Fachinformation.",
+      "keyPoints": [
+        "Milchübergang, relative Kinderdosis (< ca. 10 %)",
+        "Orale Bioverfügbarkeit, Halbwertszeit, Toxizität",
+        "Reife des Kindes (FG empfindlicher)",
+        "Abstillen selten nötig, Alternativen wählen",
+        "Quellen: Embryotox, LactMed"
+      ],
+      "tags": ["Arzneimittel in der Stillzeit", "Beratung"],
+      "exam": ["KM", "HK"],
+      "source": "Embryotox – Pharmakovigilanz- und Beratungszentrum für Embryonaltoxikologie, Charité Berlin"
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "area": "niere",
+  "questions": [
+    {
+      "id": "niere-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie die Besonderheiten der **Nierenfunktion des Neugeborenen und Frühgeborenen** (glomerulär und tubulär) und erklären Sie den Verlauf des **Serumkreatinins** in den ersten Lebenstagen.",
+      "hints": ["Wann ist die Nephrogenese abgeschlossen?", "Woher stammt das Kreatinin am ersten Lebenstag?"],
+      "answer": "Die Nephrogenese ist um die 34.–36. SSW abgeschlossen; bei Frühgeborenen läuft sie postnatal weiter, oft aber unvollständig, mit geringerer Nephronzahl. Die GFR ist bei Geburt niedrig, steigt in den ersten Lebenswochen deutlich an und erreicht Erwachsenenwerte (bezogen auf die Körperoberfläche) erst in den ersten Lebensjahren; bei Frühgeborenen ist sie noch niedriger. Tubulär bestehen eine eingeschränkte Konzentrationsfähigkeit, eine niedrige Bikarbonatschwelle (Neigung zur Azidose) und – besonders beim Frühgeborenen – ein hoher renaler Natriumverlust. Das Kreatinin am ersten Tag spiegelt das mütterliche Kreatinin wider und fällt beim Reifgeborenen über etwa 1–2 Wochen ab. Bei sehr unreifen Frühgeborenen steigt es in den ersten Lebenstagen oft zunächst an (tubuläre Rückresorption, niedrige GFR) und fällt dann langsamer ab. Deshalb ist der Verlauf aussagekräftiger als ein Einzelwert.",
+      "keyPoints": [
+        "Nephrogenese bis 34.–36. SSW, beim FG postnatal unvollständig",
+        "niedrige, rasch ansteigende GFR",
+        "Konzentrationsschwäche, niedrige Bikarbonatschwelle, Natriumverlust",
+        "Kreatinin initial mütterlich",
+        "FG: initialer Kreatininanstieg möglich – Verlauf wichtiger als Einzelwert"
+      ],
+      "tags": ["Nierenfunktion", "Kreatinin", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-002",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes hat nach 30 Lebensstunden noch **keine Miktion** gezeigt. Wie gehen Sie vor?",
+      "hints": ["Erst fragen: Wirklich keine? Im Kreißsaal?", "Prärenal, renal, postrenal."],
+      "answer": "Fast alle Reifgeborenen urinieren in den ersten 24 Stunden, nahezu alle bis 48 Stunden; eine Miktion im Kreißsaal wird oft übersehen. Zuerst Anamnese (Miktion bei Geburt, Fruchtwassermenge, pränataler Ultraschall mit Hydronephrose oder Megazystis, mütterliche Medikamente wie NSAR oder ACE-Hemmer) und Untersuchung: Trinkmenge, Gewichtsverlust, Hydratation, tastbare Blase oder Nieren, Genitale, Harnstrahl bei Jungen, Fehlbildungszeichen (Potter-Facies, Bauchwanddefekt, Analatresie). Sonographie von Nieren und Blase: volle Blase spricht für postrenale Obstruktion (z. B. Urethralklappen) oder neurogene Blase, leere Blase für prärenale oder renale Ursache. Labor: Kreatinin, Harnstoff, Elektrolyte, BGA. Bei voller Blase Katheterisierung, bei prärenalen Zeichen Flüssigkeit optimieren.",
+      "keyPoints": [
+        "Miktion meist < 24 h, fast immer < 48 h; Kreißsaal-Miktion erfragen",
+        "Anamnese: Fruchtwasser, pränataler Ultraschall, Medikamente",
+        "Untersuchung: Blase, Nieren, Genitale, Harnstrahl, Fehlbildungen",
+        "Sonographie Nieren und Blase",
+        "Kreatinin/Elektrolyte, Katheter bei voller Blase"
+      ],
+      "tags": ["Miktion", "Oligurie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie ist die **akute Nierenschädigung (AKI) beim Neugeborenen** definiert? Nennen Sie die Stadien der neonatal modifizierten KDIGO-Klassifikation.",
+      "hints": ["Bezugswert ist der niedrigste vorherige Kreatininwert.", "Zwei Kriterien: Kreatinin und Urinausscheidung."],
+      "answer": "Die neonatal modifizierte KDIGO-Klassifikation verwendet Kreatinin und Urinausscheidung; Bezugswert ist der niedrigste vorherige Kreatininwert. **Stadium 1**: Kreatininanstieg um ≥ 0,3 mg/dl innerhalb von 48 h oder auf das 1,5- bis 1,9-Fache des Bezugswerts innerhalb von 7 Tagen; Urin > 0,5 und ≤ 1 ml/kg/h über 24 h. **Stadium 2**: Kreatinin 2,0- bis 2,9-fach; Urin > 0,3 bis ≤ 0,5 ml/kg/h über 24 h. **Stadium 3**: Kreatinin ≥ 3-fach oder ≥ 2,5 mg/dl oder Nierenersatztherapie; Urin ≤ 0,3 ml/kg/h über 24 h. Einschränkungen: Kreatinin steigt verzögert, spiegelt in den ersten Tagen das mütterliche Kreatinin wider, und Frühgeborene haben häufig ein nicht-oligurisches AKI.",
+      "keyPoints": [
+        "Bezug: niedrigster vorheriger Kreatininwert",
+        "Stadium 1: +0,3 mg/dl in 48 h bzw. 1,5–1,9-fach; Urin > 0,5 bis ≤ 1 ml/kg/h",
+        "Stadium 2: 2,0–2,9-fach; Urin ≤ 0,5 ml/kg/h",
+        "Stadium 3: ≥ 3-fach/≥ 2,5 mg/dl/Dialyse; Urin ≤ 0,3 ml/kg/h",
+        "Limitationen: verzögerter Kreatininanstieg, nicht-oligurisches AKI"
+      ],
+      "tags": ["akute Nierenschädigung", "KDIGO"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-004",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie **prärenale, renale und postrenale Ursachen** einer akuten Nierenschädigung beim Neugeborenen.",
+      "hints": ["Perfusion, Parenchym, Abfluss.", "Welche Medikamente auf der Intensivstation sind nephrotoxisch?"],
+      "answer": "**Prärenal** (häufigste Gruppe): Hypovolämie (Blutverlust, Dehydratation, hohe Perspiratio beim Frühgeborenen), Hypotension und Schock (Sepsis, Herzinsuffizienz, ductusabhängige Vitien), Asphyxie, PDA mit Ductus-Steal, Medikamente mit Wirkung auf die renale Hämodynamik (NSAR wie Ibuprofen/Indometacin, ACE-Hemmer, auch mütterlich eingenommen). **Renal**: akute Tubulusnekrose nach Asphyxie oder anhaltender Minderperfusion, Nephrotoxine (Aminoglykoside, Vancomycin, Amphotericin B, Kontrastmittel), Nierenvenen- oder Nierenarterienthrombose, angeborene Nierenerkrankungen (Dysplasie, ARPKD), Infektionen. **Postrenal**: Urethralklappen, beidseitige Harnabflussstörung bzw. Obstruktion einer Einzelniere, neurogene Blase, Pilzbälle.",
+      "keyPoints": [
+        "prärenal: Hypovolämie, Schock, Asphyxie, NSAR/ACE-Hemmer",
+        "renal: ATN, Nephrotoxine (Aminoglykoside, Vancomycin)",
+        "renal: Gefäßthrombosen, angeborene Nierenerkrankungen",
+        "postrenal: Urethralklappen, beidseitige Obstruktion, neurogene Blase"
+      ],
+      "tags": ["akute Nierenschädigung", "Ursachen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "niere-005",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein oligurisches Reifgeborenes (2. Lebenswoche) hat folgende Werte: Urin-Natrium 60 mmol/l, Serum-Natrium 132 mmol/l, Urin-Kreatinin 20 mg/dl, Serum-Kreatinin 1,5 mg/dl. Berechnen Sie die **fraktionelle Natriumexkretion (FENa)** in Prozent.",
+      "hints": [
+        "FENa = (U-Na · S-Krea) / (S-Na · U-Krea) · 100",
+        "Einheiten von Natrium und Kreatinin kürzen sich jeweils heraus."
+      ],
+      "answer": "FENa = (U-Na · S-Krea) / (S-Na · U-Krea) · 100 = (60 · 1,5) / (132 · 20) · 100 = 90 / 2640 · 100 = **3,4 %**. Beim Reifgeborenen spricht ein Wert deutlich über etwa 2,5–3 % eher für eine renale (intrinsische) Schädigung, ein niedriger Wert eher für eine prärenale Ursache. Bei Frühgeborenen ist die FENa physiologisch erhöht und nur eingeschränkt verwertbar; Diuretika verfälschen sie ebenfalls.",
+      "keyPoints": [
+        "Formel (U-Na · S-Krea) / (S-Na · U-Krea) · 100",
+        "Ergebnis ≈ 3,4 %",
+        "eher intrinsische Schädigung beim Reifgeborenen",
+        "eingeschränkt verwertbar bei FG und unter Diuretika"
+      ],
+      "solution": { "value": 3.41, "unit": "%", "tolerance": 0.03 },
+      "tags": ["FENa", "akute Nierenschädigung", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes nach Asphyxie, gekühlt, hat am 2. Lebenstag eine Urinausscheidung von 0,4 ml/kg/h, Kreatinin steigend, Kalium 6,4 mmol/l. Beschreiben Sie das **Management der akuten Nierenschädigung**.",
+      "hints": ["Flüssigkeit, Elektrolyte, Medikamente.", "Wann ist eine Nierenersatztherapie indiziert?"],
+      "answer": "Zuerst Volumenstatus und Perfusion beurteilen; bei Verdacht auf prärenale Komponente vorsichtiger Volumenbolus (z. B. 10 ml/kg) mit Reevaluation, Kreislauf optimieren. Sonographie (Nieren, Blase, Doppler der Nierengefäße), Blasenkatheter bei Retention. Flüssigkeitszufuhr auf Perspiratio insensibilis plus Urin- und sonstige Verluste begrenzen, tägliches Gewicht und Bilanz. Kalium- und Phosphatzufuhr stoppen; Hyperkaliämie gestuft behandeln: Membranstabilisierung mit Calciumgluconat bei EKG-Veränderungen, Verschiebung nach intrazellulär (Salbutamol, Insulin mit Glukose, Bikarbonat nur bei Azidose), Elimination (Furosemid bei erhaltener Diurese; Kationenaustauscher bei Frühgeborenen wegen NEC-Risiko meiden). Natrium, Calcium, Glukose und Säure-Basen-Status überwachen. Nephrotoxine absetzen oder anpassen, renal eliminierte Medikamente (z. B. Aminoglykoside, Vancomycin) nach Spiegeln dosieren. Ernährung möglichst kalorisch ausreichend. Indikationen zur Nierenersatztherapie: therapierefraktäre Hyperkaliämie, Flüssigkeitsüberladung mit Organfunktionsstörung, schwere Azidose, Urämiesymptome, fehlende Möglichkeit ausreichender Ernährung, Hyperammonämie bei Stoffwechselerkrankungen.",
+      "keyPoints": [
+        "prärenale Komponente erkennen, vorsichtiger Volumenbolus",
+        "Flüssigkeit = Perspiratio + Urin, tägliche Bilanz",
+        "Kalium stoppen, Hyperkaliämie gestuft behandeln",
+        "Nephrotoxine meiden, Dosisanpassung nach Spiegeln",
+        "Indikationen Nierenersatztherapie"
+      ],
+      "tags": ["akute Nierenschädigung", "Hyperkaliämie", "Asphyxie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-007",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Reifgeborenes mit 3,0 kg und oligurischem Nierenversagen hatte in den letzten 24 h eine Urinausscheidung von **0,5 ml/kg/h**. Die Perspiratio insensibilis schätzen Sie auf **25 ml/kg/d**; weitere Verluste bestehen nicht. Wie viel **Flüssigkeit in ml** geben Sie für die nächsten 24 h, wenn das Gewicht konstant bleiben soll?",
+      "hints": ["Zufuhr = Perspiratio insensibilis + Urinausscheidung", "Urin pro Tag = ml/kg/h · kg · 24"],
+      "answer": "Perspiratio insensibilis: 25 ml/kg/d · 3 kg = 75 ml. Urin: 0,5 ml/kg/h · 3 kg · 24 h = 36 ml. Zufuhr = 75 + 36 = **111 ml/24 h** (entspricht 37 ml/kg/d). Die Zufuhr wird täglich anhand von Gewicht, Natrium und Bilanz angepasst; unter Wärmestrahler oder Phototherapie ist die Perspiratio höher.",
+      "keyPoints": ["Perspiratio 75 ml", "Urin 36 ml", "Gesamt 111 ml/24 h", "tägliche Anpassung nach Gewicht und Natrium"],
+      "solution": { "value": 111, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["akute Nierenschädigung", "Flüssigkeitsbilanz", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-008",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein 2 Wochen altes Reifgeborenes ist 52 cm lang, das Serumkreatinin (Jaffé-Methode) beträgt 0,6 mg/dl. Schätzen Sie die GFR nach der **Schwartz-Formel** mit k = 0,45 (ml/min/1,73 m²).",
+      "hints": ["eGFR = k · Körperlänge (cm) / Serumkreatinin (mg/dl)"],
+      "answer": "eGFR = k · Länge / Kreatinin = 0,45 · 52 / 0,6 = 23,4 / 0,6 = **39 ml/min/1,73 m²**. Die ursprüngliche Schwartz-Formel (1970er/80er Jahre) verwendet für Reifgeborene im ersten Lebensjahr k = 0,45 und für Frühgeborene k = 0,33; sie wurde mit der Jaffé-Methode validiert und gilt heute als veraltet. Die meisten Labore messen inzwischen enzymatisch bzw. IDMS-standardisiert (niedrigere Werte); die dafür entwickelte „Bedside-Schwartz“-Formel (k = 0,413) ist für Kinder ab 1 Jahr validiert, nicht für Neugeborene. Für Neugeborene gibt es keine allgemein akzeptierte Konstante; in den ersten Lebenstagen (mütterliches Kreatinin) sind eGFR-Formeln ohnehin kaum verwertbar, Jaffé-Werte werden zudem durch Bilirubin gestört. Entscheidend ist der Kreatininverlauf.",
+      "keyPoints": [
+        "Formel k · Länge / Kreatinin",
+        "0,45 · 52 / 0,6",
+        "≈ 39 ml/min/1,73 m²",
+        "Limitationen: veraltete Konstanten, Labormethode (Jaffé vs. enzymatisch), erste Lebenstage"
+      ],
+      "solution": { "value": 39, "unit": "ml/min/1,73 m²", "tolerance": 0.03 },
+      "tags": ["GFR", "Schwartz-Formel", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "niere-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Fetus wurde im 3. Trimenon eine **einseitige Nierenbeckenerweiterung** (anterior-posteriorer Durchmesser 12 mm) ohne Ureterdilatation festgestellt; Fruchtwasser normal. Wie planen Sie die **postnatale Diagnostik**?",
+      "hints": [
+        "Warum ist die Sonographie in den ersten 48 Stunden unzuverlässig?",
+        "Wann ist eine MCU, wann eine Funktionsszintigraphie sinnvoll?"
+      ],
+      "answer": "Bei einseitigem Befund ohne Hinweis auf Obstruktion der unteren Harnwege besteht keine Eile. Die erste Sonographie erfolgt nach den ersten 48 Lebensstunden (z. B. am 3.–7. Tag), weil die physiologische Oligurie der ersten Tage eine Dilatation unterschätzen kann; eine frühere Sonographie ist nötig bei beidseitiger Dilatation, Einzelniere, Verdacht auf Urethralklappen oder Oligohydramnion. Beurteilt werden anterior-posteriorer Nierenbeckendurchmesser, Kelchdilatation, Ureter, Parenchym und Blase (z. B. nach UTD-Klassifikation). Kontrolle nach etwa 4–6 Wochen. Eine Miktionszystourethrographie wird bei höhergradiger Dilatation, Ureterdilatation, beidseitigem Befund oder auffälliger Blase erwogen; bei Verdacht auf Ureterabgangsstenose eine Diureseszintigraphie (MAG3) ab etwa der 4.–6. Lebenswoche. Eine Antibiotikaprophylaxe ist nicht routinemäßig nötig, wird bei hochgradiger Dilatation bzw. Ureterdilatation aber je nach Zentrum gegeben. Die Eltern über Fieber als Warnzeichen einer Harnwegsinfektion aufklären.",
+      "keyPoints": [
+        "erste Sonographie nach 48 h (Ausnahmen: beidseitig, Einzelniere, V. a. Klappen)",
+        "Beurteilung nach UTD: APD, Kelche, Ureter, Parenchym, Blase",
+        "Kontrolle nach 4–6 Wochen",
+        "MCU bei hochgradiger/beidseitiger Dilatation, Ureterdilatation",
+        "MAG3 bei V. a. Obstruktion, Prophylaxe zentrumsabhängig"
+      ],
+      "tags": ["Hydronephrose", "pränatale Diagnostik", "Sonographie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Pränatal zeigten sich bei einem männlichen Fetus beidseitige Hydronephrosen, eine Megazystis mit „Schlüsselloch-Zeichen“ und ein Oligohydramnion. Das Kind wird mit 36 SSW geboren. Beschreiben Sie **Verdachtsdiagnose, Erstversorgung, Diagnostik und Verlauf**.",
+      "hints": ["Infravesikale Obstruktion bei Jungen.", "Was passiert nach Entlastung mit der Urinmenge?"],
+      "answer": "Verdachtsdiagnose: **posteriore Urethralklappen**. Postnatal zuerst respiratorische Situation beachten (Lungenhypoplasie, Pneumothorax-Risiko). Sofortige Harnableitung über einen dünnen transurethralen Katheter (Ballonkatheter können Blasenspasmen auslösen), alternativ suprapubisch. Sonographie, dann Miktionszystourethrographie zur Bestätigung (erweiterte hintere Harnröhre, trabekulierte Blase, häufig vesikoureteraler Reflux). Labor: Kreatinin im Verlauf (initial mütterlich), Elektrolyte, Säure-Basen-Status. Nach Entlastung oft **postobstruktive Polyurie** mit Natrium- und Bikarbonatverlust – Bilanz, Elektrolyte und Flüssigkeit engmaschig anpassen. Definitiv endoskopische Klappenresektion, bei zu kleinem Kind ggf. vorübergehende Vesikostomie. Antibiotikaprophylaxe meist bis zur Klärung. Langfristig hohes Risiko für chronische Niereninsuffizienz und Blasenfunktionsstörung („Klappenblase“); das niedrigste Kreatinin im ersten Lebensjahr gilt als prognostischer Marker. Nephrologische und urologische Langzeitbetreuung und Elternberatung.",
+      "keyPoints": [
+        "posteriore Urethralklappen",
+        "Lungenhypoplasie/Pneumothorax beachten",
+        "sofortige Harnableitung, MCU",
+        "postobstruktive Polyurie mit Na-/HCO3-Verlust",
+        "endoskopische Klappenresektion, ggf. Vesikostomie",
+        "CKD-Risiko, Kreatinin-Nadir prognostisch, Langzeitbetreuung"
+      ],
+      "tags": ["Urethralklappen", "Obstruktion", "Oligohydramnion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Vergleichen Sie die **multizystisch-dysplastische Niere (MCDK)** und die **autosomal-rezessive polyzystische Nierenerkrankung (ARPKD)** im Neugeborenenalter.",
+      "hints": [
+        "Einseitig versus beidseitig; funktionslos versus vergrößert-echogen.",
+        "Welches zweite Organ ist bei ARPKD immer beteiligt?"
+      ],
+      "answer": "**MCDK**: meist einseitige, funktionslose dysplastische Niere mit multiplen, nicht kommunizierenden Zysten unterschiedlicher Größe ohne normales Parenchym. Wichtig ist die Untersuchung der Gegenniere: Fehlbildungen wie vesikoureteraler Reflux oder Ureterabgangsstenose sind gehäuft; die Gegenniere hypertrophiert kompensatorisch. Die Funktionslosigkeit kann szintigraphisch bestätigt werden. Die MCDK bildet sich häufig spontan zurück; eine Nephrektomie ist nicht routinemäßig indiziert; Verlaufskontrollen inkl. Blutdruck. Eine beidseitige MCDK ist letal (Potter-Sequenz). **ARPKD**: beidseitig massiv vergrößerte, echoreiche Nieren mit aufgehobener Mark-Rinden-Differenzierung und Mikrozysten (Sammelrohrektasien), Mutationen in PKHD1. Pränatal oft Oligohydramnion mit Lungenhypoplasie als Hauptursache neonataler Todesfälle. Weitere Probleme: arterielle Hypertonie, Hyponatriämie, Niereninsuffizienz, große Nieren mit Atem- und Ernährungsproblemen. Obligat ist eine kongenitale Leberfibrose mit späterer portaler Hypertension. Genetische Beratung (autosomal-rezessiv, Wiederholungsrisiko 25 %).",
+      "keyPoints": [
+        "MCDK: einseitig, funktionslos, nicht kommunizierende Zysten",
+        "MCDK: Gegenniere untersuchen, spontane Involution, beidseitig letal",
+        "ARPKD: beidseitig vergrößerte echoreiche Nieren, PKHD1",
+        "ARPKD: Oligohydramnion, Lungenhypoplasie, Hypertonie",
+        "ARPKD: Leberfibrose, genetische Beratung (25 %)"
+      ],
+      "tags": ["zystische Nierenerkrankungen", "MCDK", "ARPKD"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erklären Sie die **Potter-Sequenz**: Pathogenese, klinische Merkmale, Ursachen und Prognose. Was bestimmt das Überleben?",
+      "hints": ["Am Anfang steht das Fruchtwasser.", "Welche Organentwicklung braucht Fruchtwasser?"],
+      "answer": "Die Potter-Sequenz ist eine Folge von Veränderungen durch ein schweres, früh beginnendes Oligo- oder Anhydramnion. Ursachen: bilaterale Nierenagenesie, beidseitige Nierendysplasie bzw. MCDK, ARPKD, schwere infravesikale Obstruktion (Urethralklappen) sowie früher anhaltender Blasensprung. Merkmale: Lungenhypoplasie, typische Facies (Epikanthus, abgeflachte Nase, fliehendes Kinn, tiefsitzende, dysplastische Ohren), Gelenkkontrakturen und Fußfehlstellungen, Wachstumsrestriktion. Das Überleben wird vor allem durch das Ausmaß der Lungenhypoplasie bestimmt (respiratorisches Versagen, Pneumothoraces), bei renaler Ursache zusätzlich durch die Nierenfunktion. Die bilaterale Nierenagenesie gilt ohne experimentelle Therapie als nicht mit dem Leben vereinbar. Serielle Amnioinfusionen (RAFT-Studie) ermöglichten in Studien einem Teil der Kinder das Überleben bis zur Dialyse, Mortalität und Morbidität blieben aber hoch; außerhalb von Studien ist dies keine Standardtherapie. Eltern sollten pränatal interdisziplinär beraten werden, einschließlich der Option perinataler Palliativversorgung.",
+      "keyPoints": [
+        "Folge eines frühen Oligo-/Anhydramnions",
+        "Ursachen: Nierenagenesie, Dysplasie, ARPKD, Klappen, früher Blasensprung",
+        "Lungenhypoplasie, Facies, Kontrakturen",
+        "Prognose durch Lungenhypoplasie bestimmt",
+        "pränatale Beratung, palliative Option"
+      ],
+      "tags": ["Potter-Sequenz", "Lungenhypoplasie", "Oligohydramnion"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "niere-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie definieren und messen Sie die **arterielle Hypertonie beim Neugeborenen**, welche Ursachen kommen auf der Intensivstation in Betracht, und welche Diagnostik veranlassen Sie?",
+      "hints": ["Bezug auf das postmenstruelle Alter.", "Welcher Katheter ist ein klassischer Risikofaktor?"],
+      "answer": "Hypertonie: wiederholt gemessene Blutdruckwerte über der 95. Perzentile für das postmenstruelle Alter (z. B. nach publizierten Referenzwerten). Messung bevorzugt invasiv oder oszillometrisch am rechten Oberarm mit passender Manschette, im ruhigen Zustand, mehrfach (z. B. drei Messungen), nicht direkt nach Mahlzeit oder Pflege. Ursachen: **renovaskulär** (Thrombose nach Nabelarterienkatheter – häufigste Ursache, Nierenarterienstenose, Nierenvenenthrombose), **renal-parenchymatös** (ARPKD, obstruktive Uropathie, AKI), **pulmonal** (BPD), **medikamentös** (Dexamethason, Katecholamine, Koffein in hoher Dosis), **kardial** (Aortenisthmusstenose), **endokrin** (Hyperthyreose, Formen des AGS, Hyperaldosteronismus), Schmerz, Flüssigkeitsüberladung, erhöhter Hirndruck. Diagnostik: Blutdruck an allen Extremitäten, Urinstatus, Kreatinin und Elektrolyte, Renin und Aldosteron, TSH/fT4, Sonographie der Nieren mit Doppler der Nierengefäße und Aorta, Echokardiographie (ISTA, Linksherzhypertrophie).",
+      "keyPoints": [
+        "> 95. Perzentile für postmenstruelles Alter, wiederholt",
+        "korrekte Messtechnik (Manschette, Ruhe, mehrfach)",
+        "häufigste Ursache: NAK-assoziierte Thrombose",
+        "BPD, Medikamente, ISTA, renal-parenchymatös, endokrin",
+        "Diagnostik: 4-Extremitäten-RR, Urin, Renin, Doppler-Sono, Echo"
+      ],
+      "tags": ["arterielle Hypertonie", "Nabelarterienkatheter"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "niere-014",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Was ist die häufigste Ursache einer **arteriellen Hypertonie** bei Neugeborenen auf der Intensivstation?",
+      "hints": ["Ein iatrogener Faktor."],
+      "answer": "Die häufigste Ursache ist eine renovaskuläre Hypertonie durch Thromboembolien im Zusammenhang mit einem Nabelarterienkatheter. Die Blutdrucksteigerung ist reninvermittelt. Weitere häufige Ursachen sind BPD, Medikamente und renal-parenchymatöse Erkrankungen.",
+      "keyPoints": ["Nabelarterienkatheter-assoziierte Thromboembolie", "renovaskulär, reninvermittelt"],
+      "options": [
+        { "text": "Thromboembolie im Zusammenhang mit einem Nabelarterienkatheter", "correct": true },
+        { "text": "Phäochromozytom", "correct": false },
+        { "text": "Primäre (essenzielle) Hypertonie", "correct": false },
+        { "text": "Hyperaldosteronismus", "correct": false }
+      ],
+      "tags": ["arterielle Hypertonie", "Nabelarterienkatheter"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "niere-015",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes 25 SSW, jetzt 38 Wochen postmenstruell mit BPD, hat anhaltend Blutdruckwerte deutlich über der 99. Perzentile ohne Zeichen von Endorganschäden. Wie **behandeln** Sie, und welche Besonderheiten beachten Sie?",
+      "hints": [
+        "Erst behandelbare Ursachen beseitigen.",
+        "Welche Antihypertensiva-Klasse ist bei unreifen Nieren problematisch?"
+      ],
+      "answer": "Zuerst Ursachen beseitigen: Schmerz, Flüssigkeitsüberladung, Hypoxämie bei BPD, Medikamente (Dexamethason, Koffeindosis) überprüfen; Messtechnik verifizieren. Bei persistierender, deutlicher Hypertonie medikamentöse Therapie: oral z. B. Amlodipin (Calciumkanalblocker) oder Hydralazin, ggf. Betablocker (Propranolol; Vorsicht bei BPD mit bronchialer Obstruktion). Bei akuter schwerer Hypertonie mit Endorganschäden kontinuierliche Infusion (z. B. Nicardipin, Labetalol, Esmolol) auf der Intensivstation; Blutdruck dabei langsam über Stunden bis Tage senken, um zerebrale Ischämien zu vermeiden. **ACE-Hemmer** (z. B. Captopril) werden bei Frühgeborenen vor Erreichen eines reifen Gestationsalters bzw. der frühen Säuglingszeit zurückhaltend eingesetzt, weil sie die noch laufende Nierenreifung beeinträchtigen und eine akute Nierenschädigung sowie ausgeprägte Hypotonie auslösen können. Kontrollen: Echokardiographie (Linksherzhypertrophie), Nierenfunktion, Augenhintergrund. Die meisten Hypertonien bei BPD oder nach NAK-Thrombose bessern sich im Verlauf von Monaten.",
+      "keyPoints": [
+        "Ursachen beseitigen (Schmerz, Volumen, Medikamente, Hypoxie)",
+        "Amlodipin/Hydralazin, ggf. Betablocker (Vorsicht BPD)",
+        "i. v. Nicardipin/Labetalol/Esmolol bei Notfall",
+        "langsame Blutdrucksenkung",
+        "ACE-Hemmer bei Frühgeborenen zurückhaltend (Nierenreifung, AKI)"
+      ],
+      "tags": ["arterielle Hypertonie", "BPD", "Antihypertensiva"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "niere-016",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein makrosomes Neugeborenes einer Mutter mit Diabetes entwickelt am 2. Lebenstag eine Makrohämaturie und eine tastbare Flankenresistenz. Welcher weitere Laborbefund passt zur wahrscheinlichsten Diagnose?",
+      "hints": ["Denken Sie an eine klassische Trias."],
+      "answer": "Das Bild passt zu einer **Nierenvenenthrombose**; die klassische Trias aus Makrohämaturie, tastbarer Flankenresistenz und Thrombozytopenie liegt allerdings nur bei einem Teil der Kinder vollständig vor. Risikofaktoren sind diabetische Mutter, Dehydratation, Polyglobulie, Asphyxie, Sepsis, zentrale Katheter und Thrombophilien. Diagnose mit Doppler-Sonographie; Mitbeteiligung der V. cava und Nebennierenblutung prüfen. Therapie je nach Ausdehnung: supportiv oder Antikoagulation mit niedermolekularem Heparin; bei beidseitiger Thrombose mit Nierenversagen Thrombolyse erwägen. Langfristig sind Nierenatrophie und Hypertonie möglich.",
+      "keyPoints": [
+        "Nierenvenenthrombose",
+        "Trias Makrohämaturie, Flankentumor, Thrombozytopenie",
+        "Risikofaktoren inkl. diabetische Mutter, Polyglobulie",
+        "Doppler, Antikoagulation je nach Ausdehnung"
+      ],
+      "options": [
+        { "text": "Thrombozytopenie", "correct": true },
+        { "text": "Thrombozytose", "correct": false },
+        { "text": "Hypernatriämie mit Polyurie", "correct": false },
+        { "text": "Erniedrigtes Hämoglobin durch Hämolyse mit positivem Coombs-Test", "correct": false }
+      ],
+      "tags": ["Nierenvenenthrombose", "Kind diabetischer Mutter"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Frühgeborenen 26 SSW (jetzt 34 Wochen postmenstruell) zeigt die Sonographie echoreiche Markpyramiden im Sinne einer **Nephrokalzinose**. Nennen Sie Risikofaktoren, Diagnostik und Vorgehen.",
+      "hints": [
+        "Welches Diuretikum steigert die Calciumausscheidung?",
+        "Welches Calcium-Phosphat-Verhältnis in der Ernährung ist ungünstig?"
+      ],
+      "answer": "Die Nephrokalzinose ist bei sehr unreifen Frühgeborenen häufig. Risikofaktoren: niedriges Gestationsalter, Schleifendiuretika (Furosemid – Hyperkalziurie), Glukokortikoide, unausgewogene Calcium-Phosphat-Zufuhr mit Phosphatmangel (dann Hyperkalziurie), hohe Vitamin-D-Zufuhr, metabolische Azidose, niedrige Citratausscheidung, längere parenterale Ernährung. Diagnostik: Calcium, Phosphat, alkalische Phosphatase, Säure-Basen-Status im Serum, Urin-Calcium-/Kreatinin- sowie Phosphat-Ausscheidung, Nierenfunktion. Vorgehen: Furosemid reduzieren oder absetzen; wenn ein Diuretikum nötig ist, eher Thiazid (vermindert die Calciumausscheidung). Calcium- und Phosphatzufuhr ausgewogen gestalten, Vitamin D nicht überdosieren, Azidose korrigieren. Sonographische Verlaufskontrollen; die meisten Befunde bilden sich in den ersten Lebensjahren zurück, über Langzeitfolgen (tubuläre Funktion, Blutdruck) bestehen nur begrenzte Daten.",
+      "keyPoints": [
+        "Risikofaktoren: Unreife, Furosemid, Steroide, Ca/P-Imbalance, Vitamin D",
+        "Urin-Ca/Krea, Serum-Ca/P/AP",
+        "Furosemid absetzen, ggf. Thiazid",
+        "Ca/P-Zufuhr ausgleichen",
+        "meist Rückbildung, Verlaufskontrollen"
+      ],
+      "tags": ["Nephrokalzinose", "Frühgeborene", "Furosemid"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        }
+      ]
+    },
+    {
+      "id": "niere-018",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Eine Schwangerschaft war durch ein ausgeprägtes **Polyhydramnion** kompliziert; das Kind wird mit 31 SSW geboren und entwickelt eine massive Polyurie mit Hyperkalziurie. Welche Aussage zur wahrscheinlichsten Diagnose trifft zu?",
+      "hints": ["Defekt im dicken aufsteigenden Teil der Henle-Schleife.", "Prostaglandin E2 spielt eine Rolle."],
+      "answer": "Das Bild passt zu einem **antenatalen Bartter-Syndrom** (Salzverlust-Tubulopathie der Henle-Schleife). Typisch sind fetale Polyurie mit Polyhydramnion und Frühgeburt, postnatal massive Polyurie mit renalem Salzverlust, Hyperkalziurie und Nephrokalzinose; im Verlauf hypokaliämische metabolische Alkalose (bei ROMK-Defekt initial vorübergehend Hyperkaliämie möglich). Die renale Prostaglandin-E2-Bildung ist gesteigert; neben Flüssigkeits- und Salzersatz werden COX-Hemmer eingesetzt (Beginn bei Frühgeborenen wegen NEC-Risiko vorsichtig). Hypokalziurie ist typisch für das Gitelman-Syndrom.",
+      "keyPoints": [
+        "antenatales Bartter-Syndrom",
+        "Polyhydramnion, Frühgeburt, Polyurie",
+        "Hyperkalziurie, Nephrokalzinose",
+        "hypokaliämische metabolische Alkalose",
+        "COX-Hemmer, Salz- und Flüssigkeitsersatz"
+      ],
+      "options": [
+        {
+          "text": "Typisch sind Hyperkalziurie mit Nephrokalzinose und im Verlauf eine hypokaliämische metabolische Alkalose; COX-Hemmer gehören zur Therapie.",
+          "correct": true
+        },
+        { "text": "Typisch ist eine hypokaliämische metabolische Azidose mit Hypokalziurie.", "correct": false },
+        {
+          "text": "Ursache ist ein Defekt des distalen Tubulus mit verminderter Prostaglandinbildung.",
+          "correct": false
+        },
+        {
+          "text": "Die Erkrankung tritt typischerweise erst im Schulalter mit Muskelkrämpfen auf.",
+          "correct": false
+        }
+      ],
+      "tags": ["Bartter-Syndrom", "Tubulopathie", "Polyhydramnion"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "niere-019",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein 12 Tage altes Reifgeborenes hat Fieber (38,6 °C), trinkt schlecht und ist leicht ikterisch. Sie vermuten eine **Harnwegsinfektion**. Beschreiben Sie Diagnostik und Therapie.",
+      "hints": [
+        "Welche Uringewinnung ist beweisend, welche nur zum Ausschluss geeignet?",
+        "Wie häufig ist eine Bakteriämie in diesem Alter?"
+      ],
+      "answer": "Harnwegsinfektionen beim Neugeborenen verlaufen häufig unspezifisch (Trinkschwäche, Fieber oder Hypothermie, Lethargie, Erbrechen, prolongierter Ikterus, Gedeihstörung) und sind häufig mit Bakteriämie verbunden; sie werden wie eine Sepsis behandelt. Diagnostik: Urin durch Katheterisierung oder sonographisch gesteuerte Blasenpunktion für Urinstatus, Mikroskopie und Kultur (Beutelurin ist zur Diagnosesicherung ungeeignet, ein negativer Befund kann aber eine HWI weitgehend ausschließen). Nitrit ist bei Neugeborenen oft negativ, da der Urin kurz in der Blase verweilt. Blutkultur, Blutbild, CRP, Kreatinin, Elektrolyte; Lumbalpunktion bei Neugeborenen großzügig erwägen. Therapie: parenteral, kalkuliert z. B. Ampicillin plus Gentamicin (deckt auch Enterokokken ab) oder Ampicillin plus Cefotaxim, nach Antibiogramm anpassen; Gesamtdauer beim Neugeborenen meist 7–14 Tage (häufig 10 Tage, bei Bakteriämie eher länger), Dauer der parenteralen Phase und Umstellung auf oral je nach Verlauf und Zentrum. Sonographie von Nieren und Harnwegen; weitere Bildgebung (MCU) bei Fehlbildungshinweisen, atypischem Verlauf oder Rezidiv.",
+      "keyPoints": [
+        "unspezifische Klinik, häufig Bakteriämie",
+        "Katheter- oder Blasenpunktionsurin; Beutelurin nur zum Ausschluss",
+        "Nitrit oft negativ",
+        "Blutkultur, ggf. Lumbalpunktion",
+        "parenteral z. B. Ampicillin + Gentamicin, insgesamt meist 7–14 Tage (zentrumsabhängig)",
+        "Sonographie, MCU bei Auffälligkeiten"
+      ],
+      "tags": ["Harnwegsinfektion", "Urosepsis"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "niere-020",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Methode der **Uringewinnung** ist beim Neugeborenen mit Verdacht auf Harnwegsinfektion zur **Diagnosesicherung** am wenigsten geeignet?",
+      "hints": ["Kontamination durch Hautflora."],
+      "answer": "Der Beutelurin ist häufig durch Haut- und Perinealflora kontaminiert und hat eine hohe Falsch-positiv-Rate. Er eignet sich allenfalls zum Ausschluss einer Harnwegsinfektion bei unauffälligem Urinstatus. Zur Diagnosesicherung beim Neugeborenen dienen die sonographisch gesteuerte suprapubische Blasenpunktion und der Katheterurin; ein sauber gewonnener Clean-Catch-Urin ist eine weitere Option, aber bei Neugeborenen schwierig.",
+      "keyPoints": [
+        "Beutelurin hohe Kontaminationsrate",
+        "nur zum Ausschluss",
+        "Diagnosesicherung: Blasenpunktion oder Katheter"
+      ],
+      "options": [
+        { "text": "Beutelurin", "correct": true },
+        { "text": "Sonographisch gesteuerte suprapubische Blasenpunktion", "correct": false },
+        { "text": "Katheterurin", "correct": false },
+        { "text": "Sauber aufgefangener Spontanurin (Clean-Catch)", "correct": false }
+      ],
+      "tags": ["Harnwegsinfektion", "Uringewinnung"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "niere-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche **Verfahren der Nierenersatztherapie** stehen beim Neugeborenen zur Verfügung? Vergleichen Sie **Peritonealdialyse** und **extrakorporale Verfahren** hinsichtlich Indikation, Vor- und Nachteilen und Kontraindikationen.",
+      "hints": [
+        "Gefäßzugang, Antikoagulation, Effektivität.",
+        "Welche Situation erfordert eine besonders rasche Entgiftung?"
+      ],
+      "answer": "Zur Verfügung stehen Peritonealdialyse (PD), kontinuierliche extrakorporale Verfahren (CVVH, CVVHD, CVVHDF, inzwischen auch mit speziell für Neugeborene entwickelten Geräten mit kleinem Füllvolumen) und intermittierende Hämodialyse. **PD**: technisch einfach, kein Gefäßzugang und keine systemische Antikoagulation, kreislaufschonend, auch bei sehr kleinen Kindern machbar. Nachteile: weniger vorhersehbare Ultrafiltration und Clearance, langsame Kalium- und Toxinelimination, Peritonitis- und Leckagerisiko. Kontraindikationen bzw. Einschränkungen: NEC, frische abdominelle Operationen, Bauchwanddefekte (Omphalozele, Gastroschisis), Zwerchfelldefekte, ausgedehnte Adhäsionen; relativ bei VP-Shunt. **Extrakorporale Verfahren**: effektivere und steuerbare Clearance und Ultrafiltration, notwendig bei schwerer Hyperammonämie bzw. Intoxikation (hier ist die PD zu langsam), auch in ECMO-Kreislauf integrierbar. Nachteile: großlumiger zentraler Gefäßzugang, Antikoagulation (Heparin oder Citrat), Kreislaufbelastung durch das extrakorporale Füllvolumen (oft Blutpriming), Hypothermie, Verfügbarkeit nur in Zentren. Indikationen allgemein: therapierefraktäre Hyperkaliämie, Flüssigkeitsüberladung, schwere Azidose, Urämie, Hyperammonämie. Die Entscheidung ist eine Teamentscheidung mit Kindernephrologie und schließt prognostische und ethische Überlegungen ein.",
+      "keyPoints": [
+        "PD, CVVH(D)F (neonatale Geräte), Hämodialyse",
+        "PD: einfach, kein Gefäßzugang, keine Antikoagulation, kreislaufschonend",
+        "PD: langsamere/unvorhersehbare Clearance, KI NEC, Bauchwanddefekte, abdominelle OP",
+        "extrakorporal: effektiv, nötig bei Hyperammonämie",
+        "extrakorporal: Gefäßzugang, Antikoagulation, Füllvolumen",
+        "Teamentscheidung mit Kindernephrologie"
+      ],
+      "tags": ["Nierenersatztherapie", "Peritonealdialyse", "Hämofiltration"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "niere-022",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem Reifgeborenen mit oligurischem Nierenversagen und Flüssigkeitsüberladung soll eine **Peritonealdialyse** begonnen werden. Beschreiben Sie das **Prinzip, die praktische Durchführung** und die wichtigsten **Komplikationen**.",
+      "hints": [
+        "Diffusion und osmotisch getriebene Ultrafiltration über das Peritoneum.",
+        "Klein anfangen: Füllvolumen und Zykluszeiten."
+      ],
+      "answer": "**Prinzip**: Das Peritoneum dient als semipermeable Membran; gelöste Stoffe werden per Diffusion entlang des Konzentrationsgradienten entfernt, Wasser durch Ultrafiltration, angetrieben durch den osmotischen Gradienten der glukosehaltigen Dialyselösung (höhere Glukosekonzentration = mehr Ultrafiltration). **Durchführung**: Katheteranlage (chirurgisch platzierter Tenckhoff-Katheter oder perkutan eingebrachter Akutkatheter), angewärmtes Dialysat (Hypothermiegefahr), bei Laktatazidose oder Leberfunktionsstörung bikarbonatgepufferte Lösung. Mit kleinem Füllvolumen beginnen (etwa 10–20 ml/kg) und je nach Verträglichkeit (Leckage, Atmung, Kreislauf) steigern. Anfangs kurze Zyklen (z. B. stündlich: Einlauf, Verweilzeit, Auslauf), oft manuell oder mit Kleinvolumen-Cycler. Engmaschige Bilanz, Gewicht, Elektrolyte, Glukose, Säure-Basen-Status; ggf. Heparinzusatz im Dialysat nach Standard gegen Fibrinverschluss. **Komplikationen**: Leckage am Katheteraustritt, Katheterdysfunktion bzw. -verschluss (Fibrin, Omentum), Peritonitis (trübes Dialysat, Zellzahl und Kultur), Hyperglykämie, Hypokaliämie und Eiweißverlust, Hypothermie, Hernien, Hydrothorax, Atembeeinträchtigung durch Zwerchfellhochstand, Hypotonie bei zu rascher Ultrafiltration.",
+      "keyPoints": [
+        "Peritoneum als Membran: Diffusion und osmotische Ultrafiltration (Glukose)",
+        "Katheteranlage, angewärmtes Dialysat, ggf. Bikarbonatpuffer",
+        "kleines Füllvolumen (ca. 10–20 ml/kg), kurze Zyklen, langsam steigern",
+        "engmaschige Bilanz und Labor",
+        "Komplikationen: Leckage, Obstruktion, Peritonitis, Hyperglykämie, Eiweißverlust, Hypothermie"
+      ],
+      "tags": ["Peritonealdialyse", "Nierenersatztherapie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": ["Nierenversagen", "Hydronephrose"]
+        }
+      ]
+    }
+  ]
+}

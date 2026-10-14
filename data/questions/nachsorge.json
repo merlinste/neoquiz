@@ -1,0 +1,737 @@
+{
+  "area": "nachsorge",
+  "questions": [
+    {
+      "id": "nach-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein ehemaliges Frühgeborenes der 29+2 SSW ist jetzt 36+4 Wochen postmenstruell alt. Die Eltern fragen, wann ihr Kind nach Hause darf. Welche **medizinischen Kriterien** müssen vor der Entlassung eines Frühgeborenen erfüllt sein?",
+      "hints": [
+        "Denken Sie an Temperatur, Ernährung und Atmung.",
+        "Was muss vor der Entlassung an Screenings und Prophylaxen erledigt bzw. terminiert sein?"
+      ],
+      "answer": "Entscheidend ist nicht ein bestimmtes Gewicht oder Gestationsalter, sondern physiologische Reife:\n- **Thermoregulation**: stabile Körpertemperatur im offenen Bettchen mit normaler Kleidung.\n- **Ernährung**: vollständige orale Nahrungsaufnahme (Stillen und/oder Flasche) mit kontinuierlicher Gewichtszunahme.\n- **Atmung/Kreislauf**: keine relevanten Apnoen, Bradykardien oder Desaturationen über einen definierten Beobachtungszeitraum (zentrumsabhängig, häufig etwa 5–8 Tage, auch nach Absetzen von Koffein); stabile Atmung ohne Sauerstoff bzw. geplante Heimsauerstofftherapie.\n- **Screenings und Prophylaxen**: Stoffwechselscreening einschließlich Zweitscreening, Hörscreening (bei NICU-Kindern AABR), ROP-Kontrollen terminiert, Hüftsonographie geplant, Impfungen nach chronologischem Alter begonnen, RSV-Prophylaxe.\n- Eltern sind geschult und sicher im Umgang mit dem Kind, Nachsorge ist organisiert.",
+      "keyPoints": [
+        "Thermoregulation im offenen Bett",
+        "orale Ernährung mit Gewichtszunahme",
+        "apnoe-/bradykardiefreies Intervall (zentrumsabhängig)",
+        "Screenings, Impfungen und Prophylaxen erledigt oder terminiert",
+        "Eltern geschult, Nachsorge organisiert"
+      ],
+      "tags": ["Entlassungskriterien", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie ein **strukturiertes Entlassungsmanagement** für ein sehr kleines Frühgeborenes. Welche Schritte planen Sie ab wann, und welche Informationen gehören in die Übergabe an den weiterbetreuenden Kinderarzt?",
+      "hints": [
+        "Entlassung beginnt nicht am Entlassungstag.",
+        "Denken Sie an Elternschulung, Arztbrief, Termine und Hilfen nach § 39 Abs. 1a SGB V."
+      ],
+      "answer": "Die Entlassungsvorbereitung beginnt früh im stationären Verlauf mit der schrittweisen Integration der Eltern in die Pflege (Känguru-Pflege, Wickeln, Füttern, ggf. Sondieren), idealerweise mit Rooming-in bzw. Eltern-Kind-Zimmer vor der Entlassung. Die Eltern werden geschult: Ernährung und Stillen, Medikamente, Erkennen von Warnzeichen, SIDS-Prävention, bei Risikokindern Reanimationsschulung und ggf. Monitor-/Sauerstoffeinweisung. Der Sozialdienst prüft Unterstützungsbedarf, die sozialmedizinische Nachsorge wird rechtzeitig beantragt, Hilfsmittel werden verordnet (Entlassmanagement nach § 39 Abs. 1a SGB V). Der Arztbrief enthält Diagnosen, Verlauf, aktuelle Medikation mit Dosierungen, Ernährungsplan, Wachstumsdaten, Screening- und Impfstatus, offene Befunde sowie alle Folgetermine (ROP, Hörkontrolle, Hüftsonographie, U-Untersuchungen, Impfungen, RSV-Prophylaxe, entwicklungsneurologische Nachuntersuchung/SPZ). Ein Abschlussgespräch mit den Eltern rundet die Entlassung ab.",
+      "keyPoints": [
+        "früher Beginn, schrittweise Elternintegration (Rooming-in)",
+        "Elternschulung inkl. Warnzeichen, SIDS-Prävention, ggf. Reanimation",
+        "Sozialdienst, sozialmedizinische Nachsorge, Hilfsmittel",
+        "vollständiger Arztbrief mit Medikation, offenen Befunden und Terminen"
+      ],
+      "tags": ["Entlassungsmanagement", "Elternschulung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was versteht man unter **sozialmedizinischer Nachsorge** nach § 43 Abs. 2 SGB V? Für welche Kinder kommt sie infrage, was beinhaltet sie und wie wird sie eingeleitet?",
+      "hints": [
+        "Bekanntes Modellprojekt aus Augsburg.",
+        "Überbrückung zwischen Klinik und häuslicher Versorgung – wer verordnet, wer genehmigt?"
+      ],
+      "answer": "Die sozialmedizinische Nachsorge ist eine Leistung der gesetzlichen Krankenversicherung für chronisch kranke oder schwerstkranke Kinder und Jugendliche (bis 14 Jahre, in besonders schwerwiegenden Fällen bis 18 Jahre) im unmittelbaren Anschluss an einen Krankenhaus- oder Rehabilitationsaufenthalt, wenn sie nötig ist, um den stationären Aufenthalt zu verkürzen oder die anschließende ambulante Versorgung zu sichern. Typische Neonatologie-Indikationen sind sehr kleine Frühgeborene, Kinder mit Heimsauerstoff, Sondenernährung oder komplexen Fehlbildungen, besonders bei belasteten Familien. Inhalt ist die Analyse des Versorgungsbedarfs, die Koordination der verordneten Leistungen (Ärzte, Therapeuten, Hilfsmittel, Pflegedienst) sowie die Anleitung und Motivation der Eltern, erbracht durch ein interdisziplinäres Team (Kinderkrankenpflege, Sozialpädagogik, ggf. Psychologie) nach dem Modell des Bunten Kreises. Die Verordnung erfolgt durch den Krankenhausarzt oder den behandelnden Arzt vor bzw. bei der Entlassung, die Krankenkasse muss genehmigen; Umfang und Dauer sind begrenzt.",
+      "keyPoints": [
+        "GKV-Leistung nach § 43 Abs. 2 SGB V",
+        "chronisch/schwerstkranke Kinder bis 14 (in schweren Fällen 18) Jahre",
+        "unmittelbar im Anschluss an stationären Aufenthalt",
+        "Koordination der Versorgung und Anleitung der Eltern (Modell Bunter Kreis)",
+        "ärztliche Verordnung, Genehmigung durch Krankenkasse"
+      ],
+      "tags": ["Sozialmedizinische Nachsorge", "Bunter Kreis"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ],
+      "source": "§ 43 Abs. 2 SGB V"
+    },
+    {
+      "id": "nach-004",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **sozialmedizinischen Nachsorge** nach § 43 Abs. 2 SGB V trifft zu?",
+      "hints": [
+        "Es handelt sich um eine Leistung der Krankenkasse, nicht der Jugendhilfe.",
+        "Die Altersgrenze liegt deutlich über dem Säuglingsalter."
+      ],
+      "options": [
+        {
+          "text": "Sie steht Kindern bis zur Vollendung des 14. Lebensjahres, in besonders schwerwiegenden Fällen bis zur Vollendung des 18. Lebensjahres, im Anschluss an einen stationären Aufenthalt zu.",
+          "correct": true
+        },
+        {
+          "text": "Sie ist ausschließlich Frühgeborenen mit einem Geburtsgewicht unter 1500 g vorbehalten.",
+          "correct": false
+        },
+        {
+          "text": "Sie wird vom Jugendamt angeordnet und aus Mitteln der Kinder- und Jugendhilfe finanziert.",
+          "correct": false
+        },
+        {
+          "text": "Sie kann jederzeit, auch Jahre nach der Entlassung, ohne Genehmigung der Krankenkasse begonnen werden.",
+          "correct": false
+        },
+        { "text": "Sie ersetzt die U-Untersuchungen beim niedergelassenen Kinderarzt.", "correct": false }
+      ],
+      "answer": "Richtig ist die Altersgrenze 14 Jahre (in besonders schwerwiegenden Fällen 18 Jahre). Die sozialmedizinische Nachsorge ist eine genehmigungspflichtige GKV-Leistung, die unmittelbar an einen Krankenhaus- oder Reha-Aufenthalt anschließt und nicht auf eine Gewichtsgruppe beschränkt ist. Sie koordiniert die Versorgung, ersetzt aber keine ärztlichen Leistungen wie die U-Untersuchungen.",
+      "keyPoints": [
+        "Altersgrenze 14 Jahre, in schweren Fällen 18 Jahre",
+        "GKV-Leistung mit Genehmigung durch die Krankenkasse",
+        "Anschluss an stationären Aufenthalt, nicht auf VLBW beschränkt"
+      ],
+      "tags": ["Sozialmedizinische Nachsorge", "Sozialrecht"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ],
+      "source": "§ 43 Abs. 2 SGB V"
+    },
+    {
+      "id": "nach-005",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Eltern eines ehemaligen Frühgeborenen fragen, was der Unterschied zwischen einem **Sozialpädiatrischen Zentrum (SPZ)** und einer **Interdisziplinären Frühförderstelle** ist. Erklären Sie Aufgaben, Zielgruppe und Zugangsweg.",
+      "hints": [
+        "Rechtsgrundlagen: § 119 SGB V bzw. § 46 SGB IX.",
+        "Wer überweist ins SPZ, und was bedeutet „Komplexleistung“?"
+      ],
+      "answer": "Das **SPZ** (§ 119 SGB V) ist eine ärztlich geleitete, interdisziplinäre Einrichtung (Ärzte, Psychologen, Therapeuten) für Kinder, deren Erkrankung oder Entwicklungsstörung wegen Art, Schwere oder Komplexität nicht ausreichend von niedergelassenen Ärzten oder Frühförderstellen behandelt werden kann; es leistet vor allem Diagnostik, Therapieplanung und Behandlung bis ins Jugendalter und wird auf Überweisung durch einen Vertragsarzt (meist den Kinderarzt) tätig. Die **Interdisziplinäre Frühförderstelle** erbringt die Komplexleistung Frühförderung (§ 46 SGB IX, Frühförderungsverordnung): heilpädagogische und medizinisch-therapeutische Leistungen (Physio-, Ergotherapie, Logopädie) für Kinder mit (drohender) Behinderung von der Geburt bis zum Schuleintritt, wohnortnah und oft aufsuchend, auf Basis eines gemeinsamen Förder- und Behandlungsplans; die Kosten teilen sich Krankenkasse und Eingliederungshilfeträger. Viele Frühgeborene werden im SPZ nachuntersucht und bei Bedarf in die Frühförderung vermittelt.",
+      "keyPoints": [
+        "SPZ: § 119 SGB V, ärztlich geleitet, für komplexe Fälle, Überweisung durch Vertragsarzt",
+        "Frühförderung: Komplexleistung (§ 46 SGB IX), heilpädagogisch + medizinisch-therapeutisch",
+        "Frühförderung von Geburt bis Schuleintritt, wohnortnah",
+        "Förder- und Behandlungsplan"
+      ],
+      "tags": ["SPZ", "Frühförderung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Eine 19-jährige Mutter, alleinerziehend, ohne familiäre Unterstützung und mit bekannter depressiver Episode, wird mit ihrem Frühgeborenen der 33+0 SSW entlassen. Welche **Unterstützungsangebote der Frühen Hilfen** kennen Sie, und wie binden Sie diese ein?",
+      "hints": [
+        "Netzwerke Frühe Hilfen sind kommunal organisiert.",
+        "Welche Berufsgruppe begleitet belastete Familien im ersten Lebensjahr aufsuchend?"
+      ],
+      "answer": "Frühe Hilfen sind präventive, freiwillige Angebote für (werdende) Eltern mit Kindern bis etwa drei Jahre, besonders für psychosozial belastete Familien; sie sind in kommunalen **Netzwerken Frühe Hilfen** organisiert (Gesundheitswesen, Jugendhilfe, Beratungsstellen) und werden über die Bundesstiftung Frühe Hilfen gefördert, fachlich begleitet vom Nationalen Zentrum Frühe Hilfen. Zentrale Angebote sind **Familienhebammen** bzw. Familien-Gesundheits- und Kinderkrankenpflegende (FGKiKP), die belastete Familien meist bis zum ersten Geburtstag aufsuchend begleiten, sowie Lotsendienste in Geburtskliniken (z. B. Babylotsen), Schwangerschafts- und Erziehungsberatung und Elterncafés. Vorgehen: Belastungen früh erfassen, offen und wertschätzend mit der Mutter sprechen, mit ihrem Einverständnis den Kontakt zur Koordinierungsstelle Frühe Hilfen bzw. zur Familienhebamme herstellen, ergänzend sozialmedizinische Nachsorge und psychiatrische/psychotherapeutische Anbindung der Mutter organisieren und den Kinderarzt informieren. Frühe Hilfen sind von Maßnahmen bei Kindeswohlgefährdung abzugrenzen; ergeben sich gewichtige Anhaltspunkte für eine Gefährdung, gilt das Vorgehen nach § 4 KKG.",
+      "keyPoints": [
+        "Frühe Hilfen: freiwillig, präventiv, für belastete Familien mit Kindern bis ca. 3 Jahre",
+        "kommunale Netzwerke Frühe Hilfen, Bundesstiftung/NZFH",
+        "Familienhebamme/FGKiKP aufsuchend im ersten Lebensjahr",
+        "Vermittlung mit Einverständnis der Mutter, ergänzend SMN und Behandlung der Mutter",
+        "Abgrenzung zum Kinderschutz (§ 4 KKG)"
+      ],
+      "tags": ["Frühe Hilfen", "Familienhebamme", "psychosoziale Belastung"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "nach-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **strukturierte entwicklungsneurologische Nachuntersuchung** sehr kleiner Frühgeborener: Welche Kinder, zu welchen Zeitpunkten, mit welchen Inhalten und Instrumenten?",
+      "hints": [
+        "Zentraler Zeitpunkt: 2 Jahre korrigiertes Alter.",
+        "Nicht nur Motorik und Kognition – denken Sie an Sinnesorgane, Wachstum und Verhalten."
+      ],
+      "answer": "Nachuntersucht werden vor allem Frühgeborene < 1500 g bzw. < 32 SSW sowie andere Hochrisikokinder (z. B. nach HIE mit Hypothermie, nach schwerer Hirnblutung/PVL, nach CDH oder ECMO). Neben frühen Kontrollen im ersten Lebensjahr (z. B. Bewegungsbeurteilung mit 3 Monaten korrigiert) ist der Standardzeitpunkt **2 Jahre korrigiertes Alter**; eine weitere Untersuchung vor der Einschulung (etwa 5 Jahre) ist sinnvoll, da sich kognitive und Verhaltensauffälligkeiten oft erst dann zeigen. Inhalte: neurologischer Status mit Frage nach Zerebralparese (Klassifikation nach GMFCS), standardisierte Entwicklungstestung (Bayley Scales: Kognition, Sprache, Motorik), Wachstum und Kopfumfang, Sehen (ROP-Folgen, Strabismus) und Hören, Verhalten, Ernährung und Atemwege sowie die familiäre Situation. Daraus folgen gezielte Fördermaßnahmen (Frühförderung, Heilmittel, SPZ). Die QFR-RL (aktuelle Fassung, in Kraft seit 11.08.2026) verpflichtet Perinatalzentren Level 1 und 2 zur kontinuierlichen Teilnahme an einer entwicklungsdiagnostischen Nachuntersuchung aller Frühgeborenen < 1500 g, wobei eine vollständige Teilnahme an der Untersuchung im korrigierten Alter von 2 Jahren anzustreben ist; die Ergebnisse werden an das IQTIG übermittelt und als „späte Ergebnisqualität“ auf www.perinatalzentren.org veröffentlicht. Die Organisation erfolgt oft über SPZ oder Nachsorgeambulanzen.",
+      "keyPoints": [
+        "Zielgruppe: < 1500 g/< 32 SSW und weitere Hochrisikokinder",
+        "Hauptzeitpunkt 2 Jahre korrigiert, zusätzlich früh (3 Monate) und vor Einschulung",
+        "Neurostatus/CP-Klassifikation (GMFCS) und Bayley-Testung",
+        "Wachstum, Sehen, Hören, Verhalten",
+        "Ableitung von Fördermaßnahmen"
+      ],
+      "tags": ["Nachuntersuchung", "Entwicklungsdiagnostik", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "nach-008",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Kind wurde mit 26+0 SSW geboren und ist heute **20 Wochen** alt (chronologisches Alter). Wie alt ist es **korrigiert** (in Wochen)?",
+      "hints": [
+        "Korrigiertes Alter = chronologisches Alter minus Anzahl der zu früh geborenen Wochen.",
+        "Bezugspunkt ist der Termin mit 40+0 SSW."
+      ],
+      "answer": "Frühgeburtlichkeit: 40+0 − 26+0 = 14 Wochen. Korrigiertes Alter = 20 Wochen − 14 Wochen = **6 Wochen**. Für die Entwicklungsbeurteilung wird bis etwa zum 2. Lebensjahr das korrigierte Alter verwendet, für Impfungen dagegen das chronologische Alter.",
+      "keyPoints": [
+        "14 Wochen zu früh geboren",
+        "20 − 14 = 6 Wochen korrigiert",
+        "Entwicklungsbeurteilung nach korrigiertem, Impfungen nach chronologischem Alter"
+      ],
+      "solution": { "value": 6, "unit": "Wochen", "tolerance": 0.05 },
+      "tags": ["Korrigiertes Alter", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "nach-009",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Bei der Nachuntersuchung mit 2 Jahren korrigiert erreicht ein ehemaliges Frühgeborenes im Bayley-Test einen **kognitiven Composite-Score von 70**. Die Composite-Scores sind auf Mittelwert 100 und Standardabweichung 15 normiert. Um wie viele **Standardabweichungen** liegt das Ergebnis vom Mittelwert entfernt (mit Vorzeichen)?",
+      "hints": ["z = (Wert − Mittelwert) / SD"],
+      "answer": "z = (70 − 100) / 15 = −30 / 15 = **−2 SD**. Ein Wert unterhalb von −2 SD (< 70) gilt üblicherweise als schwere Entwicklungsverzögerung, zwischen −2 und −1 SD (70–84) als leichte bis mäßige Verzögerung.",
+      "keyPoints": ["z-Wert-Formel korrekt angewendet", "Ergebnis −2 SD", "< 70 entspricht schwerer Verzögerung"],
+      "solution": { "value": -2, "unit": "SD", "tolerance": 0.05 },
+      "tags": ["Bayley", "Entwicklungsdiagnostik", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-010",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes wurde mit **28+4 SSW** geboren. Die Nachuntersuchung soll mit **24 Monaten korrigiertem Alter** stattfinden. Wie alt ist das Kind dann **chronologisch** (in Monaten, 1 Monat ≈ 30,4 Tage)?",
+      "hints": ["Berechnen Sie zuerst, wie viele Tage das Kind zu früh geboren wurde.", "40+0 − 28+4 = 11+3 Wochen"],
+      "answer": "Frühgeburtlichkeit: 40+0 − 28+4 = 11 Wochen + 3 Tage = 80 Tage. 80 Tage / 30,4 Tage pro Monat ≈ 2,6 Monate. Chronologisches Alter = 24 + 2,6 ≈ **26,6 Monate**. Der Termin muss also etwa 2½ Monate nach dem 2. Geburtstag geplant werden.",
+      "keyPoints": ["Frühgeburtlichkeit 11+3 Wochen = 80 Tage", "≈ 2,6 Monate", "chronologisch ≈ 26,6 Monate"],
+      "solution": { "value": 26.6, "unit": "Monate", "tolerance": 0.03 },
+      "tags": ["Korrigiertes Alter", "Nachuntersuchung", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-011",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Wie bewerten Sie die **Aussagekraft einer Bayley-Testung mit 2 Jahren korrigiert** für die Langzeitprognose (z. B. kognitive Leistungen im Schulalter)? Welche Grenzen und Störfaktoren müssen Sie den Eltern erklären?",
+      "hints": [
+        "Wie stabil ist ein Testergebnis im Kleinkindalter?",
+        "Denken Sie an Testversionen, Umweltfaktoren und das, was mit 2 Jahren noch gar nicht messbar ist."
+      ],
+      "answer": "Die Testung mit 2 Jahren korrigiert ist ein guter Screeningzeitpunkt für schwere Beeinträchtigungen (Zerebralparese, schwere kognitive Verzögerung, Seh- und Hörstörungen), die meist stabil bleiben. Für leichte bis mäßige Abweichungen ist der Vorhersagewert für die kognitive Leistung im Schulalter jedoch begrenzt: Ein Teil der Kinder mit grenzwertigen Ergebnissen holt auf, umgekehrt fallen manche Kinder mit unauffälligem Bayley-Score später mit Lern-, Aufmerksamkeits- oder Verhaltensproblemen auf, die mit 2 Jahren noch nicht erfassbar sind. Störfaktoren sind Testversion (die Bayley-III ergibt im Vergleich zur Bayley-II höhere Werte und kann Defizite unterschätzen), Tagesform, Kooperation, Sprache und Kultur, nicht korrigiertes Alter sowie der starke Einfluss des sozioökonomischen Umfelds und der Bildung der Eltern. Den Eltern sollte man das Ergebnis als Momentaufnahme mit Unsicherheit erklären, konkrete Fördermaßnahmen ableiten und eine erneute Beurteilung im Vorschulalter (etwa 5 Jahre) empfehlen.",
+      "keyPoints": [
+        "gute Erkennung schwerer Beeinträchtigungen",
+        "begrenzter Vorhersagewert bei leichten Abweichungen",
+        "Schulprobleme (Lernen, Aufmerksamkeit, Verhalten) mit 2 Jahren nicht erfassbar",
+        "Störfaktoren: Testversion, Kooperation, Sprache, sozioökonomisches Umfeld",
+        "Wiederholung im Vorschulalter, Förderung ableiten"
+      ],
+      "tags": ["Bayley", "Langzeitprognose", "Entwicklungsdiagnostik"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes der 25+6 SSW mit beidseitiger zystischer PVL wird mit 3 Monaten korrigiert in Ihrer Nachsorgeambulanz vorgestellt. Wie gehen Sie zur **Früherkennung einer Zerebralparese** vor, und warum ist eine frühe Diagnose sinnvoll?",
+      "hints": [
+        "Es gibt eine Kombination aus Bildgebung und zwei standardisierten klinischen Instrumenten.",
+        "Eines davon beurteilt Spontanbewegungen auf Video."
+      ],
+      "answer": "Nach internationalen Empfehlungen kann eine Zerebralparese bzw. ein hohes CP-Risiko bereits vor dem korrigierten Alter von 6 Monaten mit hoher Genauigkeit festgestellt werden, wenn drei Bausteine kombiniert werden: die **Neurobildgebung** (hier die zystische PVL; MRT zum Termin), das **General Movements Assessment nach Prechtl** (Fehlen der Fidgety Movements mit 3–5 Monaten korrigiert als stärkster Prädiktor) und die **Hammersmith Infant Neurological Examination (HINE)** mit altersbezogenen Grenzwerten. Bei auffälligen Befunden sollte die Arbeitsdiagnose „Zerebralparese“ bzw. „hohes Risiko für CP“ offen mit den Eltern besprochen werden. Eine frühe Diagnose ermöglicht frühzeitige, gezielte Therapie in einer Phase hoher Neuroplastizität (aufgabenspezifische, aktivitätsbasierte Physiotherapie, Elternanleitung), den Zugang zu Frühförderung und Hilfen und entlastet die Eltern von langer Unsicherheit.",
+      "keyPoints": [
+        "Kombination MRT + General Movements + HINE",
+        "fehlende Fidgety Movements mit 3–5 Monaten korrigiert",
+        "Diagnose bzw. hohes CP-Risiko vor 6 Monaten korrigiert möglich",
+        "frühe Therapie nutzt Neuroplastizität, Elternanleitung, Frühförderung"
+      ],
+      "tags": ["Zerebralparese", "General Movements", "Früherkennung"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "nach-013",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welcher Befund im **General Movements Assessment** hat den höchsten Vorhersagewert für die spätere Entwicklung einer **Zerebralparese**?",
+      "hints": ["Entscheidend ist die Phase etwa 9–20 Wochen nach dem Termin."],
+      "options": [
+        { "text": "Fehlen der Fidgety Movements im Alter von etwa 3–5 Monaten korrigiert", "correct": true },
+        { "text": "Poor-repertoire-Bewegungen in der Writhing-Periode kurz nach dem Termin", "correct": false },
+        { "text": "Vorhandene Fidgety Movements mit leicht verminderter Amplitude", "correct": false },
+        { "text": "Kurzzeitig auslösbarer Moro-Reflex mit 3 Monaten korrigiert", "correct": false }
+      ],
+      "answer": "Das Fehlen der Fidgety Movements im Alter von etwa 3–5 Monaten korrigiert sagt eine Zerebralparese mit sehr hoher Sensitivität und Spezifität voraus. Poor-repertoire-Bewegungen in der Writhing-Periode sind häufig und unspezifisch; persistierende cramped-synchronized Bewegungen sind dagegen ebenfalls ein Warnzeichen. Ein Moro-Reflex ist mit 3 Monaten noch physiologisch.",
+      "keyPoints": [
+        "fehlende Fidgety Movements mit 3–5 Monaten korrigiert = stärkster Prädiktor",
+        "Poor Repertoire unspezifisch",
+        "Moro-Reflex mit 3 Monaten physiologisch"
+      ],
+      "tags": ["General Movements", "Zerebralparese"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "nach-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was beschreibt das **Gross Motor Function Classification System (GMFCS)**, wie ist es aufgebaut, und ab wann ist die Einstufung bei ehemaligen Frühgeborenen einigermaßen verlässlich?",
+      "hints": [
+        "Fünf Stufen, die die Selbstständigkeit der Fortbewegung beschreiben.",
+        "Die Zuordnung im Säuglingsalter ist noch unsicher."
+      ],
+      "answer": "Das GMFCS klassifiziert Kinder mit Zerebralparese nach ihrer grobmotorischen Funktion im Alltag, vor allem nach Sitzen und Fortbewegung, in fünf Stufen mit altersspezifischen Beschreibungen: Stufe I bedeutet freies Gehen mit Einschränkungen bei anspruchsvollen Fertigkeiten, Stufe II freies Gehen mit deutlicheren Einschränkungen, Stufe III Gehen mit Hilfsmitteln, Stufe IV deutlich eingeschränkte Selbstständigkeit mit überwiegend Rollstuhlnutzung (ggf. elektrisch), Stufe V ist eine schwere Einschränkung mit Transport im Rollstuhl. Es beschreibt die Funktion, nicht die Art der Lähmung (spastisch, dyskinetisch, ataktisch) oder deren Verteilung. Eine verlässliche Einstufung ist ab etwa 2 Jahren korrigiert möglich, stabiler ab dem Vorschulalter; im ersten Lebensjahr ist sie unsicher. In der Nachuntersuchung mit 2 Jahren korrigiert wird das GMFCS standardmäßig erhoben und dient der Prognoseberatung und Therapieplanung.",
+      "keyPoints": [
+        "Klassifikation der grobmotorischen Funktion bei CP",
+        "5 Stufen von freiem Gehen bis Rollstuhltransport",
+        "Funktion, nicht CP-Typ oder Topographie",
+        "verlässlich etwa ab 2 Jahren korrigiert"
+      ],
+      "tags": ["GMFCS", "Zerebralparese", "Nachuntersuchung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-015",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche Empfehlungen zur **Prävention des plötzlichen Säuglingstods (SIDS)** geben Sie Eltern eines Frühgeborenen bei der Entlassung, und was müssen Sie schon auf der Station beachten?",
+      "hints": ["Schlafposition, Schlafort, Umgebung.", "Frühgeborene liegen auf der Station oft in Bauch- oder Seitenlage."],
+      "answer": "Empfehlungen für die Eltern: Schlafen in **Rückenlage**, im eigenen Bett im Elternschlafzimmer, auf fester Matratze ohne Kissen, Decken, Nestchen oder Kuscheltiere, im passenden Schlafsack; **rauchfreie Umgebung** in Schwangerschaft und nach der Geburt; Überwärmung vermeiden (Raumtemperatur etwa 16–18 °C, kein Mützchen im Schlaf); **Stillen** wirkt protektiv; ein Schnuller zum Einschlafen kann angeboten werden. Besonders risikoreich ist das gemeinsame Schlafen im Erwachsenenbett bei Rauchen, Alkohol, Medikamenten oder auf dem Sofa. Da Frühgeborene ein erhöhtes SIDS-Risiko haben, sollen sie auf der Station rechtzeitig vor Entlassung, sobald klinisch stabil, konsequent in Rückenlage und im Bettchen ohne Lagerungshilfsmittel schlafen, damit die Eltern das richtige Verhalten am Vorbild lernen. Ein Heimmonitor ist zur SIDS-Prävention nicht indiziert.",
+      "keyPoints": [
+        "Rückenlage, eigenes Bett im Elternschlafzimmer, Schlafsack",
+        "rauchfreie Umgebung, keine Überwärmung",
+        "Stillen protektiv, Schnuller möglich",
+        "Station: rechtzeitig Umstellung auf Rückenlage als Vorbild",
+        "Heimmonitor keine SIDS-Prävention"
+      ],
+      "tags": ["SIDS", "Elternberatung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "nach-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann ist ein **Heimmonitoring** (z. B. Pulsoxymetrie) nach der Entlassung aus der Neonatologie indiziert, und was muss vor der Entlassung mit Monitor organisiert werden?",
+      "hints": [
+        "Ein Monitor verhindert keinen plötzlichen Kindstod.",
+        "Welche Kinder haben ein reales, behandelbares Risiko für Hypoxämien zu Hause?"
+      ],
+      "answer": "Ein Heimmonitoring ist nur bei definierten Risiken sinnvoll, nicht zur allgemeinen SIDS-Prävention, denn dafür ist kein Nutzen belegt. Indikationen sind z. B. Heimsauerstofftherapie (etwa bei BPD), Tracheostoma oder Heimbeatmung, schwere Atemwegsfehlbildungen (z. B. Pierre-Robin-Sequenz), zentrale Hypoventilation, symptomatische Herzfehler oder ausgewählte Kinder nach wiederholten schwerwiegenden Ereignissen; Apnoen der Frühgeburtlichkeit sollten dagegen vor der Entlassung abgeklungen sein. Bevorzugt wird die Pulsoxymetrie mit Speicherfunktion, da reine Apnoemonitore obstruktive Apnoen und Hypoxämien nicht erkennen. Vor der Entlassung nötig: Verordnung und Einweisung in das Gerät, festgelegte Alarmgrenzen, Schulung der Eltern in Reanimation und im Verhalten bei Alarm, schriftlicher Notfallplan, klare Zuständigkeit für Auswertung und Beendigung des Monitorings sowie Hinweis auf die Belastung durch Fehlalarme.",
+      "keyPoints": [
+        "kein Nutzen zur SIDS-Prävention",
+        "Indikationen: Heimsauerstoff, Tracheostoma/Heimbeatmung, Atemwegsfehlbildungen, zentrale Hypoventilation",
+        "Pulsoxymetrie mit Speicher statt reiner Apnoemonitor",
+        "Elternschulung inkl. Reanimation, Alarmgrenzen, Notfallplan, Plan zur Beendigung"
+      ],
+      "tags": ["Heimmonitoring", "Entlassung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-017",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes der 30+0 SSW (jetzt 36+5 Wochen postmenstruell) hatte seit 8 Tagen keine Apnoen mehr, Koffein wurde vor 10 Tagen beendet. Die Eltern wünschen „zur Sicherheit“ einen Heimmonitor. Welche Aussage ist richtig?",
+      "hints": ["Wofür gibt es Evidenz – und wofür nicht?"],
+      "options": [
+        {
+          "text": "Ein Heimmonitor ist hier nicht indiziert, da er das SIDS-Risiko nicht senkt; wichtiger sind Beratung zur sicheren Schlafumgebung und ggf. ein Reanimationskurs.",
+          "correct": true
+        },
+        {
+          "text": "Ein Heimmonitor ist bei allen Frühgeborenen < 32 SSW bis zum korrigierten Alter von 6 Monaten Standard.",
+          "correct": false
+        },
+        {
+          "text": "Ein Apnoemonitor (Impedanz) ist der Pulsoxymetrie überlegen, weil er auch obstruktive Apnoen zuverlässig erkennt.",
+          "correct": false
+        },
+        {
+          "text": "Bei Wunsch der Eltern sollte das Kind statt eines Monitors bis zum Termin weiter Koffein erhalten.",
+          "correct": false
+        }
+      ],
+      "answer": "Für das Heimmonitoring zur SIDS-Prävention gibt es keinen Wirksamkeitsnachweis; das Kind ist ohne Apnoen und ohne Koffein stabil. Der Wunsch der Eltern sollte ernst genommen und mit Aufklärung über sichere Schlafumgebung, Warnzeichen und ggf. einem Reanimationskurs beantwortet werden. Impedanz-Apnoemonitore erkennen obstruktive Apnoen gerade nicht zuverlässig.",
+      "keyPoints": [
+        "kein Nutzen eines Heimmonitors zur SIDS-Prävention",
+        "stabiles Kind ohne Indikation",
+        "Beratung zu sicherem Schlafen und Reanimationskurs"
+      ],
+      "tags": ["Heimmonitoring", "SIDS"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "nach-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erklären Sie die **externe Qualitätssicherung in der Neonatologie** (früher „Neonatalerhebung“): Wer wird erfasst, welche Qualitätsindikatoren gibt es beispielhaft, und wie werden die Ergebnisse genutzt und veröffentlicht?",
+      "hints": [
+        "Das Verfahren wird heute vom IQTIG im Auftrag des G-BA betreut.",
+        "Denken Sie an typische Morbiditäten sehr kleiner Frühgeborener – und an die Aufnahmetemperatur."
+      ],
+      "answer": "Die Neonatologie ist Teil der gesetzlich verpflichtenden externen stationären Qualitätssicherung (heute im QS-Verfahren Perinatalmedizin gemeinsam mit der Geburtshilfe, fachlich betreut durch das IQTIG im Auftrag des G-BA); dokumentiert werden u. a. alle in einer Kinderklinik stationär behandelten Neugeborenen mit definierten Aufnahmekriterien, mit Schwerpunkt auf sehr kleinen Frühgeborenen. Beispiele für Qualitätsindikatoren sind die risikoadjustierte Sterblichkeit sehr kleiner Frühgeborener, höhergradige Hirnblutungen (IVH Grad 3/PVHI), PVL, NEC, BPD, behandlungsbedürftige ROP, nosokomiale Infektionen, Pneumothorax und eine zu niedrige Aufnahmetemperatur. Auffällige Ergebnisse führen zu einem Stellungnahmeverfahren mit den Landesarbeitsgemeinschaften bzw. Fachgremien, die Kliniken erhalten Benchmark-Rückmeldungen für ihr internes Qualitätsmanagement. Ergebnisdaten der Perinatalzentren (Level 1 und 2) werden nach QFR-RL öffentlich auf www.perinatalzentren.org dargestellt, damit Eltern und Zuweiser sie vergleichen können.",
+      "keyPoints": [
+        "verpflichtende externe QS, IQTIG/G-BA (QS-Verfahren Perinatalmedizin)",
+        "Indikatoren: risikoadjustierte Mortalität, IVH/PVL, NEC, BPD, ROP, Infektionen, Aufnahmetemperatur",
+        "Stellungnahmeverfahren bei rechnerischer Auffälligkeit",
+        "Veröffentlichung auf perinatalzentren.org"
+      ],
+      "tags": ["Qualitätssicherung", "Neonatalerhebung", "IQTIG"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "nach-019",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Anforderungen stellt die **QFR-Richtlinie** an Perinatalzentren Level 1 und 2 über die eigentliche Intensivbehandlung hinaus – insbesondere zu Elternbetreuung, Nachsorge und Ergebnistransparenz?",
+      "hints": [
+        "Psychosoziale Betreuung, Entlassmanagement, Entwicklungsdiagnostik.",
+        "Wo können Eltern die Ergebnisse eines Zentrums nachlesen?"
+      ],
+      "answer": "Neben Anforderungen an ärztliche und pflegerische Struktur (u. a. fachweitergebildete Kinderkrankenpflege, schichtbezogene Pflegeschlüssel auf der neonatologischen Intensivstation – je nach Kriterien 1:1, 1:2 oder 1:4 –, Kooperationen mit Kinderchirurgie und weiteren Fachdisziplinen) fordert die QFR-RL eine **professionelle psychosoziale Betreuung** von Schwangeren und Eltern durch dafür qualifiziertes Personal (z. B. Psychologie, Sozialpädagogik), den Bereichen Geburtshilfe und Neonatologie fest zugeordnet im Umfang von 1,5 Vollzeitkräften pro 100 Aufnahmen von Frühgeborenen < 1500 g pro Jahr, montags bis freitags im Regeldienst. Für Frühgeborene < 1500 g stellt die Klinik im **Entlassmanagement** (§ 39 Abs. 1a SGB V) noch während des Aufenthalts den Kontakt zur ambulanten Weiterbehandlung (z. B. SPZ) her und empfiehlt im Entlassbrief eine strukturierte entwicklungsneurologische Diagnostik; die **sozialmedizinische Nachsorge** nach § 43 Abs. 2 SGB V **kann** sie bei erfüllten Anspruchsvoraussetzungen verordnen. Verpflichtend ist die kontinuierliche Teilnahme an der **entwicklungsdiagnostischen Nachuntersuchung** aller Frühgeborenen < 1500 g (vollständige Teilnahme mit 2 Jahren korrigiert anzustreben) und an einer externen Infektions-Surveillance (NEO-KISS-gleichwertig). Die **Ergebnisdaten** (frühe Ergebnisqualität bei Entlassung, späte Ergebnisqualität aus der Nachuntersuchung) werden über das IQTIG auf www.perinatalzentren.org veröffentlicht. Werden Mindestanforderungen (z. B. Pflegeschlüssel) nicht erfüllt, ist dies zu melden; es folgen ein klärender Dialog bzw. der Wegfall des Vergütungsanspruchs. Die Mindestmenge für Frühgeborene < 1250 g steht nicht in der QFR-RL, sondern in den Mindestmengenregelungen des G-BA. Maßgeblich ist die aktuelle Fassung (zuletzt geändert am 18.06.2026, in Kraft seit 11.08.2026).",
+      "keyPoints": [
+        "psychosoziale Betreuung der Eltern durch qualifiziertes Personal (1,5 VK pro 100 Aufnahmen < 1500 g)",
+        "Entlassmanagement mit Überleitung (z. B. SPZ); sozialmedizinische Nachsorge kann verordnet werden",
+        "Pflicht zur Teilnahme an der entwicklungsdiagnostischen Nachuntersuchung < 1500 g (2 Jahre korrigiert)",
+        "Veröffentlichung früher und später Ergebnisqualität auf perinatalzentren.org",
+        "Pflegeschlüssel als Mindestanforderung; bei Nichterfüllung klärender Dialog bzw. Vergütungswegfall"
+      ],
+      "tags": ["QFR-RL", "Qualitätssicherung", "Perinatalzentrum"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "nach-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Auf Ihrer Station wurde einem Frühgeborenen versehentlich die zehnfache Dosis Morphin verabreicht; das Kind blieb nach Naloxon folgenlos. Wie gehen Sie im Sinne einer **konstruktiven Fehlerkultur** vor, und welche Rolle spielt ein **CIRS**?",
+      "hints": [
+        "Erst das Kind, dann die Eltern, dann das System.",
+        "Welche Merkmale muss ein Berichtssystem haben, damit Mitarbeitende melden?"
+      ],
+      "answer": "Zuerst wird das Kind versorgt und überwacht, dann werden die Eltern offen, zeitnah und ehrlich über das Ereignis informiert (inkl. Entschuldigung und weiterer Überwachung), und die Dokumentation erfolgt sachlich. Die beteiligten Mitarbeitenden werden unterstützt („Second Victim“), Schuldzuweisungen vermieden. Die Systemanalyse fragt nicht „wer“, sondern „warum“ (z. B. nach dem London-Protokoll bzw. einer Ursachenanalyse): Konzentrationen, Verdünnungsschritte, Perfusorstandards, Doppelkontrolle, Arbeitsbelastung, Kommunikation. Ein **Critical Incident Reporting System (CIRS)** dient der freiwilligen, anonymen und sanktionsfreien Meldung von kritischen Ereignissen und Beinahe-Fehlern, um aus ihnen zu lernen; Meldungen werden von einem Team analysiert und in Maßnahmen umgesetzt (z. B. Standardkonzentrationen, Dosierungssoftware, Zehnfach-Fehler-Warnungen), die Ergebnisse werden zurückgemeldet. Fehlermeldesysteme sind Bestandteil des klinischen Risikomanagements nach der Qualitätsmanagement-Richtlinie des G-BA; Meldungen daraus dürfen im Rechtsverkehr nicht zum Nachteil der Meldenden verwendet werden (§ 135a Abs. 3 SGB V; Ausnahme: Verfolgung besonders schwerer Straftaten). Ergänzend: M&M-Konferenzen, Debriefings und Teamtraining.",
+      "keyPoints": [
+        "Patientensicherheit zuerst, offene Information der Eltern",
+        "Unterstützung der Beteiligten, keine Schuldkultur",
+        "Systemanalyse (z. B. London-Protokoll) statt Personenfokus",
+        "CIRS: freiwillig, anonym, sanktionsfrei, Rückmeldung und Maßnahmen",
+        "M&M-Konferenzen, Teamtraining, Standardkonzentrationen"
+      ],
+      "tags": ["CIRS", "Fehlerkultur", "Patientensicherheit"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "nach-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes der 27+1 SSW (Verlauf: IVH Grad 2 beidseits, moderate BPD) wird mit 2 Jahren korrigiert nachuntersucht. Bayley: Kognition 84, Sprache 72, Motorik 88. Das Kind spricht etwa 5 Wörter, der Neurostatus ist unauffällig. Die Eltern sind verunsichert. Wie interpretieren Sie die Befunde, welche Diagnostik und welche Maßnahmen veranlassen Sie?",
+      "hints": [
+        "Welcher Bereich ist am deutlichsten auffällig, und was muss bei Sprachverzögerung immer ausgeschlossen werden?",
+        "Fördermaßnahmen und Verlaufskontrolle."
+      ],
+      "answer": "Kognition (84) und Motorik (88) liegen im unteren Normbereich bzw. knapp darunter, die Sprache (72) ist deutlich verzögert (knapp −2 SD) – ein typisches Muster bei ehemaligen Frühgeborenen. Zuerst muss eine **Hörstörung ausgeschlossen** werden (pädaudiologische Untersuchung, auch bei unauffälligem Neugeborenen-Hörscreening, da nach Intensivtherapie spät manifeste Hörstörungen möglich sind). Weiter: Sehprüfung, Beurteilung von Interaktion und Kommunikation (Autismus-Spektrum als Differenzialdiagnose, gezielte Screeningfragen), Erfassung der sprachlichen Anregung zu Hause und der Mehrsprachigkeit. Maßnahmen: sprachtherapeutische Abklärung und ggf. Logopädie, Elternanleitung zur Sprachförderung, Frühförderung bzw. Kita-Besuch, Anbindung an das SPZ und erneute Entwicklungsbeurteilung im Vorschulalter. Den Eltern erklärt man, dass die Ergebnisse eine Momentaufnahme sind, dass Sprachrückstände gut auf Förderung ansprechen und dass die günstigen motorischen und neurologischen Befunde beruhigend sind.",
+      "keyPoints": [
+        "Interpretation: Sprache deutlich verzögert, Kognition/Motorik grenzwertig",
+        "Hörstörung ausschließen (pädaudiologische Diagnostik)",
+        "Sehen, Kommunikation/Autismus-Spektrum als DD",
+        "Logopädie, Frühförderung, SPZ, Kita",
+        "Elterngespräch: Momentaufnahme, Verlaufskontrolle im Vorschulalter"
+      ],
+      "tags": ["Nachuntersuchung", "Sprachentwicklung", "Elternberatung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-022",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes nach Korrektur einer linksseitigen Zwerchfellhernie soll nach 10 Wochen Intensivbehandlung mit teilweiser Sondenernährung (nasogastral), Pulsoxymetrie-Monitoring und Sildenafil nach Hause entlassen werden. Die Eltern haben zwei weitere Kleinkinder. Wie organisieren Sie diese **komplexe Entlassung**?",
+      "hints": [
+        "Wer koordiniert zu Hause, wer pflegt mit, wer bezahlt Hilfsmittel?",
+        "Denken Sie auch an Pflegeversicherung und Entlastung der Familie."
+      ],
+      "answer": "Früh ein Entlassungsteam (Ärzte, Pflege, Sozialdienst, Nachsorgeteam) einbinden und einen schriftlichen Entlassungsplan erstellen. Die Eltern werden in Sondieren, Sondenlage-Kontrolle, Medikamentengabe, Monitorbedienung, Erkennen von Warnzeichen und Reanimation geschult und versorgen ihr Kind vor der Entlassung möglichst selbstständig im Rooming-in. Organisatorisch: Verordnung von Hilfsmitteln (Pulsoxymeter, Ernährungspumpe, Sonden) und Medikamenten rechtzeitig über das Entlassmanagement, Antrag auf **sozialmedizinische Nachsorge**, ggf. häusliche Kinderkrankenpflege, Antrag auf **Pflegegrad** bei der Pflegekasse (Kinder bis 18 Monate werden nach § 15 Abs. 7 SGB XI bei gleicher Punktzahl einen Pflegegrad höher eingestuft), Information zu Kinderkrankengeld und Entlastungsangeboten. Medizinische Nachsorge: Kinderarzt informiert, Termine in Kinderchirurgie, Kinderkardiologie (pulmonale Hypertonie), Ernährungsberatung bzw. Logopädie für die Mund-Ess-Entwicklung, entwicklungsneurologische Nachuntersuchung; Notfallplan mit Ansprechpartnern rund um die Uhr. Die Belastung der Geschwister und Eltern wird angesprochen, psychosoziale Unterstützung angeboten.",
+      "keyPoints": [
+        "Entlassungsplan im interdisziplinären Team, frühe Elternschulung",
+        "Hilfsmittel/Medikamente über Entlassmanagement, SMN, ggf. häusliche Kinderkrankenpflege",
+        "Pflegegrad beantragen, Entlastungsangebote",
+        "fachspezifische Nachsorgetermine und 24-h-Notfallplan",
+        "psychosoziale Unterstützung der Familie"
+      ],
+      "tags": ["Entlassungsmanagement", "Sozialmedizinische Nachsorge", "Pflegeversicherung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "nach-023",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Im Rahmen des **Entlassmanagements nach § 39 Abs. 1a SGB V** darf die Klinik bei Entlassung bestimmte Leistungen selbst verordnen. Welche Aussage trifft zu?",
+      "hints": ["Es geht um die Überbrückung bis zum ersten Termin beim niedergelassenen Arzt."],
+      "options": [
+        {
+          "text": "Krankenhausärzte können Arzneimittel in der kleinsten Packungsgröße sowie Heil- und Hilfsmittel für einen Zeitraum von bis zu 7 Tagen verordnen.",
+          "correct": true
+        },
+        {
+          "text": "Krankenhausärzte dürfen ausschließlich Arzneimittel, aber keine Hilfsmittel verordnen.",
+          "correct": false
+        },
+        {
+          "text": "Die Klinik verordnet alle Leistungen für die ersten 3 Monate nach Entlassung.",
+          "correct": false
+        },
+        { "text": "Verordnungen im Entlassmanagement sind nur für Erwachsene zulässig.", "correct": false }
+      ],
+      "answer": "Im Entlassmanagement kann das Krankenhaus zur Überbrückung Arzneimittel (kleinste Packungsgröße) sowie u. a. Heilmittel, Hilfsmittel und häusliche Krankenpflege für bis zu 7 Tage verordnen. Die längerfristige Versorgung übernimmt der weiterbehandelnde Vertragsarzt, deshalb sollten Folgeverordnungen und Termine rechtzeitig geplant werden.",
+      "keyPoints": [
+        "Überbrückung bis zu 7 Tage",
+        "Arzneimittel in kleinster Packungsgröße, Heil- und Hilfsmittel",
+        "Weiterversorgung durch Vertragsarzt"
+      ],
+      "tags": ["Entlassmanagement", "Sozialrecht"],
+      "exam": ["KM"],
+      "source": "§ 39 Abs. 1a SGB V (Rahmenvertrag Entlassmanagement)"
+    }
+  ]
+}

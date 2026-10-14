@@ -1,0 +1,977 @@
+{
+  "area": "erstversorgung",
+  "questions": [
+    {
+      "id": "reani-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Sie werden zu einer Geburt mit pathologischem CTG bei 38+3 SSW gerufen. Wie **bereiten Sie sich und das Team** auf die Erstversorgung vor?",
+      "hints": [
+        "Briefing mit Rollenverteilung.",
+        "Wärme, Atemweg, Beatmung, Monitoring, Zugang, Medikamente – und die Eltern."
+      ],
+      "answer": "**Briefing** vor der Geburt: verfügbare Informationen (SSW, Fruchtwasser, CTG, mütterliche Medikamente, Infektionszeichen) sichten, **Rollen und Aufgaben verteilen**, Vorgehen bei der Abnabelung festlegen, Eltern vorbereiten; dazu eine **Checkliste** bzw. kognitive Hilfe verwenden. **Material prüfen:** vorgeheizte Versorgungseinheit, warme Tücher, Mütze, Uhr/Timer; Absaugung; Beatmungsgerät (T-Stück mit PEEP, Beutel als Backup) mit passenden Masken; Luft-Sauerstoff-Mischer; Pulsoxymeter und EKG; Larynxmaske, (Video-)Laryngoskop, Tuben, CO2-Detektor; Notfall-Nabelvenenkatheter bzw. intraossäres Set; Adrenalin, Glukose 10 %, NaCl 0,9 %. Raum warm, Fenster geschlossen. Ausrüstung soll standardisiert und gut zugänglich organisiert sein; bei absehbarem Bedarf früh erfahrene Hilfe anfordern.",
+      "keyPoints": [
+        "Teambriefing mit Rollenverteilung und Checkliste",
+        "Abnabelungsstrategie und Elternvorbereitung",
+        "Wärmemanagement vorbereitet",
+        "Material für Atemweg, Beatmung, Monitoring, Zugang, Medikamente geprüft",
+        "Frühzeitig Hilfe anfordern"
+      ],
+      "tags": ["Vorbereitung", "Briefing"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-002",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche Parameter beurteilen Sie bei der **initialen Einschätzung** eines Neugeborenen unmittelbar nach Geburt, und welche Konsequenzen ergeben sich daraus?",
+      "hints": [
+        "Drei Parameter – die Hautfarbe gehört nicht mehr dazu.",
+        "Ab welcher Herzfrequenz bzw. bei welchem Atemmuster beginnen Sie mit Atemunterstützung?"
+      ],
+      "answer": "Beurteilt werden **Atmung** (vorhanden, regelmäßig, Atemarbeit), **Herzfrequenz** und **Muskeltonus** – idealerweise während der verzögerten Abnabelung, begleitet von Abtrocknen, Wärmeschutz und sanfter Stimulation. Die **Hautfarbe** ist zur Beurteilung der Oxygenierung ungeeignet; Blässe wird im Kontext interpretiert (Hypoxie, Azidose, Blutverlust). Konsequenzen: Ein vitales Kind mit regelmäßiger Atmung und Herzfrequenz > 100/min bleibt bei der Mutter (Haut-zu-Haut, warm zudecken). Atmet das Kind nicht regelmäßig oder ist die **Herzfrequenz < 100/min**, werden die Atemwege geöffnet und mit **Atemunterstützung** begonnen; ein sehr schlaffes Kind braucht meist Beatmung. Atmung und Herzfrequenz werden **alle 30 Sekunden** neu beurteilt.",
+      "keyPoints": [
+        "Atmung, Herzfrequenz, Tonus",
+        "Hautfarbe nicht zur Beurteilung der Oxygenierung",
+        "Nicht regelmäßige Atmung oder HF < 100/min: Atemweg öffnen und beatmen",
+        "Reevaluation alle 30 s"
+      ],
+      "tags": ["Initiale Beurteilung", "Herzfrequenz"],
+      "exam": ["KM", "HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was empfehlen die ERC-Leitlinien 2025 zum **Abnabeln** bei Reif- und Frühgeborenen, und wie gehen Sie vor, wenn das Kind **unmittelbar Reanimationsmaßnahmen** braucht?",
+      "hints": [
+        "Mindestdauer und idealer Zeitpunkt in Bezug auf die Lungenbelüftung.",
+        "Was gilt, wenn eine Versorgung an der intakten Nabelschnur nicht möglich ist?"
+      ],
+      "answer": "Ideal ist bei allen Geburten eine **verzögerte Abnabelung von mindestens 60 Sekunden**, möglichst **nach Belüftung der Lunge**; bei Kindern ohne Unterstützungsbedarf kann länger gewartet werden. Wärmemanagement, Stimulation und initiale Beurteilung finden währenddessen statt, die Atemwege werden offen gehalten. Das Vorgehen wird vor der Geburt mit Geburtshilfe und Eltern abgesprochen. Kann eine Stabilisierung an der intakten Nabelschnur sicher durchgeführt werden, ist eine längere Verzögerung vorzuziehen, besonders bei Kindern < 34 SSW. Braucht das Kind Reanimationsmaßnahmen und ist eine Versorgung an der intakten Nabelschnur nicht praktikabel, wird **innerhalb von 30 Sekunden abgenabelt**, um notwendige Maßnahmen nicht zu verzögern. Physiologischer Hintergrund: Belüftung der Lunge vor dem Abnabeln stabilisiert Vorlast und Herzzeitvolumen; zusätzlich profitiert das Kind vom plazentaren Blutvolumen (weniger Transfusionen, bei Frühgeborenen geringere Mortalität).",
+      "keyPoints": [
+        "Verzögertes Abnabeln ≥ 60 s, idealerweise nach Lungenbelüftung",
+        "Beurteilung und Wärmemanagement während des Wartens",
+        "Stabilisierung an intakter Nabelschnur, wenn sicher möglich, v. a. < 34 SSW",
+        "Reanimationsbedarf ohne Möglichkeit an intakter Nabelschnur: Abnabeln < 30 s",
+        "Vorher mit Geburtshilfe und Eltern abstimmen"
+      ],
+      "tags": ["Abnabelung", "Nabelschnurmanagement"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-004",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zum **Ausstreichen der Nabelschnur** (Cord Milking) entspricht den ERC-Leitlinien 2025?",
+      "hints": ["Es gibt eine Gestationsaltersgrenze, unterhalb derer davon abgeraten wird."],
+      "options": [
+        {
+          "text": "Cord Milking ist bei allen Frühgeborenen die bevorzugte Alternative zum verzögerten Abnabeln, weil es schneller geht.",
+          "correct": false
+        },
+        {
+          "text": "Bei Frühgeborenen < 28 SSW soll die Nabelschnur nicht ausgestrichen werden; ab 28 SSW kann es erwogen werden, wenn ein verzögertes Abnabeln nicht möglich ist.",
+          "correct": true
+        },
+        {
+          "text": "Cord Milking wird bei Reifgeborenen mit Reanimationsbedarf routinemäßig empfohlen.",
+          "correct": false
+        },
+        {
+          "text": "Das Ausstreichen ist nur bei Frühgeborenen < 28 SSW sinnvoll, da diese am meisten vom Blutvolumen profitieren.",
+          "correct": false
+        }
+      ],
+      "answer": "Die ERC-Leitlinien 2025 bekräftigen: **kein Cord Milking bei Frühgeborenen < 28 SSW** (in Studien mit mehr schweren Hirnblutungen assoziiert). Ab 28 SSW kann das Ausstreichen der durchtrennten Nabelschnur eine vertretbare Alternative sein, aber **nur wenn ein verzögertes Abnabeln nicht durchgeführt werden kann**. Bevorzugt bleibt das verzögerte Abnabeln von mindestens 60 s.",
+      "keyPoints": [
+        "Kein Cord Milking < 28 SSW (IVH-Risiko)",
+        "Ab 28 SSW nur als Alternative, wenn verzögertes Abnabeln nicht möglich",
+        "Verzögertes Abnabeln bleibt Standard"
+      ],
+      "tags": ["Abnabelung", "Cord Milking"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-005",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **Maßnahmen zum Wärmeerhalt** treffen Sie bei einem reifen Neugeborenen im Kreißsaal, und welcher Temperaturbereich wird angestrebt?",
+      "hints": ["Raumtemperatur, Abtrocknen, Haut-zu-Haut.", "Auch Überwärmung ist schädlich."],
+      "answer": "Ziel ist eine Körpertemperatur von **36,5–37,5 °C**. Maßnahmen: Kreißsaal bei Kindern > 28 SSW auf **23–25 °C**, Zugluft vermeiden (Fenster zu, Klimaanlage anpassen); Kind sofort **abtrocknen**, nasse Tücher entfernen, **Mütze** aufsetzen und mit trockenen Tüchern bedecken; ohne Interventionsbedarf **Haut-zu-Haut-Kontakt** mit der Mutter, beide zudecken und Atemwege im Blick behalten. Bei Unterstützungsbedarf Versorgung auf einer vorgewärmten Einheit unter Wärmestrahler; ist kein Haut-zu-Haut-Kontakt möglich, kann zusätzlich eine Plastikfolie verwendet werden. Temperatur regelmäßig messen, Aufnahmetemperatur dokumentieren (Prognose- und Qualitätsindikator), Hypothermie aktiv behandeln und **Hyperthermie vermeiden**.",
+      "keyPoints": [
+        "Ziel 36,5–37,5 °C",
+        "Raumtemperatur 23–25 °C, keine Zugluft",
+        "Abtrocknen, nasse Tücher entfernen, Mütze",
+        "Haut-zu-Haut-Kontakt bzw. Wärmestrahler",
+        "Temperatur messen und dokumentieren, Hyperthermie vermeiden"
+      ],
+      "tags": ["Wärmemanagement", "Reifgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": ["Körpertemperatur", "Inkubator"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie unterscheidet sich das **Wärmemanagement bei Frühgeborenen < 32 SSW** von dem bei Reifgeborenen? Gehen Sie auch auf Kinder ≤ 28 SSW ein.",
+      "hints": ["Abtrocknen ja oder nein?", "Raumtemperatur, Plastikfolie, Atemgase, Wärmematratze – und deren Risiko."],
+      "answer": "- **Kopf abtrocknen und Mütze**, den **Körper ohne Abtrocknen** sofort in einen Polyethylenbeutel bzw. eine Folie einhüllen (reduziert Verdunstungsverlust).\n- **Raumtemperatur > 25 °C bei ≤ 28 SSW**, sonst 23–25 °C; vorgeheizter Wärmestrahler.\n- Während des verzögerten Abnabelns zusätzliche Maßnahmen erwägen (warme Tücher, Wärmematratze, höhere Raumtemperatur).\n- **Angewärmte, befeuchtete Atemgase** bei Atemunterstützung.\n- Transport im vorgewärmten Inkubator, kontinuierliche bzw. engmaschige Temperaturmessung, **Aufnahmetemperatur** dokumentieren (Qualitätsindikator, Hypothermie bei Aufnahme ist mit höherer Mortalität und Morbidität assoziiert).\n- **Hyperthermie-Risiko**, wenn mehrere Maßnahmen kombiniert werden, besonders mit Wärmematratze – Ziel 36,5–37,5 °C.\n- Haut-zu-Haut-Kontakt während der Stabilisierung nur mit Vorsicht (Hypothermiegefahr).",
+      "keyPoints": [
+        "Kopf trocknen, Mütze, Körper ohne Abtrocknen in Folie",
+        "Raumtemperatur > 25 °C bei ≤ 28 SSW",
+        "Wärmestrahler, ggf. Wärmematratze, befeuchtete warme Atemgase",
+        "Aufnahmetemperatur als Qualitätsindikator",
+        "Hyperthermie bei kombinierten Maßnahmen vermeiden"
+      ],
+      "tags": ["Wärmemanagement", "Frühgeborene < 32 SSW"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": ["Körpertemperatur", "Inkubator"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-007",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes mit 39+0 SSW ist nach Abtrocknen und Stimulation apnoisch, Herzfrequenz 70/min. Wie führen Sie die **initialen Blähhübe** nach ERC 2025 durch?",
+      "hints": ["Anzahl, Inspirationszeit und Druck für ein Kind ≥ 32 SSW."],
+      "options": [
+        {
+          "text": "5 Blähhübe mit je 2–3 s Inspirationszeit, Spitzendruck 30 cmH2O, PEEP 6 cmH2O, FiO2 0,21",
+          "correct": true
+        },
+        { "text": "Ein einzelner Blähhub über 15 s mit 25 cmH2O und FiO2 1,0", "correct": false },
+        { "text": "5 Blähhübe mit je 1 s Inspirationszeit, Spitzendruck 40 cmH2O, FiO2 0,30", "correct": false },
+        { "text": "Sofort Beatmung mit 60/min, 20 cmH2O, ohne PEEP", "correct": false }
+      ],
+      "answer": "ERC 2025: **5 Blähhübe** mit einer Inspirationszeit von **2–3 s**, Startdruck **30 cmH2O bei ≥ 32 SSW** (25 cmH2O bei < 32 SSW), möglichst mit **PEEP 6 cmH2O**; bei Kindern ≥ 32 SSW mit **21 % O2** beginnen. Danach Thoraxexkursion und Herzfrequenz beurteilen. Lange Blähmanöver (> 5 s, Sustained Inflation) werden nicht empfohlen.",
+      "keyPoints": [
+        "5 Blähhübe à 2–3 s",
+        "30 cmH2O ab 32 SSW, 25 cmH2O unter 32 SSW",
+        "PEEP 6 cmH2O, Start mit 21 % O2 ab 32 SSW"
+      ],
+      "tags": ["Blähhübe", "Maskenbeatmung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-008",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nach den 5 Blähhüben sehen Sie **keine Thoraxexkursion**, die Herzfrequenz bleibt bei 60–70/min. Was tun Sie?",
+      "hints": [
+        "Bevor irgendetwas anderes wirkt, muss die Lunge belüftet sein.",
+        "Maske, Kopfposition, Zwei-Personen-Technik, Hilfsmittel, Druck."
+      ],
+      "answer": "Fehlende Thoraxexkursion bedeutet fast immer **unzureichende Belüftung** – ohne belüftete Lunge sind alle weiteren Maßnahmen wirkungslos. Vorgehen: Hilfe rufen, Ausrüstung prüfen, **Maske neu aufsetzen** (Dichtigkeit), **Kopf in Neutralposition**, **Esmarch-Handgriff** (Unterkiefer vorschieben), bevorzugt in **Zwei-Personen-Technik**, und erneut 5 Blähhübe. Bleibt der Erfolg aus, weitere Atemwegsmaßnahmen: **Larynxmaske** (supraglottischer Atemweg) oder Intubation je nach Kompetenz, Absaugen unter Sicht bei Verdacht auf Verlegung, ggf. Guedel-Tubus bei speziellen Situationen (z. B. Mikrognathie). Bleiben die Atemwegsmanöver ohne Erfolg, wird der **Inspirationsdruck schrittweise erhöht** (ERC 2025 nennt weder feste Schrittweite noch Höchstwert; sehr hohe Drücke sind selten nötig). Nach jeder Atemwegsmaßnahme Blähhübe wiederholen, bis Thoraxexkursion oder Herzfrequenzanstieg sichtbar sind; danach Druck wieder reduzieren.",
+      "keyPoints": [
+        "Fehlende Thoraxexkursion = Atemweg/Belüftung unzureichend",
+        "Maske neu, Neutralposition, Esmarch, Zwei-Personen-Technik",
+        "Larynxmaske oder Intubation, Absaugen unter Sicht",
+        "Inspirationsdruck erhöhen, wenn Atemwegsmanöver nicht ausreichen; bei Thoraxexkursion wieder senken",
+        "Blähhübe wiederholen und Erfolg an Thorax und Herzfrequenz prüfen"
+      ],
+      "tags": ["Atemwegsmanagement", "Maskenbeatmung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nach erfolgreichen Blähhüben (sichtbare Thoraxexkursion) atmet das reife Neugeborene noch nicht. Wie setzen Sie die **Beatmung** fort, und woran erkennen Sie den Erfolg?",
+      "hints": [
+        "Frequenz und Inspirationszeit der Beatmungshübe.",
+        "Welcher Parameter zeigt eine effektive Ventilation am besten an?"
+      ],
+      "answer": "Beatmung mit **30 Hüben/min** (15 Hübe in 30 s) und einer **Inspirationszeit von etwa 1 s**, PEEP 6 cmH2O, mit dem niedrigsten Druck, der eine sichtbare Thoraxexkursion erzeugt. Nach 30 s Atmung und Herzfrequenz erneut beurteilen. **Bester Erfolgsparameter ist ein Anstieg der Herzfrequenz** bzw. eine stabile Herzfrequenz > 100/min; eine HF < 100/min oder fallende HF spricht fast immer für unzureichende Ventilation. Falls verfügbar, kann ein Atemfunktionsmonitor helfen (exspiratorisches Tidalvolumen ca. 4–8 ml/kg). Beatmung ununterbrochen fortsetzen, bis das Kind ausreichend atmet und die HF > 100/min liegt; bei anhaltender Apnoe Larynxmaske oder Tubus erwägen. Fällt die HF trotz 30 s effektiver Ventilation unter 60/min, folgen Thoraxkompressionen.",
+      "keyPoints": [
+        "30/min, Inspirationszeit ca. 1 s, PEEP 6 cmH2O",
+        "Reevaluation nach 30 s",
+        "Herzfrequenzanstieg als bester Erfolgsindikator",
+        "Tidalvolumen 4–8 ml/kg bei Atemfunktionsmonitor",
+        "Bei anhaltender Apnoe Larynxmaske/Tubus erwägen"
+      ],
+      "tags": ["Maskenbeatmung", "Ventilation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann beginnen Sie bei einem Neugeborenen mit **Thoraxkompressionen**, und wie führen Sie sie durch?",
+      "hints": [
+        "Voraussetzung ist eine effektive Ventilation über eine bestimmte Zeit.",
+        "Technik, Tiefe, Verhältnis zur Beatmung, Sauerstoff, Reevaluation."
+      ],
+      "answer": "**Indikation:** Herzfrequenz **< 60/min trotz mindestens 30 s effektiver Beatmung** (sichtbare Thoraxexkursion). Dann: **FiO2 auf 1,0** erhöhen, erfahrene Hilfe rufen, Atemweg sichern (Larynxmaske oder Tubus, je nach Kompetenz) und Gefäßzugang (Nabelvenenkatheter) vorbereiten. **Technik:** Zwei-Daumen-Technik mit umgreifenden Händen auf dem unteren Sternumdrittel, Kompressionstiefe **ein Drittel des sagittalen Thoraxdurchmessers**, vollständige Entlastung. **Synchronisiertes Verhältnis 3:1** mit ca. **90 Kompressionen und 30 Beatmungen pro Minute** (120 Aktionen). Herzfrequenz **alle 30 s** überprüfen (EKG am zuverlässigsten); Kompressionen beenden, wenn die HF > 60/min steigt, und Kreislauf prüfen. Nach Erholung Sauerstoff nach SpO2 titrieren.",
+      "keyPoints": [
+        "HF < 60/min nach ≥ 30 s effektiver Ventilation",
+        "FiO2 1,0, Atemweg sichern, Zugang vorbereiten",
+        "Zwei-Daumen-Technik, 1/3 Thoraxtiefe",
+        "3:1, 90 Kompressionen + 30 Beatmungen/min",
+        "Reevaluation alle 30 s, Stopp bei HF > 60/min"
+      ],
+      "tags": ["Thoraxkompression", "Reanimation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-011",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welches **Kompressions-Ventilations-Verhältnis** wird bei der Reanimation eines Neugeborenen im Kreißsaal angewendet – auch nach Intubation oder Einlage einer Larynxmaske?",
+      "hints": ["Beim Neugeborenen steht die Ventilation im Vordergrund."],
+      "options": [
+        { "text": "15:2", "correct": false },
+        { "text": "30:2", "correct": false },
+        { "text": "3:1, synchronisiert", "correct": true },
+        { "text": "Kontinuierliche Kompressionen mit 100–120/min und asynchroner Beatmung", "correct": false }
+      ],
+      "answer": "Beim Neugeborenen gilt ein **synchronisiertes Verhältnis von 3:1** (ca. 90 Kompressionen und 30 Beatmungen pro Minute), da die Ursache des Kreislaufstillstands fast immer respiratorisch ist. Laut ERC 2025 wird das 3:1-Verhältnis auch nach Einlage eines supraglottischen Atemwegs oder Intubation beibehalten.",
+      "keyPoints": [
+        "3:1 synchronisiert, 120 Aktionen/min",
+        "Auch nach Atemwegssicherung beibehalten",
+        "Begründung: überwiegend respiratorische Genese"
+      ],
+      "tags": ["Thoraxkompression", "Reanimation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann ist **Adrenalin** bei der Neugeborenenreanimation indiziert? Nennen Sie Applikationsweg, Dosierung, Konzentration und Wiederholungsintervall nach ERC 2025.",
+      "hints": [
+        "Erst nach effektiver Ventilation und Thoraxkompressionen.",
+        "Bevorzugter Zugang ist der Nabelvenenkatheter; intratracheal nur ausnahmsweise."
+      ],
+      "answer": "**Indikation:** Herzfrequenz bleibt **< 60/min und steigt nicht**, obwohl der Atemweg gesichert ist, effektiv beatmet wird und seit mindestens 30 s Thoraxkompressionen laufen. **Weg:** bevorzugt **Nabelvenenkatheter**, alternativ intraossär. **Dosis i.v./i.o.: 10–30 µg/kg** = 0,1–0,3 ml/kg Adrenalin 1:10 000 (0,1 mg/ml), in der Praxis meist **20 µg/kg = 0,2 ml/kg**, anschließend mit NaCl 0,9 % nachspülen. **Wiederholung alle 4 Minuten**, solange die HF < 60/min bleibt. Ist das Kind intubiert und noch kein Gefäßzugang vorhanden: **intratracheal 100 µg/kg** (1 ml/kg der 1:10 000-Lösung); sobald ein i.v./i.o.-Zugang liegt, sofort eine i.v.-Dosis geben, unabhängig vom Zeitpunkt der intratrachealen Gabe. Vorher immer Ventilation und Kompressionstechnik überprüfen.",
+      "keyPoints": [
+        "Indikation: HF < 60/min trotz effektiver Ventilation und ≥ 30 s Kompressionen",
+        "Nabelvenenkatheter bevorzugt, alternativ i.o.",
+        "10–30 µg/kg i.v./i.o. (meist 20 µg/kg = 0,2 ml/kg der 1:10 000-Lösung)",
+        "Wiederholung alle 4 min",
+        "Intratracheal 100 µg/kg nur ohne Zugang; danach sofort i.v."
+      ],
+      "tags": ["Adrenalin", "Medikamente"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-013",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes mit geschätzt **3,2 kg** benötigt Adrenalin über den Nabelvenenkatheter. Wie viele **ml Adrenalin 1:10 000** (0,1 mg/ml) geben Sie bei einer Dosis von 20 µg/kg?",
+      "hints": ["Erst die Dosis in µg berechnen.", "0,1 mg/ml = 100 µg/ml."],
+      "answer": "Dosis: 20 µg/kg × 3,2 kg = **64 µg**. Volumen: 64 µg / 100 µg/ml = **0,64 ml** (entspricht 0,2 ml/kg). Danach mit NaCl 0,9 % nachspülen. ERC 2025 nennt einen Dosisbereich von 10–30 µg/kg; 20 µg/kg liegt in dessen Mitte.",
+      "keyPoints": ["Dosis 64 µg", "Konzentration 100 µg/ml", "Ergebnis 0,64 ml"],
+      "solution": { "value": 0.64, "unit": "ml", "tolerance": 0.05 },
+      "tags": ["Adrenalin", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-014",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein intubiertes Neugeborenes (**2,5 kg**) hat unter Reanimation noch keinen Gefäßzugang. Sie entscheiden sich für **intratracheales Adrenalin** nach ERC 2025. Wie viele ml der Lösung 1:10 000 (0,1 mg/ml) geben Sie?",
+      "hints": ["Die intratracheale Dosis ist deutlich höher als die intravenöse.", "100 µg/kg."],
+      "answer": "Intratracheale Dosis: 100 µg/kg × 2,5 kg = **250 µg**. Volumen: 250 µg / 100 µg/ml = **2,5 ml** (entspricht 1 ml/kg). Sobald ein Nabelvenenkatheter oder i.o.-Zugang liegt, bei weiterhin HF < 60/min sofort eine i.v./i.o.-Dosis (10–30 µg/kg) geben.",
+      "keyPoints": ["100 µg/kg intratracheal", "250 µg = 2,5 ml der 1:10 000-Lösung", "Danach frühestmöglich i.v.-Gabe"],
+      "solution": { "value": 2.5, "unit": "ml", "tolerance": 0.05 },
+      "tags": ["Adrenalin", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann ist im Kreißsaal eine **Volumengabe** indiziert, womit und in welcher Dosis? Nennen Sie typische Situationen.",
+      "hints": ["Denken Sie an akuten Blutverlust unter der Geburt.", "Kristalloid oder Blut?"],
+      "answer": "Indikation: **Verdacht auf Blutverlust** oder hypovolämischer Schock bzw. fehlendes Ansprechen auf die übrigen Reanimationsmaßnahmen. Typische Situationen: vorzeitige Plazentalösung, Placenta praevia, **Vasa praevia**/Nabelschnureinriss, akute fetomaternale oder fetofetale Transfusion, subgaleale Blutung; klinisch Blässe, schwache Pulse, verlängerte Rekapillarisierung, persistierende Tachy- oder Bradykardie. Gabe: **10 ml/kg** isotone Kristalloidlösung (NaCl 0,9 %) oder **Erythrozytenkonzentrat der Blutgruppe 0 Rh-negativ** (Notfallkonserve), über einige Minuten über Nabelvenenkatheter oder i.o.; bei Bedarf wiederholen. Danach Hb/Hk, Blutgasanalyse, Gerinnung und Kreuzblut abnehmen bzw. nachfordern.",
+      "keyPoints": [
+        "Indikation: Verdacht auf Blutverlust oder fehlendes Ansprechen",
+        "Ursachen: Plazentalösung, Vasa praevia, fetomaternale Transfusion",
+        "10 ml/kg NaCl 0,9 % oder 0 Rh-negatives EK",
+        "Über NVK oder i.o., ggf. wiederholen"
+      ],
+      "tags": ["Volumentherapie", "Hypovolämie"],
+      "exam": ["HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-016",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Nach vorzeitiger Plazentalösung ist ein reifes Neugeborenes (**3,6 kg**) blass mit schwachen Pulsen. Wie viel ml NaCl 0,9 % geben Sie als **ersten Volumenbolus**?",
+      "hints": ["Standarddosis pro kg Körpergewicht."],
+      "answer": "Volumenbolus 10 ml/kg × 3,6 kg = **36 ml** NaCl 0,9 % (alternativ 0 Rh-negatives Erythrozytenkonzentrat), über einige Minuten über den Nabelvenenkatheter, danach Wirkung beurteilen und ggf. wiederholen.",
+      "keyPoints": ["10 ml/kg", "Ergebnis 36 ml", "Reevaluation und ggf. Wiederholung"],
+      "solution": { "value": 36, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Volumentherapie", "Berechnung"],
+      "exam": ["HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welcher **Gefäßzugang** ist bei der Reanimation im Kreißsaal zu bevorzugen, wie legen Sie ihn an, und welche Alternative gibt es?",
+      "hints": ["Sauber statt steril – Zeit ist entscheidend.", "Wie tief schieben Sie den Notfallkatheter vor?"],
+      "answer": "Bevorzugt ist der **Notfall-Nabelvenenkatheter**: unter **sauberen, nicht sterilen Bedingungen** zur Zeitersparnis; Nabelschnur unterbinden bzw. mit Bändchen sichern, kurz über der Haut durchtrennen, die Vene (dünnwandig, groß, meist einzeln) identifizieren, mit NaCl gefüllten Katheter (z. B. 3,5–5 Fr) einführen und **nur so weit vorschieben, bis Blut aspirierbar ist** (bei Reifgeborenen meist wenige Zentimeter) – eine tiefe Lage in der Leber ist zu vermeiden. Der Katheter kann auch einige Tage nach Geburt noch möglich sein. **Alternative:** **intraossärer Zugang** (proximale Tibia), unter Beachtung der gerätespezifischen Gewichtsgrenzen; nicht aspirieren, auf Paravasat achten. Außerklinisch ist i.o. meist der erste Zugangsweg. Medikamente immer mit NaCl nachspülen.",
+      "keyPoints": [
+        "Notfall-NVK bevorzugt, sauber statt steril",
+        "Vorschieben nur bis Blut aspirierbar, keine Leberposition",
+        "Alternative intraossär, Gewichtsgrenzen, kein Aspirieren",
+        "Nachspülen mit NaCl"
+      ],
+      "tags": ["Nabelvenenkatheter", "Intraossärer Zugang"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie gehen Sie bei der Erstversorgung mit **Sauerstoff** um? Nennen Sie die Start-FiO2 nach Gestationsalter, den Messort und die **SpO2-Zielbereiche** nach ERC 2025.",
+      "hints": ["Die Start-FiO2 wurde 2025 vereinfacht: Grenze 32 SSW.", "Präduktal messen."],
+      "answer": "**Start-FiO2** bei Atemunterstützung: **≥ 32 SSW 21 %**, **< 32 SSW 30 %**; Luft-Sauerstoff-Mischer verwenden. **Messung präduktal an der rechten Hand** (Sensor zuerst am Kind, dann am Gerät anschließen). FiO2 nach SpO2 titrieren (25.–75. Perzentile); ERC 2025 nennt als akzeptable Werte etwa **3 min 70–75 %, 5 min 80–85 %, 10 min 85–95 %**. **SpO2 < 80 % und/oder Bradykardie mit 5 Minuten vermeiden** (von ERC für < 32 SSW ausdrücklich formuliert), Sauerstoff **reduzieren, wenn die SpO2 > 95 % liegt** (Hyperoxie schädigt, v. a. Frühgeborene). Sauerstoff ersetzt keine effektive Ventilation – bei Hypoxie zuerst Belüftung prüfen. Bei Thoraxkompressionen FiO2 1,0, nach Erholung zügig zurücktitrieren.",
+      "keyPoints": [
+        "Start ≥ 32 SSW 21 %, < 32 SSW 30 %",
+        "Präduktale Messung rechte Hand",
+        "Ziel etwa 70–75 % (3 min), 80–85 % (5 min), 85–95 % (10 min)",
+        "SpO2 > 95 %: O2 reduzieren; < 80 % mit 5 min vermeiden",
+        "Bei Kompressionen 100 %, danach titrieren"
+      ],
+      "tags": ["Sauerstoff", "SpO2-Zielwerte"],
+      "exam": ["KM", "HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-019",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes 28+0 SSW erhält im Alter von **4 Minuten** CPAP 6 cmH2O mit **FiO2 0,40**. Herzfrequenz 145/min, regelmäßige Spontanatmung, präduktale **SpO2 97 %**. Was ist der nächste Schritt?",
+      "hints": [
+        "Vergleichen Sie mit dem Zielbereich bei 5 Minuten.",
+        "Was ist die Obergrenze, ab der Sauerstoff reduziert wird?"
+      ],
+      "options": [
+        {
+          "text": "FiO2 unverändert lassen, da Frühgeborene in den ersten Minuten hohe Sättigungen benötigen",
+          "correct": false
+        },
+        { "text": "FiO2 schrittweise reduzieren, Ziel um 5 Minuten etwa 80–85 %", "correct": true },
+        { "text": "FiO2 auf 1,0 erhöhen und Surfactant geben", "correct": false },
+        { "text": "CPAP beenden und das Kind auf Raumluft umstellen", "correct": false }
+      ],
+      "answer": "Die SpO2 liegt mit 97 % deutlich über dem Zielbereich (etwa 80–85 % bei 5 min). Laut ERC 2025 soll **Sauerstoff reduziert werden, wenn die SpO2 > 95 % liegt**, um Hyperoxie zu vermeiden (Risiko u. a. für ROP, BPD, oxidativen Stress). CPAP wird bei einem Frühgeborenen < 32 SSW mit Atemstörung fortgeführt; ein Surfactantbedarf ergibt sich nicht aus einer hohen, sondern aus einer steigenden FiO2 unter adäquatem CPAP.",
+      "keyPoints": ["SpO2 > 95 %: FiO2 reduzieren", "Ziel um 5 min etwa 80–85 %", "Hyperoxie vermeiden, CPAP beibehalten"],
+      "tags": ["Sauerstoff", "SpO2-Zielwerte", "Frühgeborene"],
+      "exam": ["HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Mit welchen **Methoden** bestimmen Sie die **Herzfrequenz** während der Erstversorgung, und welche Vor- und Nachteile haben sie?",
+      "hints": [
+        "Stethoskop, Palpation, Pulsoxymetrie, EKG.",
+        "Welche Methode ist am schnellsten und genauesten – und welche Falle gibt es?"
+      ],
+      "answer": "- **Auskultation** mit dem Stethoskop: schnell und als erste Methode vertretbar, aber intermittierend und bei Lärm/Hektik ungenau.\n- **Palpation** der Nabelschnur: unzuverlässig, unterschätzt die HF häufig.\n- **Pulsoxymetrie**: kontinuierlich, liefert zusätzlich die SpO2, braucht aber oft 1–2 min bis zum verlässlichen Signal und ist bei schlechter Perfusion unzuverlässig.\n- **EKG** (Brustwand- oder Extremitätenelektroden): **schnellste und präziseste kontinuierliche Methode**, daher bei Interventionen und bei der Stabilisierung von Frühgeborenen bevorzugt. Einschränkung: Elektrische Aktivität ohne Auswurf (pulslose elektrische Aktivität) ist möglich – bei fehlenden Lebenszeichen den Kreislauf zusätzlich klinisch bzw. per Pulsoxymetrie/Auskultation prüfen.",
+      "keyPoints": [
+        "Auskultation als vertretbare erste Methode",
+        "Palpation der Nabelschnur unzuverlässig",
+        "Pulsoxymetrie verzögert, liefert SpO2",
+        "EKG am schnellsten und genauesten",
+        "Cave PEA beim EKG"
+      ],
+      "tags": ["Herzfrequenz", "Monitoring"],
+      "exam": ["KM", "HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-021",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes wird aus **dickem, grünem Fruchtwasser** geboren. Es ist schlaff und atmet nicht. Was ist der **erste Schritt** nach ERC 2025?",
+      "hints": ["Was verzögert die wichtigste Maßnahme?"],
+      "options": [
+        { "text": "Sofortige Intubation und tracheales Absaugen vor der ersten Beatmung", "correct": false },
+        {
+          "text": "Atemweg öffnen und innerhalb der ersten Lebensminute mit Blähhüben bzw. Maskenbeatmung beginnen; nicht routinemäßig absaugen",
+          "correct": true
+        },
+        {
+          "text": "Gründliches oropharyngeales Absaugen durch die Hebamme bereits nach Entwicklung des Kopfes",
+          "correct": false
+        },
+        { "text": "Taktile Stimulation über 2 Minuten, bevor beatmet wird", "correct": false }
+      ],
+      "answer": "Bei nicht vitalen Kindern aus mekoniumhaltigem Fruchtwasser soll **nicht routinemäßig abgesaugt** werden, weil das die Beatmung verzögert. Ziel ist der **Beatmungsbeginn innerhalb der ersten Lebensminute**. Erst wenn die Lungenbelüftung trotz optimierter Atemwegsmaßnahmen nicht gelingt, wird an eine physische Verlegung gedacht: oropharyngeales Absaugen **unter Sicht**, selten tracheales Absaugen über einen Tubus (Mekoniumabsaugadapter) bei Verdacht auf Obstruktion unterhalb der Stimmbänder.",
+      "keyPoints": [
+        "Kein routinemäßiges Absaugen",
+        "Beatmung innerhalb der ersten Minute",
+        "Absaugen nur bei Verdacht auf Obstruktion, unter Sicht bzw. tracheal"
+      ],
+      "tags": ["Mekonium", "Atemwegsmanagement"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-022",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Nennen Sie die **Indikationen zur Intubation** während der Erstversorgung, wie Sie sie durchführen und wie Sie die **Tubuslage bestätigen**. Welche Falle gibt es bei der CO2-Detektion?",
+      "hints": [
+        "Ineffektive Masken- oder Larynxmaskenbeatmung, Kompressionen, spezielle Situationen.",
+        "Videolaryngoskopie; exspiratorisches CO2 – bei welchem Kreislaufzustand irreführend?"
+      ],
+      "answer": "**Indikationen:** ineffektive Masken- bzw. Larynxmaskenbeatmung, prolongierte Beatmung, tracheales Absaugen bei Verdacht auf Verlegung, Thoraxkompressionen (Atemweg sichern, alternativ Larynxmaske), spezielle Situationen wie **Zwerchfellhernie** oder Surfactantgabe. **Durchführung:** verschiedene Tubusgrößen bereitlegen (Orientierung nach der ERC-2025-Tabelle: Innendurchmesser 2,5 mm bis etwa 1500 g, 2,5/3,0 mm um 1500–1750 g, 3,0 mm um 2000–2500 g, 3,0/3,5 mm um 3000 g, 3,5 mm ab etwa 3500 g; lokale Tabellen beachten), **Videolaryngoskopie**, wenn verfügbar und beherrscht (höhere Erfolgsrate beim ersten Versuch), sonst direkte Laryngoskopie; Versuche kurz halten, dazwischen beatmen. **Lagekontrolle:** **exspiratorischer CO2-Nachweis** (kolorimetrisch oder Kapnographie) plus Klinik (Herzfrequenzanstieg, seitengleiche Thoraxexkursion und Atemgeräusch, beschlagener Tubus), später Röntgen. **Falle:** Bei sehr niedrigem oder fehlendem Herzzeitvolumen kann der CO2-Nachweis **falsch negativ** sein – dann nicht automatisch extubieren, sondern Lage laryngoskopisch kontrollieren.",
+      "keyPoints": [
+        "Indikationen: ineffektive Maske/LMA, prolongierte Beatmung, Absaugen, Kompressionen, CDH",
+        "Videolaryngoskopie bevorzugt",
+        "Tubusgröße nach Gewicht",
+        "Bestätigung mit exspiratorischem CO2 und Klinik",
+        "CO2 falsch negativ bei fehlendem Herzzeitvolumen"
+      ],
+      "tags": ["Intubation", "Atemwegsmanagement"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.3 – Intubation",
+          "terms": ["Intubation", "Tubusgröße"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-023",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "In welcher Situation ist der Einsatz eines **supraglottischen Atemwegs (Larynxmaske)** bei der Neugeborenenversorgung nach ERC 2025 besonders angezeigt?",
+      "hints": ["Denken Sie an ein Kind, bei dem die Maskenbeatmung nicht gelingt."],
+      "options": [
+        { "text": "Zum trachealen Absaugen von Mekonium", "correct": false },
+        {
+          "text": "Routinemäßig als erste Maßnahme bei jedem apnoischen Neugeborenen anstelle der Gesichtsmaske",
+          "correct": false
+        },
+        {
+          "text": "Wenn die Maskenbeatmung trotz optimierter Technik ineffektiv ist und eine Intubation nicht möglich oder nicht sicher durchführbar ist",
+          "correct": true
+        },
+        { "text": "Bei spontan atmenden Frühgeborenen zur CPAP-Applikation", "correct": false }
+      ],
+      "answer": "Die ERC 2025 empfehlen, einen supraglottischen Atemweg in passender Größe zu erwägen, wenn die **Maskenbeatmung ineffektiv** ist, als **Alternative zur Intubation**, wenn diese nicht möglich oder nicht sicher ist (Fehlbildung, fehlende Ausrüstung oder Erfahrung), und **während Thoraxkompressionen**. Außerklinisch kann er früh sinnvoll sein. Zum trachealen Absaugen ist er ungeeignet; erstes Hilfsmittel bleibt die Gesichtsmaske bzw. das nasale Interface. Daten für sehr kleine Frühgeborene sind begrenzt (die kleinste Größe 1 ist je nach Hersteller für etwa 2–5 kg ausgelegt; die Studien schlossen überwiegend Kinder > 1500 g bzw. ≥ 34 SSW ein).",
+      "keyPoints": [
+        "Ineffektive Maskenbeatmung",
+        "Alternative zur Intubation",
+        "Auch bei Thoraxkompressionen",
+        "Nicht zum Absaugen"
+      ],
+      "tags": ["Larynxmaske", "Atemwegsmanagement"],
+      "exam": ["KM", "HK"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-024",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes 30+2 SSW atmet spontan, zeigt aber Einziehungen und Stöhnen. Wie gestalten Sie die **Atemunterstützung im Kreißsaal**, und wann denken Sie an **Surfactant**?",
+      "hints": ["CPAP-Niveau laut ERC 2025.", "European Consensus Guidelines on RDS 2025: FiO2-Schwelle unter CPAP."],
+      "answer": "Bei spontan atmenden Frühgeborenen < 32 SSW mit Atemnot ist **CPAP mit 6 cmH2O** die initiale Unterstützung (Maske oder nasales Interface, T-Stück), Start-FiO2 0,30 und Titration nach SpO2-Zielbereichen; Atemgase angewärmt und befeuchtet. Bei Kindern ≥ 32 SSW mit Atemnot wird CPAP eingesetzt, wenn zusätzlicher Sauerstoff benötigt wird. Intubation vermeiden, solange CPAP ausreicht. **Surfactant** nach den European Consensus Guidelines RDS 2025 früh, wenn bei einem Kind mit RDS unter nicht-invasiver Atemhilfe mit mindestens 6 cmH2O der **FiO2-Bedarf ≥ 0,30** beträgt oder der Lungenultraschall dafür spricht – bevorzugt **über einen dünnen Katheter (LISA/MIST)**; bei < 28 SSW wird teils eine selektive LISA-Prophylaxe erwogen. Bei Apnoe oder Erschöpfung: Beatmung mit PEEP 6 cmH2O und ggf. Intubation.",
+      "keyPoints": [
+        "CPAP 6 cmH2O als initiale Unterstützung < 32 SSW",
+        "≥ 32 SSW: CPAP bei Atemnot mit O2-Bedarf",
+        "Start-FiO2 0,30, Titration nach SpO2",
+        "Surfactant bei FiO2 ≥ 0,30 unter ≥ 6 cmH2O (oder Lungenultraschall), bevorzugt LISA",
+        "Intubation bei Apnoe/Erschöpfung"
+      ],
+      "tags": ["CPAP", "Surfactant", "Frühgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support; European Consensus Guidelines on the Management of RDS: 2025"
+    },
+    {
+      "id": "reani-025",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Sie versorgen ein Frühgeborenes **24+5 SSW, Schätzgewicht 650 g**, nach vollständiger Lungenreife; die Eltern wünschen nach pränataler Beratung eine lebenserhaltende Therapie. Beschreiben Sie Ihr **Vorgehen von der Vorbereitung bis zur Aufnahme** auf die Intensivstation.",
+      "hints": [
+        "Wärme, Abnabelung, Atemunterstützung, Sauerstoff, Monitoring.",
+        "Welche Drücke und welche FiO2 verwenden Sie bei < 32 SSW?"
+      ],
+      "answer": "**Vorbereitung:** erfahrenes Team, Briefing, Kreißsaal **> 25 °C**, vorgewärmter Strahler und Transportinkubator, Folie, Mütze, kleine Masken, Laryngoskop/Tuben 2,5, Surfactant. **Geburt:** Kopf trocknen, Mütze, **Körper ohne Abtrocknen in Folie**; **verzögertes Abnabeln ≥ 60 s**, wenn das Kind dabei sicher zu stabilisieren ist (kein Cord Milking < 28 SSW). **Atmung:** sanfte Stimulation; bei Spontanatmung **CPAP 6 cmH2O**; bei Apnoe oder HF < 100/min 5 Blähhübe mit **25 cmH2O**, PEEP 6 cmH2O, dann Beatmung; **Start-FiO2 0,30**, Titration nach präduktaler SpO2 (Hyperoxie vermeiden). **Monitoring:** EKG für kontinuierliche HF, Pulsoxymetrie rechte Hand. **Surfactant** bei steigendem O2-Bedarf unter CPAP, bevorzugt LISA (zentrumsabhängig auch früh bzw. prophylaktisch), sonst nach Intubation. **Weiteres:** schonendes Handling, Kopf in Mittelstellung, Temperatur kontinuierlich messen, Transport im vorgewärmten Inkubator mit angewärmten, befeuchteten Atemgasen, **Aufnahmetemperatur 36,5–37,5 °C**. Eltern sehen und berühren lassen, wenn möglich; alle Zeiten und Maßnahmen dokumentieren. ERC 2025 betont, dass die Evidenz für Kinder < 25 SSW begrenzt ist und lokal festgelegte Vorgehensweisen gelten sollen.",
+      "keyPoints": [
+        "Raum > 25 °C, Folie ohne Abtrocknen, Mütze",
+        "Verzögertes Abnabeln ≥ 60 s, kein Cord Milking < 28 SSW",
+        "CPAP/PEEP 6 cmH2O, Blähhübe 25 cmH2O, FiO2 0,30 titriert",
+        "EKG und präduktale SpO2",
+        "Surfactant (LISA), Normothermie bei Aufnahme, Elterneinbindung"
+      ],
+      "tags": ["Extremes Frühgeborenes", "Erstversorgung < 28 SSW"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Was versteht man unter **Sustained Inflation**, und warum wird sie in der Erstversorgung von Frühgeborenen **nicht empfohlen**?",
+      "hints": [
+        "Blähmanöver über deutlich mehr als 5 Sekunden.",
+        "Eine große randomisierte Studie wurde wegen erhöhter Mortalität vorzeitig beendet."
+      ],
+      "answer": "Sustained Inflation bezeichnet ein **verlängertes initiales Blähmanöver** von typischerweise 10–15 s (deutlich > 5 s), mit dem Ziel, rascher eine funktionelle Residualkapazität aufzubauen. Tierexperimentell plausibel, zeigte die große randomisierte **SAIL-Studie** bei Frühgeborenen 23–26 SSW keinen Vorteil hinsichtlich BPD oder Tod, aber eine **erhöhte frühe Mortalität** in der Interventionsgruppe; sie wurde vorzeitig abgebrochen. Daher wird Sustained Inflation außerhalb von Studien **nicht empfohlen**. Standard sind 5 Blähhübe von 2–3 s (bei < 32 SSW mit 25 cmH2O) mit PEEP 6 cmH2O bzw. CPAP bei Spontanatmung.",
+      "keyPoints": [
+        "Blähmanöver > 5 s (meist 10–15 s)",
+        "SAIL-Studie: kein Nutzen, erhöhte frühe Mortalität",
+        "Nicht empfohlen außerhalb von Studien",
+        "Standard: 5 Blähhübe à 2–3 s mit PEEP"
+      ],
+      "tags": ["Sustained Inflation", "Frühgeborene", "Evidenz"],
+      "exam": ["KM"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-027",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Rolle spielen **Glukose, Natriumbikarbonat und Naloxon** bei der Neugeborenenreanimation nach den ERC-Leitlinien 2025?",
+      "hints": ["Bei einem Medikament gab es 2025 eine klare Änderung.", "Glukose: messen oder empirisch geben?"],
+      "answer": "**Glukose:** Hypo- und Hyperglykämie schaden beide. Daher den **Blutzucker während der Reanimation messen** und **nur bei niedrigem Wert** behandeln (häufig verwendete Schwelle 2,6 mmol/l): **200 mg/kg = 2 ml/kg Glukose 10 %** i.v.; keine empirische Gabe. Nach der Reanimation Blutzucker engmaschig kontrollieren und große Schwankungen vermeiden. **Natriumbikarbonat** ist aus der Reanimationsempfehlung 2025 **gestrichen**; es kann allenfalls im Rahmen der Postreanimationsbehandlung nach lokalen Standards erwogen werden. **Naloxon** ist kein Bestandteil der Reanimation: Ein apnoisches Kind nach mütterlicher Opioidgabe wird beatmet; bei Opioidabhängigkeit der Mutter droht durch Naloxon ein akuter Entzug mit Krampfanfällen.",
+      "keyPoints": [
+        "Glukose: messen, nur bei Hypoglykämie 2 ml/kg G10 % (200 mg/kg)",
+        "Keine empirische Glukosegabe, Schwankungen vermeiden",
+        "Bikarbonat 2025 aus der Reanimation gestrichen",
+        "Naloxon kein Reanimationsmedikament, Beatmung vorrangig"
+      ],
+      "tags": ["Medikamente", "Glukose", "Bikarbonat"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-028",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Während einer prolongierten Reanimation eines Neugeborenen (**3,1 kg**) messen Sie einen Blutzucker von 1,6 mmol/l. Wie viele ml **Glukose 10 %** geben Sie nach ERC 2025 als Bolus?",
+      "hints": ["200 mg/kg.", "Glukose 10 % enthält 100 mg/ml."],
+      "answer": "Dosis: 200 mg/kg × 3,1 kg = **620 mg**. Volumen: 620 mg / 100 mg/ml = **6,2 ml** Glukose 10 % (= 2 ml/kg), danach Glukoseinfusion und BZ-Kontrollen.",
+      "keyPoints": ["200 mg/kg = 2 ml/kg Glukose 10 %", "620 mg", "Ergebnis 6,2 ml"],
+      "solution": { "value": 6.2, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Glukose", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-029",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes wird seit 15 Minuten reanimiert, die Herzfrequenz ist weiterhin nicht nachweisbar. Welche **reversiblen Ursachen** prüfen Sie, und wann erwägen Sie die **Beendigung der Reanimation**?",
+      "hints": ["Technik, Luft im Thorax, Volumen, Fehlbildungen.", "ERC nennt eine Zeitmarke ab Geburt."],
+      "answer": "**Systematische Fehlersuche:** Ausrüstung und Sauerstoffzufuhr, Tubuslage (Dislokation, Obstruktion), Effektivität von Ventilation und Kompressionen, Medikamentenzugang und -dosis. **Reversible Ursachen:** **Pneumothorax** (Diaphanoskopie, Sonographie, Entlastungspunktion), **Hypovolämie** (Volumen, 0 Rh-negatives Blut), angeborene Fehlbildungen (Zwerchfellhernie, Atemwegsobstruktion), Perikarderguss/Hydrops, Hypoglykämie. **Beendigung:** Bleibt die Herzfrequenz **mehr als 20 Minuten nach Geburt** trotz aller empfohlenen Maßnahmen und Ausschluss reversibler Ursachen nicht nachweisbar, soll die Beendigung erwogen werden; bei (extrem) unreifen Kindern kann eine frühere, individuelle Entscheidung angemessen sein. Bei nur partieller HF-Erholung ist die Situation weniger klar – ggf. Aufnahme auf die Intensivstation und spätere Therapiezieländerung. Die Entscheidung trifft der erfahrenste Arzt im Team; danach palliative Begleitung, Eltern einbeziehen und Abschied ermöglichen, Dokumentation und Teamdebriefing.",
+      "keyPoints": [
+        "Technik und Ausrüstung systematisch prüfen",
+        "Pneumothorax, Hypovolämie, Fehlbildungen, Hypoglykämie",
+        "Keine HF > 20 min nach Geburt trotz aller Maßnahmen: Beendigung erwägen",
+        "Bei Frühgeborenen ggf. früher, individuell",
+        "Palliative Begleitung, Eltern, Dokumentation, Debriefing"
+      ],
+      "tags": ["Reanimationsabbruch", "Reversible Ursachen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-030",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Was gehört zur **Dokumentation** einer Erstversorgung bzw. Reanimation, wie gehen Sie mit den **Eltern** um, und wozu dient das **Debriefing**?",
+      "hints": ["Zeitbezogene Aufzeichnung.", "Eltern dürfen dabei sein – mit Begleitperson."],
+      "answer": "**Dokumentation:** genaue, **zeitbezogene** Aufzeichnung von Zustand, Maßnahmen und Reaktion (Herzfrequenz, Atmung, SpO2, FiO2, Beatmungsdrücke, Medikamente mit Dosis und Zeit, Zugänge), **Apgar-Werte mit Einzelkomponenten**, Nabelschnur-Blutgase, Zeitpunkt der Abnabelung, sowie alle Gespräche mit den Eltern. **Eltern:** wenn gewünscht und möglich, bei der Versorgung anwesend sein lassen, eine Begleitperson aus dem Team benennen, fortlaufend informieren, Kontakt zum Kind so früh wie möglich ermöglichen (auch bei erfolgloser Reanimation) und später ein Nachgespräch anbieten. **Debriefing:** strukturierte, interprofessionelle Nachbesprechung zeitnah nach jeder Reanimation bzw. ungewöhnlichen Versorgung zur Verbesserung von Team- und Einzelleistung sowie von Systemfaktoren (Material, Abläufe); ergänzt durch regelmäßiges Simulationstraining (mindestens jährlich, besser mit kurzen Auffrischungen).",
+      "keyPoints": [
+        "Zeitbezogene Dokumentation von Befunden, Maßnahmen, Medikamenten",
+        "Apgar mit Einzelkomponenten, Elterngespräche dokumentieren",
+        "Elternanwesenheit mit Begleitperson, Information, früher Kontakt",
+        "Strukturiertes interprofessionelles Debriefing",
+        "Regelmäßiges Training"
+      ],
+      "tags": ["Dokumentation", "Debriefing", "Elternkommunikation"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-031",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hat nach Thoraxkompressionen und einer Adrenalingabe einen Spontankreislauf. Welche Schwerpunkte setzen Sie in der **Postreanimationsversorgung** in der ersten Stunde?",
+      "hints": [
+        "Temperatur, Glukose, Ventilation, Neuroprotektion.",
+        "Prüfen Sie Kriterien für eine bestimmte neuroprotektive Therapie."
+      ],
+      "answer": "- **Gründliche Reevaluation** nach ABCDE, Aufnahme auf die Intensivstation mit kontinuierlichem Monitoring.\n- **Temperatur:** häufig bzw. kontinuierlich messen; **Hyperthermie strikt vermeiden**; Prüfung der Kriterien für eine **therapeutische Hypothermie** (33–34 °C, Beginn innerhalb von 6 h) bei Zeichen einer hypoxisch-ischämischen Enzephalopathie – bis zur Entscheidung keine aktive Erwärmung über die Normothermie hinaus.\n- **Glukose:** früh und wiederholt messen, Hypo- und Hyperglykämie sowie große Schwankungen vermeiden.\n- **Beatmung/Oxygenierung:** Hypoxie und Hyperoxie vermeiden, **keine Hypokapnie** (zerebrale Vasokonstriktion); prä- und postduktale SpO2 zur Erkennung einer pulmonalen Hypertonie.\n- **Diagnostik:** Blutgasanalyse mit Laktat, Blutbild, Gerinnung, Elektrolyte, Nieren- und Leberwerte, Infektionsdiagnostik, aEEG.\n- Eltern informieren und begleiten, Ereignisse sorgfältig dokumentieren.",
+      "keyPoints": [
+        "Hyperthermie vermeiden, Hypothermiekriterien prüfen (Beginn < 6 h)",
+        "Glukose engmaschig, Schwankungen vermeiden",
+        "Normoxie und Normokapnie, prä-/postduktale SpO2",
+        "Labor inkl. Laktat, aEEG",
+        "Eltern begleiten, dokumentieren"
+      ],
+      "tags": ["Postreanimationsversorgung", "Hypothermie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "reani-032",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Sie werden als Notärztin/Notarzt zu einer **unerwarteten Geburt zu Hause** gerufen: Frühgeborenes etwa 30 SSW, das Kind atmet unzureichend. Welche **Besonderheiten der Erstversorgung außerhalb der Klinik** beachten Sie?",
+      "hints": [
+        "Hypothermiegefahr ist besonders groß.",
+        "Ohne Mischer – welche Sauerstoffkonzentration? Welcher Gefäßzugang?"
+      ],
+      "answer": "- **Wärme** hat höchste Priorität (außerklinisch deutlich höheres Hypothermierisiko): Raum aufheizen, Kopf trocknen, Mütze, Körper in **Plastikbeutel/-folie** bzw. Rettungsdecke, ggf. Wärmematratze, Temperatur messen.\n- **Atemweg:** Neutralposition, Zwei-Personen-Technik, sobald genügend Helfer da sind; Larynxmaske früh erwägen, wenn wenig Personal vor Ort ist oder für den Transport.\n- **Beatmung:** Ohne Luft-Sauerstoff-Mischer ist die von ERC empfohlene Start-FiO2 (30 % bei < 32 SSW) meist nicht exakt einstellbar: effektive Ventilation hat Vorrang, früh Pulsoxymetrie anlegen und Sauerstoff nach SpO2-Zielwerten zugeben bzw. reduzieren (Hypoxie und Hyperoxie vermeiden; lokale Rettungsdienst-Standards); bei Thoraxkompressionen 100 % O2.\n- **Zugang:** **intraossär** ist außerklinisch meist erste Wahl (bei < 32 SSW oft schwierig), NVK nur bei entsprechender Erfahrung und Ausrüstung.\n- **Organisation:** Telemedizinische Beratung nutzen, frühzeitig neonatologisches Team/Zielklinik informieren, Transport in die geeignete Versorgungsstufe im vorgewärmten Transportinkubator; Mutter-Kind-Transport nach regionalen Vorgaben.",
+      "keyPoints": [
+        "Wärmeschutz mit Folie, Mütze, Rettungsdecke – höchstes Hypothermierisiko",
+        "Zwei-Personen-Technik, Larynxmaske früh",
+        "Ohne Mischer: Ventilation vorrangig, O2 nach Pulsoxymetrie titrieren, Kompressionen 100 %",
+        "Intraossär als erster Zugang",
+        "Telemedizin, Zielklinik informieren, Transport im vorgewärmten Inkubator"
+      ],
+      "tags": ["Außerklinische Geburt", "Notfallmedizin"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": ["Körpertemperatur", "Inkubator"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    }
+  ]
+}

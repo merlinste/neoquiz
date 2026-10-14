@@ -1,0 +1,877 @@
+{
+  "exam": {
+    "KM": "Kognitive und Methodenkompetenz (Kenntnisse)",
+    "HK": "Handlungskompetenz (Erfahrungen und Fertigkeiten)"
+  },
+  "blocks": {
+    "A": "Block A – Perinatalmedizin, Erstversorgung, Adaptation",
+    "B": "Block B – Atmung, Beatmung, Kreislauf, Herz",
+    "C": "Block C – Infektion, Hygiene, Ikterus, Blut, Stoffwechsel, Ernährung",
+    "D": "Block D – Neurologie, Gastroenterologie, Niere, Sinnesorgane, Genetik",
+    "E": "Block E – Pharmakologie, Techniken, Nachsorge, Ethik",
+    "F": "Block F – Fallbesprechungen"
+  },
+  "areas": [
+    {
+      "id": "perinatalmedizin",
+      "order": 1,
+      "title": "Perinatalmedizin und Versorgungsstrukturen",
+      "short": "Perinatalmedizin",
+      "prefix": "peri",
+      "chapter": "Checkliste Kap. 1, 6, 7.9–7.10",
+      "description": "Pränatale Beratung und interdisziplinäre Zusammenarbeit mit der Geburtshilfe, Risikoschwangerschaft, Lungenreifeinduktion, Magnesium-Neuroprotektion, Grenze der Lebensfähigkeit, Versorgungsstufen nach QFR-RL, Mindestmengen, Neugeborenentransport.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 25,
+      "block": "A",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 6 – Geburtshilfliche Informationen",
+          "terms": [
+            "Frühgeburtlichkeit",
+            "Lungenreifeinduktion"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": [
+            "Versorgungsstufen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erstversorgung",
+      "order": 2,
+      "title": "Erstversorgung und Reanimation",
+      "short": "Erstversorgung",
+      "prefix": "reani",
+      "chapter": "Checkliste Kap. 7.1–7.4, 19",
+      "description": "Vorbereitung, Wärmemanagement, Abnabelung, Atemunterstützung, Maskenbeatmung, Thoraxkompressionen, Medikamente und Volumen, SpO2-Zielwerte, Mekonium, Erstversorgung sehr kleiner Frühgeborener, Dokumentation, Debriefing (ERC/GRC-Leitlinien).",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 30,
+      "block": "A",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.1–7.4 – Kreißsaal und Erstversorgung",
+          "terms": [
+            "Erstversorgung",
+            "extrem unreife Frühgeborene"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19 – Reanimation",
+          "terms": [
+            "Reanimation"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": [
+            "Newborn Life Support"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adaptation",
+      "order": 3,
+      "title": "Postnatale Adaptation, Untersuchung und Screening",
+      "short": "Adaptation",
+      "prefix": "adap",
+      "chapter": "Checkliste Kap. 1, 5.1, 7.2, 7.11, 8, 2.19–2.20",
+      "description": "Kreislauf- und Atemumstellung, APGAR, Nabelarterien-pH, Gestationsalter und Wachstumsklassifikation (SGA/LGA), U1/U2, Thermoregulation, Geburtsverletzungen, Neugeborenen-Stoffwechselscreening, Hörscreening, Pulsoxymetrie-Screening, Hüftsonographie, Vitamin-K- und Vitamin-D-Prophylaxe.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "A",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.2 und 7.11 – Scores, Geburtstraumen",
+          "terms": [
+            "APGAR",
+            "Reifezeichen"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": [
+            "Körpertemperatur"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.19–2.20 – Hör- und Neugeborenen-Screening",
+          "terms": [
+            "Screening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atemstoerungen",
+      "order": 4,
+      "title": "Atemstörungen des Neugeborenen",
+      "short": "Atemstörungen",
+      "prefix": "atem",
+      "chapter": "Checkliste Kap. 10.1–10.7, 5.6",
+      "description": "Atemnotsyndrom und Surfactant (inkl. LISA/MIST), transitorische Tachypnoe, Mekoniumaspiration, Pneumonie, Pneumothorax und Air-Leak, Apnoe-Bradykardie-Syndrom und Koffein, Differenzialdiagnose der Atemstörung.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "B",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1–10.7 – Erkrankungen der Atemwege",
+          "terms": [
+            "Atemnotsyndrom",
+            "Apnoe",
+            "Mekoniumaspiration"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.6 – Dyspnoe",
+          "terms": [
+            "Dyspnoe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beatmung",
+      "order": 5,
+      "title": "Atemunterstützung und Beatmung",
+      "short": "Beatmung",
+      "prefix": "beat",
+      "chapter": "Checkliste Kap. 10.8–10.15, 2.1–2.2, 2.15",
+      "description": "CPAP, High-Flow, NIPPV, konventionelle Beatmung (volumengarantiert, druckkontrolliert, synchronisiert), HFOV, Blutgasanalyse und Zielwerte, Sauerstofftoxizität und SpO2-Ziele, inhalatives NO, Oxygenierungsindex, Extubation und Weaning, ECMO-Indikation.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 30,
+      "block": "B",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.15 – Sauerstofftherapie und Beatmung",
+          "terms": [
+            "CPAP",
+            "Beatmung",
+            "HFOV"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.15 – pO2- und pCO2-Überwachung",
+          "terms": [
+            "Kapnografie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lungenerkrankungen",
+      "order": 6,
+      "title": "Chronische Lungenerkrankung und Lungenfehlbildungen",
+      "short": "BPD & Fehlbildungen",
+      "prefix": "lunge",
+      "chapter": "Checkliste Kap. 10.4, 7.6, 18",
+      "description": "Bronchopulmonale Dysplasie (Definition, Prävention, Therapie, Steroide), pulmonale Hypertonie bei BPD, Heimsauerstoff, kongenitale Zwerchfellhernie, Lungenhypoplasie, CPAM, Chylothorax, Atemwegsfehlbildungen (Choanalatresie, Pierre-Robin).",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 25,
+      "block": "B",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": [
+            "BPD"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.6 – Zwerchfellhernie",
+          "terms": [
+            "Zwerchfellhernie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kreislauf",
+      "order": 7,
+      "title": "Kreislauf, Schock und persistierende pulmonale Hypertonie",
+      "short": "Kreislauf",
+      "prefix": "kreis",
+      "chapter": "Checkliste Kap. 12.3–12.5, 7.5, 3.4, 20.4",
+      "description": "Hämodynamik des Früh- und Neugeborenen, Hypotension und Schock, Katecholamine und Hydrocortison, persistierender Ductus arteriosus (Diagnostik, Indikation, Therapie), PPHN, funktionelle Echokardiographie, Hydrops fetalis.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "B",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3–12.5 – Blutdruck, PDA, PPHN",
+          "terms": [
+            "Blutdruck",
+            "PDA",
+            "PPHN"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": [
+            "Echokardiografie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herzfehler",
+      "order": 8,
+      "title": "Angeborene Herzfehler und Rhythmusstörungen",
+      "short": "Herzfehler",
+      "prefix": "herz",
+      "chapter": "Checkliste Kap. 12.1–12.2, 12.6–12.8, 5.2",
+      "description": "Zyanotische und azyanotische Herzfehler, ductusabhängige Lungen- und Systemperfusion, Prostaglandin E1, Hyperoxietest, Herzinsuffizienz, Erstversorgung bei pränatal bekanntem Herzfehler, neonatale Rhythmusstörungen (SVT, AV-Block), Kardiomyopathie.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 25,
+      "block": "B",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.8 – Angeborene Herzfehler",
+          "terms": [
+            "angeborener Herzfehler",
+            "Prostaglandin"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": [
+            "Zyanose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infektionen",
+      "order": 9,
+      "title": "Neonatale Infektionen",
+      "short": "Infektionen",
+      "prefix": "inf",
+      "chapter": "Checkliste Kap. 11.1–11.7, 20.13",
+      "description": "Early-onset- und Late-onset-Sepsis, Risikofaktoren, Labordiagnostik, kalkulierte Antibiotikatherapie, GBS-Prophylaxe, Meningitis, konnatale Infektionen (CMV, Toxoplasmose, Lues, HSV, Röteln, VZV, HIV, Hepatitis B), Pilzinfektionen, Antibiotic Stewardship.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 30,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1–11.7 – Infektionen",
+          "terms": [
+            "Infektionsverdacht",
+            "konnatale Infektion"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": [
+            "Neugeborenensepsis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "order": 10,
+      "title": "Hygiene, Impfungen und Prophylaxe",
+      "short": "Hygiene & Prophylaxe",
+      "prefix": "hyg",
+      "chapter": "Checkliste Kap. 11.8–11.9",
+      "description": "KRINKO-Empfehlungen für Intensivstationen mit Früh- und Neugeborenen, Kolonisationsscreening und multiresistente Erreger, Ausbruchsmanagement, Händehygiene, Katheterpflege (CLABSI-Prävention), Impfungen bei Frühgeborenen, RSV-Prophylaxe, Credé/Ophthalmia neonatorum, Hepatitis-B-Simultanimpfung.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8–11.9 – Impfempfehlungen, nosokomiale Infektionen",
+          "terms": [
+            "Impfung",
+            "nosokomiale Infektionen"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO- und STIKO-Empfehlungen (RKI)",
+          "terms": [
+            "Frühgeborene",
+            "Kolonisationsscreening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ikterus",
+      "order": 11,
+      "title": "Hyperbilirubinämie",
+      "short": "Ikterus",
+      "prefix": "ikt",
+      "chapter": "Checkliste Kap. 13.1–13.2, 2.18",
+      "description": "Bilirubinstoffwechsel, physiologischer und pathologischer Ikterus, Risikofaktoren, Bilirubinenzephalopathie und Kernikterus, Phototherapie, Austauschtransfusion, Rhesus- und AB0-Inkompatibilität, Immunglobuline, Cholestase und Gallengangsatresie, Muttermilchikterus.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.1–13.2 – Icterus neonatorum, Blutgruppeninkompatibilitäten",
+          "terms": [
+            "Ikterus",
+            "Phototherapie"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Hyperbilirubinämie",
+          "terms": [
+            "Phototherapiegrenze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haematologie",
+      "order": 12,
+      "title": "Hämatologie, Transfusion und Hämostase",
+      "short": "Hämatologie",
+      "prefix": "haem",
+      "chapter": "Checkliste Kap. 13.3–13.11",
+      "description": "Anämie des Frühgeborenen, Transfusionsgrenzen, Erythropoetin, Polyglobulie und Hyperviskosität, neonatale Thrombozytopenie (inkl. NAIT), Vitamin-K-Mangelblutung, Gerinnungsstörungen, Thrombosen, Neutropenie, Blutprodukte und Hämotherapie-Richtlinie.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 25,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.3–13.11 – Hämatologie",
+          "terms": [
+            "Anämie",
+            "Transfusion",
+            "Gerinnung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stoffwechsel",
+      "order": 13,
+      "title": "Glukose-, Elektrolyt- und Stoffwechselstörungen",
+      "short": "Stoffwechsel",
+      "prefix": "stw",
+      "chapter": "Checkliste Kap. 5.3–5.5, 7.12, 14.1–14.4",
+      "description": "Neonatale Hypoglykämie und Hyperglykämie, Kind diabetischer Mutter, Natrium-, Kalium-, Calcium- und Magnesiumstörungen, Säure-Basen-Haushalt, metabolische Knochenerkrankung, angeborene Stoffwechselstörungen (Hyperammonämie, Organoazidurien, Notfallmanagement).",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.5 – Hypo-/Hyperglykämie, Azidose",
+          "terms": [
+            "Hypoglykämie",
+            "Azidose"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.4 – Stoffwechsel und Elektrolyte",
+          "terms": [
+            "Stoffwechseldefekt",
+            "Elektrolytstörungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endokrinologie",
+      "order": 14,
+      "title": "Endokrinologie",
+      "short": "Endokrinologie",
+      "prefix": "endo",
+      "chapter": "Checkliste Kap. 14.5–14.7",
+      "description": "Konnatale Hypothyreose, Schilddrüsenfunktion beim Frühgeborenen, Kind einer Mutter mit Schilddrüsenerkrankung, adrenogenitales Syndrom, Nebenniereninsuffizienz, Varianten der Geschlechtsentwicklung (DSD), Hyperinsulinismus, Hypopituitarismus.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 20,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, DSD, AGS",
+          "terms": [
+            "Hypothyreose",
+            "AGS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fluessigkeit",
+      "order": 15,
+      "title": "Flüssigkeitstherapie und parenterale Ernährung",
+      "short": "Flüssigkeit & PE",
+      "prefix": "flu",
+      "chapter": "Checkliste Kap. 9.2–9.6",
+      "description": "Wasserhaushalt und Perspiratio insensibilis, Flüssigkeitsbedarf nach Lebenstag, Gewichtsverlauf, Glukosezufuhr, Aminosäuren und Lipide, Elektrolyt- und Spurenelementbedarf, Komplikationen der parenteralen Ernährung (PNAC), Berechnung von Infusionsregimen.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 25,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie und parenterale Ernährung",
+          "terms": [
+            "parenterale Ernährung",
+            "Bilanzierung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ernaehrung",
+      "order": 16,
+      "title": "Enterale Ernährung und Wachstum",
+      "short": "Ernährung",
+      "prefix": "ern",
+      "chapter": "Checkliste Kap. 9.1, 9.7, 21.2",
+      "description": "Muttermilch und Stillförderung, Frauenmilchbank, Supplementierung (Fortifier, Eisen, Vitamin D), Formulanahrungen, Nahrungsaufbau beim Frühgeborenen, Wachstumskurven und Perzentilen, Postdischarge-Ernährung, Gastroösophagealer Reflux, Ernährungsprobleme.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 25,
+      "block": "C",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung",
+          "terms": [
+            "enterale Ernährung",
+            "Muttermilch"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 21.2 – Perzentilen-Kurven",
+          "terms": [
+            "Perzentilen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neurologie",
+      "order": 17,
+      "title": "Neonatale Neurologie und hypoxisch-ischämische Enzephalopathie",
+      "short": "Neurologie",
+      "prefix": "neuro",
+      "chapter": "Checkliste Kap. 7.7, 2.16–2.17, 5.7, 5.9",
+      "description": "Perinatale Asphyxie und HIE, Sarnat-Stadien, therapeutische Hypothermie (Indikation, Durchführung, Komplikationen), aEEG, neonatale Krampfanfälle und Antikonvulsiva, muskuläre Hypotonie, neuromuskuläre Erkrankungen, Plexusparese, perinataler Schlaganfall.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "D",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": [
+            "Asphyxie",
+            "Hypothermie"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.7 und 5.9 – Krampfanfälle, Floppy Infant",
+          "terms": [
+            "Krampfanfälle",
+            "Muskelhypotonie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fruehgeborenenhirn",
+      "order": 18,
+      "title": "Hirnschädigung des Frühgeborenen und Schädelsonographie",
+      "short": "Frühgeborenenhirn",
+      "prefix": "hirn",
+      "chapter": "Checkliste Kap. 15.2–15.4, 3.2–3.3",
+      "description": "Intraventrikuläre Hämorrhagie (Einteilung, Prävention), posthämorrhagischer Hydrozephalus, periventrikuläre Leukomalazie, Schädelsonographie und MRT zum Termin, neuroprotektive Pflege und Entwicklungsförderung.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "D",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutung, Leukomalazie, Hydrozephalus",
+          "terms": [
+            "Hirnblutung",
+            "Leukomalazie"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie",
+          "terms": [
+            "Schädelsonografie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterologie",
+      "order": 19,
+      "title": "Gastroenterologie und Neugeborenenchirurgie",
+      "short": "Gastro & Chirurgie",
+      "prefix": "gastro",
+      "chapter": "Checkliste Kap. 17.2, 18, 7.8",
+      "description": "Nekrotisierende Enterokolitis (Bell-Stadien, Therapie), fokale intestinale Perforation, Mekoniumileus, Ösophagusatresie, Duodenalatresie, Malrotation und Volvulus, Morbus Hirschsprung, Gastroschisis und Omphalozele, Analatresie, Leistenhernie, Kurzdarmsyndrom.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "D",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": [
+            "NEK"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": [
+            "Kinderchirurgie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "niere",
+      "order": 20,
+      "title": "Niere und ableitende Harnwege",
+      "short": "Niere",
+      "prefix": "niere",
+      "chapter": "Checkliste Kap. 16",
+      "description": "Nierenfunktion des Neugeborenen, akute Nierenschädigung, pränatal diagnostizierte Hydronephrose, Harnröhrenklappen, zystische Nierenerkrankungen, Potter-Sequenz, arterielle Hypertonie, Nephrokalzinose, Harnwegsinfektion, Nierenersatztherapie.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "D",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 16 – Renale Erkrankungen",
+          "terms": [
+            "Nierenversagen",
+            "kongenitale Nierenerkrankungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sinnesorgane",
+      "order": 21,
+      "title": "Frühgeborenen-Retinopathie, Haut und Sinnesorgane",
+      "short": "ROP & Haut",
+      "prefix": "sinn",
+      "chapter": "Checkliste Kap. 17.1, 17.4, 2.19",
+      "description": "Retinopathia praematurorum (Screening, Stadien, Therapie, Anti-VEGF), Hörstörungen und Hörscreening-Folgeuntersuchungen, Haut des Frühgeborenen und Hautpflege, Hämangiome, Geburtsverletzungen der Haut, Epidermolysis bullosa, Augenbefunde beim Neugeborenen.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "D",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.1 und 17.4 – ROP, Haut und Gefäße",
+          "terms": [
+            "Frühgeborenenretinopathie",
+            "Haut"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Augenärztliches Screening bei Frühgeborenen",
+          "terms": [
+            "ROP-Screening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genetik",
+      "order": 22,
+      "title": "Fehlbildungen, Syndrome und genetische Diagnostik",
+      "short": "Genetik",
+      "prefix": "gen",
+      "chapter": "Checkliste Kap. 4.2, 7.8, 18 (ergänzend Lehrbücher der Pädiatrie/Humangenetik)",
+      "description": "Häufige Chromosomenstörungen (Trisomie 21, 18, 13, Turner, 22q11), Fehlbildungssyndrome und Sequenzen, Skelettdysplasien, Neuralrohrdefekte, Lippen-Kiefer-Gaumen-Spalte, genetische Diagnostik (Array, Exom, Gendiagnostikgesetz), Beratung der Eltern.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "D",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Neugeborene mit Fehlbildungen",
+          "terms": [
+            "Fehlbildungen"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": [
+            "Fehlbildungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmakologie",
+      "order": 23,
+      "title": "Pharmakotherapie, Analgesie und Abstinenzsyndrom",
+      "short": "Pharmakologie",
+      "prefix": "pharm",
+      "chapter": "Checkliste Kap. 20, 2.13, 7.13",
+      "description": "Entwicklungspharmakologie, Dosierung und Medikamentenberechnung, Off-Label-Use, Analgesie und Sedierung (Schmerzerfassung, nicht-pharmakologische Maßnahmen, Opioide), Prämedikation zur Intubation, Arzneimittel in Schwangerschaft und Stillzeit, neonatales Abstinenzsyndrom.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 28,
+      "block": "E",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": [
+            "Dosierungen",
+            "Analgetika"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.13 – Drogenabusus in der Schwangerschaft",
+          "terms": [
+            "Abstinenzsyndrom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "techniken",
+      "order": 24,
+      "title": "Praktische Techniken und Sonographie",
+      "short": "Techniken",
+      "prefix": "tech",
+      "chapter": "Checkliste Kap. 2, 3",
+      "description": "Intubation (Tubusgröße, Einführtiefe), Nabelvenen- und Nabelarterienkatheter, PICC, intraossärer Zugang, Thoraxdrainage, Lumbalpunktion, Blasenpunktion, Austauschtransfusion, Sonographie (Schädel, Abdomen, Lunge, Herz), Röntgenbefundung, Monitoring.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 26,
+      "block": "E",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2 – Arbeitstechniken",
+          "terms": [
+            "Intubation",
+            "Gefäßzugänge",
+            "Thoraxdrainage"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": [
+            "Sonografie",
+            "Röntgen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nachsorge",
+      "order": 25,
+      "title": "Entlassung, Nachsorge und Qualitätssicherung",
+      "short": "Nachsorge",
+      "prefix": "nach",
+      "chapter": "Checkliste Kap. 7.10, 15.1, 17.3",
+      "description": "Entlassungsmanagement, sozialmedizinische Nachsorge, strukturierte Nachuntersuchung (2 Jahre korrigiert), Entwicklungsdiagnostik, Frühförderung, plötzlicher Kindstod (Prävention), Heimmonitoring, Neonatalerhebung und Qualitätsindikatoren, QFR-RL, Fehlerkultur und CIRS.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "E",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische Nachsorge",
+          "terms": [
+            "Nachsorge"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": [
+            "Entlassung"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": [
+            "Nachuntersuchung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethik",
+      "order": 26,
+      "title": "Ethik, Palliativversorgung und Kommunikation",
+      "short": "Ethik & Palliativ",
+      "prefix": "ethik",
+      "chapter": "Checkliste Kap. 4, 19.3",
+      "description": "Entscheidungen an der Grenze der Lebensfähigkeit, Therapiezieländerung, perinatale Palliativversorgung, Gespräche mit Eltern, Überbringen schlechter Nachrichten, Trauerbegleitung, familienzentrierte Versorgung, Kindeswohlgefährdung, rechtliche Grundlagen (Einwilligung, Sorgerecht).",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 22,
+      "block": "E",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": [
+            "Elterninformation",
+            "Tod eines Kindes"
+          ]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Frühgeborene an der Grenze der Lebensfähigkeit",
+          "terms": [
+            "Grenze der Lebensfähigkeit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faelle",
+      "order": 27,
+      "title": "Fallbesprechungen",
+      "short": "Fälle",
+      "prefix": "fall",
+      "chapter": "Checkliste alle Kapitel",
+      "description": "Fallvignetten im Stil des Fachgesprächs: vom Kreißsaal bis zur Entlassung, mit Teilaufgaben zu Diagnostik, Differenzialdiagnosen, Therapie und Kommunikation.",
+      "exam": [
+        "KM",
+        "HK"
+      ],
+      "target": 16,
+      "block": "F",
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5 – Leitsymptome und Notfälle",
+          "terms": [
+            "Leitsymptome"
+          ]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7 – Geburt und Versorgung",
+          "terms": [
+            "Erstversorgung"
+          ]
+        }
+      ]
+    }
+  ]
+}

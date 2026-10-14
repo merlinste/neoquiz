@@ -1,0 +1,934 @@
+{
+  "area": "kreislauf",
+  "questions": [
+    {
+      "id": "kreis-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Warum ist der arterielle **Blutdruck** beim Frühgeborenen in den ersten Lebenstagen nur ein eingeschränkter Parameter für die **Organperfusion**? Welche Größen bestimmen den Blutdruck?",
+      "hints": [
+        "Denken Sie an das Ohmsche Gesetz des Kreislaufs.",
+        "Druck = Fluss · Widerstand – was passiert bei niedrigem Widerstand oder Shunts?"
+      ],
+      "answer": "Der Mitteldruck ergibt sich aus Herzzeitvolumen mal systemischem Gefäßwiderstand. Ein normaler Blutdruck kann daher bei hohem Widerstand (Vasokonstriktion) mit niedrigem Blutfluss einhergehen, und umgekehrt kann ein niedriger Druck bei niedrigem Widerstand mit ausreichendem Fluss vereinbar sein. Beim Frühgeborenen kommen fetale Shunts (Ductus arteriosus, Foramen ovale) hinzu, die den systemischen Fluss trotz normalem Druck vermindern können (z. B. Ductus-Steal). Außerdem ist die zerebrale Autoregulation beim sehr unreifen Kind eingeschränkt, der autoregulierte Druckbereich ist schmal und individuell unbekannt. Deshalb beurteilt man den Kreislauf zusammen mit klinischen Perfusionszeichen (Rekapillarisierung, Hautkolorit, Herzfrequenz, Urinausscheidung), Laktat und idealerweise funktioneller Echokardiographie.",
+      "keyPoints": [
+        "MAP = Herzzeitvolumen · systemischer Gefäßwiderstand",
+        "Druck und Fluss können dissoziieren",
+        "Shunts über Ductus/Foramen ovale beeinflussen systemischen Fluss",
+        "eingeschränkte zerebrale Autoregulation",
+        "Beurteilung zusammen mit Klinik, Laktat, Urin, Echo"
+      ],
+      "tags": ["Hämodynamik", "Blutdruck", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-002",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Aussage zum **Blutdruck sehr unreifer Frühgeborener** in den ersten Lebenstagen trifft zu?",
+      "hints": ["Wie gut ist die Faustregel „MAP in mmHg ≥ Gestationsalter in Wochen“ belegt?"],
+      "answer": "Die Faustregel, dass der mittlere arterielle Druck in mmHg in den ersten Lebenstagen etwa dem Gestationsalter in Wochen entsprechen sollte, ist ein pragmatischer Orientierungswert. Sie ist nicht durch Outcome-Daten belegt; viele Frühgeborene mit niedrigeren Werten sind gut perfundiert. Der Blutdruck steigt in den ersten Lebenstagen physiologisch an. Behandelt wird nicht ein Zahlenwert allein, sondern eine Hypotension mit Zeichen der Minderperfusion.",
+      "keyPoints": [
+        "MAP ≈ Gestationsalter ist nur ein Orientierungswert",
+        "keine gesicherte Beziehung zu Perfusion oder Outcome",
+        "Blutdruck steigt in den ersten Tagen physiologisch an",
+        "Therapie bei Hypotension plus Minderperfusionszeichen"
+      ],
+      "options": [
+        {
+          "text": "Die Faustregel „MAP (mmHg) ≥ Gestationsalter (Wochen)“ ist ein pragmatischer Orientierungswert ohne gesicherten Bezug zu Organperfusion oder Outcome.",
+          "correct": true
+        },
+        {
+          "text": "Ein MAP unter dem Gestationsalter in Wochen ist immer behandlungsbedürftig, auch bei guter Perfusion.",
+          "correct": false
+        },
+        {
+          "text": "Der Blutdruck fällt in den ersten 72 Lebensstunden physiologischerweise kontinuierlich ab.",
+          "correct": false
+        },
+        {
+          "text": "Der systolische Blutdruck ist beim Frühgeborenen der beste Parameter für den zerebralen Blutfluss.",
+          "correct": false
+        }
+      ],
+      "tags": ["Blutdruck", "Hypotension", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-003",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie die **Schockformen** beim Neugeborenen mit jeweils typischen neonatalen Ursachen.",
+      "hints": [
+        "Vier Kategorien nach Pathomechanismus.",
+        "Denken Sie auch an den Ductusverschluss und an mechanische Ursachen."
+      ],
+      "answer": "**Hypovolämischer Schock**: Blutverlust (fetomaternale Transfusion, Plazenta praevia, Nabelschnureinriss, subgaleale Blutung, Nebennierenblutung), Flüssigkeitsverluste. **Kardiogener Schock**: myokardiale Dysfunktion nach Asphyxie, Myokarditis, Kardiomyopathie, Tachy- oder Bradyarrhythmien, ductusabhängige Linksherzobstruktion bei Ductusverschluss (HLHS, kritische Aortenstenose, ISTA). **Distributiver Schock**: Sepsis, selten Anaphylaxie, Nebenniereninsuffizienz. **Obstruktiver Schock**: Spannungspneumothorax, Perikardtamponade (z. B. durch ZVK-Perforation), schwere PPHN mit Rechtsherzversagen. Häufig liegen Mischformen vor, etwa bei der neonatalen Sepsis.",
+      "keyPoints": [
+        "hypovolämisch (Blutverlust, subgaleale Blutung)",
+        "kardiogen (Asphyxie, Arrhythmie, ductusabhängige Vitien)",
+        "distributiv (Sepsis, Nebenniereninsuffizienz)",
+        "obstruktiv (Pneumothorax, Tamponade)",
+        "Mischformen häufig"
+      ],
+      "tags": ["Schock", "Differenzialdiagnose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden auf die Intensivstation gerufen: Frühgeborenes 24+5 SSW, 680 g, 6 Lebensstunden, nach Surfactant an CPAP. Der arterielle Mitteldruck liegt seit einer Stunde bei 21 mmHg. Wie gehen Sie vor?",
+      "hints": [
+        "Erst prüfen, ob die Messung stimmt und ob das Kind minderperfundiert ist.",
+        "Ist Volumen bei diesem Kind die richtige erste Maßnahme?"
+      ],
+      "answer": "Zunächst die Messung überprüfen (Druckkurve gedämpft, Nullabgleich, Höhe des Transducers, Manschettengröße). Dann klinisch beurteilen: Rekapillarisierungszeit, Hautkolorit, Herzfrequenz, Urinausscheidung, Laktat und pH in der BGA. Ursachen suchen: Blutverlust, Pneumothorax, Überdruck durch hohen Atemwegsdruck, Sepsis, großer Ductus, Nebenniereninsuffizienz. Wenn möglich funktionelle Echokardiographie (Kontraktilität, Füllung, Ductus, SVC-Fluss oder RVO). Ist das Kind gut perfundiert, kann eine niedrige Zahl toleriert und engmaschig kontrolliert werden. Bei Minderperfusion gezielt therapieren: Volumen (z. B. 10 ml/kg NaCl 0,9 %) nur bei Hinweis auf Hypovolämie, denn beim sehr unreifen Frühgeborenen ist die Hypotension selten hypovolämisch bedingt. Bei Myokarddysfunktion bzw. niedrigem Fluss eher Dobutamin, bei niedrigem Gefäßwiderstand Dopamin, Adrenalin oder Noradrenalin; bei Katecholaminrefraktärität Hydrocortison. Die Vorgehensweisen unterscheiden sich zwischen Zentren.",
+      "keyPoints": [
+        "Messung verifizieren",
+        "Perfusionszeichen erheben (Rekap, Urin, Laktat)",
+        "Ursachen suchen (Blutung, Pneumothorax, Sepsis, PDA)",
+        "funktionelle Echokardiographie",
+        "Volumen nur bei Hypovolämie, Inotropika/Vasopressoren gezielt nach Pathophysiologie",
+        "isolierte niedrige Zahl bei guter Perfusion ggf. tolerieren"
+      ],
+      "tags": ["Hypotension", "Frühgeborene", "Management"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Vergleichen Sie **Dopamin, Dobutamin, Adrenalin, Noradrenalin und Milrinon**: Wirkmechanismus, hämodynamischer Haupteffekt und typische Einsatzsituation beim Neugeborenen.",
+      "hints": [
+        "Unterscheiden Sie inotrope, vasopressorische und vasodilatierende Wirkung.",
+        "Welches Medikament ist ein Inodilatator?"
+      ],
+      "answer": "**Dopamin**: dosisabhängig dopaminerg, β1 und in höherer Dosis α1; steigert Blutdruck vor allem über Vasokonstriktion, kann den pulmonalen Gefäßwiderstand erhöhen; bei Frühgeborenen weit verbreitet zur Blutdrucksteigerung. **Dobutamin**: überwiegend β1 (etwas β2), positiv inotrop mit eher senkender Wirkung auf den systemischen Widerstand; bei Myokarddysfunktion und niedrigem systemischem Fluss. **Adrenalin**: β1/β2 in niedriger, zunehmend α1 in höherer Dosis; inotrop und vasokonstriktorisch; bei kardiogenem und „kaltem“ septischem Schock; Nebenwirkungen Hyperglykämie und Laktatanstieg. **Noradrenalin**: vorwiegend α1, etwas β1; erhöht den systemischen Widerstand; bei vasodilatatorischem („warmem“) Schock und PPHN mit systemischer Hypotonie, da der systemische stärker als der pulmonale Widerstand steigt. **Milrinon**: Phosphodiesterase-3-Hemmer, Inodilatator mit Lusitropie und pulmonaler sowie systemischer Vasodilatation; bei Ventrikeldysfunktion mit hoher Nachlast, PPHN mit linksventrikulärer Dysfunktion, nach PDA-Verschluss; Risiko Hypotonie, renale Elimination. Gebräuchliche Dosisbereiche (Dopamin und Dobutamin etwa 2–20 µg/kg/min, Adrenalin und Noradrenalin etwa 0,05–0,5 µg/kg/min) sind gegen lokale Standards zu prüfen.",
+      "keyPoints": [
+        "Dopamin: α/β/dopaminerg, kann PVR erhöhen",
+        "Dobutamin: β1-inotrop, bei niedrigem Fluss/Myokarddysfunktion",
+        "Adrenalin: inotrop + vasokonstriktorisch, Hyperglykämie/Laktat",
+        "Noradrenalin: α1-Vasopressor, warmer Schock, PPHN",
+        "Milrinon: PDE-3-Hemmer, Inodilatator, Hypotonie-Risiko"
+      ],
+      "tags": ["Katecholamine", "Inotropika", "Pharmakologie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-006",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **Dopamin** beim Neugeborenen trifft zu?",
+      "hints": ["Denken Sie an die Wirkung auf die Lungenstrombahn."],
+      "answer": "Dopamin kann neben dem systemischen auch den pulmonalvaskulären Widerstand erhöhen; bei PPHN wird es daher zurückhaltend eingesetzt, viele Zentren bevorzugen dort Noradrenalin oder Vasopressin. Eine nephroprotektive Wirkung in „Nierendosis“ ist nicht belegt. Dopamin ist kein reiner β1-Agonist und senkt die Nachlast nicht.",
+      "keyPoints": ["Dopamin kann PVR erhöhen", "bei PPHN ungünstig", "keine belegte Nephroprotektion"],
+      "options": [
+        {
+          "text": "Dopamin kann den pulmonalvaskulären Widerstand erhöhen und ist bei PPHN daher ungünstig.",
+          "correct": true
+        },
+        { "text": "Dopamin wirkt in niedriger Dosis bei Frühgeborenen sicher nephroprotektiv.", "correct": false },
+        { "text": "Dopamin senkt als Inodilatator die Nachlast des linken Ventrikels.", "correct": false },
+        { "text": "Dopamin ist ein reiner β1-Agonist ohne vasokonstriktorische Wirkung.", "correct": false }
+      ],
+      "tags": ["Katecholamine", "Dopamin", "PPHN"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-007",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Reifgeborenes mit 3,2 kg soll **Dobutamin 10 µg/kg/min** erhalten. Der Perfusor enthält 50 mg Dobutamin in 50 ml (1 mg/ml). Welche **Laufrate in ml/h** stellen Sie ein?",
+      "hints": ["Laufrate (ml/h) = Dosis (µg/kg/min) · Gewicht (kg) · 60 / Konzentration (µg/ml)", "1 mg/ml = 1000 µg/ml"],
+      "answer": "Laufrate = Dosis · Gewicht · 60 / Konzentration = 10 µg/kg/min · 3,2 kg · 60 min/h / 1000 µg/ml = 1920 / 1000 = **1,92 ml/h** (gerundet 1,9 ml/h).",
+      "keyPoints": [
+        "Formel Dosis · Gewicht · 60 / Konzentration",
+        "Umrechnung 1 mg/ml = 1000 µg/ml",
+        "1920 µg/h benötigt",
+        "Ergebnis ≈ 1,9 ml/h"
+      ],
+      "solution": { "value": 1.92, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Katecholamine", "Laufrate", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-008",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Sie wollen für ein Frühgeborenes mit 0,8 kg eine **Adrenalin-Perfusorspritze** (Gesamtvolumen 50 ml) so ansetzen, dass eine Laufrate von **1 ml/h genau 0,1 µg/kg/min** entspricht. Wie viel **µg Adrenalin** müssen in die 50 ml?",
+      "hints": [
+        "Wie viele µg pro Stunde entsprechen 0,1 µg/kg/min bei 0,8 kg?",
+        "Diese Menge muss in 1 ml enthalten sein – dann auf 50 ml hochrechnen."
+      ],
+      "answer": "Benötigte Menge pro Stunde: 0,1 µg/kg/min · 0,8 kg · 60 min/h = 4,8 µg/h. Bei 1 ml/h muss 1 ml also 4,8 µg enthalten. In 50 ml: 4,8 µg/ml · 50 ml = **240 µg (0,24 mg) Adrenalin**. Das entspricht der Merkregel „0,3 mg/kg auf 50 ml → 1 ml/h = 0,1 µg/kg/min“.",
+      "keyPoints": [
+        "4,8 µg/h bei 0,1 µg/kg/min und 0,8 kg",
+        "Konzentration 4,8 µg/ml",
+        "240 µg in 50 ml",
+        "Merkregel 0,3 mg/kg auf 50 ml"
+      ],
+      "solution": { "value": 240, "unit": "µg", "tolerance": 0.03 },
+      "tags": ["Katecholamine", "Perfusor", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-009",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **Vasopressin** in der Neonatologie trifft zu?",
+      "hints": ["Rezeptor? Wirkung auf die Lungengefäße? Typische Nebenwirkung?"],
+      "answer": "Vasopressin wirkt über V1-Rezeptoren systemisch vasokonstriktorisch, in der Lungenstrombahn dagegen eher vasodilatierend (NO-vermittelt). Es wird bei katecholaminrefraktärem vasodilatatorischem Schock und bei PPHN mit systemischer Hypotonie eingesetzt. Über V2-Rezeptoren wirkt es antidiuretisch; eine Hyponatriämie ist die wichtigste Nebenwirkung. Die Wirkung bleibt auch bei Azidose weitgehend erhalten.",
+      "keyPoints": [
+        "V1-vermittelte systemische Vasokonstriktion",
+        "pulmonal eher vasodilatierend",
+        "Hyponatriämie (V2)",
+        "Einsatz bei refraktärer Hypotonie/PPHN"
+      ],
+      "options": [
+        {
+          "text": "Vasopressin wirkt systemisch vasokonstriktorisch über V1-Rezeptoren, pulmonal eher vasodilatierend; eine Hyponatriämie ist zu beachten.",
+          "correct": true
+        },
+        { "text": "Vasopressin wirkt überwiegend positiv inotrop über β1-Rezeptoren.", "correct": false },
+        {
+          "text": "Vasopressin erhöht den pulmonalen stärker als den systemischen Widerstand und ist bei PPHN kontraindiziert.",
+          "correct": false
+        },
+        {
+          "text": "Vasopressin verliert wie die Katecholamine bei Azidose weitgehend seine Wirkung.",
+          "correct": false
+        }
+      ],
+      "tags": ["Vasopressin", "PPHN", "Schock"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes 27+0 SSW hat am 2. Lebenstag trotz Dopamin und Adrenalin eine persistierende Hypotension mit steigendem Laktat. Sie erwägen **Hydrocortison**. Begründen Sie die Indikation und nennen Sie praktische Punkte und Risiken.",
+      "hints": [
+        "Relative Nebenniereninsuffizienz und Rezeptoren.",
+        "Welche Medikamentenkombination erhöht das Risiko einer Darmperforation?"
+      ],
+      "answer": "Sehr unreife und kranke Neugeborene haben häufig eine relative Nebennierenrindeninsuffizienz; Glukokortikoide erhöhen außerdem die Expression adrenerger Rezeptoren und verbessern die Gefäßreagibilität. Bei katecholaminrefraktärer Hypotension ist Hydrocortison deshalb etablierte Zweitlinientherapie; die Wirkung setzt meist innerhalb weniger Stunden ein. Vor der ersten Gabe Serum-Cortisol abnehmen (die Therapie aber nicht vom Ergebnis abhängig machen). Dosiert wird niedrig, z. B. 1 mg/kg alle 8 h; die Schemata unterscheiden sich zwischen Zentren. Risiken: spontane intestinale Perforation, besonders bei gleichzeitiger Gabe von Ibuprofen oder Indometacin; Hyperglykämie, Hypertonie, erhöhtes Infektionsrisiko. Nach Stabilisierung früh ausschleichen und die Katecholamine reduzieren.",
+      "keyPoints": [
+        "relative Nebenniereninsuffizienz, Hochregulation adrenerger Rezeptoren",
+        "Indikation: katecholaminrefraktäre Hypotension",
+        "Cortisol vor Gabe asservieren",
+        "niedrige Dosis (z. B. 1 mg/kg alle 8 h, zentrumsabhängig)",
+        "Risiko SIP v. a. mit NSAR, Hyperglykämie, Infektion"
+      ],
+      "tags": ["Hydrocortison", "refraktäre Hypotension", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes ist am 3. Lebenstag lethargisch, marmoriert und tachykard (190/min); Rekapillarisierungszeit 5 s, kühle Extremitäten, Laktat 7 mmol/l, CRP steigend. Beschreiben Sie das **Kreislaufmanagement des septischen Schocks**.",
+      "hints": ["Was gehört in die erste Stunde?", "„Kalter“ versus „warmer“ Schock – welches Katecholamin?"],
+      "answer": "Parallel zur Stabilisierung von Atmung und Zugang: Blutkultur abnehmen und kalkulierte Antibiotika innerhalb der ersten Stunde geben. Volumen in Boli von 10–20 ml/kg isotoner kristalloider Lösung, nach jedem Bolus neu beurteilen (Herzfrequenz, Rekapillarisierung, Leber, Atmung); bei Hepatomegalie oder Lungenödem Volumen stoppen. Glukose und ionisiertes Calcium kontrollieren und korrigieren. Bei persistierendem Schock Katecholamine: beim „kalten“ Schock mit niedrigem Herzzeitvolumen und hohem Widerstand bevorzugt Adrenalin, beim „warmen“, vasodilatatorischen Schock Noradrenalin. Funktionelle Echokardiographie zur Steuerung und zum Ausschluss eines ductusabhängigen Vitiums. Bei Katecholaminrefraktärität Hydrocortison; bei Versagen frühzeitig ECMO-Zentrum kontaktieren. Zielparameter: Rekapillarisierung ≤ 3 s, normale Herzfrequenz, Urinausscheidung > 1 ml/kg/h, fallendes Laktat.",
+      "keyPoints": [
+        "Antibiotika innerhalb 1 h nach Blutkultur",
+        "Volumenboli 10–20 ml/kg mit Reevaluation",
+        "Glukose und Calcium korrigieren",
+        "kalter Schock: Adrenalin, warmer Schock: Noradrenalin",
+        "Hydrocortison bei Refraktärität, Echo, ggf. ECMO",
+        "Perfusionsziele (Rekap, Urin, Laktat)"
+      ],
+      "tags": ["septischer Schock", "Sepsis", "Katecholamine"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-012",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie Pathophysiologie und **klinische Zeichen eines hämodynamisch relevanten persistierenden Ductus arteriosus (PDA)** beim Frühgeborenen.",
+      "hints": [
+        "In welche Richtung fließt das Blut, sobald der Lungengefäßwiderstand fällt?",
+        "Was passiert mit dem diastolischen Blutdruck?"
+      ],
+      "answer": "Mit Abfall des pulmonalen Gefäßwiderstands entsteht ein Links-rechts-Shunt von der Aorta in die Pulmonalarterie. Folge ist eine pulmonale Überflutung (Lungenödem, steigender Beatmungs- und Sauerstoffbedarf, Lungenblutung) und eine systemische Minderperfusion durch diastolischen Abstrom („Ductus-Steal“) mit Risiko für Oligurie und NEC. Klinisch: systolisches, später kontinuierliches Geräusch (kann fehlen), hyperaktives Präkordium, Pulsus celer et altus mit großer Blutdruckamplitude und niedrigem diastolischem Druck, Tachykardie, Hepatomegalie. Ein großer PDA ist assoziiert mit BPD, NEC, Lungenblutung und IVH; ein kausaler Zusammenhang und der Nutzen einer Behandlung sind für viele dieser Endpunkte jedoch nicht belegt. Je unreifer das Kind, desto häufiger bleibt der Ductus offen.",
+      "keyPoints": [
+        "Links-rechts-Shunt nach PVR-Abfall",
+        "pulmonale Überflutung, steigender Beatmungsbedarf, Lungenblutung",
+        "Ductus-Steal mit systemischer Minderperfusion (Niere, Darm)",
+        "Pulsus celer, niedriger diastolischer Druck, hyperaktives Präkordium, Geräusch",
+        "Assoziation mit BPD/NEC, Kausalität unklar"
+      ],
+      "tags": ["PDA", "Pathophysiologie", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **echokardiographischen Kriterien** sprechen für einen **hämodynamisch signifikanten PDA**?",
+      "hints": [
+        "Ductus selbst, Volumenbelastung links, Auswirkungen auf die Organperfusion.",
+        "Achten Sie auf diastolischen Fluss in der Aorta descendens."
+      ],
+      "answer": "Am Ductus selbst: großer Durchmesser (häufig genannter Grenzwert etwa ≥ 1,5 mm, je nach Quelle und Gewicht) und unrestriktiver, pulsatiler Links-rechts-Fluss mit niedriger Maximalgeschwindigkeit. Zeichen der pulmonalen Überflutung bzw. Volumenbelastung links: vergrößerter linker Vorhof (LA/Ao-Verhältnis erhöht, Grenzwerte je nach Quelle etwa 1,4–1,6), erhöhter linksventrikulärer Auswurf, erhöhte enddiastolische Flussgeschwindigkeit in der linken Pulmonalarterie. Zeichen der systemischen Minderperfusion: fehlender oder retrograder enddiastolischer Fluss in der Aorta descendens, im Truncus coeliacus, in der A. mesenterica superior oder der A. cerebri media. Vor jeder Behandlung muss echokardiographisch ein ductusabhängiges Vitium ausgeschlossen werden. Die Signifikanz ergibt sich immer aus Echo und Klinik zusammen; Scores kombinieren mehrere Parameter.",
+      "keyPoints": [
+        "großer Ductusdurchmesser, unrestriktiver Fluss",
+        "LA/Ao-Verhältnis erhöht, LVO erhöht",
+        "diastolischer Rückfluss/Nullfluss in Aorta descendens bzw. Organarterien",
+        "Ausschluss ductusabhängiger Herzfehler vor Therapie",
+        "Bewertung zusammen mit Klinik"
+      ],
+      "tags": ["PDA", "Echokardiographie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie entscheiden sich bei einem Frühgeborenen 25+4 SSW am 5. Lebenstag für einen **medikamentösen PDA-Verschluss**. Welche Medikamente stehen zur Verfügung, wie dosieren Sie, und was überwachen Sie?",
+      "hints": ["Zwei COX-Hemmer und eine Alternative.", "Nieren, Thrombozyten, Darm."],
+      "answer": "Erste Wahl ist meist **Ibuprofen** i. v. (oder enteral) im Schema 10 mg/kg, gefolgt von 5 mg/kg nach 24 h und 48 h; bei fehlendem Erfolg kann ein zweiter Zyklus erfolgen, einige Zentren verwenden höhere Dosierungen. **Indometacin** ist eine Alternative, wird wegen stärkerer renaler und mesenterialer Vasokonstriktion seltener verwendet. **Paracetamol** i. v. (Off-Label) wird zunehmend eingesetzt, besonders bei Kontraindikationen gegen COX-Hemmer; dabei Leberwerte kontrollieren. Vor Therapiebeginn ein ductusabhängiges Vitium echokardiographisch ausschließen. Überwachung: Urinausscheidung und Kreatinin, Thrombozyten und Blutungszeichen, Bilirubin, Abdomen (NEC, spontane Perforation, besonders bei gleichzeitigen Steroiden), Echo-Kontrolle des Verschlusses. Dosierungen vor Anwendung gegen aktuelle Fachinformation und lokale Standards prüfen.",
+      "keyPoints": [
+        "Ibuprofen 10–5–5 mg/kg im 24-h-Abstand",
+        "Indometacin als Alternative",
+        "Paracetamol als Off-Label-Alternative (Leberwerte)",
+        "vorher ductusabhängiges Vitium ausschließen",
+        "Monitoring Niere, Thrombozyten/Blutung, Darm, Echo"
+      ],
+      "tags": ["PDA", "Ibuprofen", "Paracetamol"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welcher der folgenden Befunde ist **keine** Kontraindikation gegen eine Ibuprofen-Therapie des PDA?",
+      "hints": ["Überlegen Sie, welche Organsysteme durch COX-Hemmung gefährdet sind."],
+      "answer": "Kontraindikationen bzw. relevante Vorsichtsgründe für Ibuprofen sind aktive Blutungen, ausgeprägte Thrombozytopenie, NEC oder Verdacht darauf, relevante Nierenfunktionseinschränkung bzw. Oligurie sowie ein ductusabhängiges Vitium. Eine laufende CPAP-Therapie ist keine Kontraindikation.",
+      "keyPoints": [
+        "CPAP ist keine Kontraindikation",
+        "KI: Blutung, Thrombozytopenie, NEC, Nierenversagen, ductusabhängiges Vitium"
+      ],
+      "options": [
+        { "text": "Laufende CPAP-Therapie", "correct": true },
+        { "text": "Verdacht auf nekrotisierende Enterokolitis", "correct": false },
+        { "text": "Oligurie mit steigendem Kreatinin", "correct": false },
+        { "text": "Ausgeprägte Thrombozytopenie mit aktiver Blutung", "correct": false },
+        { "text": "Pulmonalatresie mit ductusabhängiger Lungenperfusion", "correct": false }
+      ],
+      "tags": ["PDA", "Ibuprofen", "Kontraindikationen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Prüfer fragt: „Behandeln Sie heute noch jeden PDA bei extrem unreifen Frühgeborenen?“ Stellen Sie die **aktuelle Evidenz** zu prophylaktischer, früher und abwartender Behandlung dar.",
+      "hints": [
+        "Welche Endpunkte verbessert die Prophylaxe, welche nicht?",
+        "Neuere randomisierte Studien zum abwartenden Vorgehen."
+      ],
+      "answer": "Die prophylaktische Indometacin-Gabe senkt die Rate schwerer IVH und chirurgischer Ductusligaturen, verbessert aber das neurologische Langzeitergebnis nicht; sie wird daher nicht generell empfohlen. Auch die frühe Behandlung eines echokardiographisch großen PDA hat in neueren randomisierten Studien (z. B. BeNeDuctus, Baby-OSCAR) Tod oder BPD nicht reduziert; ein abwartendes Vorgehen war bei den untersuchten Kollektiven nicht unterlegen. Der Trend geht deshalb zu einem individualisierten, eher abwartenden Vorgehen mit Behandlung eines hämodynamisch signifikanten PDA bei klinischer Relevanz (z. B. anhaltender Beatmungsbedarf, Lungenblutung, Herzinsuffizienz, Minderperfusion). Die Praxis unterscheidet sich zwischen Zentren, besonders bei Kindern unter 26 SSW. Den Eltern sollte man erklären, dass der Ductus sich bei vielen Kindern spontan verschließt.",
+      "keyPoints": [
+        "Prophylaxe senkt schwere IVH, aber kein besseres Langzeitergebnis",
+        "frühe Behandlung ohne Reduktion von Tod/BPD in neueren RCTs",
+        "abwartendes Vorgehen nicht unterlegen",
+        "individualisierte Indikation nach Klinik und Echo",
+        "zentrumsabhängige Praxis"
+      ],
+      "tags": ["PDA", "Evidenz", "abwartendes Vorgehen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-017",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes mit 900 g wird wegen eines therapierefraktären PDA chirurgisch ligiert. 8 Stunden nach der Operation fallen Blutdruck und Oxygenierung ab. Woran denken Sie, und wie behandeln Sie?",
+      "hints": [
+        "Was passiert schlagartig mit Vor- und Nachlast des linken Ventrikels?",
+        "Ein Inodilatator kann hier sinnvoll sein."
+      ],
+      "answer": "Typisch ist das **Post-Ligatur-Kardiale-Syndrom**: Nach Verschluss steigt die Nachlast des linken Ventrikels abrupt (Wegfall des niedrigen pulmonalen Abflusses), gleichzeitig sinkt die Vorlast. Der unreife, an diese Bedingungen nicht adaptierte Ventrikel dekompensiert, meist 6–12 Stunden postoperativ, mit systolischer Dysfunktion, Hypotension und Oxygenierungsstörung. Differenzialdiagnostisch an Pneumothorax, Blutung, Chylothorax, Rekurrens- oder Phrenicusparese denken. Funktionelle Echokardiographie zur Bestätigung. Therapie: Nachlast senken und Kontraktilität verbessern, z. B. mit Milrinon (manche Zentren prophylaktisch) oder Dobutamin; reine Vasokonstriktoren erhöhen die Nachlast weiter und werden zurückhaltend eingesetzt. Bei interventionellem Katheterverschluss tritt das Syndrom ebenfalls auf, offenbar seltener.",
+      "keyPoints": [
+        "Post-Ligatur-Kardiales-Syndrom nach 6–12 h",
+        "abrupte Nachlasterhöhung, Vorlastabfall",
+        "DD Pneumothorax, Blutung, Parese",
+        "Echo zur Bestätigung",
+        "Milrinon/Dobutamin, Vasokonstriktoren zurückhaltend"
+      ],
+      "tags": ["PDA", "Ligatur", "Post-Ligatur-Syndrom"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erklären Sie Pathophysiologie, Ursachen und Diagnostik der **persistierenden pulmonalen Hypertonie des Neugeborenen (PPHN)**.",
+      "hints": [
+        "Drei pathogenetische Gruppen: Fehladaptation, Fehlentwicklung, Unterentwicklung.",
+        "Wie zeigt sich ein Rechts-links-Shunt über den Ductus in der Pulsoxymetrie?"
+      ],
+      "answer": "Bei der PPHN bleibt der pulmonale Gefäßwiderstand nach der Geburt hoch; es resultiert ein Rechts-links-Shunt über Foramen ovale und/oder Ductus arteriosus mit Hypoxämie. Ursachen: **Fehladaptation** bei normal angelegter Gefäßstruktur (Mekoniumaspiration, Sepsis/Pneumonie, RDS, Asphyxie), **Fehlentwicklung** mit muskularisierten Gefäßen (idiopathische PPHN, intrauteriner Ductusverschluss z. B. durch NSAR), **Unterentwicklung** bei Lungenhypoplasie (Zwerchfellhernie, Oligohydramnion). Diagnostik: prä- und postduktale Sättigung (Differenz von mehr als etwa 5–10 % spricht für ductalen Rechts-links-Shunt; fehlt sie, ist ein Shunt nur über das Foramen ovale nicht ausgeschlossen), BGA, Röntgen-Thorax. Entscheidend ist die Echokardiographie: Ausschluss struktureller Herzfehler (insbesondere TAPVR), Shuntrichtung über PFO/PDA, Abschätzung des RV-Drucks über die Trikuspidalinsuffizienz, Septumabflachung, RV-Funktion.",
+      "keyPoints": [
+        "persistierend hoher PVR mit Rechts-links-Shunt über PFO/PDA",
+        "Fehladaptation, Fehlentwicklung, Unterentwicklung",
+        "prä-/postduktale Sättigungsdifferenz",
+        "Echo: Ausschluss Vitium (TAPVR), Shuntrichtung, TI-Gradient, Septumstellung",
+        "Röntgen und BGA ergänzend"
+      ],
+      "tags": ["PPHN", "Pathophysiologie", "Diagnostik"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.5 – PPHN",
+          "terms": ["PPHN"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-019",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Bei einem Neugeborenen mit Verdacht auf PPHN messen Sie eine **Trikuspidalinsuffizienz** mit einer maximalen Flussgeschwindigkeit von **3,8 m/s**. Sie nehmen einen rechtsatrialen Druck von 5 mmHg an. Wie hoch ist der geschätzte **rechtsventrikuläre systolische Druck** in mmHg? (Der systolische Systemdruck beträgt 58 mmHg.)",
+      "hints": ["Vereinfachte Bernoulli-Gleichung: ΔP = 4 · v²", "RVSP = 4 · v² + RAP"],
+      "answer": "Vereinfachte Bernoulli-Gleichung: ΔP = 4 · v² = 4 · 3,8² = 4 · 14,44 = 57,8 mmHg. RVSP = ΔP + RAP = 57,8 + 5 = **ca. 63 mmHg**. Ohne Pulmonalstenose entspricht dies dem systolischen Pulmonalarteriendruck. Er liegt über dem systolischen Systemdruck von 58 mmHg, also suprasystemisch – vereinbar mit einer schweren PPHN.",
+      "keyPoints": [
+        "Bernoulli ΔP = 4 · v²",
+        "57,8 mmHg Gradient",
+        "plus RAP 5 mmHg ≈ 63 mmHg",
+        "suprasystemischer Druck = schwere PPHN"
+      ],
+      "solution": { "value": 62.8, "unit": "mmHg", "tolerance": 0.03 },
+      "tags": ["PPHN", "Echokardiographie", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.5 – PPHN",
+          "terms": ["PPHN"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Reifgeborenes, 6 h alt, nach Mekoniumaspiration beatmet, FiO2 1,0, präduktale SpO2 82 %, postduktale 70 %, MAP 34 mmHg. Echo: suprasystemischer Pulmonaldruck, Rechts-links-Shunt über den Ductus, eingeschränkte LV-Funktion. Beschreiben Sie das **Kreislauf- und Oxygenierungsmanagement**.",
+      "hints": [
+        "Ziel: systemischer Druck über dem pulmonalen.",
+        "Welches pulmonale Vasodilatans zuerst, und wann ein Inodilatator?"
+      ],
+      "answer": "Allgemein: Minimal Handling, ausreichende Analgosedierung, Normothermie, Normoglykämie, normales Calcium; Hämoglobin im oberen Normbereich halten. Beatmung lungenprotektiv mit optimaler Lungenrekrutierung (Über- und Unterblähung erhöhen den PVR), Surfactant bei Mekoniumaspiration erwägen; Hyperventilation und Alkalose vermeiden, Normokapnie anstreben, präduktale SpO2 etwa 90–95 %, Hyperoxie vermeiden. Inhalatives NO (Start 20 ppm) als selektiver pulmonaler Vasodilatator. Kreislauf: Systemdruck anheben, um den Rechts-links-Shunt zu reduzieren – bevorzugt Noradrenalin oder Vasopressin, da sie den systemischen stärker als den pulmonalen Widerstand erhöhen; Dopamin wegen möglicher PVR-Erhöhung zurückhaltend. Bei LV-Dysfunktion bzw. unzureichendem Ansprechen auf iNO Milrinon (Vorsicht Hypotonie, ggf. mit Vasopressor kombinieren); bei Refraktärität Hydrocortison. Steigender Oxygenierungsindex trotz Therapie: frühzeitig mit einem ECMO-Zentrum Kontakt aufnehmen.",
+      "keyPoints": [
+        "Analgosedierung, Minimal Handling, Normokapnie, keine Alkalose",
+        "optimale Lungenrekrutierung, Surfactant bei MAS",
+        "iNO 20 ppm",
+        "Systemdruck mit Noradrenalin/Vasopressin anheben",
+        "Milrinon bei LV-Dysfunktion",
+        "frühzeitig ECMO-Zentrum kontaktieren"
+      ],
+      "tags": ["PPHN", "iNO", "Milrinon", "Mekoniumaspiration"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Fragestellungen beantwortet die **funktionelle (neonatologische) Echokardiographie**, welche Parameter erheben Sie, und wo liegen ihre Grenzen?",
+      "hints": [
+        "Füllung, Pumpfunktion, Fluss, Shunts, Lungendruck.",
+        "Was muss vor der ersten funktionellen Beurteilung immer geklärt sein?"
+      ],
+      "answer": "Die funktionelle Echokardiographie am Bett beantwortet hämodynamische Fragen: Ursache von Hypotension und Schock, Bedeutung eines PDA, Vorliegen und Schwere einer pulmonalen Hypertonie, Volumenstatus, Perikarderguss, Katheterlage. Parameter: Füllung (Ventrikelgröße, V. cava inferior), systolische Funktion (Verkürzungsfraktion, visuelle Beurteilung, TAPSE für den RV), Herzzeitvolumen (LVO, RVO, SVC-Fluss als Surrogat für den Hirnfluss), Shunts über PDA und Foramen ovale (Größe, Richtung), Pulmonaldruck (TI-Gradient, Septumstellung). Grenzen: Untersucherabhängigkeit, eingeschränkte Reproduzierbarkeit einzelner Messgrößen; LVO und RVO werden durch Shunts verfälscht (LVO bei großem PDA, RVO bei Vorhofshunt). Sie ersetzt nicht die kinderkardiologische Untersuchung: Bei der Erstuntersuchung muss ein struktureller Herzfehler sicher ausgeschlossen werden.",
+      "keyPoints": [
+        "Indikationen: Hypotension/Schock, PDA, PPHN, Volumenstatus, Erguss",
+        "Parameter: Füllung, Kontraktilität, LVO/RVO/SVC-Fluss, Shunts, Pulmonaldruck",
+        "Shunts verfälschen LVO/RVO",
+        "Untersucherabhängigkeit",
+        "Strukturausschluss durch Kinderkardiologie"
+      ],
+      "tags": ["funktionelle Echokardiographie", "Hämodynamik"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-022",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Funktionelle Echokardiographie bei einem Frühgeborenen mit 1,2 kg: Durchmesser des Aortenklappenrings 0,6 cm, Geschwindigkeits-Zeit-Integral (VTI) in der Aorta ascendens 8 cm, Herzfrequenz 150/min. Berechnen Sie den **linksventrikulären Auswurf (LVO) in ml/kg/min**.",
+      "hints": [
+        "Schlagvolumen = Querschnittsfläche · VTI; Fläche = π · (d/2)²",
+        "LVO = Schlagvolumen · Herzfrequenz / Gewicht"
+      ],
+      "answer": "Querschnittsfläche = π · (0,6/2)² = π · 0,09 = 0,283 cm². Schlagvolumen = 0,283 cm² · 8 cm = 2,26 ml. Herzzeitvolumen = 2,26 ml · 150/min = 339 ml/min. LVO = 339 / 1,2 kg = **ca. 283 ml/kg/min**. Das liegt im üblicherweise angegebenen Normbereich von etwa 150–300 ml/kg/min. Bei großem PDA mit Links-rechts-Shunt überschätzt der LVO allerdings den systemischen Fluss.",
+      "keyPoints": [
+        "Fläche π · r² = 0,283 cm²",
+        "Schlagvolumen 2,26 ml",
+        "339 ml/min",
+        "≈ 283 ml/kg/min",
+        "LVO bei PDA kein Maß für Systemfluss"
+      ],
+      "solution": { "value": 282.7, "unit": "ml/kg/min", "tolerance": 0.04 },
+      "tags": ["funktionelle Echokardiographie", "Herzzeitvolumen", "Berechnung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-023",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes 26 SSW hat am 3. Lebenstag einen großen PDA mit Links-rechts-Shunt und keinen relevanten Vorhofshunt. Welcher echokardiographische Parameter bildet am ehesten den **systemischen Blutfluss zur oberen Körperhälfte** ab?",
+      "hints": ["Welcher Fluss enthält bei Links-rechts-Shunt über den Ductus das Shuntvolumen?"],
+      "answer": "Der Fluss in der V. cava superior (SVC-Fluss) misst den venösen Rückstrom aus der oberen Körperhälfte und wird nicht durch ductale oder atriale Shunts beeinflusst; er gilt als Surrogat für den zerebralen Blutfluss. Der LVO enthält bei großem PDA das Shuntvolumen und überschätzt den Systemfluss. Ductusdurchmesser und LA/Ao-Verhältnis beschreiben den Shunt, nicht den Systemfluss; die Verkürzungsfraktion beschreibt die Kontraktilität.",
+      "keyPoints": ["SVC-Fluss unabhängig von Shunts", "Surrogat für Hirnperfusion", "LVO überschätzt Systemfluss bei PDA"],
+      "options": [
+        { "text": "Fluss in der V. cava superior (SVC-Fluss)", "correct": true },
+        { "text": "Linksventrikulärer Auswurf (LVO)", "correct": false },
+        { "text": "Ductusdurchmesser", "correct": false },
+        { "text": "Verhältnis linker Vorhof zu Aortenwurzel (LA/Ao)", "correct": false },
+        { "text": "Verkürzungsfraktion des linken Ventrikels", "correct": false }
+      ],
+      "tags": ["funktionelle Echokardiographie", "SVC-Fluss", "PDA"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-024",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die typischen **Störungen der Kreislaufumstellung beim sehr unreifen Frühgeborenen** in den ersten 24–48 Lebensstunden (Konzept des „niedrigen systemischen Blutflusses“). Welche klinische Bedeutung haben sie?",
+      "hints": [
+        "Was passiert mit der Nachlast nach dem Abnabeln?",
+        "Zusammenhang mit Hirnblutungen über Minderperfusion und Reperfusion."
+      ],
+      "answer": "Nach dem Abnabeln fällt die Plazenta als Niederwiderstandskreislauf weg; die Nachlast für den unreifen linken Ventrikel mit geringer Kontraktilitätsreserve steigt abrupt. Zusätzlich verlieren Ductus und Foramen ovale bei noch offenem Zustand Blut aus dem Systemkreislauf. Bei einem Teil der sehr unreifen Frühgeborenen sinkt daher in den ersten Lebensstunden der systemische Blutfluss (messbar als niedriger SVC-Fluss oder RVO), oft bei noch normalem Blutdruck, mit Erholung meist innerhalb von 24–48 h. Ein niedriger systemischer Fluss ist mit IVH assoziiert, vermutlich über eine Minderperfusion mit anschließender Reperfusion. Präventiv wirken verzögertes Abnabeln, Vermeiden hoher Atemwegsdrücke und behutsame Volumen- bzw. Katecholamintherapie. Wird ein niedriger Fluss nachgewiesen, ist Dobutamin eine gängige Option; die Evidenz für einen Outcome-Vorteil ist begrenzt.",
+      "keyPoints": [
+        "Nachlastanstieg nach Abnabeln bei unreifem Myokard",
+        "Shunts über PDA/PFO",
+        "niedriger SVC-Fluss/RVO trotz normalem Blutdruck",
+        "Assoziation mit IVH (Minderperfusion–Reperfusion)",
+        "Prävention: verzögertes Abnabeln, Dobutamin bei niedrigem Fluss"
+      ],
+      "tags": ["Kreislaufumstellung", "Frühgeborene", "IVH"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-025",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes mit HIE Grad II wird gekühlt. Es zeigt eine Herzfrequenz von 85/min, einen MAP von 38 mmHg und ein Troponin deutlich über der Norm. Wie beurteilen Sie die **Hämodynamik nach Asphyxie unter therapeutischer Hypothermie**, und wie behandeln Sie bei Kreislaufinsuffizienz?",
+      "hints": ["Welche Herzfrequenz ist unter Kühlung physiologisch?", "Asphyxie betrifft Myokard und Lungenstrombahn."],
+      "answer": "Unter Hypothermie sind eine Sinusbradykardie (häufig 80–100/min), ein erhöhter systemischer Widerstand und ein vermindertes Herzzeitvolumen erwartbar; eine Bradykardie allein ist kein Grund zur Therapie. Die Asphyxie selbst verursacht eine ischämische Myokarddysfunktion (häufig mit Trikuspidalinsuffizienz durch Papillarmuskelischämie und Troponinanstieg) und ist oft mit PPHN kombiniert. Funktionelle Echokardiographie klärt Kontraktilität, Füllung und Pulmonaldruck. Volumen nur bei echter Hypovolämie (z. B. Blutverlust). Bei Myokarddysfunktion und Minderperfusion Inotropika wie Dobutamin oder Adrenalin; Milrinon nur vorsichtig, da es bei eingeschränkter Nierenfunktion kumuliert und Hypotonie verstärkt. Bei katecholaminrefraktärer Hypotonie Hydrocortison erwägen. Hypotension und Hypoperfusion sollten vermieden werden, da sie die Hirnschädigung verstärken können.",
+      "keyPoints": [
+        "Bradykardie 80–100/min unter Kühlung physiologisch",
+        "ischämische Myokarddysfunktion, TI, Troponin, PPHN",
+        "Echo-gesteuerte Therapie",
+        "Dobutamin/Adrenalin, Milrinon vorsichtig (Niere)",
+        "Volumen nur bei Hypovolämie"
+      ],
+      "tags": ["Asphyxie", "Hypothermie", "Myokarddysfunktion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes 28 SSW mit Nabelvenenkatheter und laufender parenteraler Ernährung wird am 4. Lebenstag plötzlich bradykard, blass und hypoton; die EKG-Amplitude ist niedrig. Woran denken Sie zuerst, und was tun Sie?",
+      "hints": ["Wo liegt die Katheterspitze?", "Welche bettseitige Untersuchung bestätigt die Diagnose in Sekunden?"],
+      "answer": "Bei einem Kind mit zentralem Katheter muss an eine **Perikardtamponade** durch Perforation bzw. Extravasation der Infusionslösung gedacht werden, besonders bei intrakardialer Katheterlage. Die Diagnose wird sofort echokardiographisch gestellt (Perikarderguss, Kompression der Vorhöfe bzw. des rechten Ventrikels). Sofortmaßnahmen: Infusion über den Katheter stoppen, ggf. über den liegenden Katheter aspirieren, und umgehend subxiphoidale Perikardpunktion unter Ultraschall; das Punktat ist typischerweise milchig oder glukosereich (Parenteralernährung). Parallel Reanimationsbereitschaft. Differenzialdiagnosen: Spannungspneumothorax, Sepsis, Blutung, Tubusdislokation. Prävention: korrekte Katheterspitzenlage außerhalb des Herzens (beim NVK am Übergang V. cava inferior/rechter Vorhof) mit Lagekontrolle.",
+      "keyPoints": [
+        "Perikardtamponade durch Katheterperforation",
+        "sofortiges Echo",
+        "Infusion stoppen, Perikardpunktion subxiphoidal",
+        "DD Pneumothorax, Sepsis, Tubusdislokation",
+        "Prävention: Katheterspitze außerhalb des Herzens"
+      ],
+      "tags": ["Perikardtamponade", "obstruktiver Schock", "Nabelvenenkatheter"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.6 – Gefäßzugänge",
+          "terms": ["Nabelvenenkatheter", "Nabelarterienkatheter", "PICC"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-027",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Definieren Sie den **Hydrops fetalis**, unterscheiden Sie immunologische und nicht-immunologische Formen und nennen Sie wichtige Ursachen.",
+      "hints": [
+        "Mindestens zwei Flüssigkeitsansammlungen.",
+        "Kardiovaskulär, chromosomal, Anämie, Infektion, Thorax, Lymphsystem, Stoffwechsel."
+      ],
+      "answer": "Hydrops fetalis ist die pathologische Flüssigkeitsansammlung in mindestens zwei fetalen Kompartimenten: Aszites, Pleuraerguss, Perikarderguss, generalisiertes Hautödem (mehr als 5 mm); häufig begleitet von Plazentaverdickung und Polyhydramnion. Der **immunologische Hydrops** entsteht durch Alloimmunhämolyse (v. a. Rh-Inkompatibilität) und ist durch die Anti-D-Prophylaxe selten geworden. Heute überwiegt der **nicht-immunologische Hydrops**. Ursachen: kardiovaskulär (strukturelle Herzfehler, Tachyarrhythmien, AV-Block, Kardiomyopathie; größte Gruppe), chromosomal (Turner, Trisomien), Syndrome (Noonan bzw. RASopathien), Anämie (Parvovirus B19, α-Thalassämie, fetomaternale Transfusion), Infektionen (CMV, Toxoplasmose, Lues), thorakale Raumforderungen (CPAM, Zwerchfellhernie, Chylothorax), lymphatische Dysplasien, Zwillingstransfusionssyndrom, Tumoren (z. B. Steißbeinteratom), lysosomale Speichererkrankungen; ein Teil bleibt ungeklärt.",
+      "keyPoints": [
+        "≥ 2 Kompartimente: Aszites, Pleura, Perikard, Hautödem",
+        "immunologisch (Rh) selten, nicht-immunologisch überwiegt",
+        "kardiovaskulär größte Ursachengruppe",
+        "Anämie (Parvovirus B19, α-Thalassämie), Chromosomenstörungen, Infektionen",
+        "thorakal, lymphatisch, lysosomal"
+      ],
+      "tags": ["Hydrops fetalis", "Ursachen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.5 – Hydrops fetalis",
+          "terms": ["Hydrops"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-028",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Ursachengruppe ist beim **nicht-immunologischen Hydrops fetalis** in Übersichtsarbeiten am häufigsten?",
+      "hints": ["Pumpversagen oder erhöhter zentralvenöser Druck."],
+      "answer": "Kardiovaskuläre Ursachen (strukturelle Herzfehler, Rhythmusstörungen, Kardiomyopathien) stellen in systematischen Übersichten die größte Einzelgruppe des nicht-immunologischen Hydrops. Die anderen genannten Gruppen sind wichtig, aber jeweils seltener.",
+      "keyPoints": ["kardiovaskuläre Ursachen am häufigsten", "inkl. Rhythmusstörungen und Kardiomyopathien"],
+      "options": [
+        { "text": "Kardiovaskuläre Ursachen", "correct": true },
+        { "text": "Lysosomale Speichererkrankungen", "correct": false },
+        { "text": "Rhesus-Alloimmunisierung", "correct": false },
+        { "text": "Steißbeinteratom", "correct": false }
+      ],
+      "tags": ["Hydrops fetalis"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.5 – Hydrops fetalis",
+          "terms": ["Hydrops"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-029",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Kind mit pränatal bekanntem **nicht-immunologischem Hydrops** (Aszites, beidseitige Pleuraergüsse, Hautödem) wird mit 33+2 SSW per Sectio entbunden. Wie bereiten Sie die **Erstversorgung** vor, und wie gehen Sie vor?",
+      "hints": ["Team, Material, Punktionen.", "Welche Proben vor der ersten Transfusion?"],
+      "answer": "Vorbereitung: Pränatale Befunde und Ursache klären (Hb fetal, Herzbefund, Rhythmus), Elterngespräch, erfahrenes Team mit mindestens zwei Ärztinnen bzw. Ärzten, Material für schwierige Intubation, Pleura- und Aszitespunktion bereit, Blutkonserve (0 Rh negativ, mit mütterlichem Serum verträglich) bei bekannter Anämie. Versorgung: Atemwegssicherung meist durch frühe Intubation (Ödem erschwert die Intubation), Beatmung mit hohen Drücken bzw. PEEP, Surfactant erwägen. Bei unzureichender Ventilation Pleurapunktion bzw. -drainage, bei gespanntem Abdomen Aszitespunktion. Zentrale Zugänge (NVK/NAK). Bei schwerer Anämie isovolämische Teilaustauschtransfusion statt reiner Transfusion, um eine Volumenbelastung zu vermeiden. Vor Transfusion Blut asservieren (Blutgruppe, Coombs, Hb-Analytik, Genetik, Infektions- und Stoffwechseldiagnostik). Ergüsse untersuchen (Zellzahl mit Lymphozytenanteil, Triglyceride, Eiweiß, Kultur). Danach Kapillarleck-orientierte Flüssigkeitsbilanzierung, Kreislaufunterstützung, ggf. Diuretika und Albumin nach Zentrumsstandard.",
+      "keyPoints": [
+        "Planung mit Pränatalmedizin, erfahrenes Team, Elterngespräch",
+        "frühe Intubation, hohe Beatmungsdrücke, Surfactant",
+        "Pleura-/Aszitespunktion bei Ventilationsstörung",
+        "Teilaustausch bei schwerer Anämie, Blutprodukte bereit",
+        "Asservierung vor Transfusion, Ergussdiagnostik"
+      ],
+      "tags": ["Hydrops fetalis", "Erstversorgung", "Pleurapunktion"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.5 – Hydrops fetalis",
+          "terms": ["Hydrops"]
+        }
+      ]
+    },
+    {
+      "id": "kreis-030",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **klinischen und laborchemischen Zeichen** nutzen Sie, um eine **Minderperfusion** beim Neugeborenen zu erkennen, und welche Schwächen haben sie?",
+      "hints": [
+        "Haut, Herz, Niere, Stoffwechsel.",
+        "Welche Zeichen werden durch Umgebungstemperatur oder Medikamente beeinflusst?"
+      ],
+      "answer": "Klinisch: verlängerte Rekapillarisierungszeit (über 3 s, zentral geprüft), blass-graues oder marmoriertes Hautkolorit, kühle Extremitäten und erhöhte Temperaturdifferenz zentral–peripher, Tachykardie, Oligurie (unter 1 ml/kg/h), Bewusstseinsänderung. Labor: metabolische Azidose mit steigendem Laktat, erhöhtes Basendefizit. Ergänzend: NIRS (zerebrale bzw. renale Oxygenierung) und funktionelle Echokardiographie. Schwächen: Rekapillarisierungszeit und Hautkolorit hängen von Umgebungstemperatur und Untersucher ab; die Urinausscheidung ist in den ersten Lebensstunden physiologisch gering; Laktat steigt verzögert und ist unter Adrenalin erhöht. Deshalb immer mehrere Parameter im Verlauf beurteilen.",
+      "keyPoints": [
+        "Rekapillarisierungszeit, Hautkolorit, Temperaturdifferenz",
+        "Tachykardie, Oligurie",
+        "Laktat und Basendefizit",
+        "NIRS und Echo ergänzend",
+        "Einzelparameter störanfällig – Kombination im Verlauf"
+      ],
+      "tags": ["Perfusion", "Schock", "Monitoring"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    }
+  ]
+}

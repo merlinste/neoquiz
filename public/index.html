@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Neoquiz Neonatologie</title>
+  <meta name="description" content="Lern-Quiz zur Vorbereitung auf die Schwerpunktprüfung Neonatologie (Landesärztekammer Hessen)">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👶</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="Startseite">
+      <span class="brand-icon">👶</span>
+      <span class="brand-text"><strong>Neoquiz</strong><small>Schwerpunkt Neonatologie · LÄK Hessen</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="home">Themen</a>
+      <a href="#/pruefung" data-nav="pruefung">Prüfung</a>
+      <a href="#/pruefungsordnung" data-nav="pruefungsordnung">Ordnung</a>
+      <a href="#/literatur" data-nav="literatur">Literatur</a>
+      <a href="#/statistik" data-nav="statistik">Statistik</a>
+      <a href="#/einstellungen" data-nav="einstellungen">Einstellungen</a>
+    </nav>
+    <div class="status" id="status" title="Synchronisation"></div>
+  </header>
+  <main id="app" class="container" aria-live="polite">
+    <p class="muted">Lade …</p>
+  </main>
+  <footer class="footer container">
+    <span>Lernhilfe zur Prüfungsvorbereitung nach der Weiterbildungsordnung Hessen 2020 (Schwerpunkt Neonatologie), Lernbasis <em>Checkliste Neonatologie</em> (Thieme, 8. Aufl. 2025) und aktuelle Leitlinien. Keine Gewähr für Vollständigkeit und Richtigkeit. Dosierungen und Grenzwerte vor jeder klinischen Anwendung gegen Fachinformation, aktuelle Leitlinien und lokale Standards prüfen – das Quiz ersetzt keine klinische Entscheidung.</span>
+  </footer>
+  <script src="config.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

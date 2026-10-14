@@ -1,0 +1,12 @@
+node_modules/
+.netlify/
+.env
+.env.*
+!.env.example
+dist/
+*.log
+.DS_Store
+public/data/
+scratch/
+__pycache__/
+*.pyc

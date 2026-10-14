@@ -1,0 +1,801 @@
+{
+  "area": "adaptation",
+  "questions": [
+    {
+      "id": "adap-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie den **fetalen Kreislauf** mit seinen drei Kurzschlussverbindungen und den Weg des sauerstoffreichen Blutes.",
+      "hints": [
+        "Ductus venosus, Foramen ovale, Ductus arteriosus.",
+        "Welche Organe erhalten das am besten oxygenierte Blut?"
+      ],
+      "answer": "Sauerstoffreiches Blut aus der Plazenta gelangt über die **Nabelvene** zur Leber; ein großer Teil umgeht diese über den **Ductus venosus** in die untere Hohlvene. Im rechten Vorhof wird dieser Strom bevorzugt über das **Foramen ovale** in den linken Vorhof gelenkt, sodass linker Ventrikel und Aorta ascendens – und damit **Koronarien und Gehirn** – das am besten oxygenierte Blut erhalten. Das sauerstoffarme Blut der oberen Hohlvene fließt in den rechten Ventrikel und die Pulmonalarterie; wegen des **hohen pulmonalen Gefäßwiderstands** gelangt nur ein kleiner Teil in die Lunge, der Großteil fließt über den **Ductus arteriosus** in die Aorta descendens. Über die beiden **Nabelarterien** kehrt das Blut zur Plazenta zurück. Der Kreislauf ist parallel geschaltet, der rechte Ventrikel leistet den größeren Anteil des Herzzeitvolumens.",
+      "keyPoints": [
+        "Nabelvene – Ductus venosus – untere Hohlvene",
+        "Foramen ovale lenkt oxygeniertes Blut zum linken Herzen (Gehirn, Koronarien)",
+        "Hoher pulmonaler Widerstand, Ductus arteriosus zur Aorta descendens",
+        "Rückfluss über Nabelarterien zur Plazenta"
+      ],
+      "tags": ["Fetaler Kreislauf", "Physiologie"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "adap-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **postnatale Kreislaufumstellung**. Welche Auslöser gibt es, in welchem Zeitrahmen verschließen sich die fetalen Shunts, und welche klinische Relevanz hat das?",
+      "hints": [
+        "Lungenbelüftung und Abnabelung verändern die Widerstände.",
+        "Was passiert bei ductusabhängigen Herzfehlern, was bei ausbleibendem Abfall des Lungengefäßwiderstands?"
+      ],
+      "answer": "Mit der **Belüftung der Lunge** (Sauerstoff, mechanische Entfaltung, NO-Freisetzung) fällt der **pulmonale Gefäßwiderstand** rasch ab, die Lungendurchblutung steigt stark an; der Wegfall der Niederdruck-Plazenta erhöht den **systemischen Widerstand**. Der vermehrte pulmonalvenöse Rückstrom erhöht den Druck im linken Vorhof über den des rechten – das **Foramen ovale** verschließt sich funktionell (anatomisch später, offen bleibt es bei einem Teil der Erwachsenen). Der **Ductus arteriosus** kontrahiert durch den Anstieg des pO2 und den Abfall der Prostaglandine (Wegfall der Plazenta, Abbau in der Lunge) und ist beim Reifgeborenen meist **innerhalb der ersten 1–3 Lebenstage funktionell verschlossen**, anatomisch nach Wochen. Der Ductus venosus verschließt sich in den ersten Lebenstagen. **Klinische Relevanz:** ductusabhängige Herzfehler dekompensieren mit dem Ductusverschluss (Pulsoxymetrie-Screening); bleibt der Lungenwiderstand hoch (Hypoxie, Azidose, Hypothermie, Mekoniumaspiration, Sepsis), entsteht eine **PPHN** mit Rechts-links-Shunt; bei Frühgeborenen bleibt der Ductus oft offen. Wird vor dem Abnabeln belüftet, bleibt das Herzzeitvolumen stabiler.",
+      "keyPoints": [
+        "Lungenbelüftung senkt pulmonalen Widerstand, Plazentawegfall erhöht systemischen Widerstand",
+        "Foramen ovale: funktioneller Verschluss durch Druckumkehr in den Vorhöfen",
+        "Ductus: pO2-Anstieg und Prostaglandinabfall, funktionell in 1–3 Tagen",
+        "Relevanz: ductusabhängige Vitien, PPHN, PDA beim Frühgeborenen"
+      ],
+      "tags": ["Kreislaufumstellung", "Ductus arteriosus", "Physiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "adap-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie verläuft die **Atemumstellung** bei der Geburt, und warum haben Kinder nach **primärer Sectio ohne Wehen** häufiger Atemprobleme?",
+      "hints": ["Was passiert mit der fetalen Lungenflüssigkeit?", "Welche Rolle spielen Wehen und Katecholamine?"],
+      "answer": "Die fetale Lunge ist mit Flüssigkeit gefüllt, die aktiv sezerniert wird. Gegen Ende der Schwangerschaft und unter der Geburt (Katecholamine, Glukokortikoide, Wehen) wird auf **Natriumresorption über epitheliale Natriumkanäle (ENaC)** umgeschaltet. Den größten Teil der Flüssigkeit befördern die ersten **kräftigen Atemzüge** durch den inspiratorischen Druckgradienten aus den Atemwegen ins Interstitium, von wo sie über Stunden lymphatisch und vaskulär abtransportiert wird. So bilden sich Luft-Flüssigkeits-Grenzfläche und **funktionelle Residualkapazität**; Surfactant senkt die Oberflächenspannung und stabilisiert die Alveolen. Bei **primärer Sectio ohne Wehen** fehlen hormonelle Umschaltung und Wehenwirkung – die Clearance ist verzögert: häufiger **transitorische Tachypnoe**, bei früher Sectio auch RDS und persistierende pulmonale Hypertonie. Daher sollen elektive Sectiones ohne medizinische Notwendigkeit nicht vor 39+0 SSW erfolgen.",
+      "keyPoints": [
+        "Umschalten von Sekretion auf Resorption (ENaC), getriggert durch Wehen/Katecholamine",
+        "Erste Atemzüge drücken Flüssigkeit ins Interstitium, FRC-Bildung",
+        "Surfactant stabilisiert die Alveolen",
+        "Primäre Sectio: verzögerte Clearance, TTN, RDS-Risiko",
+        "Elektive Sectio nicht vor 39+0 SSW"
+      ],
+      "tags": ["Atemumstellung", "Lungenflüssigkeit", "Sectio"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "adap-004",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erläutern Sie den **Apgar-Score**: Kriterien, Zeitpunkte, Interpretation und **Grenzen** seiner Aussagekraft.",
+      "hints": ["Fünf Kriterien mit je 0–2 Punkten.", "Darf man auf den Apgar warten, bevor man mit Maßnahmen beginnt?"],
+      "answer": "Der Apgar-Score bewertet **Herzfrequenz, Atmung, Muskeltonus, Reflexerregbarkeit und Hautfarbe** mit je 0–2 Punkten, erhoben nach **1, 5 und 10 Minuten**. Orientierend: 7–10 lebensfrisch, 4–6 mäßig deprimiert, 0–3 schwer deprimiert. **Grenzen:** Er ist subjektiv, vom Gestationsalter abhängig (Frühgeborene haben physiologisch weniger Tonus und Reflexe), durch mütterliche Medikamente und laufende Maßnahmen (Beatmung, Intubation) beeinflusst und **nicht zur Steuerung der Erstversorgung** geeignet – Entscheidungen beruhen auf Atmung, Herzfrequenz und Tonus in Echtzeit. Ein niedriger 5- bzw. 10-Minuten-Apgar ist mit Mortalität und neurologischen Folgen assoziiert, allein aber kein Beleg für eine Asphyxie. Die ERC fordern die Dokumentation der Apgar-Werte; sinnvoll ist, Einzelkomponenten und laufende Maßnahmen mitzudokumentieren (z. B. „Expanded Apgar“ nach AAP/ACOG).",
+      "keyPoints": [
+        "Herzfrequenz, Atmung, Tonus, Reflexe, Hautfarbe; je 0–2 Punkte",
+        "Nach 1, 5 und 10 Minuten",
+        "Nicht zur Steuerung der Reanimation",
+        "Beeinflusst durch Reife, Medikamente, Maßnahmen; allein kein Asphyxienachweis",
+        "Apgar dokumentieren, sinnvollerweise mit Einzelkomponenten und laufenden Maßnahmen"
+      ],
+      "tags": ["Apgar", "Postnatale Beurteilung"],
+      "exam": ["KM"],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "adap-005",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes hat mit 1 Minute eine **Herzfrequenz von 80/min**, eine **unregelmäßige, schwache Atmung**, **leichte Beugung** der Extremitäten, **grimassiert** beim Absaugen, Stamm rosig, Hände und Füße blau. Welchen **Apgar-Wert** vergeben Sie?",
+      "hints": ["Herzfrequenz < 100/min ergibt 1 Punkt.", "Akrozyanose ergibt 1 Punkt."],
+      "options": [
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": true },
+        { "text": "6", "correct": false },
+        { "text": "7", "correct": false }
+      ],
+      "answer": "Herzfrequenz < 100/min = 1, unregelmäßige/schwache Atmung = 1, leichte Beugung = 1, Grimassieren = 1, Akrozyanose bei rosigem Stamm = 1 – insgesamt **5 Punkte**.",
+      "keyPoints": [
+        "HF < 100/min: 1 Punkt",
+        "Unregelmäßige Atmung, leichte Beugung, Grimassieren, Akrozyanose: je 1 Punkt",
+        "Summe 5"
+      ],
+      "tags": ["Apgar"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "adap-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie interpretieren Sie die **Nabelschnurblutgase**? Gehen Sie auf Normwerte bzw. Azidose-Einteilung des arteriellen pH, die Bedeutung von Basenexzess und Laktat sowie auf typische **präanalytische Fehler** ein.",
+      "hints": ["Arteriell und venös abnehmen – warum?", "Respiratorische versus metabolische Azidose."],
+      "answer": "Die **Nabelarterie** spiegelt den Säure-Basen-Status des Fetus, die **Nabelvene** den der Plazenta wider; beide sollten abgenommen werden. In Deutschland übliche Einteilung des arteriellen pH: **≥ 7,30 normal**, 7,20–7,29 leichte, 7,10–7,19 mittelgradige, 7,00–7,09 fortgeschrittene und **< 7,00 schwere Azidose**. **Basenexzess und Laktat** unterscheiden die prognostisch günstigere respiratorische (hoher pCO2, BE normal, z. B. akute Nabelschnurkompression) von der metabolischen Azidose (BE stark negativ, Laktat hoch, länger dauernde Hypoxie). Ein arterieller pH < 7,00 und/oder ein BE ≤ −12 mmol/l gilt als pathologische Azidämie mit erhöhtem Risiko einer hypoxisch-ischämischen Enzephalopathie; die Diagnose Asphyxie erfordert aber zusätzlich klinische Befunde (Apgar, Enzephalopathie, Organbeteiligung). **Präanalytik:** Verwechslung von Arterie und Vene (sind beide Werte nahezu identisch, wurde wahrscheinlich zweimal venös abgenommen), Luftblasen, verzögerte Analyse, Heparinverdünnung, Abnahme aus nicht abgeklemmtem Segment.",
+      "keyPoints": [
+        "Arteriell = Fetus, venös = Plazenta, beide abnehmen",
+        "pH ≥ 7,30 normal, < 7,00 schwere Azidose",
+        "BE und Laktat zur Unterscheidung respiratorisch/metabolisch",
+        "pH < 7,00 und/oder BE ≤ −12: pathologisch, aber Asphyxie nur mit Klinik",
+        "Präanalytische Fehler, insbesondere arteriovenöse Verwechslung"
+      ],
+      "tags": ["Nabelarterien-pH", "Säure-Basen-Haushalt"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "adap-007",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Nach einer zügigen Spontangeburt mit straffer Nabelschnurumschlingung ergibt sich: **Nabelarterie** pH 7,08, pCO2 80 mmHg, BE −3 mmol/l; **Nabelvene** pH 7,30, pCO2 45 mmHg. Das Kind ist mit 5 Minuten lebensfrisch. Wie bewerten Sie den Befund?",
+      "hints": ["Betrachten Sie BE und arteriovenöse Differenz.", "Wie lange bestand die Störung vermutlich?"],
+      "options": [
+        {
+          "text": "Schwere metabolische Azidose als Hinweis auf eine länger bestehende Hypoxie; Kriterien für eine therapeutische Hypothermie sind erfüllt",
+          "correct": false
+        },
+        {
+          "text": "Überwiegend respiratorische Azidose durch akute Nabelschnurkompression kurz vor der Geburt; prognostisch meist günstig",
+          "correct": true
+        },
+        { "text": "Probenverwechslung, beide Proben stammen aus der Vene", "correct": false },
+        { "text": "Gemischte Azidose durch chronische Plazentainsuffizienz", "correct": false }
+      ],
+      "answer": "Der arterielle pH ist bei **hohem pCO2 und nahezu normalem BE** erniedrigt – eine **überwiegend respiratorische Azidose**. Die große arteriovenöse Differenz bei fast normalen venösen Werten spricht für eine **akute Kompression der Nabelschnur** kurz vor der Geburt (CO2 staut sich im Fetus, die Plazenta funktioniert). Respiratorische Azidosen werden nach Einsetzen der Atmung rasch ausgeglichen und sind prognostisch meist günstig. Kriterien für eine therapeutische Hypothermie liegen nicht vor (A-Kriterium u. a. pH < 7,0 oder Basendefizit ≥ 16 mmol/l – je nach Protokoll ≥ 15 mmol/l – innerhalb der ersten Lebensstunde, zusätzlich mittelschwere bis schwere Enzephalopathie und je nach Protokoll pathologisches aEEG; das Kind ist zudem lebensfrisch); die deutlich unterschiedlichen Werte schließen eine doppelt venöse Abnahme aus.",
+      "keyPoints": [
+        "Hoher pCO2, normaler BE: respiratorische Azidose",
+        "Große AV-Differenz: akutes Nabelschnurereignis",
+        "Prognostisch meist günstig"
+      ],
+      "tags": ["Nabelarterien-pH", "Säure-Basen-Haushalt"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "adap-008",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wie wird das **Gestationsalter** bestimmt? Nennen Sie prä- und postnatale Methoden und die Definitionen von Früh-, Reif- und Übertragung.",
+      "hints": ["Welche Ultraschallmessung ist am genauesten?", "Postnatale Reifezeichen-Scores."],
+      "answer": "**Pränatal:** Berechnung nach der letzten Menstruation (Naegele-Regel, Korrektur bei abweichender Zykluslänge); am genauesten ist die **Scheitel-Steiß-Länge im ersten Trimenon** (Genauigkeit etwa ± 5–7 Tage), nach der der Termin bei Abweichung korrigiert wird; spätere Biometrie ist ungenauer. **Postnatal:** Reifescores aus äußeren und neuromuskulären Reifezeichen (z. B. **Petrussa-Index**, Dubowitz, **New Ballard Score**, der auch extrem Frühgeborene erfasst) mit einer Ungenauigkeit von etwa ± 2 Wochen – sie ersetzen eine gesicherte pränatale Datierung nicht. **Definitionen:** Frühgeborenes < 37+0 SSW (extrem < 28+0, sehr früh 28+0 bis 31+6, moderat 32+0 bis 33+6, spät 34+0 bis 36+6 SSW), Reifgeborenes 37+0 bis 41+6 SSW, Übertragung ≥ 42+0 SSW.",
+      "keyPoints": [
+        "SSL im 1. Trimenon am genauesten",
+        "Naegele-Regel nach letzter Menstruation",
+        "Postnatale Reifescores (Petrussa, Ballard) mit ± 2 Wochen",
+        "Frühgeburt < 37+0, Termin 37+0–41+6, Übertragung ≥ 42+0 SSW"
+      ],
+      "tags": ["Gestationsalter", "Reifebestimmung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "adap-009",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Kind wird am **10. März** geboren, der nach Frühultraschall korrigierte errechnete Termin war der **2. Mai** desselben Jahres. Wie hoch ist das **Gestationsalter bei Geburt in vollendeten Tagen** (der errechnete Termin entspricht 40+0 SSW)?",
+      "hints": ["40+0 SSW = 280 Tage.", "Zählen Sie die Tage zwischen Geburt und Termin (März hat 31, April 30 Tage)."],
+      "answer": "Tage von der Geburt bis zum Termin: 10. März bis 10. April = 31 Tage, 10. April bis 2. Mai = 22 Tage, zusammen **53 Tage**. Gestationsalter: 280 − 53 = **227 Tage** = 32 Wochen und 3 Tage, also **32+3 SSW**.",
+      "keyPoints": ["Termin = 280 Tage", "53 Tage vor dem Termin", "227 Tage = 32+3 SSW"],
+      "solution": { "value": 227, "unit": "Tage", "tolerance": 0.005 },
+      "tags": ["Gestationsalter", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "adap-010",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Definieren Sie **SGA, AGA und LGA** und grenzen Sie **SGA** von der **fetalen Wachstumsrestriktion (FGR)** ab. Nennen Sie typische Ursachen.",
+      "hints": ["Perzentilen bezogen auf Gestationsalter und Geschlecht.", "Nicht jedes kleine Kind ist krank."],
+      "answer": "Klassifikation nach **gestationsalter- und geschlechtsbezogenen Geburtsgewichtsperzentilen** (in Deutschland z. B. nach Voigt): **SGA** (hypotroph) < 10. Perzentile, **AGA** 10.–90. Perzentile, **LGA** (hypertroph) > 90. Perzentile. SGA ist eine rein **statistische** Beschreibung nach der Geburt; darunter sind auch konstitutionell kleine, gesunde Kinder. **FGR** beschreibt dagegen einen **pathologischen Prozess**, bei dem der Fetus sein Wachstumspotenzial nicht ausschöpft (pränatal definiert über Biometrie, Wachstumsverlauf und Doppler) – ein FGR-Kind kann auch AGA sein. Ursachen von SGA/FGR: **plazentar** (Plazentainsuffizienz, Präeklampsie), **mütterlich** (Nikotin, Alkohol, Drogen, chronische Erkrankungen, Mangelernährung), **fetal** (Chromosomenstörungen, Syndrome, konnatale Infektionen wie CMV, Mehrlinge). LGA: mütterlicher Diabetes, Adipositas, konstitutionell, selten Syndrome (z. B. Beckwith-Wiedemann).",
+      "keyPoints": [
+        "SGA < 10., AGA 10.–90., LGA > 90. Perzentile (GA- und geschlechtsbezogen)",
+        "SGA statistisch, FGR pathologischer Prozess",
+        "Ursachen plazentar, mütterlich, fetal (Chromosomen, CMV)",
+        "LGA: Diabetes, Adipositas, Beckwith-Wiedemann"
+      ],
+      "tags": ["SGA", "LGA", "Wachstumsklassifikation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.1 – SGA (IUGR)",
+          "terms": ["SGA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 21.2 – Perzentilen-Kurven",
+          "terms": ["Perzentilen"]
+        }
+      ]
+    },
+    {
+      "id": "adap-011",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes **38+2 SSW** wiegt **2150 g** (< 3. Perzentile), Länge 49 cm und Kopfumfang 34 cm liegen im Normbereich. Wie ordnen Sie die Wachstumsstörung ein, welche **postnatalen Probleme** erwarten Sie, und welche **Diagnostik** veranlassen Sie?",
+      "hints": [
+        "Symmetrisch oder asymmetrisch?",
+        "Glukose, Temperatur, Blutbild – und eine Infektion, die nur in den ersten Lebenswochen sicher als konnatal nachweisbar ist."
+      ],
+      "answer": "Es handelt sich um ein **asymmetrisches SGA** (Gewicht stark reduziert, Länge und Kopfumfang erhalten – „brain sparing“), typisch für eine **späte Plazentainsuffizienz**; ein symmetrisches SGA spricht eher für frühe Ursachen (Chromosomen, Syndrome, Infektion). **Postnatale Probleme:** **Hypoglykämie** (geringe Glykogen- und Fettreserven, hoher Glukoseverbrauch des Gehirns) – frühes Füttern und BZ-Kontrollen nach Risikoschema; **Hypothermie**; **Polyglobulie**/Hyperviskosität; Thrombozytopenie und Neutropenie (v. a. nach Präeklampsie); Hypokalzämie; erhöhtes NEC-Risiko. **Diagnostik:** Plazentahistologie, Blutbild mit Hämatokrit, BZ-Profil, sorgfältige Untersuchung auf Dysmorphien; bei Verdacht oder symmetrischer Restriktion **CMV-Nachweis im Urin/Speichel innerhalb der ersten 2–3 Lebenswochen** (danach nicht mehr sicher von postnataler Infektion zu unterscheiden), ggf. genetische Diagnostik. **Langfristig:** meist Aufholwachstum in den ersten 2 Lebensjahren; bleibt es aus, ist eine Wachstumshormontherapie zu prüfen; erhöhtes Risiko für metabolisches Syndrom im Erwachsenenalter.",
+      "keyPoints": [
+        "Asymmetrisches SGA, späte Plazentainsuffizienz",
+        "Hypoglykämie, Hypothermie, Polyglobulie, Zytopenien",
+        "BZ-Kontrollen und frühes Füttern",
+        "CMV-Diagnostik in den ersten 2–3 Wochen, Plazentahistologie",
+        "Aufholwachstum, sonst Wachstumshormontherapie prüfen"
+      ],
+      "tags": ["SGA", "Wachstumsrestriktion", "Hypoglykämie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.1 – SGA (IUGR)",
+          "terms": ["SGA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 21.2 – Perzentilen-Kurven",
+          "terms": ["Perzentilen"]
+        }
+      ]
+    },
+    {
+      "id": "adap-012",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Berechnen Sie den **Ponderal-Index (Rohrer-Index)** eines Neugeborenen mit **2300 g** Geburtsgewicht und **48 cm** Länge (Formel: PI = Gewicht (g) · 100 / Länge (cm)³).",
+      "hints": ["48³ = 110 592.", "Ein niedriger Index spricht für eine asymmetrische Wachstumsrestriktion."],
+      "answer": "PI = 2300 · 100 / 48³ = 230 000 / 110 592 ≈ **2,08 g/cm³**. Ein niedriger Ponderal-Index (dünnes Kind bei relativ erhaltener Länge) passt zu einer **asymmetrischen** Wachstumsrestriktion; die Grenzwerte sind gestationsalterabhängig.",
+      "keyPoints": ["Länge³ = 110 592", "230 000 / 110 592", "Ergebnis ≈ 2,08 g/cm³"],
+      "solution": { "value": 2.08, "unit": "g/cm³", "tolerance": 0.03 },
+      "tags": ["SGA", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.1 – SGA (IUGR)",
+          "terms": ["SGA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 21.2 – Perzentilen-Kurven",
+          "terms": ["Perzentilen"]
+        }
+      ]
+    },
+    {
+      "id": "adap-013",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wann finden **U1 und U2** statt, und welche Inhalte haben sie nach der Kinder-Richtlinie?",
+      "hints": ["Die U2 hat einen festen Zeitkorridor in Lebenstagen.", "Bei der U2 werden mehrere Screenings überprüft."],
+      "answer": "**U1** unmittelbar nach der Geburt: Schwangerschafts- und Geburtsanamnese, Apgar, Nabelschnur-pH, Körpermaße (Gewicht, Länge, Kopfumfang), Erkennen lebensbedrohlicher Zustände und offensichtlicher Fehlbildungen, erste Vitamin-K-Gabe, Elterninformation. **U2 am 3.–10. Lebenstag** (Toleranz bis 14. Lebenstag): eingehende körperliche Untersuchung zum Erkennen angeborener Erkrankungen und Fehlbildungen sowie früher Komplikationen; **Prüfung, ob Pulsoxymetrie-Screening, erweitertes Neugeborenen-Screening, Hörscreening und Mukoviszidose-Screening durchgeführt bzw. veranlasst wurden** (sonst nachholen); Erkennen eines pathologischen Ikterus, Stuhlfarbe mit Stuhlfarbkarte; bei Risikofaktoren für Hüftdysplasie Hüftsonographie; zweite Vitamin-K-Gabe; Beratung (Ernährung/Stillen, Vitamin-D-Prophylaxe, sichere Schlafumgebung) und Aufmerksamkeit für die Eltern-Kind-Interaktion.",
+      "keyPoints": [
+        "U1 direkt nach Geburt: Apgar, pH, Maße, Fehlbildungen",
+        "U2 am 3.–10. Lebenstag",
+        "Kontrolle aller Neugeborenen-Screenings",
+        "Ikterus, Stuhlfarbkarte, Hüftrisiko, Vitamin K",
+        "Beratung und Eltern-Kind-Interaktion"
+      ],
+      "tags": ["U1", "U2", "Kinder-Richtlinie"],
+      "exam": ["KM"],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **Thermoregulation** des Neugeborenen: Mechanismen des Wärmeverlusts, Wärmebildung und warum Frühgeborene besonders gefährdet sind. Was versteht man unter **thermoneutraler Umgebung**?",
+      "hints": ["Vier physikalische Mechanismen.", "Zitterfreie Thermogenese – welches Gewebe?"],
+      "answer": "**Wärmeverlust:** **Evaporation** (nasse Haut, transepidermaler Wasserverlust), **Konvektion** (Luftzug), **Konduktion** (kalte Unterlage), **Radiation** (Abstrahlung an kalte Wände/Fenster). **Wärmebildung:** Neugeborene können kaum zittern; sie nutzen die **zitterfreie Thermogenese im braunen Fettgewebe** (zwischen den Schulterblättern, mediastinal, perirenal; Entkopplungsprotein UCP1/Thermogenin, noradrenerg gesteuert). Das steigert den Sauerstoff- und Glukoseverbrauch – Kältestress führt deshalb zu Hypoxämie, Azidose und Hypoglykämie. **Frühgeborene** sind besonders gefährdet: große Körperoberfläche im Verhältnis zur Masse, dünne, unreife Haut mit hohem Verdunstungsverlust, wenig subkutanes und braunes Fett, geringe Flexionshaltung; SGA-Kinder haben ebenfalls wenig Reserven. **Thermoneutrale Umgebung:** Umgebungstemperaturbereich, in dem das Kind seine normale Körpertemperatur (36,5–37,5 °C) mit **minimalem Sauerstoffverbrauch** und Energieaufwand hält; er liegt umso höher, je unreifer und jünger das Kind ist.",
+      "keyPoints": [
+        "Evaporation, Konvektion, Konduktion, Radiation",
+        "Zitterfreie Thermogenese im braunen Fett (UCP1)",
+        "Kältestress: O2- und Glukoseverbrauch, Azidose, Hypoglykämie",
+        "Frühgeborene: Oberfläche, dünne Haut, wenig Fett",
+        "Thermoneutralität = minimaler O2-Verbrauch bei Normothermie"
+      ],
+      "tags": ["Thermoregulation", "Wärmehaushalt"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": ["Körpertemperatur", "Inkubator"]
+        }
+      ]
+    },
+    {
+      "id": "adap-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hat 1 Stunde nach Geburt eine Rektaltemperatur von **35,4 °C**. Wie stufen Sie das ein, welche **Folgen** drohen, und wie gehen Sie vor?",
+      "hints": [
+        "WHO-Einteilung der Hypothermie.",
+        "Neben der Erwärmung: Was messen Sie noch, und an welche Ursachen denken Sie?"
+      ],
+      "answer": "Nach WHO-Einteilung: 36,0–36,4 °C Kältestress (leichte Hypothermie), **32,0–35,9 °C mäßige Hypothermie**, < 32 °C schwere Hypothermie – hier also eine **mäßige Hypothermie**. **Folgen:** gesteigerter O2- und Glukoseverbrauch mit **Hypoglykämie** und **metabolischer Azidose**, pulmonale Vasokonstriktion bis zur **PPHN**, Atemstörung, Gerinnungsstörung, bei Frühgeborenen erhöhte Mortalität und Morbidität. **Vorgehen:** sofortige Erwärmung (Haut-zu-Haut mit Zudecken und Mütze, Wärmestrahler oder Inkubator), Ursachen der Wärmeverluste beseitigen, **Blutzucker** und ggf. Blutgasanalyse kontrollieren, Temperatur engmaschig messen, bis sie stabil im Zielbereich 36,5–37,5 °C liegt; Überwärmung vermeiden. Bei unklarer oder persistierender Hypothermie an **Infektion/Sepsis**, Hypoglykämie oder ZNS-Störung denken. Die Datenlage zur optimalen Erwärmungsgeschwindigkeit ist begrenzt.",
+      "keyPoints": [
+        "WHO: 32,0–35,9 °C mäßige Hypothermie",
+        "Folgen: Hypoglykämie, Azidose, PPHN, erhöhte Mortalität",
+        "Aktive Erwärmung, Ursachen beseitigen, Überwärmung vermeiden",
+        "BZ und BGA kontrollieren",
+        "An Sepsis denken"
+      ],
+      "tags": ["Hypothermie", "Wärmehaushalt"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": ["Körpertemperatur", "Inkubator"]
+        }
+      ],
+      "source": "WHO: Thermal Protection of the Newborn"
+    },
+    {
+      "id": "adap-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes hat 2 Stunden nach Geburt eine Rektaltemperatur von **38,3 °C**. Die Mutter hatte unter der Geburt 38,6 °C, der Blasensprung lag 20 Stunden zurück. Wie gehen Sie vor, und welche **Differenzialdiagnosen** der erhöhten Temperatur beim Neugeborenen kennen Sie?",
+      "hints": [
+        "Exogene Überwärmung versus Infektion.",
+        "Fieber der Mutter unter der Geburt ist ein Risikofaktor für welche Erkrankung?"
+      ],
+      "answer": "Zunächst **exogene Überwärmung** ausschließen (Wärmestrahler, Inkubator, zu warme Kleidung, Haut-zu-Haut unter vielen Decken): Wärmequellen reduzieren und nachmessen. Bei mütterlichem Fieber unter der Geburt und verlängertem Blasensprung besteht aber ein **hohes Risiko einer Early-onset-Sepsis** – Fieber kann ihr erstes Zeichen sein. Daher: gründliche klinische Untersuchung (Atmung, Perfusion, Tonus, Trinkverhalten), **Blutkultur und Entzündungsparameter, Blutbild**, und bei klinischen Auffälligkeiten oder persistierendem Fieber **kalkulierte Antibiotikatherapie** nach aktueller Leitlinie; Überwachung mit Monitoring. **Differenzialdiagnosen:** Überwärmung, Infektion (Sepsis, Meningitis, HSV), **Durstfieber** (meist 3.–4. Lebenstag, Gewichtsverlust, Hypernatriämie), Fieber durch Periduralanästhesie der Mutter ohne Infektion (dennoch zunächst wie Infektionsrisiko behandeln), selten ZNS-Schädigung, Hyperthyreose, Entzug. Hyperthermie ist zu vermeiden, besonders nach Asphyxie, da sie die Hirnschädigung verstärkt.",
+      "keyPoints": [
+        "Exogene Überwärmung ausschließen, nachmessen",
+        "Mütterliches Fieber und langer Blasensprung: Early-onset-Sepsis",
+        "Blutkultur, Labor, Klinik; Antibiotika nach Leitlinie bei Verdacht",
+        "DD Durstfieber, PDA-Fieber der Mutter, HSV, Hyperthyreose",
+        "Hyperthermie v. a. nach Asphyxie vermeiden"
+      ],
+      "tags": ["Hyperthermie", "Fieber", "Early-onset-Sepsis"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "adap-017",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Inkubatorpflege extrem unreifer Frühgeborener** in der ersten Lebenswoche ist richtig?",
+      "hints": ["Die Haut extrem unreifer Frühgeborener ist kaum verhornt."],
+      "options": [
+        {
+          "text": "Die Luftfeuchtigkeit sollte unter 40 % gehalten werden, um Infektionen zu vermeiden.",
+          "correct": false
+        },
+        {
+          "text": "Eine hohe relative Luftfeuchtigkeit reduziert transepidermalen Wasserverlust, Hypernatriämie und Verdunstungskälte und wird anschließend schrittweise reduziert.",
+          "correct": true
+        },
+        {
+          "text": "Ein offenes Wärmebett ist dem Inkubator bei Kindern < 1000 g in der ersten Woche vorzuziehen.",
+          "correct": false
+        },
+        {
+          "text": "Die Perspiratio insensibilis ist bei Reifgeborenen höher als bei extrem unreifen Frühgeborenen.",
+          "correct": false
+        }
+      ],
+      "answer": "Extrem unreife Frühgeborene haben über die dünne, kaum verhornte Haut einen sehr hohen **transepidermalen Wasserverlust**, der zu Dehydratation, **Hypernatriämie** und Wärmeverlust durch Verdunstung führt. Ein **geschlossener Inkubator mit hoher Luftfeuchtigkeit** (je nach Zentrum etwa 60–80 %) reduziert diese Verluste; mit zunehmender Hautreifung wird die Feuchte schrittweise gesenkt. Offene Wärmebetten erhöhen den Verdunstungsverlust; die Perspiratio insensibilis ist umso höher, je unreifer das Kind ist. Inkubatorhygiene (Wasserreservoir) ist zu beachten.",
+      "keyPoints": [
+        "Hoher transepidermaler Wasserverlust bei extremer Unreife",
+        "Hohe Luftfeuchte reduziert Wasser- und Wärmeverlust",
+        "Schrittweise Reduktion mit Hautreifung"
+      ],
+      "tags": ["Inkubator", "Wärmehaushalt", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 8 – Wärmehaushalt",
+          "terms": ["Körpertemperatur", "Inkubator"]
+        }
+      ]
+    },
+    {
+      "id": "adap-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Grenzen Sie **Caput succedaneum, Kephalhämatom und subgaleale Blutung** voneinander ab. Welche dieser Schwellungen ist gefährlich und warum?",
+      "hints": [
+        "In welcher Schicht liegt die Schwellung – und überschreitet sie Schädelnähte?",
+        "Eine davon kann einen großen Teil des Blutvolumens aufnehmen."
+      ],
+      "answer": "- **Caput succedaneum:** subkutanes, teigiges Ödem über dem vorangehenden Teil, **überschreitet die Nähte**, schon bei Geburt vorhanden, bildet sich in 1–3 Tagen zurück; harmlos.\n- **Kephalhämatom:** **subperiostale** Blutung, durch die **Nähte begrenzt** (meist parietal), entwickelt sich über Stunden, prall-elastisch, Resorption über Wochen, gelegentlich Verkalkung; Folgen: Hyperbilirubinämie, selten Infektion – **nicht punktieren**; zugrunde liegende Schädelfraktur möglich.\n- **Subgaleale Blutung:** Blutung zwischen **Galea aponeurotica und Periost** in einen großen Verschiebespalt, **überschreitet die Nähte**, fluktuierend, breitet sich zu Stirn, Ohren und Nacken aus; meist nach **Vakuumextraktion**, begünstigt durch Gerinnungsstörungen. Sie ist **gefährlich**, weil sie einen großen Teil des Blutvolumens aufnehmen kann – Gefahr des **hämorrhagischen Schocks** und der Verbrauchskoagulopathie; Zunahme oft über Stunden.",
+      "keyPoints": [
+        "Caput: subkutan, überschreitet Nähte, harmlos",
+        "Kephalhämatom: subperiostal, durch Nähte begrenzt, Ikterus, nicht punktieren",
+        "Subgaleal: unter Galea, nahtüberschreitend, nach Vakuum",
+        "Subgaleale Blutung: hämorrhagischer Schock möglich"
+      ],
+      "tags": ["Geburtsverletzungen", "Subgaleale Blutung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "adap-019",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes (39+5 SSW) nach schwieriger **Vakuumextraktion** mit mehreren Ansätzen zeigt 4 Stunden nach Geburt eine teigige, **nahtüberschreitende Schwellung** bis zur Stirn und hinter die Ohren, ist blass, Herzfrequenz 180/min, Rekapillarisierung 4 s. Hb 17 g/dl nach Geburt, jetzt 12 g/dl. Wie gehen Sie vor?",
+      "hints": [
+        "Wie heißt das Krankheitsbild, und wie rasch kann es dekompensieren?",
+        "Kreislauf, Blutprodukte, Gerinnung, Verlaufskontrolle."
+      ],
+      "answer": "Es handelt sich um eine **subgaleale Blutung mit beginnendem hämorrhagischem Schock** – ein Notfall. Vorgehen: Aufnahme auf die Intensivstation, kontinuierliches Monitoring (HF, Blutdruck, SpO2), sicherer venöser Zugang; **Volumen** (10 ml/kg NaCl 0,9 %) als Überbrückung und **frühzeitige Transfusion von Erythrozytenkonzentrat** (Kreuzprobe, im Notfall 0 Rh-negativ); **Gerinnung** inkl. Fibrinogen und Thrombozyten bestimmen, bei Koagulopathie Plasma bzw. Gerinnungsfaktoren, Vitamin K sicherstellen; an eine angeborene Gerinnungsstörung (z. B. Hämophilie) denken. **Verlaufskontrollen:** Kopfumfang und Ausdehnung der Schwellung markieren, Hb/Hk, Laktat, Diurese. Keine Punktion, Druckverbände sind nicht wirksam. Nach Stabilisierung Bildgebung zum Ausschluss intrakranieller Verletzungen bzw. Frakturen. Später Hyperbilirubinämie erwarten. Eltern offen informieren, Ereignis dokumentieren.",
+      "keyPoints": [
+        "Subgaleale Blutung mit hämorrhagischem Schock",
+        "Volumen und frühe Erythrozytentransfusion",
+        "Gerinnung, Fibrinogen, Thrombozyten; Koagulopathie behandeln",
+        "Kopfumfang, Hb, Laktat engmaschig",
+        "Bildgebung nach Stabilisierung, Ikterus beachten"
+      ],
+      "tags": ["Geburtsverletzungen", "Subgaleale Blutung", "Schock"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 13.6, 13.8–13.10 – Thrombozytopenie, Gerinnung, Blutungen, Thrombosen",
+          "terms": ["Thrombozytopenie", "Gerinnung"]
+        }
+      ]
+    },
+    {
+      "id": "adap-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie den **Ablauf des erweiterten Neugeborenen-Screenings** nach Kinder-Richtlinie: Aufklärung, Abnahmezeitpunkt, Sonderfälle (frühe Entlassung, Transfusion, Frühgeborene) und Umgang mit auffälligen Befunden.",
+      "hints": [
+        "Optimales Zeitfenster in Lebensstunden.",
+        "Was muss vor einer Transfusion passieren, und was gilt bei Geburt vor 32 SSW?"
+      ],
+      "answer": "**Aufklärung und Einwilligung** der Eltern (schriftlich, mit Elterninformation; Ablehnung auf leerer Karte dokumentieren und ans Labor senden). **Abnahme:** Fersen- oder Venenblut auf Filterpapierkarte, bei Raumtemperatur trocknen, Versand innerhalb von 24 h; optimaler Zeitpunkt **48–72 Lebensstunden**, nicht vor vollendeten **36** und nicht nach 72 Stunden. **Sonderfälle:** Bei Entlassung vor 36 h oder Verlegung erste Probe entnehmen und **Zweitscreening** sicherstellen (Eltern informieren); **vor Transfusion, Kortikosteroid- oder Dopamintherapie** unabhängig vom Alter eine erste Probe; bei Geburt **vor 32+0 SSW** zusätzlich ein abschließendes **Zweitscreening im korrigierten Alter von 32 SSW**. **Auffällige Befunde** teilt das Labor unverzüglich mündlich den Eltern bzw. der behandelnden Klinik mit, mit Kontakt zu einem spezialisierten Zentrum; die Kontrolle bzw. Konfirmationsdiagnostik muss rasch erfolgen. Bei der U2 wird die Durchführung überprüft (Tracking). Die Zielkrankheiten umfassen seit 2026 u. a. auch Vitamin-B12-Mangel, Homocystinurie, Propionazidämie und Methylmalonazidurie; das Mukoviszidose-Screening ist ein eigenes Verfahren.",
+      "keyPoints": [
+        "Schriftliche Einwilligung, Ablehnung dokumentieren",
+        "Optimal 48–72 h, nicht vor 36 h",
+        "Frühe Entlassung/Verlegung: Erstprobe plus Zweitscreening",
+        "Vor Transfusion/Steroiden/Dopamin abnehmen; < 32 SSW Zweitscreening mit 32 SSW korrigiert",
+        "Auffälliger Befund: sofortige Mitteilung und rasche Konfirmationsdiagnostik"
+      ],
+      "tags": ["Neugeborenen-Screening", "Kinder-Richtlinie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-021",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes wird mit **27+2 SSW** geboren. Nach wie vielen **Tagen nach der Geburt** ist das abschließende Zweitscreening im korrigierten Alter von **32+0 SSW** fällig?",
+      "hints": ["Differenz zwischen 32+0 und 27+2 SSW.", "1 Woche = 7 Tage."],
+      "answer": "32+0 SSW minus 27+2 SSW = 4 Wochen und 5 Tage = 4 × 7 + 5 = **33 Tage** nach der Geburt.",
+      "keyPoints": ["Differenz 4 Wochen 5 Tage", "Ergebnis 33 Tage"],
+      "solution": { "value": 33, "unit": "Tage", "tolerance": 0.02 },
+      "tags": ["Neugeborenen-Screening", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-022",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Das Screeninglabor ruft am 4. Lebenstag an: Ein voll gestillter, reifer Junge, gestern entlassen, hat ein **erhöhtes Octanoylcarnitin (C8)** mit erhöhtem C8/C10-Quotienten. Welche Verdachtsdiagnose besteht, und was veranlassen Sie?",
+      "hints": [
+        "Fettsäureoxidationsstörung mittelkettiger Fettsäuren.",
+        "Welche Gefahr besteht in den ersten Lebenstagen bei gestillten Kindern?"
+      ],
+      "answer": "Verdacht auf **MCAD-Mangel** (Medium-Chain-Acyl-CoA-Dehydrogenase-Mangel). Gefahr: bei Fasten bzw. unzureichender Nahrungszufuhr **hypoketotische Hypoglykämie**, Lethargie, Krampfanfälle bis zum plötzlichen Tod – gerade in den ersten Lebenstagen bei noch geringer Milchmenge. **Vorgehen:** Familie **sofort** kontaktieren, klinischen Zustand erfragen bzw. Kind am selben Tag in einer Kinderklinik/Stoffwechselzentrum vorstellen; **Blutzucker** messen; bei reduziertem Zustand, Hypoglykämie oder Trinkschwäche stationäre Aufnahme und **i.v. Glukosezufuhr**. Sicherstellen, dass das Kind **häufig und ausreichend** trinkt (keine langen Nahrungspausen), ggf. zufüttern. **Konfirmationsdiagnostik:** Acylcarnitinprofil im Plasma, organische Säuren im Urin (Hexanoylglycin, Suberylglycin), Molekulargenetik (ACADM). Bei Bestätigung: Schulung der Eltern, **Notfallausweis** und Notfallplan (bei Erbrechen, Infekt oder Nahrungsverweigerung frühzeitig Glukose i.v.), Fastenvermeidung; die Prognose ist bei konsequenter Prävention sehr gut.",
+      "keyPoints": [
+        "Verdacht auf MCAD-Mangel",
+        "Gefahr hypoketotischer Hypoglykämie und plötzlichen Todes",
+        "Sofort Kontakt, BZ, bei Auffälligkeit stationär und Glukose i.v.",
+        "Häufige Mahlzeiten, kein Fasten",
+        "Bestätigung durch Acylcarnitine, organische Säuren, Genetik; Notfallausweis"
+      ],
+      "tags": ["Neugeborenen-Screening", "MCAD-Mangel", "Recall"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "adap-023",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Bei einem 5 Tage alten, gestillten Neugeborenen mit Ikterus und Trinkschwäche meldet das Screeninglabor einen dringenden **Verdacht auf klassische Galaktosämie**. Was ist die wichtigste Sofortmaßnahme?",
+      "hints": ["Welches Nahrungsmittel enthält Laktose?"],
+      "options": [
+        { "text": "Weiter stillen und das Ergebnis der Konfirmationsdiagnostik abwarten", "correct": false },
+        {
+          "text": "Sofort galaktosefreie Ernährung (Stillen und laktosehaltige Nahrung stoppen, z. B. spezielle laktosefreie Säuglingsnahrung) und Abklärung von Sepsis, Leberfunktion und Gerinnung",
+          "correct": true
+        },
+        { "text": "Phototherapie und Stillen fortsetzen", "correct": false },
+        { "text": "Eiweißrestriktion und Carnitin-Substitution", "correct": false }
+      ],
+      "answer": "Bei klassischer Galaktosämie (GALT-Mangel) führt jede Milchzufuhr zu Leberversagen, Gerinnungsstörung, Nierentubulopathie, Katarakt und gehäuft zur **E.-coli-Sepsis**. Daher **sofort galaktose-/laktosefreie Ernährung** bereits bei Verdacht, ohne die Bestätigung abzuwarten; Muttermilch ist bei klassischer Galaktosämie kontraindiziert. Parallel: Blutkultur und ggf. Antibiotika, Leberwerte, Gerinnung, Blutzucker, Augenuntersuchung; Konfirmationsdiagnostik (GALT-Aktivität, Genetik) und Betreuung im Stoffwechselzentrum.",
+      "keyPoints": [
+        "Sofort galaktosefreie Ernährung bei Verdacht",
+        "Stillen bei klassischer Galaktosämie kontraindiziert",
+        "Sepsis (E. coli), Leber, Gerinnung abklären"
+      ],
+      "tags": ["Neugeborenen-Screening", "Galaktosämie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "adap-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Das Neugeborenen-Screening eines reifen Kindes zeigt **stark erniedrigte TRECs** (Verdacht auf **schweren kombinierten Immundefekt, SCID**). Welche Ursachen kommen in Frage, und welche Sofortmaßnahmen und Diagnostik veranlassen Sie?",
+      "hints": ["Nicht jede TREC-Erniedrigung ist ein SCID.", "Denken Sie an Impfungen, Blutprodukte und Muttermilch."],
+      "answer": "TRECs sind Nebenprodukte der T-Zell-Rezeptor-Rekombination und spiegeln die Thymusproduktion naiver T-Zellen wider. Erniedrigte Werte finden sich bei **SCID**, aber auch bei anderen T-Zell-Lymphopenien (z. B. **22q11-Deletion**, Trisomie 21), bei **Frühgeborenen**, bei Lymphozytenverlust (Chylothorax, Hydrops) oder nach immunsuppressiver Therapie der Mutter. **Diagnostik:** Blutbild mit absoluter Lymphozytenzahl, **Durchflusszytometrie** (T-, B-, NK-Zellen, naive T-Zellen), Kontroll-TREC; rasche Vorstellung in einem immunologischen Zentrum mit Stammzelltransplantationserfahrung. **Schutzmaßnahmen bis zur Klärung:** **keine Lebendimpfstoffe** (z. B. Rotavirus), Blutprodukte nur **bestrahlt, CMV-sicher und leukozytendepletiert**, Infektionsschutz (Kontakte begrenzen, Hygiene), mütterlichen **CMV-Status** klären – bei seropositiver Mutter wird das Stillen je nach Zentrum bis zur Klärung pausiert. Bei bestätigtem SCID: Infektionsprophylaxe (u. a. Pneumocystis), Immunglobulinsubstitution und möglichst frühe **Stammzelltransplantation** oder Gentherapie, idealerweise vor schweren Infektionen.",
+      "keyPoints": [
+        "TREC = Marker der Thymusproduktion; DD 22q11, Trisomie 21, Frühgeburt, Chylothorax",
+        "Durchflusszytometrie und Lymphozytenzahl, Immunologie-Zentrum",
+        "Keine Lebendimpfungen (Rotavirus)",
+        "Nur bestrahlte, CMV-sichere Blutprodukte; mütterlicher CMV-Status/Stillen",
+        "Frühe Stammzelltransplantation"
+      ],
+      "tags": ["Neugeborenen-Screening", "SCID", "Recall"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "adap-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Im Neugeborenen-Screening wird eine **homozygote SMN1-Deletion** (Verdacht auf 5q-assoziierte spinale Muskelatrophie) gefunden; das Kind ist klinisch unauffällig. Wie gehen Sie vor, und warum ist Eile geboten?",
+      "hints": ["Welcher Befund bestimmt die zu erwartende Schwere?", "Präsymptomatischer Therapiebeginn."],
+      "answer": "Das Screening erfasst die homozygote SMN1-Deletion (die große Mehrheit der Fälle; seltene compound-heterozygote Formen werden nicht erfasst). **Eile** ist geboten, weil Motoneurone bei schweren Verläufen schon in den ersten Lebenswochen irreversibel untergehen und ein **präsymptomatischer Therapiebeginn** die besten motorischen Ergebnisse erzielt. Vorgehen: Eltern sensibel, aber zeitnah informieren; Vorstellung **innerhalb weniger Tage** in einem neuromuskulären Zentrum; **Bestätigung** aus einer zweiten Probe und Bestimmung der **SMN2-Kopienzahl** (wenige Kopien, z. B. 2, sprechen für einen schweren Verlauf, mehr Kopien für mildere Formen); neurologischer Ausgangsbefund. Therapieoptionen: **Nusinersen** (intrathekal), **Risdiplam** (oral), **Onasemnogen-Abeparvovec** (AAV9-Gentherapie; Voraussetzungen wie AAV9-Antikörper und Leberwerte prüfen). Die Therapieentscheidung erfolgt interdisziplinär mit den Eltern; humangenetische Beratung der Familie.",
+      "keyPoints": [
+        "Homozygote SMN1-Deletion, SMN2-Kopienzahl bestimmt Schwere",
+        "Eile: präsymptomatische Therapie am wirksamsten",
+        "Bestätigung und Vorstellung im neuromuskulären Zentrum innerhalb von Tagen",
+        "Nusinersen, Risdiplam, Gentherapie",
+        "Humangenetische Beratung"
+      ],
+      "tags": ["Neugeborenen-Screening", "SMA", "Recall"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.1–14.3 – Erstuntersuchung, Notfalltherapie, Asservierung",
+          "terms": ["Stoffwechseldefekt"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.20 – Neugeborenen-Screening",
+          "terms": ["Neugeborenen-Screening"]
+        }
+      ]
+    },
+    {
+      "id": "adap-026",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie das **Pulsoxymetrie-Screening** auf kritische angeborene Herzfehler nach Kinder-Richtlinie. Was erfasst es gut, was nicht, und was tun Sie bei positivem Befund?",
+      "hints": ["Zeitpunkt, Messort, Grenzwerte.", "Linksobstruktive Herzfehler und falsch positive Befunde."],
+      "answer": "**Durchführung:** am **2. Lebenstag (24.–48. Lebensstunde)**, ausnahmsweise (ambulante Geburt) frühestens nach der 4. Lebensstunde und spätestens zur U2; Messung **am Fuß**. **≥ 96 %** unauffällig; **90 bis < 96 %**: **Kontrollmessung innerhalb von 2 Stunden**; < 90 % in der Erstmessung oder < 96 % in der Kontrolle = **positiv** → unverzügliche Vorstellung bei Kinderkardiologie bzw. Neonatologie. **Erfasst** gut hypoxämische Vitien (z. B. TGA, Pulmonalatresie, Truncus arteriosus, totale Lungenvenenfehlmündung, Trikuspidalatresie, manche HLHS). **Grenzen:** **linksobstruktive Herzfehler** (Aortenisthmusstenose, unterbrochener Aortenbogen) werden häufig übersehen – klinische Untersuchung mit Femoralispulsen bleibt wichtig. Falsch positive Befunde entstehen durch PPHN, Pneumonie, Sepsis oder Anpassungsstörungen – diese sind aber ebenfalls behandlungsbedürftig. **Bei positivem Befund:** klinische Untersuchung, prä-/postduktale Sättigung, Blutdruck an allen Extremitäten, Echokardiographie; bei Verdacht auf ductusabhängigen Herzfehler Prostaglandin E1 nicht verzögern. Durchführung und Ergebnis werden im Kinderuntersuchungsheft dokumentiert und bei der U2 kontrolliert.",
+      "keyPoints": [
+        "24.–48. Lebensstunde, Messung am Fuß",
+        "≥ 96 % unauffällig, 90–95 % Kontrolle in 2 h, < 90 % sofort positiv",
+        "Gut für hypoxämische Vitien, schwach für Linksobstruktionen",
+        "Falsch positiv: PPHN, Pneumonie, Sepsis",
+        "Positiv: Echo, ggf. PGE1, Dokumentation und Kontrolle bei U2"
+      ],
+      "tags": ["Pulsoxymetrie-Screening", "Herzfehler", "Kinder-Richtlinie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-027",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Beim Pulsoxymetrie-Screening eines klinisch unauffälligen Neugeborenen in der **30. Lebensstunde** messen Sie am Fuß eine **SpO2 von 93 %**. Wie gehen Sie nach Kinder-Richtlinie vor?",
+      "hints": ["Der Wert liegt im Kontrollbereich."],
+      "options": [
+        { "text": "Befund ist unauffällig, keine weiteren Maßnahmen", "correct": false },
+        {
+          "text": "Kontrollmessung innerhalb von 2 Stunden; liegt sie erneut unter 96 %, gilt das Screening als positiv mit unverzüglicher Abklärung",
+          "correct": true
+        },
+        { "text": "Sofortiger Beginn einer Prostaglandin-E1-Infusion", "correct": false },
+        { "text": "Wiederholung der Messung bei der U3", "correct": false }
+      ],
+      "answer": "Werte zwischen **90 % und unter 96 %** sind kontrollbedürftig: **Kontrollmessung innerhalb von 2 Stunden**. Liegt der Kontrollwert erneut unter 96 %, ist das Screening **positiv**, und das Kind wird unverzüglich kinderkardiologisch bzw. neonatologisch abgeklärt (Echokardiographie). Ein Wert < 90 % in der Erstmessung ist sofort positiv. Prostaglandin wird erst bei begründetem Verdacht auf einen ductusabhängigen Herzfehler gegeben.",
+      "keyPoints": [
+        "90 bis < 96 %: Kontrolle innerhalb 2 h",
+        "Erneut < 96 %: positiv, sofortige Abklärung",
+        "< 90 %: sofort positiv"
+      ],
+      "tags": ["Pulsoxymetrie-Screening", "Kinder-Richtlinie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-028",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes 29+0 SSW (Beatmung, Aminoglykosidtherapie) wird mit 36 SSW korrigiert entlassen. Welches Vorgehen beim **Neugeborenen-Hörscreening** ist richtig?",
+      "hints": ["Risikokinder haben ein erhöhtes Risiko für eine Störung jenseits der Cochlea."],
+      "options": [
+        {
+          "text": "TEOAE beidseits sind ausreichend; bei unauffälligem Ergebnis keine weitere Diagnostik",
+          "correct": false
+        },
+        {
+          "text": "AABR beidseits vor Entlassung (spätestens zum errechneten Termin); bei auffälligem Befund Kontroll-AABR und pädaudiologische Konfirmationsdiagnostik bis zur 12. Lebenswoche",
+          "correct": true
+        },
+        {
+          "text": "Hörscreening erst bei der U3, da Frühgeborene vor dem Termin nicht zuverlässig messbar sind",
+          "correct": false
+        },
+        {
+          "text": "Bei Frühgeborenen ersetzt eine BERA im Alter von 6 Monaten das Neugeborenen-Hörscreening",
+          "correct": false
+        }
+      ],
+      "answer": "Für **Risikokinder für konnatale Hörstörungen** (z. B. NICU-Aufenthalt, Beatmung, ototoxische Medikamente) ist die **AABR obligat**, da TEOAE nur die Funktion der äußeren Haarzellen prüfen und eine **auditorische Neuropathie** (retrocochleär) übersehen. Bei Frühgeborenen soll das Screening spätestens zum errechneten Termin bzw. vor Entlassung erfolgen. Ist das Ergebnis auffällig (Hörschwelle ≥ 35 dB, auch einseitig), folgt nach der seit 20.08.2026 geltenden Fassung der Kinder-Richtlinie eine **Kontrolluntersuchung mit derselben Methode wie die Erstuntersuchung – hier also AABR – an beiden Ohren**, frühestens 5 Stunden nach der Erstuntersuchung (bei Klinikgeburt vor Entlassung, regulär spätestens bis zur U2); pro Ohr sind je Untersuchung maximal drei Testversuche zulässig. Ist auch die Kontrolle auffällig, **pädaudiologische Konfirmationsdiagnostik bis zur 12. Lebenswoche**, damit eine Versorgung früh beginnen kann.",
+      "keyPoints": [
+        "Risikokinder: AABR obligat",
+        "TEOAE übersehen auditorische Neuropathie",
+        "Spätestens zum Termin bzw. vor Entlassung",
+        "Kontrolle mit derselben Methode (AABR) beidseits, frühestens 5 h nach Erstuntersuchung; Konfirmationsdiagnostik bis 12. Lebenswoche"
+      ],
+      "tags": ["Hörscreening", "Frühgeborene", "Kinder-Richtlinie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.19 – Hörscreening",
+          "terms": ["Hörscreening"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-029",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann und wie erfolgt das **Hüftsonographie-Screening** nach Kinder-Richtlinie? Welche Kinder werden früher untersucht, und wie leiten sich aus dem Graf-Typ Konsequenzen ab?",
+      "hints": [
+        "Generelles Screening in zeitlichem Zusammenhang mit welcher U-Untersuchung?",
+        "Risikofaktoren: Lage, Familie, Füße."
+      ],
+      "answer": "**Generelles Screening** in der **4.–5. Lebenswoche** zusammen mit der U3, damit eine notwendige Therapie vor der 6. Lebenswoche beginnen kann. **Risikokinder** werden bereits in der Neugeborenenperiode (zur U2) untersucht: **Beckenendlage**, **familiäre Hüftdysplasie/-luxation**, **Stellungsanomalien bzw. Fehlbildungen** (insbesondere der Füße) sowie klinische Auffälligkeiten (Instabilität, Abspreizhemmung). **Methode nach Graf:** statische und ggf. dynamische Untersuchung in der Standardebene (Unterrand Os ilium, mittlerer Pfannendachbereich, Labrum acetabulare), Alpha- und Beta-Winkel beidseits. **Konsequenzen (vereinfacht):** Typ I (α ≥ 60°) reif, keine Therapie; Typ IIa (physiologisch unreif, bis zur 12. Lebenswoche) Verlaufskontrolle, bei Reifungsdefizit (IIa−) und bei Typ IIb Nachreifungsbehandlung; Typ IIc und D behandlungsbedürftig (Beuge-Spreiz-Behandlung); dezentrierte Gelenke (Typ III, IV) erfordern Reposition und Retention. Therapie und Kontrollintervalle nach den Empfehlungen der Fachgesellschaften; Befunde werden im Kinderuntersuchungsheft dokumentiert.",
+      "keyPoints": [
+        "Generell 4.–5. Lebenswoche (U3), Therapie vor 6. Woche",
+        "Risikofaktoren: Beckenendlage, Familie, Fußfehlbildungen, klinische Instabilität – Screening schon zur U2",
+        "Graf-Methode: Standardebene, Alpha-/Beta-Winkel",
+        "Typ I reif, IIa Kontrolle (IIa−/IIb Nachreifungsbehandlung), IIc/D Therapie, III/IV Reposition"
+      ],
+      "tags": ["Hüftsonographie", "Kinder-Richtlinie"],
+      "exam": ["KM", "HK"],
+      "source": "G-BA Kinder-Richtlinie"
+    },
+    {
+      "id": "adap-030",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erläutern Sie die **Vitamin-K-Prophylaxe** beim gesunden Neugeborenen. Warum ist sie notwendig, und welche Formen der Vitamin-K-Mangelblutung kennen Sie?",
+      "hints": [
+        "Drei orale Gaben im Rahmen der U-Untersuchungen.",
+        "Frühe, klassische und späte Form – welche ist am gefährlichsten?"
+      ],
+      "answer": "Neugeborene haben geringe Vitamin-K-Speicher (geringer plazentarer Transfer, unreife Darmflora), und **Muttermilch enthält wenig Vitamin K**. Standard beim gesunden Neugeborenen: **3 × 2 mg Vitamin K oral** zur **U1, U2 und U3**. Kranke oder sehr unreife Kinder, die nicht oral ernährt werden, erhalten Vitamin K parenteral in gewichtsadaptierter Dosis nach Stationsstandard. **Formen der Vitamin-K-Mangelblutung:** **frühe** Form (< 24 h) v. a. nach mütterlicher Einnahme von Enzyminduktoren (Antiepileptika), Rifampicin oder Vitamin-K-Antagonisten; **klassische** Form (2.–7. Lebenstag) mit gastrointestinalen, Nabel- oder Hautblutungen; **späte** Form (ab der 2. Lebenswoche bis zu einigen Monaten), v. a. bei voll gestillten Kindern ohne Prophylaxe oder mit **Cholestase/Malabsorption** (z. B. Gallengangsatresie, Mukoviszidose), häufig mit **intrakranieller Blutung** – die gefährlichste Form. Daher auf Stuhlfarbe achten (Stuhlfarbkarte). Lehnen Eltern die Prophylaxe ab, ausführlich aufklären und dokumentieren.",
+      "keyPoints": [
+        "Geringe Speicher, Muttermilch Vitamin-K-arm",
+        "3 × 2 mg oral zu U1, U2, U3",
+        "Parenteral bei kranken/unreifen Kindern",
+        "Frühe, klassische, späte Form; späte Form mit Hirnblutung, Cholestase",
+        "Stuhlfarbkarte, Aufklärung bei Ablehnung"
+      ],
+      "tags": ["Vitamin-K-Prophylaxe", "Vitamin-K-Mangelblutung"],
+      "exam": ["KM", "HK"]
+    }
+  ]
+}

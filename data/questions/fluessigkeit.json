@@ -1,0 +1,713 @@
+{
+  "area": "fluessigkeit",
+  "questions": [
+    {
+      "id": "flu-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wie unterscheidet sich die **Körperwasserzusammensetzung** eines Frühgeborenen der 24. SSW von der eines Reifgeborenen, und was bedeutet das für den **postnatalen Gewichtsverlauf**?",
+      "hints": [
+        "Denken Sie an den Anteil des Extrazellulärraums.",
+        "Postnatal kommt es zu einer physiologischen Kontraktion – welches Kompartiment schrumpft?"
+      ],
+      "answer": "Der Gesamtkörperwasseranteil ist umso höher, je unreifer das Kind ist (extrem Frühgeborene etwa 85–90 % des Körpergewichts, Reifgeborene etwa 75 %), wobei vor allem der **Extrazellulärraum** relativ groß ist. Nach der Geburt kommt es zu einer physiologischen, isotonen **Kontraktion des Extrazellulärraums** mit Natriurese und Diurese; daraus resultiert der physiologische Gewichtsverlust. Reifgeborene verlieren meist etwa 5–7 % (Verluste über 10 % sind abklärungsbedürftig) und erreichen ihr Geburtsgewicht meist innerhalb von 7–10 Tagen, spätestens nach etwa 14 Tagen wieder; bei sehr unreifen Frühgeborenen nennt die ESPGHAN-Leitlinie 2018 einen Gewichtsverlust von etwa 7–10 % als Zielkorridor, real verlieren sie oft mehr und brauchen länger bis zum Wiedererreichen des Geburtsgewichts. Eine zu großzügige Flüssigkeits- und Natriumzufuhr verhindert diese Kontraktion und ist mit höherem Risiko für PDA, NEC und BPD assoziiert.",
+      "keyPoints": [
+        "Gesamtkörperwasser und Extrazellulärraum bei Unreife höher",
+        "Postnatale Kontraktion des EZR mit Diurese/Natriurese",
+        "Gewichtsverlust Reifgeborene ca. 5–7 %, > 10 % abklären; Frühgeborene mehr",
+        "Überwässerung assoziiert mit PDA, NEC, BPD"
+      ],
+      "tags": ["Körperwasser", "Gewichtsverlauf"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "flu-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der **24+2 SSW** (620 g) wird auf Ihre Station aufgenommen. Welche Faktoren bestimmen die **Perspiratio insensibilis** in den ersten Lebenstagen, und mit welchen Maßnahmen reduzieren Sie sie?",
+      "hints": ["Die unreife Haut ist die Hauptquelle.", "Inkubatorklima und Wärmequellen spielen eine Rolle."],
+      "answer": "Hauptquelle ist der **transepidermale Wasserverlust** über die dünne, kaum verhornte Haut mit großer Körperoberfläche im Verhältnis zum Gewicht; er ist bei Kindern unter 26 SSW in den ersten Tagen um ein Vielfaches höher als beim Reifgeborenen und nimmt mit der postnatalen Hautreifung (innerhalb von etwa 2–4 Wochen) ab. Er steigt durch niedrige Umgebungsfeuchte, Strahlungswärme (offene Wärmebetten), Phototherapie, Fieber/Hyperthermie, Hautdefekte und Luftzug; respiratorische Verluste steigen bei nicht angewärmter, trockener Atemgasversorgung. Maßnahmen: geschlossener **Inkubator mit hoher relativer Luftfeuchte** (je nach Zentrum häufig etwa 70–85 %, teils höher, in der ersten Lebenswoche, danach schrittweise Reduktion), Plastikfolie/-beutel bei der Erstversorgung, angewärmte und befeuchtete Atemgase, schonende Hautpflege ohne Hautverletzungen, Minimierung von Inkubatoröffnungen. Steuerung der Zufuhr über engmaschiges Gewicht, Natrium und Bilanz.",
+      "keyPoints": [
+        "Transepidermaler Wasserverlust bei unreifer Haut dominiert",
+        "Steigernde Faktoren: trockene Luft, Strahler, Phototherapie, Hautdefekte",
+        "Inkubator mit hoher Luftfeuchte, Folie",
+        "Befeuchtete Atemgase, Hautschutz",
+        "Steuerung über Gewicht und Serum-Natrium"
+      ],
+      "tags": ["Perspiratio insensibilis", "Extrem Frühgeborene", "Luftfeuchte"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "flu-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **Phasen der postnatalen Flüssigkeitsanpassung** und geben Sie Richtwerte für die parenterale Flüssigkeitszufuhr eines Frühgeborenen < 1000 g am **1. Lebenstag** und in der **stabilen Wachstumsphase** an.",
+      "hints": [
+        "Die ESPGHAN-Leitlinie 2018 unterscheidet drei Phasen.",
+        "Transition – Intermediärphase – stabiles Wachstum."
+      ],
+      "answer": "Nach ESPGHAN 2018 werden drei Phasen unterschieden: **Phase I (Transition)** in den ersten Lebenstagen mit Oligurie, dann Diurese/Natriurese und Kontraktion des Extrazellulärraums; **Phase II (Intermediärphase)** mit abnehmender Perspiratio und Übergang zu positiver Bilanz; **Phase III (stabiles Wachstum)** mit positiver Wasser- und Natriumbilanz. Frühgeborene < 1000 g starten am 1. Lebenstag mit etwa **80–100 ml/kg/d** (Reifgeborene 40–60 ml/kg/d) und werden täglich um etwa 10–20 ml/kg/d gesteigert. In der stabilen Wachstumsphase liegen Frühgeborene meist bei etwa **140–160 ml/kg/d** parenteral. Die Richtwerte gelten für Inkubatorpflege mit hoher Luftfeuchte und müssen täglich individuell nach Gewicht, Serum-Natrium, Diurese und Klinik angepasst werden.",
+      "keyPoints": [
+        "Drei Phasen: Transition, Intermediär, stabiles Wachstum",
+        "Start < 1000 g ca. 80–100 ml/kg/d",
+        "Steigerung ca. 10–20 ml/kg/d pro Tag",
+        "Wachstumsphase ca. 140–160 ml/kg/d",
+        "Individuelle Anpassung nach Gewicht, Na, Diurese"
+      ],
+      "tags": ["Flüssigkeitsbedarf", "Parenterale Ernährung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-004",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Mit welchen Parametern **überwachen Sie den Flüssigkeitshaushalt** eines beatmeten Frühgeborenen in der ersten Lebenswoche?",
+      "hints": [
+        "Klinische, bilanzierende und laborchemische Parameter.",
+        "Welcher Laborwert spiegelt am besten den Wasserhaushalt?"
+      ],
+      "answer": "Klinisch: tägliches (bei sehr unreifen Kindern ggf. zweimal tägliches) **Wiegen**, Hautturgor, Ödeme, Fontanelle, Rekapillarisierung, Herzfrequenz und Blutdruck. Bilanz: exakte Ein- und Ausfuhr inkl. Spülungen und Medikamentenvolumina, **Urinausscheidung in ml/kg/h** (Windelwiegen), ggf. Urin-Natrium und spezifisches Gewicht/Osmolalität. Labor: **Serum-Natrium** als wichtigster Marker für den Wasserhaushalt (Hypernatriämie meist Ausdruck freier Wasserverluste, Hyponatriämie früh meist Überwässerung), Kalium, Kreatinin, Harnstoff, Glukose, Säure-Basen-Status und Hämatokrit. Die Zufuhr wird täglich anhand des Gewichtsverlaufs und des Natriums angepasst.",
+      "keyPoints": [
+        "Tägliches Gewicht",
+        "Ein-/Ausfuhrbilanz, Urin in ml/kg/h",
+        "Serum-Natrium als Leitparameter",
+        "Kalium, Kreatinin, Glukose, BGA"
+      ],
+      "tags": ["Bilanzierung", "Monitoring"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "flu-005",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der **24+5 SSW**, Geburtsgewicht 650 g, liegt am **3. Lebenstag** im Inkubator (Luftfeuchte wegen Defekts nur 50 %). Es erhält 110 ml/kg/d, hat **15 % des Geburtsgewichts verloren**, das Serum-Natrium beträgt **154 mmol/l**, die Diurese 4 ml/kg/h, Glukose 220 mg/dl. Wie interpretieren Sie die Situation und wie gehen Sie vor?",
+      "hints": [
+        "Ist das ein Natriumüberschuss oder ein Wassermangel?",
+        "Denken Sie an das Inkubatorklima – und an die Glukose."
+      ],
+      "answer": "Es handelt sich um eine **hypernatriämische Dehydratation durch freie Wasserverluste** (hohe Perspiratio insensibilis bei unreifer Haut und zu niedriger Luftfeuchte), nicht um Natriumüberladung; die Hyperglykämie kann über osmotische Diurese zusätzlich zum Wasserverlust beitragen. Vorgehen: Inkubator sofort tauschen bzw. **Luftfeuchte erhöhen**, Folie/Abdeckung, Atemgase befeuchten. **Freie Wasserzufuhr erhöhen** (z. B. um 20–30 ml/kg/d, Natriumzufuhr reduzieren bzw. pausieren, Natrium in Spül- und Medikamentenlösungen bedenken). Das Natrium soll **langsam** sinken (Richtwert höchstens etwa 10–12 mmol/l pro 24 h), Kontrollen alle 6–8 h, Gewicht ggf. zweimal täglich. Hyperglykämie durch Reduktion der Glukosezufuhr (nicht unter etwa 4 mg/kg/min) bzw. Insulin nach lokalem Standard angehen; Kalium und Kreatinin überwachen, IVH-Risiko durch rasche Osmolalitätsschwankungen beachten.",
+      "keyPoints": [
+        "Hypernatriämie durch freie Wasserverluste, nicht Na-Überschuss",
+        "Luftfeuchte erhöhen, Verluste reduzieren",
+        "Freie Wasserzufuhr steigern, Natrium reduzieren",
+        "Langsame Korrektur (ca. ≤ 10–12 mmol/l/24 h), engmaschige Kontrollen",
+        "Hyperglykämie/osmotische Diurese mitbehandeln"
+      ],
+      "tags": ["Hypernatriämie", "Extrem Frühgeborene", "Fallbeispiel"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "flu-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der **27 SSW** hat am **12. Lebenstag** ein Serum-Natrium von **128 mmol/l** bei guter Gewichtszunahme. Welche Ursachen kommen in Frage, und wie gehen Sie vor?",
+      "hints": ["Unterscheiden Sie Natriummangel von Verdünnung.", "Die unreife Niere und Medikamente spielen eine Rolle."],
+      "answer": "Spät auftretende Hyponatriämien beim Frühgeborenen sind meist Folge **renaler Natriumverluste** (unreife tubuläre Rückresorption) bei steigendem Wachstumsbedarf und zu geringer Zufuhr (z. B. unfortifizierte Muttermilch); weitere Ursachen sind **Diuretika** (Furosemid, Thiazide), Verdünnung durch Überwässerung oder SIADH (z. B. bei Beatmung, IVH, Schmerz), Verluste über Stomata/Drainagen und selten eine Nebenniereninsuffizienz/AGS (Hyperkaliämie!). Diagnostik: Gewichtsverlauf, Ödeme, Bilanz, Urin-Natrium und -Osmolalität, Kalium, Medikamentenanamnese. Therapie: bei Natriummangel Natriumzufuhr erhöhen (oral oder parenteral; Bedarf in der Wachstumsphase parenteral etwa 3–5 mmol/kg/d, enteral nach ESPGHAN 2022 3–8 mmol/kg/d), bei Verdünnung Flüssigkeit restriktiver. Eine chronische Hyponatriämie verschlechtert das Wachstum und ist mit schlechterem neurologischem Outcome assoziiert und sollte daher konsequent ausgeglichen werden.",
+      "keyPoints": [
+        "Renale Natriumverluste bei unreifer Niere",
+        "Diuretika, Stomaverluste, SIADH, Überwässerung",
+        "AGS/Nebenniereninsuffizienz bedenken",
+        "Urin-Natrium, Bilanz, Gewicht",
+        "Natriumsubstitution, Wachstum hängt von Na-Bilanz ab"
+      ],
+      "tags": ["Hyponatriämie", "Natriumbedarf"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "flu-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann und in welcher Größenordnung beginnen Sie bei einem Frühgeborenen unter 1500 g mit der **Natrium- und Kaliumzufuhr**, und welche Besonderheit gilt bei früher hoher Aminosäurezufuhr?",
+      "hints": [
+        "Klassisch orientiert man sich an der postnatalen Diurese.",
+        "Aminosäuren fördern den zellulären Aufbau – was braucht die Zelle dafür?"
+      ],
+      "answer": "Klassisch wird **Natrium** erst nach Einsetzen der Diurese bzw. nach Beginn des postnatalen Gewichtsverlusts (meist Tag 2–3) zugesetzt, um die physiologische Kontraktion des Extrazellulärraums nicht zu verhindern, und **Kalium** erst nach gesicherter Diurese. Die ESPGHAN-Leitlinie 2018 sieht für Frühgeborene < 1500 g aber bereits in Phase I (ab Tag 1) Spannen von Na 0–2 (–3) und K 0–3 mmol/kg/d vor und empfiehlt bei leitliniengerechter früher hoher Aminosäure- und Energiezufuhr, **Natrium und Kalium schon ab dem 1. Lebenstag** zu geben – unter Kontrolle von Diurese und Serum-Kalium (Cave nicht-oligurische Hyperkaliämie). Grund: Der anabole Zellaufbau verschiebt Kalium und Phosphat nach intrazellulär; ohne Zufuhr drohen **Hypokaliämie und Hypophosphatämie** schon in den ersten Tagen (Refeeding-ähnliches Syndrom). Bedarf in der stabilen Wachstumsphase parenteral etwa **3–5 mmol/kg/d Natrium** (bei hohen renalen Verlusten bis etwa 7) und etwa **2–3 mmol/kg/d Kalium** (ESPGHAN 2018 für < 1500 g bis 2–5 mmol/kg/d). Steuerung grundsätzlich nach Serumspiegeln, Gewichtsverlauf und Diurese; das Vorgehen in den ersten Tagen ist zentrumsabhängig.",
+      "keyPoints": [
+        "Klassisch Na nach Einsetzen von Diurese/Gewichtsverlust; ESPGHAN 2018: bei hoher früher AS-Zufuhr Na/K ab Tag 1 unter Diurese- und K-Kontrolle",
+        "Na-Bedarf Wachstumsphase ca. 3–5 mmol/kg/d",
+        "K-Bedarf Wachstumsphase ca. 2–3 (bis 5) mmol/kg/d",
+        "Frühe hohe AS-Zufuhr: früher Kalium- und Phosphatbedarf (Refeeding-ähnlich)",
+        "Steuerung nach Spiegeln"
+      ],
+      "tags": ["Elektrolyte", "Natrium", "Kalium"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-008",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der **25 SSW** (700 g) hat am **2. Lebenstag** bei normaler Diurese (3 ml/kg/h) und ohne Kaliumzufuhr ein Serum-Kalium von **6,9 mmol/l** (nicht hämolytisch, arteriell abgenommen). Welche Erklärung trifft am ehesten zu?",
+      "hints": ["Die Diurese ist erhalten.", "Es geht um eine Verschiebung zwischen Kompartimenten."],
+      "answer": "Es handelt sich um die typische **nicht-oligurische Hyperkaliämie** extrem unreifer Frühgeborener in den ersten 72 Lebensstunden. Ursache ist vor allem eine Verschiebung von Kalium aus dem Intra- in den Extrazellulärraum (unreife Na-K-ATPase), verstärkt durch die noch begrenzte renale Kaliumausscheidung. Sie tritt trotz normaler Urinmenge auf und erfordert EKG-Monitoring, Ausschluss von Kaliumzufuhr und ggf. Therapie (z. B. Glukose/Insulin, Salbutamol, Calcium bei EKG-Veränderungen) nach lokalem Standard.",
+      "keyPoints": [
+        "Nicht-oligurische Hyperkaliämie extrem Frühgeborener",
+        "Shift von intra- nach extrazellulär (unreife Na-K-ATPase)",
+        "Typisch in den ersten 72 h trotz normaler Diurese"
+      ],
+      "options": [
+        {
+          "text": "Nicht-oligurische Hyperkaliämie durch Kaliumverschiebung nach extrazellulär bei unreifer Na-K-ATPase",
+          "correct": true
+        },
+        {
+          "text": "Akutes Nierenversagen – bei normaler Diurese ausgeschlossen, daher Laborartefakt",
+          "correct": false
+        },
+        { "text": "Hyperkaliämie durch Hyperaldosteronismus", "correct": false },
+        { "text": "Folge einer metabolischen Alkalose", "correct": false },
+        { "text": "Typisches Zeichen eines Salzverlust-AGS am 2. Lebenstag", "correct": false }
+      ],
+      "tags": ["Hyperkaliämie", "Extrem Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "flu-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Mit welcher **Glukosezufuhrrate** beginnen Sie bei einem Frühgeborenen am 1. Lebenstag, welches Ziel streben Sie ab dem 2. Tag an, und warum sollte die Zufuhr nach oben begrenzt werden?",
+      "hints": ["Die Angabe erfolgt in mg/kg/min.", "Was passiert mit überschüssiger Glukose?"],
+      "answer": "Nach ESPGHAN 2018 beginnt man bei Frühgeborenen am 1. Lebenstag mit etwa **4–8 mg/kg/min** und steigert ab Tag 2 schrittweise auf etwa **8–10 mg/kg/min**; die Untergrenze liegt bei etwa 4 mg/kg/min, die Obergrenze bei etwa **12 mg/kg/min** (Reifgeborene: Start etwa 2,5–5, später 5–10 mg/kg/min). Eine Zufuhr über der Oxidationskapazität führt zu **Hyperglykämie**, Lipogenese mit Fettspeicherung und **Leberverfettung**, erhöhter CO2-Produktion (ungünstig bei Beatmung) und steigert das Risiko für Infektionen und eine Cholestase. Die Glukose wird daher immer zusammen mit Aminosäuren und Lipiden geplant und nach Blutzuckerwerten gesteuert; wiederholte Werte über etwa 180 mg/dl (10 mmol/l) und unter 45 mg/dl (2,5 mmol/l) sollen vermieden werden.",
+      "keyPoints": [
+        "Start ca. 4–8 mg/kg/min",
+        "Ziel ab Tag 2 ca. 8–10 mg/kg/min",
+        "Obergrenze ca. 12 mg/kg/min",
+        "Überschuss: Hyperglykämie, Lipogenese, Steatose, CO2-Anstieg",
+        "Hyperglykämie > 180 mg/dl wiederholt vermeiden"
+      ],
+      "tags": ["Glukosezufuhr", "Parenterale Ernährung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-010",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **900 g** erhält über einen Nabelvenenkatheter **Glukose 12,5 %** mit einer Laufrate von **3,6 ml/h** (keine weiteren glukosehaltigen Infusionen). Berechnen Sie die **Glukosezufuhrrate (GIR)** in mg/kg/min.",
+      "hints": ["Glukose 12,5 % = 125 mg/ml.", "GIR = (ml/h · mg/ml) / (60 · kg)"],
+      "answer": "Glukosemenge pro Stunde: 3,6 ml/h · 125 mg/ml = 450 mg/h. Pro Minute: 450 / 60 = 7,5 mg/min. Pro kg: 7,5 / 0,9 = **8,3 mg/kg/min**. Kurzformel: GIR = Laufrate (ml/h) · Glukose (%) · 10 / (60 · kg) = 3,6 · 12,5 · 10 / 54 ≈ 8,3 mg/kg/min. Das liegt im Zielbereich ab dem 2. Lebenstag (etwa 8–10 mg/kg/min).",
+      "keyPoints": ["125 mg/ml · 3,6 ml/h = 450 mg/h", "Umrechnung auf Minute und kg", "Ergebnis ≈ 8,3 mg/kg/min"],
+      "solution": { "value": 8.33, "unit": "mg/kg/min", "tolerance": 0.03 },
+      "tags": ["Glukosezufuhr", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        }
+      ]
+    },
+    {
+      "id": "flu-011",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit **1100 g** soll am 4. Lebenstag insgesamt 130 ml/kg/d erhalten. Davon entfallen 20 ml/kg/d auf Lipidemulsion und Medikamente; die restlichen **110 ml/kg/d** sind eine Glukose-Aminosäure-Mischlösung. Welche **Glukosekonzentration (in %)** muss diese Lösung haben, damit die GIR **9 mg/kg/min** beträgt?",
+      "hints": ["Rechnen Sie zuerst die Glukosemenge pro kg und Tag aus.", "9 mg/kg/min · 1440 min/d"],
+      "answer": "Benötigte Glukose: 9 mg/kg/min · 1440 min/d = 12 960 mg/kg/d. Diese Menge muss in 110 ml/kg/d enthalten sein: 12 960 / 110 = 117,8 mg/ml = **11,8 %**. Praktisch würde man z. B. 12 % verordnen (GIR dann ≈ 9,2 mg/kg/min). Konzentrationen über etwa 12,5 % sollten wegen der Osmolarität in der Regel nur zentralvenös gegeben werden.",
+      "keyPoints": ["12 960 mg/kg/d Glukose", "Division durch 110 ml/kg/d", "≈ 118 mg/ml = 11,8 %"],
+      "solution": { "value": 11.78, "unit": "%", "tolerance": 0.03 },
+      "tags": ["Glukosezufuhr", "Infusionsregime", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        }
+      ]
+    },
+    {
+      "id": "flu-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der **25 SSW** hat am 3. Lebenstag unter einer GIR von 8 mg/kg/min wiederholt Blutzuckerwerte von **240–280 mg/dl** und eine Glukosurie. Wie gehen Sie vor?",
+      "hints": ["Bevor Sie therapieren: Gibt es einen Auslöser?", "Wie weit darf die GIR reduziert werden?"],
+      "answer": "Zuerst **Ursachen suchen**: Sepsis, Stress/Schmerz, Steroide, Katecholamine, Messfehler (Abnahme aus glukosehaltigem Zugang), ggf. Fehlberechnung der Infusionen. Dann die **GIR schrittweise reduzieren**, aber nicht unter etwa **4 mg/kg/min**, damit die Energiezufuhr nicht zusammenbricht; Aminosäuren beibehalten bzw. ausbauen, da sie die Insulinsekretion stimulieren. Bleiben die Werte trotz angemessener Reduktion wiederholt über etwa **180 mg/dl (10 mmol/l)**, ist eine **Insulintherapie** (kontinuierlich, niedrig dosiert, mit engmaschigen Kontrollen) nach ESPGHAN 2018 angezeigt. Eine routinemäßige prophylaktische frühe Insulingabe wird nicht empfohlen (NIRTURE-Studie: mehr Hypoglykämien ohne Nutzen). Hyperglykämie ist mit osmotischer Diurese, Dehydratation, IVH, ROP, Infektionen und höherer Mortalität assoziiert.",
+      "keyPoints": [
+        "Ursachen ausschließen (Sepsis, Steroide, Katecholamine, Messfehler)",
+        "GIR reduzieren, nicht unter ca. 4 mg/kg/min",
+        "Aminosäurezufuhr beibehalten",
+        "Insulin bei persistierend > 180 mg/dl",
+        "Keine prophylaktische Routine-Insulingabe; Hypoglykämie vermeiden"
+      ],
+      "tags": ["Hyperglykämie", "Insulin", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Warum beginnt man bei Frühgeborenen **ab dem 1. Lebenstag mit Aminosäuren**, und welche Dosierungen empfiehlt die ESPGHAN-Leitlinie?",
+      "hints": ["Was passiert ohne Proteinzufuhr mit der Stickstoffbilanz?", "Unterscheiden Sie Tag 1 und die Folgetage."],
+      "answer": "Ohne Aminosäuren gerät ein Frühgeborenes sofort in eine **negative Stickstoffbilanz** (Verlust von etwa 1–2 % der körpereigenen Proteinreserven pro Tag); die Plazenta hatte zuvor kontinuierlich Aminosäuren geliefert. Frühe Aminosäuren verbessern Stickstoffbilanz, Glukosetoleranz (Insulinsekretion) und Wachstum. ESPGHAN 2018: Frühgeborene am **1. Lebenstag mindestens 1,5 g/kg/d**, ab dem **2. Tag 2,5–3,5 g/kg/d**, begleitet von einer Nicht-Protein-Energiezufuhr von **mehr als 65 kcal/kg/d**; mehr als 3,5 g/kg/d nur in Studien. Reifgeborene: 1,5–3 g/kg/d. Verwendet werden pädiatrische Aminosäurelösungen (u. a. mit Cystein, Taurin, Tyrosin); eine ausreichende Phosphat- und Kaliumzufuhr ist wegen des Refeeding-ähnlichen Effekts mitzubedenken.",
+      "keyPoints": [
+        "Negative Stickstoffbilanz ohne frühe AS",
+        "Tag 1: mindestens 1,5 g/kg/d",
+        "Ab Tag 2: 2,5–3,5 g/kg/d",
+        "Nicht-Protein-Energie > 65 kcal/kg/d",
+        "Pädiatrische AS-Lösung, Phosphat/Kalium beachten"
+      ],
+      "tags": ["Aminosäuren", "Parenterale Ernährung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-014",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit **1250 g** erhält am 2. Lebenstag eine **Aminosäurelösung 10 %** (separat, ohne andere Aminosäurequellen) mit einer Laufrate von **1,5 ml/h** über 24 Stunden. Wie viel **g Aminosäuren pro kg und Tag** erhält das Kind?",
+      "hints": ["10 % = 100 mg/ml = 0,1 g/ml.", "Erst Tagesvolumen, dann Gramm, dann pro kg."],
+      "answer": "Tagesvolumen: 1,5 ml/h · 24 h = 36 ml/d. Aminosäuren: 36 ml · 0,1 g/ml = 3,6 g/d. Pro kg: 3,6 g / 1,25 kg = **2,88 g/kg/d**. Das liegt im empfohlenen Bereich ab dem 2. Lebenstag (2,5–3,5 g/kg/d); vorausgesetzt, die Nicht-Protein-Energiezufuhr beträgt mehr als 65 kcal/kg/d.",
+      "keyPoints": ["36 ml/d", "3,6 g/d", "≈ 2,9 g/kg/d, im Zielbereich 2,5–3,5"],
+      "solution": { "value": 2.88, "unit": "g/kg/d", "tolerance": 0.03 },
+      "tags": ["Aminosäuren", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "flu-015",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der **24 SSW** erhält seit Geburt leitliniengerecht 3,5 g/kg/d Aminosäuren und 3 g/kg/d Lipide, aber noch kein Phosphat. Am 4. Lebenstag zeigen sich **Phosphat 0,9 mg/dl** (≈ 0,3 mmol/l), **Calcium 12,1 mg/dl** (≈ 3,0 mmol/l) und Kalium 2,9 mmol/l. Welche Erklärung trifft zu?",
+      "hints": [
+        "Anabolie braucht Bausteine.",
+        "Wohin wird Phosphat bei Zellaufbau verschoben, und was passiert dann mit Calcium?"
+      ],
+      "answer": "Es handelt sich um ein **Refeeding-ähnliches Syndrom** (frühe Hypophosphatämie) des Frühgeborenen: Die hohe Aminosäure- und Energiezufuhr induziert Zellaufbau, Phosphat und Kalium werden nach intrazellulär verschoben. Ohne ausreichendes Phosphat kann Calcium nicht in den Knochen eingebaut werden, es entsteht eine **Hyperkalzämie** mit Hyperkalziurie. Konsequenz: Phosphat (und Kalium) ab dem 1. Lebenstag zuführen, in den ersten Tagen mit einem molaren Ca:P-Verhältnis unter bzw. um 1; das Syndrom ist mit Hyperglykämie, Sepsis und erhöhter Mortalität assoziiert.",
+      "keyPoints": [
+        "Refeeding-ähnliches Syndrom bei früher hoher AS-Zufuhr",
+        "Intrazelluläre Verschiebung von Phosphat und Kalium",
+        "Sekundäre Hyperkalzämie durch fehlenden Knocheneinbau",
+        "Prävention: Phosphat ab Tag 1, Ca:P-Verhältnis anpassen"
+      ],
+      "options": [
+        {
+          "text": "Refeeding-ähnliches Syndrom: anabolieinduzierte Phosphat- und Kaliumverschiebung nach intrazellulär mit sekundärer Hyperkalzämie",
+          "correct": true
+        },
+        { "text": "Primärer Hyperparathyreoidismus des Frühgeborenen", "correct": false },
+        { "text": "Vitamin-D-Intoxikation durch die parenterale Multivitaminlösung", "correct": false },
+        { "text": "Laborartefakt durch Lipämie, keine Konsequenz", "correct": false },
+        { "text": "Ausdruck einer Nebenniereninsuffizienz", "correct": false }
+      ],
+      "tags": ["Phosphat", "Refeeding", "Knochenstoffwechsel"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie Beginn, Dosierung, Auswahl und Überwachung der **parenteralen Lipidzufuhr** bei Frühgeborenen.",
+      "hints": [
+        "Wann spätestens? Welche Maximaldosis?",
+        "Welche Emulsionen bevorzugt man heute, und welchen Laborwert kontrollieren Sie?"
+      ],
+      "answer": "Lipide können nach ESPGHAN 2018 **unmittelbar nach Geburt, spätestens am 2. Lebenstag** begonnen werden; sie liefern Energie und essenzielle Fettsäuren (Mangel bei Frühgeborenen schon nach wenigen Tagen). Die Zufuhr wird bis maximal **4 g/kg/d** gesteigert (viele Zentren 3–4 g/kg/d), kontinuierlich über 24 h. Bevorzugt werden **Mischemulsionen** (z. B. Soja/MCT/Oliven/Fischöl) statt reiner Sojaölemulsionen, da diese mit mehr Cholestase und ungünstigerem Outcome assoziiert sind. Überwachung über **Triglyzeride**: bei Werten über etwa **265 mg/dl (3 mmol/l)** Dosis reduzieren, nicht komplett pausieren (essenzielle Fettsäuren). Die Lipid- und Vitaminlösung wird **lichtgeschützt** verabreicht (Peroxidbildung). Bei Sepsis, schwerer Thrombozytopenie oder hoher Hyperbilirubinämie wird die Dosis zentrumsabhängig angepasst und engmaschiger kontrolliert.",
+      "keyPoints": [
+        "Beginn ab Geburt, spätestens Tag 2",
+        "Maximal 4 g/kg/d, kontinuierlich",
+        "Mischemulsion statt reiner Sojaölemulsion",
+        "Triglyzeride: > 265 mg/dl reduzieren",
+        "Lichtschutz"
+      ],
+      "tags": ["Lipide", "Parenterale Ernährung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-017",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **800 g** soll **3 g/kg/d Fett** als **Lipidemulsion 20 %** kontinuierlich über 24 Stunden erhalten. Welche **Laufrate in ml/h** stellen Sie ein?",
+      "hints": ["20 % = 0,2 g/ml.", "Tagesmenge in Gramm → Volumen → durch 24 teilen."],
+      "answer": "Fettmenge: 3 g/kg/d · 0,8 kg = 2,4 g/d. Volumen: 2,4 g / 0,2 g/ml = 12 ml/d. Laufrate: 12 ml / 24 h = **0,5 ml/h**. Die Emulsion liefert dabei etwa 2 kcal/ml, also 24 kcal/d bzw. 30 kcal/kg/d.",
+      "keyPoints": ["2,4 g/d", "12 ml/d Lipid 20 %", "0,5 ml/h"],
+      "solution": { "value": 0.5, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Lipide", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "flu-018",
+      "type": "calc",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes mit **1000 g** erhält am 7. Lebenstag eine vollständige parenterale Ernährung: **120 ml/kg/d Mischlösung mit Glukose 12,5 %** und **3,5 g/kg/d Aminosäuren** sowie **15 ml/kg/d Lipidemulsion 20 %**. Berechnen Sie die **Gesamtenergiezufuhr in kcal/kg/d**. Rechnen Sie mit 4 kcal/g für Glukose und Aminosäuren und 2 kcal/ml für Lipidemulsion 20 %.",
+      "hints": ["Berechnen Sie die drei Komponenten einzeln.", "Glukose: 120 ml · 0,125 g/ml"],
+      "answer": "Glukose: 120 ml/kg/d · 0,125 g/ml = 15 g/kg/d · 4 kcal/g = 60 kcal/kg/d (entspricht GIR ≈ 10,4 mg/kg/min). Aminosäuren: 3,5 g/kg/d · 4 kcal/g = 14 kcal/kg/d. Lipide: 15 ml/kg/d · 2 kcal/ml = 30 kcal/kg/d (= 3 g/kg/d). Gesamt: 60 + 14 + 30 = **104 kcal/kg/d**, davon Nicht-Protein-Energie 90 kcal/kg/d. Das liegt im ESPGHAN-Zielbereich für parenteral ernährte Frühgeborene in der Wachstumsphase (etwa 90–120 kcal/kg/d). Hinweis: Rechnet man Glukose-Monohydrat mit 3,4 kcal/g, ergibt sich ein etwas niedrigerer Wert.",
+      "keyPoints": [
+        "Glukose 15 g/kg/d = 60 kcal",
+        "AS 14 kcal, Lipid 30 kcal",
+        "Gesamt 104 kcal/kg/d",
+        "Zielbereich parenteral ca. 90–120 kcal/kg/d"
+      ],
+      "solution": { "value": 104, "unit": "kcal/kg/d", "tolerance": 0.03 },
+      "tags": ["Energiezufuhr", "Kalorienberechnung", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-019",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Rolle spielen **Calcium und Phosphat in der parenteralen Ernährung** von Frühgeborenen für den Knochenstoffwechsel, und welche praktischen Probleme gibt es bei der Zufuhr?",
+      "hints": [
+        "Der Großteil der fetalen Knochenmineralisation erfolgt im 3. Trimenon.",
+        "Denken Sie an Ausfällungen in der Lösung."
+      ],
+      "answer": "Etwa 80 % der fetalen Mineralisation erfolgt im **3. Trimenon** mit hohen transplazentaren Ca- und P-Flüssen; diese lassen sich postnatal parenteral nur teilweise erreichen, daher droht eine **metabolische Knochenerkrankung (Osteopenie)**. Parenterale Richtwerte (ESPGHAN 2018) für wachsende Frühgeborene liegen bei etwa **1,6–3,5 mmol/kg/d** für Calcium und Phosphat; in den ersten Tagen wird ein molares **Ca:P-Verhältnis unter bzw. um 1** empfohlen, um Hyperkalzämie/Hypophosphatämie bei hoher Aminosäurezufuhr zu vermeiden. Hauptproblem ist die **Ausfällung von Calciumphosphat** in der Lösung (Katheterokklusion, Embolie); daher werden **organische Phosphate** (z. B. Glycerophosphat) und Calciumgluconat verwendet, und die Kompatibilität hängt von Konzentration, pH, Aminosäuregehalt und Temperatur ab (Apotheke einbinden). Überwachung: Serum-Phosphat, Calcium, alkalische Phosphatase, ggf. Urin-Ca/P.",
+      "keyPoints": [
+        "Mineralisation überwiegend im 3. Trimenon, Osteopenierisiko",
+        "Ca und P je ca. 1,6–3,5 mmol/kg/d in Wachstumsphase",
+        "Früh Ca:P-Verhältnis ≤ ca. 1",
+        "Präzipitationsgefahr, organisches Phosphat",
+        "Monitoring: P, Ca, AP, Urin-Ca/P"
+      ],
+      "tags": ["Calcium", "Phosphat", "Knochenstoffwechsel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Spurenelemente und Vitamine** gehören in die parenterale Ernährung eines Frühgeborenen, und was ist bei Cholestase zu beachten?",
+      "hints": ["Zink ist besonders wichtig für Wachstum.", "Welche Spurenelemente werden biliär ausgeschieden?"],
+      "answer": "Bei längerer parenteraler Ernährung werden **Spurenelemente** (u. a. Zink, Kupfer, Selen, Jod, ggf. Mangan) sowie **wasser- und fettlösliche Vitamine** zugesetzt; die fettlöslichen Vitamine werden meist mit der Lipidemulsion gegeben, lichtgeschützt. **Zink** hat beim Frühgeborenen einen hohen Bedarf (ESPGHAN 2018: etwa 400–500 µg/kg/d, Reifgeborene etwa 250 µg/kg/d); Mangel führt zu Dermatitis (akral, perioral) und Wachstumsstörung. **Kupfer und Mangan** werden biliär ausgeschieden: Bei Cholestase können sie kumulieren (Mangan ist neurotoxisch und begünstigt Cholestase), daher werden Spiegel kontrolliert bzw. Mangan minimiert; Kupfer soll nicht pauschal weggelassen werden, da auch ein Mangel (Anämie, Neutropenie) droht. Selen und Jod nicht vergessen, insbesondere bei jodfreier Hautdesinfektion.",
+      "keyPoints": [
+        "Spurenelemente: Zink, Kupfer, Selen, Jod, (Mangan)",
+        "Wasser- und fettlösliche Vitamine, lichtgeschützt",
+        "Zink beim FG ca. 400–500 µg/kg/d",
+        "Cholestase: Kupfer und Mangan kumulieren – Spiegel kontrollieren",
+        "Kupfer nicht pauschal weglassen"
+      ],
+      "tags": ["Spurenelemente", "Vitamine", "Parenterale Ernährung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes der 26 SSW nach NEC-Operation mit Kurzdarm ist seit 6 Wochen überwiegend parenteral ernährt und entwickelt ein **konjugiertes Bilirubin von 4,2 mg/dl** und steigende γ-GT. Erläutern Sie Definition, Pathogenese, Risikofaktoren und Management der **parenteral assoziierten Cholestase (PNAC/IFALD)**.",
+      "hints": ["Welche Lipidkomponente wird als Mitverursacher diskutiert?", "Was ist die wirksamste Maßnahme überhaupt?"],
+      "answer": "Eine neonatale Cholestase liegt bei einem **konjugierten Bilirubin über 1 mg/dl** vor (in Studien zur PNAC häufig ≥ 2 mg/dl); PNAC ist eine Ausschlussdiagnose (Infektion, Gallengangsatresie, Stoffwechsel, Hypothyreose u. a. bedenken). Pathogenese multifaktoriell: fehlende enterale Stimulation des enterohepatischen Kreislaufs, Unreife des Galletransports, **Phytosterole und ω-6-Fettsäuren aus Sojaöl**, Sepsis/Endotoxine, bakterielle Fehlbesiedlung, Überernährung mit Glukose. Risikofaktoren: Unreife, lange PE-Dauer, fehlende enterale Ernährung, Kurzdarm, rezidivierende Katheterinfektionen. Management: **enterale Ernährung so früh und so viel wie möglich** (wirksamste Maßnahme), Wechsel auf fischölhaltige Mischemulsion bzw. Lipiddosis reduzieren (in schweren Fällen reine Fischölemulsion nach Zentrumsstandard), Glukose-/Energieüberzufuhr vermeiden, ggf. Zyklisierung, Infektionen konsequent vermeiden und behandeln, Ursodeoxycholsäure bei enteraler Zufuhr möglich; Kupfer und Mangan überwachen, fettlösliche Vitamine sichern. Betreuung im Zentrum für intestinale Rehabilitation.",
+      "keyPoints": [
+        "Konjugiertes Bilirubin > 1 mg/dl (Studien oft ≥ 2), Ausschlussdiagnose",
+        "Multifaktoriell: fehlende enterale Zufuhr, Sojaöl-Phytosterole, Sepsis",
+        "Enterale Ernährung als wichtigste Maßnahme",
+        "Fischölhaltige Emulsion/Lipidreduktion, Glukoseüberzufuhr vermeiden",
+        "Infektionsprävention, UDCA, Mn/Cu-Monitoring"
+      ],
+      "tags": ["PNAC", "Cholestase", "Kurzdarm"],
+      "exam": ["KM", "HK"],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-022",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur Wahl der **Lipidemulsion** in der parenteralen Ernährung von Früh- und Neugeborenen entspricht der ESPGHAN-Leitlinie 2018?",
+      "hints": ["Es geht um die Ölquelle.", "Denken Sie an Phytosterole und Cholestase."],
+      "answer": "ESPGHAN 2018 empfiehlt, bei parenteraler Ernährung über mehr als wenige Tage **keine reinen Sojaölemulsionen** mehr zu verwenden, sondern **Mischemulsionen** (mit oder ohne Fischöl) als Erstwahl. Reine Sojaölemulsionen sind reich an ω-6-Fettsäuren und Phytosterolen und mit einem höheren Risiko für Cholestase verbunden. Reine Fischölemulsionen sind nicht für die Routine, sondern für die Therapie der fortgeschrittenen Cholestase vorgesehen.",
+      "keyPoints": [
+        "Mischemulsionen als Erstwahl",
+        "Reines Sojaöl: mehr Phytosterole, Cholestaserisiko",
+        "Reines Fischöl nicht als Routine"
+      ],
+      "options": [
+        {
+          "text": "Mischemulsionen (mit oder ohne Fischöl) sollen bei PE über mehr als wenige Tage reinen Sojaölemulsionen vorgezogen werden",
+          "correct": true
+        },
+        {
+          "text": "Reine Sojaölemulsionen sind wegen ihres hohen Linolsäuregehalts bei Frühgeborenen Mittel der Wahl",
+          "correct": false
+        },
+        {
+          "text": "Reine Fischölemulsionen sollen bei allen Frühgeborenen routinemäßig ab Tag 1 eingesetzt werden",
+          "correct": false
+        },
+        { "text": "Lipide sollen bei Frühgeborenen erst ab dem 7. Lebenstag begonnen werden", "correct": false },
+        { "text": "Die Wahl der Emulsion hat keinen Einfluss auf das Cholestaserisiko", "correct": false }
+      ],
+      "tags": ["Lipide", "PNAC"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    },
+    {
+      "id": "flu-023",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann ist für die parenterale Ernährung eines Frühgeborenen ein **zentraler Zugang** erforderlich, und welche **katheterbezogenen Komplikationen** müssen Sie kennen?",
+      "hints": [
+        "Denken Sie an Osmolarität und Glukosekonzentration.",
+        "Eine Komplikation ist akut lebensbedrohlich und betrifft das Herz."
+      ],
+      "answer": "Peripher werden in vielen Standards nur Lösungen bis etwa **12,5 % Glukose** bzw. einer Osmolarität bis etwa 800–900 mOsm/l gegeben (zentrumsabhängig); eine volle PE mit hoher Glukose-, Aminosäure- und Calciumzufuhr erfordert meist einen **zentralen Zugang** (Nabelvenenkatheter, PICC/Silastic-Katheter). Komplikationen: **katheterassoziierte Blutstrominfektion** (CLABSI; Prävention durch Bündel, Asepsis, Diskonnektionen minimieren), **Thrombose**, Okklusion (Präzipitate), Dislokation, **Paravasat/Extravasation** mit Nekrosen, und **Perikarderguss/Perikardtamponade** sowie Pleuraerguss durch Katheterfehllage oder Gefäßperforation. Die Katheterspitze sollte außerhalb des Herzens liegen (Lagekontrolle per Sonographie/Röntgen); bei plötzlicher Kreislaufverschlechterung eines Kindes mit zentralem Katheter immer an eine Tamponade denken (Sofort-Echo, Perikardpunktion).",
+      "keyPoints": [
+        "Peripher meist ≤ 12,5 % Glukose/begrenzte Osmolarität",
+        "Volle PE meist zentral (NVK, PICC)",
+        "CLABSI, Thrombose, Okklusion, Extravasation",
+        "Perikardtamponade bei Fehllage – Spitze außerhalb des Herzens",
+        "Lagekontrolle Sono/Röntgen"
+      ],
+      "tags": ["Zentraler Zugang", "Komplikationen", "Parenterale Ernährung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "flu-024",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Bei einem Frühgeborenen mit **1400 g** am 2. Lebenstag werden über **8 Stunden** Windeln mit einem Nettogewicht (abzüglich Trockengewicht) von insgesamt **34 g** gesammelt (Stuhl wurde nicht abgesetzt). Berechnen Sie die **Urinausscheidung in ml/kg/h** (1 g ≈ 1 ml).",
+      "hints": ["Teilen Sie die Urinmenge durch Zeit und Gewicht.", "34 ml / 8 h / 1,4 kg"],
+      "answer": "Urinausscheidung = 34 ml / 8 h / 1,4 kg = **3,0 ml/kg/h**. Das ist eine normale Diurese (Oligurie beim Neugeborenen üblicherweise < 1 ml/kg/h; in den ersten 24 Lebensstunden sind niedrigere Werte physiologisch). Beim Windelwiegen ist zu beachten, dass unter offenen Wärmequellen Verdunstung zu einer Unterschätzung führen kann.",
+      "keyPoints": ["34 ml / 8 h / 1,4 kg", "≈ 3,0 ml/kg/h", "Oligurie < 1 ml/kg/h"],
+      "solution": { "value": 3.04, "unit": "ml/kg/h", "tolerance": 0.03 },
+      "tags": ["Diurese", "Bilanzierung", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "flu-025",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein vollständig parenteral ernährtes Frühgeborenes entwickelt eine **metabolische Azidose** mit Chlorid 118 mmol/l und normaler Anionenlücke. Welche Anpassung der parenteralen Ernährung ist am sinnvollsten?",
+      "hints": ["Woher kommt das Chlorid?", "Welches Anion kann Chlorid ersetzen und wird zu Bikarbonat metabolisiert?"],
+      "answer": "Eine **hyperchlorämische Azidose** unter PE ist häufig iatrogen durch hohe Chloridzufuhr (NaCl, KCl, chloridhaltige Aminosäurelösungen). Sinnvoll ist, einen Teil des Natriums bzw. Kaliums als **Acetat** (oder z. B. als Glycerophosphat/Lactat) statt als Chlorid zu geben; Acetat wird zu Bikarbonat metabolisiert. Gleichzeitig andere Ursachen wie renalen Bikarbonatverlust der unreifen Niere, Sepsis oder Hypoperfusion bedenken.",
+      "keyPoints": [
+        "Hyperchlorämische Azidose durch Chloridzufuhr",
+        "Na/K teilweise als Acetat statt Chlorid",
+        "Acetat wird zu Bikarbonat metabolisiert"
+      ],
+      "options": [
+        { "text": "Natrium und Kalium teilweise als Acetat statt als Chlorid zuführen", "correct": true },
+        { "text": "Aminosäurezufuhr auf 0,5 g/kg/d reduzieren", "correct": false },
+        { "text": "Zusätzlich NaCl 0,9 % als Bolus geben", "correct": false },
+        { "text": "Lipidemulsion vollständig absetzen", "correct": false },
+        { "text": "Glukosekonzentration auf 20 % erhöhen", "correct": false }
+      ],
+      "tags": ["Säure-Basen-Haushalt", "Parenterale Ernährung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "flu-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der **27+0 SSW**, **1000 g**, am **3. Lebenstag**, Inkubator mit 80 % Luftfeuchte, trophische Ernährung 10 ml/kg/d Muttermilch, Nabelvenenkatheter liegt korrekt. Gewichtsverlust bisher 6 %, Natrium 138 mmol/l, Kalium 4,2 mmol/l, Diurese 3 ml/kg/h, Blutzucker normal. Skizzieren Sie Ihre **Infusionsverordnung** für die nächsten 24 Stunden mit Begründung.",
+      "hints": [
+        "Gesamtflüssigkeit festlegen, enterale Menge und Medikamente abziehen.",
+        "Glukose, Aminosäuren, Lipide, Elektrolyte, Mineralien, Vitamine/Spurenelemente."
+      ],
+      "answer": "Gesamtflüssigkeit etwa **120–130 ml/kg/d** (Steigerung um 10–20 ml/kg/d gegenüber dem Vortag bei adäquatem Gewichtsverlust und normalem Natrium); davon gehen 10 ml/kg/d enteral, Lipide und Medikamenten-/Spülvolumina ab. **Glukose** so, dass die GIR etwa 8–10 mg/kg/min beträgt (Blutzucker normal), **Aminosäuren 3–3,5 g/kg/d**, **Lipide** (Mischemulsion) 2–3 g/kg/d mit Ziel 3–4 g/kg/d. **Natrium** (sofern nicht schon begonnen) jetzt bei eingesetzter Diurese und adäquatem Gewichtsverlust etwa 2–3 mmol/kg/d (später 3–5), **Kalium** etwa 1–2 mmol/kg/d bei guter Diurese, **Phosphat und Calcium** (organisches Phosphat, Calciumgluconat) mit früh etwa ausgeglichenem molaren Verhältnis, Magnesium, wasser- und fettlösliche Vitamine sowie Spurenelemente, Lichtschutz. Ziel ist eine Gesamtenergie, die sich auf 90–120 kcal/kg/d zubewegt. Kontrollen: Gewicht täglich, Bilanz, Blutzucker mehrmals täglich, Elektrolyte, Phosphat und Triglyzeride nach Plan; enteralen Nahrungsaufbau zügig steigern und die PE parallel reduzieren.",
+      "keyPoints": [
+        "Gesamtvolumen ca. 120–130 ml/kg/d, Abzug enteral/Medikamente/Lipide",
+        "GIR ca. 8–10 mg/kg/min, AS 3–3,5 g/kg/d, Lipide 2–3 → 3–4 g/kg/d",
+        "Na ab Diurese, K bei guter Diurese, Ca/P von Anfang an",
+        "Vitamine/Spurenelemente, Lichtschutz",
+        "Monitoring und paralleler enteraler Aufbau"
+      ],
+      "tags": ["Infusionsregime", "Parenterale Ernährung", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ],
+      "source": "ESPGHAN/ESPEN/ESPR/CSPEN-Leitlinien zur parenteralen Ernährung im Kindesalter (2018)"
+    }
+  ]
+}

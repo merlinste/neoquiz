@@ -1,0 +1,713 @@
+{
+  "area": "ernaehrung",
+  "questions": [
+    {
+      "id": "ern-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **Vorteile der Muttermilch** für Frühgeborene sollten Sie den Eltern im Aufklärungsgespräch nennen können?",
+      "hints": ["Denken Sie an Darm, Infektionen und Entwicklung.", "Welche Inhaltsstoffe sind immunologisch aktiv?"],
+      "answer": "Muttermilch (eigene Mutter, ersatzweise Spenderinnenmilch) senkt bei Frühgeborenen das Risiko für **nekrotisierende Enterokolitis** und **Late-onset-Sepsis** und ist mit besserer Nahrungsverträglichkeit und schnellerem Nahrungsaufbau verbunden. Für die Muttermilch der eigenen Mutter zeigen Beobachtungsstudien zudem dosisabhängig ein besseres neurokognitives Outcome sowie Assoziationen mit weniger ROP und BPD. Wirkprinzipien: sekretorisches IgA, Lactoferrin, Lysozym, humane Milcholigosaccharide (Präbiotika, Förderung einer günstigen Mikrobiota), lebende Zellen, Wachstumsfaktoren und Enzyme. Für Frühgeborene reicht der Protein- und Mineralgehalt aber nicht aus, daher wird Muttermilch angereichert. Wichtig ist, die Mutter wertschätzend zu unterstützen, ohne Druck aufzubauen.",
+      "keyPoints": [
+        "Weniger NEC und Late-onset-Sepsis",
+        "Bessere Verträglichkeit, schnellerer Nahrungsaufbau",
+        "Dosisabhängig besseres neurologisches Outcome (Beobachtungsdaten)",
+        "Immunologische Inhaltsstoffe (sIgA, Lactoferrin, HMO)",
+        "Supplementierung (Fortifier) beim FG nötig"
+      ],
+      "tags": ["Muttermilch", "Elternberatung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ern-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Die Mutter eines Frühgeborenen der **26+1 SSW** fragt Sie nach der Geburt, ob und wie sie Milch für ihr Kind gewinnen kann. Wie **fördern Sie die Laktation** und wie wird die frühe Milch genutzt?",
+      "hints": [
+        "Zeitpunkt des ersten Abpumpens und Frequenz sind entscheidend.",
+        "Wofür kann man bereits wenige Tropfen Kolostrum nutzen?"
+      ],
+      "answer": "Beginn des Abpumpens bzw. der Handentleerung **so früh wie möglich nach der Geburt** (idealerweise innerhalb der ersten Stunden), anschließend etwa **8-mal in 24 Stunden** einschließlich einer nächtlichen Sitzung, mit elektrischer Doppelpumpe und Anleitung durch Pflege/Stillberatung; zusätzlich Handentleerung, besonders für Kolostrum. Förderlich sind **Haut-zu-Haut-Kontakt (Känguru-Pflege)**, Abpumpen in der Nähe des Kindes, Dokumentation der Milchmenge und frühe Unterstützung bei Problemen. Das Kolostrum wird als **orale bzw. oropharyngeale Kolostrumgabe** (kleine Tropfen auf die Mundschleimhaut) und für den frühen trophischen Nahrungsaufbau genutzt. Hygiene beim Gewinnen, Lagern und Transport der Milch nach Stationsstandard; Medikamente der Mutter auf Stillverträglichkeit prüfen.",
+      "keyPoints": [
+        "Frühes erstes Abpumpen (erste Stunden)",
+        "Ca. 8×/24 h inkl. nachts, Doppelpumpe",
+        "Känguru-Pflege, Stillberatung",
+        "Orale Kolostrumgabe und trophische Ernährung",
+        "Hygiene, Medikamente prüfen"
+      ],
+      "tags": ["Stillförderung", "Laktation", "Frühgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "ern-003",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Bei welcher der folgenden Situationen ist das **Stillen bzw. die Gabe von Muttermilch der eigenen Mutter kontraindiziert**?",
+      "hints": ["Es geht um eine Erkrankung des Kindes.", "Muttermilch enthält Lactose."],
+      "answer": "Bei der **klassischen Galaktosämie** des Kindes ist jede lactose- bzw. galaktosehaltige Ernährung – also auch Muttermilch – kontraindiziert; das Kind erhält eine lactosefreie Spezialnahrung (z. B. Sojabasis). Eine mütterliche Hepatitis B ist bei korrekt durchgeführter Simultanimpfung des Kindes keine Kontraindikation, ebenso wenig Mastitis, Fieber oder eine CMV-Seropositivität beim reifen Kind.",
+      "keyPoints": [
+        "Klassische Galaktosämie: absolute Kontraindikation",
+        "Hepatitis B mit Simultanimpfung: Stillen erlaubt",
+        "Mastitis und CMV-Seropositivität beim Reifgeborenen keine Kontraindikation"
+      ],
+      "options": [
+        { "text": "Klassische Galaktosämie des Kindes", "correct": true },
+        { "text": "Chronische Hepatitis B der Mutter, Kind simultan geimpft", "correct": false },
+        { "text": "Mastitis puerperalis der Mutter unter Antibiotikatherapie mit Cefuroxim", "correct": false },
+        { "text": "CMV-seropositive Mutter eines reifen Neugeborenen", "correct": false },
+        { "text": "Fieberhafter Infekt der oberen Atemwege der Mutter", "correct": false }
+      ],
+      "tags": ["Stillen", "Kontraindikationen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ern-004",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Mutter eines Frühgeborenen der **27 SSW** ist **CMV-seropositiv**. Was wissen Sie über die **CMV-Übertragung durch Muttermilch**, und wie wird in Deutschland damit umgegangen?",
+      "hints": [
+        "Bei seropositiven Müttern reaktiviert CMV häufig in der Brustdrüse.",
+        "Welche Kinder sind gefährdet, und welche Verfahren gibt es?"
+      ],
+      "answer": "Bei der Mehrzahl der CMV-seropositiven Mütter kommt es während der Laktation zu einer **lokalen Reaktivierung mit Virusausscheidung in die Milch**; ein Teil der Frühgeborenen infiziert sich postnatal. Gefährdet sind vor allem sehr unreife Frühgeborene (meist definiert als < 32 SSW bzw. < 1500 g): Mögliche Folgen sind ein **sepsisähnliches Krankheitsbild**, Thrombozytopenie, Neutropenie, Hepatitis, Cholestase und möglicherweise eine Assoziation mit BPD; ob langfristige neurologische Folgen entstehen, ist nicht abschließend geklärt (Hörstörungen sind anders als bei konnataler CMV-Infektion selten). Optionen sind Rohmilchfütterung, **Pasteurisierung** (Holder-Verfahren 62,5 °C für 30 min oder Kurzzeitpasteurisierung) oder Tiefgefrieren (reduziert, eliminiert die Viruslast aber nicht sicher). In Deutschland gibt es **kein einheitliches Vorgehen**; viele Zentren behandeln die Milch seropositiver Mütter bei sehr unreifen Frühgeborenen bis zu einem definierten Gestationsalter, andere füttern nach Aufklärung roh. Wichtig ist eine gute Elternaufklärung und die Abwägung gegen den Verlust bioaktiver Inhaltsstoffe.",
+      "keyPoints": [
+        "Reaktivierung in der Laktation, Virusausscheidung in Milch",
+        "Risiko v. a. < 32 SSW / < 1500 g: sepsisähnlich, Thrombo-/Neutropenie, Hepatitis",
+        "Langzeitfolgen unklar",
+        "Pasteurisierung (Holder/Kurzzeit) vs. Tiefgefrieren vs. roh",
+        "Kein einheitliches Vorgehen in Deutschland"
+      ],
+      "tags": ["CMV", "Muttermilch", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "ern-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was ist eine **Frauenmilchbank**, für welche Kinder ist **Spenderinnenmilch** indiziert, und welche Sicherheitsmaßnahmen werden eingehalten?",
+      "hints": ["Wer darf spenden?", "Wie wird die Milch behandelt?"],
+      "answer": "Eine Frauenmilchbank sammelt, prüft, bearbeitet und verteilt Milch von Spenderinnen. Spenderinnenmilch wird vor allem für **sehr unreife bzw. kranke Frühgeborene** eingesetzt, wenn (noch) nicht ausreichend Muttermilch der eigenen Mutter vorhanden ist; sie senkt im Vergleich zu Formulanahrung das NEC-Risiko, ersetzt aber nicht die Unterstützung der Laktation der eigenen Mutter. Sicherheit: Auswahl gesunder Spenderinnen mit Anamnese (Medikamente, Nikotin, Alkohol, Drogen) und **serologischem Screening** (u. a. HIV, Hepatitis B und C, Syphilis, je nach Bank weitere wie HTLV und CMV), hygienische Gewinnung und Kühlkette, **mikrobiologische Kontrollen** und meist **Holder-Pasteurisierung** (62,5 °C für 30 min); einige deutsche Banken geben unter strengen Kontrollen auch Rohmilch ab. Die Eltern werden aufgeklärt und stimmen der Gabe zu. Da Spenderinnenmilch meist reife Milch mit niedrigerem Proteingehalt ist, muss sie angereichert werden.",
+      "keyPoints": [
+        "Indikation: sehr unreife/kranke FG ohne ausreichende eigene MM",
+        "Weniger NEC als mit Formula",
+        "Spenderinnen-Screening (Anamnese, Serologie)",
+        "Mikrobiologie, Holder-Pasteurisierung",
+        "Aufklärung/Einwilligung, Anreicherung nötig"
+      ],
+      "tags": ["Frauenmilchbank", "Spenderinnenmilch"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ern-006",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Holder-Pasteurisierung** (62,5 °C für 30 min) von Frauenmilch trifft zu?",
+      "hints": ["Hitzelabile Proteine und Zellen sind betroffen.", "Welches Enzym für die Fettverdauung geht verloren?"],
+      "answer": "Die Holder-Pasteurisierung inaktiviert vegetative Bakterien und Viren wie **CMV und HIV** zuverlässig, zerstört aber **lebende Zellen** und die **gallensalzstimulierte Lipase** vollständig und reduziert weitere bioaktive Proteine (u. a. Lactoferrin, sIgA teilweise). Dadurch sinkt die Fettresorption etwas. Sporenbildner wie Bacillus cereus werden nicht sicher abgetötet. Makronährstoffe und humane Milcholigosaccharide bleiben weitgehend erhalten.",
+      "keyPoints": [
+        "Inaktiviert CMV/HIV und vegetative Bakterien",
+        "Zerstört Zellen und gallensalzstimulierte Lipase",
+        "Reduziert bioaktive Proteine; Sporen nicht sicher abgetötet"
+      ],
+      "options": [
+        {
+          "text": "Sie inaktiviert CMV, zerstört aber lebende Zellen und die gallensalzstimulierte Lipase",
+          "correct": true
+        },
+        { "text": "Sie tötet auch Sporen von Bacillus cereus zuverlässig ab", "correct": false },
+        { "text": "Sie zerstört die humanen Milcholigosaccharide vollständig", "correct": false },
+        { "text": "Sie erhöht den Proteingehalt der Milch durch Wasserverdunstung deutlich", "correct": false },
+        { "text": "Sie lässt alle immunologischen Proteine vollständig unverändert", "correct": false }
+      ],
+      "tags": ["Frauenmilchbank", "Pasteurisierung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ern-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Warum wird Muttermilch für Frühgeborene **angereichert (fortifiziert)**, wann beginnen Sie damit, und welche Strategien der Fortifizierung kennen Sie?",
+      "hints": [
+        "Welche Nährstoffe reichen in der Muttermilch für ein FG nicht?",
+        "Standard – gezielt (targeted) – adjustiert."
+      ],
+      "answer": "Muttermilch deckt bei Frühgeborenen den hohen Bedarf an **Protein, Calcium, Phosphat, Natrium** und teils Energie nicht, zumal der Proteingehalt der Milch in den ersten Wochen deutlich abnimmt; ohne Anreicherung drohen Wachstumsretardierung und Osteopenie. Fortifier werden nach ESPGHAN 2022 ab einer enteralen Zufuhr von **40–100 ml/kg/d** begonnen (optimaler Zeitpunkt unklar, eine frühe Fortifizierung erscheint sicher; zentrumsabhängig). Strategien: **Standardfortifizierung** (feste Menge nach Herstellerangabe; unterschätzt oft den Proteinbedarf), **gezielte (targeted) Fortifizierung** anhand von Milchanalysen (Human-Milk-Analyzer) und **adjustierte Fortifizierung** anhand des Harnstoffs im Serum als Marker der Proteinversorgung bei gleichzeitiger Wachstumskontrolle. Fortifier gibt es auf Kuhmilch- und auf Frauenmilchbasis; ein Vorteil der frauenmilchbasierten Produkte ist nicht eindeutig belegt. Die Osmolalität der angereicherten Milch steigt, was bei der Zubereitung beachtet werden muss.",
+      "keyPoints": [
+        "Protein, Ca, P, Na in MM für FG unzureichend",
+        "Beginn bei ca. 40–100 ml/kg/d enteral (ESPGHAN 2022)",
+        "Standard-, targeted (Milchanalyse) und adjustierte (Harnstoff) Fortifizierung",
+        "Ziel: Wachstum, Knochenmineralisation"
+      ],
+      "tags": ["Fortifier", "Muttermilch", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-008",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit **1100 g** erhält **150 ml/kg/d** angereicherte Muttermilch. Die Milchanalyse ergibt **1,2 g Protein/100 ml**, der Fortifier liefert in der verwendeten Dosierung zusätzlich **1,1 g Protein/100 ml**. Wie hoch ist die **Proteinzufuhr in g/kg/d**?",
+      "hints": ["Proteingehalt pro 100 ml addieren.", "Dann mit dem Volumen in ml/kg/d multiplizieren."],
+      "answer": "Protein pro 100 ml: 1,2 + 1,1 = 2,3 g/100 ml. Zufuhr: 150 ml/kg/d · 2,3 g / 100 ml = **3,45 g/kg/d**. Das liegt knapp unter dem von der ESPGHAN 2022 empfohlenen Bereich von 3,5–4,0 g/kg/d. Konsequenz: Volumen steigern (wenn toleriert) oder zusätzlich Protein supplementieren (gezielte/adjustierte Fortifizierung) und das Wachstum sowie den Harnstoff verfolgen.",
+      "keyPoints": ["2,3 g Protein/100 ml", "150 · 2,3 / 100 = 3,45 g/kg/d", "Knapp unter Ziel 3,5–4,0 g/kg/d"],
+      "solution": { "value": 3.45, "unit": "g/kg/d", "tolerance": 0.03 },
+      "tags": ["Proteinzufuhr", "Fortifier", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-009",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **1600 g** trinkt **8-mal täglich 30 ml** einer Frühgeborenennahrung mit **80 kcal/100 ml**. Wie hoch ist die **Energiezufuhr in kcal/kg/d**?",
+      "hints": ["Tagesvolumen berechnen.", "Energie pro Tag durch das Gewicht teilen."],
+      "answer": "Tagesvolumen: 8 · 30 ml = 240 ml/d (= 150 ml/kg/d). Energie: 240 ml · 0,8 kcal/ml = 192 kcal/d. Pro kg: 192 / 1,6 = **120 kcal/kg/d**. Das liegt im unteren Bereich der ESPGHAN-Empfehlung 2022 für enteral ernährte Frühgeborene (etwa 115–140 kcal/kg/d); entscheidend ist der Wachstumsverlauf.",
+      "keyPoints": ["240 ml/d", "192 kcal/d", "120 kcal/kg/d"],
+      "solution": { "value": 120, "unit": "kcal/kg/d", "tolerance": 0.03 },
+      "tags": ["Energiezufuhr", "Kalorienberechnung", "Berechnung"],
+      "exam": ["HK"],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie den **enteralen Bedarf** eines wachsenden sehr kleinen Frühgeborenen an Flüssigkeit, Energie und Protein nach den aktuellen ESPGHAN-Empfehlungen und erläutern Sie die Bedeutung des **Protein-Energie-Verhältnisses**.",
+      "hints": ["ESPGHAN-Positionspapier 2022.", "Was passiert bei viel Energie und wenig Protein?"],
+      "answer": "Nach dem ESPGHAN-Positionspapier 2022 benötigen wachsende Frühgeborene enteral etwa **150–180 ml/kg/d** Flüssigkeit, **115–140 kcal/kg/d** Energie und **3,5–4,0 g/kg/d** Protein (die Empfehlungen von 2010 lagen bei 110–135 kcal/kg/d und je nach Gewicht 3,5–4,5 g/kg/d Protein). Das **Protein-Energie-Verhältnis** bestimmt die Zusammensetzung des Zuwachses: Bei hoher Energie- und relativ niedriger Proteinzufuhr wird vermehrt Fett statt fettfreier Masse aufgebaut, was mit ungünstiger Körperzusammensetzung und möglicherweise metabolischen Spätfolgen verbunden ist; ausreichend Protein ist dagegen mit besserem Längen- und Kopfwachstum assoziiert. Die Werte sind Richtgrößen – entscheidend ist die individuelle Steuerung nach Wachstum (Gewicht, Länge, Kopfumfang) und Laborparametern.",
+      "keyPoints": [
+        "Flüssigkeit ca. 150–180 ml/kg/d",
+        "Energie ca. 115–140 kcal/kg/d",
+        "Protein ca. 3,5–4,0 g/kg/d",
+        "Protein-Energie-Verhältnis bestimmt Körperzusammensetzung",
+        "Steuerung nach Wachstum"
+      ],
+      "tags": ["Nährstoffbedarf", "Frühgeborene"],
+      "exam": ["KM"],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie den **enteralen Nahrungsaufbau** bei einem Frühgeborenen der 28 SSW mit 1050 g: Beginn, Steigerung und Abbau der parenteralen Ernährung.",
+      "hints": [
+        "Minimale enterale Ernährung (trophisch).",
+        "Welche Steigerungsgeschwindigkeit hat die SIFT-Studie untersucht?"
+      ],
+      "answer": "Beginn möglichst **innerhalb der ersten 24–48 Lebensstunden** mit Kolostrum/Muttermilch der eigenen Mutter (sonst Spenderinnenmilch) als **trophische Ernährung** in kleinen Mengen (z. B. 10–20 ml/kg/d), meist als Bolus über eine Magensonde alle 2–3 Stunden. Steigerung bei Stabilität um etwa **20–30 ml/kg/d**; die SIFT-Studie zeigte für 30 vs. 18 ml/kg/d keinen Unterschied bei NEC, Sepsis oder Überleben ohne Behinderung. Die parenterale Ernährung wird parallel reduziert und meist bei etwa **120–140 ml/kg/d** enteral beendet; ein zentraler Zugang sollte nicht länger als nötig liegen. Die Fortifizierung beginnt nach ESPGHAN 2022 bei 40–100 ml/kg/d; das Ziel ist ein voller Nahrungsaufbau mit 150–180 ml/kg/d. Standardisierte Ernährungsprotokolle der Station senken nachweislich das NEC-Risiko.",
+      "keyPoints": [
+        "Früher Beginn (24–48 h) mit Kolostrum/Muttermilch",
+        "Trophische Mengen, Bolus über Magensonde",
+        "Steigerung ca. 20–30 ml/kg/d (SIFT)",
+        "PE-Abbau parallel, Ende bei ca. 120–140 ml/kg/d enteral",
+        "Standardisierte Ernährungsprotokolle"
+      ],
+      "tags": ["Nahrungsaufbau", "Frühgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-012",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Wie bewerten Sie die **routinemäßige Messung von Magenresten** vor jeder Mahlzeit beim stabilen Frühgeborenen im Nahrungsaufbau?",
+      "hints": ["Was haben Studien zu Nahrungsaufbau und NEC gezeigt?", "Isolierte Reste ohne weitere Symptome …"],
+      "answer": "Die routinemäßige Messung von Magenresten wird nicht mehr empfohlen (ESPGHAN 2022): Sie führt häufig zu unnötigen Nahrungspausen und einem langsameren Nahrungsaufbau, ohne NEC verlässlich früh zu erkennen. Isolierte, auch grünliche Reste bei sonst unauffälligem Kind sind meist harmlos. Relevant sind dagegen **galliges oder blutiges Erbrechen**, Blut im Stuhl, zunehmende Distension, Druckschmerz und Allgemeinsymptome – dann klinische Untersuchung und weitere Diagnostik.",
+      "keyPoints": [
+        "Keine routinemäßige Restmessung",
+        "Unnötige Pausen verzögern Nahrungsaufbau",
+        "Warnzeichen: galliges/blutiges Erbrechen, Blut im Stuhl, Distension, Allgemeinsymptome"
+      ],
+      "options": [
+        {
+          "text": "Sie wird nicht empfohlen, da sie den Nahrungsaufbau verzögert, ohne NEC verlässlich früher zu erkennen",
+          "correct": true
+        },
+        {
+          "text": "Sie ist der zuverlässigste Frühmarker einer NEC und muss vor jeder Mahlzeit erfolgen",
+          "correct": false
+        },
+        { "text": "Grünliche Magenreste erfordern immer eine Nahrungspause von 48 Stunden", "correct": false },
+        {
+          "text": "Reste über 10 % der Mahlzeit sind ein sicheres Zeichen der Nahrungsunverträglichkeit",
+          "correct": false
+        }
+      ],
+      "tags": ["Magenreste", "Nahrungsaufbau"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-013",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der **25+4 SSW** ist am **10. Lebenstag** bei 90 ml/kg/d angereicherter Muttermilch. Die Pflege berichtet über **zunehmende Magenreste** und ein etwas geblähtes Abdomen; das Kind ist kreislaufstabil, der Stuhlgang zuletzt vor 2 Tagen. Wie unterscheiden Sie eine **Nahrungsunverträglichkeit** von einer beginnenden NEC, und wie gehen Sie vor?",
+      "hints": [
+        "Untersuchen Sie das Kind gezielt – was wären Alarmzeichen?",
+        "Denken Sie auch an Mekoniumobstipation und Medikamente."
+      ],
+      "answer": "Zuerst klinische Untersuchung: Allgemeinzustand, Apnoen/Bradykardien, Temperatur, **Abdomen** (Distension, Darmschlingen, Druckschmerz, Verfärbung der Bauchwand, Darmgeräusche), Art der Reste (gallig/blutig?) und Stuhl (Blut?). Eine **funktionelle Nahrungsunverträglichkeit** bei unreifer Motilität ist häufig; typisch sind wechselnde Reste und Blähung bei gutem Allgemeinzustand, oft mit verzögertem Mekonium-/Stuhlabgang (Mekoniumobstipation) oder unter Opioiden. **Alarmzeichen für NEC** sind gallige oder blutige Reste, Blut im Stuhl, zunehmender Bauchumfang mit Druckschmerz, Bauchwanderythem, Apnoen, Temperaturinstabilität, metabolische Azidose, Thrombozytopenie und CRP-Anstieg. Bei gutem Zustand: Nahrung kurz anpassen (nicht steigern, ggf. kleinere häufigere Portionen), Stuhlentleerung fördern (z. B. Glycerin-Einlauf nach Stationsstandard), engmaschige Reevaluation. Bei Alarmzeichen: Nahrungspause, Magenablaufsonde, Labor (Blutbild, CRP/IL-6, BGA, Laktat, Blutkultur), Abdomen-Röntgen und Darmsonographie, Antibiotika und kinderchirurgisches Konsil.",
+      "keyPoints": [
+        "Gezielte klinische Untersuchung und Beurteilung von Resten/Stuhl",
+        "Funktionelle Unverträglichkeit häufig (Motilität, Mekoniumobstipation, Opioide)",
+        "NEC-Alarmzeichen: gallig/blutig, Blut im Stuhl, Distension, Azidose, Thrombopenie",
+        "Bei gutem AZ Nahrung anpassen, Stuhlentleerung fördern, reevaluieren",
+        "Bei Alarmzeichen: Pause, Labor, Bildgebung, Antibiotika, Chirurgie"
+      ],
+      "tags": ["Nahrungsunverträglichkeit", "NEC", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "ern-014",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **Formulanahrungen** stehen in der Neonatologie zur Verfügung, und für welche Indikationen setzen Sie sie ein?",
+      "hints": [
+        "Unterscheiden Sie nach Reife des Kindes und nach Proteinmodifikation.",
+        "Denken Sie an Kuhmilchproteinallergie und Fettresorptionsstörungen."
+      ],
+      "answer": "**Frühgeborenennahrung**: höhere Energie- (etwa 80 kcal/100 ml), Protein- und Mineralstoffdichte, für Frühgeborene ohne (ausreichend) Muttermilch. **Säuglingsanfangsnahrung** (Pre/1) für reife Neugeborene, wenn nicht gestillt wird; **Post-discharge-Nahrung** mit mittlerer Nährstoffdichte für ehemalige Frühgeborene nach Entlassung. **Hydrolysatnahrungen**: extensiv hydrolysiert bzw. **Aminosäurenahrung** zur Therapie der Kuhmilchproteinallergie; partiell hydrolysierte HA-Nahrungen sind keine Therapie einer Allergie. **Spezialnahrungen**: MCT-reiche Nahrung (z. B. bei Chylothorax oder Fettresorptionsstörung), lactosefreie Nahrung bei Galaktosämie, Andickungsnahrung (AR) bei Regurgitation des Reifgeborenen sowie Spezialnahrungen für Stoffwechselerkrankungen. Die Auswahl richtet sich nach Reife, Grunderkrankung und Verträglichkeit; Muttermilch bleibt erste Wahl.",
+      "keyPoints": [
+        "Frühgeborenennahrung (energie-/proteinreicher)",
+        "Säuglingsanfangsnahrung und Post-discharge-Nahrung",
+        "Extensives Hydrolysat/Aminosäurenahrung bei Kuhmilchproteinallergie",
+        "Spezialnahrungen: MCT, lactosefrei, AR, Stoffwechsel",
+        "Muttermilch erste Wahl"
+      ],
+      "tags": ["Formulanahrung", "Spezialnahrungen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ern-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wann und in welcher Dosierung beginnen Sie bei einem Frühgeborenen mit 1200 g Geburtsgewicht die **Eisensupplementierung**, und welche Besonderheiten beachten Sie?",
+      "hints": ["Die Eisenspeicher werden im 3. Trimenon angelegt.", "Was ändert sich nach mehreren Transfusionen?"],
+      "answer": "Frühgeborene haben geringe Eisenspeicher (Anlage überwiegend im 3. Trimenon) und einen hohen wachstumsbedingten Bedarf. Nach ESPGHAN 2022 erhalten Frühgeborene mit sehr niedrigem Geburtsgewicht **2–3 mg/kg/d enteral** Eisen, Beginn ab einem Alter von **etwa 2 Wochen** (ältere Empfehlung von 2010: 2–6 Wochen), fortgeführt bis etwa **6–12 Monate**; Kinder mit 2000–2500 g erhalten etwa 1–2 mg/kg/d. Bei Kindern mit **mehreren Erythrozytentransfusionen** ist wegen der Eisenüberladungsgefahr eine Steuerung nach wiederholten **Ferritin**-Werten sinnvoll (bei niedrigem Ferritin vorübergehend höhere Dosis, bei Ferritin > 300 µg/l pausieren); eine dauerhafte Zufuhr > 3 mg/kg/d ist meist zu vermeiden. Unter Erythropoetin ist der Bedarf höher (bis 6 mg/kg/d). Eisen aus Frühgeborenennahrung oder Fortifier wird in die Gesamtzufuhr eingerechnet. Ein Eisenmangel ist mit ungünstiger neurologischer Entwicklung assoziiert, eine Überdosierung kann oxidativen Stress fördern.",
+      "keyPoints": [
+        "Geringe Speicher, hoher Bedarf",
+        "2–3 mg/kg/d ab ca. 2 Wochen (VLBW, ESPGHAN 2022)",
+        "Fortführung bis ca. 6–12 Monate",
+        "Nach Transfusionen Ferritin-gesteuert; EPO erhöht Bedarf",
+        "Eisen aus Nahrung/Fortifier einrechnen"
+      ],
+      "tags": ["Eisen", "Supplementierung"],
+      "exam": ["KM", "HK"],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie beugen Sie durch die enterale Ernährung einer **metabolischen Knochenerkrankung (Osteopenie)** des Frühgeborenen vor, und welche Rolle spielt **Vitamin D**?",
+      "hints": ["Welche Mineralien fehlen in unangereicherter Muttermilch?", "Wie wird die Versorgung überwacht?"],
+      "answer": "Hauptursache der Frühgeborenenosteopenie ist eine **unzureichende Calcium- und Phosphatzufuhr** nach Wegfall der hohen plazentaren Mineralzufuhr im 3. Trimenon; weitere Risikofaktoren sind lange parenterale Ernährung, Immobilisation, Diuretika (Furosemid) und Steroide. Prävention: Muttermilch **fortifizieren** bzw. Frühgeborenennahrung verwenden, bei niedrigem Phosphat zusätzlich **Phosphat supplementieren**, auf ein günstiges Ca:P-Verhältnis achten, Furosemid möglichst vermeiden. **Vitamin D**: Frühgeborene erhalten nach ESPGHAN etwa 800–1000 IE/d (Empfehlung 2010) bzw. 400–700 IE/kg/d bis maximal 1000 IE/d (2022); lokale Standards variieren. Monitoring: Serum-Phosphat und **alkalische Phosphatase** (z. B. alle 2 Wochen), ggf. Parathormon und Urin-Ca/P; Röntgenzeichen treten erst spät auf. Vitamin D allein ersetzt nicht die Mineralzufuhr.",
+      "keyPoints": [
+        "Ursache: zu geringe Ca/P-Zufuhr nach dem 3. Trimenon",
+        "Fortifizierung, ggf. Phosphatsupplement",
+        "Risikofaktoren: lange PE, Diuretika, Steroide, Immobilität",
+        "Vitamin D nach Standard (ca. 400–1000 IE/d)",
+        "Monitoring: Phosphat, AP, ggf. PTH, Urin-Ca/P"
+      ],
+      "tags": ["Osteopenie", "Vitamin D", "Knochenstoffwechsel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.5 – Untersuchungen zur Kontrolle der Ernährung",
+          "terms": ["Osteopenie", "Phosphat"]
+        }
+      ],
+      "source": "ESPGHAN Committee on Nutrition: Enteral Nutrition in Preterm Infants (2022), Position Paper"
+    },
+    {
+      "id": "ern-017",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **Wachstumskurven** verwenden Sie für Frühgeborene, und welche **Wachstumsraten** streben Sie für Gewicht, Länge und Kopfumfang an?",
+      "hints": ["Es gibt internationale und deutsche Referenzen.", "Gewichtszunahme wird in g/kg/d angegeben."],
+      "answer": "Gebräuchlich sind die **Fenton-Kurven** (2013, ab 22 SSW bis 50 Wochen postmenstruell), die **INTERGROWTH-21st**-Standards sowie für das Geburtsgewicht die deutschen **Perzentilen nach Voigt**; nach der Entlassung werden WHO-Kurven bzw. deutsche Referenzperzentilen mit **korrigiertem Alter** (Korrektur in der Regel bis zum Alter von etwa 2 Jahren) genutzt. Zielwerte für das Wachstum im Krankenhaus: **Gewicht etwa 15–20 g/kg/d** (ESPGHAN 2022 legt 17–20 g/kg/d zugrunde), **Länge etwa 1 cm/Woche**, **Kopfumfang etwa 0,5–1 cm/Woche**, wobei die eigene Perzentile möglichst gehalten werden sollte. Messungen: Gewicht täglich bzw. mehrmals pro Woche, Länge und Kopfumfang wöchentlich mit geeigneter Technik (Messbrett/Maßband). Wichtig ist der Verlauf der z-Scores, nicht ein einzelner Messpunkt.",
+      "keyPoints": [
+        "Fenton 2013, INTERGROWTH-21st, Voigt-Perzentilen",
+        "Korrigiertes Alter bis ca. 2 Jahre",
+        "Gewicht ca. 15–20 g/kg/d",
+        "Länge ca. 1 cm/Woche, KU ca. 0,5–1 cm/Woche",
+        "Verlauf der z-Scores beurteilen"
+      ],
+      "tags": ["Wachstumskurven", "Perzentilen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.1 – SGA (IUGR)",
+          "terms": ["SGA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 21.2 – Perzentilen-Kurven",
+          "terms": ["Perzentilen"]
+        }
+      ]
+    },
+    {
+      "id": "ern-018",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes wiegt am Montag **1200 g** und eine Woche später **1410 g**. Berechnen Sie die durchschnittliche **Gewichtszunahme in g/kg/d** (Bezugsgewicht = mittleres Gewicht des Zeitraums).",
+      "hints": ["Zunahme pro Tag berechnen.", "Mittleres Gewicht = (1200 + 1410) / 2"],
+      "answer": "Zunahme: 1410 − 1200 = 210 g in 7 Tagen = 30 g/d. Mittleres Gewicht: (1,200 + 1,410) / 2 = 1,305 kg. Gewichtszunahme: 30 / 1,305 = **23 g/kg/d**. Die exponentielle Methode nach Patel (1000 · ln(1410/1200) / 7) ergibt ebenfalls ≈ 23 g/kg/d. Das liegt über dem üblichen Zielbereich von 15–20 g/kg/d; bei so hoher Zunahme an Ödeme bzw. Flüssigkeitsretention denken und Länge sowie Kopfumfang mitbeurteilen.",
+      "keyPoints": ["30 g/d Zunahme", "Bezug auf mittleres Gewicht 1,305 kg", "≈ 23 g/kg/d"],
+      "solution": { "value": 23, "unit": "g/kg/d", "tolerance": 0.03 },
+      "tags": ["Wachstum", "Berechnung"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "ern-019",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes der **26 SSW** fällt bei 36 Wochen postmenstruell von der 40. auf die 5. Gewichtsperzentile. Was versteht man unter **postnataler (extrauteriner) Wachstumsrestriktion**, welche Ursachen hat sie und was tun Sie?",
+      "hints": [
+        "Querschnitts- vs. Längsschnittdefinition.",
+        "Gehen Sie die Bilanz systematisch durch: Zufuhr, Verluste, Verbrauch."
+      ],
+      "answer": "Postnatale Wachstumsrestriktion wird querschnittlich (z. B. Gewicht < 10. Perzentile bei 36 Wochen bzw. Entlassung) oder – aussagekräftiger – **längsschnittlich als Abfall des z-Scores** (z. B. um mehr als 1 Standardabweichung) definiert. Ursachen: **kumulatives Protein- und Energiedefizit** (verzögerter Nahrungsaufbau, häufige Nahrungspausen, Flüssigkeitsrestriktion, unzureichende Fortifizierung, niedriger Proteingehalt der Muttermilch), erhöhter Verbrauch (BPD, Sepsis, Herzfehler), Verluste (Stoma, Malabsorption), Hyponatriämie, Steroide und Diuretika. Vorgehen: Ernährungsprotokoll prüfen und **tatsächliche Zufuhr** berechnen, Natrium, Phosphat, AP und Harnstoff kontrollieren, Fortifizierung optimieren (gezielt/adjustiert), Energie- und Proteindichte erhöhen, Natrium substituieren, Grunderkrankungen behandeln, Länge und Kopfumfang mitbeurteilen. Postnatale Wachstumsrestriktion, insbesondere des Kopfumfangs, ist mit ungünstiger neurologischer Entwicklung assoziiert; ein übermäßig schnelles Aufholen nur des Gewichts ist dagegen nicht das Ziel.",
+      "keyPoints": [
+        "Definition: < 10. Perzentile oder z-Score-Abfall > 1 SD",
+        "Kumulatives Protein-/Energiedefizit als Hauptursache",
+        "Erhöhter Bedarf, Verluste, Hyponatriämie, Medikamente",
+        "Zufuhr berechnen, Labor (Na, P, AP, Harnstoff), Fortifizierung optimieren",
+        "Assoziation mit schlechterer neurologischer Entwicklung"
+      ],
+      "tags": ["Wachstumsrestriktion", "Frühgeborene", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.1 – SGA (IUGR)",
+          "terms": ["SGA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 21.2 – Perzentilen-Kurven",
+          "terms": ["Perzentilen"]
+        }
+      ]
+    },
+    {
+      "id": "ern-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie planen Sie die **Ernährung nach der Entlassung** eines ehemaligen Frühgeborenen der 28 SSW, das mit 37 Wochen postmenstruell und Gewicht an der 8. Perzentile nach Hause geht?",
+      "hints": ["Unterscheiden Sie gestillte und formulaernährte Kinder.", "Welche Supplemente laufen weiter?"],
+      "answer": "Ziel ist ein gutes Aufholwachstum mit Erhalt des Stillens. Gestillte bzw. muttermilchernährte Kinder mit unzureichendem Wachstum bei Entlassung können vorübergehend **angereicherte Muttermilch** (teilweise Fortifizierung oder einzelne Mahlzeiten mit Frühgeborenen- bzw. Post-discharge-Nahrung) erhalten, ohne das Stillen zu gefährden. Nicht gestillte Kinder mit Wachstumsrückstand erhalten eine **Post-discharge-Nahrung** (ESPGHAN-Kommentar 2006: bis mindestens 40 Wochen, ggf. bis etwa 52 Wochen postmenstruell; das ESPGHAN-Positionspapier 2025 zur Ernährung nach Entlassung betont die individuelle Steuerung nach engmaschiger Wachstumskontrolle). **Eisen** (bis etwa 6–12 Monate) und **Vitamin D** nach Standard weiterführen. Regelmäßige Wachstumskontrollen mit korrigiertem Alter (Gewicht, Länge, Kopfumfang) beim Kinderarzt bzw. in der Nachsorge, Kontrolle von Phosphat/AP bei Osteopenierisiko und Anpassung, wenn das Kind zu schnell oder zu langsam wächst. Der Beginn der Beikost richtet sich nach Entwicklungsstand und korrigiertem Alter (Empfehlungen für Frühgeborene uneinheitlich, Vorgehen zentrumsabhängig).",
+      "keyPoints": [
+        "Stillen erhalten, ggf. teilweise Anreicherung",
+        "Formula: Post-discharge-Nahrung bis 40–52 Wochen PMA",
+        "Eisen und Vitamin D weiter",
+        "Wachstumskontrollen mit korrigiertem Alter",
+        "Beikost nach Entwicklungsstand"
+      ],
+      "tags": ["Postdischarge-Ernährung", "Entlassung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "ern-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit 34 Wochen postmenstruell hat häufiges **Spucken**; die Pflege vermutet, dass der **Reflux die Apnoen** verursacht, und bittet um einen **Protonenpumpenhemmer**. Wie reagieren Sie?",
+      "hints": [
+        "Ist gastroösophagealer Reflux beim Frühgeborenen pathologisch?",
+        "Welche Risiken haben Säureblocker bei Frühgeborenen?"
+      ],
+      "answer": "Gastroösophagealer Reflux ist beim Frühgeborenen **physiologisch** (transiente Relaxationen des unteren Ösophagussphinkters, kurzer Ösophagus, Flüssigkeitsernährung, Liegen). Ein **kausaler Zusammenhang zwischen Reflux und Apnoen/Bradykardien ist nicht belegt**; in Studien mit gleichzeitiger Impedanz- und Atmungsregistrierung besteht meist kein zeitlicher Zusammenhang. Säureblocker (PPI, H2-Blocker) reduzieren beim Frühgeborenen weder Spucken noch Apnoen wirksam und sind mit **NEC, Late-onset-Sepsis**, Pneumonien und veränderter Mikrobiota assoziiert; sie werden daher nicht empfohlen. Konservativ: Mahlzeitengröße prüfen bzw. Überfütterung vermeiden, kleinere und häufigere Mahlzeiten oder längere Sondierdauer, Lagerung nach der Mahlzeit unter Monitorüberwachung (z. B. Bauch-/Linksseitenlage), Apnoen differenzialdiagnostisch abklären (Unreife, Infektion, Anämie). Eltern auf die Rückenlage zum Schlafen zu Hause hinweisen.",
+      "keyPoints": [
+        "GÖR beim FG physiologisch",
+        "Kein belegter Kausalzusammenhang mit Apnoen",
+        "PPI/H2-Blocker unwirksam, Risiko NEC und Sepsis",
+        "Konservative Maßnahmen, Lagerung nur unter Monitoring",
+        "Rückenlage zum Schlafen zu Hause"
+      ],
+      "tags": ["Gastroösophagealer Reflux", "Apnoe"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ],
+      "source": "NASPGHAN/ESPGHAN Pediatric Gastroesophageal Reflux Clinical Practice Guidelines (2018)"
+    },
+    {
+      "id": "ern-022",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Maßnahme ist bei einem **reifen, gut gedeihenden, voll gestillten Säugling** mit 6 Wochen und häufigem, schmerzlosem Spucken (**„glücklicher Spucker“**) angemessen?",
+      "hints": ["Gedeiht das Kind? Gibt es Warnzeichen?", "Was braucht die Familie vor allem?"],
+      "answer": "Beim gedeihenden Säugling ohne Warnzeichen handelt es sich um eine **physiologische Regurgitation**; angemessen sind **Aufklärung und Beruhigung der Eltern**, Weiterstillen und Beobachtung (Spontanbesserung meist bis zum Ende des 1. Lebensjahres). Säureblocker sind nicht indiziert. Warnzeichen, die eine Abklärung erfordern, sind u. a. galliges oder blutiges Erbrechen, Gedeihstörung, schwallartiges Erbrechen (Pylorusstenose), Fieber, Lethargie oder Beginn nach dem 6. Lebensmonat.",
+      "keyPoints": [
+        "Physiologische Regurgitation",
+        "Beratung, Weiterstillen, Beobachtung",
+        "Keine Säureblocker",
+        "Warnzeichen kennen (gallig, blutig, Gedeihstörung, schwallartig)"
+      ],
+      "options": [
+        { "text": "Aufklärung und Beruhigung der Eltern, Weiterstillen, Beobachtung", "correct": true },
+        { "text": "Empirische Therapie mit einem Protonenpumpenhemmer für 4 Wochen", "correct": false },
+        { "text": "Abstillen und Umstellung auf eine Aminosäurenahrung", "correct": false },
+        { "text": "24-h-pH-Impedanzmessung vor jeder weiteren Maßnahme", "correct": false },
+        { "text": "Oberkörperhochlagerung mit Bauchlage zum Schlafen zu Hause", "correct": false }
+      ],
+      "tags": ["Gastroösophagealer Reflux", "Elternberatung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ],
+      "source": "NASPGHAN/ESPGHAN Pediatric Gastroesophageal Reflux Clinical Practice Guidelines (2018)"
+    },
+    {
+      "id": "ern-023",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes mit **BPD** wiegt **2,0 kg** und soll **140 kcal/kg/d** erhalten. Die Nahrung enthält **80 kcal/100 ml**. Welches **Volumen in ml/kg/d** ist dafür nötig?",
+      "hints": ["Energiebedarf geteilt durch Energiedichte.", "80 kcal/100 ml = 0,8 kcal/ml"],
+      "answer": "Benötigtes Volumen: 140 kcal/kg/d / 0,8 kcal/ml = **175 ml/kg/d** (= 350 ml/d). Bei BPD ist häufig eine Flüssigkeitsbegrenzung (oft etwa 140–160 ml/kg/d) gewünscht; dann muss die **Energiedichte erhöht** werden, z. B. durch stärkere Anreicherung bzw. konzentriertere Nahrung (Osmolalität beachten), mit ausreichender Proteinzufuhr, statt nur Kohlenhydrate oder Fett zuzusetzen.",
+      "keyPoints": [
+        "140 / 0,8 = 175 ml/kg/d",
+        "Konflikt mit Flüssigkeitsrestriktion bei BPD",
+        "Energiedichte erhöhen, Protein beachten"
+      ],
+      "solution": { "value": 175, "unit": "ml/kg/d", "tolerance": 0.03 },
+      "tags": ["BPD", "Energiezufuhr", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "ern-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Besonderheiten hat die **Ernährung von Frühgeborenen mit bronchopulmonaler Dysplasie (BPD)**?",
+      "hints": ["Bedarf vs. Flüssigkeitsrestriktion.", "Denken Sie auch an Medikamente und den Knochen."],
+      "answer": "Kinder mit BPD haben durch **erhöhte Atemarbeit einen höheren Energiebedarf** (häufig 130–150 kcal/kg/d oder mehr) und gleichzeitig oft eine **Flüssigkeitsbegrenzung** zur Verbesserung der Lungenmechanik. Daher werden **energie- und proteindichte** Nahrungen eingesetzt (stärkere Fortifizierung, konzentrierte Nahrung), wobei ausreichend Protein für den Aufbau fettfreier Masse und Lungenwachstum gegeben wird; eine reine Kohlenhydratanreicherung erhöht die CO2-Produktion. **Diuretika** verursachen Elektrolytverluste (Natrium, Kalium, Chlorid; Furosemid zusätzlich Hyperkalziurie und Nephrokalzinose), **Steroide** hemmen Wachstum und Knochenaufbau – daher engmaschige Kontrolle von Elektrolyten, Phosphat und AP. Häufig bestehen Trink- und Schluckprobleme (lange Beatmung, Tachypnoe), sodass Sondenergänzung und logopädische Unterstützung nötig sind; Gedeihstörung verschlechtert die Lungenheilung. Regelmäßige Wachstumskontrollen und interdisziplinäre Ernährungsberatung.",
+      "keyPoints": [
+        "Erhöhter Energiebedarf bei Flüssigkeitsrestriktion",
+        "Energie- und proteindichte Nahrung",
+        "Diuretika: Elektrolytverluste, Hyperkalziurie; Steroide: Wachstum/Knochen",
+        "Trink-/Schluckprobleme, Sondenergänzung",
+        "Wachstum fördert Lungenheilung"
+      ],
+      "tags": ["BPD", "Ernährung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "ern-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ab wann und wie gestalten Sie den Übergang von der **Sondenernährung zur oralen Ernährung** (Brust/Flasche) bei einem Frühgeborenen?",
+      "hints": ["Die Koordination von Saugen, Schlucken und Atmen reift.", "Fester Zeitplan oder Orientierung am Kind?"],
+      "answer": "Die Koordination von **Saugen, Schlucken und Atmen** reift meist zwischen etwa **32 und 34 Wochen postmenstruell**; nicht-nutritives Saugen (z. B. an der leergepumpten Brust oder am Schnuller) wird schon früher gefördert. Der Übergang erfolgt **reizorientiert (cue-based)**: Das Kind wird angelegt bzw. trinkt, wenn es Bereitschaftszeichen (Wachheit, Suchen, Saugen) zeigt, und die Mahlzeit wird bei Stress- oder Erschöpfungszeichen (Sättigungsabfälle, Bradykardien, Husten, Abwenden) beendet; der Rest wird sondiert. Stillen wird bevorzugt, da Frühgeborene an der Brust oft stabiler sind als an der Flasche; Brusternährung wird durch Stillberatung, Wiegen vor/nach dem Stillen und angepasste Sauger unterstützt. Bei anhaltenden Schwierigkeiten (z. B. nach langer Beatmung, BPD, neurologischen Problemen) Logopädie bzw. Schlucktherapie einbeziehen. Die volle orale Ernährung ist häufig ein entscheidendes Entlassungskriterium.",
+      "keyPoints": [
+        "Saug-Schluck-Atem-Koordination ca. 32–34 Wochen PMA",
+        "Nicht-nutritives Saugen früh fördern",
+        "Cue-based Feeding mit Abbruch bei Stresszeichen",
+        "Stillen bevorzugen, Stillberatung",
+        "Logopädie bei Problemen"
+      ],
+      "tags": ["Orale Ernährung", "Stillen", "Entwicklungsförderung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "ern-026",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein **4 Wochen alter, voll gestillter, gut gedeihender** Säugling hat seit einigen Tagen **schleimig-blutige Schlieren im Stuhl**, ist sonst unauffällig. An welche Diagnose denken Sie, welche Differenzialdiagnosen schließen Sie aus und wie gehen Sie vor?",
+      "hints": [
+        "Ein Allergen kann über die Muttermilch übertragen werden.",
+        "Denken Sie an harmlose und an gefährliche Differenzialdiagnosen."
+      ],
+      "answer": "Am wahrscheinlichsten ist eine **nahrungsproteininduzierte (allergische) Proktokolitis**, meist durch Kuhmilchprotein, das über die Muttermilch übertragen wird; typisch sind blutige, schleimige Stühle bei **gutem Allgemeinzustand und Gedeihen**. Differenzialdiagnosen: **Analfissur**, verschlucktes mütterliches Blut (Rhagaden), **Vitamin-K-Mangelblutung** (Prophylaxe?), infektiöse Enterokolitis, NEC (selten beim Reifgeborenen, dann meist bei Herzfehler/Asphyxie), Volvulus, Invagination, Gerinnungsstörung. Vorgehen: Anamnese inkl. Vitamin-K-Gaben, Inspektion des Anus, klinische Untersuchung; bei gutem Zustand **Weiterstillen mit kuhmilchproteinfreier Ernährung der Mutter** (ggf. ergänzt um Calcium und Jod nach Beratung) für etwa 2–4 Wochen, Besserung meist innerhalb weniger Tage bis 2 Wochen; bei nicht gestillten Kindern extensiv hydrolysierte Nahrung. Die Prognose ist gut, die meisten tolerieren Kuhmilchprotein bis zum Ende des 1. Lebensjahres; Reexposition zur Diagnosesicherung nach Plan.",
+      "keyPoints": [
+        "Allergische Proktokolitis (Kuhmilchprotein über MM)",
+        "Guter AZ, Gedeihen als Hinweis",
+        "DD: Fissur, mütterliches Blut, Vitamin-K-Mangel, Infektion, NEC, Volvulus",
+        "Weiterstillen, mütterliche Kuhmilchkarenz; sonst extensives Hydrolysat",
+        "Gute Prognose, Toleranz meist bis 1 Jahr"
+      ],
+      "tags": ["Kuhmilchproteinallergie", "Proktokolitis", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    }
+  ]
+}

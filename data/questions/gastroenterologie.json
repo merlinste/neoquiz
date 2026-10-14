@@ -1,0 +1,962 @@
+{
+  "area": "gastroenterologie",
+  "questions": [
+    {
+      "id": "gastro-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erklären Sie die **Pathophysiologie** der nekrotisierenden Enterokolitis (NEC) und nennen Sie die wichtigsten **Risikofaktoren**.",
+      "hints": [
+        "Es ist ein multifaktorielles Geschehen an einer unreifen Darmbarriere.",
+        "Denken Sie an Mikrobiom, Ernährung und Durchblutung."
+      ],
+      "answer": "Die NEC ist eine **multifaktorielle, entzündlich-nekrotisierende Erkrankung** des unreifen Darms: Eine unreife Mukosabarriere und Immunantwort (u. a. überschießende TLR4-vermittelte Entzündungsreaktion), eine **gestörte Mikrobiota** (Dysbiose) und enterale Substrate führen zu Entzündung, Barriereverlust, bakterieller Invasion und **Nekrose** bis zur Perforation; eine gestörte mesenteriale Perfusion trägt dazu bei. Wichtigster Risikofaktor ist die **Unreife** (je unreifer, desto später tritt sie auf: bei sehr unreifen Frühgeborenen typischerweise in der 2.–6. Lebenswoche, bei Reifgeborenen meist in der ersten Lebenswoche). Weitere Risikofaktoren: **Formulanahrung statt Muttermilch**, intrauterine Wachstumsrestriktion mit pathologischem Doppler (enddiastolischer Null-/Rückfluss), prolongierte empirische Antibiotikatherapie, **H2-Blocker/PPI**, hämodynamisch relevanter PDA, Polyglobulie, Asphyxie; bei reifen Neugeborenen v. a. **ductusabhängige Herzfehler**, Asphyxie und Polyglobulie. Ein Zusammenhang mit Erythrozytentransfusionen wurde diskutiert, ist aber nicht gesichert.",
+      "keyPoints": [
+        "Multifaktoriell: unreife Barriere/Immunität, Dysbiose, enterale Substrate, Perfusion",
+        "Unreife als Hauptrisiko, Auftreten meist 2.–6. Lebenswoche",
+        "Formula statt Muttermilch, IUGR mit pathologischem Doppler",
+        "Antibiotika prolongiert, H2-Blocker/PPI",
+        "Reife NG: Herzfehler, Asphyxie, Polyglobulie"
+      ],
+      "tags": ["NEC", "Pathophysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **modifizierten Bell-Stadien** der NEC (nach Walsh und Kliegman).",
+      "hints": [
+        "Stadium I = Verdacht, II = gesichert, III = fortgeschritten.",
+        "Welcher radiologische Befund unterscheidet I von II, welcher IIIA von IIIB?"
+      ],
+      "answer": "**Stadium I (Verdacht)**: unspezifische systemische Zeichen (Temperaturinstabilität, Apnoen, Bradykardien, Lethargie) und abdominelle Zeichen (Magenreste, Distension, Erbrechen); **IA** ohne, **IB** mit makroskopisch blutigem Stuhl; Röntgen unauffällig oder Dilatation/milder Ileus. **Stadium II (gesicherte NEC)**: zusätzlich **Pneumatosis intestinalis**; **IIA** leicht krank (fehlende Darmgeräusche, ggf. Druckschmerz), **IIB** mäßig krank mit metabolischer Azidose, Thrombozytopenie, ggf. **Portalvenengas** und Aszites, beginnender Bauchwandphlegmone. **Stadium III (fortgeschritten)**: schwer krank mit Hypotension, Schock, DIC, Peritonitis und respiratorischer/metabolischer Azidose; **IIIA** bei intaktem Darm, **IIIB** mit **Perforation (Pneumoperitoneum)**. Die Einteilung steuert Dauer von Nahrungspause und Antibiotikatherapie sowie die Indikation zur Operation; ihre Schwächen sind die geringe Spezifität von Stadium I und die Abgrenzung zur fokalen intestinalen Perforation.",
+      "keyPoints": [
+        "I: Verdacht, unspezifische Zeichen (IB: blutiger Stuhl)",
+        "II: Pneumatosis intestinalis (IIB: Azidose, Thrombopenie, Portalvenengas)",
+        "III: Schock, DIC, Peritonitis",
+        "IIIA intakter Darm, IIIB Perforation/Pneumoperitoneum"
+      ],
+      "tags": ["NEC", "Bell-Stadien"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden zu einem Frühgeborenen der **27+3 SSW** am **16. Lebenstag** gerufen (aktuell 1050 g, 120 ml/kg/d angereicherte Muttermilch). Das Kind hat **vermehrt Apnoen**, ein **gespanntes, geblähtes Abdomen**, gallige Magenreste und **blutige Stühle**. Die Röntgenaufnahme zeigt eine **Pneumatosis intestinalis**, kein freies Gas. Welches Stadium liegt vor und was veranlassen Sie?",
+      "hints": [
+        "Pneumatosis ohne Perforation …",
+        "Denken Sie an Ernährung, Dekompression, Antibiotika, Monitoring und Chirurgie."
+      ],
+      "answer": "Es liegt eine **gesicherte NEC (Bell-Stadium II)** vor; die genaue Zuordnung zu IIA/IIB hängt von Azidose, Thrombozyten und Portalvenengas ab. Sofortmaßnahmen: **Nahrungspause** und parenterale Ernährung, **offene Magenablaufsonde** (Dekompression), ausreichende Flüssigkeit und Kreislaufstabilisierung, Analgesie (die Abdominalschmerzen sind erheblich). Diagnostik: Blutbild mit Thrombozyten, CRP/IL-6, Blutgasanalyse mit Laktat, Elektrolyte, Gerinnung, **Blutkultur**, dann **kalkulierte intravenöse Antibiotikatherapie** mit Abdeckung von gramnegativen Erregern und Anaerobiern nach lokalem Standard und Resistenzlage. Engmaschige Reevaluation (klinisch, Labor, **Röntgen alle 6–12 h** in der Akutphase und **Darmsonographie**), frühzeitige Information der **Kinderchirurgie**; Atemunterstützung bzw. Intubation bei zunehmenden Apnoen. Eltern informieren über Ernst der Lage und möglichen OP-Bedarf.",
+      "keyPoints": [
+        "Bell II (gesicherte NEC)",
+        "Nahrungspause, Magenablauf, PE, Analgesie",
+        "Labor inkl. Blutkultur, Antibiotika (gramnegativ + Anaerobier)",
+        "Engmaschige Röntgen-/Sonokontrollen",
+        "Kinderchirurgie früh einbinden, Eltern informieren"
+      ],
+      "tags": ["NEC", "Fallbeispiel", "Management"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-004",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welcher radiologische Befund definiert nach Bell eine **NEC im Stadium IIIB**?",
+      "hints": ["Stadium IIIB bedeutet „fortgeschritten mit …“", "Freie Luft."],
+      "answer": "Stadium IIIB ist durch eine **Darmperforation mit Pneumoperitoneum** gekennzeichnet (freie Luft, auf der Rückenlage-Aufnahme z. B. als „Football-Sign“ oder auf der Linksseitenlage-Aufnahme über der Leber sichtbar). Pneumatosis intestinalis definiert Stadium II, Portalvenengas spricht für mindestens IIB. Ein Pneumoperitoneum ist die einzige absolute Operationsindikation bei NEC.",
+      "keyPoints": [
+        "Pneumoperitoneum = Perforation = IIIB",
+        "Pneumatosis = Stadium II, Portalvenengas ≥ IIB",
+        "Absolute OP-Indikation"
+      ],
+      "options": [
+        { "text": "Pneumoperitoneum", "correct": true },
+        { "text": "Pneumatosis intestinalis", "correct": false },
+        { "text": "Portalvenengas", "correct": false },
+        { "text": "Distendierte Darmschlingen ohne Pneumatosis", "correct": false },
+        { "text": "Fehlende Luft im Rektum", "correct": false }
+      ],
+      "tags": ["NEC", "Bell-Stadien", "Röntgen"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie lange und womit behandeln Sie eine **konservativ geführte NEC**, und wann beginnen Sie wieder mit der Ernährung?",
+      "hints": ["Die Dauer orientiert sich am Bell-Stadium.", "Gibt es Evidenz für sehr lange Nahrungspausen?"],
+      "answer": "Behandelt wird mit **Nahrungspause, Magendekompression, parenteraler Ernährung** und **intravenösen Antibiotika** mit Wirkung gegen gramnegative Erreger und Anaerobier (z. B. eine Kombination aus Ampicillin, Aminoglykosid und Metronidazol oder ein Breitspektrum-Betalaktam nach lokalem Standard und Resistenzlage; Vancomycin bei Verdacht auf Staphylokokken/zentralen Katheter). Typische Dauer: **Bell I** nach 48–72 h und negativer Blutkultur meist beenden, **Bell II etwa 7–10 Tage**, **Bell III etwa 10–14 Tage**. Der Nahrungsaufbau beginnt nach klinischer, laborchemischer und radiologischer Besserung, möglichst mit **Muttermilch** und langsamer Steigerung; neuere Beobachtungsdaten sprechen dafür, dass ein früherer Wiederbeginn (z. B. nach 3–5 Tagen bei Stadium II und stabilem Verlauf) nicht schadet und Katheterliegezeiten verkürzt – das Vorgehen ist zentrumsabhängig. Analgesie, Infektionsprävention am zentralen Zugang und Wachstumsmonitoring gehören dazu.",
+      "keyPoints": [
+        "Nahrungspause, Magenablauf, PE, i.v. Antibiotika (gramnegativ + Anaerobier)",
+        "Bell I 48–72 h, Bell II ca. 7–10 d, Bell III ca. 10–14 d",
+        "Wiederbeginn nach Besserung mit Muttermilch, langsam",
+        "Früherer Nahrungsbeginn möglich, zentrumsabhängig"
+      ],
+      "tags": ["NEC", "Antibiotika", "Nahrungsaufbau"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-006",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Nennen Sie die **Operationsindikationen** bei NEC und diskutieren Sie **primäre Peritonealdrainage versus Laparotomie** bei extrem kleinen Frühgeborenen.",
+      "hints": [
+        "Es gibt nur eine absolute Indikation.",
+        "Zwei große randomisierte Studien haben Drainage und Laparotomie verglichen."
+      ],
+      "answer": "**Absolute Indikation** ist die **Darmperforation (Pneumoperitoneum)**. **Relative Indikationen**: klinische Verschlechterung trotz maximaler konservativer Therapie (zunehmende Azidose, Schock, Thrombozytensturz), persistierend fixierte, distendierte Darmschlinge im Verlauf, Bauchwanderythem/-ödem, tastbare Resistenz, positiver Aszitespunktion (bräunlich, Bakterien), ggf. Portalvenengas im Kontext der Verschlechterung. Bei Kindern < 1000 g kann als Erstmaßnahme eine **Peritonealdrainage** angelegt werden – als Stabilisierung oder definitive Therapie. Frühere kleinere randomisierte Studien (Moss 2006; NET-Studie, Rees 2008) fanden keinen Überlebensunterschied zwischen Drainage und Laparotomie; die große NICHD-Studie (NEST, Blakely 2021, Kinder ≤ 1000 g) zeigte für den Endpunkt Tod oder neurologische Beeinträchtigung insgesamt keinen signifikanten Unterschied, bei präoperativer Diagnose NEC aber in der bayesianischen Auswertung einen wahrscheinlichen Vorteil der **initialen Laparotomie**, während bei fokaler intestinaler Perforation kein Unterschied bestand. Das Vorgehen ist daher individuell und zentrumsabhängig, in enger Absprache mit der Kinderchirurgie. Bei der Laparotomie wird darmerhaltend operiert (Resektion nekrotischer Anteile, meist Enterostomie; bei ausgedehnter NEC ggf. „Second Look“).",
+      "keyPoints": [
+        "Absolut: Perforation/Pneumoperitoneum",
+        "Relativ: Verschlechterung trotz Therapie, fixierte Schlinge, Bauchwanderythem, Resistenz",
+        "Drainage als Option bei < 1000 g",
+        "Studien: insgesamt kein klarer Unterschied; bei NEC eher Vorteil Laparotomie",
+        "Darmerhaltend operieren, Enterostomie"
+      ],
+      "tags": ["NEC", "Chirurgie", "Peritonealdrainage"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Bedeutung hat die **Darmsonographie** in der Diagnostik und Verlaufsbeurteilung der NEC, und welche Befunde achten Sie?",
+      "hints": [
+        "Die Sonographie zeigt Dinge, die das Röntgen nicht zeigt.",
+        "Denken Sie an Wand, Perfusion und freie Flüssigkeit."
+      ],
+      "answer": "Die Darmsonographie ergänzt das Röntgen und ist strahlenfrei am Bett wiederholbar; sie zeigt Veränderungen oft **früher** und liefert Informationen zur **Darmwandperfusion**, die das Röntgen nicht liefert. Achten Sie auf **Darmwandverdickung** oder – als Hinweis auf Nekrose – **Wandverdünnung**, aufgehobene Wandschichtung, **intramurale Luft** (echoreiche Punkte, Pneumatosis), **Portalvenengas** (echoreiche Reflexe in der Pfortader/Leber), **fehlende oder verminderte Perfusion** im Farbdoppler, **fehlende Peristaltik**, freie Flüssigkeit, insbesondere **komplexen (echogenen, septierten) Aszites** als Hinweis auf Perforation sowie freie Luft. Befunde wie avaskuläre Darmwand und komplexe Flüssigkeit gelten als ungünstig und können die Indikation zur Operation stützen. Die Aussagekraft ist untersucherabhängig; das Röntgen bleibt für den Nachweis eines Pneumoperitoneums Standard.",
+      "keyPoints": [
+        "Ergänzt Röntgen, frühere Befunde, Perfusionsbeurteilung",
+        "Wandverdickung/-verdünnung, intramurale Luft, Portalvenengas",
+        "Fehlende Perfusion und Peristaltik",
+        "Komplexer Aszites als Perforationshinweis",
+        "Untersucherabhängig"
+      ],
+      "tags": ["NEC", "Darmsonographie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-008",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Maßnahmen zur **Prävention der NEC** sind etabliert oder werden diskutiert?",
+      "hints": ["Die wichtigste Maßnahme betrifft die Art der Nahrung.", "Was ist mit Probiotika?"],
+      "answer": "Etabliert: **Muttermilch der eigenen Mutter**, ersatzweise **Spenderinnenmilch** statt Formula; **standardisierte Ernährungsprotokolle** auf der Station; antenatale Steroide; Vermeidung von **H2-Blockern/PPI**; **Antibiotic Stewardship** (empirische Antibiotika nicht unnötig verlängern). Ein langsamer Nahrungsaufbau schützt nicht (SIFT: 18 vs. 30 ml/kg/d ohne Unterschied). **Probiotika** senken in Metaanalysen die NEC-Rate; die ESPGHAN (2020) gibt eine bedingte Empfehlung für bestimmte Stämme bzw. Kombinationen, während z. B. die American Academy of Pediatrics keine Routinegabe empfiehlt (Produktqualität, Einzelfälle von Probiotika-Sepsis). In Deutschland ist das Vorgehen uneinheitlich; wenn eingesetzt, dann mit geprüften Präparaten und Aufklärung. **Lactoferrin** hat sich in großen Studien (ELFIN) nicht als wirksam erwiesen.",
+      "keyPoints": [
+        "Muttermilch/Spenderinnenmilch",
+        "Standardisierte Ernährungsprotokolle",
+        "Keine H2-Blocker/PPI, Antibiotic Stewardship",
+        "Probiotika: Evidenz für NEC-Reduktion, Empfehlungen uneinheitlich",
+        "Langsamer Nahrungsaufbau und Lactoferrin ohne Nutzen"
+      ],
+      "tags": ["NEC", "Prävention", "Probiotika"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Spätkomplikationen** nach NEC kennen Sie, und wie berücksichtigen Sie diese in der Nachsorge?",
+      "hints": [
+        "Eine Komplikation tritt auch nach konservativer Therapie Wochen später auf.",
+        "Denken Sie an Darm, Ernährung und Gehirn."
+      ],
+      "answer": "**Intestinale Strikturen** sind die häufigste Spätkomplikation (auch nach konservativ behandelter NEC), meist im Kolon, typischerweise Wochen nach der Akutphase mit Nahrungsunverträglichkeit, Distension, Erbrechen oder Ileus; Diagnostik per Kontrasteinlauf, Therapie meist operativ. Nach Resektion droht ein **Kurzdarmsyndrom** mit langer parenteraler Ernährung, Katheterinfektionen und Leberschäden (IFALD). Weitere Folgen: Malabsorption, Gedeihstörung, Verwachsungsileus, Stoma-assoziierte Probleme (Natrium- und Flüssigkeitsverluste). Kinder nach NEC, insbesondere nach chirurgischer NEC, haben ein deutlich **erhöhtes Risiko für neurologische Entwicklungsstörungen**; deshalb strukturierte entwicklungsneurologische Nachsorge. Vor Rückverlagerung eines Stomas wird der distale Darm per Kontrastmitteldarstellung auf Strikturen untersucht.",
+      "keyPoints": [
+        "Strikturen (Kolon, Wochen später, Kontrasteinlauf)",
+        "Kurzdarmsyndrom, IFALD",
+        "Malabsorption, Gedeihstörung, Adhäsionen",
+        "Erhöhtes Risiko neurologischer Entwicklungsstörungen",
+        "Kontrastdarstellung vor Stomarückverlagerung"
+      ],
+      "tags": ["NEC", "Spätkomplikationen", "Nachsorge"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der **24+6 SSW** (640 g) zeigt am **6. Lebenstag** ein **bläulich-livide verfärbtes, distendiertes Abdomen**; es wurde bisher nur minimal enteral ernährt, hat am 2. Lebenstag Ibuprofen wegen PDA und seit Geburt niedrig dosiertes Hydrocortison erhalten. Das Röntgen zeigt **freie Luft ohne Pneumatosis**. Welche Diagnose ist wahrscheinlich, und wie grenzen Sie sie von der NEC ab?",
+      "hints": ["Typisches Alter, typische Medikamente, keine Pneumatosis.", "Wo liegt die Perforation typischerweise?"],
+      "answer": "Wahrscheinlich ist eine **fokale (spontane) intestinale Perforation (FIP/SIP)**. Abgrenzung zur NEC: Die FIP tritt **früher** auf (meist in der ersten bis zweiten Lebenswoche), betrifft fast ausschließlich **extrem unreife Frühgeborene**, ist **unabhängig von enteraler Ernährung**, zeigt **keine Pneumatosis** und kein Portalvenengas, sondern freie Luft bei oft gasarmem Abdomen und eine bläuliche Verfärbung der Bauchwand; die systemische Entzündungsreaktion ist meist geringer. Es handelt sich um eine umschriebene Perforation, typischerweise im **terminalen Ileum** an der antimesenterialen Seite bei sonst gesundem Darm. Assoziiert sind die **frühe kombinierte Gabe von Glukokortikoiden (Hydrocortison, Dexamethason) und COX-Hemmern** (Indometacin, Ibuprofen), Wachstumsrestriktion und Candida-Infektionen. Therapie: Nahrungspause, Magenablauf, Antibiotika, Kinderchirurgie – Peritonealdrainage oder Laparotomie mit Übernähung bzw. Stoma; die Prognose des Darms ist besser als bei NEC, das neurologische Outcome bleibt aber durch die Unreife belastet.",
+      "keyPoints": [
+        "Fokale intestinale Perforation",
+        "Früher Beginn, extrem unreif, unabhängig von Ernährung",
+        "Keine Pneumatosis, bläuliches Abdomen, terminales Ileum",
+        "Assoziation Steroide + COX-Hemmer",
+        "Drainage oder Laparotomie, Darm sonst gesund"
+      ],
+      "tags": ["Fokale intestinale Perforation", "NEC", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-011",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Medikamentenkombination ist in den ersten Lebenstagen besonders mit einer **fokalen intestinalen Perforation** extrem unreifer Frühgeborener assoziiert?",
+      "hints": ["Beide Substanzgruppen beeinflussen die Mukosa/Perfusion.", "Eine davon wird zur PDA-Therapie eingesetzt."],
+      "answer": "Die **gleichzeitige frühe Gabe von Glukokortikoiden** (Hydrocortison, Dexamethason) **und COX-Hemmern** (Indometacin, Ibuprofen) ist mit einem erhöhten Risiko einer fokalen intestinalen Perforation assoziiert; deshalb wird diese Kombination in den ersten Lebenstagen möglichst vermieden bzw. sehr bewusst abgewogen. Koffein, Surfactant und Antibiotika sind nicht in vergleichbarer Weise mit der FIP assoziiert.",
+      "keyPoints": ["Glukokortikoide + COX-Hemmer", "Kombination früh möglichst vermeiden"],
+      "options": [
+        { "text": "Hydrocortison bzw. Dexamethason zusammen mit Indometacin bzw. Ibuprofen", "correct": true },
+        { "text": "Koffeincitrat zusammen mit Surfactant", "correct": false },
+        { "text": "Ampicillin zusammen mit Gentamicin", "correct": false },
+        { "text": "Paracetamol zusammen mit Vitamin K", "correct": false }
+      ],
+      "tags": ["Fokale intestinale Perforation", "Medikamente"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hat am **2. Lebenstag** noch **kein Mekonium** abgesetzt, das Abdomen ist zunehmend gebläht, es erbricht grünlich. Die Abdomen-Übersicht zeigt zahlreiche dilatierte Dünndarmschlingen mit **„Seifenblasen“-Muster** im rechten Unterbauch ohne Spiegel. Woran denken Sie und wie gehen Sie vor?",
+      "hints": [
+        "Eingedicktes Mekonium im terminalen Ileum.",
+        "Welche Grunderkrankung steckt meist dahinter – und warum reicht das Neugeborenenscreening nicht?"
+      ],
+      "answer": "Wahrscheinlich ist ein **Mekoniumileus**: Obstruktion des terminalen Ileums durch zähes, eingedicktes Mekonium; er ist in der großen Mehrzahl der Fälle die Erstmanifestation einer **zystischen Fibrose** (etwa 15–20 % der Kinder mit CF haben einen Mekoniumileus). Vorgehen: Nahrungspause, Magenablaufsonde, Infusion, Kinderchirurgie. **Kontrasteinlauf** mit wasserlöslichem (hyperosmolarem) Kontrastmittel zeigt einen **Mikrokolon** und kann beim unkomplizierten Mekoniumileus **therapeutisch** wirken (auf Flüssigkeitsverschiebung achten, gut hydrieren). Bei Versagen oder **kompliziertem Mekoniumileus** (Volvulus, Atresie, Perforation, Mekoniumperitonitis/-pseudozyste, Verkalkungen) Operation (Enterotomie mit Spülung, ggf. Resektion/Stoma). Die **CF-Diagnostik** (Schweißtest, sobald möglich, und CFTR-Genetik) erfolgt unabhängig vom Neugeborenenscreening, da das immunreaktive Trypsin(ogen) beim Mekoniumileus falsch normal sein kann.",
+      "keyPoints": [
+        "Mekoniumileus, meist CF",
+        "Nahrungspause, Magenablauf, Infusion, Chirurgie",
+        "Kontrasteinlauf diagnostisch (Mikrokolon) und therapeutisch",
+        "Komplizierte Formen operativ",
+        "CF-Diagnostik unabhängig vom Screening (Schweißtest, Genetik)"
+      ],
+      "tags": ["Mekoniumileus", "Zystische Fibrose", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-013",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zum **Mekoniumpfropfsyndrom bzw. Small-left-colon-Syndrom** trifft zu?",
+      "hints": [
+        "Denken Sie an eine bestimmte mütterliche Erkrankung.",
+        "Welche Differenzialdiagnose darf nicht übersehen werden?"
+      ],
+      "answer": "Das **Small-left-colon-Syndrom** mit Mekoniumpfropf tritt gehäuft bei **Kindern diabetischer Mütter** auf (auch nach mütterlicher Magnesiumtherapie beschrieben). Der Kontrasteinlauf ist diagnostisch und oft therapeutisch (Lösen des Pfropfs). Da sich hinter einem Mekoniumpfropf auch ein **Morbus Hirschsprung** oder eine zystische Fibrose verbergen kann, sollte bei persistierenden Symptomen weiter abgeklärt werden (Rektumsaugbiopsie, CF-Diagnostik).",
+      "keyPoints": [
+        "Assoziation mit mütterlichem Diabetes",
+        "Kontrasteinlauf diagnostisch und therapeutisch",
+        "Hirschsprung und CF ausschließen"
+      ],
+      "options": [
+        {
+          "text": "Es tritt gehäuft bei Kindern diabetischer Mütter auf; ein Morbus Hirschsprung muss bei persistierenden Symptomen ausgeschlossen werden",
+          "correct": true
+        },
+        { "text": "Es erfordert immer eine Laparotomie mit Kolostoma", "correct": false },
+        { "text": "Es beweist das Vorliegen einer zystischen Fibrose", "correct": false },
+        { "text": "Es kommt ausschließlich bei extrem unreifen Frühgeborenen vor", "correct": false }
+      ],
+      "tags": ["Mekoniumpfropf", "Small-left-colon"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-014",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wie wird die **Ösophagusatresie** klassifiziert, welcher Typ ist am häufigsten, und an welchen Zeichen erkennen Sie sie prä- und postnatal?",
+      "hints": ["Klassifikation nach Gross (bzw. Vogt).", "Was passiert, wenn Sie eine Magensonde legen?"],
+      "answer": "Nach **Gross**: Typ A isolierte Atresie ohne Fistel (long gap, gasloses Abdomen), Typ B proximale Fistel, **Typ C proximale Atresie mit distaler ösophagotrachealer Fistel (etwa 85 %, entspricht Vogt IIIb)**, Typ D proximale und distale Fistel, Typ E H-Fistel ohne Atresie. Pränatal: **Polyhydramnion**, kleine oder fehlende Magenblase. Postnatal: **schaumiger Speichelfluss**, Husten, Zyanose und Aspiration beim ersten Füttern; eine **Magensonde lässt sich nicht vorschieben** (Stopp etwa 10 cm ab Naseneingang bzw. Mundwinkel), auf dem Röntgen **schlägt sie im oberen Blindsack um**. Luft im Magen-Darm-Trakt beweist eine distale Fistel, gasloses Abdomen spricht für Typ A (oder B). Die H-Fistel fällt oft erst später durch rezidivierende Aspirationen beim Trinken auf.",
+      "keyPoints": [
+        "Gross A–E; Typ C (distale Fistel) ca. 85 %",
+        "Pränatal Polyhydramnion, kleine Magenblase",
+        "Speichelfluss, Husten/Zyanose beim Füttern",
+        "Magensonde nicht vorschiebbar, Umschlag im Blindsack",
+        "Luft im Abdomen = distale Fistel"
+      ],
+      "tags": ["Ösophagusatresie", "Klassifikation"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes mit **Ösophagusatresie Typ C** wird Ihnen nach der Geburt vorgestellt. Beschreiben Sie die **präoperative Versorgung** und die notwendige Diagnostik vor der Operation.",
+      "hints": [
+        "Wie verhindern Sie Aspiration – und Luftinsufflation über die Fistel in den Magen?",
+        "Welche Fehlbildungen müssen Sie suchen? Welche Herzuntersuchung ist für den Chirurgen wichtig?"
+      ],
+      "answer": "**Aspirationsprophylaxe**: doppellumige **Replogle-Sonde** im oberen Blindsack mit kontinuierlichem Sog, **Oberkörperhochlagerung** (Bauch- oder Seitenlage), keine orale Nahrung, intravenöse Flüssigkeit, ggf. Antibiotika bei Aspirationspneumonie. **Beatmung vermeiden**, wenn möglich, insbesondere Maskenbeatmung und CPAP, da Luft über die distale Fistel in den Magen gelangt (Distension, Zwerchfellhochstand, Magenperforation); falls Intubation nötig, mit niedrigen Drücken, Tubusspitze möglichst distal der Fistel, und frühzeitige chirurgische Versorgung. Diagnostik: Röntgen Thorax/Abdomen (Sondenlage, Luft im Abdomen, Wirbel-/Rippenanomalien), **Echokardiographie** (Herzfehler; **Lage des Aortenbogens** – bei rechtsseitigem Bogen ändert sich der operative Zugang), **VACTERL-Screening** (Nieren- und Wirbelsäulensonographie, Inspektion des Anus, Extremitäten), ggf. Genetik (z. B. CHARGE, Trisomien). Operation (Fistelverschluss und primäre Anastomose, offen oder thorakoskopisch) in der Regel in den ersten Lebenstagen im Zentrum.",
+      "keyPoints": [
+        "Replogle-Sonde mit Dauersog, Oberkörperhochlage, nüchtern",
+        "Masken-/CPAP-Beatmung vermeiden; ggf. Intubation mit niedrigen Drücken",
+        "Echo inkl. Aortenbogenlage",
+        "VACTERL-Screening (Niere, Wirbelsäule, Anus, Extremitäten)",
+        "Operation früh im Zentrum"
+      ],
+      "tags": ["Ösophagusatresie", "Erstversorgung", "VACTERL"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Was versteht man unter einer **„long gap“-Ösophagusatresie**, welche Therapieoptionen gibt es, und welche **Langzeitprobleme** müssen Sie nach Ösophagusatresie-Korrektur kennen?",
+      "hints": ["Typisch bei Typ A.", "Denken Sie an Anastomose, Reflux und Atemwege."],
+      "answer": "Von **long gap** spricht man, wenn die Distanz zwischen den Ösophagusstümpfen eine primäre Anastomose nicht zulässt (typisch bei **Typ A ohne Fistel**; Definitionen variieren). Optionen: Anlage einer **Gastrostomie** zur Ernährung, Absaugung des Blindsacks, Abwarten des Spontanwachstums mit **verzögerter primärer Anastomose** nach einigen Wochen bis Monaten (bevorzugt, da der eigene Ösophagus erhalten wird), Traktionsverfahren (z. B. nach Foker) oder als Ersatz Magenhochzug bzw. Interponate; Behandlung in spezialisierten Zentren. Langzeitprobleme nach Korrektur: **Anastomoseninsuffizienz** (früh), **Anastomosenstriktur** (häufig, Bougierung/Ballondilatation), **Fistelrezidiv**, **gastroösophagealer Reflux** (sehr häufig, oft PPI-Prophylaxe nach Zentrumsstandard, ggf. Fundoplicatio), **Tracheomalazie** (bellender Husten, Apnoe-/Zyanoseanfälle), Dysphagie und Bolusobstruktion, rezidivierende Atemwegsinfekte, Gedeihstörung, Thoraxdeformitäten/Skoliose nach Thorakotomie sowie langfristig Barrett-Ösophagus – daher **lebenslange strukturierte Nachsorge** inkl. endoskopischer Kontrollen.",
+      "keyPoints": [
+        "Long gap: primäre Anastomose nicht möglich, typisch Typ A",
+        "Gastrostomie und verzögerte primäre Anastomose bevorzugt; Ersatzverfahren",
+        "Strikturen, Leck, Fistelrezidiv",
+        "GÖR und Tracheomalazie",
+        "Lebenslange Nachsorge inkl. Endoskopie (Barrett)"
+      ],
+      "tags": ["Ösophagusatresie", "Long gap", "Nachsorge"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-017",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie Klinik, Diagnostik, Assoziationen und Therapie der **Duodenalatresie**.",
+      "hints": ["Welches radiologische Zeichen ist typisch?", "Welche Chromosomenstörung ist häufig assoziiert?"],
+      "answer": "Pränatal oft **Polyhydramnion** und **Double-Bubble** im Ultraschall. Postnatal **Erbrechen in den ersten Lebensstunden**, meist **gallig**, da die Atresie überwiegend unterhalb der Papilla Vateri liegt; das Abdomen ist eher nicht gebläht (nur Oberbauch). Röntgen: **Double-Bubble-Zeichen** (Magen und Duodenalbulbus) ohne distale Luft; distale Luft spricht für eine inkomplette Obstruktion (Stenose, Membran) – dann muss eine **Malrotation mit Volvulus** sicher ausgeschlossen werden. Assoziiert sind **Trisomie 21** (etwa ein Drittel der Kinder), Herzfehler, Pancreas anulare, Malrotation, Ösophagusatresie und andere VACTERL-Fehlbildungen. Therapie: Magenablaufsonde, Infusion mit Elektrolytausgleich, Echokardiographie, dann **Duodeno-Duodenostomie** (z. B. „diamond-shaped“ nach Kimura); die Operation ist dringlich, aber kein Notfall, sofern ein Volvulus ausgeschlossen ist.",
+      "keyPoints": [
+        "Polyhydramnion, frühes (meist galliges) Erbrechen",
+        "Double-Bubble ohne distale Luft",
+        "Trisomie 21 in ca. einem Drittel, Herzfehler, Pancreas anulare",
+        "Distale Luft: Volvulus ausschließen",
+        "Duodeno-Duodenostomie"
+      ],
+      "tags": ["Duodenalatresie", "Trisomie 21"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein **5 Tage altes, bisher gesundes reifes Neugeborenes** erbricht plötzlich **grün**, wirkt unruhig, das Abdomen ist zunächst weich und nicht gebläht. Woran müssen Sie sofort denken, und wie gehen Sie vor?",
+      "hints": [
+        "Galliges Erbrechen bei einem Neugeborenen ist bis zum Beweis des Gegenteils …",
+        "Welche Untersuchung ist Goldstandard, und wie schnell muss operiert werden?"
+      ],
+      "answer": "Sofort an eine **Malrotation mit Mitteldarmvolvulus** denken – ein **chirurgischer Notfall**, da innerhalb weniger Stunden der gesamte Dünndarm ischämisch werden kann; ein unauffälliges, weiches Abdomen schließt ihn nicht aus. Vorgehen: Nahrungspause, **Magenablaufsonde**, intravenöser Zugang mit Flüssigkeit, Labor (BGA mit Laktat, Blutbild, Elektrolyte, Blutkultur), **sofortige Information der Kinderchirurgie**. Diagnostik: **Magen-Darm-Passage** (Goldstandard; Lage der duodenojejunalen Flexur nicht links der Wirbelsäule auf Höhe des Pylorus, „Korkenzieher“-Verlauf bei Volvulus); die Sonographie (Umkehr der Lagebeziehung von A. und V. mesenterica superior, „Whirlpool-Zeichen“) ist ein wertvoller, aber untersucherabhängiger Baustein. Bei klinisch dringendem Verdacht oder Peritonitis/Schock darf die Bildgebung die Operation nicht verzögern. Therapie: **Notfalllaparotomie mit Ladd-Operation** (Detorsion, Durchtrennung der Ladd-Bänder, Verbreiterung der Mesenterialwurzel, Appendektomie, Dünndarm rechts, Kolon links).",
+      "keyPoints": [
+        "Galliges Erbrechen = Volvulus bis zum Beweis des Gegenteils",
+        "Weiches Abdomen schließt nichts aus",
+        "Magenablauf, Zugang, Labor, sofort Kinderchirurgie",
+        "MDP als Goldstandard, Sono ergänzend; OP nicht verzögern",
+        "Ladd-Operation"
+      ],
+      "tags": ["Malrotation", "Volvulus", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-019",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes erbricht am 3. Lebenstag **gallig**. Welche Aussage trifft zu?",
+      "hints": ["Gallig heißt: Obstruktion distal der Papille.", "Es gibt eine Diagnose, die keine Zeit verträgt."],
+      "answer": "**Galliges Erbrechen** beim Neugeborenen ist **bis zum Beweis des Gegenteils ein chirurgischer Notfall** (Malrotation mit Volvulus), auch wenn das Kind sonst unauffällig wirkt. Es erfordert sofortige Magenentlastung, chirurgisches Konsil und Bildgebung (Magen-Darm-Passage). Abwarten oder Nahrungswechsel ist gefährlich.",
+      "keyPoints": [
+        "Galliges Erbrechen = Notfall bis zum Beweis des Gegenteils",
+        "Volvulus ausschließen",
+        "Sofort Kinderchirurgie und Bildgebung"
+      ],
+      "options": [
+        {
+          "text": "Es ist bis zum Beweis des Gegenteils ein chirurgischer Notfall (Malrotation mit Volvulus)",
+          "correct": true
+        },
+        { "text": "Es ist meist Folge eines gastroösophagealen Refluxes und harmlos", "correct": false },
+        { "text": "Bei weichem Abdomen genügt eine Umstellung auf Hydrolysatnahrung", "correct": false },
+        { "text": "Es spricht typischerweise für eine hypertrophe Pylorusstenose", "correct": false },
+        { "text": "Eine Abklärung ist erst bei zusätzlicher Distension erforderlich", "correct": false }
+      ],
+      "tags": ["Galliges Erbrechen", "Volvulus"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes (Trisomie 21) hat **48 Stunden nach Geburt noch kein Mekonium** abgesetzt; bei der rektalen Untersuchung entleert sich **explosionsartig Stuhl und Luft**. Welche Differenzialdiagnosen bedenken Sie, wie sichern Sie die Verdachtsdiagnose eines **Morbus Hirschsprung**, und welche gefährliche Komplikation kennen Sie?",
+      "hints": [
+        "Die meisten reifen Neugeborenen setzen Mekonium innerhalb von 24–48 h ab.",
+        "Gold-Standard ist histologisch. Achten Sie auf Fieber und Durchfall."
+      ],
+      "answer": "Ein verspäteter Mekoniumabgang (> 24–48 h beim Reifgeborenen) ist abklärungsbedürftig. Differenzialdiagnosen: **Morbus Hirschsprung**, Mekoniumileus (CF), Mekoniumpfropf/Small-left-colon (Diabetes der Mutter), Analatresie bzw. -stenose, Darmatresien, Hypothyreose, Sepsis, Opiat- oder Magnesiumeinfluss. Hirschsprung: fehlende Ganglienzellen im distalen Darm (meist rektosigmoidal), häufiger bei Jungen und bei Trisomie 21; typisch ist die **explosionsartige Entleerung** nach rektaler Untersuchung. Diagnostik: **Rektumsaugbiopsie** als Goldstandard (fehlende Ganglienzellen, hypertrophe Nervenfasern, vermehrte Acetylcholinesterase-positive Fasern, fehlende Calretinin-Färbung), Kontrasteinlauf (Übergangszone, Kontrastmittelretention), ggf. Rektummanometrie. Gefährlichste Komplikation ist die **Hirschsprung-assoziierte Enterokolitis** (Fieber, Distension, übelriechende explosive Durchfälle, Sepsis) – Behandlung mit Nahrungspause, rektalen Spülungen, Flüssigkeit und intravenösen Antibiotika inkl. Anaerobier. Bis zur Durchzugsoperation (z. B. transanal endorektal) regelmäßige **rektale Spülungen** zur Dekompression, ggf. Stoma.",
+      "keyPoints": [
+        "DD verzögerter Mekoniumabgang (Hirschsprung, MI, Pfropf, Atresie, Hypothyreose, Sepsis)",
+        "Rektumsaugbiopsie: fehlende Ganglienzellen, AChE↑, Calretinin negativ",
+        "Kontrasteinlauf mit Übergangszone",
+        "Hirschsprung-Enterokolitis als lebensbedrohliche Komplikation",
+        "Rektale Spülungen, Durchzugsoperation"
+      ],
+      "tags": ["Morbus Hirschsprung", "Mekoniumabgang", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-021",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Stellen Sie **Gastroschisis und Omphalozele** gegenüber (Lokalisation, Bedeckung, Begleitfehlbildungen, Prognose).",
+      "hints": ["Wo liegt der Defekt im Verhältnis zur Nabelschnur?", "Bei welchem Defekt sind Chromosomenstörungen häufig?"],
+      "answer": "**Gastroschisis**: Defekt meist **rechts neben** der normal inserierenden Nabelschnur, **keine Hülle** – der Darm liegt frei und ist durch Amnionflüssigkeit oft verdickt und entzündlich verändert; häufiger bei **jungen Müttern**; Begleitfehlbildungen außerhalb des Darms selten, aber **Darmatresien** (komplexe Gastroschisis mit Atresie, Perforation, Nekrose oder Volvulus) kommen vor. Prognose meist gut, bestimmt vom Zustand des Darms (Dysmotilität, lange parenterale Ernährung, Kurzdarm bei komplexer Form). **Omphalozele**: Mittelliniendefekt im Nabelring, Eingeweide von einem **Bruchsack** (Amnion/Peritoneum) bedeckt, die Nabelschnur inseriert auf dem Sack; **häufig Begleitfehlbildungen** (Herzfehler, Chromosomenstörungen wie Trisomie 13/18, **Beckwith-Wiedemann-Syndrom**, Pentalogie nach Cantrell). Die Prognose hängt von Begleitfehlbildungen, Defektgröße und ggf. Lungenhypoplasie (Riesenomphalozele) ab.",
+      "keyPoints": [
+        "Gastroschisis: rechts paraumbilikal, keine Hülle, junge Mütter",
+        "Gastroschisis: Begleitfehlbildungen selten, aber Atresien",
+        "Omphalozele: Bruchsack, Nabelschnur auf dem Sack",
+        "Omphalozele: häufig Herzfehler, Trisomien, Beckwith-Wiedemann",
+        "Prognose: Darmzustand vs. Begleitfehlbildungen"
+      ],
+      "tags": ["Gastroschisis", "Omphalozele"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie versorgen im Kreißsaal ein Neugeborenes der **36+2 SSW mit Gastroschisis**. Beschreiben Sie die **Erstversorgung** bis zur Operation.",
+      "hints": ["Wärme, Flüssigkeit, Darmdurchblutung.", "Wie lagern Sie Kind und Darm?"],
+      "answer": "**Wärme- und Flüssigkeitsverluste** sind über den freiliegenden Darm massiv. Der Darm wird steril in eine **durchsichtige Folie bzw. einen Darmbeutel** gehüllt (Kind ggf. bis unter die Achseln in einen sterilen Beutel), ohne Zug oder Abknicken des Mesenteriums, gestützt in der Mittellinie; das Kind wird meist in **Rechtsseitenlage** gelagert, damit die Mesenterialgefäße nicht abknicken. **Darmperfusion regelmäßig kontrollieren** (Farbe), bei Ischämie Lage korrigieren bzw. Defekt erweitern lassen. **Magenablaufsonde** zur Dekompression, keine Maskenbeatmung wenn vermeidbar (Darmdistension), ggf. Intubation. **Intravenöser Zugang** (bevorzugt an der oberen Körperhälfte), großzügige Flüssigkeitszufuhr nach Kreislauf und Diurese mit Volumenboli bei Bedarf, Blutzucker, Temperatur, Antibiotika nach Standard. Rascher Transport in die Kinderchirurgie; Versorgung durch **primären Verschluss** oder schrittweise Reposition im **Silo**; danach auf ein abdominelles Kompartmentsyndrom achten. Postoperativ ist oft eine längere parenterale Ernährung nötig.",
+      "keyPoints": [
+        "Darm steril in Folie/Darmbeutel, ohne Zug, Rechtsseitenlage",
+        "Perfusion des Darms überwachen",
+        "Magenablauf, Maskenbeatmung vermeiden",
+        "Großzügige Flüssigkeit, Wärme, Antibiotika",
+        "Primärverschluss oder Silo; Kompartmentsyndrom beachten"
+      ],
+      "tags": ["Gastroschisis", "Erstversorgung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-023",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Neugeborenen mit **Omphalozele** fallen eine **Makroglossie** und eine **Hypoglykämie** auf. An welches Syndrom denken Sie, und welche Konsequenzen hat das für Akutversorgung und Langzeitbetreuung?",
+      "hints": ["Ein Überwuchssyndrom mit Störung der Imprintingregion 11p15.", "Langfristig: Tumorvorsorge."],
+      "answer": "Die Konstellation spricht für ein **Beckwith-Wiedemann-Syndrom** (Störung der Imprintingregion 11p15; weitere Zeichen: Makrosomie, Hemihypertrophie, Ohrkerben, Viszeromegalie). Akut: **Hyperinsulinismus mit Hypoglykämien** – engmaschige Blutzuckerkontrollen und ausreichende Glukosezufuhr, ggf. Diazoxid nach Abklärung; die **Makroglossie** kann die Atemwege und die Ernährung beeinträchtigen. Versorgung der Omphalozele: Bruchsack feucht-steril abdecken bzw. in Folie, Seitenlage zur Vermeidung eines Abknickens, Magenablauf, Infusion; Verschluss primär oder bei großer Omphalozele verzögert (Epithelisierung des Sacks und späterer Verschluss). Weitere Diagnostik: Echokardiographie, Nierensonographie, genetische Bestätigung (Methylierungsanalyse 11p15). Langfristig **Tumorvorsorge** wegen erhöhten Risikos embryonaler Tumoren (Wilms-Tumor, Hepatoblastom) mit regelmäßiger Abdomensonographie und ggf. AFP nach Protokoll; genetische Beratung der Eltern.",
+      "keyPoints": [
+        "Beckwith-Wiedemann-Syndrom (11p15)",
+        "Hyperinsulinismus/Hypoglykämie, Makroglossie (Atemweg)",
+        "Omphalozelenversorgung, Echo, Nierensono",
+        "Tumorvorsorge (Wilms, Hepatoblastom)",
+        "Genetische Bestätigung und Beratung"
+      ],
+      "tags": ["Omphalozele", "Beckwith-Wiedemann", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-024",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei der U1 eines reifen Jungen finden Sie **keine Analöffnung**. Wie gehen Sie diagnostisch vor und wovon hängt das weitere operative Vorgehen ab?",
+      "hints": [
+        "Warum lohnt es sich, einige Stunden abzuwarten?",
+        "Denken Sie an Fistel, Höhe der Atresie und Begleitfehlbildungen."
+      ],
+      "answer": "Zunächst **genaue Inspektion des Perineums** (Fistelöffnung, Mekonium am Perineum oder in der Raphe, „Bucket-handle“), Urinbeobachtung auf **Mekonium im Urin** (Hinweis auf rektourethrale/-vesikale Fistel); eine Magensonde legen (Ösophagusatresie ausschließen), Nahrungspause und Infusion. Da sich Mekonium erst bei ausreichendem intraabdominellem Druck durch eine Fistel entleert, wird meist **etwa 16–24 Stunden** abgewartet; ohne sichtbare Fistel hilft eine seitliche Röntgenaufnahme in Bauchlage (Abstand Rektumblindsack–Haut) bzw. eine perineale Sonographie. Bei **perinealer Fistel** ist meist eine primäre Korrektur (Anoplastik) möglich; bei rektourethraler/-vesikaler Fistel oder großem Abstand wird zunächst ein **Kolostoma** angelegt und später die posteriore sagittale Anorektoplastik durchgeführt (Klassifikation nach Krickenbeck). Wegen häufiger Begleitfehlbildungen (**VACTERL**): Echokardiographie, Nieren- und Harnwegssonographie, Sonographie des Spinalkanals (Tethered Cord), Röntgen Wirbelsäule/Sakrum, Extremitäten prüfen. Langfristig Fokus auf Kontinenz und Darmmanagement.",
+      "keyPoints": [
+        "Inspektion: Fistel, Mekonium am Perineum oder im Urin",
+        "Ca. 16–24 h abwarten, dann ggf. Bildgebung",
+        "Perineale Fistel: primäre Anoplastik; sonst Kolostoma und spätere PSARP",
+        "VACTERL-Diagnostik inkl. Niere und Spinalkanal",
+        "Magensonde, Ösophagusatresie ausschließen"
+      ],
+      "tags": ["Analatresie", "VACTERL", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der **25 SSW** hat bei 36 Wochen postmenstruell eine **beidseitige, reponible Leistenhernie**. Welche Risiken bestehen, und wann wird operiert?",
+      "hints": [
+        "Inkarzeration vs. Narkoserisiko.",
+        "Eine große randomisierte Studie hat frühe und späte Operation verglichen."
+      ],
+      "answer": "Leistenhernien sind bei Frühgeborenen sehr häufig (je unreifer, desto häufiger) und oft beidseitig. Risiken: **Inkarzeration** mit Darmischämie, bei Jungen Hodenischämie/-atrophie, bei Mädchen Torsion eines prolabierten **Ovars** (dringliche Operation). Dem steht das **Narkoserisiko** gegenüber, insbesondere **postoperative Apnoen** bei ehemaligen Frühgeborenen bis etwa 60 Wochen postmenstruell. Der Zeitpunkt ist kontrovers: Klassisch wurde vor Entlassung operiert; die randomisierte HIP-Studie (Blakely, JAMA 2024) spricht eher dafür, dass eine **spätere Operation nach der Entlassung** bei stabilen Kindern mit weniger schweren unerwünschten Ereignissen einhergeht. Entscheidung daher individuell (Größe, Inkarzerationsereignisse, Begleiterkrankungen) und zentrumsabhängig, mit Aufklärung der Eltern über Inkarzerationszeichen. Postoperativ **Apnoe-Monitoring** (meist mindestens 12–24 h); Regionalanästhesie kann das frühe Apnoerisiko senken.",
+      "keyPoints": [
+        "Häufig bei FG, oft beidseitig",
+        "Inkarzeration, Hodenschaden, Ovartorsion",
+        "Postoperative Apnoen bis ca. 60 Wochen PMA – Monitoring",
+        "Zeitpunkt kontrovers, Studiendaten eher für spätere OP bei Stabilen",
+        "Eltern über Inkarzerationszeichen aufklären"
+      ],
+      "tags": ["Leistenhernie", "Frühgeborene"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gastro-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Nach ausgedehnter Dünndarmresektion bei NEC verbleiben einem ehemaligen Frühgeborenen etwa **35 cm Dünndarm ohne Ileozökalklappe** mit Jejunostoma. Definieren Sie das **Kurzdarmsyndrom** und beschreiben Sie die Prinzipien der **intestinalen Rehabilitation** sowie typische Komplikationen.",
+      "hints": ["Welche anatomischen Faktoren bestimmen die Prognose?", "Adaptation braucht enterale Stimulation."],
+      "answer": "Ein Kurzdarmsyndrom (Darmversagen) liegt vor, wenn nach Resektion oder bei angeborenem Defekt die **Resorptionskapazität nicht ausreicht** und über längere Zeit (meist definiert als > 60 Tage) parenterale Ernährung nötig ist. Ungünstige Prognosefaktoren: geringe Restdünndarmlänge (bezogen auf das Gestationsalter), **fehlende Ileozökalklappe**, fehlendes Kolon in Kontinuität, Verlust des Ileums (Gallensäuren, Vitamin B12), Leberschädigung. **Intestinale Rehabilitation** im spezialisierten Zentrum: individuell angepasste PE (Lipidstrategie mit Fischöl-haltigen Emulsionen gegen IFALD), **frühe und kontinuierliche enterale Ernährung** zur Adaptation (Muttermilch, sonst Hydrolysat- oder Aminosäurenahrung, oft als Dauersondierung plus kleine orale Mengen), Ersatz von **Stomaverlusten** (Natrium, Bikarbonat, Zink), Refeeding des Stomaeffluats in den distalen Schenkel, frühzeitige Stomarückverlagerung, Behandlung bakterieller Fehlbesiedlung; medikamentös ggf. GLP-2-Analogon (Teduglutid), chirurgisch Darmverlängerungsverfahren (z. B. STEP), Dünndarmtransplantation als Ultima Ratio. Komplikationen: **Katheterinfektionen**, **intestinal failure associated liver disease (IFALD)**, D-Laktatazidose, Mangel an fettlöslichen Vitaminen/B12/Spurenelementen, Gallen- und Nierensteine, metabolische Knochenerkrankung, Gedeihstörung.",
+      "keyPoints": [
+        "Definition: Resorptionsversagen mit PE-Bedarf (meist > 60 Tage)",
+        "Prognose: Restlänge, Ileozökalklappe, Kolon, Ileum",
+        "Frühe kontinuierliche enterale Ernährung, Stomaverlustersatz, Lipidstrategie",
+        "Teduglutid, Darmverlängerung, Transplantation",
+        "Komplikationen: CLABSI, IFALD, D-Laktatazidose, Mangelzustände"
+      ],
+      "tags": ["Kurzdarmsyndrom", "Intestinale Rehabilitation"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.2–9.6 – Infusionstherapie, parenterale Ernährung, Bilanzierung",
+          "terms": ["parenterale Ernährung", "Bilanzierung"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-027",
+      "type": "calc",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes mit **Ileostoma**, aktuell **2,0 kg**, hat einen Stomaoutput von **80 ml in 24 Stunden**. Die Natriumkonzentration im Stomasekret beträgt **90 mmol/l**. Wie hoch ist der **Natriumverlust über das Stoma in mmol/kg/d**?",
+      "hints": ["Volumen in Litern mal Konzentration.", "Dann durch das Körpergewicht teilen."],
+      "answer": "Natriumverlust: 0,08 l · 90 mmol/l = 7,2 mmol/d. Pro kg: 7,2 / 2,0 = **3,6 mmol/kg/d** (Stomaoutput 40 ml/kg/d). Dieser Verlust kommt zum Wachstumsbedarf hinzu und muss ersetzt werden; Kinder mit Ileostoma entwickeln sonst einen **Gesamtkörpernatriummangel** mit Gedeihstörung, auch wenn das Serum-Natrium noch normal ist. Das **Urin-Natrium** (niedrige Werte sprechen für Natriummangel; Grenzwerte zentrumsabhängig) eignet sich zur Steuerung der Substitution.",
+      "keyPoints": [
+        "7,2 mmol/d",
+        "3,6 mmol/kg/d",
+        "Substitution zusätzlich zum Bedarf, Steuerung über Urin-Natrium",
+        "Natriummangel → Gedeihstörung trotz normalem Serum-Na"
+      ],
+      "solution": { "value": 3.6, "unit": "mmol/kg/d", "tolerance": 0.03 },
+      "tags": ["Stoma", "Natrium", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.4 – Elektrolytstörungen",
+          "terms": ["Elektrolytstörungen"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.5 – Azidose",
+          "terms": ["Azidose"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-028",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes mit **Gastroschisis** (2,5 kg) hat über die offene Magensonde in den letzten **6 Stunden 45 ml** galliges Sekret verloren. Die Verluste sollen **1:1** über die nächsten 6 Stunden mit einer Elektrolytlösung ersetzt werden. Welche **zusätzliche Laufrate in ml/h** stellen Sie ein?",
+      "hints": ["Verlustvolumen durch Ersatzzeitraum.", "45 ml / 6 h"],
+      "answer": "Ersatzrate = 45 ml / 6 h = **7,5 ml/h** zusätzlich zur Basisinfusion (entspricht 3 ml/kg/h). Als Ersatzlösung dient in der Regel eine isotone Lösung (z. B. NaCl 0,9 % mit Kaliumzusatz nach lokalem Standard); Elektrolyte, Säure-Basen-Status (Chloridverluste → metabolische Alkalose) und Diurese werden kontrolliert, und der Ersatz wird regelmäßig an die aktuellen Verluste angepasst.",
+      "keyPoints": ["45 / 6 = 7,5 ml/h", "Zusätzlich zur Basisinfusion", "Isotone Ersatzlösung, Elektrolyt- und BGA-Kontrolle"],
+      "solution": { "value": 7.5, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Gastroschisis", "Flüssigkeitsersatz", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gastro-029",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein **2 Tage altes, klinisch unauffälliges, gestilltes** Neugeborenes erbricht **hellrot-blutig** tingierte Milch; die Mutter hat **blutende Mamillenrhagaden**. Welcher Test hilft am schnellsten, die Herkunft des Blutes zu klären?",
+      "hints": [
+        "Fetales und adultes Hämoglobin unterscheiden sich in der Alkaliresistenz.",
+        "Der Test wird mit Natronlauge durchgeführt."
+      ],
+      "answer": "Der **Apt-Test (Apt-Downey-Test)** unterscheidet mütterliches von kindlichem Blut: Nach Zusatz von Natronlauge wird adultes Hämoglobin (HbA) zu einem bräunlich-gelben Farbton denaturiert, während **fetales Hämoglobin (HbF) alkaliresistent** rosa bleibt. Verschlucktes mütterliches Blut (Geburt, Rhagaden) ist beim gesunden Neugeborenen eine häufige und harmlose Ursache. Bei kindlichem Blut sind Vitamin-K-Mangelblutung, Gerinnungsstörung, Stressulkus oder NEC abzuklären.",
+      "keyPoints": [
+        "Apt-Test: HbF alkaliresistent",
+        "Verschlucktes mütterliches Blut häufig und harmlos",
+        "Bei kindlichem Blut: Vitamin-K-Mangel, Gerinnung, Ulkus, NEC abklären"
+      ],
+      "options": [
+        { "text": "Apt-Test (Alkaliresistenz des fetalen Hämoglobins)", "correct": true },
+        { "text": "Hämoccult-Test im Stuhl", "correct": false },
+        { "text": "Direkter Coombs-Test", "correct": false },
+        { "text": "Bestimmung des Quick-Werts der Mutter", "correct": false },
+        { "text": "Kleihauer-Betke-Test im mütterlichen Blut", "correct": false }
+      ],
+      "tags": ["Hämatemesis", "Apt-Test"],
+      "exam": ["KM"]
+    }
+  ]
+}

@@ -1,0 +1,942 @@
+{
+  "area": "atemstoerungen",
+  "questions": [
+    {
+      "id": "atem-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erklären Sie die **Pathophysiologie des Atemnotsyndroms (RDS)** des Frühgeborenen und nennen Sie die wichtigsten Risikofaktoren.",
+      "hints": [
+        "Was senkt die Oberflächenspannung in der Alveole?",
+        "Denken Sie an das Laplace-Gesetz und an die funktionelle Residualkapazität."
+      ],
+      "answer": "Ursache ist ein **quantitativer und qualitativer Surfactantmangel** der unreifen Lunge (Typ-II-Pneumozyten). Ohne Surfactant steigt die Oberflächenspannung; nach dem Laplace-Gesetz kollabieren besonders kleine Alveolen endexspiratorisch. Folgen sind diffuse Mikroatelektasen, verminderte Compliance und funktionelle Residualkapazität, ein intrapulmonaler Rechts-links-Shunt mit Hypoxämie, zunehmende Atemarbeit und Hyperkapnie. Durch Kapillarleck entsteht ein proteinreiches Ödem mit **hyalinen Membranen**, Plasmaproteine inaktivieren zusätzlich Surfactant (Circulus vitiosus).\n\n**Risikofaktoren:** Unreife (wichtigster Faktor), fehlende antenatale Steroide, männliches Geschlecht, mütterlicher Diabetes, Sectio ohne vorangegangene Wehen, perinatale Asphyxie und Hypothermie, zweiter Zwilling, selten genetische Surfactantstörungen.",
+      "keyPoints": [
+        "Surfactantmangel durch Unreife der Typ-II-Pneumozyten",
+        "erhöhte Oberflächenspannung, Alveolarkollaps, Atelektasen, FRC vermindert",
+        "intrapulmonaler Shunt mit Hypoxämie und Hyperkapnie",
+        "Kapillarleck, hyaline Membranen, Surfactantinaktivierung",
+        "Risikofaktoren: Unreife, keine Lungenreifeinduktion, männlich, Diabetes, Sectio ohne Wehen, Asphyxie"
+      ],
+      "tags": ["Atemnotsyndrom", "Surfactant", "Pathophysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-002",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Welche **klinischen Zeichen einer Atemstörung** beim Neugeborenen kennen Sie? Erklären Sie dabei den Mechanismus des exspiratorischen **Stöhnens** und nennen Sie die Kriterien des **Silverman-Andersen-Scores**.",
+      "hints": ["Atemfrequenz, Einziehungen, Hautfarbe.", "Das Stöhnen entsteht an der Glottis und hat eine Schutzfunktion."],
+      "answer": "Leitsymptome sind **Tachypnoe** (> 60/min), **Einziehungen** (interkostal, subkostal, jugulär, xiphoidal), **Nasenflügeln**, **exspiratorisches Stöhnen** (Knorksen), paradoxe Thorax-Abdomen-Bewegung (Schaukelatmung), Zyanose bzw. erhöhter Sauerstoffbedarf, im Verlauf Apnoen und Erschöpfung.\n\nDas **Stöhnen** entsteht durch Ausatmung gegen die teilweise geschlossene Glottis – das Kind erzeugt so einen eigenen endexspiratorischen Druck („Auto-PEEP“), um den Alveolarkollaps zu verhindern und die FRC zu erhalten.\n\nDer **Silverman-Andersen-Score** bewertet fünf Kriterien mit je 0–2 Punkten (0–10 Punkte, höhere Werte = schwerere Atemnot): Thorax-Abdomen-Synchronie, interkostale Einziehungen, xiphoidale Einziehung, Nasenflügeln, exspiratorisches Stöhnen.",
+      "keyPoints": [
+        "Tachypnoe > 60/min, Einziehungen, Nasenflügeln, Stöhnen, Zyanose",
+        "Stöhnen = Ausatmung gegen teilverschlossene Glottis, erhält FRC (intrinsischer PEEP)",
+        "Silverman-Andersen: 5 Kriterien à 0–2 Punkte",
+        "hoher Score = schwere Atemnot"
+      ],
+      "tags": ["Klinik", "Silverman-Score", "Atemnot"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "atem-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **radiologische Stadieneinteilung des Atemnotsyndroms** (Röntgen-Thorax, Stadien I–IV) und welche weiteren Befunde Sie auf dem Bild beurteilen.",
+      "hints": [
+        "Das Aerobronchogramm spielt eine Rolle.",
+        "Im höchsten Stadium sind Herz- und Zwerchfellkonturen nicht mehr abgrenzbar."
+      ],
+      "answer": "Klassische Einteilung (nach Giedion/Couchard):\n- **Stadium I:** feine retikulogranuläre Zeichnung der Lunge.\n- **Stadium II:** zusätzlich **Aerobronchogramm**, das über die Herzkontur hinausreicht.\n- **Stadium III:** zunehmende Transparenzminderung mit Unschärfe der Herz- und Zwerchfellkonturen.\n- **Stadium IV:** „weiße Lunge“, Herz- und Zwerchfellränder nicht mehr abgrenzbar.\n\nTypisch ist ein **vermindertes Lungenvolumen** (im Gegensatz zu TTN und Mekoniumaspiration). Zusätzlich beurteile ich Tubus- und Katheterlagen, Air-Leak (Pneumothorax, PIE), Herzgröße, Magenblase und Zwerchfellstand. Das Röntgenbild korreliert nur begrenzt mit dem Sauerstoffbedarf; die Therapieentscheidung (Surfactant) richtet sich primär nach Klinik und FiO2, zunehmend unterstützt durch Lungensonographie.",
+      "keyPoints": [
+        "I: retikulogranulär",
+        "II: Aerobronchogramm über Herzschatten hinaus",
+        "III: Unschärfe der Herz-/Zwerchfellkonturen",
+        "IV: weiße Lunge",
+        "kleines Lungenvolumen typisch",
+        "Therapieentscheidung nach Klinik/FiO2, nicht allein nach Röntgen"
+      ],
+      "tags": ["Röntgen", "Atemnotsyndrom"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-004",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Röntgen-Thorax-Konstellation passt am besten zu einem **Atemnotsyndrom bei Surfactantmangel**?",
+      "hints": ["Denken Sie an das Lungenvolumen."],
+      "options": [
+        {
+          "text": "Feingranuläre, homogene Transparenzminderung mit Aerobronchogramm und vermindertem Lungenvolumen",
+          "correct": true
+        },
+        {
+          "text": "Grobfleckige, asymmetrische Verdichtungen mit Überblähung und abgeflachten Zwerchfellen",
+          "correct": false
+        },
+        {
+          "text": "Streifige perihiläre Zeichnung, Flüssigkeit im Interlobärspalt und leichte Überblähung",
+          "correct": false
+        },
+        { "text": "Kleine zystische, radiär vom Hilus ausgehende Aufhellungen", "correct": false }
+      ],
+      "answer": "Das RDS zeigt eine feingranuläre (retikulogranuläre) Verschattung mit Aerobronchogramm bei **kleinen Lungenvolumina** (Atelektasen). Grobfleckige Verdichtungen mit Überblähung sprechen für eine Mekoniumaspiration, Flüssigkeit in den Fissuren und perihiläre Streifen für eine transitorische Tachypnoe, zystische radiäre Aufhellungen für ein pulmonales interstitielles Emphysem.",
+      "keyPoints": [
+        "RDS: retikulogranulär, Aerobronchogramm, kleines Lungenvolumen",
+        "Abgrenzung zu MAS (Überblähung, fleckig), TTN (Fissuren) und PIE (zystisch)"
+      ],
+      "tags": ["Röntgen", "Atemnotsyndrom", "Differenzialdiagnose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 27+4 SSW (900 g) wird nach vollständiger Lungenreifeinduktion im Kreißsaal mit CPAP stabilisiert. Nach 2 Stunden benötigt es unter **CPAP 7 cmH2O einen FiO2 von 0,35**. Wann ist nach aktuellem europäischem Konsensus eine **Surfactantgabe** indiziert, welche Präparate und Dosierungen verwenden Sie und wann geben Sie eine Folgedosis?",
+      "hints": [
+        "Der Konsensus nennt eine FiO2-Schwelle unter einem Mindest-CPAP.",
+        "Natürliche (tierische) Präparate werden bevorzugt."
+      ],
+      "answer": "Nach den **European Consensus Guidelines on RDS (2025)** soll Surfactant **früh im Krankheitsverlauf unter nicht-invasiver Atemunterstützung** gegeben werden. Als Protokoll wird vorgeschlagen, Kinder mit zunehmendem RDS zu behandeln, die unter CPAP bzw. einem MAP von **≥ 6 cmH2O einen FiO2 ≥ 0,30** benötigen oder bei denen die **Lungensonographie** einen Surfactantbedarf anzeigt; bei Kindern < 28 SSW mit frühen RDS-Zeichen kann nach Stabilisierung sogar eine selektive Prophylaxe in der ersten Lebensstunde erwogen werden. Dieses Kind erfüllt die Kriterien eindeutig – Surfactant also sofort, bevorzugt über einen dünnen Katheter (**LISA**), solange es suffizient spontan atmet.\n\nEmpfohlen werden **natürliche (tierische) Surfactants**, z. B. **Poractant alfa (Curosurf, 80 mg/ml) 200 mg/kg** als Initialdosis (der 100-mg/kg-Dosis überlegen) oder Beractant (Survanta) 100 mg/kg bzw. Bovactant (Alveofact) 50 mg/kg. Eine **zweite, gelegentlich dritte Dosis** (z. B. Poractant 100 mg/kg) ist indiziert, wenn weiterhin Zeichen eines RDS mit anhaltendem bzw. steigendem Sauerstoffbedarf bestehen. Eine generelle prophylaktische Intubation zur Surfactantgabe wird nicht mehr empfohlen.",
+      "keyPoints": [
+        "Indikation: RDS mit FiO2 ≥ 0,30 unter CPAP/MAP ≥ 6 cmH2O oder Surfactantbedarf in der Lungensonographie (European Consensus 2025)",
+        "frühe Gabe, bevorzugt per LISA bei Spontanatmung",
+        "natürliches Surfactant, Poractant alfa 200 mg/kg initial",
+        "Folgedosis bei persistierendem RDS (z. B. 100 mg/kg)",
+        "keine routinemäßige prophylaktische Intubation"
+      ],
+      "tags": ["Surfactant", "Atemnotsyndrom", "Indikation"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "atem-006",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Surfactanttherapie** entspricht den European Consensus Guidelines on RDS (2025)?",
+      "hints": ["Eine Aussage betrifft die Dosierung von Poractant alfa."],
+      "options": [
+        {
+          "text": "Eine Initialdosis von 200 mg/kg Poractant alfa ist 100 mg/kg Poractant alfa oder Beractant überlegen.",
+          "correct": true
+        },
+        {
+          "text": "Alle Frühgeborenen < 30 SSW sollen im Kreißsaal prophylaktisch intubiert und mit Surfactant behandelt werden.",
+          "correct": false
+        },
+        {
+          "text": "Synthetische, proteinfreie Surfactants sind den natürlichen Präparaten überlegen.",
+          "correct": false
+        },
+        {
+          "text": "Eine zweite Surfactantdosis ist grundsätzlich nicht wirksam und soll vermieden werden.",
+          "correct": false
+        },
+        { "text": "Surfactant soll erst ab einem FiO2 > 0,60 gegeben werden.", "correct": false }
+      ],
+      "answer": "Richtig ist, dass 200 mg/kg Poractant alfa als Initialdosis besser wirkt als 100 mg/kg Poractant oder Beractant. Die Konsensus-Empfehlung lautet: primär nicht-invasive Atemunterstützung (CPAP oder NIPPV), Surfactant frühzeitig (z. B. bei FiO2 ≥ 0,30 unter CPAP ≥ 6 cmH2O oder nach Lungensonographie), bevorzugt natürliche Präparate, bei persistierendem RDS zweite (gelegentlich dritte) Dosis. Eine prophylaktische Intubation aller Frühgeborenen ist überholt (erwogen wird allenfalls eine selektive LISA-Prophylaxe bei < 28 SSW mit frühen RDS-Zeichen).",
+      "keyPoints": [
+        "Poractant alfa 200 mg/kg initial überlegen",
+        "natürliche Surfactants bevorzugt",
+        "Schwelle FiO2 ≥ 0,30 bei CPAP ≥ 6 cmH2O",
+        "Folgedosen bei persistierendem RDS"
+      ],
+      "tags": ["Surfactant", "Leitlinie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "atem-007",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **860 g** soll eine Initialdosis **Poractant alfa (Curosurf, 80 mg/ml) von 200 mg/kg** erhalten. Wie viele Milliliter ziehen Sie auf?",
+      "hints": ["Erst die Dosis in mg berechnen.", "Dann durch die Konzentration teilen."],
+      "answer": "Dosis: 0,86 kg · 200 mg/kg = 172 mg. Volumen: 172 mg / 80 mg/ml = **2,15 ml** (entspricht 2,5 ml/kg).",
+      "keyPoints": ["Dosis 172 mg", "Konzentration 80 mg/ml", "Volumen ≈ 2,15 ml"],
+      "solution": { "value": 2.15, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Surfactant", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-008",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **1450 g** hat 12 Stunden nach der ersten Surfactantgabe weiterhin einen FiO2 von 0,45. Sie geben eine Folgedosis **Poractant alfa (80 mg/ml) mit 100 mg/kg**. Wie viele Milliliter benötigen Sie?",
+      "hints": ["100 mg/kg entsprechen 1,25 ml/kg."],
+      "answer": "Dosis: 1,45 kg · 100 mg/kg = 145 mg. Volumen: 145 mg / 80 mg/ml ≈ **1,81 ml**.",
+      "keyPoints": ["Dosis 145 mg", "Volumen ≈ 1,8 ml"],
+      "solution": { "value": 1.81, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Surfactant", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **Durchführung einer LISA** (Less Invasive Surfactant Administration) bei einem spontan atmenden Frühgeborenen unter CPAP – von der Vorbereitung bis zur Nachbeobachtung.",
+      "hints": [
+        "Das Kind bleibt am CPAP und atmet weiter spontan.",
+        "Welches Instrument, welcher Katheter, wie wird appliziert?"
+      ],
+      "answer": "**Voraussetzungen:** suffiziente Spontanatmung unter CPAP, Indikation zur Surfactantgabe, erfahrenes Team, Monitoring (SpO2, Herzfrequenz), Beatmungsbeutel/Intubationsbereitschaft. Koffein ist meist bereits gegeben. Ob und womit prämediziert wird (keine Sedierung vs. niedrig dosiertes Propofol oder Opioid), ist **zentrumsabhängig**; die Evidenz ist uneinheitlich, Sedierung erhöht das Risiko von Apnoen und Maskenbeatmung.\n\n**Durchführung:** CPAP über Prongs/Maske läuft weiter. Unter Laryngoskopie (bevorzugt Videolaryngoskop) wird ein **dünner Katheter** (z. B. Magensonde oder spezieller LISA-Katheter, ggf. mit Magill-Zange geführt) nur ca. 1–2 cm unter die Stimmbänder vorgeschoben (Tiefe je nach Gestationsalter und Methode, zentrumsabhängig), Laryngoskop entfernen, Katheter an der Lippe fixieren. Surfactant wird in **kleinen Portionen über meist ca. 1–3 Minuten** (zentrumsabhängig) synchron zur Spontanatmung appliziert, danach Katheter entfernen.\n\n**Komplikationen und Nachsorge:** Bradykardie/Desaturation (Pause, ggf. kurze Maskenbeatmung), Surfactantreflux, Apnoe. Danach CPAP fortführen, FiO2 rasch reduzieren (Hyperoxie vermeiden), Überwachung auf Pneumothorax.",
+      "keyPoints": [
+        "Spontanatmung unter fortgeführtem CPAP",
+        "dünner Katheter unter Laryngoskopie knapp unter die Stimmbänder",
+        "fraktionierte, langsame Applikation über einige Minuten",
+        "Prämedikation zentrumsabhängig, Evidenz uneinheitlich",
+        "Komplikationen: Bradykardie, Desaturation, Reflux; danach FiO2 reduzieren"
+      ],
+      "tags": ["LISA", "Surfactant", "Technik"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "atem-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Diskutieren Sie die Methoden der Surfactantapplikation (**LISA/MIST, INSURE, Intubation mit Beatmung**): Welche Vorteile hat LISA, was sagt die Evidenz, und in welchen Situationen wählen Sie eine andere Applikationsform?",
+      "hints": [
+        "Denken Sie an den kombinierten Endpunkt „Tod oder BPD“.",
+        "Was macht man mit einem Kind, das nicht suffizient atmet?"
+      ],
+      "answer": "**LISA/MIST** vermeidet Intubation und Überdruckbeatmung; der Surfactant wird unter fortgesetzter Spontanatmung und CPAP verabreicht. Metaanalysen randomisierter Studien zeigen im Vergleich zu INSURE bzw. Gabe über Tubus eine **Reduktion von Tod oder BPD** und eine geringere Rate an mechanischer Beatmung; in der OPTIMIST-A-Studie (25–28 SSW) war die BPD-Rate bei Überlebenden niedriger, der kombinierte Endpunkt Tod oder BPD jedoch nicht signifikant verschieden. Die European Consensus Guidelines 2025 nennen die Gabe über einen dünnen Katheter (LISA, möglichst mit Videolaryngoskop) als **bevorzugten Applikationsweg** für spontan atmende Frühgeborene; bei Kindern < 28 SSW mit frühen RDS-Zeichen kann eine selektive LISA-Prophylaxe in der ersten Lebensstunde erwogen werden. Bei größeren Kindern ist auch die Gabe über eine Larynxmaske möglich.\n\n**INSURE** (Intubation, Surfactant, rasche Extubation) ist eine Alternative, wenn LISA nicht beherrscht wird oder das Kind kurzfristig beatmet werden muss.\n\n**Intubation mit Beatmung** wähle ich bei insuffizienter Spontanatmung bzw. rezidivierenden Apnoen trotz Koffein und Maskenbeatmung, bei Reanimation, schwerer respiratorischer Azidose, Schock oder wenn das Kind ohnehin intubiert ist (dann Surfactant über den Tubus).",
+      "keyPoints": [
+        "LISA: Surfactant ohne Intubation/Überdruckbeatmung",
+        "Evidenz: weniger Beatmung, Reduktion von Tod oder BPD in Metaanalysen",
+        "Konsensus 2025: dünner Katheter (LISA) bevorzugter Weg bei Spontanatmung",
+        "INSURE als Alternative",
+        "Intubation bei insuffizienter Atmung, Apnoen, Reanimation, Schock"
+      ],
+      "tags": ["LISA", "INSURE", "Surfactant"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "atem-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Komplikationen** können während und nach einer Surfactantgabe auftreten, und wie beugen Sie ihnen vor bzw. reagieren darauf?",
+      "hints": [
+        "Akut während der Gabe – und in den Stunden danach durch die rasche Compliance-Änderung.",
+        "Auch der Ductus arteriosus spielt eine Rolle."
+      ],
+      "answer": "**Akut während der Gabe:** Bradykardie und Desaturation durch vorübergehende Atemwegsverlegung, Tubus- bzw. Katheterobstruktion, Surfactantreflux, Apnoe. Reaktion: Applikation pausieren, ggf. kurzzeitig Beutel- bzw. Maskenbeatmung, FiO2 anpassen.\n\n**Nach der Gabe:** Durch die rasche Verbesserung der Compliance drohen **Überblähung, Volutrauma, Hypokapnie und Pneumothorax** – bei beatmeten Kindern daher volumengarantierte Beatmung bzw. zügige Reduktion von Spitzendruck und FiO2, engmaschige BGA. **Hyperoxie** vermeiden (SpO2-Zielbereich einhalten). Der Abfall des pulmonalen Gefäßwiderstands kann den Links-rechts-Shunt über einen offenen Ductus verstärken und eine **Lungenblutung** (hämorrhagisches Lungenödem) begünstigen.",
+      "keyPoints": [
+        "akut: Bradykardie, Desaturation, Obstruktion, Reflux",
+        "danach: rasche Compliance-Zunahme – Überblähung, Pneumothorax, Hypokapnie",
+        "Beatmungsdruck/FiO2 zügig anpassen, VG-Beatmung",
+        "Hyperoxie vermeiden",
+        "verstärkter Ductus-Shunt, Lungenblutung"
+      ],
+      "tags": ["Surfactant", "Komplikationen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-012",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei welchen Erkrankungen jenseits des primären Atemnotsyndroms wird Surfactant eingesetzt, und wie ist die Evidenzlage jeweils einzuschätzen?",
+      "hints": ["Sekundärer Surfactantmangel bzw. Surfactantinaktivierung.", "Mekonium, Blut, Infektion."],
+      "answer": "Bei **sekundärer Surfactantinaktivierung oder -schädigung**:\n- **Mekoniumaspirationssyndrom:** Bolus-Surfactant verbessert die Oxygenierung und reduziert laut Cochrane-Analyse den ECMO-Bedarf; eine Lavage mit verdünntem Surfactant ist nicht als Standard etabliert.\n- **Pneumonie/Sepsis** (z. B. GBS): Surfactant kann die Oxygenierung verbessern, Evidenz begrenzt.\n- **Lungenblutung:** Blut inaktiviert Surfactant; Gabe wird häufig erwogen, Evidenz nur aus Fallserien.\n- **ARDS-ähnliche Bilder** bei reifen Neugeborenen: Einzelfallentscheidung.\n\nBei **kongenitaler Zwerchfellhernie** wird Surfactant nicht routinemäßig empfohlen. Bei **genetischen Surfactantdefekten** (SP-B, ABCA3) bringt exogener Surfactant allenfalls eine vorübergehende Besserung.",
+      "keyPoints": [
+        "MAS: Bolus-Surfactant reduziert ECMO-Bedarf, Lavage kein Standard",
+        "Pneumonie/Sepsis und Lungenblutung: Gabe möglich, Evidenz begrenzt",
+        "CDH: nicht routinemäßig",
+        "genetische Surfactantdefekte: nur passagerer Effekt"
+      ],
+      "tags": ["Surfactant", "Mekoniumaspiration", "Lungenblutung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ]
+    },
+    {
+      "id": "atem-013",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes (38+5 SSW) nach **primärer Sectio** zeigt ab der 1. Lebensstunde eine Tachypnoe von 80/min mit leichten Einziehungen, FiO2-Bedarf 0,25. Sie vermuten eine **transitorische Tachypnoe (TTN)**. Erläutern Sie Pathophysiologie, Röntgenbefund, Verlauf und Therapie.",
+      "hints": [
+        "Was passiert normalerweise mit der fetalen Lungenflüssigkeit unter der Geburt?",
+        "Wie lange dauert der typische Verlauf?"
+      ],
+      "answer": "**Pathophysiologie:** Verzögerte Resorption der fetalen Lungenflüssigkeit. Unter Wehen und Katecholaminausschüttung wird normalerweise die Natriumresorption über epitheliale Natriumkanäle (ENaC) aktiviert; bei Sectio ohne Wehen, später Frühgeburt, mütterlichem Diabetes oder Asphyxie bleibt dies teilweise aus.\n\n**Röntgen:** perihiläre streifige Zeichnung, **Flüssigkeit in den Interlobärspalten**, ggf. kleine Pleuraergüsse, normales oder vermehrtes Lungenvolumen (Überblähung).\n\n**Verlauf:** gutartig, Besserung meist innerhalb von 24–72 Stunden. **Therapie:** supportiv – Sauerstoff nach SpO2-Ziel, bei Bedarf CPAP, Nahrung nach Atemfrequenz ggf. per Sonde. Diuretika sind nicht wirksam. Wichtig ist die Abgrenzung von Pneumonie/Sepsis, RDS, Pneumothorax und PPHN – bei zunehmendem O2-Bedarf oder fehlender Besserung weitere Diagnostik.",
+      "keyPoints": [
+        "verzögerte Resorption der Lungenflüssigkeit (ENaC)",
+        "Risikofaktoren: Sectio ohne Wehen, späte Frühgeburt, Diabetes",
+        "Röntgen: Flüssigkeit in Fissuren, perihiläre Streifen, Überblähung",
+        "selbstlimitierend in 24–72 h, supportive Therapie, ggf. CPAP",
+        "Diuretika unwirksam; DD Infektion, RDS, PPHN, Pneumothorax"
+      ],
+      "tags": ["Transitorische Tachypnoe", "Reifgeborene"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "atem-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **Pathophysiologie des Mekoniumaspirationssyndroms (MAS)** und das intensivmedizinische Management eines reifen Neugeborenen mit schwerem MAS.",
+      "hints": [
+        "Es gibt mehrere Mechanismen: mechanisch, chemisch, Surfactant, Gefäße.",
+        "Häufige Begleitkomplikation ist eine pulmonale Hypertonie."
+      ],
+      "answer": "**Pathophysiologie:** Intrauterine Hypoxie führt zu Mekoniumabgang und Schnappatmung. Mekonium bewirkt\n- **Atemwegsobstruktion** (komplett: Atelektasen; partiell: Ventilmechanismus mit Air-Trapping, Überblähung, **Pneumothorax**),\n- **chemische Pneumonitis** mit Entzündung,\n- **Surfactantinaktivierung**,\n- häufig eine **PPHN** mit Rechts-links-Shunt.\n\n**Röntgen:** grobfleckige, asymmetrische Verdichtungen neben überblähten Arealen, ggf. Air-Leak.\n\n**Management:** Oxygenierung nach präduktaler SpO2, Atemunterstützung (CPAP, bei Bedarf Intubation und Beatmung, bei Versagen HFOV), **Surfactant-Bolus** erwägen, Analgosedierung (Agitation verstärkt PPHN), Kreislaufunterstützung zur Aufrechterhaltung des Systemdrucks, Korrektur von Azidose, Hypoglykämie und Hypothermie (sofern keine therapeutische Hypothermie bei HIE). Echokardiographie zur PPHN-Diagnostik, bei PPHN **iNO**; bei Therapieversagen (OI > 40) frühzeitig Kontakt zum **ECMO-Zentrum**. Antibiotika nur bei Infektionsverdacht bzw. Risikofaktoren – in der Praxis wird oft bis zum Ausschluss einer Infektion behandelt.",
+      "keyPoints": [
+        "Obstruktion mit Ventilmechanismus, Air-Trapping, Pneumothorax",
+        "chemische Pneumonitis und Surfactantinaktivierung",
+        "PPHN als häufige Komplikation",
+        "Beatmung/HFOV, Surfactant-Bolus, Sedierung, Kreislauf",
+        "iNO bei PPHN, ECMO bei Therapieversagen"
+      ],
+      "tags": ["Mekoniumaspiration", "PPHN", "Reifgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.7 – Mekoniumaspirationssyndrom",
+          "terms": ["Mekoniumaspiration"]
+        }
+      ]
+    },
+    {
+      "id": "atem-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 31+2 SSW nach vorzeitigem Blasensprung vor 4 Tagen entwickelt postnatal eine zunehmende Atemstörung. Das Röntgenbild zeigt eine feingranuläre Zeichnung mit Aerobronchogramm. Warum dürfen Sie sich nicht auf die Diagnose „RDS“ beschränken, und welches Vorgehen ist angemessen?",
+      "hints": ["Welche Infektion kann radiologisch wie ein RDS aussehen?"],
+      "answer": "Eine **konnatale Pneumonie**, insbesondere durch **Streptokokken der Gruppe B**, ist radiologisch oft **nicht von einem RDS zu unterscheiden**. Bei vorzeitigem Blasensprung und Frühgeburt besteht ein relevantes Risiko für eine Early-onset-Infektion. Weitere Hinweise wären mütterliches Fieber, Amnioninfektionssyndrom, Kreislaufinstabilität, Apnoen oder erhöhte Entzündungsparameter (IL-6/CRP).\n\n**Vorgehen:** Atemunterstützung wie beim RDS (CPAP, ggf. Surfactant), parallel **Blutkultur** und Entzündungsparameter und **kalkulierte antibiotische Therapie** (z. B. Ampicillin plus Gentamicin nach lokalem Standard). Reevaluation nach 24–48 Stunden (zentrumsabhängig): Bei negativer Blutkultur und unauffälligem Verlauf Antibiotika beenden (Antibiotic Stewardship).",
+      "keyPoints": [
+        "GBS-Pneumonie radiologisch nicht vom RDS unterscheidbar",
+        "Risikofaktoren: Blasensprung, AIS, mütterliches Fieber",
+        "Blutkultur, Entzündungsparameter, kalkulierte Antibiose",
+        "Reevaluation nach 24–48 h, Antibiotika ggf. beenden"
+      ],
+      "tags": ["Pneumonie", "Differenzialdiagnose", "GBS"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "atem-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein beatmetes Frühgeborenes der 29 SSW verschlechtert sich plötzlich: SpO2-Abfall auf 60 %, Bradykardie, einseitig abgeschwächtes Atemgeräusch, Thoraxasymmetrie. Wie gehen Sie diagnostisch und therapeutisch bei Verdacht auf einen **Pneumothorax** vor?",
+      "hints": ["Bei Spannungspneumothorax keine Zeit für Röntgen.", "Welche Bedside-Methoden gibt es?"],
+      "answer": "Bei klinischem Verdacht auf einen **Spannungspneumothorax** mit Kreislaufbeeinträchtigung handele ich sofort: Zunächst DOPE-Ursachen kurz ausschließen (Tubuslage, Obstruktion, Gerät). Bedside-Diagnostik: **Kaltlicht-Transillumination**, **Lungensonographie** (fehlendes Lungengleiten, fehlende B-Linien, Lungenpunkt beweisend) – nur wenn sie die Therapie nicht verzögert.\n\n**Notfallentlastung** mit Venenverweilkanüle bzw. Butterfly und Dreiwegehahn/Spritze im **2. ICR medioklavikulär** oder im **4./5. ICR vordere Axillarlinie** (am Oberrand der Rippe). Danach Anlage einer **Thoraxdrainage** (z. B. Pigtail) mit Sog nach lokalem Standard, Röntgenkontrolle.\n\nBei kleinem, asymptomatischem Pneumothorax bei nicht beatmeten reifen Kindern ist abwartendes Vorgehen möglich; Hyperoxie zur „Stickstoffauswaschung“ wird wegen der O2-Toxizität nicht empfohlen. Ursachen bei Beatmeten: zu hohe Tidalvolumina, fehlende Anpassung nach Surfactant, Gegenatmen – Beatmungseinstellung überprüfen.",
+      "keyPoints": [
+        "Spannungspneumothorax: sofortige Entlastung ohne Röntgen",
+        "Transillumination, Lungensonographie (Lungenpunkt)",
+        "Punktion 2. ICR MCL oder 4./5. ICR vordere Axillarlinie",
+        "anschließend Thoraxdrainage",
+        "keine Hyperoxie-Therapie; Beatmung überprüfen"
+      ],
+      "tags": ["Pneumothorax", "Air-Leak", "Notfall"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "atem-017",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welches Vorgehen ist bei einem **Spannungspneumothorax** eines beatmeten Neugeborenen mit Bradykardie korrekt?",
+      "hints": ["Zeit ist der entscheidende Faktor."],
+      "options": [
+        {
+          "text": "Sofortige Nadeldekompression im 2. ICR medioklavikulär oder 4./5. ICR vordere Axillarlinie, danach Thoraxdrainage",
+          "correct": true
+        },
+        { "text": "Zunächst Röntgen-Thorax zur Bestätigung, dann Thoraxdrainage", "correct": false },
+        { "text": "FiO2 auf 1,0 erhöhen und den Spontanverlauf abwarten (Stickstoffauswaschung)", "correct": false },
+        { "text": "Punktion im 2. ICR direkt parasternal", "correct": false },
+        { "text": "PEEP erhöhen, um die Lunge wieder zu entfalten", "correct": false }
+      ],
+      "answer": "Ein Spannungspneumothorax mit Kreislaufbeeinträchtigung erfordert die **sofortige Entlastung** ohne Röntgenbestätigung, in der Medioklavikularlinie (2. ICR) oder vorderen Axillarlinie (4./5. ICR), gefolgt von einer Thoraxdrainage. Parasternal droht die Verletzung der A. thoracica interna; PEEP-Erhöhung verschlimmert den Spannungszustand.",
+      "keyPoints": [
+        "sofortige Nadeldekompression ohne Röntgenverzögerung",
+        "Punktionsorte 2. ICR MCL bzw. 4./5. ICR vordere Axillarlinie",
+        "parasternal Gefahr für A. thoracica interna"
+      ],
+      "tags": ["Pneumothorax", "Notfall"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "atem-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein beatmetes Frühgeborenes der 25 SSW zeigt am 4. Lebenstag im Röntgenbild zahlreiche kleine **zystische und streifige, vom Hilus radiär ausgehende Aufhellungen** im rechten Lungenflügel bei steigendem Beatmungsbedarf. Welche Diagnose stellen Sie, und wie passen Sie die Therapie an?",
+      "hints": [
+        "Luft hat die Alveolen verlassen, aber nicht die Lunge.",
+        "Die Beatmungsstrategie muss den mittleren Atemwegsdruck und die Tidalvolumina begrenzen."
+      ],
+      "answer": "Es handelt sich um ein **pulmonales interstitielles Emphysem (PIE)**: Luft ist aus rupturierten Alveolen ins Interstitium und entlang der perivaskulären Lymphscheiden getreten. Risikofaktoren sind extreme Unreife, RDS, Beatmung mit hohen Drücken/Volumina. PIE kann in Pneumothorax oder Pneumomediastinum übergehen und ist mit BPD und erhöhter Mortalität assoziiert.\n\n**Management:**\n- Beatmungsdrücke und Tidalvolumina auf das Minimum reduzieren, kurze Inspirationszeit, permissive Hyperkapnie akzeptieren;\n- Wechsel auf **Hochfrequenzoszillation** (Ziel: Oxygenierung mit möglichst niedrigem MAP) erwägen;\n- bei einseitigem PIE **Seitenlagerung auf die betroffene Seite**, in schweren Fällen selektive Intubation des kontralateralen Hauptbronchus;\n- engmaschige Kontrolle auf Pneumothorax.",
+      "keyPoints": [
+        "Diagnose: pulmonales interstitielles Emphysem",
+        "Risiko: Unreife, Beatmung mit hohen Drücken/Volumina",
+        "Drücke/VT minimieren, kurze Ti, permissive Hyperkapnie",
+        "HFOV erwägen",
+        "Lagerung auf betroffene Seite, ggf. selektive Intubation"
+      ],
+      "tags": ["Air-Leak", "PIE", "Röntgen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "atem-019",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Wie unterscheiden Sie im Röntgen-Thorax ein **Pneumomediastinum**, ein **Pneumoperikard** und einen **ventralen Pneumothorax** in Rückenlage, und welche therapeutischen Konsequenzen ergeben sich?",
+      "hints": ["Denken Sie an den Thymus.", "Welche Grenze hat der Herzbeutel an den großen Gefäßen?"],
+      "answer": "- **Pneumomediastinum:** Luft hebt den Thymus vom Herzen ab („Spinnaker-“ bzw. „Engelsflügelzeichen“); Luft reicht über die großen Gefäße nach kranial. Meist ohne hämodynamische Relevanz, eine Drainage ist in der Regel nicht nötig.\n- **Pneumoperikard:** Luftsaum umgibt das Herz **vollständig, auch an der Zwerchfellseite**, endet aber an der Umschlagfalte der großen Gefäße. Gefahr der **Perikardtamponade** (Bradykardie, Hypotonie, niedrige Amplituden) – dann subxiphoidale Perikardpunktion.\n- **Ventraler Pneumothorax** in Rückenlage: einseitig vermehrte Transparenz, auffallend scharfe Herz- und Zwerchfellkontur, tiefer kostophrenischer Winkel („Deep-sulcus-Zeichen“); ggf. Seitenaufnahme mit horizontalem Strahlengang oder Sonographie. Therapie je nach Klinik: Beobachtung oder Drainage.",
+      "keyPoints": [
+        "Pneumomediastinum: abgehobener Thymus (Spinnaker-Zeichen), meist keine Drainage",
+        "Pneumoperikard: Luft umgibt Herz komplett, endet an großen Gefäßen",
+        "Tamponadegefahr – Perikardpunktion",
+        "ventraler Pneumothorax: Hypertransparenz, scharfe Herzkontur, Deep-sulcus-Zeichen"
+      ],
+      "tags": ["Röntgen", "Air-Leak"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.5 – Pneumothorax des Neugeborenen",
+          "terms": ["Pneumothorax"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.10 – Thoraxdrainage",
+          "terms": ["Thoraxdrainage"]
+        }
+      ]
+    },
+    {
+      "id": "atem-020",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Definieren Sie die **Apnoe des Frühgeborenen**, nennen Sie die Apnoeformen und erläutern Sie, warum es sich um eine **Ausschlussdiagnose** handelt.",
+      "hints": ["Dauer der Atempause bzw. Begleitsymptome.", "Zentral, obstruktiv – und?"],
+      "answer": "**Definition:** Atempause von **≥ 20 Sekunden** oder kürzere Atempausen mit **Bradykardie** und/oder **Sättigungsabfall** (Grenzwerte je nach Zentrum, z. B. Herzfrequenz < 80–100/min, SpO2 < 80–85 %). Ursache ist die Unreife der zentralen Atemregulation; Häufigkeit und Schwere nehmen mit abnehmendem Gestationsalter zu. Abzugrenzen ist die periodische Atmung (kurze Pausen ohne relevante Folgen).\n\n**Formen:** zentral (fehlender Atemantrieb), obstruktiv (Atembemühung gegen verschlossenen oberen Atemweg) und **gemischt** – die häufigste Form (etwa die Hälfte).\n\n**Ausschlussdiagnose**, weil Apnoen Symptom zahlreicher Erkrankungen sein können: **Sepsis/Meningitis**, NEC, Hirnblutung, Krampfanfälle, Hypoglykämie, Elektrolytstörungen, Anämie, Temperaturinstabilität, Atemwegsobstruktion (Lagerung, Sekret), Medikamente (Opioide, Sedativa, PGE1, mütterliches Magnesium). Neu auftretende oder plötzlich zunehmende Apnoen erfordern daher eine Abklärung, insbesondere auf Infektion.",
+      "keyPoints": [
+        "Atempause ≥ 20 s oder kürzer mit Bradykardie/Desaturation",
+        "zentral, obstruktiv, gemischt (häufigste Form)",
+        "Ausschlussdiagnose",
+        "DD: Sepsis, NEC, IVH, Krampfanfälle, Hypoglykämie, Anämie, Temperatur, Medikamente",
+        "neu auftretende Apnoen: Infektionsabklärung"
+      ],
+      "tags": ["Apnoe", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "atem-021",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Apnoeform ist beim Frühgeborenen am **häufigsten**?",
+      "hints": ["Es ist eine Kombination."],
+      "options": [
+        { "text": "Gemischte Apnoe", "correct": true },
+        { "text": "Rein zentrale Apnoe", "correct": false },
+        { "text": "Rein obstruktive Apnoe", "correct": false },
+        { "text": "Reflexapnoe durch gastroösophagealen Reflux", "correct": false }
+      ],
+      "answer": "Am häufigsten sind **gemischte Apnoen**, bei denen eine zentrale Atempause mit einer obstruktiven Komponente (Kollaps des Pharynx) kombiniert ist – etwa die Hälfte aller Apnoen. Ein kausaler Zusammenhang zwischen Reflux und Apnoen ist nicht belegt.",
+      "keyPoints": ["gemischte Apnoe am häufigsten", "Kombination zentral und obstruktiv", "Reflux als Ursache nicht belegt"],
+      "tags": ["Apnoe"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "atem-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie den Einsatz von **Koffein** beim Frühgeborenen: Wirkmechanismus, Indikationen, Dosierung, Nebenwirkungen und Absetzen.",
+      "hints": [
+        "Koffein ist ein Adenosinrezeptor-Antagonist.",
+        "Achten Sie darauf, ob die Dosis als Coffeincitrat oder als Coffein-Base angegeben ist."
+      ],
+      "answer": "**Wirkung:** Methylxanthin, **Adenosinrezeptor-Antagonist** – steigert den zentralen Atemantrieb und die CO2-Empfindlichkeit, verbessert die Zwerchfellkontraktilität.\n\n**Indikationen:** Apnoe des Frühgeborenen, frühe (prophylaktische) Gabe bei Frühgeborenen < 32 SSW sowie zur **Erleichterung der Extubation** und BPD-Prävention (European Consensus 2025).\n\n**Dosierung (als Coffeincitrat):** Aufsättigung **20 mg/kg**, Erhaltung **5–10 mg/kg/d** einmal täglich (entspricht der Hälfte als Coffein-Base); höhere Dosierungen werden in einigen Zentren verwendet, sind aber bezüglich Sicherheit weniger gut belegt. Wegen der großen therapeutischen Breite sind Spiegelkontrollen selten nötig (Halbwertszeit beim Frühgeborenen sehr lang, ca. 3–4 Tage).\n\n**Nebenwirkungen:** Tachykardie, Unruhe, Fütterungsprobleme, erhöhter Energieumsatz mit vorübergehend geringerer Gewichtszunahme.\n\n**Absetzen:** meist um 33–35 SSW korrigiert, wenn mehrere Tage keine relevanten Apnoen aufgetreten sind; danach noch etwa 5–7 Tage Monitorüberwachung vor Entlassung (zentrumsabhängig), da die Wirkung nachklingt.",
+      "keyPoints": [
+        "Adenosinrezeptor-Antagonist, zentraler Atemantrieb",
+        "Indikationen: Apnoen, prophylaktisch < 32 SSW, vor Extubation",
+        "Coffeincitrat 20 mg/kg Aufsättigung, 5–10 mg/kg/d Erhaltung",
+        "NW: Tachykardie, Unruhe, geringere Gewichtszunahme",
+        "Absetzen ca. 33–35 SSW, danach Überwachung"
+      ],
+      "tags": ["Koffein", "Apnoe"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "atem-023",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit **1150 g** soll eine Aufsättigung mit **20 mg/kg Coffeincitrat** erhalten. Die Lösung enthält **20 mg/ml Coffeincitrat**. Wie viele Milliliter geben Sie?",
+      "hints": ["Dosis = Gewicht · 20 mg/kg."],
+      "answer": "Dosis: 1,15 kg · 20 mg/kg = 23 mg Coffeincitrat. Volumen: 23 mg / 20 mg/ml = **1,15 ml** (entspricht 11,5 mg Coffein-Base).",
+      "keyPoints": ["Dosis 23 mg Coffeincitrat", "Volumen 1,15 ml", "Coffeincitrat ≠ Coffein-Base (Faktor 2)"],
+      "solution": { "value": 1.15, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Koffein", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "atem-024",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welches Ergebnis der **CAP-Studie** (Caffeine for Apnea of Prematurity) zu Koffein bei Frühgeborenen von 500–1250 g ist korrekt?",
+      "hints": ["Ein pulmonales und ein neurologisches Ergebnis."],
+      "options": [
+        {
+          "text": "Weniger BPD und seltener Tod oder neurologische Entwicklungsstörung im Alter von 18–21 Monaten",
+          "correct": true
+        },
+        { "text": "Höhere Rate an NEC in der Koffeingruppe", "correct": false },
+        {
+          "text": "Keine Wirkung auf die Beatmungsdauer, aber weniger ROP-Operationen nur bei Reifgeborenen",
+          "correct": false
+        },
+        { "text": "Erhöhte Mortalität durch Tachyarrhythmien", "correct": false }
+      ],
+      "answer": "In der CAP-Studie reduzierte Koffein die **BPD-Rate**, verkürzte die Beatmungs- und CPAP-Dauer, verringerte die Notwendigkeit einer PDA-Behandlung und senkte den kombinierten Endpunkt **Tod oder neurologische Entwicklungsstörung mit 18–21 Monaten**. Relevante Nebenwirkungen wie NEC oder erhöhte Mortalität traten nicht auf.",
+      "keyPoints": [
+        "weniger BPD und kürzere Atemunterstützung",
+        "weniger PDA-Behandlungen",
+        "bessere Entwicklung mit 18–21 Monaten (Tod oder Behinderung reduziert)"
+      ],
+      "tags": ["Koffein", "Studien"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "atem-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie systematisch die **Differenzialdiagnosen einer Atemstörung beim reifen Neugeborenen** und beschreiben Sie Ihre initiale Basisdiagnostik.",
+      "hints": ["Nicht jede Atemstörung ist pulmonal.", "Kardial, Atemwege, metabolisch, neurologisch, infektiös."],
+      "answer": "**Pulmonal:** transitorische Tachypnoe, RDS (v. a. späte Frühgeborene/Sectio), Mekoniumaspiration, Pneumonie, Pneumothorax, Lungenhypoplasie, Zwerchfellhernie, CPAM, Pleuraerguss/Chylothorax.\n**Kardiovaskulär:** PPHN, angeborene Herzfehler (zyanotisch, Linksobstruktion), Herzinsuffizienz.\n**Obere Atemwege:** Choanalatresie, Pierre-Robin-Sequenz, Laryngomalazie, Stimmbandparese.\n**Systemisch/metabolisch:** Sepsis, metabolische Azidose, Hypoglykämie, Hypothermie, Anämie oder Polyglobulie.\n**Neurologisch/neuromuskulär:** HIE, zentrale Dämpfung (mütterliche Medikamente), neuromuskuläre Erkrankungen, Zwerchfellparese.\n\n**Basisdiagnostik:** klinische Untersuchung inkl. Auskultation von Herz und Lunge, **prä- und postduktale SpO2**, Blutdruck an allen Extremitäten bzw. Femoralispulse, **Blutgasanalyse** mit Laktat und Glukose, Blutbild/CRP/IL-6 und Blutkultur, **Röntgen-Thorax** bzw. Lungensonographie, bei Verdacht auf kardiale Ursache oder PPHN **Echokardiographie**.",
+      "keyPoints": [
+        "pulmonale Ursachen (TTN, RDS, MAS, Pneumonie, PTX, CDH)",
+        "kardial (PPHN, Herzfehler)",
+        "Atemwege, metabolisch, neurologisch, Sepsis",
+        "prä-/postduktale SpO2, BGA, Infektlabor",
+        "Röntgen/Sonographie, Echokardiographie"
+      ],
+      "tags": ["Differenzialdiagnose", "Reifgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "atem-026",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes der **37+3 SSW** nach **elektiver primärer Sectio** (Mutter gesund, GBS negativ) hat mit 3 Stunden unter CPAP 6 cmH2O einen **FiO2 von 0,50**, präduktale SpO2 92 %, postduktale SpO2 82 %. Röntgen: beidseits feingranuläre Verschattung mit Aerobronchogramm. Wie interpretieren Sie die Befunde, und wie gehen Sie vor?",
+      "hints": [
+        "Die Differenz zwischen prä- und postduktaler Sättigung ist wegweisend.",
+        "Elektive Sectio vor 39 SSW ist ein Risikofaktor."
+      ],
+      "answer": "Es besteht ein **RDS des frühen Reifgeborenen nach elektiver Sectio** (Surfactantmangel bzw. fehlende Flüssigkeitsresorption) mit deutlichem FiO2-Bedarf. Die **prä-postduktale SpO2-Differenz von 10 %** zeigt einen Rechts-links-Shunt über den Ductus arteriosus und damit eine beginnende **PPHN**. Eine Infektion ist trotz negativem GBS-Status nicht ausgeschlossen.\n\n**Vorgehen:**\n- Surfactantgabe (Kriterien deutlich erfüllt), bei unzureichender Spontanatmung oder weiter steigendem FiO2 Intubation und Beatmung mit Ziel adäquater Rekrutierung;\n- Ziel-SpO2 präduktal etwa 90–95 %, Hyperoxie und Hypoxie vermeiden, Normokapnie, Azidose korrigieren;\n- **Echokardiographie** (pulmonaler Druck, Shuntrichtung, Ventrikelfunktion, Ausschluss Herzfehler), arterielle BGA, Oxygenierungsindex berechnen;\n- Blutkultur, Entzündungsparameter, kalkulierte Antibiose bis Ausschluss einer Infektion;\n- Kreislaufstabilisierung, Analgosedierung, minimal handling;\n- bei bestätigter PPHN und ausreichender Rekrutierung **iNO**, bei Progression frühzeitig ECMO-Zentrum kontaktieren.",
+      "keyPoints": [
+        "RDS des Reifgeborenen nach elektiver Sectio",
+        "prä-/postduktale Differenz: PPHN mit Shunt über Ductus",
+        "Surfactant, ggf. Intubation und Rekrutierung",
+        "Echo, arterielle BGA, OI",
+        "Infektionsdiagnostik und Antibiose",
+        "iNO/ECMO-Kontakt bei Progression"
+      ],
+      "tags": ["Reifgeborene", "PPHN", "Surfactant"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    },
+    {
+      "id": "atem-027",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein beatmetes Frühgeborenes der 25+6 SSW hat am 2. Lebenstag nach Surfactantgabe plötzlich **frisches Blut im Tubus**, steigenden FiO2-Bedarf und Kreislaufinstabilität. Welche Diagnose vermuten Sie, welche Ursache ist typisch, und wie behandeln Sie?",
+      "hints": ["Es handelt sich meist um ein hämorrhagisches Lungenödem.", "Welche Rolle spielen PEEP und Ductus?"],
+      "answer": "Wahrscheinlich liegt eine **Lungenblutung** vor, meist ein **hämorrhagisches Lungenödem** infolge eines erhöhten pulmonalen Blutflusses: Nach Surfactantgabe sinkt der pulmonale Widerstand, ein **großer Links-rechts-Shunt über einen PDA** führt zu Lungenödem und Kapillarschaden. Weitere Faktoren: Sepsis, Gerinnungsstörung, Thrombozytopenie, Asphyxie, Hypervolämie.\n\n**Therapie:**\n- **PEEP erhöhen** (bzw. MAP unter HFOV), ggf. Umstellung auf HFOV; Absaugen nur zurückhaltend, um den Tamponadeeffekt nicht zu stören;\n- FiO2 anpassen, Kreislaufstabilisierung, ggf. Transfusion von Erythrozyten, Korrektur der Gerinnung bzw. Thrombozyten;\n- erneute **Surfactantgabe** erwägen (Blut inaktiviert Surfactant; Evidenz nur aus Fallserien);\n- **Echokardiographie** und Behandlung eines hämodynamisch relevanten PDA nach Stabilisierung, Infektionsdiagnostik;\n- Flüssigkeitsbilanz überprüfen.",
+      "keyPoints": [
+        "hämorrhagisches Lungenödem",
+        "Ursache: PDA mit Links-rechts-Shunt nach Surfactant, Sepsis, Gerinnung",
+        "PEEP/MAP erhöhen, ggf. HFOV",
+        "Transfusion, Gerinnung korrigieren",
+        "Surfactant erwägen, Echo und PDA-Management"
+      ],
+      "tags": ["Lungenblutung", "PDA", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "atem-028",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche typischen Befunde der **Lungensonographie** sehen Sie bei Neugeborenen mit Atemstörung, und wofür nutzen Sie die Methode in der Praxis?",
+      "hints": ["A-Linien, B-Linien, Pleuralinie.", "Ein Befund ist für den Pneumothorax beweisend."],
+      "answer": "- **Normal belüftete Lunge:** glatte Pleuralinie mit Lungengleiten und horizontalen **A-Linien**.\n- **RDS:** verdickte, unregelmäßige Pleuralinie, konfluierende **B-Linien** („weiße Lunge“), ggf. kleine subpleurale Konsolidierungen.\n- **TTN:** B-Linien vorwiegend basal bei besser belüfteten oberen Abschnitten („double lung point“ als Hinweis).\n- **Pneumonie/Atelektase:** größere Konsolidierungen mit Aerobronchogramm.\n- **Pneumothorax:** fehlendes Lungengleiten, keine B-Linien, nur A-Linien; der **Lungenpunkt** ist beweisend.\n\n**Einsatz:** strahlenfreie Bedside-Diagnostik zur Differenzierung von Atemstörungen, Verlaufskontrolle, Erkennen von Pneumothorax und Ergüssen. Semiquantitative **Lungen-Ultraschall-Scores** können die Indikation zur Surfactantgabe unterstützen (in den European Consensus Guidelines 2025 als Alternative zur FiO2-Schwelle in den Surfactantkriterien genannt); die Methode ist untersucherabhängig und ersetzt bei unklaren Befunden nicht das Röntgen.",
+      "keyPoints": [
+        "A-Linien normal, B-Linien interstitiell/alveolär",
+        "RDS: weiße Lunge, irreguläre Pleuralinie",
+        "Pneumothorax: kein Lungengleiten, Lungenpunkt beweisend",
+        "LUS-Score zur Surfactantindikation",
+        "untersucherabhängig, strahlenfrei"
+      ],
+      "tags": ["Lungensonographie", "Diagnostik"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "atem-029",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes (40+1 SSW, unauffällige Schwangerschaft) entwickelt ein **schweres, therapierefraktäres RDS-ähnliches Bild** mit nur passagerem Ansprechen auf Surfactant; Infektionsdiagnostik negativ, kein Herzfehler. An welche seltenen Ursachen denken Sie, und wie klären Sie diese ab?",
+      "hints": [
+        "Surfactantproteine und ihre Transporter.",
+        "Es gibt auch eine seltene Gefäßfehlbildung der Lunge mit therapierefraktärer PPHN."
+      ],
+      "answer": "**Genetische Störungen des Surfactantstoffwechsels:**\n- **SP-B-Mangel** (SFTPB, autosomal-rezessiv): schweres, meist letales RDS des Reifgeborenen, kurative Option allenfalls Lungentransplantation;\n- **ABCA3-Defekte** (autosomal-rezessiv): Spektrum von letalem RDS bis zu interstitieller Lungenerkrankung;\n- **SP-C-Defekte** (SFTPC, meist autosomal-dominant/de novo): variable, eher spätere interstitielle Lungenerkrankung;\n- **NKX2-1** (TTF-1): Gehirn-Lunge-Schilddrüse-Syndrom (Hypothyreose, Choreoathetose, Lungenerkrankung).\n\n**Alveolär-kapilläre Dysplasie mit Fehlverlauf der Lungenvenen** (FOXF1): therapierefraktäre PPHN, oft mit gastrointestinalen oder urogenitalen Fehlbildungen, letal.\n\n**Abklärung:** genetische Diagnostik (Gen-Panel bzw. Exom, ggf. Eilanalyse), Familienanamnese/Konsanguinität, Schilddrüsenwerte, CT bei längerem Verlauf; Lungenbiopsie nur in Ausnahmefällen. Frühzeitige Einbindung eines Zentrums mit Erfahrung in pädiatrischer Pneumologie und ehrliche Beratung der Eltern zu Prognose und Therapiezielen.",
+      "keyPoints": [
+        "SP-B-Mangel (meist letal), ABCA3, SP-C",
+        "NKX2-1: Gehirn-Lunge-Schilddrüse",
+        "alveolär-kapilläre Dysplasie (FOXF1) mit refraktärer PPHN",
+        "genetische Diagnostik, ggf. Biopsie",
+        "Elternberatung zu Prognose und Therapiezielen"
+      ],
+      "tags": ["Surfactantdefekte", "Genetik", "Reifgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.3 – Neonatales Atemnotsyndrom/Surfactanttherapie",
+          "terms": ["Atemnotsyndrom", "Surfactant"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.4 – Surfactantgabe",
+          "terms": ["Surfactantgabe", "LISA"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "European Consensus Guidelines RDS 2025",
+          "terms": ["Surfactant", "CPAP"]
+        }
+      ]
+    }
+  ]
+}

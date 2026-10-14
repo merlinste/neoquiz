@@ -1,0 +1,948 @@
+{
+  "area": "infektionen",
+  "questions": [
+    {
+      "id": "inf-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Grenzen Sie die **Early-onset-** von der **Late-onset-Sepsis** des Neugeborenen ab: Zeitpunkt, Übertragungsweg und typisches Erregerspektrum.",
+      "hints": [
+        "Denken Sie an den Übertragungsweg: vertikal oder horizontal?",
+        "Bei sehr kleinen Frühgeborenen dominiert in der späten Form ein Hautkeim."
+      ],
+      "answer": "Die **Early-onset-Sepsis (EOS)** beginnt in den ersten 72 Lebensstunden (für GBS wird epidemiologisch auch die erste Lebenswoche verwendet) und wird vertikal erworben – aszendierend aus dem Genitaltrakt oder intrapartal. Leitkeime sind **Streptokokken der Gruppe B** und **E. coli** (bei Frühgeborenen relativ häufiger), seltener Listerien, Enterokokken, Haemophilus influenzae oder S. aureus. Die **Late-onset-Sepsis (LOS)** tritt nach 72 Stunden auf und ist überwiegend nosokomial bzw. horizontal erworben. Bei Frühgeborenen auf der Intensivstation sind **koagulasenegative Staphylokokken** am häufigsten, daneben S. aureus, gramnegative Enterobacterales (Klebsiella, Enterobacter, Serratia, E. coli), Pseudomonas und Candida. Late-onset-GBS-Infektionen (bis etwa zum 3. Lebensmonat) verlaufen häufig als Meningitis.",
+      "keyPoints": [
+        "EOS ≤ 72 h, vertikal erworben",
+        "EOS: GBS und E. coli führend, Listerien selten",
+        "LOS > 72 h, nosokomial/horizontal",
+        "LOS bei Frühgeborenen: KNS führend, gramnegative Erreger, S. aureus, Candida"
+      ],
+      "tags": ["Neonatale Sepsis", "Erregerspektrum"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021)"
+    },
+    {
+      "id": "inf-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Risikofaktoren** für eine Early-onset-Sepsis kennen Sie, und wie gehen Sie bei einem **klinisch unauffälligen** reifen Neugeborenen mit Risikofaktoren grundsätzlich vor?",
+      "hints": [
+        "Mütterliche und kindliche Faktoren trennen.",
+        "Entscheidend ist die strukturierte klinische Überwachung – nicht das Routinelabor."
+      ],
+      "answer": "Risikofaktoren: mütterliche GBS-Besiedlung bzw. GBS-Bakteriurie, früheres Kind mit GBS-Erkrankung, **Frühgeburtlichkeit**, **Blasensprung ≥ 18 h**, **mütterliches Fieber ≥ 38 °C** unter der Geburt bzw. Verdacht auf Amnioninfektionssyndrom (Triple I), fehlende oder inadäquate intrapartale Antibiotikaprophylaxe, fetale Tachykardie. Beim asymptomatischen reifen Kind steht eine **strukturierte klinische Beobachtung** über mindestens 48 h im Vordergrund (dokumentierte Einschätzung mindestens alle 4 h: Vigilanz und Muskeltonus, Atmung, Temperatur, Hautkolorit/Rekapillarisierung, Trinkverhalten). Routinelabor bei asymptomatischen Kindern hat einen geringen prädiktiven Wert; manche Zentren nutzen Laborscreening oder einen Sepsis-Risikorechner (EOS-Calculator), das Vorgehen ist uneinheitlich. Bei klinischem Verdacht oder klinischer Chorioamnionitis mit Symptomen beim Kind: sofort Blutkultur und kalkulierte Antibiotikatherapie.",
+      "keyPoints": [
+        "GBS-Kolonisation, Frühgeburt, Blasensprung ≥ 18 h, Fieber ≥ 38 °C/Triple I",
+        "Inadäquate intrapartale Prophylaxe",
+        "Asymptomatisch: engmaschige klinische Beobachtung ≥ 48 h (Dokumentation mind. alle 4 h)",
+        "Routinelabor wenig aussagekräftig, Vorgehen zentrumsabhängig",
+        "Symptome → Blutkultur und sofortige Antibiotikatherapie"
+      ],
+      "tags": ["Early-onset-Sepsis", "Risikofaktoren"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021); AWMF S2k-Leitlinie Prophylaxe der Neugeborenensepsis – frühe Form – durch Streptokokken der Gruppe B (Stand 2016)"
+    },
+    {
+      "id": "inf-003",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Aussage zum **GBS-Screening** in der Schwangerschaft entspricht der deutschen Leitlinienempfehlung?",
+      "hints": [
+        "Die Besiedlung kann intermittierend sein – der Zeitpunkt muss nahe am Geburtstermin liegen.",
+        "Es werden zwei Lokalisationen abgestrichen."
+      ],
+      "options": [
+        { "text": "Kultureller Vaginal- und Anorektalabstrich in der 35.–37. SSW", "correct": true },
+        { "text": "Zervixabstrich in der 28. SSW zusammen mit dem Antikörpersuchtest", "correct": false },
+        { "text": "Urinkultur bei stationärer Aufnahme zur Geburt", "correct": false },
+        { "text": "Rektalabstrich nur bei Vorliegen eines vorzeitigen Blasensprungs", "correct": false }
+      ],
+      "answer": "Die deutsche S2k-Leitlinie (AWMF 024-020, Stand 2016; formal abgelaufen und in Überarbeitung) empfiehlt bei allen Schwangeren einen kombinierten kulturellen Abstrich (Selektivmedium) aus **Vaginalintroitus und Anorektum** zwischen **35+0 und 37+0 SSW**, da die Besiedlung intermittierend ist und ein negativer Befund nur etwa fünf Wochen aussagekräftig ist. CDC und ACOG haben das Fenster 2019/2020 auf **36+0–37+6 SSW** verschoben – den Unterschied sollte man im Fachgespräch kennen. Bei positivem Befund erhält die Mutter unter der Geburt eine intrapartale Antibiotikaprophylaxe; eine antibiotische Eradikation vor der Geburt ist nicht wirksam. Eine GBS-Bakteriurie in der Schwangerschaft gilt unabhängig vom Abstrich als Indikation zur Prophylaxe (das Screening ist dann verzichtbar).",
+      "keyPoints": [
+        "Kombinierter Vaginal-(Introitus-) und Anorektalabstrich, Kultur",
+        "Zeitpunkt 35+0–37+0 SSW (AWMF; CDC/ACOG: 36+0–37+6)",
+        "Positiver Befund → intrapartale Antibiotikaprophylaxe",
+        "GBS-Bakteriurie ist eigenständige Indikation"
+      ],
+      "tags": ["GBS-Prophylaxe", "Screening"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.2 – Prophylaxe von Streptokokken-B-Infektionen",
+          "terms": ["GBS-Prophylaxe"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – GBS-Prophylaxe",
+          "terms": ["Streptokokken der Gruppe B"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Prophylaxe der Neugeborenensepsis – frühe Form – durch Streptokokken der Gruppe B (Stand 2016)"
+    },
+    {
+      "id": "inf-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie die Indikationen für eine **intrapartale Antibiotikaprophylaxe gegen GBS** und erläutern Sie, wann die Prophylaxe als **adäquat** gilt.",
+      "hints": [
+        "Neben dem positiven Screening gibt es anamnestische Indikationen.",
+        "Wichtig ist das Zeitintervall bis zur Geburt."
+      ],
+      "answer": "Indikationen: positiver GBS-Abstrich in der 35.–37. SSW, GBS-Bakteriurie in der aktuellen Schwangerschaft, früheres Kind mit invasiver GBS-Erkrankung sowie unbekannter GBS-Status bei Risikofaktoren (Frühgeburt < 37 SSW, Blasensprung ≥ 18 h, Fieber ≥ 38 °C). Mittel der Wahl ist **Penicillin G** i.v. (laut AWMF-Leitlinie initial 5 Mio. IE, dann 2,5 Mio. IE alle 4 h bis zur Geburt; CDC/ACOG: 2,5–3 Mio. IE), alternativ Ampicillin (2 g, dann 1 g alle 4 h); bei Penicillinallergie Cefazolin (2 g, dann 1 g alle 8 h). Clindamycin kommt nur in Betracht, wenn auch eine Cefazolin-Allergie zu befürchten ist, und nur nach Resistenztestung (relevante Clindamycin-/Makrolidresistenzen); international wird bei Resistenz Vancomycin eingesetzt. Als **adäquat** gilt eine Prophylaxe mit Penicillin, Ampicillin oder Cefazolin, die **mindestens 4 Stunden vor der Geburt** begonnen wurde. Ein geplanter Kaiserschnitt ohne Wehen und bei stehender Fruchtblase erfordert keine GBS-Prophylaxe.",
+      "keyPoints": [
+        "Positives Screening, GBS-Bakteriurie, früheres Kind mit GBS-Erkrankung, unbekannter Status mit Risikofaktoren",
+        "Penicillin G Mittel der Wahl",
+        "Adäquat: Beginn ≥ 4 h vor Geburt mit Betalaktam",
+        "Clindamycin/Vancomycin gelten nicht als gleichwertig"
+      ],
+      "tags": ["GBS-Prophylaxe", "Geburtshilfe"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.2 – Prophylaxe von Streptokokken-B-Infektionen",
+          "terms": ["GBS-Prophylaxe"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – GBS-Prophylaxe",
+          "terms": ["Streptokokken der Gruppe B"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Prophylaxe der Neugeborenensepsis – frühe Form – durch Streptokokken der Gruppe B (Stand 2016)"
+    },
+    {
+      "id": "inf-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden auf die Wochenstation gerufen: Reifes Neugeborenes 39+2 SSW, 3400 g, 3 Stunden alt. Die Mutter ist GBS-positiv, Penicillin G wurde **2 Stunden vor der Geburt** begonnen, kein Fieber, Blasensprung 6 h. Das Kind ist rosig, trinkt, Vitalzeichen normal. Wie gehen Sie vor?",
+      "hints": ["War die Prophylaxe adäquat?", "Was braucht ein asymptomatisches reifes Kind wirklich?"],
+      "answer": "Die Prophylaxe war **inadäquat** (Beginn < 4 h vor Geburt), weitere Risikofaktoren liegen nicht vor. Das Kind ist asymptomatisch, daher ist keine Antibiotikatherapie indiziert. Es erfolgt eine **engmaschige klinische Überwachung über mindestens 48 Stunden** mit mindestens alle 4 Stunden dokumentierten Kontrollen von Vigilanz, Muskeltonus, Atmung (Frequenz, Stöhnen, O2-Bedarf), Herzfrequenz, Temperatur, Hautkolorit/Rekapillarisierung und Trinkverhalten; Eltern und Pflege werden über Warnzeichen informiert. Bei Prophylaxebeginn ≤ 4 h vor der Geburt kann laut AWMF-Leitlinie eine Laboruntersuchung (Differenzialblutbild, IL-6/IL-8, CRP) erwogen werden; zwingend ist sie beim asymptomatischen Kind nicht, das Vorgehen ist zentrumsabhängig. Bei jedem Symptom (Tachypnoe, Stöhnen, Temperaturinstabilität, Trinkschwäche, Lethargie) sofort Blutkultur, Labor und kalkulierte Antibiotikatherapie.",
+      "keyPoints": [
+        "Prophylaxe inadäquat (< 4 h)",
+        "Keine Antibiotika beim asymptomatischen Kind",
+        "Engmaschige Beobachtung ≥ 48 h, Dokumentation mind. alle 4 h",
+        "Eltern über Warnzeichen aufklären",
+        "Bei Symptomen sofort Diagnostik und Therapie"
+      ],
+      "tags": ["GBS-Prophylaxe", "Early-onset-Sepsis", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Prophylaxe der Neugeborenensepsis – frühe Form – durch Streptokokken der Gruppe B (Stand 2016)"
+    },
+    {
+      "id": "inf-006",
+      "type": "open",
+      "difficulty": 1,
+      "question": "An welchen **klinischen Zeichen** erkennen Sie eine mögliche Sepsis bei einem Neugeborenen bzw. Frühgeborenen?",
+      "hints": [
+        "Die Zeichen sind unspezifisch – denken Sie an alle Organsysteme.",
+        "Bei Frühgeborenen sind Apnoen und Stoffwechselentgleisungen typische Frühzeichen."
+      ],
+      "answer": "Die Symptome sind **unspezifisch**: Atemstörung (Tachypnoe, Stöhnen, Einziehungen, erhöhter Sauerstoffbedarf), **Apnoen und Bradykardien**, Tachykardie, verlängerte Rekapillarisierungszeit, marmoriertes oder blassgraues Hautkolorit, Hypotension; Temperaturinstabilität (Fieber oder Hypothermie); Lethargie, Hypotonie, Irritabilität, Krampfanfälle; Trinkschwäche, Nahrungsunverträglichkeit, Magenreste, geblähtes Abdomen; **Hypo- oder Hyperglykämie**, metabolische Azidose, erhöhtes Laktat; Ikterus, Petechien. Bei Frühgeborenen ist ein neu aufgetretener oder vermehrter Bedarf an Atemunterstützung oft das erste Zeichen. Das Bauchgefühl der Pflege („Das Kind gefällt mir nicht“) ist ernst zu nehmen.",
+      "keyPoints": [
+        "Unspezifische Symptomatik",
+        "Respiratorisch: Tachypnoe, Apnoen, erhöhter O2-Bedarf",
+        "Kreislauf: Tachykardie, Rekapillarisierung verlängert, Hautkolorit",
+        "Temperaturinstabilität, Lethargie, Trinkschwäche",
+        "Glukoseentgleisung, Azidose"
+      ],
+      "tags": ["Neonatale Sepsis", "Klinik"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "inf-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die Aussagekraft und die **Kinetik** von **CRP, Interleukin-6, Procalcitonin** und **Blutbild/I/T-Quotient** in der Diagnostik der Neugeborenensepsis.",
+      "hints": ["Frühe vs. späte Marker.", "Welcher Marker steigt postnatal physiologisch an?"],
+      "answer": "**IL-6** (bzw. IL-8) steigt sehr früh an, fällt aber innerhalb von Stunden wieder ab – sensitiv in der Frühphase, bei späterer Abnahme falsch negativ. **CRP** steigt erst 12–24 h nach Infektionsbeginn an; ein einzelner normaler Wert bei Symptombeginn schließt eine Infektion nicht aus, **seriell normale CRP-Werte** haben dagegen einen hohen negativen prädiktiven Wert und helfen beim Absetzen der Antibiotika. **Procalcitonin** steigt in den ersten 48 Lebensstunden auch physiologisch an und muss altersbezogen interpretiert werden; laut AWMF-Leitlinie bietet es gegenüber dem CRP keinen diagnostischen Zusatznutzen. Das **Blutbild** ist wenig sensitiv; verwertbar sind Leukopenie, Neutropenie, ein erhöhter I/T-Quotient (unreife/gesamte Neutrophile, > 0,2 gilt als auffällig) und Thrombozytopenie. Goldstandard bleibt die **Blutkultur**; kein Marker ersetzt die klinische Beurteilung.",
+      "keyPoints": [
+        "IL-6/IL-8 früh, kurze Halbwertszeit",
+        "CRP verzögert (12–24 h), serielle Normalwerte zum Ausschluss",
+        "PCT postnatal physiologisch erhöht",
+        "I/T-Quotient > 0,2, Neutropenie, Thrombozytopenie",
+        "Blutkultur Goldstandard"
+      ],
+      "tags": ["Neonatale Sepsis", "Labordiagnostik"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021)"
+    },
+    {
+      "id": "inf-008",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu Entzündungsmarkern bei Verdacht auf Neugeborenensepsis ist **richtig**?",
+      "hints": ["Denken Sie an die zeitliche Dynamik der Marker."],
+      "options": [
+        {
+          "text": "Ein normales CRP zum Zeitpunkt des Symptombeginns schließt eine Sepsis nicht aus, da das CRP verzögert ansteigt.",
+          "correct": true
+        },
+        {
+          "text": "Procalcitonin ist in den ersten 48 Lebensstunden unabhängig vom Infektionsstatus niedrig und daher besonders spezifisch.",
+          "correct": false
+        },
+        {
+          "text": "Interleukin-6 bleibt nach Infektionsbeginn über mehrere Tage erhöht und eignet sich zur Therapiesteuerung.",
+          "correct": false
+        },
+        { "text": "Ein I/T-Quotient < 0,2 beweist eine bakterielle Infektion.", "correct": false }
+      ],
+      "answer": "Richtig ist, dass das **CRP erst mit 12–24 h Verzögerung** ansteigt – ein einzelner Normalwert zu Beginn schließt eine Infektion nicht aus, deshalb sind Verlaufskontrollen nötig. Procalcitonin steigt postnatal physiologisch an, IL-6 fällt nach wenigen Stunden wieder ab, und ein erhöhter (nicht erniedrigter) I/T-Quotient ist ein Hinweis – kein Beweis – auf eine Infektion.",
+      "keyPoints": [
+        "CRP steigt verzögert an",
+        "Einzelner Normalwert schließt Sepsis nicht aus",
+        "PCT postnatal physiologisch erhöht, IL-6 kurzlebig"
+      ],
+      "tags": ["Labordiagnostik", "CRP"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "inf-009",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Worauf achten Sie bei der **Abnahme einer Blutkultur** beim Neugeborenen, und wann führen Sie bei Sepsisverdacht eine **Lumbalpunktion** durch?",
+      "hints": [
+        "Die Sensitivität hängt stark vom Blutvolumen ab.",
+        "Eine negative Blutkultur schließt eine Meningitis nicht aus."
+      ],
+      "answer": "Die Blutkultur wird **vor Beginn der Antibiotikatherapie** unter streng aseptischen Bedingungen (Hautdesinfektion, Einwirkzeit) abgenommen; entscheidend ist ein ausreichendes **Blutvolumen von mindestens 1 ml**, da bei geringen Keimzahlen kleine Volumina falsch negativ sein können. Bei liegendem zentralen Katheter je nach Fragestellung zusätzlich Abnahme aus dem Katheter. Eine **Lumbalpunktion** ist bei jedem klinischen Meningitisverdacht (Krampfanfälle, gespannte Fontanelle, Bewusstseinsstörung) erforderlich und sollte bei Nachweis von GBS, gramnegativen Erregern oder Candida in der Blutkultur sowie bei fehlender Besserung unter Therapie erfolgen. Bei begründetem Verdacht auf eine Late-onset-Sepsis wird sie häufig empfohlen, weil ein Teil der Kinder mit Meningitis eine negative Blutkultur hat; die Evidenz für eine generelle LP bei LOS ist allerdings begrenzt. Bei instabilen, sehr unreifen Kindern wird sie bis zur Stabilisierung von Kreislauf, Thrombozyten und Gerinnung aufgeschoben, darf aber nicht vergessen werden. Bei asymptomatischen Kindern, die nur wegen Risikofaktoren abgeklärt werden, ist sie nicht routinemäßig nötig.",
+      "keyPoints": [
+        "Abnahme vor Antibiotikagabe, aseptisch",
+        "Volumen ≥ 1 ml",
+        "LP bei Meningitiszeichen, positiver Blutkultur (GBS, Gramnegative, Candida), begründetem LOS-Verdacht",
+        "LP bei Instabilität aufschieben, aber nachholen"
+      ],
+      "tags": ["Blutkultur", "Meningitis", "Diagnostik"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021)"
+    },
+    {
+      "id": "inf-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **kalkulierte Antibiotikatherapie** wählen Sie bei Verdacht auf **Early-onset-Sepsis**, und warum werden Cephalosporine der 3. Generation hier nicht als Standard eingesetzt?",
+      "hints": ["Welche Erreger müssen sicher erfasst werden?", "Listerien und Enterokokken."],
+      "answer": "Standard ist die Kombination **Ampicillin plus ein Aminoglykosid (Gentamicin)**. Damit sind GBS, Listerien, Enterokokken und die meisten E.-coli-Stämme erfasst; Gentamicin wird mit Spiegelkontrollen (Talspiegel) gesteuert. Cephalosporine der 3. Generation (z. B. Cefotaxim) sind gegen **Listerien und Enterokokken unwirksam**, ihr Routineeinsatz fördert die **Selektion resistenter gramnegativer Erreger (ESBL)** und invasive **Candida-Infektionen** und ist in Studien mit höherer Mortalität assoziiert. Cefotaxim wird ergänzt bei Verdacht auf **Meningitis** durch gramnegative Erreger oder bei bekannter Resistenz (z. B. mütterliche Kolonisation mit Ampicillin-resistentem E. coli). Ceftriaxon wird bei Neugeborenen wegen Bilirubinverdrängung und Präzipitation mit Calcium gemieden.",
+      "keyPoints": [
+        "Ampicillin + Gentamicin",
+        "Erfasst GBS, Listerien, Enterokokken, E. coli",
+        "Cephalosporine: Lücke bei Listerien/Enterokokken, Resistenzselektion, Candida",
+        "Cefotaxim bei Meningitisverdacht/gramnegativen Erregern",
+        "Gentamicin-Spiegelkontrolle"
+      ],
+      "tags": ["Antibiotikatherapie", "Early-onset-Sepsis"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen"
+    },
+    {
+      "id": "inf-011",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes mit 1850 g soll laut Stationsstandard **Gentamicin 5 mg/kg** als Einzeldosis erhalten. Die Lösung enthält **10 mg/ml**. Wie viele ml ziehen Sie auf?",
+      "hints": ["Erst die Dosis in mg berechnen.", "Dann durch die Konzentration teilen."],
+      "answer": "Dosis = 5 mg/kg · 1,85 kg = 9,25 mg. Volumen = 9,25 mg / 10 mg/ml = **0,925 ml (≈ 0,93 ml)**. Laut AWMF-Leitlinie liegt die Einzeldosis je nach Gestations- und Lebensalter bei 4–5 mg/kg und das Intervall bei 24–48 h; gesteuert wird über den Talspiegel (Ziel < 2 mg/l) und die Nierenfunktion.",
+      "keyPoints": ["Dosis 9,25 mg", "Volumen ≈ 0,93 ml", "Intervall nach Gestationsalter und Spiegel"],
+      "solution": { "value": 0.925, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Gentamicin", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "inf-012",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Antibiotic Stewardship: Wann **beenden** Sie eine kalkulierte Antibiotikatherapie bei Verdacht auf Neugeborenensepsis, und wie lange behandeln Sie eine **gesicherte** Sepsis bzw. Meningitis?",
+      "hints": ["Ausschlussdiagnostik nach 36–48 h.", "Meningitis: Unterschied zwischen GBS und gramnegativen Erregern."],
+      "answer": "Eine kalkulierte Therapie wird nach **36–48 Stunden beendet**, wenn die Blutkultur negativ ist, das Kind klinisch unauffällig ist und die Entzündungsparameter (serielles CRP) unauffällig bleiben bzw. sich normalisiert haben. Bei klinisch wahrscheinlicher, aber kulturnegativer Sepsis mit erhöhtem CRP nennt die AWMF-Leitlinie eine Therapie bis zur klinischen Normalisierung und CRP < 10 mg/l, in der Regel 5–10 Tage; eine Verlängerung allein wegen eines isoliert erhöhten CRP ohne Klinik sollte kritisch hinterfragt werden. Bei **kulturgesicherter Sepsis ohne Meningitis** werden **7–14 Tage** je nach Erreger, Fokus und Verlauf angegeben (z. B. GBS-Bakteriämie meist 10 Tage), bei **GBS-Meningitis 14 Tage**, bei **Meningitis durch gramnegative Erreger mindestens 21 Tage**. Nach Erregernachweis wird gezielt deeskaliert; Ziel ist die Reduktion von Breitspektrum-Antibiotika (v. a. Cephalosporine, Carbapeneme), da lange Antibiotikaexposition bei Frühgeborenen mit NEC, Late-onset-Sepsis, invasiver Candidose und Tod assoziiert ist.",
+      "keyPoints": [
+        "Absetzen nach 36–48 h bei negativer Kultur und unauffälliger Klinik",
+        "Kulturgesicherte Sepsis 7–14 Tage je nach Erreger/Fokus",
+        "GBS-Meningitis ≥ 14 Tage, gramnegative Meningitis ≥ 21 Tage",
+        "Deeskalation nach Antibiogramm",
+        "Lange Antibiotikaexposition: NEC, LOS, Candida, Mortalität"
+      ],
+      "tags": ["Antibiotic Stewardship", "Therapiedauer"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021)"
+    },
+    {
+      "id": "inf-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche **Risikofaktoren** begünstigen eine **Late-onset-Sepsis** bei sehr kleinen Frühgeborenen, und wonach richtet sich die kalkulierte Therapie?",
+      "hints": [
+        "Denken Sie an Fremdmaterial und Ernährung.",
+        "Die lokale Epidemiologie und das Kolonisationsscreening sind entscheidend."
+      ],
+      "answer": "Risikofaktoren: niedriges Gestationsalter und Geburtsgewicht, **zentrale Katheter** (Nabelkatheter, PICC), **parenterale Ernährung** insbesondere mit Lipiden, lange **Beatmung**, verzögerter enteraler Nahrungsaufbau bzw. fehlende Muttermilchernährung, vorangegangene Breitspektrum-Antibiotika (v. a. Cephalosporine, Carbapeneme), H2-Blocker/Protonenpumpenhemmer, postnatale Steroide, unreife Haut und lange Liegedauer sowie strukturelle Faktoren (Personalmangel, Überbelegung, unzureichende Händehygiene). Die kalkulierte Therapie richtet sich nach der **stationsspezifischen Erregerepidemiologie und Resistenzlage** sowie nach dem **individuellen Kolonisationsscreening** des Kindes; häufig wird ein gegen Staphylokokken wirksames Antibiotikum (z. B. Vancomycin oder je nach Standard ein anderes) mit einem gramnegativ wirksamen Mittel kombiniert. Nach 48–72 h wird anhand von Kultur und Verlauf deeskaliert oder beendet.",
+      "keyPoints": [
+        "Zentrale Katheter, parenterale Ernährung, Beatmung",
+        "Niedriges Gestationsalter, fehlende Muttermilch",
+        "Vorangegangene Breitspektrum-Antibiotika, Säureblocker",
+        "Kalkulierte Therapie nach lokaler Resistenzlage und Kolonisationsscreening",
+        "Deeskalation nach Kultur"
+      ],
+      "tags": ["Late-onset-Sepsis", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "inf-014",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 26+1 SSW, 880 g, am **12. Lebenstag** mit PICC und parenteraler Ernährung, entwickelt vermehrt Apnoen und Bradykardien, benötigt wieder CPAP mit FiO2 0,35, die Glukose liegt bei 220 mg/dl, die Rekapillarisierungszeit ist verlängert. **Wie gehen Sie vor?**",
+      "hints": ["Diagnostik vor Therapie – aber ohne Zeitverlust.", "Welche Rolle spielt der Katheter?"],
+      "answer": "Hochgradiger Verdacht auf **Late-onset-Sepsis**. Sofort: Stabilisierung (Atemunterstützung, ggf. Intubation; Kreislauf: Volumenbolus 10 ml/kg nach Beurteilung, ggf. Katecholamine), **Blutkultur** (peripher und ggf. aus dem PICC) mit ausreichendem Volumen, Blutbild mit Differenzierung und Thrombozyten, CRP/IL-6, Blutgasanalyse mit Laktat, Glukosemanagement (Reduktion der Glukosezufuhr, ggf. Insulin). Danach **unverzüglich kalkulierte Antibiotikatherapie** nach Stationsstandard, angepasst an das Kolonisationsscreening des Kindes (z. B. Staphylokokken- und gramnegativ wirksame Kombination). Urinkultur (Katheterurin/Blasenpunktion) und Lumbalpunktion, sobald das Kind stabil ist; bei Candida-Risiko antimykotische Therapie erwägen. Den **PICC entfernen** bei Nachweis von S. aureus, gramnegativen Erregern oder Candida sowie bei persistierender Bakteriämie; bei KNS oder Enterokokken in der Regel erst bei Nachweis in drei oder mehr aufeinanderfolgenden Blutkulturen; im Einzelfall kann der Katheter unter Therapie zunächst belassen werden. Abdomen klinisch und ggf. sonographisch/radiologisch beurteilen (NEC als Differenzialdiagnose).",
+      "keyPoints": [
+        "Stabilisierung von Atmung und Kreislauf",
+        "Blutkultur, Blutbild, CRP/IL-6, BGA, Laktat vor Antibiotikagabe",
+        "Sofortige kalkulierte Therapie nach lokalem Standard und Kolonisation",
+        "LP und Urinkultur nach Stabilisierung",
+        "Katheterentfernung bei S. aureus, Gramnegativen, Candida, persistierender Bakteriämie",
+        "NEC und Candida als Differenzialdiagnosen bedenken"
+      ],
+      "tags": ["Late-onset-Sepsis", "Fallbeispiel", "Katheterinfektion"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021)"
+    },
+    {
+      "id": "inf-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 31+0 SSW wird bei mütterlichem Fieber und **mekoniumhaltigem Fruchtwasser** geboren und ist septisch. Die Mutter hatte vor einer Woche eine fieberhafte „Grippe“ und isst gerne Rohmilchkäse. Gegen welchen Erreger muss die kalkulierte Therapie unbedingt wirksam sein, und welches Antibiotikum sichert dies?",
+      "hints": [
+        "Mekoniumhaltiges Fruchtwasser bei einem Frühgeborenen ist ungewöhnlich.",
+        "Dieser Erreger ist gegen Cephalosporine intrinsisch resistent."
+      ],
+      "options": [
+        { "text": "Listeria monocytogenes – Ampicillin", "correct": true },
+        { "text": "Listeria monocytogenes – Cefotaxim", "correct": false },
+        { "text": "Staphylococcus aureus – Gentamicin allein", "correct": false },
+        { "text": "Haemophilus influenzae – Vancomycin", "correct": false }
+      ],
+      "answer": "Mütterliche fieberhafte Erkrankung, Rohmilchprodukte und **mekoniumhaltiges Fruchtwasser bei einem Frühgeborenen** sind klassische Hinweise auf eine **Listeriose**. Listerien sind gegen Cephalosporine intrinsisch resistent; die Therapie der Wahl ist **Ampicillin** (in Kombination mit einem Aminoglykosid). Klinisch können Granulome/Papeln der Haut (Granulomatosis infantiseptica), Pneumonie und Meningitis auftreten.",
+      "keyPoints": [
+        "Listeriose: mütterliches Fieber, Rohmilchprodukte, Mekonium beim Frühgeborenen",
+        "Cephalosporin-Resistenz",
+        "Ampicillin (+ Aminoglykosid)"
+      ],
+      "tags": ["Listeriose", "Antibiotikatherapie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "inf-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein 18 Tage altes, reifes Neugeborenes hat eine **GBS-Meningitis**. Beschreiben Sie Therapie, mögliche Komplikationen und die Nachsorge.",
+      "hints": ["Late-onset-GBS-Infektion.", "Welche Spätfolgen müssen Sie gezielt suchen?"],
+      "answer": "Es handelt sich um eine **Late-onset-GBS-Infektion**. Therapie: initial kalkuliert (z. B. Ampicillin plus Cefotaxim), nach Erregernachweis Deeskalation auf hochdosiertes **Penicillin G oder Ampicillin** für **mindestens 14 Tage**; eine Kontroll-LP wird je nach Verlauf (fehlende klinische Besserung, Komplikationsverdacht) bzw. Zentrumsstandard durchgeführt. Akute Komplikationen: Krampfanfälle, SIADH, Ventrikulitis, Hirnabszess, subdurale Ergüsse, Infarkte, Hydrozephalus. Bildgebung: Schädelsonographie, bei kompliziertem Verlauf MRT. Nachsorge: **Hörprüfung** (BERA), entwicklungsneurologische Nachuntersuchungen, Kopfumfangskontrollen. Die Eltern sollten über die Möglichkeit eines Rezidivs (z. B. über besiedelte Muttermilch) informiert werden.",
+      "keyPoints": [
+        "Penicillin G/Ampicillin ≥ 14 Tage",
+        "Komplikationen: Krampfanfälle, Ventrikulitis, Hydrozephalus, Abszess, Infarkte",
+        "Bildgebung Sono/MRT",
+        "Hörprüfung und Entwicklungsnachsorge"
+      ],
+      "tags": ["Meningitis", "GBS", "Late-onset"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.1 – Infektionsverdacht",
+          "terms": ["Infektionsverdacht", "Sepsis"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.13 – Antibiotika: Dosierungen",
+          "terms": ["Antibiotika"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Bakterielle Infektionen bei Neugeborenen",
+          "terms": ["Neugeborenensepsis"]
+        }
+      ]
+    },
+    {
+      "id": "inf-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Risikofaktoren begünstigen eine **invasive Candidose** bei Frühgeborenen, welche Diagnostik schließen Sie bei Candidämie an, und wie wird behandelt?",
+      "hints": ["Candida streut in Organe – welche müssen Sie untersuchen?", "Der Katheter spielt eine zentrale Rolle."],
+      "answer": "Risikofaktoren: extrem niedriges Geburtsgewicht (< 1000 g), **Breitspektrum-Antibiotika (v. a. Cephalosporine 3. Generation, Carbapeneme)**, zentrale Katheter, parenterale Ernährung mit Lipiden, Beatmung, postnatale Steroide, Säureblocker, abdominelle Operationen/NEC. Bei Candidämie **Organdiagnostik**: Lumbalpunktion, augenärztliche Fundoskopie (Endophthalmitis), Echokardiographie (Endokarditis, Katheterthrombus), Nieren-Sonographie (Pilzbälle), ggf. Schädel- und Abdomensonographie. Therapie: **Amphotericin B (Desoxycholat 1 mg/kg/d)** oder **Fluconazol (12 mg/kg/d)** – nicht nach vorangegangener Fluconazol-Prophylaxe, Empfindlichkeit beachten; **zentrale Katheter entfernen**; Dauer mindestens 2 Wochen nach erster negativer Blutkultur und Symptomrückbildung (bei Organbefall länger). In Einheiten mit hoher Inzidenz invasiver Candidosen kann eine Fluconazol-Prophylaxe bei Frühgeborenen < 1000 g erwogen werden.",
+      "keyPoints": [
+        "Risikofaktoren: ELBW, Breitspektrum-Antibiotika, ZVK, Lipide",
+        "Organscreening: LP, Augen, Echo, Nierensono",
+        "Amphotericin B oder Fluconazol",
+        "Katheter entfernen",
+        "≥ 2 Wochen nach negativer Kultur; Prophylaxe nur bei hoher Inzidenz"
+      ],
+      "tags": ["Candida", "Pilzinfektion", "Frühgeborene"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "inf-018",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Was wissen Sie über die **konnatale CMV-Infektion** (Häufigkeit, klinisches Bild, Diagnostik)? Warum ist der **Zeitpunkt der Probenentnahme** entscheidend?",
+      "hints": ["Häufigste konnatale Virusinfektion.", "Wie unterscheiden Sie konnatal von postnatal erworben?"],
+      "answer": "Die konnatale CMV-Infektion ist die **häufigste konnatale Infektion** und eine führende nichtgenetische Ursache **sensorineuraler Hörstörungen**. Etwa 10–15 % der infizierten Kinder sind bei Geburt symptomatisch: SGA/Wachstumsrestriktion, Mikrozephalie, periventrikuläre Verkalkungen, Ventrikulomegalie, Chorioretinitis, Hepatosplenomegalie, Petechien/Thrombozytopenie, Hepatitis, Ikterus. Auch asymptomatische Kinder können eine (progrediente) Hörstörung entwickeln. Diagnostik: **CMV-PCR aus Urin oder Speichel innerhalb der ersten 3 Lebenswochen (bis zum 21. Lebenstag)** (positiver Speicheltest durch Urin bestätigen, da Muttermilch kontaminieren kann). Später ist eine Abgrenzung zur postnatalen Infektion (Muttermilch, Transfusion) nur noch retrospektiv über die PCR aus der **Trockenblutkarte des Neugeborenenscreenings** möglich.",
+      "keyPoints": [
+        "Häufigste konnatale Infektion, Hauptursache nichtgenetischer Hörstörung",
+        "10–15 % symptomatisch: Mikrozephalie, Verkalkungen, Chorioretinitis, Hepatosplenomegalie, Thrombozytopenie",
+        "PCR aus Urin/Speichel in den ersten 3 Lebenswochen",
+        "Später nur über Trockenblutkarte abgrenzbar"
+      ],
+      "tags": ["CMV", "Konnatale Infektion"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-019",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes (3200 g) mit symptomatischer konnataler CMV-Infektion soll **Valganciclovir 16 mg/kg pro Dosis zweimal täglich** oral erhalten. Wie viele mg erhält das Kind **pro Einzeldosis**?",
+      "hints": ["Dosis pro kg mal Körpergewicht."],
+      "answer": "Einzeldosis = 16 mg/kg · 3,2 kg = **51,2 mg** zweimal täglich (Tagesdosis 102,4 mg). Die Dosis wird regelmäßig an das Gewicht angepasst; Blutbildkontrollen wegen Neutropenie-Risiko.",
+      "keyPoints": ["16 mg/kg · 3,2 kg", "Einzeldosis 51,2 mg", "Zweimal täglich, Gewichtsanpassung, Neutrophilenkontrolle"],
+      "solution": { "value": 51.2, "unit": "mg", "tolerance": 0.03 },
+      "tags": ["CMV", "Valganciclovir", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei welchen Kindern mit **konnataler CMV-Infektion** ist eine **antivirale Therapie** indiziert? Beschreiben Sie Therapieschema, Überwachung und Nachsorge.",
+      "hints": [
+        "Die Evidenz bezieht sich auf symptomatische Kinder mit Therapiebeginn im ersten Lebensmonat.",
+        "Welche Nebenwirkung ist am häufigsten?"
+      ],
+      "answer": "Etabliert ist die Therapie bei **moderat bis schwer symptomatischer** konnataler CMV-Infektion (z. B. ZNS-Beteiligung, multiple Organmanifestationen) mit Beginn **innerhalb des ersten Lebensmonats**: **Valganciclovir oral 16 mg/kg zweimal täglich über 6 Monate** (bei nicht möglicher oraler Gabe initial Ganciclovir i.v. 6 mg/kg zweimal täglich). Ziel ist eine Verbesserung des Hör- und Entwicklungsergebnisses. Bei **isolierter Hörstörung** oder milder Symptomatik ist die Indikation umstritten und wird zentrumsabhängig bzw. in Studien gestellt; asymptomatische Kinder werden nicht routinemäßig behandelt. Überwachung: Blutbild (v. a. **Neutropenie**), Transaminasen, Kreatinin, Gewichtsanpassung der Dosis. Nachsorge: wiederholte **Hörprüfungen bis ins Schulalter** (auch bei asymptomatischen Kindern, wegen progredienter/spät auftretender Hörstörung), augenärztliche und entwicklungsneurologische Kontrollen.",
+      "keyPoints": [
+        "Indikation: moderat-schwer symptomatisch, Beginn im 1. Lebensmonat",
+        "Valganciclovir 16 mg/kg 2×/d über 6 Monate",
+        "Isolierte Hörstörung/milde Formen: umstritten",
+        "Neutropenie überwachen",
+        "Hörkontrollen bis ins Schulalter"
+      ],
+      "tags": ["CMV", "Antivirale Therapie", "Nachsorge"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Bedeutung hat die **postnatale CMV-Übertragung über Muttermilch** bei sehr unreifen Frühgeborenen, und welche Maßnahmen werden diskutiert?",
+      "hints": [
+        "Die meisten seropositiven Mütter reaktivieren CMV in der Laktation.",
+        "Wie kann man Muttermilch behandeln – und mit welchen Nachteilen?"
+      ],
+      "answer": "Die meisten CMV-seropositiven Mütter scheiden CMV in der Muttermilch aus. Bei sehr unreifen Frühgeborenen kann eine postnatale Infektion ein **sepsisähnliches Bild** mit Thrombozytopenie, Neutropenie, Hepatitis, Cholestase, Pneumonitis oder NEC-ähnlichen Verläufen hervorrufen; die Bedeutung für die Langzeitentwicklung ist nicht abschließend geklärt. Maßnahmen: **Pasteurisierung** (z. B. Holder-Pasteurisierung oder Kurzzeitpasteurisierung) inaktiviert CMV, verändert aber bioaktive Bestandteile der Milch; **Tiefgefrieren** reduziert die Viruslast, eliminiert sie aber nicht. Das Vorgehen (Grenze nach Gestationsalter/Gewicht, Dauer der Behandlung, Methode) ist **zentrumsabhängig**. Unstrittig ist, dass der Nutzen der Muttermilchernährung überwiegt; Muttermilch soll deshalb nicht wegen CMV verworfen werden.",
+      "keyPoints": [
+        "Hohe Rate an CMV-Ausscheidung in Muttermilch seropositiver Mütter",
+        "Sepsisähnliches Bild bei sehr unreifen Frühgeborenen",
+        "Pasteurisierung inaktiviert, Tiefgefrieren reduziert nur",
+        "Vorgehen zentrumsabhängig",
+        "Muttermilch nicht verwerfen – Nutzen überwiegt"
+      ],
+      "tags": ["CMV", "Muttermilch", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "inf-022",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie das klinische Bild, die Diagnostik und die Therapieprinzipien der **konnatalen Toxoplasmose**.",
+      "hints": ["Klassische Trias.", "Mutter-Kind-Vergleich der Antikörper."],
+      "answer": "Klassische Trias: **Hydrozephalus, intrakranielle (diffuse) Verkalkungen und Chorioretinitis**; die meisten infizierten Neugeborenen sind bei Geburt jedoch unauffällig und entwickeln später v. a. eine Chorioretinitis. Weitere Zeichen: Mikrozephalie, Krampfanfälle, Hepatosplenomegalie, Ikterus, Thrombozytopenie. Diagnostik: Toxoplasma-spezifisches **IgM und IgA** beim Kind, vergleichender IgG/IgM-Immunoblot Mutter/Kind, PCR (Liquor, Blut), Persistenz von IgG über das erste Lebensjahr hinaus beweist die Infektion. Zusätzlich augenärztliche Untersuchung, Schädelsonographie, Hörprüfung. Therapie: **Pyrimethamin plus Sulfadiazin plus Folinsäure** über mehrere Monate (Dauer je nach Protokoll bis zu einem Jahr) mit Blutbildkontrollen wegen Knochenmarktoxizität.",
+      "keyPoints": [
+        "Trias: Hydrozephalus, Verkalkungen, Chorioretinitis",
+        "Meist asymptomatisch bei Geburt, Spätchorioretinitis",
+        "IgM/IgA, Immunoblot Mutter/Kind, IgG-Persistenz > 12 Monate",
+        "Pyrimethamin + Sulfadiazin + Folinsäure, Blutbildkontrollen"
+      ],
+      "tags": ["Toxoplasmose", "Konnatale Infektion"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-023",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einer Mutter wird zur Geburt eine **unbehandelte Lues** festgestellt. Welche klinischen Zeichen suchen Sie beim Neugeborenen, wie sichern Sie die Diagnose, und wie wird behandelt?",
+      "hints": [
+        "Frühsyphilis des Neugeborenen: Haut, Nase, Knochen, Leber.",
+        "Serologischer Vergleich der Titer von Mutter und Kind."
+      ],
+      "answer": "Klinische Zeichen der **Lues connata praecox**: häufig asymptomatisch bei Geburt; sonst Hepatosplenomegalie, Ikterus, **Rhinitis (Coryza syphilitica)**, makulopapulöses Exanthem und **Pemphigus syphiliticus an Handflächen und Fußsohlen**, generalisierte Lymphadenopathie, **Osteochondritis/Periostitis** mit Pseudoparalyse (Parrot), Anämie, Thrombozytopenie, Hydrops. Diagnostik: **simultane Serologie von Mutter und Kind** (Suchtest TPPA/TPHA, quantitativer Lipoid-/Kardiolipin-Test; ein kindlicher Titer deutlich über dem mütterlichen ist hinweisend), **Treponema-spezifisches IgM** beim Kind, ggf. Direktnachweis (PCR) aus Läsionen, Liquoruntersuchung (Neurosyphilis), Röntgen der langen Röhrenknochen, Blutbild, Leberwerte, Augen- und Hörprüfung. Therapie: **Penicillin G i.v. über 10–14 Tage** (Dosierung nach Lebensalter laut aktueller Leitlinie); Jarisch-Herxheimer-Reaktion möglich. Serologische Verlaufskontrollen bis zum Titerabfall; Partnerbehandlung und weitere STI-Diagnostik der Eltern.",
+      "keyPoints": [
+        "Rhinitis, Pemphigus palmoplantar, Hepatosplenomegalie, Osteochondritis/Pseudoparalyse",
+        "Simultane Serologie Mutter/Kind, IgM, Titervergleich",
+        "Liquordiagnostik und Röntgen lange Röhrenknochen",
+        "Penicillin G i.v. 10–14 Tage",
+        "Serologische Verlaufskontrolle, Partnerbehandlung"
+      ],
+      "tags": ["Lues", "Konnatale Infektion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein 10 Tage altes reifes Neugeborenes zeigt Lethargie, Fieber und einen Krampfanfall; das Blutbild zeigt eine Thrombozytopenie, die Transaminasen sind erhöht. Woran denken Sie unbedingt, welche **Verlaufsformen** gibt es, und wie diagnostizieren und behandeln Sie?",
+      "hints": ["Hautbläschen fehlen in vielen Fällen.", "Die Therapie wird bei Verdacht sofort begonnen."],
+      "answer": "Differenzialdiagnostisch muss neben der bakteriellen Sepsis/Meningitis eine **neonatale HSV-Infektion** bedacht werden – Hautbläschen fehlen häufig, und die mütterliche Anamnese ist oft leer. Verlaufsformen: **lokalisiert an Haut, Augen und Mund (SEM)**, **ZNS-Infektion** (Enzephalitis, meist in der 2.–3. Lebenswoche) und **disseminierte Infektion** (Sepsisbild, Hepatitis, Gerinnungsstörung, Pneumonitis – hohe Letalität). Diagnostik: HSV-PCR aus **Oberflächenabstrichen** (Konjunktiva, Mund/Nasopharynx, Rektum), aus Bläschen, **Blut** und **Liquor**, dazu Transaminasen, Gerinnung, EEG/MRT. Therapie: bei Verdacht sofort **Aciclovir i.v. 20 mg/kg alle 8 Stunden** – 14 Tage bei SEM, **mindestens 21 Tage bei ZNS- oder disseminierter Infektion** (bei ZNS-Befall Liquor-PCR zum Therapieende negativ dokumentieren). Anschließend orale Aciclovir-**Suppressionstherapie über 6 Monate**, die das neurologische Ergebnis nach ZNS-Infektion verbessert. Unter Therapie Kontrolle von Neutrophilen und Nierenfunktion.",
+      "keyPoints": [
+        "HSV-Infektion trotz fehlender Bläschen bedenken",
+        "SEM, ZNS, disseminiert",
+        "PCR aus Oberflächenabstrichen, Blut, Liquor; Transaminasen",
+        "Aciclovir 20 mg/kg alle 8 h, 14 bzw. ≥ 21 Tage",
+        "Orale Suppression 6 Monate"
+      ],
+      "tags": ["HSV", "Konnatale Infektion", "Fallbeispiel"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-025",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit 3600 g erhält bei Verdacht auf HSV-Infektion **Aciclovir 20 mg/kg alle 8 Stunden** i.v. Wie hoch ist die **Tagesdosis** in mg?",
+      "hints": ["Einzeldosis berechnen.", "Alle 8 Stunden = 3 Gaben pro Tag."],
+      "answer": "Einzeldosis = 20 mg/kg · 3,6 kg = 72 mg. Tagesdosis = 72 mg · 3 = **216 mg/d** (entspricht 60 mg/kg/d). Auf ausreichende Hydratation und Nierenfunktion achten.",
+      "keyPoints": ["Einzeldosis 72 mg", "3 Gaben pro Tag", "Tagesdosis 216 mg (60 mg/kg/d)"],
+      "solution": { "value": 216, "unit": "mg/d", "tolerance": 0.03 },
+      "tags": ["HSV", "Aciclovir", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-026",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Eine Mutter entwickelt **3 Tage vor der Entbindung** typische Windpocken. Das reife Neugeborene ist bei Geburt unauffällig. Was ist das empfohlene Vorgehen?",
+      "hints": [
+        "Bekommt das Kind schon schützende mütterliche Antikörper?",
+        "Kritisches Zeitfenster: 5 Tage vor bis 2 Tage nach Geburt."
+      ],
+      "options": [
+        {
+          "text": "Möglichst frühzeitige Gabe von Varizella-Zoster-Immunglobulin an das Neugeborene, bei Erkrankung Aciclovir i.v.",
+          "correct": true
+        },
+        {
+          "text": "Keine Maßnahme, da diaplazentar übertragene mütterliche Antikörper das Kind schützen",
+          "correct": false
+        },
+        { "text": "Sofortige aktive Varizellen-Impfung des Neugeborenen", "correct": false },
+        { "text": "Trennung von Mutter und Kind für 6 Wochen, sonst keine Maßnahme", "correct": false }
+      ],
+      "answer": "Bei Beginn der mütterlichen Varizellen **5 Tage vor bis 2 Tage nach der Geburt** wird das Kind virämisch, bevor schützende mütterliche IgG-Antikörper übertragen werden – es drohen schwere, teils tödliche **neonatale Varizellen**. Daher erhält das Neugeborene so früh wie möglich **Varizella-Zoster-Immunglobulin (VZIG)**; bei Auftreten von Symptomen wird mit **Aciclovir i.v.** behandelt. Die Mutter ist bis zum Verkrusten aller Läsionen infektiös; das Kind wird gegenüber anderen Patienten isoliert. Eine aktive Impfung ist bei Neugeborenen nicht vorgesehen.",
+      "keyPoints": [
+        "Zeitfenster 5 Tage vor bis 2 Tage nach Geburt",
+        "Fehlender Schutz durch mütterliche Antikörper",
+        "VZIG so früh wie möglich, Aciclovir bei Erkrankung"
+      ],
+      "tags": ["Varizellen", "Postexpositionsprophylaxe"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-027",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie versorgen das Neugeborene einer **HIV-positiven Mutter** unter antiretroviraler Therapie mit einer Viruslast unter der Nachweisgrenze zur Geburt. Was ist zu tun?",
+      "hints": [
+        "Die postnatale Prophylaxe richtet sich nach dem Transmissionsrisiko.",
+        "Warum hilft ein HIV-Antikörpertest beim Säugling nicht?"
+      ],
+      "answer": "Die Deutsch-Österreichische Leitlinie (Stand 2025) richtet die postnatale Prophylaxe am **Transmissionsrisiko** aus. Lag die mütterliche HIV-RNA in mindestens zwei Messungen im Abstand von ≥ 12 Wochen – die letzte innerhalb der letzten 6 Wochen vor der Geburt – **unter 50 Kopien/ml**, ist das Risiko sehr niedrig und es **kann auf eine postnatale Prophylaxe verzichtet werden**. Ist die Viruslast präpartal supprimiert, sind diese Kriterien aber nicht vollständig erfüllt, wird **Zidovudin oral für 14 Tage** empfohlen; bei HIV-RNA 50–1000 Kopien/ml Zidovudin für 4 Wochen (Beginn innerhalb von 6–12 h), bei höherer oder unbekannter Viruslast eine erweiterte Kombinationsprophylaxe in Absprache mit einem HIV-Zentrum. Diagnostik beim Kind mittels **HIV-Nukleinsäurenachweis (PCR)** – am ersten Lebenstag, nach 4–6 Wochen und nach 3 Monaten (bei Stillen zusätzlich nach 6 Monaten und 6 Wochen nach dem Abstillen) –, da mütterliche Antikörper bis ins 2. Lebensjahr nachweisbar sind; der Verlust der Antikörper wird dokumentiert. **Stillen**: Nach der Leitlinie von 2025 **können Mütter mit supprimierter Viruslast stillen** – nach ausführlicher Beratung und mit regelmäßigen Viruslastkontrollen; bei Viruslast > 50 Kopien/ml wird vom Stillen abgeraten. Impfungen erfolgen regulär nach STIKO.",
+      "keyPoints": [
+        "Risikoadaptiert: dauerhaft supprimierte Viruslast (< 50 Kopien/ml) → Verzicht auf Prophylaxe möglich",
+        "Supprimiert, Kriterien nicht voll erfüllt: Zidovudin 14 Tage; höhere/unbekannte Viruslast: erweiterte Prophylaxe, HIV-Zentrum",
+        "Diagnostik mittels PCR (Tag 1, 4–6 Wochen, 3 Monate), nicht Antikörpertest",
+        "Stillen bei supprimierter Viruslast nach Beratung möglich, mit Viruslast-Monitoring",
+        "Reguläre Impfungen"
+      ],
+      "tags": ["HIV", "Postexpositionsprophylaxe"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ],
+      "source": "Deutsch-Österreichische Leitlinie zur HIV-Therapie in der Schwangerschaft und bei HIV-exponierten Neugeborenen (AWMF 055-002, Stand 2025)"
+    },
+    {
+      "id": "inf-028",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Befundkonstellation ist **typisch für die Rötelnembryopathie** (Gregg-Syndrom)?",
+      "hints": ["Auge, Herz, Ohr."],
+      "options": [
+        {
+          "text": "Katarakt, angeborener Herzfehler (z. B. PDA, periphere Pulmonalstenose), Innenohrschwerhörigkeit",
+          "correct": true
+        },
+        { "text": "Hydrozephalus, diffuse intrakranielle Verkalkungen, Chorioretinitis", "correct": false },
+        { "text": "Narbige Hautläsionen, Extremitätenhypoplasie, Augenfehlbildungen", "correct": false },
+        { "text": "Rhinitis, palmoplantare Blasen, Osteochondritis", "correct": false }
+      ],
+      "answer": "Die **Gregg-Trias** der Rötelnembryopathie umfasst **Katarakt** (bzw. weitere Augenfehlbildungen), **Herzfehler** (v. a. persistierender Ductus arteriosus, periphere Pulmonalstenose) und **sensorineurale Schwerhörigkeit**. Weitere Befunde: Wachstumsrestriktion, Mikrozephalie, Hepatosplenomegalie, Thrombozytopenie mit „Blueberry-Muffin“-Hautbild. Infizierte Kinder scheiden das Virus über Monate aus und müssen isoliert werden; Kontakt mit seronegativen Schwangeren vermeiden. Die anderen Optionen beschreiben Toxoplasmose, fetales Varizellensyndrom und Lues connata.",
+      "keyPoints": [
+        "Katarakt, Herzfehler, Innenohrschwerhörigkeit",
+        "Lange Virusausscheidung → Isolierung",
+        "Abgrenzung zu Toxoplasmose, Varizellensyndrom, Lues"
+      ],
+      "tags": ["Röteln", "Konnatale Infektion"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ]
+    },
+    {
+      "id": "inf-029",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Eine Mutter mit **chronischer Hepatitis C** (HCV-RNA positiv) fragt, ob sie stillen darf, ob ihr Kind geschützt werden kann und wie festgestellt wird, ob es sich angesteckt hat. Was antworten Sie?",
+      "hints": ["Es gibt keine Immunprophylaxe.", "Mütterliche Antikörper persistieren lange."],
+      "answer": "Das Risiko einer vertikalen Übertragung liegt bei etwa 5 % (höher bei hoher Viruslast und HIV-Koinfektion). Eine **Immun- oder Postexpositionsprophylaxe existiert nicht**; ein Kaiserschnitt wird zur Prävention nicht empfohlen, und invasive Maßnahmen unter der Geburt (z. B. Kopfschwartenelektrode) sollten möglichst vermieden werden. **Stillen ist erlaubt**, solange die Mamillen nicht blutig/rhagadig sind. Diagnostik beim Kind: **HCV-RNA-PCR** frühestens ab dem 2. Lebensmonat oder **Anti-HCV ab dem 18. Lebensmonat** (vorher können mütterliche Antikörper nachweisbar sein); positive Befunde werden bestätigt. Infizierte Kinder werden an eine pädiatrische Hepatologie angebunden; direkt wirkende antivirale Substanzen sind für ältere Kinder zugelassen. Die Mutter wird hepatologisch angebunden; ihre antivirale Therapie erfolgt in der Regel nach Schwangerschaft und Stillzeit.",
+      "keyPoints": [
+        "Transmissionsrisiko ca. 5 %",
+        "Keine Prophylaxe, keine Sectio-Indikation",
+        "Stillen erlaubt (außer blutige Mamillen)",
+        "HCV-RNA ab 2. Monat oder Anti-HCV ab 18. Monat",
+        "Anbindung Hepatologie, Therapie der Mutter"
+      ],
+      "tags": ["Hepatitis C", "Elternberatung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "inf-030",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Welche Maßnahme ist im Sinne des **Antibiotic Stewardship** auf einer neonatologischen Intensivstation am besten begründet?",
+      "hints": ["Ziel ist die Reduktion unnötiger Antibiotikatage und von Breitspektrum-Substanzen."],
+      "options": [
+        {
+          "text": "Beenden einer kalkulierten Therapie nach 36–48 h bei negativer Blutkultur und unauffälligem klinischem Verlauf",
+          "correct": true
+        },
+        {
+          "text": "Cefotaxim als Standard-Erstlinientherapie bei jedem Verdacht auf Early-onset-Sepsis",
+          "correct": false
+        },
+        {
+          "text": "Antibiotische Dauerprophylaxe bei allen Frühgeborenen mit zentralem Venenkatheter",
+          "correct": false
+        },
+        {
+          "text": "Grundsätzliche Therapieverlängerung auf 7 Tage bei jedem erhöhten CRP ohne Erregernachweis",
+          "correct": false
+        }
+      ],
+      "answer": "Die frühe **Beendigung nicht indizierter Therapien nach 36–48 h** (Reevaluation bzw. „Antibiotic Time-out“) bei negativer Kultur und unauffälliger Klinik ist die wirksamste Stewardship-Maßnahme. Cephalosporine als Erstlinientherapie fördern Resistenzen und Candida-Infektionen, eine Katheterprophylaxe mit Antibiotika ist nicht empfohlen, und eine schematische Verlängerung bei isoliert erhöhtem CRP erhöht die Antibiotikaexposition ohne belegten Nutzen. Weitere Elemente: lokale Leitlinien, Kenntnis der Resistenzlage, Deeskalation nach Antibiogramm, Verbrauchs-Surveillance und Zusammenarbeit mit einem ABS-Team.",
+      "keyPoints": [
+        "Beenden nach 36–48 h bei negativer Kultur",
+        "Cephalosporine nicht als Erstlinie",
+        "Keine Antibiotikaprophylaxe bei ZVK",
+        "Deeskalation, lokale Standards, Verbrauchssurveillance"
+      ],
+      "tags": ["Antibiotic Stewardship"],
+      "exam": ["KM", "HK"],
+      "source": "AWMF S2k-Leitlinie Bakterielle Infektionen bei Neugeborenen (Stand 2021)"
+    }
+  ]
+}

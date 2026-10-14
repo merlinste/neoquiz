@@ -1,0 +1,675 @@
+{
+  "area": "hygiene",
+  "questions": [
+    {
+      "id": "hyg-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie die **fünf Indikationen zur hygienischen Händedesinfektion** und beschreiben Sie die korrekte Durchführung sowie die Voraussetzungen dafür.",
+      "hints": ["„Aktion Saubere Hände“ / WHO-Modell.", "Vor und nach dem Patienten – und dazwischen?"],
+      "answer": "Die fünf Indikationen (WHO, „Aktion Saubere Hände“): **vor Patientenkontakt**, **vor aseptischen Tätigkeiten** (z. B. Manipulation an Kathetern, Zubereitung von Infusionen, Absaugen), **nach Kontakt mit potenziell infektiösem Material**, **nach Patientenkontakt** und **nach Kontakt mit der unmittelbaren Patientenumgebung** (Inkubator, Monitor). Durchführung: ausreichende Menge alkoholisches Händedesinfektionsmittel auf trockene Hände, alle Flächen inklusive Fingerkuppen, Daumen und Nagelfalze benetzen, Einwirkzeit nach Herstellerangabe (in der Regel **30 Sekunden**), Hände während der gesamten Zeit feucht halten. Voraussetzungen: kurze, unlackierte Fingernägel, keine künstlichen Nägel, **kein Schmuck, keine Uhren und Ringe** an Händen und Unterarmen, Unterarme frei. Händewaschen nur bei sichtbarer Verschmutzung, danach desinfizieren.",
+      "keyPoints": [
+        "Vor Patientenkontakt, vor aseptischen Tätigkeiten",
+        "Nach Kontakt mit infektiösem Material, nach Patientenkontakt, nach Kontakt mit Patientenumgebung",
+        "Einwirkzeit meist 30 s, alle Handflächen benetzt",
+        "Kein Schmuck, keine künstlichen Nägel, Unterarme frei"
+      ],
+      "tags": ["Händehygiene"],
+      "exam": ["KM", "HK"],
+      "source": "KRINKO-Empfehlung Händehygiene in Einrichtungen des Gesundheitswesens"
+    },
+    {
+      "id": "hyg-002",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Aussage zur Händehygiene auf der neonatologischen Intensivstation ist **richtig**?",
+      "hints": ["Handschuhe sind nie völlig dicht und werden beim Ausziehen kontaminiert."],
+      "options": [
+        {
+          "text": "Nach dem Ablegen von Einmalhandschuhen ist eine hygienische Händedesinfektion erforderlich.",
+          "correct": true
+        },
+        {
+          "text": "Händewaschen mit Seife ist vor aseptischen Tätigkeiten der Händedesinfektion gleichwertig.",
+          "correct": false
+        },
+        {
+          "text": "Beim Wechsel zwischen zwei Inkubatoren kann bei sichtbar sauberen Händen auf die Desinfektion verzichtet werden.",
+          "correct": false
+        },
+        {
+          "text": "Das Tragen von Handschuhen ersetzt die Händedesinfektion vor dem Patientenkontakt.",
+          "correct": false
+        }
+      ],
+      "answer": "Handschuhe schützen nicht vollständig (Mikroperforationen, Kontamination beim Ausziehen). Nach dem Ablegen ist daher **immer eine hygienische Händedesinfektion** erforderlich. Händewaschen ist der alkoholischen Desinfektion in der Keimreduktion unterlegen und belastet die Haut stärker; zwischen zwei Patienten ist die Desinfektion obligat, unabhängig vom sichtbaren Zustand der Hände.",
+      "keyPoints": [
+        "Handschuhe ersetzen keine Händedesinfektion",
+        "Desinfektion nach Ablegen der Handschuhe",
+        "Alkoholische Desinfektion dem Waschen überlegen"
+      ],
+      "tags": ["Händehygiene", "Handschuhe"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "hyg-003",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Warum sind **sehr unreife Frühgeborene** besonders anfällig für nosokomiale Infektionen? Nennen Sie kindliche und behandlungsbedingte Faktoren.",
+      "hints": ["Immunsystem und Haut.", "Was wird bei diesen Kindern alles „invasiv“ gemacht?"],
+      "answer": "**Kindliche Faktoren**: unreifes angeborenes und adaptives Immunsystem (verminderte Neutrophilenfunktion, Komplement), **geringer transplazentarer IgG-Transfer**, der überwiegend im letzten Trimenon stattfindet; **unreife, leicht verletzliche Haut** mit fehlender Barrierefunktion; unreife Schleimhautbarriere des Darms. **Behandlungsbedingte Faktoren**: zentrale Gefäßkatheter, Beatmung/Tubus, parenterale Ernährung mit Lipiden, häufige Haut- und Gefäßpunktionen, lange Liegedauer, Antibiotikaexposition mit gestörtem Mikrobiom und Kolonisation mit Krankenhauskeimen, Säureblocker und Steroide. **Strukturelle Faktoren**: Personalmangel, Überbelegung, enge Platzverhältnisse, Lücken in der Händehygiene.",
+      "keyPoints": [
+        "Unreifes Immunsystem, geringer IgG-Transfer",
+        "Unreife Haut- und Schleimhautbarriere",
+        "Devices: ZVK, Tubus, parenterale Ernährung",
+        "Antibiotika, Kolonisation mit Klinikflora, lange Liegedauer",
+        "Strukturfaktoren: Personal, Belegung"
+      ],
+      "tags": ["Nosokomiale Infektion", "Frühgeborene"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ]
+    },
+    {
+      "id": "hyg-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was ist das **mikrobielle Kolonisationsscreening** auf neonatologischen Intensivstationen nach KRINKO, welche Erreger stehen im Fokus, und welche Konsequenzen ergeben sich aus den Befunden?",
+      "hints": [
+        "Regelmäßige Abstriche bei allen Risikopatienten – nicht erst bei Infektion.",
+        "Kenntnis der Besiedlung hilft auch bei der kalkulierten Therapie."
+      ],
+      "answer": "Beim Kolonisationsscreening werden bei intensivmedizinisch behandelten Früh- und Neugeborenen **regelmäßig (mindestens wöchentlich)** Abstriche (z. B. Rachen/Nase und Rektum, je nach Hygieneplan weitere Lokalisationen) untersucht – unabhängig von Infektionszeichen. Gesucht werden **Erreger mit besonderen Eigenschaften**: MRSA, multiresistente gramnegative Erreger (inkl. **2MRGN NeoPäd**, 3MRGN, 4MRGN) sowie Erreger mit besonderer Pathogenität bzw. hohem Ausbruchsrisiko (z. B. **Serratia marcescens**, Pseudomonas aeruginosa, Enterobacter; anlassbezogen auch Klebsiella, Acinetobacter, MSSA). Ein Routinescreening auf VRE wird laut KRINKO erst angestrebt, wenn es auf der Station zu einer invasiven VRE-Infektion gekommen ist. Konsequenzen: **Barrieremaßnahmen bzw. Isolierung/Kohortierung**, frühe Erkennung von **Übertragungen und Clustern** (ggf. Typisierung), Anpassung der **kalkulierten Antibiotikatherapie** bei Infektionsverdacht an die bekannte Besiedlung und Information der Hygienefachkräfte. Die genaue Ausgestaltung legt der Hygieneplan der Einrichtung mit der Krankenhaushygiene fest.",
+      "keyPoints": [
+        "Regelmäßige (mindestens wöchentliche) Abstriche unabhängig von Infektionszeichen",
+        "MRSA, MRGN inkl. 2MRGN NeoPäd, Serratia, P. aeruginosa u. a. (VRE anlassbezogen)",
+        "Barrieremaßnahmen, Isolierung/Kohortierung",
+        "Cluster-Erkennung, Typisierung",
+        "Anpassung der kalkulierten Therapie"
+      ],
+      "tags": ["Kolonisationsscreening", "KRINKO", "MRE"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "KRINKO-Empfehlung Praktische Umsetzung sowie krankenhaushygienische und infektionspräventive Konsequenzen des mikrobiellen Kolonisationsscreenings bei intensivmedizinisch behandelten Früh- und Neugeborenen (Epid Bull 42/2013)"
+    },
+    {
+      "id": "hyg-005",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Was versteht man unter **2MRGN NeoPäd**?",
+      "hints": [
+        "Die Kategorie wurde speziell für die Pädiatrie/Neonatologie geschaffen.",
+        "Welche Antibiotikagruppe wird bei Neugeborenen praktisch nicht eingesetzt?"
+      ],
+      "options": [
+        {
+          "text": "Gramnegative Stäbchen mit Resistenz gegen Acylureidopenicilline und Cephalosporine der 3./4. Generation bei erhaltener Carbapenem-Empfindlichkeit",
+          "correct": true
+        },
+        {
+          "text": "Gramnegative Stäbchen mit Resistenz gegen alle vier Leitsubstanzgruppen einschließlich Carbapenemen",
+          "correct": false
+        },
+        {
+          "text": "Methicillin-resistente Staphylococcus aureus mit zusätzlicher Gentamicin-Resistenz",
+          "correct": false
+        },
+        { "text": "Vancomycin-resistente Enterokokken bei Kindern unter 2 Jahren", "correct": false }
+      ],
+      "answer": "Die KRINKO-Klassifikation teilt gramnegative Erreger nach Resistenz gegen vier Leitsubstanzgruppen ein (Acylureidopenicilline, Cephalosporine der 3./4. Generation, Carbapeneme, Fluorchinolone). Da Fluorchinolone in der Neonatologie/Pädiatrie kaum eingesetzt werden, wurde für diese Patientengruppe die Kategorie **2MRGN NeoPäd** eingeführt: Resistenz gegen **Acylureidopenicilline und 3./4.-Generations-Cephalosporine**, Carbapeneme noch wirksam. Die Kategorie wurde 2013 in der KRINKO-Empfehlung zum Kolonisationsscreening bei Früh- und Neugeborenen eingeführt. Bei Nachweis auf einer neonatologischen Intensivstation sind Barrieremaßnahmen vorgesehen (Kohortierung, Schutzkittel und Handschuhe; ein Einzelzimmer ist anders als bei 3MRGN/4MRGN nicht zwingend); die Details regelt der Hygieneplan.",
+      "keyPoints": [
+        "Resistenz gegen Piperacillin und 3./4.-Generations-Cephalosporine",
+        "Carbapeneme wirksam",
+        "Pädiatrische Sonderkategorie, da Fluorchinolone kaum eingesetzt",
+        "Barrieremaßnahmen auf NICU"
+      ],
+      "tags": ["MRGN", "KRINKO"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "KRINKO-Empfehlung Praktische Umsetzung sowie krankenhaushygienische und infektionspräventive Konsequenzen des mikrobiellen Kolonisationsscreenings bei intensivmedizinisch behandelten Früh- und Neugeborenen (Epid Bull 42/2013)"
+    },
+    {
+      "id": "hyg-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Im Aufnahmescreening eines Frühgeborenen der 29+3 SSW, das aus einer anderen Klinik verlegt wurde, wird **MRSA** nachgewiesen. Welche Maßnahmen ergreifen Sie?",
+      "hints": ["Übertragung verhindern – räumlich und durch Barrieren.", "Was ist mit Mitpatienten und Eltern?"],
+      "answer": "Information der **Krankenhaushygiene** und Umsetzung des Hygieneplans: **Einzelunterbringung** bzw. Kohortierung (Inkubator allein ist keine Isolierung), **Barrieremaßnahmen** mit patientenbezogenem Schutzkittel und Handschuhen, Mund-Nasen-Schutz (laut KRINKO bei MRSA vorgesehen), strikte Händehygiene, patientenbezogene Medizinprodukte (Stethoskop, Thermometer), tägliche Wischdesinfektion der Umgebung, Kennzeichnung in der Dokumentation. **Eltern** aufklären und in Händehygiene und Schutzkleidung einweisen. **Screening der Mitpatienten** bzw. verstärktes Screening, um Übertragungen zu erkennen; bei Häufung Typisierung und ggf. Personalscreening nach Rücksprache mit der Hygiene. Eine **Dekolonisierung** (z. B. nasales Mupirocin, antiseptische Waschungen) wird bei Früh- und Neugeborenen individuell abgewogen (Hautverträglichkeit, Erfolgsaussicht, Zeitpunkt). Bei Infektionsverdacht muss die kalkulierte Therapie MRSA erfassen (z. B. Vancomycin).",
+      "keyPoints": [
+        "Krankenhaushygiene informieren",
+        "Einzelunterbringung/Kohortierung, Schutzkittel, Handschuhe",
+        "Patientenbezogene Medizinprodukte, Flächendesinfektion",
+        "Mitpatienten-Screening, Eltern einweisen",
+        "Dekolonisierung individuell; kalkulierte Therapie MRSA-wirksam"
+      ],
+      "tags": ["MRSA", "Isolierung", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "KRINKO-Empfehlung Praktische Umsetzung sowie krankenhaushygienische und infektionspräventive Konsequenzen des mikrobiellen Kolonisationsscreenings bei intensivmedizinisch behandelten Früh- und Neugeborenen (Epid Bull 42/2013)"
+    },
+    {
+      "id": "hyg-007",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Auf Ihrer neonatologischen Intensivstation wird innerhalb einer Woche bei **zwei Frühgeborenen < 1500 g Serratia marcescens** nachgewiesen – einmal in der Blutkultur, einmal im Kolonisationsscreening. **Wie gehen Sie vor?**",
+      "hints": ["Ab wann spricht man in der Neonatologie von einem Cluster?", "Typisierung, Quellensuche, Meldung."],
+      "answer": "Auf neonatologischen Intensivstationen ist bereits das Auftreten desselben Erregers bei **zwei Patienten** in zeitlichem Zusammenhang (auch Kolonisationen) ein Warnsignal für eine Übertragung und muss sofort analysiert werden. Vorgehen: unverzüglich **Krankenhaushygiene informieren**, Ausbruchsmanagement-Team einberufen; betroffene Kinder **isolieren/kohortieren** mit eigenem Personal soweit möglich; **verstärktes Screening aller Patienten** der Station; **molekulare Typisierung** der Isolate zur Klärung der Klonalität. **Quellensuche**: Händehygiene-Compliance, Waschbecken und Siphons, Seifen- und Desinfektionsmittelspender, Muttermilch und Milchpumpen, Inkubatoren und deren Befeuchtung, Zubereitung von Infusionen und Medikamenten, Personal- und Belegungssituation. Bei gehäuften nosokomialen **Infektionen** mit wahrscheinlichem epidemischem Zusammenhang besteht eine **nichtnamentliche Meldepflicht an das Gesundheitsamt** nach § 6 Abs. 3 IfSG. Je nach Ausmaß: Aufnahmebeschränkung, Information der Eltern und ggf. von Verlegungskliniken, Dokumentation und Nachbesprechung.",
+      "keyPoints": [
+        "Zwei Fälle (auch Kolonisationen) = Cluster-Verdacht",
+        "Hygiene informieren, Ausbruchsteam",
+        "Isolierung/Kohortierung, Screening aller Patienten",
+        "Typisierung und Quellensuche (Waschbecken, Muttermilch, Infusionszubereitung)",
+        "Meldung nach § 6 Abs. 3 IfSG, ggf. Aufnahmestopp"
+      ],
+      "tags": ["Ausbruchsmanagement", "Serratia", "Fallbeispiel"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "KRINKO-Empfehlung Praktische Umsetzung sowie krankenhaushygienische und infektionspräventive Konsequenzen des mikrobiellen Kolonisationsscreenings bei intensivmedizinisch behandelten Früh- und Neugeborenen (Epid Bull 42/2013); IfSG § 6 Abs. 3"
+    },
+    {
+      "id": "hyg-008",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **Meldepflicht** bei gehäuftem Auftreten nosokomialer Infektionen ist **richtig**?",
+      "hints": ["Infektionsschutzgesetz, § 6."],
+      "options": [
+        {
+          "text": "Gehäufte nosokomiale Infektionen, bei denen ein epidemischer Zusammenhang wahrscheinlich ist oder vermutet wird, sind nichtnamentlich dem Gesundheitsamt zu melden.",
+          "correct": true
+        },
+        {
+          "text": "Eine Meldung ist erst erforderlich, wenn mindestens fünf Patienten erkrankt sind.",
+          "correct": false
+        },
+        { "text": "Häufungen müssen nur intern dokumentiert, aber nicht gemeldet werden.", "correct": false },
+        {
+          "text": "Die Meldung erfolgt ausschließlich durch das Labor direkt an das Robert Koch-Institut.",
+          "correct": false
+        }
+      ],
+      "answer": "Nach **§ 6 Abs. 3 IfSG** ist das gehäufte Auftreten nosokomialer Infektionen, bei denen ein epidemischer Zusammenhang wahrscheinlich ist oder vermutet wird, **unverzüglich nichtnamentlich dem Gesundheitsamt** zu melden. Eine Mindestzahl ist nicht festgelegt (Häufung = zwei oder mehr Fälle). Davon unabhängig bestehen Labormeldepflichten für bestimmte Erregernachweise (§ 7 IfSG) und die Pflicht zur Aufzeichnung nosokomialer Infektionen und Resistenzen (§ 23 IfSG).",
+      "keyPoints": ["§ 6 Abs. 3 IfSG", "Nichtnamentlich an das Gesundheitsamt", "Keine Mindestzahl über zwei Fälle hinaus"],
+      "tags": ["Ausbruchsmanagement", "Infektionsschutzgesetz"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "Infektionsschutzgesetz (IfSG) § 6 Abs. 3"
+    },
+    {
+      "id": "hyg-009",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Maßnahmen gehören zu einem **Bündel zur Prävention katheterassoziierter Blutstrominfektionen (CLABSI)** bei Frühgeborenen – bei Anlage und bei Pflege des Katheters?",
+      "hints": ["Anlage: maximale Barriere.", "Pflege: jede Manipulation ist ein Risiko – und jeder Tag Liegedauer."],
+      "answer": "**Bei Anlage**: Indikation streng stellen, geschultes Personal, hygienische Händedesinfektion, **maximale Barrieremaßnahmen** (steriler Kittel, sterile Handschuhe, Haube, Mund-Nasen-Schutz, großes steriles Abdecktuch), Hautantiseptik mit gewebeverträglichem Mittel unter Einhaltung der Einwirkzeit, Lagekontrolle und Dokumentation. **Bei Pflege**: Manipulationen auf das Nötigste reduzieren, Händedesinfektion vor jedem Kontakt, **Desinfektion von Konnektoren/Zuspritzstellen** vor jedem Zugang, möglichst geschlossene Systeme, aseptische Zubereitung der Infusionen (parenterale Ernährung idealerweise aus der Apotheke unter Werkbank), festgelegte Wechselintervalle – **lipidhaltige Infusionssysteme spätestens nach 24 h** –, sterile transparente Verbände, tägliche Inspektion der Einstichstelle, **tägliche Überprüfung der Indikation** und frühestmögliche Entfernung, rascher enteraler Nahrungsaufbau. Begleitend: Surveillance der Infektionsraten (z. B. NEO-KISS), Schulungen und Checklisten.",
+      "keyPoints": [
+        "Maximale Barrieremaßnahmen bei Anlage",
+        "Hautantiseptik mit Einwirkzeit",
+        "Konnektordesinfektion, Manipulationen minimieren",
+        "Lipidhaltige Systeme alle 24 h wechseln",
+        "Tägliche Indikationsprüfung, früh entfernen; Surveillance"
+      ],
+      "tags": ["CLABSI", "Gefäßkatheter", "Prävention"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "KRINKO-Empfehlung Prävention von Gefäßkatheter-assoziierten Infektionen bei Früh- und Neugeborenen (2018)"
+    },
+    {
+      "id": "hyg-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Besonderheiten müssen Sie bei der **Hautantiseptik** vor Punktionen und Katheteranlagen bei **extrem unreifen Frühgeborenen** (z. B. 23–25 SSW in der ersten Lebenswoche) beachten?",
+      "hints": ["Die Haut ist dünn und durchlässig.", "Was passiert, wenn sich Antiseptikum unter dem Kind sammelt?"],
+      "answer": "Die Haut extrem unreifer Frühgeborener hat eine kaum ausgebildete Hornschicht, ist sehr permeabel und verletzlich. Alkoholische und andere Antiseptika (auch chlorhexidin- oder octenidinhaltige Präparate) können **chemische Verbrennungen und Nekrosen** verursachen und werden resorbiert. Es gibt **kein allgemein als optimal belegtes Antiseptikum** für diese Gruppe; die Wahl erfolgt nach Hygieneplan in Abstimmung mit der Krankenhaushygiene. Praktisch: Antiseptikum **sparsam und nur auf die nötige Fläche** auftragen, Einwirkzeit einhalten, **Pfützenbildung und Unterlaufen unter das Kind bzw. unter Pflaster vermeiden**, getränkte Tupfer/Unterlagen entfernen, ggf. Reste nach der Einwirkzeit mit sterilem Wasser bzw. Kochsalz abnehmen. Keine Okklusion von antiseptikagetränkter Haut. Gleichzeitig darf die Antiseptik nicht unterbleiben, da Katheterinfektionen in dieser Gruppe besonders häufig und gefährlich sind.",
+      "keyPoints": [
+        "Unreife, hochpermeable Haut",
+        "Risiko chemischer Verbrennungen und Resorption",
+        "Kein eindeutig überlegenes Antiseptikum – Hygieneplan",
+        "Sparsam, kleine Fläche, keine Pfützen/Okklusion, Reste entfernen",
+        "Antiseptik dennoch obligat"
+      ],
+      "tags": ["Hautantiseptik", "Extrem Frühgeborene"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.4 – Veränderungen der Haut und der Gefäße",
+          "terms": ["Haut"]
+        }
+      ]
+    },
+    {
+      "id": "hyg-011",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Auf Ihrer Station wurden im letzten Jahr bei Frühgeborenen < 1500 g **5 ZVK-assoziierte Sepsisfälle** bei insgesamt **2000 ZVK-Tagen** erfasst. Wie hoch ist die **Inzidenzdichte pro 1000 ZVK-Tage**?",
+      "hints": ["Infektionen durch Device-Tage, mal 1000."],
+      "answer": "Inzidenzdichte = Anzahl Infektionen / Device-Tage · 1000 = 5 / 2000 · 1000 = **2,5 ZVK-assoziierte Sepsen pro 1000 ZVK-Tage**. Diese Kennzahl wird z. B. in NEO-KISS mit Referenzdaten anderer Stationen verglichen.",
+      "keyPoints": [
+        "Formel: Infektionen / Device-Tage · 1000",
+        "Ergebnis 2,5 pro 1000 ZVK-Tage",
+        "Vergleich mit Referenzdaten (NEO-KISS)"
+      ],
+      "solution": { "value": 2.5, "unit": "pro 1000 ZVK-Tage", "tolerance": 0.03 },
+      "tags": ["Surveillance", "Berechnung", "CLABSI"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ]
+    },
+    {
+      "id": "hyg-012",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ihre Station hat in einem Quartal **81 Liter** Händedesinfektionsmittel bei **900 Patiententagen** verbraucht. Wie viele **Händedesinfektionen pro Patiententag** entspricht das, wenn pro Desinfektion **3 ml** verwendet werden?",
+      "hints": ["Erst den Verbrauch in ml pro Patiententag berechnen.", "Dann durch die Menge pro Händedesinfektion teilen."],
+      "answer": "Verbrauch = 81 000 ml / 900 Patiententage = 90 ml pro Patiententag. Händedesinfektionen = 90 ml / 3 ml = **30 Händedesinfektionen pro Patiententag**. Der Verbrauch ist ein Surrogatparameter für die Compliance (z. B. im Modul HAND-KISS) und wird mit Referenzwerten vergleichbarer Stationen verglichen; auf Intensivstationen werden deutlich mehr Indikationen pro Patiententag erwartet.",
+      "keyPoints": ["90 ml pro Patiententag", "30 Händedesinfektionen pro Patiententag", "Verbrauch als Surrogat für Compliance"],
+      "solution": { "value": 30, "unit": "Händedesinfektionen/Patiententag", "tolerance": 0.03 },
+      "tags": ["Händehygiene", "Surveillance", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "hyg-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was ist **NEO-KISS**, welche Patienten und Ereignisse werden erfasst, und welchen Bezug gibt es zur **QFR-Richtlinie**?",
+      "hints": [
+        "Krankenhaus-Infektions-Surveillance-System.",
+        "Für welche Frühgeborenen schreibt der G-BA eine Surveillance vor?"
+      ],
+      "answer": "**NEO-KISS** ist das Modul des Krankenhaus-Infektions-Surveillance-Systems (Nationales Referenzzentrum für Surveillance von nosokomialen Infektionen) für neonatologische Intensivstationen. Erfasst werden **Frühgeborene mit Geburtsgewicht < 1500 g** prospektiv bis zur Entlassung, zum Tod oder bis zum Erreichen eines definierten Körpergewichts. Erfasste Ereignisse: nosokomiale **Sepsis** (laborbestätigt bzw. klinisch, inkl. Erreger), **Pneumonie** und **NEC**, jeweils als Inzidenzdichte bezogen auf Patienten- und Device-Tage (ZVK, Beatmung, CPAP). Die Stationen erhalten Referenzdaten zum Vergleich. Die **QFR-Richtlinie** des G-BA verpflichtet Perinatalzentren Level 1 und 2 zur Teilnahme an einer Surveillance nosokomialer Infektionen bei Frühgeborenen < 1500 g (z. B. NEO-KISS). Ziel ist nicht der Vergleich um seiner selbst willen, sondern das Erkennen von Problemen und die Erfolgskontrolle von Präventionsmaßnahmen.",
+      "keyPoints": [
+        "KISS-Modul für neonatologische Intensivstationen",
+        "Frühgeborene < 1500 g Geburtsgewicht",
+        "Sepsis, Pneumonie, NEC; device-assoziierte Raten",
+        "Referenzdaten, Benchmarking",
+        "Teilnahme verpflichtend nach QFR-RL (Level 1/2)"
+      ],
+      "tags": ["Surveillance", "NEO-KISS", "QFR-RL"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "leitlinien",
+          "where": "G-BA QFR-RL",
+          "terms": ["Versorgungsstufen", "Perinatalzentrum Level 1"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.9–7.10 – Aufnahme, Entlassung/Verlegung",
+          "terms": ["Verlegung", "Transport"]
+        }
+      ],
+      "source": "G-BA QFR-Richtlinie"
+    },
+    {
+      "id": "hyg-014",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nach welchen Grundsätzen werden **Frühgeborene geimpft**? Gehen Sie auf Impfalter, Impfschema und Besonderheiten bei sehr unreifen Frühgeborenen ein.",
+      "hints": ["Chronologisches oder korrigiertes Alter?", "Unterschied zum Schema reifer Säuglinge."],
+      "answer": "Frühgeborene werden nach dem **chronologischen (tatsächlichen) Alter** geimpft, nicht nach dem korrigierten Alter – ein Aufschub erhöht nur die Zeit ohne Schutz. Für die Sechsfachimpfung und die Pneumokokkenimpfung gilt bei Frühgeborenen (< 37 SSW) laut STIKO das **3+1-Schema** (im Alter von 2, 3, 4 und 11 Monaten), während reife Säuglinge nach dem 2+1-Schema geimpft werden. Die Rotavirus-Impfung beginnt ab dem Alter von 6 Wochen. Bei sehr unreifen Frühgeborenen (laut Fachinformation der Sechsfachimpfstoffe Geburt ≤ 28 SSW, insbesondere mit unreifer Atemregulation) sollte nach der ersten Impfung eine **kardiorespiratorische Überwachung über 48–72 Stunden** erfolgen, da vermehrt Apnoen und Bradykardien auftreten können; dies ist kein Grund, die Impfung zu verschieben. Impfungen werden – auch bei noch stationären Kindern – im Entlassungsbrief dokumentiert und der Impfstatus der Haushaltskontakte (Kokonstrategie) geprüft.",
+      "keyPoints": [
+        "Chronologisches Alter",
+        "3+1-Schema für Sechsfach- und Pneumokokkenimpfung",
+        "Rotavirus ab 6 Wochen",
+        "Monitoring 48–72 h nach Erstimpfung bei ≤ 28 SSW",
+        "Kokonstrategie"
+      ],
+      "tags": ["Impfungen", "Frühgeborene", "STIKO"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8 – Impfempfehlungen für Frühgeborene",
+          "terms": ["Impfung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "STIKO-Empfehlungen",
+          "terms": ["Frühgeborene", "RSV-Prophylaxe"]
+        }
+      ],
+      "source": "STIKO-Empfehlungen"
+    },
+    {
+      "id": "hyg-015",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes der 27+0 SSW ist jetzt **8 Wochen alt** (korrigiert 35+0 SSW) und noch stationär. Welche Aussage zur **Rotavirus-Impfung** ist richtig?",
+      "hints": ["Für Rotavirus gibt es eine obere Altersgrenze für den Beginn der Impfserie."],
+      "options": [
+        {
+          "text": "Die Impfung richtet sich nach dem chronologischen Alter; die Impfserie sollte frühzeitig ab 6 Wochen und spätestens bis zum Alter von 12 Wochen begonnen werden.",
+          "correct": true
+        },
+        { "text": "Die Impfung darf erst ab einem korrigierten Alter von 40 SSW gegeben werden.", "correct": false },
+        {
+          "text": "Die Rotavirus-Impfung ist bei ehemaligen Frühgeborenen < 32 SSW kontraindiziert.",
+          "correct": false
+        },
+        {
+          "text": "Der Impfstoff wird intramuskulär zusammen mit der Sechsfachimpfung verabreicht.",
+          "correct": false
+        }
+      ],
+      "answer": "Auch die Rotavirus-Impfung erfolgt nach dem **chronologischen Alter**. Die STIKO empfiehlt einen frühen Beginn ab 6 Wochen, die Impfserie soll **bis zum Alter von 12 Wochen begonnen** und je nach Impfstoff fristgerecht abgeschlossen werden, weil das (geringe) Invaginationsrisiko mit dem Alter bei Impfung zunimmt. Der Lebendimpfstoff wird **oral** gegeben. Da Impfvirus mit dem Stuhl ausgeschieden wird, sind auf der Station Standardhygienemaßnahmen (Händehygiene, Windelentsorgung) einzuhalten; ob während des stationären Aufenthalts oder bei Entlassung geimpft wird, ist zentrumsabhängig.",
+      "keyPoints": [
+        "Chronologisches Alter",
+        "Beginn ab 6 Wochen, spätestens bis 12 Wochen",
+        "Orale Lebendimpfung, Virusausscheidung → Standardhygiene"
+      ],
+      "tags": ["Rotavirus", "Impfungen", "Frühgeborene"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8 – Impfempfehlungen für Frühgeborene",
+          "terms": ["Impfung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "STIKO-Empfehlungen",
+          "terms": ["Frühgeborene", "RSV-Prophylaxe"]
+        }
+      ],
+      "source": "STIKO-Empfehlungen"
+    },
+    {
+      "id": "hyg-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die aktuelle **RSV-Prophylaxe** für Neugeborene und Säuglinge nach STIKO: Wer erhält sie, womit und wann?",
+      "hints": [
+        "Seit 2024 ist die Empfehlung nicht mehr auf Risikokinder beschränkt.",
+        "Zeitpunkt hängt davon ab, ob das Kind in oder außerhalb der Saison geboren wird."
+      ],
+      "answer": "Die STIKO empfiehlt seit 2024 allen Neugeborenen und Säuglingen in ihrer **ersten RSV-Saison** – unabhängig von Gestationsalter und Risikofaktoren – eine passive Immunisierung mit einem **langwirksamen monoklonalen Antikörper**; neben **Nirsevimab** nennt die aktuelle Empfehlung (RKI, Stand 09/2026) auch **Clesrovimab** (feste Einzeldosis 105 mg i.m., nur für die erste Saison zugelassen). **Einmalige i.m.-Gabe**: Kinder, die **während der Saison** (meist etwa Oktober bis März) geboren werden, möglichst bald nach der Geburt, idealerweise vor Entlassung aus der Geburtsklinik bzw. der Neonatologie oder spätestens bei der U2; Kinder, die zwischen April und September geboren werden, im **Herbst vor Saisonbeginn** (September bis November). Versäumte Gaben werden innerhalb der ersten Saison nachgeholt. In der **zweiten Saison** sollen Kinder mit therapiepflichtiger BPD bzw. fortbestehend hohem Risiko erneut Nirsevimab erhalten; bei hämodynamisch relevanten Herzfehlern, schwerer Immundefizienz oder neuromuskulären Erkrankungen ist dies eine Einzelfallentscheidung. Palivizumab ist nur noch Alternative, wenn langwirksame Antikörper nicht verfügbar sind. Die **maternale RSV-Impfung** (zugelassen für die 24.–36. SSW) ist **nicht STIKO-empfohlen**, nach individueller Beratung aber möglich: Gesunde Neugeborene einer Mutter, die mindestens 2 Wochen vor der Geburt geimpft wurde, benötigen in der Regel keinen Antikörper; bei Impfung weniger als 2 Wochen vor der Geburt oder bei Risikofaktoren wird er zusätzlich empfohlen.",
+      "keyPoints": [
+        "Langwirksamer Antikörper (Nirsevimab, inzwischen auch Clesrovimab) für alle Säuglinge in der ersten RSV-Saison",
+        "Einmalige i.m.-Gabe; in der Saison Geborene möglichst vor Entlassung bzw. bis zur U2",
+        "April–September Geborene: im Herbst vor der Saison",
+        "Zweite Saison: Nirsevimab bei BPD/fortbestehend hohem Risiko",
+        "Maternale Impfung nicht STIKO-empfohlen; Impfung ≥ 2 Wochen vor Geburt → gesundes Kind braucht i. d. R. keinen Antikörper"
+      ],
+      "tags": ["RSV-Prophylaxe", "Nirsevimab", "STIKO"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8 – Impfempfehlungen für Frühgeborene",
+          "terms": ["Impfung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "STIKO-Empfehlungen",
+          "terms": ["Frühgeborene", "RSV-Prophylaxe"]
+        }
+      ],
+      "source": "STIKO-Empfehlung zur RSV-Prophylaxe bei Neugeborenen und Säuglingen (2024) und RKI-FAQ zur RSV-Prophylaxe (Stand 09/2026)"
+    },
+    {
+      "id": "hyg-017",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Wie wird **Nirsevimab** in der ersten RSV-Saison dosiert?",
+      "hints": ["Ein Gewichtsgrenzwert, zwei feste Dosen."],
+      "options": [
+        { "text": "Einmalig i.m.: 50 mg bei einem Körpergewicht < 5 kg, 100 mg bei ≥ 5 kg", "correct": true },
+        { "text": "15 mg/kg i.m. monatlich während der gesamten Saison", "correct": false },
+        { "text": "Einmalig 100 mg/kg i.v. über 2 Stunden", "correct": false },
+        { "text": "Einmalig 200 mg i.m. unabhängig vom Gewicht", "correct": false }
+      ],
+      "answer": "Nirsevimab wird in der ersten Saison als **Einzeldosis intramuskulär** gegeben: **50 mg bei < 5 kg**, **100 mg bei ≥ 5 kg** Körpergewicht. Die monatliche Gabe von 15 mg/kg entspricht dem früheren Palivizumab-Schema. 200 mg (als zwei Injektionen à 100 mg) ist die Dosis für Risikokinder in der zweiten Saison. Zum Vergleich: Der neuere Antikörper Clesrovimab wird gewichtsunabhängig als Einzeldosis von 105 mg i.m. gegeben.",
+      "keyPoints": ["Einmalige i.m.-Gabe", "50 mg < 5 kg, 100 mg ≥ 5 kg", "Palivizumab: monatlich 15 mg/kg (historisch)"],
+      "tags": ["RSV-Prophylaxe", "Nirsevimab"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8 – Impfempfehlungen für Frühgeborene",
+          "terms": ["Impfung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "STIKO-Empfehlungen",
+          "terms": ["Frühgeborene", "RSV-Prophylaxe"]
+        }
+      ],
+      "source": "Fachinformation Beyfortus (Nirsevimab); STIKO-Empfehlung zur RSV-Prophylaxe (2024)"
+    },
+    {
+      "id": "hyg-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie gehen Sie beim Neugeborenen einer **HBsAg-positiven Mutter** vor – und wie, wenn der **HBsAg-Status der Mutter unbekannt** ist?",
+      "hints": [
+        "Aktive und passive Immunisierung – mit Zeitfenster.",
+        "Wie lange kann die passive Immunisierung nachgeholt werden?"
+      ],
+      "answer": "**HBsAg-positive Mutter**: Das Neugeborene erhält **unmittelbar nach der Geburt, spätestens innerhalb von 12 Stunden**, eine **Simultanimpfung** – aktive Hepatitis-B-Impfung und **Hepatitis-B-Immunglobulin** an unterschiedlichen Injektionsstellen. Die Grundimmunisierung wird nach STIKO-Schema vervollständigt; **nach Abschluss** erfolgt eine **serologische Kontrolle** (Anti-HBs und HBsAg), um Impfversagen bzw. Infektion zu erkennen. **Unbekannter HBsAg-Status**: Aktive Impfung innerhalb von 12 Stunden und sofortige Bestimmung des mütterlichen HBsAg; bei positivem Befund wird das **Immunglobulin bis zu 7 Tage nach Geburt** nachgegeben. Stillen ist nach Simultanimpfung möglich. Pränatal kann bei hoher mütterlicher Viruslast eine antivirale Therapie der Mutter (z. B. Tenofovir) im letzten Trimenon das Transmissionsrisiko zusätzlich senken.",
+      "keyPoints": [
+        "Simultanimpfung (aktiv + HBIG) innerhalb 12 h",
+        "Unbekannter Status: aktiv innerhalb 12 h, HBsAg der Mutter bestimmen",
+        "HBIG bis 7 Tage nachholbar",
+        "Serologische Kontrolle nach Grundimmunisierung",
+        "Stillen erlaubt"
+      ],
+      "tags": ["Hepatitis B", "Simultanimpfung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.3–11.6 – Konnatale und perinatale Infektionen",
+          "terms": ["konnatale Infektion"]
+        }
+      ],
+      "source": "STIKO-Empfehlungen"
+    },
+    {
+      "id": "hyg-019",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein 8 Tage altes Neugeborenes hat eine eitrige Konjunktivitis. Grenzen Sie die **Ophthalmia neonatorum** durch Gonokokken und Chlamydien ab. Welche Rolle spielt heute die **Credé-Prophylaxe**?",
+      "hints": ["Zeitpunkt des Auftretens unterscheidet sich.", "Wie wird in der Schwangerschaft vorgebeugt?"],
+      "answer": "**Gonokokken-Konjunktivitis**: typischerweise in den **ersten Lebenstagen (etwa 2.–5. Tag)**, hochakut mit massiver eitriger Sekretion und Lidschwellung, Gefahr der Hornhautperforation – Notfall: Abstrich (Gramfärbung, Kultur, NAT), **systemische Therapie mit einem Cephalosporin** (z. B. Ceftriaxon als Einmalgabe; bei Hyperbilirubinämie bzw. Frühgeborenen Cefotaxim), häufige Spülungen, Therapie der Eltern. **Chlamydien-Konjunktivitis**: später (etwa **5.–14. Lebenstag**), meist mildere Verläufe; Nachweis per NAT; **systemische Therapie mit einem Makrolid** (Erythromycin oder Azithromycin), da auch eine afebrile Pneumonie folgen kann; Risiko einer hypertrophen Pylorusstenose unter Makroliden beachten; Partnerbehandlung. Die **Credé-Prophylaxe** (Silbernitrat) ist in Deutschland nicht mehr vorgeschrieben und wird kaum noch durchgeführt (chemische Konjunktivitis, keine Wirksamkeit gegen Chlamydien). Prävention erfolgt vor allem über das **Chlamydien-Screening in der Schwangerschaft** (Mutterschafts-Richtlinien) und die Behandlung infizierter Schwangerer.",
+      "keyPoints": [
+        "Gonokokken: früh (2.–5. Tag), hochakut, Hornhautgefahr",
+        "Gonokokken: systemisches Cephalosporin",
+        "Chlamydien: 5.–14. Tag, Makrolid systemisch, Pneumonierisiko",
+        "Credé nicht mehr vorgeschrieben",
+        "Chlamydien-Screening in der Schwangerschaft, Elternbehandlung"
+      ],
+      "tags": ["Ophthalmia neonatorum", "Credé-Prophylaxe"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "hyg-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Beschreiben Sie ein umfassendes **Schutzkonzept gegen Pertussis** für Neugeborene und Frühgeborene – inklusive Mutter, Familie und Personal.",
+      "hints": ["Die wirksamste Maßnahme beginnt vor der Geburt.", "Kokon – und wer sonst noch engen Kontakt hat."],
+      "answer": "Säuglinge in den ersten Lebensmonaten haben das höchste Risiko für schwere und tödliche Pertussis (Apnoen, Hyperleukozytose, pulmonale Hypertonie). Die STIKO empfiehlt die **Pertussis-Impfung (Tdap) in jeder Schwangerschaft zu Beginn des 3. Trimenons**, bei erhöhter Wahrscheinlichkeit einer Frühgeburt bereits im 2. Trimenon – die übertragenen Antikörper schützen das Kind bis zur eigenen Impfung (Nestschutz). Ergänzend **Kokonstrategie**: aktueller Impfschutz von Haushaltskontakten (Eltern, Geschwister, Großeltern) und Betreuungspersonen, idealerweise mindestens 4 Wochen vor Geburt. **Personal** im Gesundheitswesen mit Kontakt zu Neugeborenen soll gegen Pertussis geimpft sein (Auffrischung nach STIKO-Indikation). Das Kind selbst wird nach dem **chronologischen Alter ab 2 Monaten** geimpft (Frühgeborene 3+1-Schema). Bei Exposition eines ungeschützten Säuglings: frühzeitige Postexpositionsprophylaxe mit einem Makrolid nach Rücksprache.",
+      "keyPoints": [
+        "Tdap in jeder Schwangerschaft, Beginn 3. Trimenon (bei Frühgeburtsrisiko 2. Trimenon)",
+        "Kokonstrategie für Haushaltskontakte",
+        "Personalimpfung",
+        "Säuglingsimpfung chronologisch ab 2 Monaten",
+        "Makrolid-Prophylaxe nach Exposition"
+      ],
+      "tags": ["Pertussis", "Impfungen", "Kokonstrategie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.8 – Impfempfehlungen für Frühgeborene",
+          "terms": ["Impfung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "STIKO-Empfehlungen",
+          "terms": ["Frühgeborene", "RSV-Prophylaxe"]
+        }
+      ],
+      "source": "STIKO-Empfehlungen"
+    },
+    {
+      "id": "hyg-021",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche hygienischen Regeln gelten auf der neonatologischen Intensivstation für **Eltern, Geschwister und Besucher** sowie für **Mitarbeitende mit akuten Infekten**? Nennen Sie praktische Beispiele.",
+      "hints": [
+        "Eltern sind keine Besucher, sondern Partner in der Versorgung.",
+        "Herpes labialis, Gastroenteritis, Atemwegsinfekt beim Personal."
+      ],
+      "answer": "**Eltern** werden als Teil des Behandlungsteams in Händehygiene (Indikationen, Technik), Umgang mit Kleidung und Schmuck sowie in die Hygiene beim **Abpumpen und Transport von Muttermilch** (Pumpenaufbereitung, Kühlkette, Beschriftung) eingewiesen; Känguru-Pflege und Hautkontakt werden ausdrücklich gefördert. Eltern und **Geschwister** werden vor dem Besuch nach akuten Infektionen (Fieber, Durchfall, Erbrechen, Atemwegsinfekt, Windpocken- oder Masernkontakt) gefragt; erkrankte Geschwister sollten nicht zu Besuch kommen. Der Impfstatus der Familie (Masern, Pertussis, Influenza, Varizellen) wird angesprochen. **Mitarbeitende** mit akuter Gastroenteritis bleiben bis zum Abklingen der Symptome der Station fern; bei Atemwegsinfekten ggf. Mund-Nasen-Schutz bzw. Einsatzbeschränkung nach Hygieneplan; bei **Herpes labialis** Abdecken der Läsion, Mund-Nasen-Schutz, strikte Händehygiene und möglichst kein Einsatz bei sehr unreifen Frühgeborenen. Für Personal gilt die Masern-Nachweispflicht nach dem Masernschutzgesetz; Influenza-Impfung wird empfohlen.",
+      "keyPoints": [
+        "Eltern als Partner: Schulung in Händehygiene, Muttermilchhygiene",
+        "Abfrage akuter Infekte bei Eltern/Geschwistern",
+        "Personal mit Gastroenteritis: Arbeitsausschluss bis Symptomfreiheit",
+        "Herpes labialis: Abdecken, MNS, Einsatz bei Unreifen vermeiden",
+        "Masernschutzgesetz, Influenza-Impfung"
+      ],
+      "tags": ["Besucherregelung", "Personalhygiene", "Muttermilch"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "hyg-022",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Welche Maßnahme ist zur Prävention von Übertragungen **gramnegativer „Wasserkeime“** (z. B. Pseudomonas aeruginosa, Serratia, Klebsiella) auf einer neonatologischen Intensivstation am besten begründet?",
+      "hints": ["Siphons von Waschbecken sind bekannte Reservoire.", "Was passiert beim Spritzen aus dem Waschbecken?"],
+      "options": [
+        {
+          "text": "Ausreichender Abstand bzw. Spritzschutz zwischen Waschbecken und Patientenplatz/Arbeitsflächen, keine Lagerung von Material im Spritzbereich und keine Entsorgung von Nahrungsresten oder Muttermilch über Handwaschbecken",
+          "correct": true
+        },
+        {
+          "text": "Befüllung der Inkubator-Befeuchter mit frischem Leitungswasser statt Sterilwasser",
+          "correct": false
+        },
+        {
+          "text": "Ersatz der Händedesinfektion durch gründliches Händewaschen direkt am Inkubator",
+          "correct": false
+        },
+        {
+          "text": "Verzicht auf Kolonisationsscreening, da Wasserkeime nur Infektionen, keine Kolonisationen verursachen",
+          "correct": false
+        }
+      ],
+      "answer": "Waschbecken und **Siphons** sind gut belegte Reservoire für gramnegative Erreger, die auf NICUs Ausbrüche verursachen; beim Wasserlauf entstehen kontaminierte Spritzer und Aerosole. Die KRINKO empfiehlt daher u. a. **Abstand oder Spritzschutz** zu Patientenplätzen und Arbeitsflächen (z. B. Infusionszubereitung), keine Lagerung von Material im Spritzbereich, **keine Entsorgung von Nährstoffen (Nahrung, Muttermilch, Infusionslösungen) über Handwaschbecken**, die zu Biofilmbildung führt, und ggf. technische Lösungen. Inkubatorbefeuchter werden mit Sterilwasser betrieben; Händewaschen ersetzt die Desinfektion nicht; Kolonisationen sind Vorstufe und Indikator von Übertragungen.",
+      "keyPoints": [
+        "Waschbecken/Siphons als Erregerreservoir",
+        "Spritzschutz/Abstand zu Patient und Arbeitsflächen",
+        "Keine Entsorgung von Nahrung/Muttermilch über Handwaschbecken",
+        "Sterilwasser für Befeuchtung"
+      ],
+      "tags": ["Wasserkeime", "Ausbruchsprävention", "KRINKO"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 11.9 – Nosokomiale Infektionen",
+          "terms": ["nosokomiale Infektionen"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "KRINKO-Empfehlungen (RKI)",
+          "terms": ["Kolonisationsscreening", "Frühgeborene"]
+        }
+      ],
+      "source": "KRINKO-Empfehlung Anforderungen der Hygiene an abwasserführende Systeme in medizinischen Einrichtungen"
+    }
+  ]
+}

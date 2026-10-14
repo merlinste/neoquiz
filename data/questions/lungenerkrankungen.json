@@ -1,0 +1,650 @@
+{
+  "area": "lungenerkrankungen",
+  "questions": [
+    {
+      "id": "lunge-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Wie ist die **bronchopulmonale Dysplasie (BPD)** definiert? Erläutern Sie die NIH-Definition (2001) mit Schweregraden und nennen Sie die neuere Einteilung nach Jensen (2019).",
+      "hints": [
+        "28 Tage Sauerstoff, Beurteilung mit 36 SSW postmenstruell.",
+        "Die neuere Einteilung orientiert sich an der Art der Atemunterstützung."
+      ],
+      "answer": "**NIH-Konsensus 2001** (Gestationsalter < 32 SSW): Sauerstoffbedarf (FiO2 > 0,21) über **mindestens 28 Tage**, Schweregradbeurteilung mit **36 SSW postmenstruell** bzw. bei Entlassung:\n- **leicht:** Raumluft,\n- **mittelgradig:** FiO2 < 0,30,\n- **schwer:** FiO2 ≥ 0,30 und/oder Überdruckunterstützung (CPAP, Beatmung).\nBei Geburt ≥ 32 SSW erfolgt die Beurteilung nach > 28 Tagen, spätestens am 56. Lebenstag bzw. bei früherer Entlassung.\n\n**Jensen et al. (2019):** Einteilung allein nach der **Art der Atemunterstützung mit 36 SSW** postmenstruell: Grad 1 Nasenbrille ≤ 2 l/min, Grad 2 Nasenbrille > 2 l/min bzw. nicht-invasive Überdruckunterstützung, Grad 3 invasive Beatmung, jeweils unabhängig vom FiO2 – sie sagt die spätere respiratorische und neurologische Morbidität besser vorher. Physiologische Testung (Sauerstoff-Reduktionstest) verbessert die Vergleichbarkeit.",
+      "keyPoints": [
+        "NIH 2001: O2-Bedarf ≥ 28 Tage",
+        "Beurteilung mit 36 SSW pma",
+        "leicht: Raumluft, mittel: < 30 % O2, schwer: ≥ 30 % und/oder Überdruck",
+        "Jensen 2019: Einteilung nach Atemunterstützung mit 36 SSW (Grad 1–3)"
+      ],
+      "tags": ["BPD", "Definition"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-002",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein ehemaliges Frühgeborenes der 25+2 SSW erhält mit **36+0 SSW postmenstruell** CPAP mit FiO2 0,25 (Sauerstoffbedarf seit Geburt). Welcher Schweregrad der BPD liegt nach NIH-Definition (2001) vor?",
+      "hints": ["Überdruckunterstützung ist ein eigenes Kriterium."],
+      "options": [
+        { "text": "Schwere BPD", "correct": true },
+        { "text": "Mittelgradige BPD", "correct": false },
+        { "text": "Leichte BPD", "correct": false },
+        { "text": "Keine BPD, da FiO2 < 0,30", "correct": false }
+      ],
+      "answer": "Nach NIH 2001 gilt jede **Überdruckunterstützung (CPAP oder Beatmung) mit 36 SSW postmenstruell** – unabhängig vom FiO2 – als **schwere BPD**. Bei FiO2 < 0,30 ohne Überdruck läge eine mittelgradige BPD vor.",
+      "keyPoints": ["CPAP mit 36 SSW pma = schwere BPD", "unabhängig vom FiO2"],
+      "tags": ["BPD", "Definition"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-003",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Beschreiben Sie den Unterschied zwischen „**alter**“ und „**neuer“ BPD** und nennen Sie die wichtigsten pathogenetischen Faktoren.",
+      "hints": ["Die neue BPD ist vor allem eine Entwicklungsstörung.", "Prä- und postnatale Faktoren."],
+      "answer": "**Alte BPD** (Northway 1967): bei reiferen Frühgeborenen nach aggressiver Beatmung mit hohen Drücken und Sauerstoffkonzentrationen – Fibrose, Emphysem, Atemwegsschäden.\n\n**Neue BPD:** bei extrem unreifen Frühgeborenen im kanalikulären/sakkulären Stadium der Lungenentwicklung, oft trotz schonender Beatmung – vor allem eine **Störung der Alveolarisierung und der pulmonalen Gefäßentwicklung** (weniger, größere Alveolen, dysmorphe Gefäße), weniger Fibrose.\n\n**Pathogenetische Faktoren:** Unreife, **Beatmung** (Volu-/Atelektrauma), **Sauerstofftoxizität**, Infektion/Entzündung (Chorioamnionitis, Sepsis), hämodynamisch relevanter PDA, intrauterine Wachstumsrestriktion bzw. Präeklampsie (antiangiogene Faktoren), postnatale Mangelernährung, Flüssigkeitsüberladung, genetische Disposition.",
+      "keyPoints": [
+        "alte BPD: Barotrauma/O2, Fibrose, reifere Kinder",
+        "neue BPD: gestörte Alveolarisierung und Gefäßentwicklung",
+        "Beatmung, O2-Toxizität, Infektion/Entzündung",
+        "PDA, IUGR, Mangelernährung"
+      ],
+      "tags": ["BPD", "Pathogenese"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-004",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche Maßnahmen zur **Prävention der BPD** sind evidenzbasiert, welche sind umstritten oder haben sich in Studien nicht bewährt?",
+      "hints": [
+        "Koffein, nicht-invasive Atemhilfe, Surfactant-Technik, Volumengarantie.",
+        "Denken Sie an frühes Hydrocortison und an inhalative bzw. intratracheale Budesonid-Studien."
+      ],
+      "answer": "**Evidenzbasiert/empfohlen:**\n- Lungenreifeinduktion, **CPAP** ab Geburt statt primärer Intubation, **LISA**,\n- **Koffein** (CAP-Studie: weniger BPD; Konsensus 2025: prophylaktisch bei < 32 SSW),\n- **volumengarantierte Beatmung**, kurze Beatmungsdauer, Vermeidung von Hypokapnie und Hyperoxie (SpO2-Ziel 90–94 %),\n- Muttermilch, ausreichende Ernährung, Vermeidung von Flüssigkeitsüberladung.\n\n**Umstritten bzw. nicht bewährt:**\n- frühes **niedrig dosiertes Hydrocortison** bei < 28 SSW: PREMILOC zeigte mehr Überleben ohne BPD (aber mehr Late-onset-Sepsis bei 24–25 SSW; nicht mit Indometacin/Ibuprofen kombinieren – Perforationsrisiko), eine Metaanalyse aller frühen Hydrocortisonstudien dagegen keine generelle BPD-Reduktion; der European Consensus 2025 sieht keine ausreichende Evidenz für eine feste Empfehlung – Einsatz zentrumsabhängig,\n- **inhalatives Budesonid** (NEUROSIS: weniger BPD, aber höhere Mortalität),\n- **intratracheales Budesonid mit Surfactant** (PLUSS-Studie 2024 und NICHD-BiB-Studie 2025: kein Vorteil),\n- **Vitamin A** i. m. (geringer Effekt, in Deutschland eingeschränkt verfügbar),\n- **iNO** bei Frühgeborenen nicht wirksam zur BPD-Prävention,\n- **frühes Dexamethason** (< 7. Lebenstag) wegen Zerebralparese-Risiko obsolet.",
+      "keyPoints": [
+        "CPAP, LISA, Koffein, VG-Beatmung, O2-Ziele",
+        "frühes Hydrocortison (PREMILOC) umstritten, nicht mit NSAR kombinieren",
+        "inhalatives Budesonid: Mortalitätssignal (NEUROSIS)",
+        "intratracheales Budesonid (PLUSS) ohne Vorteil",
+        "iNO und frühes Dexamethason nicht empfohlen"
+      ],
+      "tags": ["BPD", "Prävention"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "lunge-005",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 24+6 SSW ist am **18. Lebenstag** weiterhin intubiert (FiO2 0,45, VG 5,5 ml/kg). Sie erwägen **postnatale Steroide**. Welche Substanz und welches Schema wählen Sie, was besprechen Sie mit den Eltern, und worauf achten Sie?",
+      "hints": [
+        "DART-Studie: niedrig dosiertes Dexamethason über 10 Tage.",
+        "Abwägung zwischen BPD-Risiko und neurologischem Risiko."
+      ],
+      "answer": "Bei beatmungsabhängigen Kindern nach der **1.–2. Lebenswoche** mit hohem BPD-Risiko empfiehlt der europäische Konsensus einen kurzen, **niedrig dosierten Dexamethason-Kurs** zur Erleichterung der Extubation, z. B. nach dem **DART-Schema**: 0,15 mg/kg/d für 3 Tage, 0,10 mg/kg/d für 3 Tage, 0,05 mg/kg/d für 2 Tage, 0,02 mg/kg/d für 2 Tage (Gesamtdosis **0,89 mg/kg über 10 Tage**). Alternativ setzen manche Zentren Hydrocortison ein; ein später Hydrocortisonkurs (Beginn 14.–28. Lebenstag) verbesserte in einer großen NICHD-Studie (Watterberg 2022) das Überleben ohne BPD nicht.\n\n**Elternaufklärung:** Off-Label-Einsatz; Nutzen (Extubation, Reduktion von BPD) gegen mögliche Risiken (neurologische Entwicklung, v. a. bei hohen bzw. frühen Dosen); Metaanalysen zeigen, dass das neurologische Risiko bei Kindern mit **sehr hohem BPD-Risiko** durch die Steroidtherapie eher aufgewogen wird (Wendepunkt bei einem BPD-Risiko von etwa 60 %).\n\n**Überwachung:** Hyperglykämie, arterielle Hypertonie, Infektionen, gastrointestinale Blutung/Perforation (nicht gleichzeitig mit NSAR), hypertrophe Kardiomyopathie, Wachstum. Frühe Gabe (< 7. Lebenstag) und hohe Dosen vermeiden.",
+      "keyPoints": [
+        "Indikation: beatmungsabhängig nach 1–2 Wochen, hohes BPD-Risiko",
+        "DART: 0,15–0,10–0,05–0,02 mg/kg/d, 0,89 mg/kg über 10 Tage",
+        "Aufklärung: Off-Label, Nutzen-Risiko, neurologisches Risiko",
+        "NW: Hyperglykämie, Hypertonie, Infektion, GI-Perforation, Kardiomyopathie",
+        "kein frühes/hochdosiertes Dexamethason"
+      ],
+      "tags": ["BPD", "Dexamethason", "Steroide"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ],
+      "source": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025"
+    },
+    {
+      "id": "lunge-006",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zu **postnatalen Steroiden** bei Frühgeborenen ist richtig?",
+      "hints": ["Zeitpunkt und Dosis entscheiden über das Risiko."],
+      "options": [
+        {
+          "text": "Frühe Dexamethason-Gabe in der ersten Lebenswoche erhöht das Risiko für Zerebralparese und wird nicht empfohlen.",
+          "correct": true
+        },
+        {
+          "text": "Hydrocortison kann bedenkenlos zusammen mit Ibuprofen oder Indometacin gegeben werden.",
+          "correct": false
+        },
+        {
+          "text": "Inhalatives Budesonid senkt BPD und Mortalität gleichermaßen und ist Standard.",
+          "correct": false
+        },
+        { "text": "Das DART-Schema beginnt mit 0,5 mg/kg/d Dexamethason.", "correct": false }
+      ],
+      "answer": "Frühe Dexamethason-Gabe (< 7 Tage) reduziert zwar die BPD, erhöht aber Zerebralparese und gastrointestinale Perforationen und ist daher obsolet. Die Kombination von Steroiden (auch Hydrocortison) mit NSAR erhöht das Perforationsrisiko. Inhalatives Budesonid zeigte in NEUROSIS ein Mortalitätssignal. DART beginnt mit 0,15 mg/kg/d.",
+      "keyPoints": [
+        "frühes Dexamethason: CP-Risiko, obsolet",
+        "Steroide plus NSAR: Perforationsrisiko",
+        "DART-Start 0,15 mg/kg/d"
+      ],
+      "tags": ["BPD", "Steroide"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-007",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes mit aktuell **900 g** soll einen Dexamethason-Kurs nach **DART-Schema** erhalten (0,15 mg/kg/d × 3 d, 0,10 mg/kg/d × 3 d, 0,05 mg/kg/d × 2 d, 0,02 mg/kg/d × 2 d). Wie hoch ist die **kumulative Gesamtdosis** in mg (ohne Gewichtsanpassung im Verlauf)?",
+      "hints": ["Erst die kumulative Dosis pro kg berechnen.", "0,45 + 0,30 + 0,10 + 0,04"],
+      "answer": "Kumulativ pro kg: 3 · 0,15 + 3 · 0,10 + 2 · 0,05 + 2 · 0,02 = 0,45 + 0,30 + 0,10 + 0,04 = 0,89 mg/kg.\nGesamtdosis: 0,89 mg/kg · 0,9 kg = **0,80 mg** (0,801 mg).",
+      "keyPoints": ["kumulativ 0,89 mg/kg", "· 0,9 kg", "≈ 0,80 mg"],
+      "solution": { "value": 0.801, "unit": "mg", "tolerance": 0.03 },
+      "tags": ["Dexamethason", "Berechnung", "BPD"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-008",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welchen Stellenwert haben **Diuretika und inhalative Therapien** (Bronchodilatatoren, Steroide) bei sich entwickelnder bzw. etablierter BPD?",
+      "hints": ["Kurzfristige Verbesserung der Lungenmechanik – und langfristig?", "Nebenwirkungen von Furosemid."],
+      "answer": "**Diuretika:** **Furosemid** verbessert kurzfristig Compliance und Oxygenierung, ein Nutzen für langfristige Endpunkte (BPD-Rate, Beatmungsdauer, Mortalität) ist nicht belegt. Nebenwirkungen: Hypokaliämie, Hyponatriämie, hypochlorämische metabolische Alkalose (verstärkt Hypoventilation), **Nephrokalzinose**, Ototoxizität, Knochenmineralisationsstörung. Thiazide (ggf. mit Spironolacton) werden bei chronischer BPD eingesetzt, ebenfalls ohne gesicherten Langzeitnutzen. Einsatz daher allenfalls gezielt (z. B. bei Flüssigkeitsüberladung oder als Therapieversuch mit klarer Erfolgskontrolle).\n\n**Inhalative Bronchodilatatoren** (Salbutamol) zeigen keinen gesicherten Nutzen bei BPD; Einsatz nur bei nachgewiesener Reversibilität bzw. akuter Obstruktion. **Inhalative Steroide** reduzieren in Studien zwar die BPD, sind aber nicht als Routine etabliert (Mortalitätssignal in NEUROSIS).",
+      "keyPoints": [
+        "Furosemid: kurzfristige Besserung, kein Langzeitnutzen",
+        "NW: Elektrolyte, Alkalose, Nephrokalzinose, Ototoxizität",
+        "Thiazide/Spironolacton ohne gesicherten Langzeitnutzen",
+        "Bronchodilatatoren nur bei nachgewiesener Reversibilität",
+        "inhalative Steroide nicht Routine"
+      ],
+      "tags": ["BPD", "Diuretika", "Therapie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 20 – Pharmakologie",
+          "terms": ["Dosierungen", "Inkompatibilitäten"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-009",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein ehemaliges Frühgeborenes der 24 SSW ist mit **42 SSW postmenstruell** noch invasiv beatmet (schwere BPD, heterogene Lungenbelüftung, Episoden mit plötzlicher Desaturation). Wie unterscheidet sich die Beatmungsstrategie bei **etablierter schwerer BPD** von der beim akuten RDS, und welche weiteren Aspekte der Versorgung sind wichtig?",
+      "hints": ["Lange Zeitkonstanten, hohe Resistance, Totraum.", "Desaturationsepisoden – an die Atemwege denken."],
+      "answer": "Bei **etablierter schwerer BPD** liegen heterogene Lungenabschnitte mit **langen Zeitkonstanten**, erhöhtem Atemwegswiderstand und vergrößertem Totraum vor. Die Strategie unterscheidet sich daher grundlegend vom RDS:\n- **größere Tidalvolumina** (oft etwa 8–12 ml/kg), **niedrigere Frequenz**, **längere Inspirationszeit** (etwa 0,5–0,8 s) und ausreichend lange Exspiration zur Vermeidung von Air-Trapping;\n- **höherer PEEP**, insbesondere bei **Tracheobronchomalazie** (Desaturationsepisoden, „BPD-Spells“);\n- Ziel ist ausreichender Gasaustausch und Wachstum, nicht die schnellstmögliche Extubation; Hyperkapnie bei kompensiertem pH tolerieren.\n\n**Weitere Aspekte:** Screening auf **pulmonale Hypertonie** (Echo), Bronchoskopie bei Verdacht auf Malazie oder Stenose, Optimierung der **Ernährung** (erhöhter Energiebedarf), Behandlung von Reflux/Aspiration, Entwicklungsförderung, frühzeitige Diskussion einer **Tracheotomie** bei langfristiger Beatmungsabhängigkeit, interdisziplinäres Team (Pneumologie, Kardiologie, HNO), regelmäßige Gespräche mit den Eltern. Die genannten Einstellungen beruhen überwiegend auf Expertenempfehlungen.",
+      "keyPoints": [
+        "lange Zeitkonstanten, heterogene Lunge, Totraum",
+        "größere VT, niedrige Frequenz, lange Ti",
+        "höherer PEEP bei Tracheobronchomalazie",
+        "PH-Screening, Ernährung, Bronchoskopie",
+        "Tracheotomie erwägen, interdisziplinär; Evidenz überwiegend Expertenmeinung"
+      ],
+      "tags": ["BPD", "Beatmung", "Tracheobronchomalazie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.8–10.11 – Sauerstofftherapie, CPAP/NIV, konventionelle und synchronisierte Beatmung",
+          "terms": ["CPAP", "Beatmung", "Sauerstofftherapie"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-010",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Was wissen Sie über die **pulmonale Hypertonie bei BPD** (BPD-PH)? Gehen Sie auf Screening, Diagnostik, Therapie und Prognose ein.",
+      "hints": [
+        "Screening-Echo zu einem definierten Zeitpunkt.",
+        "Welche Sättigung strebt man an, welche Medikamente werden eingesetzt?"
+      ],
+      "answer": "Eine **pulmonale Hypertonie** findet sich bei einem relevanten Teil der Kinder mit mittelgradiger bis schwerer BPD und ist mit **deutlich erhöhter Mortalität** und Morbidität assoziiert.\n\n**Screening:** Echokardiographie bei Kindern mit etablierter BPD (AHA/ATS-Leitlinie 2015; nach Empfehlung des Pediatric Pulmonary Hypertension Network zum Zeitpunkt der BPD-Diagnose mit **36 SSW** postmenstruell), bei beatmeten Hochrisikokindern auch früher. Echo-Hinweise: Trikuspidalinsuffizienz-Geschwindigkeit, Septumabflachung, RV-Dilatation/-Hypertrophie, Shuntrichtung an PDA/PFO.\n\n**Diagnostik/Abklärung:** Ausschluss bzw. Behandlung von Kofaktoren: intermittierende **Hypoxämie** (Pulsoximetrie im Schlaf), Aspiration/Reflux, Atemwegserkrankungen (Malazie, Stenose), **Links-rechts-Shunts** (ASD, PDA), **Lungenvenenstenosen**, linksventrikuläre diastolische Dysfunktion. Herzkatheter vor Langzeittherapie bzw. bei unklarem Befund.\n\n**Therapie:** Optimierung der Atemunterstützung, **Vermeidung von Hypoxämie** (Ziel-SpO2 etwa 92–95 %), Ernährung, Behandlung von Shunts; medikamentös (off-label) **Sildenafil**, ggf. Bosentan, iNO bei akuten Krisen; Betreuung durch Kinderkardiologie und pädiatrische Pneumologie.",
+      "keyPoints": [
+        "BPD-PH mit hoher Mortalität assoziiert",
+        "Echo-Screening bei etablierter BPD (36 SSW pma)",
+        "Kofaktoren: Hypoxämie, Aspiration, Shunts, Lungenvenenstenose",
+        "Hypoxämie vermeiden (SpO2 ca. 92–95 %)",
+        "Sildenafil off-label, Herzkatheter vor Langzeittherapie"
+      ],
+      "tags": ["BPD", "Pulmonale Hypertonie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ],
+      "source": "AHA/ATS-Leitlinie Pediatric Pulmonary Hypertension (2015)"
+    },
+    {
+      "id": "lunge-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes der 26 SSW mit BPD benötigt mit 39 SSW postmenstruell noch 0,1 l/min Sauerstoff über Nasenbrille. Die Eltern möchten nach Hause. Welche **Voraussetzungen für eine Entlassung mit Heimsauerstoff** prüfen Sie, und was organisieren Sie?",
+      "hints": ["Stabilität, Sättigungsziel, Monitoring.", "Schulung, Hilfsmittel, Nachsorge, Prophylaxe."],
+      "answer": "**Voraussetzungen:**\n- stabiler, über mehrere Tage gleichbleibender **niedriger O2-Bedarf** über Nasenbrille (Low-Flow), keine relevanten Apnoen/Bradykardien, keine akute Erkrankung;\n- adäquate Gewichtszunahme, Ernährung gesichert (oral oder per Sonde mit Schulung);\n- **PH-Screening** (Echo) erfolgt; Zielsättigung festgelegt – meist **SpO2 ≥ 92–93 %**, bei pulmonaler Hypertonie höher (zentrums- bzw. leitlinienabhängig), Bestätigung durch eine längere Oximetrie-Aufzeichnung (auch im Schlaf und beim Trinken);\n- belastbare, geschulte Eltern, rauchfreie Wohnung.\n\n**Organisation:** Verordnung von Sauerstoffkonzentrator und mobilen Flaschen, **Pulsoximeter** mit Alarmen, Schulung (Handhabung, Brandschutz – kein offenes Feuer, nicht rauchen), Reanimationstraining der Eltern, sozialmedizinische Nachsorge, Pflegedienst bei Bedarf, Kinderarzt informieren, Anbindung an Neonatologie/pädiatrische Pneumologie mit Plan zur **O2-Reduktion** (Oximetriekontrollen), **RSV-Prophylaxe** nach STIKO bzw. Fachempfehlungen, Impfungen nach chronologischem Alter, Notfallplan bei Atemwegsinfekten.",
+      "keyPoints": [
+        "stabiler niedriger O2-Bedarf, keine Apnoen, Gedeihen",
+        "Zielsättigung festlegen (meist ≥ 92–93 %, bei PH höher)",
+        "PH-Screening vorher",
+        "Hilfsmittel, Pulsoximeter, Schulung inkl. Brandschutz und Reanimation",
+        "Nachsorge, Weaning-Plan, RSV-Prophylaxe, Impfungen"
+      ],
+      "tags": ["Heimsauerstoff", "BPD", "Entlassung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-012",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Für den Heimtransport mit Sauerstoff steht eine **2-Liter-Sauerstoffflasche mit 200 bar Fülldruck** zur Verfügung. Das Kind erhält **0,5 l/min**. Wie viele Stunden reicht die Flasche theoretisch (ohne Restdruckreserve)?",
+      "hints": ["Gasvolumen = Flaschenvolumen · Fülldruck (bar)."],
+      "answer": "Verfügbares Gasvolumen: 2 l · 200 bar = 400 l Sauerstoff.\nDauer: 400 l / 0,5 l/min = 800 min = **≈ 13,3 Stunden**.\nIn der Praxis plant man eine Reserve (Restdruck, Verbrauchsschwankungen) ein.",
+      "keyPoints": ["Gasvolumen 400 l", "800 min", "≈ 13,3 h, Reserve einplanen"],
+      "solution": { "value": 13.3, "unit": "h", "tolerance": 0.03 },
+      "tags": ["Heimsauerstoff", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.4 – Bronchopulmonale Dysplasie",
+          "terms": ["BPD"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.8 – Steroide",
+          "terms": ["Steroide", "Dexamethason"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einer Schwangeren in der 24. SSW wird eine **linksseitige kongenitale Zwerchfellhernie (CDH)** diagnostiziert. Welche pränatalen Parameter bestimmen die Prognose, welche fetale Therapie gibt es, und was besprechen Sie im pränatalen Beratungsgespräch?",
+      "hints": ["Lungengröße im Verhältnis zur Erwartung, Leberposition.", "Fetoskopische Trachealokklusion – TOTAL-Studie."],
+      "answer": "**Pathophysiologie:** Lungenhypoplasie beidseits (ipsilateral stärker) mit gestörter Gefäßentwicklung → **pulmonale Hypertonie**; häufig zusätzlich linksventrikuläre Hypoplasie bzw. Dysfunktion. Etwa 80–85 % sind linksseitig.\n\n**Prognoseparameter:** **observed/expected Lung-to-Head-Ratio (o/e LHR)** im Ultraschall (z. B. < 25 % = schwer), **intrathorakale Leberposition** („liver up“), fetales MRT-Lungenvolumen, Seite (rechts ungünstiger), **assoziierte Fehlbildungen** und genetische Befunde (Karyotyp/Array – isolierte vs. komplexe CDH).\n\n**Fetale Therapie:** **FETO** (fetoskopische endoluminale Trachealokklusion mit Ballon): In der **TOTAL-Studie** verbesserte sie bei **schwerer linksseitiger CDH** das Überleben bis zur Entlassung deutlich, auf Kosten von mehr vorzeitigem Blasensprung und Frühgeburt; bei mittelgradiger CDH war der Überlebensvorteil nicht signifikant.\n\n**Beratung:** realistische Prognose, Entbindung in einem **CDH-erfahrenen Zentrum** (mit ECMO-Möglichkeit) geplant ab etwa 39 SSW (CDH-EURO-Konsensus), postnatales Vorgehen, mögliche Langzeitfolgen (Lunge, Ernährung/Reflux, Entwicklung, Rezidiv), Optionen inklusive Schwangerschaftsabbruch und palliativer Versorgung.",
+      "keyPoints": [
+        "Lungenhypoplasie und pulmonale Hypertonie",
+        "o/e LHR, Leberposition, MRT-Volumen, Seite",
+        "assoziierte Fehlbildungen, genetische Diagnostik",
+        "FETO: TOTAL-Studie, Vorteil bei schwerer linksseitiger CDH, Frühgeburtsrisiko",
+        "Entbindung im erfahrenen Zentrum, ergebnisoffene Beratung"
+      ],
+      "tags": ["Zwerchfellhernie", "Pränatale Beratung", "FETO"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.6 – Zwerchfellhernie (CDH)",
+          "terms": ["Zwerchfellhernie"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie versorgen ein Neugeborenes mit pränatal bekannter **linksseitiger Zwerchfellhernie im Kreißsaal**. Beschreiben Sie Ihr Vorgehen.",
+      "hints": [
+        "Was dürfen Sie keinesfalls tun, was müssen Sie sofort tun?",
+        "Druckbegrenzung, Magensonde, Sättigungsziele."
+      ],
+      "answer": "Nach **CDH-EURO-Konsensus**:\n- **keine Maskenbeatmung** (Luft in Magen und Darm im Thorax verstärkt Kompression von Lunge und Herz);\n- **unmittelbare Intubation** nach Geburt (idealerweise unter Prämedikation, wenn das Kind nicht sofort intubationspflichtig ist); bei prognostisch günstiger CDH (linksseitig, o/e LHR > 50 %, Leber intraabdominell) kann laut Konsensus Spontanatmung erwogen werden; Muskelrelaxanzien bei der Erstversorgung vermeiden;\n- **großlumige Magensonde** (z. B. doppellumige Replogle-Sonde) mit kontinuierlichem Sog;\n- **druckbegrenzte Beatmung**: Spitzendruck **< 25 cmH2O**, PEEP **3–5 cmH2O**, Frequenz 40–60/min;\n- **präduktale SpO2** als Zielgröße; Zielbereich präduktal **80–95 %**, postduktal > 70 %; in den ersten 2 Lebensstunden werden präduktal auch Werte bis 70 % toleriert, sofern sie ohne Beatmungsänderung ansteigen und die Perfusion ausreicht – Hyperoxie vermeiden (FiO2 reduzieren, wenn präduktal > 95 %);\n- prä- und postduktale Sättigung, arterieller und zentralvenöser Zugang (Nabelgefäße), Blutdruck stabilisieren;\n- Analgosedierung; keine routinemäßige Surfactantgabe; Transport/Übernahme auf die Intensivstation des CDH-Zentrums.",
+      "keyPoints": [
+        "keine Maskenbeatmung",
+        "sofortige Intubation",
+        "Magensonde mit Dauersog",
+        "PIP < 25 cmH2O, PEEP 3–5 cmH2O",
+        "präduktale SpO2 80–95 % (initial bis 70 % toleriert), Hyperoxie vermeiden"
+      ],
+      "tags": ["Zwerchfellhernie", "Erstversorgung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.6 – Zwerchfellhernie (CDH)",
+          "terms": ["Zwerchfellhernie"]
+        }
+      ],
+      "source": "CDH EURO Consortium Consensus – 2015 Update"
+    },
+    {
+      "id": "lunge-015",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Maßnahme ist bei der Erstversorgung eines Neugeborenen mit **kongenitaler Zwerchfellhernie kontraindiziert**?",
+      "hints": ["Was passiert mit der Luft im intrathorakalen Darm?"],
+      "options": [
+        { "text": "Maskenbeatmung mit Beutel oder T-Stück", "correct": true },
+        { "text": "Legen einer Magensonde mit Sog", "correct": false },
+        { "text": "Endotracheale Intubation", "correct": false },
+        { "text": "Messung der präduktalen Sauerstoffsättigung", "correct": false }
+      ],
+      "answer": "Die **Maskenbeatmung** bläht Magen und Darm auf, die bei CDH im Thorax liegen, und verstärkt so die Kompression von Lunge und Herz (Mediastinalverschiebung). Daher: sofortige Intubation, Magensonde mit Sog, Steuerung nach präduktaler Sättigung.",
+      "keyPoints": ["Maskenbeatmung kontraindiziert", "Darmblähung verstärkt Kompression", "Intubation und Magensonde mit Sog"],
+      "tags": ["Zwerchfellhernie", "Erstversorgung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.6 – Zwerchfellhernie (CDH)",
+          "terms": ["Zwerchfellhernie"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-016",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Beschreiben Sie das **intensivmedizinische Management** eines Neugeborenen mit CDH in den ersten Lebenstagen: Beatmungsziele, Behandlung der pulmonalen Hypertonie und Kreislaufinsuffizienz, ECMO und Zeitpunkt der Operation.",
+      "hints": [
+        "„Gentle ventilation“ und permissive Hyperkapnie.",
+        "Rechtes und linkes Herz, Ductus arteriosus – und warum iNO nicht immer hilft."
+      ],
+      "answer": "**Beatmung („gentle ventilation“):** konventionelle Beatmung als primärer Modus (VICI-Studie: weniger ECMO und kürzere Beatmung als mit primärer HFOV), PIP möglichst ≤ 25 cmH2O, **permissive Hyperkapnie** (pCO2 etwa 50–70 mmHg nach CDH-EURO-Konsensus), präduktale SpO2 im tolerierten Zielbereich; HFOV als Rescue.\n\n**Pulmonale Hypertonie und Kreislauf:** frühe und wiederholte **Echokardiographie** (PH-Schweregrad, RV- und LV-Funktion, Ductusfluss).\n- **iNO** nur bei nachgewiesener PH mit erhaltener LV-Funktion; bei fehlendem Ansprechen beenden – viele CDH-Kinder sprechen nicht an; dann i. v. Sildenafil (Konsensus) bzw. Prostazyklin erwägen.\n- Bei LV-Dysfunktion **Milrinon** erwägen; bei suprasystemischem pulmonalem Druck mit RV-Belastung **Prostaglandin E1**, um den Ductus offen zu halten (Entlastung des rechten Ventrikels).\n- Systemdruck mit Volumen und Katecholaminen stabilisieren, bei refraktärer Hypotension Hydrocortison.\n\n**ECMO:** bei Versagen der konventionellen Therapie (CDH-EURO-Kriterien u. a.: präduktale SpO2 nicht > 85 % bzw. postduktal nicht > 70 % zu halten, PIP > 28 bzw. MAP > 17 cmH2O erforderlich, respiratorische Azidose mit pH < 7,15, Laktat ≥ 5 mmol/l mit pH < 7,15, therapierefraktäre Hypotension, OI ≥ 40 über mindestens 3 h) in Zentren mit entsprechender Erfahrung.\n\n**Operation:** **keine Notfalloperation** – Korrektur nach physiologischer Stabilisierung (Konsensus: altersentsprechender Blutdruck, präduktale SpO2 85–95 % bei FiO2 < 0,5, Laktat < 3 mmol/l, Diurese > 1 ml/kg/h), ggf. auch unter ECMO je nach Zentrum.",
+      "keyPoints": [
+        "gentle ventilation, permissive Hyperkapnie (pCO2 ca. 50–70 mmHg)",
+        "primär konventionelle Beatmung (VICI), HFOV als Rescue",
+        "Echo: PH, RV/LV-Funktion; iNO nur bei PH mit guter LV-Funktion",
+        "Milrinon bei LV-Dysfunktion, PGE1 bei RV-Überlastung",
+        "ECMO bei Therapieversagen; OP nach Stabilisierung"
+      ],
+      "tags": ["Zwerchfellhernie", "Pulmonale Hypertonie", "ECMO"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.6 – Zwerchfellhernie (CDH)",
+          "terms": ["Zwerchfellhernie"]
+        }
+      ],
+      "source": "CDH EURO Consortium Consensus – 2015 Update"
+    },
+    {
+      "id": "lunge-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Ursachen einer **Lungenhypoplasie** kennen Sie, wie präsentiert sich ein betroffenes Neugeborenes, und welche Prognosefaktoren sind relevant?",
+      "hints": ["Platz, Fruchtwasser, Atembewegungen.", "Zeitpunkt und Dauer eines Oligohydramnions."],
+      "answer": "**Ursachen** (gestörte Lungenentwicklung durch):\n- **Oligo-/Anhydramnion:** früher vorzeitiger Blasensprung (besonders im 2. Trimenon), bilaterale Nierenagenesie bzw. schwere Nierenfehlbildungen (Potter-Sequenz), Harnröhrenklappen;\n- **intrathorakale Raumforderung:** Zwerchfellhernie, CPAM, Pleuraerguss/Chylothorax, Hydrops fetalis;\n- **kleiner Thorax:** Skelettdysplasien (z. B. thanatophore Dysplasie);\n- **fehlende fetale Atembewegungen:** neuromuskuläre Erkrankungen, fetale Akinesie.\n\n**Klinik:** unmittelbar postnatal schwere respiratorische Insuffizienz mit Hyperkapnie, kleinem, glockenförmigem Thorax, hohem Beatmungsdruckbedarf, häufig **Pneumothorax** und **pulmonaler Hypertonie**; ggf. Potter-Fazies und Gelenkkontrakturen.\n\n**Prognose:** abhängig von Gestationsalter beim Blasensprung, Dauer und Ausmaß des Oligohydramnions, Grunderkrankung und Ansprechen auf Beatmung/iNO; bei frühem Anhydramnion und renaler Ursache oft infaust – frühzeitige Elternberatung, ggf. palliatives Konzept.",
+      "keyPoints": [
+        "Oligohydramnion (früher Blasensprung, renale Ursachen)",
+        "intrathorakale Raumforderung (CDH, CPAM, Erguss)",
+        "kleiner Thorax, fehlende Atembewegungen",
+        "Klinik: schwere Ateminsuffizienz, Pneumothorax, PH",
+        "Prognose: Zeitpunkt/Dauer des Oligohydramnions, Grunderkrankung"
+      ],
+      "tags": ["Lungenhypoplasie", "Potter-Sequenz"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "lunge-018",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Pränatal wurde eine **kongenitale pulmonale Atemwegsmalformation (CPAM)** im rechten Unterlappen diagnostiziert. Das Kind ist postnatal asymptomatisch. Erläutern Sie Einteilung, pränatale Risikoeinschätzung, postnatale Diagnostik, Differenzialdiagnosen und Therapieoptionen.",
+      "hints": ["Makro- vs. mikrozystisch, CVR.", "Bildgebung trotz unauffälligem Röntgen?"],
+      "answer": "**Einteilung:** nach Stocker (Typ 0–4) bzw. praktisch in **makrozystisch** (Zysten > ca. 5 mm) und **mikrozystisch** (solid wirkend). Häufigste Form ist der makrozystische Typ.\n\n**Pränatal:** **CPAM Volume Ratio (CVR)**; eine CVR > 1,6 geht mit hohem Hydropsrisiko einher. Bei Hydrops: mikrozystisch – mütterliche **Betamethason**-Gabe; makrozystisch mit dominanter Zyste – **thorakoamnialer Shunt**. Viele Läsionen bilden sich im 3. Trimenon scheinbar zurück, sind postnatal aber meist nachweisbar.\n\n**Postnatal:** Röntgen-Thorax (kann normal sein), **CT mit Kontrastmittel** in den ersten Lebensmonaten (Ausdehnung, systemische Gefäßversorgung, Hybridläsion mit Sequester).\n\n**Differenzialdiagnosen:** bronchopulmonaler Sequester, kongenitales lobäres Emphysem, bronchogene Zyste, Zwerchfellhernie, **pleuropulmonales Blastom Typ I** (DICER1) – radiologisch nicht sicher abgrenzbar.\n\n**Therapie:** symptomatische Läsionen (Atemnot, Mediastinalverschiebung, Infektion, Pneumothorax) werden operiert. Bei **asymptomatischen** Läsionen ist das Vorgehen **umstritten**: elektive Resektion (meist im ersten Lebensjahr, oft thorakoskopisch) wegen Infektions- und geringem Malignitätsrisiko vs. abwartende Verlaufskontrolle – je nach Zentrum, nach Aufklärung der Eltern.",
+      "keyPoints": [
+        "makro- vs. mikrozystisch (Stocker)",
+        "CVR > 1,6: Hydropsrisiko; Betamethason bzw. Shunt",
+        "postnatal CT mit KM auch bei asymptomatischem Kind",
+        "DD: Sequester, lobäres Emphysem, bronchogene Zyste, pleuropulmonales Blastom",
+        "symptomatisch OP; asymptomatisch umstritten (elektiv vs. abwartend)"
+      ],
+      "tags": ["CPAM", "Lungenfehlbildung"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "lunge-019",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welches Merkmal unterscheidet einen **bronchopulmonalen Sequester** von einer CPAM am zuverlässigsten?",
+      "hints": ["Gefäßversorgung."],
+      "options": [
+        { "text": "Arterielle Versorgung über ein systemisches Gefäß, meist aus der Aorta", "correct": true },
+        { "text": "Makrozystische Struktur im pränatalen Ultraschall", "correct": false },
+        { "text": "Normale Verbindung zum Bronchialbaum", "correct": false },
+        { "text": "Lokalisation ausschließlich im Oberlappen", "correct": false }
+      ],
+      "answer": "Ein Sequester ist nicht belüftetes Lungengewebe **ohne reguläre Verbindung zum Bronchialbaum**, das **arteriell aus dem Systemkreislauf** (meist der thorakalen oder abdominellen Aorta) versorgt wird – nachweisbar mit Farbdoppler pränatal und CT-Angiographie postnatal. Er liegt meist in den Unterlappen (intralobär) oder extralobär mit eigener Pleura. Hybridläsionen mit CPAM kommen vor.",
+      "keyPoints": [
+        "systemische arterielle Versorgung aus der Aorta",
+        "keine reguläre Bronchusverbindung",
+        "meist Unterlappen, intra- oder extralobär"
+      ],
+      "tags": ["Lungensequester", "Lungenfehlbildung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "lunge-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes entwickelt nach Nahrungsaufbau einen zunehmenden **rechtsseitigen Pleuraerguss**. Die Punktion ergibt ein milchiges Punktat. Wie sichern Sie die Diagnose eines **Chylothorax**, welche Ursachen kommen in Betracht und wie behandeln Sie?",
+      "hints": ["Triglyzeride und Zellzahl im Punktat.", "Fettzufuhr über langkettige Fettsäuren reduzieren."],
+      "answer": "**Diagnose:** Pleurapunktat bei enteral ernährtem Kind mit **Triglyzeriden > 1,1 mmol/l (≈ 100 mg/dl)**, Zellzahl > 1000/µl und **Lymphozytenanteil > 80 %**; vor Nahrungsbeginn ist das Punktat klar-serös.\n\n**Ursachen:** **kongenital** (Lymphgefäßfehlbildung, isoliert oder bei Turner-, Noonan-Syndrom, Trisomie 21, Hydrops fetalis) oder **erworben** (nach Thoraxchirurgie, z. B. Herz-OP, Ösophagusatresie, CDH; Thrombose der oberen Hohlvene durch zentrale Katheter).\n\n**Therapie (stufenweise):**\n- Drainage (Punktion bzw. Thoraxdrainage), Atemunterstützung;\n- Ernährung mit **MCT-basierter Formula** (mittelkettige Fettsäuren werden direkt portal resorbiert) oder Nahrungskarenz mit parenteraler Ernährung;\n- bei Persistenz **Octreotid** (off-label, Evidenz begrenzt);\n- bei Therapieversagen Pleurodese oder chirurgische Verfahren (Ductus-thoracicus-Ligatur, ggf. interventionelle Lymphangiographie).\n\n**Komplikationen:** Verlust von Eiweiß, Immunglobulinen und Lymphozyten (Infektionsrisiko), Gerinnungsfaktoren und Antithrombin (Thromboserisiko), Elektrolytstörungen (Hyponatriämie), Gedeihstörung – regelmäßige Kontrollen und Substitution nach Bedarf.",
+      "keyPoints": [
+        "Triglyzeride > 1,1 mmol/l, Lymphozyten > 80 %",
+        "kongenital (Turner, Noonan, Trisomie 21, Hydrops) vs. erworben (Thoraxchirurgie, Venenthrombose)",
+        "Drainage, MCT-Nahrung oder parenterale Ernährung",
+        "Octreotid off-label, Pleurodese/Chirurgie",
+        "Verlust von Protein, Immunglobulinen, Lymphozyten, Gerinnungsfaktoren"
+      ],
+      "tags": ["Chylothorax", "Pleuraerguss"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 9.1 und 9.7 – Enterale Ernährung, spezielle Ernährungsprobleme",
+          "terms": ["enterale Ernährung", "Muttermilch"]
+        }
+      ]
+    },
+    {
+      "id": "lunge-021",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes ist im Kreißsaal in Ruhe **zyanotisch**, wird beim **Schreien rosig** und hat zunehmende Atemnot. Welche Verdachtsdiagnose stellen Sie, wie sichern Sie sie, und was ist die Erstmaßnahme?",
+      "hints": ["Neugeborene sind obligate Nasenatmer.", "Mit welchem einfachen Test prüfen Sie die Nasendurchgängigkeit?"],
+      "answer": "Verdacht auf **beidseitige Choanalatresie**: Da Neugeborene überwiegend Nasenatmer sind, tritt beim Schreien (Mundatmung) eine Besserung ein, in Ruhe bzw. beim Trinken Zyanose und Atemnot (**paradoxe Zyanose**).\n\n**Diagnose:** Eine dünne Absaugsonde lässt sich nicht durch die Nase in den Rachen vorschieben; Bestätigung durch Endoskopie und **CT** (knöchern/membranös).\n\n**Erstmaßnahme:** Sicherung eines **oralen Atemwegs** – Guedel-Tubus oder Sauger mit erweitertem Loch (McGovern-Technik), ggf. Intubation; Ernährung per Magensonde. Definitive Therapie: **endoskopische Korrektur** durch HNO.\n\nWegen häufiger Assoziation an **CHARGE-Syndrom** (CHD7) denken: Kolobom, Herzfehler, Wachstums- und Entwicklungsverzögerung, Genitalhypoplasie, Ohrfehlbildungen/Hörstörung. Einseitige Choanalatresien fallen oft erst später durch einseitige Rhinorrhö auf.",
+      "keyPoints": [
+        "bilaterale Choanalatresie: Zyanose in Ruhe, Besserung beim Schreien",
+        "Sonde nicht passierbar, Endoskopie, CT",
+        "oraler Atemweg (Guedel, McGovern), ggf. Intubation",
+        "endoskopische HNO-Korrektur",
+        "CHARGE-Syndrom abklären"
+      ],
+      "tags": ["Choanalatresie", "Atemwegsfehlbildung", "CHARGE"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "lunge-022",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Mit welchem Syndrom ist eine **Choanalatresie** besonders häufig assoziiert?",
+      "hints": ["Ein Akronym, Gen CHD7."],
+      "options": [
+        { "text": "CHARGE-Syndrom", "correct": true },
+        { "text": "Prader-Willi-Syndrom", "correct": false },
+        { "text": "Beckwith-Wiedemann-Syndrom", "correct": false },
+        { "text": "Marfan-Syndrom", "correct": false }
+      ],
+      "answer": "Die Choanalatresie ist ein Hauptmerkmal des **CHARGE-Syndroms** (Coloboma, Heart defects, Atresia choanae, Retardation of growth/development, Genital hypoplasia, Ear anomalies/deafness), meist verursacht durch Varianten in **CHD7**. Bei Choanalatresie sollte daher gezielt nach weiteren Merkmalen gesucht werden.",
+      "keyPoints": ["CHARGE-Syndrom", "CHD7", "gezielte Suche nach Kolobom, Herzfehler, Ohr-/Genitalfehlbildungen"],
+      "tags": ["Choanalatresie", "CHARGE"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "lunge-023",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit **Mikro-/Retrognathie und U-förmiger Gaumenspalte** hat in Rückenlage inspiratorische Einziehungen und Sättigungsabfälle, Trinkschwäche. Welche Diagnose liegt nahe, wie objektivieren Sie die Atemwegsobstruktion, und welche Therapieoptionen gibt es?",
+      "hints": [
+        "Trias aus Mikrognathie, Glossoptose und Gaumenspalte.",
+        "In Deutschland ist eine spezielle Gaumenplatte verbreitet."
+      ],
+      "answer": "Es handelt sich um eine **Pierre-Robin-Sequenz**: Mikro-/Retrognathie → **Glossoptose** (Zurückfallen der Zunge) → Obstruktion des Hypopharynx, häufig mit U-förmiger Gaumenspalte. Isoliert oder **syndromal** (am häufigsten Stickler-Syndrom, ferner 22q11-Deletion, Treacher-Collins u. a.) – genetische Abklärung, augenärztliche Untersuchung (Stickler: Myopie, Netzhautablösung).\n\n**Objektivierung:** kontinuierliche Pulsoximetrie, **Polygraphie/Polysomnographie** (obstruktiver Apnoe-Index), Blutgase/CO2, ggf. Endoskopie zum Ausschluss weiterer Atemwegsanomalien; Beurteilung von Trinken und Gedeihen.\n\n**Therapie (stufenweise):**\n- Lagerung (Seiten- bzw. Bauchlage nur unter Monitorüberwachung),\n- **nasopharyngealer Tubus** (Rachentubus),\n- **Gaumenplatte mit Sporn** (Tübinger Gaumenplatte), die die Zunge nach vorne verlagert,\n- chirurgisch: **Unterkieferdistraktion**, selten Glossopexie; Tracheotomie als Ultima Ratio;\n- Ernährung ggf. per Sonde, Gaumenspaltenverschluss später im Rahmen eines interdisziplinären Spaltteams.",
+      "keyPoints": [
+        "Pierre-Robin-Sequenz: Mikrognathie, Glossoptose, Gaumenspalte",
+        "syndromale Formen (Stickler, 22q11) abklären",
+        "Polygraphie/Polysomnographie, Pulsoximetrie",
+        "Lagerung, Nasopharyngealtubus, Tübinger Gaumenplatte",
+        "Unterkieferdistraktion, Tracheotomie als Ultima Ratio"
+      ],
+      "tags": ["Pierre-Robin-Sequenz", "Atemwegsobstruktion"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "lunge-024",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein 3 Wochen altes, reif geborenes Kind hat einen **inspiratorischen Stridor**, der in Rückenlage und beim Trinken zunimmt. Welche Differenzialdiagnosen bedenken Sie, und wann ist eine **Endoskopie** indiziert?",
+      "hints": [
+        "Die häufigste Ursache ist meist harmlos.",
+        "Warnzeichen: Gedeihstörung, Apnoen, Zyanose, biphasischer Stridor."
+      ],
+      "answer": "**Häufigste Ursache:** **Laryngomalazie** (Kollaps supraglottischer Strukturen in der Inspiration); Beginn in den ersten Lebenswochen, Zunahme in Rückenlage, bei Aufregung und Trinken; meist spontane Besserung im Laufe der ersten 1–2 Lebensjahre.\n\n**Differenzialdiagnosen:**\n- **Stimmbandparese** (einseitig: heisere Stimme; beidseitig: Stridor, z. B. bei Arnold-Chiari-Malformation, nach Geburtstrauma oder Thorax-/Herzchirurgie),\n- **subglottische Stenose** (meist nach Intubation), **subglottisches Hämangiom** (Zunahme in den ersten Monaten, ggf. Hauthämangiome im Bartbereich; Therapie Propranolol),\n- laryngeale Zysten, Webs, Tracheomalazie (eher exspiratorisch), **Gefäßring/Doppelter Aortenbogen** (biphasischer/exspiratorischer Stridor, Schluckstörung).\n\n**Endoskopie** (flexible Laryngotracheoskopie in Spontanatmung, ggf. starre Endoskopie) bei **Warnzeichen**: Gedeihstörung, Trinkschwierigkeiten mit Aspiration, Apnoen, Zyanose, schwere Einziehungen, **biphasischer** Stridor, atypischer Verlauf oder Zustand nach Intubation. Bei schwerer Laryngomalazie ggf. Supraglottoplastik.",
+      "keyPoints": [
+        "Laryngomalazie häufigste Ursache, meist selbstlimitierend",
+        "DD: Stimmbandparese, subglottische Stenose/Hämangiom, Zysten, Gefäßring",
+        "Warnzeichen: Gedeihstörung, Apnoen, Zyanose, biphasischer Stridor",
+        "flexible Laryngotracheoskopie in Spontanatmung",
+        "Therapie je nach Ursache (Supraglottoplastik, Propranolol)"
+      ],
+      "tags": ["Stridor", "Laryngomalazie", "Atemwegsfehlbildung"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "lunge-025",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Die Eltern eines ehemaligen Frühgeborenen der 25 SSW mit **mittelgradiger BPD** fragen vor der Entlassung nach der **langfristigen Prognose** der Lunge und nach vorbeugenden Maßnahmen. Was sagen Sie ihnen?",
+      "hints": ["Rehospitalisierung, Infekte, obstruktive Episoden.", "Was können die Eltern selbst tun?"],
+      "answer": "**Prognose:** Die Lunge wächst und entwickelt sich weiter; Sauerstoffbedarf und Symptome bessern sich bei den meisten Kindern in den ersten Lebensjahren. Gleichwohl besteht ein erhöhtes Risiko für\n- **Rehospitalisierung** wegen Atemwegsinfektionen (insbesondere **RSV**) im ersten bzw. zweiten Lebensjahr,\n- rezidivierende **obstruktive Bronchitiden**/asthmaähnliche Symptome,\n- eingeschränkte Lungenfunktion und Belastbarkeit bis ins Jugend- und Erwachsenenalter,\n- assoziierte Risiken für Wachstum und neurologische Entwicklung (strukturierte Nachsorge).\n\n**Vorbeugung:** **rauchfreie Umgebung** (auch kein Rauchen in Kleidung/Auto), Infektionsschutz (Händehygiene, Meiden großer Menschenansammlungen in der Infektsaison), **RSV-Prophylaxe** gemäß STIKO bzw. Fachempfehlungen, alle Standardimpfungen nach chronologischem Alter, Influenza-Impfung ab 6 Monaten sowie Impfung der Haushaltskontakte, gute Ernährung, Anbindung an pädiatrische Pneumologie und Nachsorgeambulanz, Notfallplan bei Infekten (frühzeitige Vorstellung bei Atemnot oder Trinkschwäche).",
+      "keyPoints": [
+        "Besserung mit Lungenwachstum, aber erhöhte Morbidität",
+        "Rehospitalisierung (RSV), obstruktive Episoden, eingeschränkte Lungenfunktion",
+        "Nachsorge: Pneumologie, Entwicklung",
+        "rauchfreie Umgebung, Infektionsschutz",
+        "RSV-Prophylaxe, Impfungen inkl. Influenza und Kokonstrategie"
+      ],
+      "tags": ["BPD", "Elternberatung", "Nachsorge"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.1 – Entwicklungsneurologische/sozialpädiatrische Nachsorge",
+          "terms": ["Nachsorge"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.10 – Entlassung/Verlegung",
+          "terms": ["Entlassung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Sozialpädiatrische Nachsorge extrem unreifer Frühgeborener",
+          "terms": ["Nachuntersuchung"]
+        }
+      ]
+    }
+  ]
+}

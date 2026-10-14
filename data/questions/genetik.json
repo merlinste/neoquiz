@@ -1,0 +1,591 @@
+{
+  "area": "genetik",
+  "questions": [
+    {
+      "id": "gen-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Sie untersuchen ein reifes Neugeborenes bei der U1, und es fallen Ihnen eine muskuläre Hypotonie, ansteigende Lidachsen, Epikanthus, ein flaches Mittelgesicht, eine Vierfingerfurche und eine Sandalenlücke auf. Welche Verdachtsdiagnose stellen Sie, und wie sichern Sie sie?",
+      "hints": [
+        "Häufigste Chromosomenaberration bei Lebendgeborenen.",
+        "Schnelltest und Standardmethode unterscheiden sich in Dauer und Aussagekraft."
+      ],
+      "answer": "Das Bild spricht für eine **Trisomie 21 (Down-Syndrom)**; kein Einzelzeichen ist beweisend, entscheidend ist die Kombination. Gesichert wird die Diagnose durch eine **Chromosomenanalyse (Karyotyp)** aus heparinisiertem Blut. Ein Schnelltest (FISH oder QF-PCR an Interphasekernen) liefert innerhalb von 1–2 Tagen eine vorläufige Aussage zur Aneuploidie. Den konventionellen Karyotyp braucht man trotzdem, weil nur er eine **Robertson-Translokation** (ca. 3–4 % der Fälle) erkennt, die für das Wiederholungsrisiko und die Untersuchung der Eltern entscheidend ist. Ca. 95 % haben eine freie Trisomie, ca. 1–2 % ein Mosaik.",
+      "keyPoints": [
+        "Verdacht auf Trisomie 21 aus Kombination der Stigmata",
+        "Sicherung durch Karyotyp",
+        "FISH/QF-PCR als Schnelltest",
+        "Karyotyp nötig zum Nachweis einer Translokation (Wiederholungsrisiko, Eltern)"
+      ],
+      "tags": ["Trisomie 21", "Chromosomenanalyse"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-002",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Neugeborenen ist die Trisomie 21 bestätigt. Welche Untersuchungen veranlassen Sie in der Neonatalperiode, und nach welchen typischen Begleiterkrankungen suchen Sie gezielt?",
+      "hints": [
+        "Etwa jedes zweite Kind hat eine bestimmte Organfehlbildung.",
+        "Denken Sie an Blut, Schilddrüse, Darm, Augen und Ohren."
+      ],
+      "answer": "- **Echokardiographie** bei allen Kindern: Herzfehler bei ca. 40–50 %, typisch der atrioventrikuläre Septumdefekt (AVSD), daneben VSD, ASD, Fallot. Eine unauffällige Auskultation schließt den Herzfehler nicht aus.\n- **Blutbild mit Differenzierung**: Polyglobulie, Thrombozytopenie, Blasten im Rahmen einer transienten abnormen Myelopoese (TAM).\n- **Schilddrüse**: TSH im Neugeborenenscreening, bei Auffälligkeiten Kontrolle (erhöhtes Risiko für Hypothyreose).\n- **Gastrointestinal**: Duodenalatresie/-stenose (galliges Erbrechen, Double-Bubble), Morbus Hirschsprung (verzögerter Mekoniumabgang), Analatresie.\n- **Augen** (Rotreflex: kongenitale Katarakt) und **Hörscreening** mit konsequenter Nachverfolgung.\n- Ernährung: Trinkschwäche durch Hypotonie, Stillberatung.",
+      "keyPoints": [
+        "Echokardiographie bei allen (AVSD typisch, ca. 40–50 % Herzfehler)",
+        "Blutbild: Polyglobulie, Thrombopenie, TAM",
+        "Hypothyreose (TSH)",
+        "Duodenalatresie, M. Hirschsprung",
+        "Katarakt (Rotreflex), Hörscreening"
+      ],
+      "tags": ["Trisomie 21", "Begleitfehlbildungen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 14.5–14.7 – Schilddrüse, Varianten der Geschlechtsentwicklung, AGS",
+          "terms": ["Hypothyreose", "AGS"]
+        }
+      ],
+      "source": "AWMF S2k-Leitlinie Down-Syndrom im Kindes- und Jugendalter"
+    },
+    {
+      "id": "gen-003",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes mit Trisomie 21 hat am 2. Lebenstag eine Leukozytose mit 35 % Blasten im Differenzialblutbild und eine Hepatosplenomegalie. Woran denken Sie? Erläutern Sie Pathogenese, Verlauf und Konsequenzen für die Nachsorge.",
+      "hints": [
+        "Die Erkrankung tritt fast nur bei Trisomie 21 auf und bildet sich meist spontan zurück.",
+        "Ein bestimmter Transkriptionsfaktor ist somatisch mutiert."
+      ],
+      "answer": "Es handelt sich am ehesten um eine **transiente abnorme Myelopoese (TAM, „transiente Leukämie“)**, die bei etwa 10 % der Neugeborenen mit Trisomie 21 klinisch auffällt. Ursache ist eine erworbene Mutation im **GATA1-Gen** in fetalen Megakaryozyten-Vorläufern bei Trisomie 21. Meist bildet sie sich innerhalb der ersten Lebensmonate spontan zurück. Schwere Verläufe mit Hydrops, Leberfibrose/-versagen, Ergüssen oder sehr hohen Leukozytenzahlen sind lebensbedrohlich; dann kommt nach Rücksprache mit der pädiatrischen Hämatoonkologie (Studienprotokoll) niedrig dosiertes Cytarabin in Betracht. Etwa 20 % der Kinder entwickeln in den ersten Lebensjahren eine **myeloische Leukämie des Down-Syndroms (ML-DS)**, daher regelmäßige Blutbildkontrollen in den ersten Lebensjahren. DD: kongenitale Leukämie, Infektion.",
+      "keyPoints": [
+        "Transiente abnorme Myelopoese bei Trisomie 21",
+        "Somatische GATA1-Mutation",
+        "Meist spontane Rückbildung, schwere Verläufe lebensbedrohlich (Leber, Hydrops)",
+        "Therapie nur bei schwerem Verlauf (niedrig dosiertes Cytarabin, Hämatoonkologie)",
+        "Etwa 20 % später ML-DS, daher Blutbild-Nachsorge"
+      ],
+      "tags": ["Trisomie 21", "TAM", "Hämatologie"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit 2050 g bei 38+2 SSW fällt durch ein prominentes Okziput, eine Mikrognathie, überlappende Finger (Zeigefinger über Mittelfinger), ein kurzes Sternum und Wiegenkufenfüße auf. Im Echo zeigt sich ein großer VSD. Welche Diagnose vermuten Sie, wie ist die Prognose, und was bedeutet das für die Beratung der Eltern?",
+      "hints": [
+        "Zweithäufigste autosomale Trisomie bei Lebendgeborenen.",
+        "Die Prognose ist ernst, aber nicht einheitlich – Mosaike und Einzelverläufe beachten."
+      ],
+      "answer": "Das Bild ist typisch für eine **Trisomie 18 (Edwards-Syndrom)**; Sicherung durch Schnelltest (FISH/QF-PCR) und Karyotyp. Typisch sind ausgeprägte Wachstumsrestriktion, Herzfehler bei der großen Mehrheit (VSD, Klappendysplasien), Omphalozele, Ösophagusatresie und Nierenfehlbildungen sowie eine schwere Entwicklungsstörung bei Überlebenden. Die mediane Überlebenszeit liegt bei wenigen Tagen bis Wochen, das 1-Jahres-Überleben in älteren Kohorten bei etwa 5–10 %, in neueren Kohorten (teils mit aktiver Behandlung) etwas höher (bis etwa 15 %); Todesursachen sind zentrale Apnoen, Herzinsuffizienz und Aspiration. Mosaike verlaufen milder. Die Beratung soll offen, empathisch und individuell sein: Neben einem palliativen Konzept kann nach gemeinsamer Abwägung mit den Eltern auch eine intensivmedizinische oder herzchirurgische Behandlung erwogen werden; die frühere Haltung „mit dem Leben nicht vereinbar“ gilt als überholt.",
+      "keyPoints": [
+        "Trisomie 18 (Edwards), Sicherung durch Karyotyp",
+        "Typische Befunde: IUGR, überlappende Finger, Wiegenkufenfüße, Herzfehler",
+        "Schlechte Prognose: 1-Jahres-Überleben ca. 5–15 % (kohortenabhängig)",
+        "Mosaike milder",
+        "Individuelle, gemeinsame Entscheidung (palliativ vs. kurativ), keine pauschale Ablehnung"
+      ],
+      "tags": ["Trisomie 18", "Elternberatung", "Prognose"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "gen-005",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Welche Befundkombination ist am typischsten für eine **Trisomie 13 (Pätau-Syndrom)**?",
+      "hints": ["Mittellinienfehlbildungen von Gehirn und Gesicht."],
+      "options": [
+        {
+          "text": "Holoprosenzephalie, Lippen-Kiefer-Gaumen-Spalte, postaxiale Polydaktylie, Cutis aplasia congenita am Scheitel",
+          "correct": true
+        },
+        { "text": "Lymphödeme an Hand- und Fußrücken, Pterygium colli, Aortenisthmusstenose", "correct": false },
+        { "text": "Kolobom, Choanalatresie, Ohrmuschelanomalien, Genitalhypoplasie", "correct": false },
+        { "text": "Makroglossie, Omphalozele, Hemihypertrophie, Hypoglykämie", "correct": false },
+        { "text": "Rhizomele Verkürzung, Makrozephalie, Dreizackhand", "correct": false }
+      ],
+      "answer": "Trisomie 13 ist durch Mittellinienfehlbildungen gekennzeichnet: **Holoprosenzephalie**, (oft beidseitige) **LKG-Spalte**, Mikrophthalmie, **postaxiale Polydaktylie** und **Cutis aplasia** am Scheitel, dazu Herzfehler und Nierenfehlbildungen. Die übrigen Optionen beschreiben Turner-Syndrom, CHARGE-Syndrom, Beckwith-Wiedemann-Syndrom und Achondroplasie.",
+      "keyPoints": [
+        "Holoprosenzephalie und LKG-Spalte als Mittellinienfehlbildungen",
+        "Postaxiale Polydaktylie, Cutis aplasia",
+        "Abgrenzung zu Turner, CHARGE, Beckwith-Wiedemann, Achondroplasie"
+      ],
+      "tags": ["Trisomie 13", "Syndromdiagnostik"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes weibliches Neugeborenes hat ausgeprägte Lymphödeme an Hand- und Fußrücken und eine überschüssige Nackenhaut. Die Femoralispulse sind schwach tastbar. Welche Diagnose vermuten Sie, welche Diagnostik veranlassen Sie, und worauf achten Sie bei der genetischen Untersuchung besonders?",
+      "hints": [
+        "Monosomie eines Geschlechtschromosoms.",
+        "Mosaike sind häufig – wie viele Zellen werden ausgewertet?",
+        "Welcher Chromosomenanteil hätte eine operative Konsequenz?"
+      ],
+      "answer": "Verdacht auf **Ullrich-Turner-Syndrom**. Schwache Femoralispulse sprechen für eine **Aortenisthmusstenose** – sofort Blutdruck an allen vier Extremitäten, prä-/postduktale Sättigung und **Echokardiographie** (auch bikuspide Aortenklappe). Dazu **Nierensonographie** (Hufeisenniere, Doppelanlagen) und Hörscreening. Die **Chromosomenanalyse** soll eine ausreichende Zahl an Metaphasen (üblich mindestens 30) auswerten, um Mosaike zu erfassen. Bei Nachweis von **Y-Chromosomen-Material** besteht ein erhöhtes Gonadoblastomrisiko; dann wird eine prophylaktische Gonadektomie empfohlen. Eine endokrinologische Anbindung (später Wachstumshormon, Pubertätsinduktion) wird eingeleitet.",
+      "keyPoints": [
+        "Ullrich-Turner-Syndrom (45,X oder Mosaik)",
+        "Aortenisthmusstenose: Blutdruck an 4 Extremitäten, Echo",
+        "Nierensonographie (Hufeisenniere)",
+        "Karyotyp mit ausreichender Metaphasenzahl (Mosaik)",
+        "Y-Material: Gonadoblastomrisiko, Gonadektomie"
+      ],
+      "tags": ["Turner-Syndrom", "Aortenisthmusstenose"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit pränatal bekanntem **unterbrochenem Aortenbogen Typ B** hat am 3. Lebenstag Zittrigkeit und ein ionisiertes Calcium von 0,8 mmol/l. Welche genetische Diagnose vermuten Sie, wie sichern Sie sie, und welche praktischen Konsequenzen hat sie auf der Intensivstation?",
+      "hints": [
+        "Mikrodeletionssyndrom mit Beteiligung der 3. und 4. Schlundtasche.",
+        "Denken Sie an Blutprodukte und Impfungen."
+      ],
+      "answer": "Vermutet wird eine **Mikrodeletion 22q11.2 (DiGeorge-Syndrom)**: konotrunkaler Herzfehler (unterbrochener Aortenbogen Typ B, Truncus arteriosus, Fallot), **Hypokalzämie** durch Hypoparathyreoidismus, **Thymushypoplasie** mit T-Zell-Defekt, Gaumenspalte/velopharyngeale Insuffizienz, faziale Dysmorphie. Diagnostik: **chromosomale Mikroarray-Analyse** (alternativ MLPA oder FISH), Parathormon, Lymphozytendifferenzierung (T-Zellen). Konsequenzen: Calcium substituieren und überwachen; bis zur Klärung des T-Zell-Status **nur bestrahlte Blutprodukte** (Gefahr der transfusionsassoziierten GvHD); **Lebendimpfungen** (im Säuglingsalter v. a. Rotavirus) erst nach immunologischer Beurteilung. Bei komplettem Thymusdefekt ist eine Thymustransplantation in Spezialzentren möglich.",
+      "keyPoints": [
+        "Mikrodeletion 22q11.2",
+        "Konotrunkaler Herzfehler, Hypokalzämie, Thymushypoplasie",
+        "Nachweis per Array/MLPA/FISH, T-Zell-Status",
+        "Bestrahlte Blutprodukte bis zur Klärung",
+        "Keine Lebendimpfung (Rotavirus) vor immunologischer Abklärung"
+      ],
+      "tags": ["22q11-Deletion", "Hypokalzämie", "Herzfehler"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "gen-008",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Bei welchem angeborenen Herzfehler ist die gezielte Suche nach einer **Mikrodeletion 22q11.2** am ehesten indiziert, weil sie besonders häufig assoziiert ist?",
+      "hints": ["Konotrunkale Fehlbildung des Aortenbogens."],
+      "options": [
+        { "text": "Unterbrochener Aortenbogen Typ B", "correct": true },
+        { "text": "Einfache Transposition der großen Arterien", "correct": false },
+        { "text": "Isolierter Vorhofseptumdefekt vom Sekundumtyp", "correct": false },
+        { "text": "Ebstein-Anomalie", "correct": false },
+        { "text": "Hypoplastisches Linksherzsyndrom", "correct": false }
+      ],
+      "answer": "Etwa jedes zweite Kind mit **unterbrochenem Aortenbogen Typ B** hat eine 22q11.2-Deletion; auch beim Truncus arteriosus und bei der Fallot-Tetralogie (v. a. mit Pulmonalatresie/MAPCAs oder rechtem Aortenbogen) ist sie häufig. Bei der einfachen TGA, dem isolierten ASD II, der Ebstein-Anomalie oder dem HLHS ist die Assoziation gering.",
+      "keyPoints": [
+        "Unterbrochener Aortenbogen Typ B: ca. 50 % 22q11-Deletion",
+        "Weitere konotrunkale Fehler: Truncus arteriosus, Fallot"
+      ],
+      "tags": ["22q11-Deletion", "Herzfehler"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "gen-009",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erklären Sie die dysmorphologischen Begriffe **Fehlbildung, Disruption, Deformation, Dysplasie** sowie **Sequenz, Syndrom und Assoziation** und nennen Sie jeweils ein neonatologisches Beispiel.",
+      "hints": [
+        "Unterscheiden Sie primär gestörte Anlage von sekundärer Schädigung eines zunächst normal angelegten Gewebes.",
+        "Sequenz = Kaskade aus einer Ursache."
+      ],
+      "answer": "- **Fehlbildung (Malformation)**: primär gestörte Organanlage, z. B. Herzfehler, Neuralrohrdefekt.\n- **Disruption**: sekundäre Zerstörung eines normal angelegten Gewebes, z. B. Amnionband-Abschnürungen.\n- **Deformation**: mechanische Verformung normal angelegter Strukturen, z. B. lagebedingter Klumpfuß bei Oligohydramnion.\n- **Dysplasie**: gestörte Gewebeorganisation, z. B. Skelettdysplasien.\n- **Sequenz**: Folge von Veränderungen, die auf einen Primärdefekt zurückgehen, z. B. Pierre-Robin-Sequenz (Mikrognathie → Glossoptose → Gaumenspalte, Atemwegsobstruktion) oder Oligohydramnion-(Potter-)Sequenz.\n- **Syndrom**: Muster mehrerer Anomalien mit gemeinsamer (oft genetischer) Ursache, z. B. Trisomie 21.\n- **Assoziation**: überzufällig gemeinsames Auftreten ohne einheitliche Ursache, z. B. VACTERL.",
+      "keyPoints": [
+        "Fehlbildung = primär gestörte Anlage",
+        "Disruption und Deformation = sekundär, an normal angelegtem Gewebe",
+        "Sequenz = Kaskade aus einem Primärdefekt (Pierre-Robin, Potter)",
+        "Syndrom = gemeinsame Ursache; Assoziation = überzufälliges Zusammentreffen (VACTERL)"
+      ],
+      "tags": ["Dysmorphologie", "Begriffe"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Neugeborenen wird eine **Ösophagusatresie mit unterer tracheoösophagealer Fistel** diagnostiziert. Welche Assoziation müssen Sie bedenken, welche Untersuchungen führen Sie vor der Operation durch, und welche Differenzialdiagnosen sind genetisch abzugrenzen?",
+      "hints": [
+        "Akronym aus sieben Organsystemen.",
+        "Eine Radiusfehlbildung sollte an eine bestimmte Knochenmarkserkrankung denken lassen."
+      ],
+      "answer": "Zu bedenken ist die **VACTERL-Assoziation**: **V**ertebrale Fehlbildungen, **A**nalatresie, **C**ardiale Fehlbildungen, **T**racheo-**E**ösophageale Fistel/Ösophagusatresie, **R**enale Fehlbildungen, **L**imb (v. a. Radius-/Daumenanomalien); meist werden mindestens drei Komponenten gefordert. Präoperativ: **Echokardiographie** (Herzfehler, Lage des Aortenbogens für den OP-Zugang), Inspektion des Anus, Röntgen von Wirbelsäule und Thorax, **Nierensonographie**, Untersuchung der Extremitäten, Sonographie des Spinalkanals (Tethered Cord). VACTERL ist eine Ausschlussdiagnose; abzugrenzen sind **Fanconi-Anämie** (Radiusanomalien; Chromosomenbruchtest), CHARGE-Syndrom, Trisomie 18 und 22q11-Deletion.",
+      "keyPoints": [
+        "VACTERL-Assoziation, Komponenten benennen",
+        "Echo (auch Aortenbogenseite), Nierensono, Wirbelsäule, Anus, Extremitäten",
+        "Ausschlussdiagnose",
+        "DD: Fanconi-Anämie, CHARGE, Trisomie 18"
+      ],
+      "tags": ["VACTERL", "Ösophagusatresie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 17.2 – Nekrotisierende Enterokolitis",
+          "terms": ["NEK"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 18 – Kinderchirurgie",
+          "terms": ["Kinderchirurgie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.8 – Erstversorgung bei chirurgischen Fehlbildungen",
+          "terms": ["Fehlbildungen"]
+        }
+      ]
+    },
+    {
+      "id": "gen-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes zeigt eine einseitige Choanalatresie, ein Iriskolobom, auffällig geformte Ohrmuscheln und einen Mikropenis. Welches Syndrom vermuten Sie, und welche weiteren Organmanifestationen klären Sie ab?",
+      "hints": [
+        "Das Syndrom ist nach den Anfangsbuchstaben seiner Leitsymptome benannt.",
+        "Betroffenes Gen: ein Chromatin-Remodeling-Faktor."
+      ],
+      "answer": "Verdacht auf **CHARGE-Syndrom**: **C**olobom, **H**erzfehler, **A**tresie der Choanen, **R**etardierung von Wachstum/Entwicklung, **G**enitalhypoplasie (hypogonadotroper Hypogonadismus), **E**ar (Ohrmuschelanomalien, Hörstörung). Ursache sind meist De-novo-Varianten im **CHD7-Gen**. Abzuklären: Echokardiographie, augenärztliche Untersuchung, Hördiagnostik (BERA) und Felsenbein-Bildgebung (Hypoplasie der Bogengänge), Hirnnervenfunktion (Schluckstörung mit Aspirationsgefahr, Fazialisparese), tracheoösophageale Fistel, Nierensonographie, Hormone (Hypogonadismus, ggf. Wachstumshormonmangel). Bestätigung durch CHD7-Analyse.",
+      "keyPoints": [
+        "CHARGE-Syndrom, Akronym erklären",
+        "CHD7-Varianten, meist de novo",
+        "Herz-, Augen-, Hördiagnostik, Bogengänge",
+        "Schluckstörung/Hirnnerven, Hypogonadismus"
+      ],
+      "tags": ["CHARGE-Syndrom", "Choanalatresie"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-012",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hat eine rhizomele Verkürzung der Extremitäten, eine Makrozephalie mit prominenter Stirn, eine Sattelnase und eine Dreizackhand. Welche Diagnose ist wahrscheinlich, wie wird sie vererbt, und welche Komplikation im Säuglingsalter müssen Sie aktiv suchen?",
+      "hints": ["Häufigste nicht letale Skelettdysplasie.", "Ein enges Foramen magnum hat Folgen für die Atmung."],
+      "answer": "Wahrscheinlich ist eine **Achondroplasie**, verursacht durch eine aktivierende Variante im **FGFR3-Gen** (fast immer p.Gly380Arg). Der Erbgang ist **autosomal-dominant**, etwa 80 % sind Neumutationen (gehäuft bei höherem väterlichem Alter); bei gesunden Eltern ist das Wiederholungsrisiko daher gering. Gefährlichste Komplikation im Säuglingsalter ist die **Foramen-magnum-Stenose** mit zervikomedullärer Kompression (zentrale Apnoen, plötzlicher Tod, Myelopathie) – daher frühe neurologische Untersuchung, **MRT des kraniozervikalen Übergangs** und **Polysomnographie** und ggf. neurochirurgische Dekompression. Weitere Punkte: obstruktive Schlafapnoe, Hydrozephalus, thorakolumbale Kyphose (Kind nicht ungestützt sitzen lassen), Mittelohrergüsse, spezielle Wachstumskurven. Mit Vosoritid (C-Typ-natriuretisches-Peptid-Analogon, bei offenen Epiphysenfugen) steht eine wachstumsfördernde Therapie zur Verfügung; Indikationsstellung und Altersgrenzen laut aktueller Fachinformation im Zentrum.",
+      "keyPoints": [
+        "Achondroplasie, FGFR3",
+        "Autosomal-dominant, ca. 80 % Neumutation",
+        "Foramen-magnum-Stenose: zentrale Apnoen, plötzlicher Tod",
+        "MRT und Polysomnographie im Säuglingsalter",
+        "Kyphoseprophylaxe, Hydrozephalus, Mittelohr"
+      ],
+      "tags": ["Skelettdysplasie", "Achondroplasie"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-013",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Pränatal sind stark verkürzte Röhrenknochen und ein schmaler Thorax aufgefallen. Das Neugeborene (37+0 SSW) ist postnatal schwer ateminsuffizient, der Thorax ist glockenförmig eng, die Extremitäten sind mikromel. Wie gehen Sie diagnostisch vor, und welcher Befund bestimmt maßgeblich die Prognose?",
+      "hints": [
+        "Röntgen des ganzen Skeletts in definierten Projektionen.",
+        "Die Lunge kann im engen Thorax nicht wachsen.",
+        "Was tun Sie, falls das Kind verstirbt?"
+      ],
+      "answer": "Vorgehen: Stabilisierung und – bei unklarer Prognose – zunächst Atemunterstützung, parallel zügige Diagnostik. **Skelettröntgen (Babygramm bzw. Skelettstatus)**: Schädel, Wirbelsäule a.p. und seitlich, Thorax, Becken, lange Röhrenknochen, Hände/Füße – Muster (rhizo-/meso-/mikromel, Wirbelkörperform, Frakturen, Mineralisation) leiten die Differenzialdiagnose, z. B. **thanatophore Dysplasie** (FGFR3; Telefonhörer-Femora, ggf. Kleeblattschädel), **Osteogenesis imperfecta Typ II** (Frakturen), Kurzrippen-Polydaktylie-Syndrome. Genetik: gezielte Analyse oder **Skelettdysplasie-Panel/Exom**, DNA asservieren. Fotodokumentation. Die Prognose wird v. a. durch die **Thoraxhypoplasie mit Lungenhypoplasie** bestimmt. Gespräch mit den Eltern über die Prognose und ggf. Therapiezieländerung; bei Versterben Obduktion bzw. Skelettröntgen anbieten, da die exakte Diagnose für die Wiederholungsrisikoberatung entscheidend ist.",
+      "keyPoints": [
+        "Skelettröntgen in definierten Projektionen (Babygramm)",
+        "DD: thanatophore Dysplasie, OI Typ II, Kurzrippen-Syndrome",
+        "Genetik (Panel/Exom), DNA asservieren, Fotodokumentation",
+        "Prognose bestimmt durch Thorax-/Lungenhypoplasie",
+        "Exakte Diagnose für Wiederholungsrisiko, ggf. Obduktion"
+      ],
+      "tags": ["Skelettdysplasie", "Lungenhypoplasie", "Diagnostik"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-014",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes hat pränatal bekannte, teils verheilte Frakturen beider Femora und eine Krümmung der Unterschenkel. Welche Aussage zur **Osteogenesis imperfecta** trifft zu?",
+      "hints": ["Kollagen Typ I."],
+      "options": [
+        {
+          "text": "Die meisten Fälle beruhen auf autosomal-dominanten Varianten in COL1A1 oder COL1A2.",
+          "correct": true
+        },
+        { "text": "Blaue Skleren beweisen beim Neugeborenen die Diagnose.", "correct": false },
+        {
+          "text": "Der perinatal letale Typ II ist meist autosomal-rezessiv mit 25 % Wiederholungsrisiko bei gesunden Eltern.",
+          "correct": false
+        },
+        { "text": "Bisphosphonate sind im Säuglingsalter grundsätzlich kontraindiziert.", "correct": false },
+        {
+          "text": "Bei pränatal bekannten Frakturen ist eine Abklärung auf Kindesmisshandlung später nie erforderlich.",
+          "correct": false
+        }
+      ],
+      "answer": "Die Mehrzahl der OI-Fälle beruht auf **autosomal-dominanten Varianten in COL1A1/COL1A2**; schwere (Typ II/III) Formen entstehen meist durch Neumutationen, ein geringes Wiederholungsrisiko ergibt sich aus Keimzellmosaiken. Blaue Skleren sind beim Neugeborenen auch physiologisch und nicht beweisend. Bisphosphonate werden bei schweren Formen in spezialisierten Zentren auch im Säuglingsalter eingesetzt. Wichtig sind schonendes Handling, Schmerztherapie und Frakturversorgung.",
+      "keyPoints": [
+        "COL1A1/COL1A2, meist autosomal-dominant (oft Neumutation)",
+        "Blaue Skleren beim Neugeborenen unspezifisch",
+        "Bisphosphonate in Zentren bei schweren Formen"
+      ],
+      "tags": ["Osteogenesis imperfecta", "Skelettdysplasie"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Sie werden in den Kreißsaal zu einem reifen Neugeborenen mit pränatal bekannter **lumbosakraler Myelomeningozele** gerufen. Beschreiben Sie die Erstversorgung, die neonatologische Diagnostik und die Prävention bei weiteren Schwangerschaften.",
+      "hints": [
+        "Lagerung und Abdeckung schützen die Plakode.",
+        "Kopf, Blase und Beine untersuchen.",
+        "Folsäuredosis nach betroffener Schwangerschaft ist höher."
+      ],
+      "answer": "- **Erstversorgung**: Bauch- oder Seitenlage, Defekt steril mit feuchten (warmen NaCl-)Kompressen und Folie abdecken, keine Druckbelastung; konsequent **latexfrei** arbeiten; Wärmeerhalt (Verdunstung über die Plakode).\n- **Diagnostik**: neurologisches Lähmungsniveau (Spontanmotorik, Sensibilität, Analreflex, Sphinktertonus), Kopfumfang und Schädelsonographie (**Hydrozephalus**, Chiari-II-Malformation fast regelhaft), Blasenfunktion (Restharn, Nierensonographie, ggf. intermittierender Katheterismus), orthopädischer Status (Klumpfüße, Hüften, Kyphose).\n- Neurochirurgischer **Verschluss** möglichst früh (in der Regel innerhalb der ersten 48 Stunden), Infektionsschutz; Antibiotikaprophylaxe je nach Zentrum. Ein Hydrozephalus kann einen Shunt erfordern.\n- **Prävention**: Folsäure 0,4 mg/d ab mindestens 4 Wochen vor Konzeption bis Ende des 1. Trimenons; nach einer betroffenen Schwangerschaft **4 mg/d**. Pränataler Verschluss ist in spezialisierten Zentren eine Option.",
+      "keyPoints": [
+        "Bauchlage, sterile feuchte Abdeckung, latexfrei, Wärmeerhalt",
+        "Lähmungsniveau, Blase, Orthopädie",
+        "Hydrozephalus/Chiari II (Kopfumfang, Sono)",
+        "Früher Verschluss (meist < 48 h)",
+        "Folsäure 0,4 mg/d, nach betroffener Schwangerschaft 4 mg/d"
+      ],
+      "tags": ["Neuralrohrdefekt", "Myelomeningozele", "Erstversorgung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.3 – Erstversorgung im Kreißsaal",
+          "terms": ["Erstversorgung"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 19.1 – Reanimation",
+          "terms": ["Reanimation"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "ERC/GRC-Leitlinien 2025",
+          "terms": ["Newborn Life Support"]
+        }
+      ]
+    },
+    {
+      "id": "gen-016",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein reifes Neugeborenes hat eine einseitige komplette **Lippen-Kiefer-Gaumen-Spalte**. Was besprechen und veranlassen Sie in den ersten Lebenstagen?",
+      "hints": ["Ernährung steht im Vordergrund.", "Die Ohren sind mitbetroffen.", "Liegt ein Syndrom vor?"],
+      "answer": "- **Ernährung**: Stillen ist bei Gaumenbeteiligung meist nur eingeschränkt effektiv, Muttermilch aber anstreben (Abpumpen); Spezialsauger bzw. Flaschen mit Dosierhilfe, aufrechte Haltung, Gewichtskontrolle; Trinkplatte bzw. präoperative Kieferorthopädie je nach Konzept des Spaltzentrums.\n- **Ohren**: Tubenfunktionsstörung mit Paukenergüssen → Hörscreening sorgfältig nachverfolgen, HNO-Anbindung.\n- **Syndromsuche**: gründliche Untersuchung auf weitere Fehlbildungen (Herz, Unterlippengrübchen bei Van-der-Woude-Syndrom, 22q11-Deletion, v. a. bei isolierter Gaumenspalte; Pierre-Robin-Sequenz).\n- **Interdisziplinäres Spaltzentrum** (MKG-Chirurgie, Kieferorthopädie, HNO, Logopädie) frühzeitig einbinden; Operationszeitpunkte nach Zentrumsschema (Lippenverschluss meist in den ersten Lebensmonaten, Gaumenverschluss bis etwa Ende des 1. Lebensjahres).\n- Elternberatung: gute funktionelle und ästhetische Ergebnisse, Kontakt zu Selbsthilfe.",
+      "keyPoints": [
+        "Ernährung: Spezialsauger, Muttermilch, Gewichtskontrolle",
+        "Paukenergüsse, Hördiagnostik",
+        "Syndromsuche (22q11, Van der Woude, Pierre-Robin)",
+        "Interdisziplinäres Spaltzentrum, OP-Schema zentrumsabhängig",
+        "Elternberatung"
+      ],
+      "tags": ["LKG-Spalte", "Ernährung", "Elternberatung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "gen-017",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche genetische Veränderung kann mit einer **chromosomalen Mikroarray-Analyse** (Array-CGH) **nicht** nachgewiesen werden?",
+      "hints": ["Die Methode misst Kopienzahlen."],
+      "options": [
+        { "text": "Eine balancierte reziproke Translokation", "correct": true },
+        { "text": "Eine Mikrodeletion 22q11.2", "correct": false },
+        { "text": "Eine freie Trisomie 18", "correct": false },
+        { "text": "Eine Duplikation von 600 kb", "correct": false },
+        { "text": "Eine unbalancierte Translokation mit Teildeletion", "correct": false }
+      ],
+      "answer": "Die Mikroarray-Analyse erfasst **Kopienzahlveränderungen** (Deletionen, Duplikationen, Aneuploidien) mit deutlich höherer Auflösung als der Karyotyp und ist bei Kindern mit multiplen Fehlbildungen eine Standarddiagnostik. **Balancierte Umbauten** (Translokationen, Inversionen) ohne Kopienzahlverlust, Punktmutationen und niedriggradige Mosaike werden nicht erkannt. Für balancierte Umbauten (z. B. Elternuntersuchung) braucht man den Karyotyp, für Punktmutationen Sequenzierung (Panel/Exom/Genom).",
+      "keyPoints": [
+        "Array erkennt nur Kopienzahlveränderungen",
+        "Balancierte Translokationen/Inversionen und Punktmutationen werden nicht erkannt"
+      ],
+      "tags": ["Mikroarray", "Genetische Diagnostik"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes liegt seit 5 Tagen mit therapierefraktären Krampfanfällen, Hypotonie und Laktatazidose auf Ihrer Intensivstation; Karyotyp und Array sind unauffällig. Diskutieren Sie Indikation, Vorgehen und Fallstricke einer **schnellen Trio-Exom- oder Genomsequenzierung**.",
+      "hints": [
+        "Warum Trio und nicht nur das Kind?",
+        "Was tun mit Varianten unklarer Signifikanz und Zufallsbefunden?",
+        "Welche rechtlichen Voraussetzungen gelten?"
+      ],
+      "answer": "**Indikation**: schwer kranke Neugeborene mit Verdacht auf monogene Erkrankung (Enzephalopathie/Epilepsie, unklare Stoffwechselentgleisung, multiple Fehlbildungen), wenn das Ergebnis Therapie (z. B. Vitamin-B6-abhängige Epilepsie, Diät), Prognose oder Therapiezielentscheidungen beeinflussen kann. Die diagnostische Ausbeute liegt in Studien – stark abhängig von der Patientenauswahl – meist bei etwa 30–40 % (Spannweite ca. 20–50 %); Ergebnisse sind als Schnellanalyse innerhalb von Tagen bis wenigen Wochen möglich. **Trio** (Kind und beide Eltern) erleichtert die Interpretation (De-novo-Varianten, Segregation, compound-heterozygote Varianten). **Fallstricke**: Varianten unklarer Signifikanz (VUS), Zufallsbefunde (z. B. Tumordispositionen, Nicht-Elternschaft) – Umfang vorher mit den Eltern festlegen; negatives Ergebnis schließt eine genetische Ursache nicht aus (Reanalyse später sinnvoll). **Recht**: Aufklärung und schriftliche Einwilligung der Sorgeberechtigten nach **Gendiagnostikgesetz**, genetische Beratung anbieten, enge Zusammenarbeit mit der Humangenetik. Verfügbarkeit und Kostenübernahme sind regional unterschiedlich.",
+      "keyPoints": [
+        "Indikation: schwer kranke NG mit V. a. monogene Erkrankung und therapeutischer/prognostischer Konsequenz",
+        "Ausbeute meist ca. 30–40 % (auswahlabhängig), Ergebnis in Tagen bis Wochen",
+        "Trio: De-novo-Varianten, Segregation",
+        "VUS, Zufallsbefunde, negatives Ergebnis schließt nichts aus",
+        "Einwilligung nach GenDG, Humangenetik einbinden"
+      ],
+      "tags": ["Exomsequenzierung", "Genetische Diagnostik", "Gendiagnostikgesetz"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "gen-019",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Vorgaben des **Gendiagnostikgesetzes (GenDG)** müssen Sie beachten, wenn Sie bei einem Neugeborenen eine diagnostische genetische Untersuchung veranlassen? Wie unterscheidet sich eine prädiktive Untersuchung?",
+      "hints": [
+        "Aufklärung, Einwilligung, Mitteilung, Aufbewahrung.",
+        "Bei prädiktiver Diagnostik ist die Beratung nicht nur ein Angebot."
+      ],
+      "answer": "- **Aufklärung** durch die verantwortliche ärztliche Person über Zweck, Art, Aussagekraft, mögliche Befunde (auch Zufallsbefunde) und das **Recht auf Nichtwissen**; **schriftliche Einwilligung** der Sorgeberechtigten, jederzeit widerrufbar.\n- Eine **diagnostische** Untersuchung darf jede Ärztin/jeder Arzt veranlassen; nach Vorliegen des Ergebnisses **soll genetische Beratung angeboten** werden.\n- Bei einer **prädiktiven** Untersuchung **muss vor und nach** der Untersuchung eine genetische Beratung durch eine entsprechend qualifizierte Ärztin/einen qualifizierten Arzt (Fachärztin/Facharzt für Humangenetik oder Qualifikation zur fachgebundenen genetischen Beratung) erfolgen; darauf kann nur nach schriftlicher Information schriftlich verzichtet werden (§ 10 GenDG).\n- Bei **nicht einwilligungsfähigen Personen** (also Neugeborenen) ist eine genetische Untersuchung nach § 14 GenDG nur zulässig, wenn sie zur Vermeidung, Vorbeugung oder Behandlung einer genetisch bedingten Erkrankung erforderlich ist (oder für eine geplante Arzneimitteltherapie relevant ist); prädiktive Tests auf spätmanifestierende Erkrankungen ohne Konsequenz im Kindesalter werden deshalb nicht durchgeführt.\n- Ergebnisse nur der betroffenen Person bzw. den Sorgeberechtigten mitteilen; Weitergabe an Dritte nur mit ausdrücklicher Einwilligung; Aufbewahrung der Ergebnisse 10 Jahre.",
+      "keyPoints": [
+        "Aufklärung und schriftliche Einwilligung der Sorgeberechtigten",
+        "Recht auf Nichtwissen, Widerruf",
+        "Diagnostisch: Beratung anbieten; prädiktiv: Beratung vor und nach Pflicht",
+        "Bei Nichteinwilligungsfähigen nur bei medizinischem Nutzen (§ 14 GenDG), keine Tests auf spätmanifestierende Erkrankungen",
+        "Schweigepflicht, Weitergabe nur mit Einwilligung, 10 Jahre Aufbewahrung"
+      ],
+      "tags": ["Gendiagnostikgesetz", "Einwilligung", "Genetische Beratung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "gen-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei der U1 äußern Sie den Verdacht auf eine Trisomie 21, die pränatal nicht bekannt war. Die Eltern sind 24 und 26 Jahre alt. Wie führen Sie das erste Gespräch, und was sagen Sie zum **Wiederholungsrisiko**?",
+      "hints": ["Rahmen, Sprache, Zeitpunkt.", "Das Wiederholungsrisiko hängt vom Karyotyp ab."],
+      "answer": "**Gespräch**: möglichst bald und ehrlich, wenn sich der Verdacht ergibt, beide Eltern gemeinsam, ruhiger Raum, das Kind dabei, ausreichend Zeit, Pflegekraft dabei. Zuerst das Kind als Kind ansprechen (Name, was gut ist), dann den Verdacht klar benennen, wertneutrale Sprache („Kind mit Down-Syndrom“), Unsicherheit bis zum Befund benennen. Ausgewogene Information über Gesundheitsfragen (Herz, Darm, Schilddrüse) und Entwicklung, Fördermöglichkeiten, Lebensqualität; Kontakte zu Selbsthilfe/Elternvereinen, Sozialdienst, Frühförderung, Folgegespräch fest vereinbaren, Schuldgefühle aktiv entlasten.\n**Wiederholungsrisiko**: Bei **freier Trisomie 21** liegt es bei jungen Eltern bei etwa 1 % (bzw. beim höheren altersbedingten Risiko). Bei einer **Robertson-Translokation** werden die Eltern karyotypisiert: ist die Mutter Trägerin einer balancierten Translokation, ist das Risiko deutlich höher (ca. 10–15 %), beim Vater geringer; bei einer balancierten 21;21-Translokation eines Elternteils haben alle lebend geborenen Kinder eine Trisomie 21. Humangenetische Beratung anbieten.",
+      "keyPoints": [
+        "Frühes, ehrliches Gespräch mit beiden Eltern, Kind dabei",
+        "Wertneutrale Sprache, ausgewogene Information, Schuld entlasten",
+        "Selbsthilfe, Sozialdienst, Frühförderung, Folgetermin",
+        "Freie Trisomie: Wiederholungsrisiko ca. 1 %",
+        "Translokation: Elternkaryotyp, deutlich höheres Risiko v. a. bei mütterlicher Trägerschaft"
+      ],
+      "tags": ["Elternberatung", "Trisomie 21", "Wiederholungsrisiko"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 4 – Elternbetreuung",
+          "terms": ["Elterninformation", "Tod eines Kindes"]
+        }
+      ]
+    },
+    {
+      "id": "gen-021",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Kind hat eine autosomal-rezessive Stoffwechselerkrankung; beide Eltern sind gesunde heterozygote Anlageträger. Wie hoch ist die Wahrscheinlichkeit (in %), dass ein **gesundes Geschwisterkind** Anlageträger ist?",
+      "hints": [
+        "Aus der Kreuzung Aa × Aa ergeben sich vier gleich wahrscheinliche Genotypen.",
+        "Das Geschwisterkind ist bekanntermaßen nicht erkrankt – welcher Genotyp fällt weg?"
+      ],
+      "answer": "Aa × Aa ergibt AA : Aa : aA : aa = 1 : 1 : 1 : 1. Da das Geschwisterkind gesund ist, entfällt aa; es bleiben 3 gleich wahrscheinliche Genotypen, davon 2 heterozygot. Wahrscheinlichkeit = 2/3 ≈ **66,7 %**. (Für ein noch ungeborenes weiteres Kind gilt dagegen: 25 % erkrankt, 50 % Anlageträger.)",
+      "keyPoints": ["Kreuzung Aa × Aa: 1 : 2 : 1", "Erkrankter Genotyp aa ausgeschlossen", "Ergebnis 2/3 ≈ 66,7 %"],
+      "solution": { "value": 66.7, "unit": "%", "tolerance": 0.03 },
+      "tags": ["Erbgang", "Wiederholungsrisiko", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-022",
+      "type": "calc",
+      "difficulty": 3,
+      "question": "Angenommen, eine autosomal-rezessive Erkrankung hat in einer Population eine Inzidenz von 1 : 2500. Berechnen Sie nach dem **Hardy-Weinberg-Gesetz** die Heterozygotenfrequenz (Anlageträger) in %.",
+      "hints": ["q² = Inzidenz.", "Heterozygotenfrequenz = 2pq, p = 1 − q."],
+      "answer": "q² = 1/2500 → q = 1/50 = 0,02; p = 0,98. Heterozygotenfrequenz = 2pq = 2 · 0,98 · 0,02 = 0,0392 ≈ **3,9 %** (etwa jede 25. Person). Praktische Folge: Das Risiko eines Anlageträgers, mit einem Partner aus der Allgemeinbevölkerung ein erkranktes Kind zu bekommen, beträgt etwa 1/25 · 1/4 = 1/100.",
+      "keyPoints": ["q = Wurzel aus Inzidenz = 0,02", "2pq = 2 · 0,98 · 0,02", "Ergebnis ≈ 3,9 % (ca. 1 : 25)"],
+      "solution": { "value": 3.92, "unit": "%", "tolerance": 0.05 },
+      "tags": ["Hardy-Weinberg", "Populationsgenetik", "Berechnung"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-023",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes zeigt eine ausgeprägte muskuläre Hypotonie mit Trinkschwäche (Sondenernährung nötig), aber wache Mimik; die Muskeleigenreflexe sind abgeschwächt auslösbar, die CK ist normal. Sie vermuten ein **Prader-Willi-Syndrom**. Welche Untersuchung ist die geeignete Erstdiagnostik?",
+      "hints": ["Die Erkrankung beruht auf fehlender Expression väterlich geprägter Gene."],
+      "options": [
+        { "text": "Methylierungsanalyse der Region 15q11–q13", "correct": true },
+        { "text": "FISH-Untersuchung auf eine Deletion 15q11–q13", "correct": false },
+        { "text": "Konventioneller Karyotyp", "correct": false },
+        { "text": "Muskelbiopsie", "correct": false },
+        { "text": "Sequenzierung des SMN1-Gens", "correct": false }
+      ],
+      "answer": "Die **Methylierungsanalyse** (z. B. MS-MLPA) der Region 15q11–q13 erfasst nahezu alle Fälle von Prader-Willi-Syndrom – unabhängig davon, ob eine väterliche Deletion, eine mütterliche uniparentale Disomie oder ein Imprintingdefekt vorliegt. FISH erkennt nur Deletionen, der Karyotyp ist zu grob. Die Unterscheidung des Mechanismus ist anschließend für das Wiederholungsrisiko wichtig. Die frühe Diagnose ermöglicht frühe Förderung und Wachstumshormontherapie.",
+      "keyPoints": [
+        "Methylierungsanalyse erfasst Deletion, UPD und Imprintingdefekt",
+        "FISH nur für Deletionen",
+        "Mechanismus relevant für Wiederholungsrisiko"
+      ],
+      "tags": ["Prader-Willi-Syndrom", "Imprinting", "Hypotonie"],
+      "exam": ["KM"]
+    },
+    {
+      "id": "gen-024",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit 4600 g (LGA) hat eine Makroglossie, eine kleine Omphalozele, Kerben an den Ohrläppchen und am ersten Lebenstag rezidivierende Hypoglykämien. Welche Diagnose vermuten Sie? Nennen Sie Ursache, Diagnostik und die wichtigsten Konsequenzen für Neonatalzeit und Nachsorge.",
+      "hints": ["Imprintingstörung auf Chromosom 11.", "Zwei Langzeitprobleme: Atemweg und Tumoren."],
+      "answer": "Verdacht auf **Beckwith-Wiedemann-Syndrom** (Überwuchssyndrom). Ursache sind (epi)genetische Veränderungen der **Imprintingregion 11p15.5** (z. B. Methylierungsverlust an IC2, väterliche uniparentale Disomie 11, CDKN1C-Varianten). Diagnostik: **Methylierungsanalyse 11p15** aus Blut; ein unauffälliges Ergebnis schließt die klinische Diagnose nicht aus (Mosaike, ggf. weiteres Gewebe untersuchen). Neonatal: **Hypoglykämien durch Hyperinsulinismus** (engmaschige Glukosekontrollen, ggf. Diazoxid bei Persistenz), Atemwegs- und Fütterungsprobleme durch die Makroglossie, Versorgung der Omphalozele, Organomegalie. Nachsorge: erhöhtes Risiko für **embryonale Tumoren** (Wilms-Tumor, Hepatoblastom), daher – abhängig vom molekularen Subtyp – Tumorsurveillance mit regelmäßigen Abdomensonographien in den ersten Lebensjahren nach internationalem Konsens; lateralisiertes Überwachstum orthopädisch verfolgen.",
+      "keyPoints": [
+        "Beckwith-Wiedemann-Syndrom, Imprintingregion 11p15",
+        "Methylierungsanalyse; negatives Ergebnis schließt nicht aus",
+        "Hyperinsulinämische Hypoglykämie",
+        "Makroglossie: Atemweg/Fütterung",
+        "Tumorsurveillance (Wilms, Hepatoblastom) subtypabhängig"
+      ],
+      "tags": ["Beckwith-Wiedemann-Syndrom", "Hypoglykämie", "Imprinting"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.3–5.4 – Hypoglykämie, Hyperglykämie",
+          "terms": ["Hypoglykämie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.12 – Kind einer diabetischen Mutter",
+          "terms": ["diabetische Mutter"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neugeborene diabetischer Mütter",
+          "terms": ["Hypoglykämie"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "area": "herzfehler",
+  "questions": [
+    {
+      "id": "herz-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie Herzfehler mit **ductusabhängiger Lungenperfusion** und beschreiben Sie, wie sich diese Kinder typischerweise klinisch präsentieren.",
+      "hints": [
+        "Der rechtsventrikuläre Ausflusstrakt ist verschlossen oder hochgradig verengt.",
+        "Was passiert mit der Sättigung, wenn sich der Ductus schließt?"
+      ],
+      "answer": "Ductusabhängig ist die Lungenperfusion, wenn der Blutfluss aus dem rechten Ventrikel in die Pulmonalarterie fehlt oder kritisch vermindert ist: Pulmonalatresie mit intaktem Ventrikelseptum, Pulmonalatresie mit VSD, kritische Pulmonalstenose, Trikuspidalatresie mit Pulmonalstenose bzw. -atresie, schwere Fallot-Formen, schwere Ebstein-Anomalie mit funktioneller Pulmonalatresie. Klinisch zeigen die Kinder eine zunehmende zentrale Zyanose, die sich mit dem Ductusverschluss in den ersten Lebenstagen rasch verschlechtert, bis zur schweren Hypoxämie mit metabolischer Azidose. Atemnot ist anfangs oft gering („ruhige Zyanose“), ein Geräusch kann fehlen. Sauerstoff bessert die Sättigung kaum. Therapie der Wahl bis zur Intervention ist Prostaglandin E1.",
+      "keyPoints": [
+        "Pulmonalatresie (IVS/VSD), kritische Pulmonalstenose",
+        "Trikuspidalatresie mit PS, schwere Fallot-/Ebstein-Formen",
+        "zunehmende Zyanose bei Ductusverschluss",
+        "wenig Atemnot, Sauerstoff hilft kaum",
+        "PGE1 bis zur Intervention"
+      ],
+      "tags": ["ductusabhängige Lungenperfusion", "Zyanose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-002",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Nennen Sie Herzfehler mit **ductusabhängiger Systemperfusion** und erklären Sie, warum sich diese Kinder oft erst nach einigen Lebenstagen mit Schock vorstellen.",
+      "hints": ["Linksherzobstruktionen.", "Wann schließt sich der Ductus funktionell?"],
+      "answer": "Ductusabhängig ist die Systemperfusion bei Obstruktionen des linken Herzens bzw. Aortenbogens: hypoplastisches Linksherzsyndrom, kritische Aortenstenose, kritische Aortenisthmusstenose, unterbrochener Aortenbogen. Pränatal und solange der Ductus offen ist, versorgt der rechte Ventrikel über den Ductus die Aorta descendens (bei HLHS retrograd auch Aortenbogen und Koronarien). Mit dem funktionellen Ductusverschluss, meist in den ersten Lebenstagen, bricht die Systemperfusion zusammen: graues Hautkolorit, schwache oder fehlende Pulse (bei ISTA bzw. unterbrochenem Bogen besonders an den Beinen), Tachypnoe, Hepatomegalie, Oligurie, schwere metabolische Laktatazidose. Häufig sind die Kinder bereits entlassen und werden als „Sepsis“ vorgestellt. Sofortige Gabe von PGE1 ist lebensrettend.",
+      "keyPoints": [
+        "HLHS, kritische Aortenstenose, kritische ISTA, unterbrochener Aortenbogen",
+        "Systemperfusion über Ductus aus dem rechten Ventrikel",
+        "Schock bei Ductusverschluss in den ersten Lebenstagen",
+        "fehlende Pulse, Laktatazidose, Verwechslung mit Sepsis",
+        "sofort PGE1"
+      ],
+      "tags": ["ductusabhängige Systemperfusion", "Schock"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "herz-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein 5 Tage altes, am 2. Lebenstag entlassenes Reifgeborenes wird von den Eltern in die Notaufnahme gebracht: grau, tachypnoisch, Femoralispulse nicht tastbar, Leber 4 cm unter dem Rippenbogen, pH 7,02, Laktat 11 mmol/l. Wie gehen Sie vor?",
+      "hints": [
+        "Zwei Differenzialdiagnosen werden parallel behandelt.",
+        "Welches Medikament darf bei diesem Bild nicht auf die Echokardiographie warten?"
+      ],
+      "answer": "Das Bild ist hochverdächtig auf eine ductusabhängige Systemperfusion mit Ductusverschluss (z. B. kritische ISTA, HLHS, kritische Aortenstenose); Differenzialdiagnosen sind Sepsis und eine Stoffwechselentgleisung. Sofort: ABC-Stabilisierung, Monitoring, Zugang (ggf. intraossär). **PGE1 unverzüglich** starten, ohne auf die Echokardiographie zu warten, in höherer Startdosis (z. B. 0,05–0,1 µg/kg/min), da der Ductus wiedereröffnet werden muss; mit Apnoen rechnen, Intubation großzügig. Parallel Blutkultur und kalkulierte Antibiotika, Glukose und Calcium kontrollieren, Ammoniak bestimmen. Kreislauf: vorsichtige Volumengabe, bei Myokarddysfunktion Inotropikum (z. B. Adrenalin oder Dobutamin); Sauerstoff zurückhaltend, keine Hyperventilation. RR an rechtem Arm und Bein, prä-/postduktale Sättigung, Echokardiographie so rasch wie möglich, Kontakt zum kinderkardiologischen Zentrum und Transport.",
+      "keyPoints": [
+        "Verdacht ductusabhängige Systemperfusion, DD Sepsis/Stoffwechsel",
+        "PGE1 sofort ohne Echo-Bestätigung, höhere Startdosis",
+        "Apnoe-Risiko, Intubationsbereitschaft",
+        "parallel Antibiotika, Glukose, Calcium, Ammoniak",
+        "Inotropika, O2 zurückhaltend, Echo und Verlegung"
+      ],
+      "tags": ["Prostaglandin E1", "kardiogener Schock", "Notfall"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.3 – Blutdruck und Perfusion",
+          "terms": ["Blutdruck", "Perfusion"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.4 – Katecholamine und vasoaktive Substanzen",
+          "terms": ["Katecholamine"]
+        }
+      ]
+    },
+    {
+      "id": "herz-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie Wirkung, **Dosierung** und **Nebenwirkungen** von **Prostaglandin E1 (Alprostadil)** beim ductusabhängigen Herzfehler.",
+      "hints": [
+        "Ductus offen halten versus wiedereröffnen – unterschiedliche Dosierung.",
+        "Die gefährlichste Nebenwirkung betrifft die Atmung."
+      ],
+      "answer": "PGE1 relaxiert die glatte Muskulatur des Ductus arteriosus und hält ihn offen bzw. eröffnet einen sich schließenden Ductus wieder. Dosierung: bei noch offenem Ductus niedrig (etwa 0,005–0,01 µg/kg/min), bei sich schließendem oder geschlossenem Ductus und Schock höher (etwa 0,05–0,1 µg/kg/min), nach Wirkungseintritt auf die niedrigste wirksame Dosis reduzieren. Nebenwirkungen: **Apnoen** (dosisabhängig, vor allem in den ersten Stunden), Fieber, Flush, Vasodilatation mit Hypotonie, Tachy- oder Bradykardie, Myoklonien bzw. Krampfanfall-ähnliche Bewegungen, Diarrhö; bei Langzeitanwendung kortikale Hyperostose und Magenausgangsobstruktion durch antrale Schleimhauthyperplasie. Überwachung: Atmung, SpO2, Blutdruck, Temperatur; vor Transport bei Apnoen oder hoher Dosis Intubation erwägen. Dosierungen gegen Fachinformation und lokalen Standard prüfen.",
+      "keyPoints": [
+        "Ductus offen halten/wiedereröffnen",
+        "niedrige Erhaltungsdosis vs. höhere Dosis bei verschlossenem Ductus",
+        "Apnoe als wichtigste Nebenwirkung",
+        "Fieber, Flush, Hypotonie",
+        "Langzeit: Hyperostose, Magenausgangsobstruktion"
+      ],
+      "tags": ["Prostaglandin E1", "Pharmakologie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-005",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes mit 3,5 kg und kritischer Aortenisthmusstenose soll **Alprostadil 0,05 µg/kg/min** erhalten. Der Perfusor ist mit **5 µg/ml** angesetzt. Welche **Laufrate in ml/h** stellen Sie ein?",
+      "hints": ["Laufrate (ml/h) = Dosis (µg/kg/min) · Gewicht (kg) · 60 / Konzentration (µg/ml)"],
+      "answer": "Laufrate = 0,05 µg/kg/min · 3,5 kg · 60 min/h / 5 µg/ml = 10,5 µg/h / 5 µg/ml = **2,1 ml/h**.",
+      "keyPoints": ["Formel Dosis · Gewicht · 60 / Konzentration", "10,5 µg/h", "2,1 ml/h"],
+      "solution": { "value": 2.1, "unit": "ml/h", "tolerance": 0.03 },
+      "tags": ["Prostaglandin E1", "Laufrate", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-006",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Für ein Neugeborenes mit 3,0 kg und Pulmonalatresie wollen Sie einen **Alprostadil-Perfusor** (Gesamtvolumen 50 ml) so ansetzen, dass **1 ml/h = 0,01 µg/kg/min** entspricht. Wie viel **µg Alprostadil** geben Sie in die Spritze?",
+      "hints": ["Wie viele µg pro Stunde entsprechen 0,01 µg/kg/min bei 3 kg?", "Diese Menge muss in 1 ml enthalten sein."],
+      "answer": "Pro Stunde: 0,01 µg/kg/min · 3,0 kg · 60 min/h = 1,8 µg/h. Bei 1 ml/h muss 1 ml 1,8 µg enthalten. In 50 ml: 1,8 · 50 = **90 µg Alprostadil**. Allgemein: 30 µg/kg auf 50 ml → 1 ml/h = 0,01 µg/kg/min.",
+      "keyPoints": ["1,8 µg/h", "Konzentration 1,8 µg/ml", "90 µg in 50 ml", "Merkregel 30 µg/kg auf 50 ml"],
+      "solution": { "value": 90, "unit": "µg", "tolerance": 0.03 },
+      "tags": ["Prostaglandin E1", "Perfusor", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-007",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Nebenwirkung von **Prostaglandin E1** ist in den ersten Stunden der Therapie am bedrohlichsten und bestimmt vor allem die Überwachung bzw. die Transportplanung?",
+      "hints": ["Es geht um die Atmung."],
+      "answer": "Apnoen sind die klinisch relevanteste Akut-Nebenwirkung von PGE1; sie sind dosisabhängig, treten vor allem in den ersten Stunden auf und sind bei kleinen Kindern häufiger. Vor Transporten mit hoher Dosis oder nach Apnoen wird daher häufig intubiert. Fieber und Flush sind häufig, aber ungefährlich; Hyperostose und Magenausgangsobstruktion treten erst bei Langzeittherapie auf.",
+      "keyPoints": ["Apnoe ist die bedrohlichste Akut-Nebenwirkung", "dosisabhängig, früh", "Intubation vor Transport erwägen"],
+      "options": [
+        { "text": "Apnoe", "correct": true },
+        { "text": "Kortikale Hyperostose", "correct": false },
+        { "text": "Magenausgangsobstruktion", "correct": false },
+        { "text": "Fieber", "correct": false }
+      ],
+      "tags": ["Prostaglandin E1", "Apnoe"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 10.1 – Apnoen und Bradykardien",
+          "terms": ["Apnoe", "Bradykardie"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 20.3 – Methylxanthine – Coffein",
+          "terms": ["Coffein"]
+        }
+      ]
+    },
+    {
+      "id": "herz-008",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie Durchführung und Interpretation des **Hyperoxietests**. Welchen Stellenwert hat er heute?",
+      "hints": ["FiO2 1,0, präduktaler arterieller paO2.", "Warum ist die Pulsoxymetrie hier ungeeignet?"],
+      "answer": "Das Kind atmet etwa 10 Minuten 100 % Sauerstoff; dann wird der arterielle paO2 präduktal (rechte A. radialis) gemessen. Ein paO2 über etwa 250 mmHg schließt einen zyanotischen Herzfehler praktisch aus; über 150 mmHg ist er unwahrscheinlich und spricht eher für eine pulmonale Ursache, Werte zwischen etwa 150 und 250 mmHg kommen aber auch bei Mischungsvitien mit hohem Lungenfluss (z. B. Truncus, nicht obstruierte TAPVR) vor. Ein paO2 unter etwa 100 mmHg (meist deutlich darunter) spricht für einen intrakardialen Rechts-links-Shunt oder ein Mischungsvitium; bei schwerer PPHN oder Lungenerkrankung kann er ebenfalls niedrig bleiben. Die Pulsoxymetrie ist ungeeignet, weil die Sättigung oberhalb eines paO2 von etwa 100 mmHg kaum noch ansteigt. Heute hat der Test an Bedeutung verloren, weil die Echokardiographie rasch verfügbar ist; bei ductusabhängiger Systemperfusion kann hochdosierter Sauerstoff den Ductusverschluss fördern und die Lungendurchblutung steigern, deshalb nur kurz und mit Vorsicht.",
+      "keyPoints": [
+        "FiO2 1,0 für ca. 10 min, präduktaler arterieller paO2",
+        "paO2 > 250 mmHg schließt zyanotisches Vitium praktisch aus, > 150 mmHg macht es unwahrscheinlich (Graubereich bei Mischungsvitien)",
+        "paO2 < 100 mmHg: Rechts-links-Shunt/Mischung (DD PPHN)",
+        "Pulsoxymetrie ungeeignet",
+        "heute durch Echo weitgehend ersetzt, Risiko bei ductusabhängigen Vitien"
+      ],
+      "tags": ["Hyperoxietest", "Zyanose", "Diagnostik"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-009",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Ein Neugeborenes ist auf der Wochenstation zyanotisch. Wie grenzen Sie **periphere von zentraler Zyanose** ab, und welche **Differenzialdiagnosen** der zentralen Zyanose kennen Sie?",
+      "hints": ["Lippen und Zunge versus Hände und Füße.", "Lunge, Herz, Lungenstrombahn, Blut, Atemantrieb."],
+      "answer": "Eine Akrozyanose (Hände, Füße, perioral) ohne Zyanose von Zunge und Schleimhäuten ist in den ersten Lebenstagen häufig harmlos; eine Zyanose von Zunge und Mundschleimhaut ist zentral und immer abklärungsbedürftig, objektiviert durch prä- und postduktale Pulsoxymetrie. Differenzialdiagnosen der zentralen Zyanose: **pulmonal** (RDS, transitorische Tachypnoe, Pneumonie, Pneumothorax, Mekoniumaspiration, Zwerchfellhernie), **kardial** (TGA, Pulmonalatresie, Trikuspidalatresie, Fallot, TAPVR, Truncus, Ebstein), **PPHN**, **Hypoventilation** (ZNS-Depression, mütterliche Medikamente, neuromuskuläre Erkrankungen), **Methämoglobinämie** (Sättigung um 85 % trotz normalem paO2, schokoladenbraunes Blut). Eine Polyglobulie kann eine sichtbare Zyanose bei normaler Sättigung bewirken. Hinweis auf kardiale Ursache: ausgeprägte Zyanose bei geringer Atemnot und fehlendem Sauerstoffeffekt.",
+      "keyPoints": [
+        "Akrozyanose harmlos, Zungen-/Schleimhautzyanose zentral",
+        "pulmonale Ursachen",
+        "kardiale Ursachen (TGA, Pulmonalatresie, TAPVR u. a.)",
+        "PPHN, Hypoventilation",
+        "Methämoglobinämie, Polyglobulie"
+      ],
+      "tags": ["Zyanose", "Differenzialdiagnose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes hat beim **Pulsoxymetrie-Screening** nach 30 Lebensstunden am Fuß eine SpO2 von 93 %, bei der Kontrollmessung 90 Minuten später 94 %. Bewerten Sie den Befund nach der Kinder-Richtlinie und beschreiben Sie Ihr weiteres Vorgehen.",
+      "hints": [
+        "Welche Werte gelten als unauffällig, kontrollbedürftig, auffällig?",
+        "Ein positives Screening ist keine Diagnose – aber was ist unverzüglich nötig?"
+      ],
+      "answer": "Nach der Kinder-Richtlinie des G-BA wird am Fuß gemessen, regulär zwischen der 24. und 48. Lebensstunde. Werte ≥ 96 % sind unauffällig, 90 bis unter 96 % kontrollbedürftig mit Kontrollmessung innerhalb von 2 Stunden, Werte unter 90 % auffällig ohne Kontrollmessung. Bleibt die Kontrollmessung unter 96 %, ist das Screening positiv – hier also positiv. Es folgt die unverzügliche Abklärung durch eine Fachärztin oder einen Facharzt für Kinder- und Jugendmedizin, möglichst mit Schwerpunkt Kinderkardiologie oder Neonatologie. Vorgehen: klinische Untersuchung (Atmung, Geräusch, Femoralispulse, Leber), prä- (rechte Hand) und postduktale Sättigung, Blutdruck an rechtem Arm und Bein, Echokardiographie. Nicht kardiale Ursachen bedenken: PPHN, Infektion/Pneumonie, transitorische Tachypnoe. Bei ductusabhängigem Vitium PGE1 und Verlegung. Ein unauffälliges Screening schließt kritische Herzfehler, besonders Linksherzobstruktionen wie die ISTA, nicht sicher aus.",
+      "keyPoints": [
+        "Messung am Fuß, 24.–48. Lebensstunde",
+        "≥ 96 % unauffällig, 90–< 96 % Kontrolle innerhalb 2 h, < 90 % auffällig",
+        "Kontrolle < 96 % = positives Screening",
+        "unverzügliche Abklärung: Klinik, prä-/postduktale SpO2, RR, Echo",
+        "DD nicht kardial (PPHN, Infektion); negatives Screening schließt ISTA nicht aus"
+      ],
+      "tags": ["Pulsoxymetrie-Screening", "Kinder-Richtlinie", "kritische Herzfehler"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie, Screening auf kritische angeborene Herzfehler mittels Pulsoxymetrie"
+    },
+    {
+      "id": "herz-011",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zum **Pulsoxymetrie-Screening** auf kritische angeborene Herzfehler nach der Kinder-Richtlinie des G-BA trifft zu?",
+      "hints": ["Messort und Zeitfenster sind in der Richtlinie festgelegt."],
+      "answer": "Die Messung erfolgt am Fuß, regulär am 2. Lebenstag (24.–48. Lebensstunde), bei ambulanter Geburt frühestens nach der 4. Lebensstunde und spätestens zur U2. Ein Wert unter 90 % ist ohne Kontrollmessung auffällig. Werte zwischen 90 und unter 96 % werden innerhalb von 2 Stunden kontrolliert. Neugeborene mit pränatal diagnostiziertem kritischem Herzfehler sind vom Anspruch ausgenommen.",
+      "keyPoints": ["Fuß, 24.–48. Lebensstunde", "< 90 % sofort auffällig", "90–< 96 % Kontrolle innerhalb von 2 h"],
+      "options": [
+        {
+          "text": "Gemessen wird am Fuß; ein Wert unter 90 % gilt ohne Kontrollmessung als auffällig.",
+          "correct": true
+        },
+        {
+          "text": "Gemessen wird an der rechten Hand; die Messung soll in den ersten 4 Lebensstunden erfolgen.",
+          "correct": false
+        },
+        { "text": "Ein Wert von 94 % gilt als unauffällig, wenn das Kind klinisch gesund wirkt.", "correct": false },
+        { "text": "Bei einem Wert von 92 % wird die Messung am 5. Lebenstag wiederholt.", "correct": false }
+      ],
+      "tags": ["Pulsoxymetrie-Screening", "Kinder-Richtlinie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ],
+      "source": "G-BA Kinder-Richtlinie, Screening auf kritische angeborene Herzfehler mittels Pulsoxymetrie"
+    },
+    {
+      "id": "herz-012",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Bei der U2 hören Sie bei einem klinisch unauffälligen Neugeborenen ein **systolisches Herzgeräusch**. Wie gehen Sie vor?",
+      "hints": [
+        "Geräusche in den ersten Tagen sind häufig, aber schwere Vitien können geräuschlos sein.",
+        "Welche einfachen Untersuchungen helfen bei der Einschätzung?"
+      ],
+      "answer": "Herzgeräusche sind in den ersten Lebenstagen häufig und oft transient (sich schließender Ductus, periphere Pulmonalstenose, Trikuspidalinsuffizienz); umgekehrt können kritische Herzfehler ohne Geräusch auftreten. Einschätzung: Allgemeinzustand, Atmung, Trinkverhalten, Hautkolorit; Femoralispulse; prä- und postduktale Sättigung; Blutdruck an rechtem Arm und Bein; Leberrand. Pathologisch verdächtig sind lautes (ab Grad 3/6), raues oder holosystolisches Geräusch, diastolisches Geräusch, Klick, auffälliger zweiter Herzton, abgeschwächte Pulse oder Zyanose. Bei Auffälligkeiten oder Unsicherheit Echokardiographie durch Kinderkardiologie vor der Entlassung. Ist ein Geräusch bei sonst unauffälligem Befund unklar, Kontrolle in kurzem Abstand; die Eltern über Warnzeichen (Trinkschwäche, Schwitzen, schnelle Atmung, Blässe oder Blauverfärbung) aufklären.",
+      "keyPoints": [
+        "Geräusche in den ersten Tagen häufig transient",
+        "kritische Vitien können geräuschlos sein",
+        "Femoralispulse, prä-/postduktale SpO2, RR Arm/Bein",
+        "Kriterien für pathologisches Geräusch",
+        "Echo bei Auffälligkeiten, Eltern über Warnzeichen aufklären"
+      ],
+      "tags": ["Herzgeräusch", "U2"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "herz-013",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie das **normale EKG des Neugeborenen** und nennen Sie Befunde, die auf eine Pathologie hinweisen.",
+      "hints": ["Der rechte Ventrikel dominiert.", "Wie verhält sich die T-Welle in V1 im Lauf der ersten Woche?"],
+      "answer": "Das Neugeborenen-EKG zeigt eine physiologische Rechtsdominanz: Rechtstyp (Achse etwa +60° bis +180°), hohe R-Zacken in V1 mit R > S und tiefe S-Zacken in V6. Die Herzfrequenz ist höher als beim älteren Kind, PQ- und QRS-Zeiten sind kurz. Die T-Welle in V1 ist in den ersten Lebenstagen oft positiv und wird im Laufe der ersten Woche negativ; sie bleibt meist bis ins späte Schul- bzw. Jugendalter negativ. Pathologisch verdächtig sind: eine nach der ersten Lebenswoche persistierend positive T-Welle in V1 (Hinweis auf Rechtshypertrophie), ein überdrehter Linkstyp bzw. superiore Achse (AVSD, Trikuspidalatresie), Linksdominanz, Präexzitation (Deltawelle bei WPW), AV-Blockierungen, verlängerte QTc-Zeit (altersbezogene Normwerte beachten), Niedervoltage (Perikarderguss) sowie Zeichen der Ischämie, z. B. bei ALCAPA.",
+      "keyPoints": [
+        "Rechtstyp und Rechtsdominanz physiologisch",
+        "T in V1 nach erster Woche negativ",
+        "persistierend positives T in V1 = Rechtshypertrophie",
+        "superiore Achse: AVSD, Trikuspidalatresie",
+        "Präexzitation, AV-Block, QTc-Verlängerung, Niedervoltage"
+      ],
+      "tags": ["EKG", "Normalbefunde"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-014",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Das EKG eines Neugeborenen mit Trisomie 21 zeigt eine **superiore Achse (überdrehter Linkstyp)**. An welchen Herzfehler denken Sie in erster Linie?",
+      "hints": ["Die Achsenabweichung entsteht durch die Lage des Reizleitungssystems bei diesem Defekt."],
+      "answer": "Der komplette atrioventrikuläre Septumdefekt (AVSD) ist der typische Herzfehler bei Trisomie 21. Wegen der nach inferior-posterior verlagerten Lage des AV-Knotens und des linksanterioren Faszikels zeigt das EKG charakteristisch eine superiore Achse. Auch die Trikuspidalatresie führt zu einer superioren bzw. Linksachse, hier jedoch mit Zyanose und Linkshypertrophie. Fallot und TGA zeigen typischerweise einen Rechtstyp.",
+      "keyPoints": ["superiore Achse typisch für AVSD", "AVSD häufigster Herzfehler bei Trisomie 21", "DD Trikuspidalatresie"],
+      "options": [
+        { "text": "Kompletter atrioventrikulärer Septumdefekt (AVSD)", "correct": true },
+        { "text": "Fallot-Tetralogie", "correct": false },
+        { "text": "Transposition der großen Arterien", "correct": false },
+        { "text": "Isolierter Vorhofseptumdefekt vom Sekundumtyp", "correct": false }
+      ],
+      "tags": ["EKG", "AVSD", "Trisomie 21"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein 10 Tage altes Reifgeborenes trinkt schlecht und hat eine Herzfrequenz von 280/min mit schmalen QRS-Komplexen, ohne sichtbare P-Wellen. Blutdruck stabil. Wie sichern Sie die Diagnose, und wie behandeln Sie akut?",
+      "hints": [
+        "Starre Frequenz, abrupter Beginn – Abgrenzung zur Sinustachykardie.",
+        "Erst vagale Manöver, dann ein Medikament mit sehr kurzer Halbwertszeit."
+      ],
+      "answer": "Wahrscheinlich ist eine **supraventrikuläre Tachykardie** (meist AV-Reentry über akzessorische Bahn): Frequenz typischerweise über 220/min, starr, schmale QRS-Komplexe, P-Wellen nicht sichtbar oder retrograd. Abgrenzung zur Sinustachykardie (meist unter 220/min, variabel, sichtbare P-Wellen, Ursache wie Fieber oder Volumenmangel). 12-Kanal-EKG schreiben und während der Therapie fortlaufend aufzeichnen. Beim stabilen Kind zuerst vagales Manöver: Eiswasserbeutel für wenige Sekunden auf das Gesicht (Tauchreflex); kein Bulbusdruck. Bei Erfolglosigkeit **Adenosin** als schneller Bolus über eine möglichst herznahe Vene mit sofortigem Nachspülen, Startdosis etwa 0,1–0,15 mg/kg, bei Bedarf steigern bis 0,2–0,3 mg/kg. Beim instabilen Kind synchronisierte Kardioversion (z. B. 1 J/kg, dann 2 J/kg) unter Analgosedierung. Nach Konversion EKG auf Präexzitation (WPW) prüfen, Echokardiographie (Struktur, Funktion) und Elektrolyte.",
+      "keyPoints": [
+        "SVT: > 220/min, starr, schmale QRS, keine sichtbaren P",
+        "fortlaufende EKG-Dokumentation",
+        "vagal: Eiswasser aufs Gesicht",
+        "Adenosin schneller Bolus 0,1–0,15 mg/kg, steigern bis 0,3 mg/kg",
+        "instabil: synchronisierte Kardioversion",
+        "danach EKG auf WPW, Echo"
+      ],
+      "tags": ["SVT", "Adenosin", "Rhythmusstörungen"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-016",
+      "type": "calc",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes mit 3,4 kg und SVT soll **Adenosin 0,15 mg/kg** erhalten. Sie verdünnen 1 ml Adenosin (3 mg/ml) mit NaCl 0,9 % auf 10 ml. Wie viel **ml** der verdünnten Lösung ziehen Sie auf?",
+      "hints": ["Konzentration nach Verdünnung: 3 mg in 10 ml.", "Dosis in mg = 0,15 mg/kg · Gewicht"],
+      "answer": "Dosis: 0,15 mg/kg · 3,4 kg = 0,51 mg. Konzentration nach Verdünnung: 3 mg / 10 ml = 0,3 mg/ml. Volumen: 0,51 mg / 0,3 mg/ml = **1,7 ml**. Die Gabe erfolgt als schneller Bolus mit sofortigem Nachspülen (Zwei-Spritzen-Technik).",
+      "keyPoints": ["0,51 mg Adenosin", "verdünnt 0,3 mg/ml", "1,7 ml", "schneller Bolus mit Nachspülen"],
+      "solution": { "value": 1.7, "unit": "ml", "tolerance": 0.03 },
+      "tags": ["Adenosin", "SVT", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-017",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes mit pränatal bekannter Tachykardie hat postnatal eine Kammerfrequenz von etwa 220/min; im EKG zeigen sich in II, III und aVF sägezahnartige Vorhofwellen. Adenosin verlangsamt die Kammerfrequenz nur kurz. Diagnose, Therapie und Prognose?",
+      "hints": [
+        "Adenosin wirkt hier diagnostisch, aber nicht therapeutisch – warum?",
+        "Welche Therapie beendet die Rhythmusstörung?"
+      ],
+      "answer": "Es handelt sich um ein **neonatales Vorhofflattern** mit Vorhoffrequenzen um 300–500/min und meist 2:1-Überleitung. Da der Reentry-Kreis im Vorhof liegt und den AV-Knoten nicht einschließt, demaskiert Adenosin die Flatterwellen durch vorübergehenden AV-Block, beendet die Rhythmusstörung aber nicht. Therapie: synchronisierte Kardioversion unter Analgosedierung oder transösophageale Überstimulation. Vorher Echokardiographie (Struktur, Funktion, Thromben sind beim Neugeborenen selten). Die Prognose ist gut: Nach erfolgreicher Konversion sind Rezidive selten, eine medikamentöse Dauerprophylaxe ist meist nicht erforderlich. Ein Teil der Kinder hat strukturelle Herzfehler oder andere Arrhythmien, die ausgeschlossen werden sollten.",
+      "keyPoints": [
+        "Vorhofflattern mit Sägezahnwellen, 2:1-Überleitung",
+        "Adenosin demaskiert, terminiert aber nicht",
+        "synchronisierte Kardioversion oder transösophageale Überstimulation",
+        "Rezidive selten, meist keine Dauerprophylaxe",
+        "Echo zum Ausschluss struktureller Ursachen"
+      ],
+      "tags": ["Vorhofflattern", "Rhythmusstörungen", "Kardioversion"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-018",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Neugeborenes, das wegen einer SVT mit Adenosin konvertiert wurde, zeigt im Sinusrhythmus ein verkürztes PQ-Intervall und eine Deltawelle. Was bedeutet das für Diagnose und **Langzeittherapie**, und wie beraten Sie die Eltern?",
+      "hints": [
+        "Welches Antiarrhythmikum ist bei Präexzitation zu vermeiden?",
+        "Wie ist der Spontanverlauf von SVT im Säuglingsalter?"
+      ],
+      "answer": "Der Befund entspricht einer **Präexzitation (WPW-Muster)**; die SVT war wahrscheinlich eine orthodrome AV-Reentry-Tachykardie über die akzessorische Bahn. Wegen hoher Rezidivrate im Säuglingsalter wird meist eine medikamentöse Prophylaxe für die ersten Lebensmonate begonnen, je nach Zentrum häufig mit Propranolol, alternativ Flecainid, Sotalol oder Amiodaron in schwierigen Fällen; Auswahl und Dosierung durch die Kinderkardiologie. Digoxin wird bei Präexzitation gemieden, da es die Leitung über die akzessorische Bahn begünstigen kann. Bei vielen Kindern sistieren die Tachykardien im ersten Lebensjahr, eine Ablation ist im Säuglingsalter nur Ausnahmefällen vorbehalten. Elternberatung: Erkennen einer Tachykardie (Trinkschwäche, Blässe, Unruhe, schnelle Atmung, Zählen der Herzfrequenz), Eiswasser-Manöver nur nach Anleitung, Notfallplan und Vorstellung bei Rezidiv.",
+      "keyPoints": [
+        "WPW-Muster: kurzes PQ, Deltawelle",
+        "Prophylaxe z. B. Propranolol, Alternativen nach Kinderkardiologie",
+        "kein Digoxin bei Präexzitation",
+        "Spontanremission im ersten Lebensjahr häufig",
+        "Eltern schulen: Symptome, Notfallplan"
+      ],
+      "tags": ["WPW", "SVT", "Langzeittherapie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-019",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei einem Fetus wurde in der 24. SSW eine Bradykardie von 60/min durch einen **kompletten AV-Block** festgestellt. Was ist die wahrscheinlichste Ursache, und wie gehen Sie postnatal vor?",
+      "hints": [
+        "Mütterliche Autoantikörper.",
+        "Ab welcher Kammerfrequenz und bei welchen Begleitbefunden ist ein Schrittmacher nötig?"
+      ],
+      "answer": "Ohne strukturellen Herzfehler ist die häufigste Ursache ein **neonataler Lupus** durch transplazentar übertragene mütterliche Anti-Ro/SSA- (und Anti-La/SSB-)Antikörper; die Mutter ist oft asymptomatisch. Strukturelle Ursachen sind komplexe Vitien (z. B. kongenital korrigierte TGA, Heterotaxie). Postnatal: Geburt in einem Zentrum mit Kinderkardiologie, 12-Kanal-EKG, Echokardiographie (Funktion, Struktur, Endokardfibroelastose), Monitoring. Schrittmacherindikation bei niedriger Kammerfrequenz (beim Neugeborenen bzw. Säugling unter etwa 55/min, bei begleitendem strukturellem Herzfehler bereits unter etwa 70/min), Herzinsuffizienz bzw. Hydrops, breiten Ersatzrhythmen, ventrikulärer Dysfunktion oder verlängerter QTc. Überbrückend Isoprenalin oder Adrenalin bzw. temporäre Stimulation. Weitere Lupusmanifestationen prüfen: anulärer Hautausschlag, Cholestase/Hepatitis, Thrombozytopenie, Neutropenie – diese sind transient, der komplette AV-Block ist dagegen bleibend. Die Mutter rheumatologisch abklären; in Folgeschwangerschaften erhöhtes Wiederholungsrisiko und engmaschige fetale Überwachung.",
+      "keyPoints": [
+        "neonataler Lupus, Anti-Ro/SSA, Anti-La/SSB",
+        "DD strukturelle Vitien",
+        "Schrittmacher bei niedriger Kammerfrequenz, Herzinsuffizienz, Dysfunktion",
+        "Überbrückung Isoprenalin/Adrenalin/temporäre Stimulation",
+        "weitere Lupusmanifestationen transient, AV-Block bleibend",
+        "mütterliche Abklärung, Wiederholungsrisiko"
+      ],
+      "tags": ["AV-Block", "neonataler Lupus", "Rhythmusstörungen"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-020",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein reifes Neugeborenes ist eine Stunde nach der Geburt deutlich zyanotisch (präduktale SpO2 70 %) bei nur geringer Atemnot; kein Herzgeräusch. Das Echo zeigt eine **Transposition der großen Arterien** mit kleinem Foramen ovale und intaktem Ventrikelseptum. Erklären Sie die Pathophysiologie und Ihr Vorgehen.",
+      "hints": [
+        "Parallel geschaltete Kreisläufe – wo kann Blut gemischt werden?",
+        "Welcher Eingriff verbessert die Mischung auf Vorhofebene?"
+      ],
+      "answer": "Bei der d-TGA entspringt die Aorta dem rechten, die Pulmonalarterie dem linken Ventrikel; System- und Lungenkreislauf sind parallel geschaltet. Überleben hängt von der Durchmischung über Foramen ovale, Ductus und ggf. VSD ab; am effektivsten ist die Mischung auf Vorhofebene. Bei intaktem Ventrikelseptum und restriktivem Foramen ovale droht eine schwere Hypoxämie mit Azidose. Vorgehen: PGE1 starten, um den Ductus offen zu halten; bei restriktivem Foramen ovale **notfallmäßige Ballonatrioseptostomie (Rashkind)**, echokardiographisch gesteuert am Bett oder im Herzkatheterlabor. Allgemein: Normothermie, Korrektur der Azidose, ausreichendes Hämoglobin, ggf. Beatmung und Sedierung zur Senkung des Sauerstoffverbrauchs. Bleibt die Hypoxämie trotz offenem Ductus und Septostomie, an PPHN denken (umgekehrte Sättigungsdifferenz: postduktal höher als präduktal) und ECMO erwägen. Definitiv: arterielle Switch-Operation, in der Regel in den ersten Lebenswochen, solange der linke Ventrikel noch an Systemdruck adaptiert ist.",
+      "keyPoints": [
+        "parallele Kreisläufe, Mischung über PFO/PDA/VSD",
+        "PGE1",
+        "Ballonatrioseptostomie bei restriktivem Foramen ovale",
+        "refraktäre Hypoxämie: PPHN (reverse Sättigungsdifferenz), ECMO",
+        "arterielle Switch-OP in den ersten Lebenswochen"
+      ],
+      "tags": ["TGA", "Rashkind", "zyanotische Herzfehler"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem Fetus ist ein **hypoplastisches Linksherzsyndrom** diagnostiziert. Wie planen Sie Entbindung und **Erstversorgung**, und welche Zielwerte und Gefahren beachten Sie in den ersten Lebenstagen?",
+      "hints": [
+        "Gleichgewicht zwischen Lungen- und Systemdurchblutung (Qp:Qs).",
+        "Was ist bei intaktem oder restriktivem Vorhofseptum anders?"
+      ],
+      "answer": "Entbindung in einem Zentrum mit Kinderkardiologie und Kinderherzchirurgie, ausführliche pränatale Beratung der Eltern (operative Palliation in mehreren Schritten, Prognose, auch Möglichkeit einer palliativen Versorgung). Erstversorgung: Kind meist zunächst stabil; zentraler Zugang über Nabelvene, **PGE1** zur Aufrechterhaltung der ductalen Systemperfusion. Kein zusätzlicher Sauerstoff ohne zwingenden Grund, präduktale SpO2 etwa 75–85 % tolerieren; Hyperventilation und Alkalose vermeiden, da sinkender Lungengefäßwiderstand zu pulmonaler Überflutung und systemischer Minderperfusion führt. Warnzeichen der Überflutung: steigende Sättigung über 90 %, fallender diastolischer Druck, Laktatanstieg, Oligurie. Enteral vorsichtig ernähren (NEC-Risiko). Sonderfall **intaktes oder hochrestriktives Vorhofseptum**: schwere Hypoxämie unmittelbar nach Geburt, notfallmäßige Eröffnung des Vorhofseptums (Herzkatheter oder Hybrid) – Entbindung daher mit interventioneller Bereitschaft planen. Operativ: Norwood- oder Hybrid-Eingriff in den ersten Lebenstagen bzw. -wochen, später Glenn und Fontan.",
+      "keyPoints": [
+        "Entbindung im Kinderherzzentrum, Elternberatung inkl. palliativer Option",
+        "PGE1, Nabelvenenkatheter",
+        "SpO2 75–85 %, kein O2, keine Hyperventilation",
+        "Zeichen pulmonaler Überflutung erkennen",
+        "restriktives Vorhofseptum = Notfallintervention",
+        "Norwood/Hybrid, später Glenn und Fontan"
+      ],
+      "tags": ["HLHS", "pränatal bekannter Herzfehler", "Qp:Qs"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-022",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Welche **pränatal bekannten Herzfehler** erfordern bereits **unmittelbar nach der Geburt** eine Notfallintervention, und was bedeutet das für die Geburtsplanung?",
+      "hints": [
+        "Bei den meisten Herzfehlern hält der offene Ductus das Kind zunächst stabil – wo reicht das nicht?",
+        "Denken Sie an Vorhofseptum, Lungenvenen, Atemwege und Rhythmus."
+      ],
+      "answer": "Die meisten Herzfehler sind unmittelbar postnatal stabil, weil der Ductus noch offen ist; ductusabhängige Vitien werden mit PGE1 überbrückt. Notfälle direkt nach der Geburt sind dagegen: **TGA mit restriktivem Foramen ovale** (Ballonatrioseptostomie), **HLHS mit intaktem bzw. restriktivem Vorhofseptum** (Eröffnung des Septums), **obstruktive totale Lungenvenenfehlmündung** (Notfalloperation), **Fallot mit fehlender Pulmonalklappe** (Atemwegskompression durch aneurysmatische Pulmonalarterien), **schwere Ebstein-Anomalie** mit Kardiomegalie, Lungenhypoplasie und funktioneller Pulmonalatresie, **kompletter AV-Block** mit sehr niedriger Frequenz oder Hydrops sowie anhaltende Tachyarrhythmien mit Hydrops. Konsequenz: Entbindung geplant in einem Perinatalzentrum mit Kinderkardiologie und ggf. Kinderherzchirurgie bzw. Herzkatheterbereitschaft, idealerweise zu einem Zeitpunkt mit vollständigem Team; ein Kaiserschnitt ist nicht allein wegen des Herzfehlers indiziert. Für die Erstversorgung festlegen: Sättigungsziele, PGE1, Zugang, Verantwortlichkeiten.",
+      "keyPoints": [
+        "TGA mit restriktivem Foramen ovale",
+        "HLHS mit intaktem/restriktivem Vorhofseptum",
+        "obstruktive TAPVR",
+        "Fallot mit fehlender Pulmonalklappe, schwere Ebstein-Anomalie",
+        "AV-Block/Tachyarrhythmie mit Hydrops",
+        "Geburt im Zentrum mit Interventionsbereitschaft"
+      ],
+      "tags": ["pränatal bekannter Herzfehler", "Geburtsplanung"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-023",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Reifgeborenes zeigt am ersten Lebenstag eine schwere Zyanose und Atemnot; das Röntgenbild zeigt ein kleines Herz mit diffuser Lungenstauung. Unter iNO verschlechtert sich die Oxygenierung. Woran denken Sie, und warum ist die Unterscheidung von der PPHN entscheidend?",
+      "hints": ["Wohin fließen die Lungenvenen?", "Warum verschlechtert ein pulmonaler Vasodilatator hier die Lage?"],
+      "answer": "Hochverdächtig ist eine **obstruktive totale Lungenvenenfehlmündung (TAPVR)**, typischerweise infrakardial. Das pulmonalvenöse Blut erreicht den linken Vorhof nicht, sondern fließt über ein obstruiertes Sammelgefäß ab; es entsteht ein Lungenvenenstau mit Lungenödem, pulmonaler Hypertonie und Rechts-links-Shunt auf Vorhofebene. Klinisch und echokardiographisch ähnelt sie der PPHN. iNO erhöht den Lungenfluss bei bestehender Abflussbehinderung und verstärkt das Lungenödem; auch PGE1 hilft in der Regel nicht. Diagnose: gezielte Echokardiographie mit Darstellung der Lungenvenen und deren Einmündung (fehlende Lungenvenen am linken Vorhof, Sammelgefäß, Fluss in der Vertikalvene). Therapie ist die notfallmäßige chirurgische Korrektur; ECMO kann allenfalls überbrücken. Deshalb muss vor der Diagnose PPHN immer ein struktureller Herzfehler, insbesondere eine TAPVR, ausgeschlossen werden.",
+      "keyPoints": [
+        "obstruktive TAPVR (oft infrakardial)",
+        "Lungenvenenstau, kleines Herz, Lungenödem im Röntgen",
+        "iNO und PGE1 helfen nicht, iNO verschlechtert",
+        "Echo: Lungenvenen-Einmündung",
+        "Notfall-OP; vor Diagnose PPHN TAPVR ausschließen"
+      ],
+      "tags": ["TAPVR", "PPHN", "Differenzialdiagnose"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.5 – PPHN",
+          "terms": ["PPHN"]
+        }
+      ]
+    },
+    {
+      "id": "herz-024",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nennen Sie Zeichen der **Herzinsuffizienz beim Neugeborenen** und ordnen Sie typische Ursachen dem **Manifestationszeitpunkt** zu.",
+      "hints": [
+        "Periphere Ödeme sind selten – welches Organ ist aussagekräftiger?",
+        "Erster Tag, erste Woche, zweite bis sechste Woche."
+      ],
+      "answer": "Zeichen: Tachypnoe, Tachykardie, Trinkschwäche mit Schwitzen und langen Trinkzeiten, Gedeihstörung, Hepatomegalie (wichtigstes Stauungszeichen beim Neugeborenen), Galopprhythmus, Kardiomegalie im Röntgen; periphere Ödeme sind selten. Ursachen nach Zeitpunkt: **erster Lebenstag**: Myokarddysfunktion nach Asphyxie, Rhythmusstörungen (SVT, kompletter AV-Block), schwere Klappeninsuffizienzen (Ebstein), große arteriovenöse Malformationen (V.-Galeni-Malformation, Leberhämangiome), schwere Anämie bzw. Hydrops. **Erste Lebenswoche**: ductusabhängige Linksherzobstruktionen bei Ductusverschluss (HLHS, ISTA, kritische Aortenstenose), TAPVR. **2.–6. Woche**: Links-rechts-Shunts (VSD, AVSD, PDA, Truncus), deren Shunt mit dem Abfall des Lungengefäßwiderstands zunimmt; außerdem Myokarditis und Kardiomyopathien, ALCAPA meist etwas später. Therapie ursachenorientiert; symptomatisch Diuretika, kalorisch angereicherte Nahrung bzw. Sondierung; Sauerstoff bei Links-rechts-Shunt zurückhaltend, da er den Shunt verstärken kann.",
+      "keyPoints": [
+        "Tachypnoe, Trinkschwäche/Schwitzen, Hepatomegalie, Gedeihstörung",
+        "Tag 1: Asphyxie, Arrhythmie, AV-Malformation, Anämie",
+        "Woche 1: ductusabhängige Linksherzobstruktion",
+        "Wochen 2–6: Links-rechts-Shunts bei PVR-Abfall",
+        "Diuretika, Kalorien, O2 bei L-R-Shunt zurückhaltend"
+      ],
+      "tags": ["Herzinsuffizienz", "Links-rechts-Shunt"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.1–12.2 – EKG, Herzrhythmusstörungen",
+          "terms": ["Herzrhythmusstörungen"]
+        }
+      ]
+    },
+    {
+      "id": "herz-025",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zur **kritischen Aortenisthmusstenose** beim Neugeborenen trifft zu?",
+      "hints": ["Was passiert mit dem Gradienten, solange der Ductus weit offen ist?"],
+      "answer": "Solange der Ductus weit offen ist, kann die Aorta descendens über den Ductus versorgt werden: Femoralispulse können tastbar sein und die Blutdruckdifferenz zwischen rechtem Arm und Bein gering. Deshalb wird die kritische ISTA häufig erst nach Entlassung mit Ductusverschluss auffällig, und das Pulsoxymetrie-Screening kann sie verfehlen. Bei Schock ist PGE1 die Sofortmaßnahme; eine Ballondilatation ist beim Neugeborenen nicht Standard, die Therapie ist meist operativ.",
+      "keyPoints": [
+        "bei offenem Ductus Pulse und RR-Differenz unauffällig möglich",
+        "Manifestation oft nach Entlassung",
+        "Screening kann ISTA verfehlen",
+        "PGE1 bei Schock"
+      ],
+      "options": [
+        {
+          "text": "Solange der Ductus weit offen ist, können Femoralispulse tastbar und die Blutdruckdifferenz zwischen Arm und Bein gering sein.",
+          "correct": true
+        },
+        {
+          "text": "Ein unauffälliges Pulsoxymetrie-Screening schließt eine kritische ISTA sicher aus.",
+          "correct": false
+        },
+        {
+          "text": "Die Blutdruckmessung am linken Arm ist für den Vergleich mit dem Bein am zuverlässigsten.",
+          "correct": false
+        },
+        {
+          "text": "PGE1 ist bei kritischer ISTA kontraindiziert, da es die Linksherzbelastung erhöht.",
+          "correct": false
+        }
+      ],
+      "tags": ["Aortenisthmusstenose", "Ductusverschluss"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "herz-026",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Bei einem Neugeborenen wird ein **unterbrochener Aortenbogen Typ B** diagnostiziert. Welche Konsequenz ist bis zum Vorliegen weiterer Befunde **am wichtigsten**?",
+      "hints": [
+        "Welches genetische Syndrom ist mit diesem Bogenbefund häufig assoziiert, und welche Organsysteme betrifft es?"
+      ],
+      "answer": "Der unterbrochene Aortenbogen Typ B ist stark mit der Mikrodeletion 22q11.2 assoziiert. Bis zum genetischen Befund werden daher nur bestrahlte (und CMV-sichere) zelluläre Blutprodukte verwendet, weil ein T-Zell-Defekt (Thymushypo- bzw. -aplasie) eine transfusionsassoziierte Graft-versus-Host-Krankheit ermöglichen kann. Außerdem ionisiertes Calcium überwachen (Hypoparathyreoidismus mit Hypokalzämie) und die genetische Diagnostik einleiten.",
+      "keyPoints": [
+        "Assoziation mit 22q11.2-Deletion",
+        "bestrahlte Blutprodukte (T-Zell-Defekt)",
+        "Hypokalzämie überwachen",
+        "genetische Diagnostik"
+      ],
+      "options": [
+        {
+          "text": "Nur bestrahlte zelluläre Blutprodukte verwenden und Calcium überwachen, da eine 22q11.2-Deletion wahrscheinlich ist.",
+          "correct": true
+        },
+        { "text": "Sofortige Gabe von Digoxin zur Prophylaxe von Rhythmusstörungen.", "correct": false },
+        { "text": "Verzicht auf PGE1, da die Systemperfusion nicht ductusabhängig ist.", "correct": false },
+        { "text": "Großzügige Sauerstoffgabe zur Senkung des Lungengefäßwiderstands.", "correct": false }
+      ],
+      "tags": ["unterbrochener Aortenbogen", "22q11", "Blutprodukte"],
+      "exam": ["KM", "HK"]
+    },
+    {
+      "id": "herz-027",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Welche Aussage zur **Ebstein-Anomalie** im Neugeborenenalter trifft zu?",
+      "hints": ["Wie verändert sich die Zyanose, wenn der Lungengefäßwiderstand in den ersten Lebenstagen fällt?"],
+      "answer": "Bei der Ebstein-Anomalie sind das septale und posteriore Trikuspidalsegel nach apikal verlagert; es resultieren ein atrialisierter rechter Ventrikel und eine Trikuspidalinsuffizienz mit Rechts-links-Shunt über das Foramen ovale. Bei hohem Lungengefäßwiderstand kann der rechte Ventrikel keinen ausreichenden Vorwärtsfluss erzeugen (funktionelle Pulmonalatresie); mit dem postnatalen Abfall des Widerstands bessert sich die Zyanose oft spontan. Schwere Formen mit massiver Kardiomegalie gehen mit Lungenhypoplasie einher. Akzessorische Leitungsbahnen (WPW) sind gehäuft. Ein überdrehter Linkstyp mit Linkshypertrophie ist typisch für die Trikuspidalatresie, nicht für Ebstein.",
+      "keyPoints": [
+        "apikale Verlagerung der Trikuspidalsegel",
+        "funktionelle Pulmonalatresie bei hohem PVR",
+        "Besserung mit PVR-Abfall",
+        "Assoziation mit WPW",
+        "schwere Formen: Kardiomegalie, Lungenhypoplasie"
+      ],
+      "options": [
+        {
+          "text": "Die neonatale Zyanose kann sich mit dem Abfall des Lungengefäßwiderstands spontan bessern.",
+          "correct": true
+        },
+        { "text": "Die Trikuspidalsegel sind nach basal in Richtung Vorhof verlagert.", "correct": false },
+        { "text": "Typisch ist ein überdrehter Linkstyp mit linksventrikulärer Hypertrophie.", "correct": false },
+        {
+          "text": "Die Ebstein-Anomalie ist typischerweise mit einer 22q11.2-Deletion assoziiert.",
+          "correct": false
+        }
+      ],
+      "tags": ["Ebstein-Anomalie", "zyanotische Herzfehler"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.6–12.7 – Verdacht auf Vitium, Vorgehen bei angeborenem Herzfehler",
+          "terms": ["angeborener Herzfehler"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 5.2 – Zyanose",
+          "terms": ["Zyanose"]
+        }
+      ]
+    },
+    {
+      "id": "herz-028",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Neugeborenes einer Mutter mit schlecht eingestelltem Diabetes hat ein lautes Systolikum und Tachypnoe. Das Echo zeigt eine **hypertrophe Kardiomyopathie** mit Septumhypertrophie und dynamischer Obstruktion des linksventrikulären Ausflusstrakts. Wie behandeln Sie, und was vermeiden Sie? Welche anderen Kardiomyopathien des Neugeborenen kennen Sie?",
+      "hints": [
+        "Was verschlechtert eine dynamische Ausflusstraktobstruktion?",
+        "Denken Sie an Infektionen, Stoffwechsel und Koronaranomalien."
+      ],
+      "answer": "Die Septumhypertrophie bei Kindern diabetischer Mütter entsteht durch fetalen Hyperinsulinismus und bildet sich meist innerhalb von Wochen bis Monaten zurück. Therapie supportiv; bei relevanter Obstruktion ausreichende Vorlast (Volumen), ggf. Betablocker (z. B. Propranolol, Esmolol) zur Verlängerung der Diastole und Reduktion der Kontraktilität. **Vermeiden**: positiv inotrope Substanzen und Katecholamine, Vasodilatatoren und forcierte Diuretika, da sie die dynamische Obstruktion verstärken. Weitere neonatale Kardiomyopathien: hypertrophe Formen bei RASopathien (Noonan), Glykogenose Typ II (Morbus Pompe), mitochondrialen Erkrankungen, nach Dexamethason-Therapie bei Frühgeborenen; dilatative Formen bei Myokarditis (Enteroviren, Parechoviren), Fettsäureoxidationsstörungen bzw. Carnitinmangel, Tachykardiomyopathie und ALCAPA. Diagnostik: Echo, EKG, Troponin, NT-proBNP, Stoffwechseldiagnostik (Acylcarnitine, Laktat), Virus-PCR, ggf. Genetik.",
+      "keyPoints": [
+        "transiente Septumhypertrophie durch fetalen Hyperinsulinismus",
+        "Volumen, ggf. Betablocker",
+        "keine Inotropika/Katecholamine, Vasodilatatoren, forcierte Diurese",
+        "andere HCM: Noonan, Pompe, Dexamethason",
+        "DCM: Myokarditis, Fettsäureoxidation, Tachykardiomyopathie, ALCAPA"
+      ],
+      "tags": ["Kardiomyopathie", "Kind diabetischer Mutter"],
+      "exam": ["KM", "HK"]
+    }
+  ]
+}

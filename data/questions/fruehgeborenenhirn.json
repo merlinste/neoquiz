@@ -1,0 +1,717 @@
+{
+  "area": "fruehgeborenenhirn",
+  "questions": [
+    {
+      "id": "hirn-001",
+      "type": "open",
+      "difficulty": 1,
+      "question": "Erklären Sie, warum gerade **sehr unreife Frühgeborene** intraventrikuläre Blutungen (IVH) entwickeln. Wo entstehen sie, und welche Faktoren begünstigen sie?",
+      "hints": ["Denken Sie an die germinale Matrix.", "Zerebrale Autoregulation und venöser Druck."],
+      "answer": "Ausgangspunkt ist die **germinale Matrix** (subependymal, v. a. am Caudothalamischen Übergang): ein stark vaskularisiertes Gewebe mit **fragilen, unreifen Kapillaren** ohne ausreichende Stützstrukturen, das sich bis etwa 32–34 SSW zurückbildet. Bei **eingeschränkter zerebraler Autoregulation** übertragen sich Schwankungen von Blutdruck und Hirndurchblutung direkt auf diese Gefäße. Begünstigend: **Fluktuationen der Hirndurchblutung** (Hypotension mit Reperfusion, rasche Volumengaben, Hyper- und Hypokapnie, Pneumothorax, Kampf gegen die Beatmung), **erhöhter venöser Druck** (hoher Beatmungsdruck, Pneumothorax), Gerinnungs- und Thrombozytenstörungen, Inflammation (Chorioamnionitis). Risikofaktoren sind niedriges Gestationsalter, fehlende antenatale Steroide, Geburt außerhalb eines Perinatalzentrums mit postnatalem Transport, schweres Atemnotsyndrom.",
+      "keyPoints": [
+        "Germinale Matrix mit fragilen Gefäßen, Rückbildung bis ca. 32–34 SSW",
+        "Gestörte Autoregulation, Durchblutungsschwankungen",
+        "Venöse Drucksteigerung (Pneumothorax, hoher Beatmungsdruck)",
+        "Risikofaktoren: Unreife, keine antenatalen Steroide, Outborn-Transport, RDS, Inflammation"
+      ],
+      "tags": ["IVH", "Pathophysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-002",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "In welchem Zeitraum treten **intraventrikuläre Blutungen** bei Frühgeborenen überwiegend auf?",
+      "hints": ["Die Phase der kardiorespiratorischen Umstellung ist entscheidend."],
+      "options": [
+        { "text": "Überwiegend in den ersten 72 Lebensstunden", "correct": true },
+        { "text": "Überwiegend in der 2. Lebenswoche", "correct": false },
+        { "text": "Gleichmäßig verteilt über die ersten 6 Lebenswochen", "correct": false },
+        { "text": "Überwiegend erst nach Erreichen von 32 Wochen postmenstruell", "correct": false }
+      ],
+      "answer": "Der weit überwiegende Teil der IVH entsteht in den **ersten 72 Lebensstunden**, ein großer Teil bereits am ersten Lebenstag; ein Teil der Blutungen ist schon vorgeburtlich bzw. peripartal angelegt. Deshalb konzentrieren sich die Präventionsmaßnahmen (minimal handling, Kopfmittelstellung, Vermeidung von Durchblutungsschwankungen) auf diese Phase, und die frühen Schädelsonographien werden in diesem Zeitraum durchgeführt. Eine Progression einer bestehenden Blutung ist in den ersten Tagen möglich.",
+      "keyPoints": [
+        "Überwiegend in den ersten 72 h, viele am 1. Lebenstag",
+        "Präventionsfokus auf die ersten Lebenstage",
+        "Frühe Sonographien in diesem Zeitraum, Progression möglich"
+      ],
+      "tags": ["IVH", "Zeitpunkt"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-003",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie werden **Hirnblutungen bei Frühgeborenen** sonographisch klassifiziert? Erläutern Sie die Einteilung nach Papile und warum die parenchymatöse Beteiligung heute meist gesondert beschrieben wird.",
+      "hints": ["Vier Grade bei Papile.", "Grad IV ist eigentlich keine „Ausdehnung“ der Blutung."],
+      "answer": "**Papile:** Grad I subependymale (germinale Matrix-)Blutung; Grad II IVH ohne Ventrikelerweiterung; Grad III IVH mit akuter Ventrikelerweiterung; Grad IV IVH mit Parenchymbeteiligung. In Deutschland wird häufig die **DEGUM-Klassifikation** verwendet: Grad I subependymal, Grad II IVH mit Füllung < 50 % des Ventrikellumens, Grad III > 50 % mit Erweiterung des Ventrikels; die Parenchymläsion wird **gesondert** als **periventrikuläre hämorrhagische Infarzierung (PVHI)** angegeben. Grund: Die Parenchymläsion entsteht nicht durch „Überlaufen“ der Blutung, sondern durch eine **venöse Infarzierung** infolge Stauung der medullären Venen durch die Matrixblutung. Befunde immer seitengetrennt dokumentieren; Grad III und PVHI gelten als **schwere IVH** mit deutlich erhöhtem Risiko für Hydrozephalus und neurologische Folgen.",
+      "keyPoints": [
+        "Papile I–IV: subependymal, IVH ohne/mit Erweiterung, Parenchymbeteiligung",
+        "DEGUM: Grad I–III nach Ventrikelfüllung, PVHI gesondert",
+        "PVHI = venöse Infarzierung, keine Blutungsausdehnung",
+        "Seitengetrennte Dokumentation; Grad III/PVHI = schwere IVH"
+      ],
+      "tags": ["IVH", "Klassifikation", "Schädelsonographie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-004",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Maßnahmen setzen Sie **prä- und postnatal zur Prävention von Hirnblutungen** bei einem Frühgeborenen der 25. SSW ein?",
+      "hints": ["Beginnt vor der Geburt.", "Die ersten 72 Lebensstunden sind entscheidend."],
+      "answer": "**Pränatal:** Geburt im **Perinatalzentrum Level 1** (In-utero-Transport statt postnatalem Transport), **antenatale Kortikosteroide**, Behandlung einer Infektion; Magnesiumsulfat dient der Neuroprotektion (Zerebralparese), nicht primär der IVH-Prävention. **Bei Geburt:** **verzögertes Abnabeln** (sofern Kind stabil), **kein Ausstreichen der Nabelschnur (Cord milking) unter 28 SSW**, Wärmemanagement, schonende Atemunterstützung. **Postnatal (v. a. erste 72 h):** „minimal handling“, Kopf in **Mittelstellung**, leichte Oberkörperhochlagerung (Evidenz begrenzt, in vielen Zentren Standard), Vermeidung von Schmerz und Stress, **Vermeidung von pCO2-Schwankungen** (Hypo- und Hyperkapnie), keine schnellen Volumenboli oder Bicarbonatgaben, Vermeidung von Pneumothorax und hohen Beatmungsdrücken, behutsame Blutdrucktherapie, Ausgleich relevanter Gerinnungsstörungen. Eine prophylaktische Indometacin-Gabe senkt schwere IVH, verbessert aber nicht das Langzeitergebnis und ist in Deutschland kein Standard.",
+      "keyPoints": [
+        "Geburt im Level-1-Zentrum, antenatale Steroide",
+        "Verzögertes Abnabeln, kein Cord milking < 28 SSW",
+        "Minimal handling, Kopfmittelstellung in den ersten 72 h",
+        "Keine pCO2-Schwankungen, keine raschen Boli/Bicarbonat",
+        "Indometacin-Prophylaxe kein Standard"
+      ],
+      "tags": ["IVH", "Prävention"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-005",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Welche Aussage zum **Ausstreichen der Nabelschnur (Umbilical cord milking)** bei Frühgeborenen < 28 SSW trifft zu?",
+      "hints": ["Eine große randomisierte Studie (PREMOD2) wurde vorzeitig gestoppt."],
+      "options": [
+        {
+          "text": "Es wird als Alternative zum verzögerten Abnabeln empfohlen, weil es die IVH-Rate senkt",
+          "correct": false
+        },
+        {
+          "text": "Es war in einer randomisierten Studie mit mehr schweren Hirnblutungen verbunden und soll unter 28 SSW nicht angewendet werden",
+          "correct": true
+        },
+        { "text": "Es ist bei Frühgeborenen < 28 SSW die bevorzugte Methode bei Sectio", "correct": false },
+        { "text": "Es hat keinen Einfluss auf die Hirndurchblutung", "correct": false }
+      ],
+      "answer": "In der randomisierten PREMOD2-Studie war das Ausstreichen der Nabelschnur bei Frühgeborenen **< 28 SSW** im Vergleich zum verzögerten Abnabeln mit **mehr schweren intraventrikulären Blutungen** verbunden; die Studie wurde vorzeitig beendet. Vermutet werden rasche Volumen- und Druckschwankungen in der unreifen germinalen Matrix. Die aktuellen Leitlinien raten daher bei sehr unreifen Frühgeborenen vom Cord milking ab; bevorzugt wird das **verzögerte Abnabeln**, wenn das Kind stabil ist.",
+      "keyPoints": [
+        "PREMOD2: mehr schwere IVH unter Cord milking < 28 SSW",
+        "Nicht anwenden bei < 28 SSW",
+        "Verzögertes Abnabeln bevorzugen"
+      ],
+      "tags": ["IVH", "Abnabelung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ],
+      "source": "ERC-Leitlinien 2025, Newborn Life Support"
+    },
+    {
+      "id": "hirn-006",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Ein Frühgeborenes der 24+6 SSW hat an Tag 2 links eine IVH mit einer **dreieckigen, echogenen Parenchymläsion** lateral des linken Seitenventrikels. Was liegt pathophysiologisch vor, wie entwickelt sich der Befund, und welche **neurologischen Folgen** sind zu erwarten?",
+      "hints": [
+        "Venöse Drainage der weißen Substanz über die medullären Venen.",
+        "Was entsteht aus der Läsion in den folgenden Wochen?"
+      ],
+      "answer": "Es handelt sich um eine **periventrikuläre hämorrhagische Infarzierung (PVHI)**: Die ipsilaterale germinale Matrixblutung behindert den Abfluss der **medullären Venen** in die V. terminalis, es kommt zu einem **venösen hämorrhagischen Infarkt** der periventrikulären weißen Substanz. Typisch: meist **einseitig**, fächer- bzw. dreieckförmig, auf der Seite der größeren IVH. Im Verlauf entwickelt sich eine **porenzephale Zyste**, die oft mit dem Ventrikel kommuniziert. Folgen: häufig eine **unilaterale spastische Zerebralparese** (kontralateral, Bein und Arm), abhängig von Ausdehnung und Lokalisation (Beteiligung der kortikospinalen Bahnen); zusätzlich Risiko für posthämorrhagischen Hydrozephalus, Epilepsie und kognitive Beeinträchtigung. Verlaufssonographien und MRT zum Termin helfen bei der Prognoseabschätzung.",
+      "keyPoints": [
+        "PVHI = venöser hämorrhagischer Infarkt durch Stauung der medullären Venen",
+        "Meist einseitig, dreieck-/fächerförmig, ipsilateral zur IVH",
+        "Entwicklung zu porenzephaler Zyste",
+        "Risiko unilaterale spastische CP (kontralateral)",
+        "Hydrozephalus- und Epilepsierisiko, MRT zum Termin"
+      ],
+      "tags": ["IVH", "PVHI", "Prognose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-007",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Wie erkennen und messen Sie eine **posthämorrhagische Ventrikelerweiterung** sonographisch? Nennen Sie die gebräuchlichen Messparameter.",
+      "hints": ["Ventrikelindex nach Levene.", "Vorderhornweite und thalamo-okzipitaler Abstand."],
+      "answer": "Die Ventrikelerweiterung wird **sonographisch vor den klinischen Zeichen** (vorgewölbte Fontanelle, klaffende Nähte, Kopfumfangszunahme mit Perzentilenkreuzen, Apnoen) erkannt. Messparameter: **Ventrikelindex (VI) nach Levene** – im Koronarschnitt auf Höhe der Foramina Monroi/des 3. Ventrikels der Abstand von der Mittellinie zur lateralen Wand des Seitenventrikels, beurteilt an Perzentilenkurven; **Vorderhornweite (anterior horn width, AHW)** – diagonale Weite des Vorderhorns im gleichen Schnitt; **thalamo-okzipitaler Abstand (TOD)** – im Parasagittalschnitt vom Thalamus zum Ende des Hinterhorns. Zusätzlich Weite des 3. und 4. Ventrikels, Form der Vorderhörner (Abrundung als frühes Zeichen), Doppler-RI (Anstieg, v. a. unter Fontanellenkompression). Messungen im Verlauf (z. B. 1–2× pro Woche) und gemeinsam mit Kopfumfang dokumentieren.",
+      "keyPoints": [
+        "Sonographie erfasst Erweiterung vor klinischen Zeichen",
+        "Ventrikelindex nach Levene (Perzentilen) im Koronarschnitt",
+        "Vorderhornweite (AHW) und thalamo-okzipitaler Abstand (TOD)",
+        "Abrundung der Vorderhörner, RI-Anstieg",
+        "Verlaufsmessungen plus Kopfumfang"
+      ],
+      "tags": ["Posthämorrhagischer Hydrozephalus", "Schädelsonographie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-008",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes (jetzt 31 SSW korrigiert, 1450 g) hat nach beidseitiger IVH Grad III eine **progrediente Ventrikelerweiterung** mit Ventrikelindex über der 97. Perzentile und Vorderhornweite 8 mm, klinisch noch unauffällig. Wie gehen Sie vor? Welche **Interventionsmöglichkeiten** und welche Evidenz kennen Sie?",
+      "hints": ["Die ELVIS-Studie verglich frühe und späte Intervention.", "Temporäre Maßnahmen vor dem definitiven Shunt."],
+      "answer": "Interdisziplinär mit der **Neurochirurgie** besprechen. Die **ELVIS-Studie** verglich eine frühe Intervention (VI > p97 und AHW > 6 mm) mit einer späten (VI > p97 + 4 mm und AHW > 10 mm): kein signifikanter Unterschied im Primärendpunkt Tod oder Shunt, in der Nachuntersuchung jedoch Hinweise auf ein besseres Entwicklungsergebnis bei früher Intervention – viele Zentren intervenieren daher früher. **Optionen:** **Lumbalpunktionen** (z. B. 10 ml/kg) als temporäre Entlastung, wenn kommunizierend; wiederholte LPs senken laut Cochrane-Analyse den Shuntbedarf nicht und bergen Infektionsrisiko. **Temporäre neurochirurgische Verfahren:** Ventrikelreservoir (z. B. Rickham) mit wiederholten Punktionen, ventrikulo-subgalealer Shunt oder externe Ventrikeldrainage. **Definitiver ventrikuloperitonealer Shunt** bei persistierendem Bedarf, meist erst bei ausreichendem Gewicht und geringerem Eiweiß-/Zellgehalt des Liquors (Zeitpunkt je nach Neurochirurgie). **DRIFT** (Drainage, Spülung, Fibrinolyse) verbesserte in Studien die Kognition, ist aber wegen Nachblutungsrisiko kein Standard. Azetazolamid/Furosemid sind obsolet (kein Nutzen, eher mehr Shunts bzw. ungünstigeres neurologisches Ergebnis, Nephrokalzinose).",
+      "keyPoints": [
+        "Interdisziplinär mit Neurochirurgie",
+        "ELVIS: frühe Intervention (VI > p97, AHW > 6 mm) mit Hinweis auf besseres Outcome",
+        "LP/Reservoir/subgalealer Shunt temporär",
+        "VP-Shunt bei ausreichendem Gewicht und Liquorbefund",
+        "Serielle LP senkt Shuntbedarf nicht; Azetazolamid/Furosemid obsolet",
+        "DRIFT kein Standard"
+      ],
+      "tags": ["Posthämorrhagischer Hydrozephalus", "Therapie"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-009",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "Bei einem Frühgeborenen mit **1450 g** und kommunizierender posthämorrhagischer Ventrikelerweiterung wird eine entlastende Lumbalpunktion geplant. Nach Ihrem Stationsstandard werden **10 ml/kg Liquor** abgelassen. Wie viele Milliliter sind das?",
+      "hints": ["Volumen = ml/kg × kg."],
+      "answer": "10 ml/kg · 1,45 kg = **14,5 ml Liquor**, langsam und unter Monitoring abtropfen lassen (Bradykardie, Apnoe, Sättigung). Das angestrebte Volumen ist zentrumsabhängig; die Entlastung ist nur bei kommunizierender Erweiterung wirksam.",
+      "keyPoints": ["10 ml/kg × 1,45 kg", "14,5 ml", "Langsam, Monitoring"],
+      "solution": { "value": 14.5, "unit": "ml", "tolerance": 0.05 },
+      "tags": ["Posthämorrhagischer Hydrozephalus", "Berechnung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-010",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Erläutern Sie die **Pathogenese der periventrikulären Leukomalazie (PVL)** und warum die periventrikuläre weiße Substanz zwischen etwa 24 und 32 SSW besonders vulnerabel ist.",
+      "hints": [
+        "Welche Zellen der weißen Substanz sind in dieser Phase empfindlich?",
+        "Ischämie und Inflammation wirken zusammen."
+      ],
+      "answer": "Die PVL ist eine Schädigung der periventrikulären weißen Substanz. Zentral ist die Vulnerabilität der **Prä-Oligodendrozyten**, die in dieser Phase dominieren und gegenüber **freien Radikalen, Glutamat (Exzitotoxizität) und Zytokinen** sehr empfindlich sind. Hinzu kommen **vaskuläre Faktoren**: periventrikuläre arterielle Grenzzonen (End- und Wasserscheidengebiete) und eine **eingeschränkte Autoregulation**, sodass Hypotension, Hypokapnie (Vasokonstriktion) oder Ischämie-Reperfusion zu Minderperfusion führen. **Inflammation** (Chorioamnionitis, fetales Inflammationssyndrom, postnatale Sepsis, NEC) ist ein wesentlicher, unabhängiger Faktor. Folge: fokale Nekrosen (zystische PVL) und vor allem **diffuse Schädigung** mit gestörter Myelinisierung und sekundärer Beeinträchtigung von Axonen und Neuronen (Enzephalopathie des Frühgeborenen).",
+      "keyPoints": [
+        "Vulnerable Prä-Oligodendrozyten (Radikale, Glutamat, Zytokine)",
+        "Arterielle Grenzzonen und gestörte Autoregulation",
+        "Hypotension, Hypokapnie, Ischämie-Reperfusion",
+        "Inflammation (Chorioamnionitis, Sepsis, NEC)",
+        "Fokal-zystische und diffuse Schädigung mit Myelinisierungsstörung"
+      ],
+      "tags": ["PVL", "Pathophysiologie"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-011",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **sonographischen Befunde und den zeitlichen Verlauf der PVL** (Einteilung nach de Vries). Was folgt daraus für das Ultraschallscreening?",
+      "hints": ["Erst Echogenitätsvermehrung, dann Zysten.", "Wann werden Zysten sichtbar?"],
+      "answer": "Zunächst zeigen sich **periventrikuläre Echogenitätsvermehrungen** („flares“), v. a. frontal und parieto-okzipital. Einteilung nach **de Vries**: **Grad I** persistierende Echogenitätsvermehrung ≥ 7 Tage; **Grad II** kleine, lokalisierte frontoparietale Zysten; **Grad III** ausgedehnte periventrikuläre Zysten okzipital und frontoparietal; **Grad IV** ausgedehnte subkortikale zystische Läsionen. **Zysten** werden typischerweise erst **etwa 2–6 Wochen nach der Schädigung** (frühestens nach ca. 10–14 Tagen) sichtbar und können später kollabieren (Ventrikelerweiterung mit unregelmäßiger Kontur). Konsequenz: Ein unauffälliger Befund in der ersten Woche schließt eine PVL nicht aus – **Kontrollsonographien in der 4.–6. Lebenswoche und zum Termin** sind nötig; diffuse, nicht-zystische Schädigungen erfasst die Sonographie schlecht, hier ist das MRT überlegen.",
+      "keyPoints": [
+        "Initial periventrikuläre Echogenitätsvermehrung",
+        "de Vries I–IV: Flares ≥ 7 Tage bis subkortikale Zysten",
+        "Zysten erst nach 2–6 Wochen",
+        "Kontrollsonographie 4.–6. Woche und zum Termin",
+        "Diffuse Läsionen besser im MRT"
+      ],
+      "tags": ["PVL", "Schädelsonographie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-012",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Ein ehemaliges Frühgeborenes der 27. SSW mit **beidseitiger zystischer PVL parieto-okzipital**: Welche neurologische Folge ist am typischsten?",
+      "hints": ["Welche Fasern verlaufen nahe den Seitenventrikeln?"],
+      "options": [
+        {
+          "text": "Bilaterale spastische Zerebralparese mit Betonung der Beine (spastische Diparese)",
+          "correct": true
+        },
+        { "text": "Dyskinetische Zerebralparese", "correct": false },
+        { "text": "Isolierte Ataxie ohne Spastik", "correct": false },
+        { "text": "Schlaffe Paraparese mit Areflexie", "correct": false }
+      ],
+      "answer": "Die periventrikulär verlaufenden kortikospinalen Fasern für die **Beine** liegen den Seitenventrikeln am nächsten; daher führt eine beidseitige PVL typischerweise zu einer **bilateralen spastischen Zerebralparese mit Beinbetonung (spastische Diparese)**, bei ausgedehnten Läsionen auch mit Armbeteiligung. Bei parieto-okzipitaler Lokalisation kommen häufig **zerebrale Sehstörungen** (Sehstrahlung) sowie kognitive und Aufmerksamkeitsprobleme hinzu. Dyskinetische Formen sind eher Folge von Basalganglienschäden (z. B. HIE).",
+      "keyPoints": [
+        "Spastische Diparese durch periventrikuläre Beinfasern",
+        "Zerebrale Sehstörung bei parieto-okzipitaler PVL",
+        "Kognitive Probleme möglich"
+      ],
+      "tags": ["PVL", "Zerebralparese"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-013",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ein Frühgeborenes der 28. SSW hatte am 5. Lebenstag eine Sepsis mit Hypotension. Die Schädelsonographie an Tag 10 zeigt nur leichte periventrikuläre Echogenitätsvermehrungen. Wann sollte sonographisch frühestens mit dem Sichtbarwerden einer **zystischen PVL** gerechnet und daher kontrolliert werden?",
+      "hints": ["Zysten entstehen mit Verzögerung."],
+      "options": [
+        { "text": "Innerhalb von 24 Stunden nach dem Ereignis", "correct": false },
+        { "text": "Etwa 2–6 Wochen nach dem Ereignis", "correct": true },
+        { "text": "Frühestens nach 6 Monaten", "correct": false },
+        { "text": "Zysten sind ausschließlich im MRT nachweisbar", "correct": false }
+      ],
+      "answer": "Die zystische Umwandlung periventrikulärer Läsionen wird typischerweise **etwa 2–6 Wochen nach der Schädigung** sonographisch sichtbar (frühestens nach ca. 10–14 Tagen). Deshalb sind nach einem relevanten Ereignis (Sepsis, Hypotension, NEC) Verlaufsuntersuchungen in diesem Zeitraum und zum errechneten Termin erforderlich. Persistierende Echogenitätsvermehrungen über 7 Tage entsprechen bereits einer PVL Grad I nach de Vries.",
+      "keyPoints": [
+        "Zysten nach 2–6 Wochen sichtbar",
+        "Verlaufskontrollen nach Risikoereignis",
+        "Persistierende Flares > 7 Tage = Grad I"
+      ],
+      "tags": ["PVL", "Schädelsonographie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-014",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was versteht man unter der **Enzephalopathie des Frühgeborenen** bzw. der **diffusen Schädigung der weißen Substanz**, und warum ist das **MRT zum errechneten Termin** hier der Sonographie überlegen?",
+      "hints": [
+        "Die zystische PVL ist selten geworden – die diffuse Form nicht.",
+        "Welche Strukturen sieht die Sonographie schlecht?"
+      ],
+      "answer": "Die zystische PVL ist seltener geworden; heute dominiert die **diffuse, nicht-zystische Schädigung der weißen Substanz** mit gestörter Oligodendrozytenreifung und Myelinisierung, die mit **sekundären Störungen von Axonen, Thalamus, Basalganglien und Kortex** einhergeht (Volpe: „Enzephalopathie des Frühgeborenen“). Klinisch äußert sie sich weniger in schwerer Zerebralparese als in **kognitiven, Aufmerksamkeits- und Verhaltensproblemen**. Die Sonographie erfasst diese Veränderungen kaum. Das **MRT zum Termin** zeigt punktförmige Läsionen der weißen Substanz, Volumenminderung, Ventrikelerweiterung, verzögerte Myelinisierung (z. B. hinterer Schenkel der Capsula interna), Kleinhirnblutungen und -atrophie sowie Kortexreifungsstörungen; standardisierte Scores (z. B. nach Kidokoro) helfen bei der Einordnung. Die Vorhersagekraft ist für motorische Störungen gut, für Kognition begrenzt.",
+      "keyPoints": [
+        "Diffuse Schädigung der weißen Substanz dominiert heute",
+        "Sekundäre Schädigung von Axonen, Thalamus, Kortex",
+        "Folgen eher kognitiv und verhaltensbezogen",
+        "MRT zum Termin: punktförmige Läsionen, Myelinisierung, Kleinhirn",
+        "Gute Vorhersage für Motorik, begrenzt für Kognition"
+      ],
+      "tags": ["Weiße Substanz", "MRT"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-015",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Beschreiben Sie die **Technik der Schädelsonographie** beim Frühgeborenen: Schallkopf, Schallfenster und Standardschnittebenen.",
+      "hints": [
+        "Große Fontanelle als Hauptfenster.",
+        "Für Kleinhirn und hintere Schädelgrube braucht man ein zusätzliches Fenster."
+      ],
+      "answer": "Hochfrequenter Sektor- oder Mikrokonvexschallkopf (etwa **7,5–10 MHz**, für tiefe Strukturen ggf. niedrigere Frequenz), Untersuchung im Inkubator unter Wärmeerhalt und Hygiene (Schallkopfdesinfektion, steriles Gel), Kopf nicht drehen und belasten. **Hauptfenster: große Fontanelle** mit **Koronarschnitten** von frontal nach okzipital (Vorderhörner, Foramen Monroi/3. Ventrikel, Thalamus/Hirnstamm, Trigonum/Plexus, parieto-okzipitale weiße Substanz, okzipital) und **Sagittalschnitten** (Mittellinie mit Balken, 3. und 4. Ventrikel, Kleinhirnwurm; parasagittal beidseits durch Caudothalamischen Übergang, Seitenventrikel und periventrikuläre weiße Substanz). **Zusatzfenster:** **Mastoidfontanelle** (hintere Schädelgrube, Kleinhirnblutungen), hintere Fontanelle (Hinterhörner, okzipitale weiße Substanz), temporales Fenster (A. cerebri media, Doppler). Dokumentation in Standardebenen mit Messungen und seitengetrennter Beschreibung.",
+      "keyPoints": [
+        "Hochfrequenter Schallkopf, Hygiene und Wärmeerhalt",
+        "Große Fontanelle: Koronar- und Sagittalschnitte in Standardebenen",
+        "Mastoidfontanelle für hintere Schädelgrube/Kleinhirn",
+        "Hintere Fontanelle, temporales Fenster ergänzend",
+        "Standardisierte Dokumentation und Messungen"
+      ],
+      "tags": ["Schädelsonographie", "Technik"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-016",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Nach welchem **Untersuchungsschema** führen Sie Schädelsonographien bei einem Frühgeborenen < 32 SSW durch, und was ist die Begründung für die einzelnen Zeitpunkte?",
+      "hints": [
+        "Orientieren Sie sich am zeitlichen Auftreten von IVH, PVHI, PVL und Hydrozephalus.",
+        "Feste Vorgaben unterscheiden sich zwischen Zentren."
+      ],
+      "answer": "Ein einheitliches verbindliches Schema gibt es nicht; die Zeitpunkte orientieren sich an der Pathologie: **Tag 1** (Ausgangsbefund, Hinweis auf pränatale Läsionen/Fehlbildungen), **Tag 3** (die meisten IVH sind bis dahin aufgetreten), **Tag 7** (Progression, PVHI, Ventrikelweite), danach je nach Befund **wöchentlich bis zweiwöchentlich**, insbesondere **in der 4.–6. Woche** (zystische PVL, posthämorrhagische Ventrikelerweiterung), sowie **zum errechneten Termin bzw. vor Entlassung**. Bei IVH oder Ventrikelerweiterung engmaschiger (z. B. 1–2× pro Woche mit Messung), zusätzlich nach klinischen Ereignissen (Sepsis, NEC, Kreislaufinstabilität, Anfälle). Ergänzend je nach Zentrum MRT zum Termin.",
+      "keyPoints": [
+        "Kein bundeseinheitliches Schema, zentrumsabhängig",
+        "Tag 1, 3 und 7 (frühe IVH, Progression)",
+        "4.–6. Woche für PVL und Ventrikelerweiterung",
+        "Zum Termin bzw. vor Entlassung",
+        "Engmaschiger bei Pathologie oder klinischen Ereignissen"
+      ],
+      "tags": ["Schädelsonographie", "Screening"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-017",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Welche Gefäße untersuchen Sie mit der **Doppler-Sonographie des Gehirns** beim Neugeborenen, welche Parameter werden bestimmt, und wie interpretieren Sie den **Resistance-Index (RI)**?",
+      "hints": [
+        "RI = (Vmax systolisch − Vmin enddiastolisch) / Vmax systolisch.",
+        "Hoher und niedriger RI haben unterschiedliche Ursachen."
+      ],
+      "answer": "**Arterien:** A. cerebri anterior (Sagittalschnitt durch die große Fontanelle, gut winkelarm messbar), A. basilaris, A. carotis interna, A. cerebri media (temporal). **Venen:** Sinus sagittalis superior, V. Galeni, innere Hirnvenen (z. B. Sinusvenenthrombose, Gefäßfehlbildungen). Parameter: systolische Spitzengeschwindigkeit, enddiastolische Geschwindigkeit, **RI = (Vs − Vd)/Vs**, ggf. Pulsatilitätsindex. Beim Reifgeborenen liegt der RI in der A. cerebri anterior typischerweise etwa bei **0,6–0,8**; die Normwerte sind alters- und gefäßabhängig (bei sehr unreifen Frühgeborenen in den ersten Lebenstagen eher höher), daher Referenzkurven verwenden und vor allem den Verlauf beurteilen. **Erhöhter RI**: erhöhter intrakranieller Druck (z. B. Hydrozephalus, v. a. mit Anstieg unter Fontanellenkompression), hämodynamisch relevanter PDA mit diastolischem Steal (bis zum fehlenden oder retrograden diastolischen Fluss), Hypokapnie. **Erniedrigter RI**: Vasoparalyse/Luxusperfusion nach Asphyxie, Hyperkapnie, arteriovenöse Malformation (V.-Galeni-Malformation). Messung bei ruhigem Kind, ohne Druck auf die Fontanelle und mit kleinem Einschallwinkel.",
+      "keyPoints": [
+        "ACA, Basilaris, MCA; venös Sinus sagittalis, V. Galeni",
+        "RI = (Vs − Vd)/Vs, beim Reifgeborenen ca. 0,6–0,8 (alters-/gefäßabhängig)",
+        "Hoher RI: Hirndruck, PDA-Steal, Hypokapnie",
+        "Niedriger RI: Vasoparalyse nach Asphyxie, Hyperkapnie, AV-Malformation",
+        "Technik: ruhiges Kind, kein Fontanellendruck, kleiner Winkel"
+      ],
+      "tags": ["Doppler", "Schädelsonographie"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-018",
+      "type": "calc",
+      "difficulty": 1,
+      "question": "In der A. cerebri anterior eines Frühgeborenen messen Sie eine **systolische Spitzengeschwindigkeit von 36 cm/s** und eine **enddiastolische Geschwindigkeit von 9 cm/s**. Berechnen Sie den **Resistance-Index (RI)**.",
+      "hints": ["RI = (Vs − Vd) / Vs"],
+      "answer": "RI = (Vs − Vd) / Vs = (36 − 9) / 36 = 27 / 36 = **0,75**. Der Wert liegt im üblichen Normbereich (Richtwert etwa 0,6–0,8; Normwerte alters- und gefäßabhängig, Referenzkurven und Verlauf beachten).",
+      "keyPoints": ["Formel RI = (Vs − Vd)/Vs", "27/36", "RI = 0,75, Normbereich"],
+      "solution": { "value": 0.75, "unit": "", "tolerance": 0.03 },
+      "tags": ["Doppler", "Berechnung"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-019",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Ein reifes Neugeborenes nach schwerer Asphyxie (keine Hypothermie möglich, Normothermie) zeigt am 2. Lebenstag in der A. cerebri anterior einen **RI von 0,45** bei hoher diastolischer Flussgeschwindigkeit. Wie ist dieser Befund am ehesten zu interpretieren?",
+      "hints": ["Was passiert mit der Autoregulation nach schwerer Hypoxie-Ischämie?"],
+      "options": [
+        { "text": "Normalbefund, da ein niedriger RI eine gute Hirndurchblutung anzeigt", "correct": false },
+        { "text": "Hinweis auf erhöhten Hirndruck", "correct": false },
+        { "text": "Zerebrale Vasoparalyse mit Luxusperfusion – prognostisch ungünstiges Zeichen", "correct": true },
+        { "text": "Typischer Befund bei hämodynamisch relevantem PDA", "correct": false }
+      ],
+      "answer": "Ein **erniedrigter RI (< ca. 0,55)** mit hohem diastolischem Fluss 24–72 h nach Asphyxie spiegelt eine **Vasoparalyse mit Verlust der Autoregulation und Luxusperfusion** wider und war in Untersuchungen ohne Hypothermie mit einem **ungünstigen Outcome** assoziiert. Unter Hypothermie ist die prognostische Aussagekraft geringer, weil die Kühlung die Hirndurchblutung beeinflusst. Erhöhter Hirndruck und ein PDA-Steal führen dagegen zu einem **erhöhten** RI. Die Doppler-Befunde werden immer zusammen mit Klinik, aEEG und MRT bewertet; Hyperkapnie als Ursache eines niedrigen RI ausschließen.",
+      "keyPoints": [
+        "Niedriger RI nach Asphyxie = Vasoparalyse/Luxusperfusion",
+        "Prognostisch ungünstig (Daten ohne Hypothermie)",
+        "Unter Hypothermie geringere Aussagekraft",
+        "Hirndruck und PDA erhöhen den RI"
+      ],
+      "tags": ["Doppler", "Asphyxie", "Prognose"],
+      "exam": ["KM"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 7.7 – Perinatale Asphyxie/HIE",
+          "terms": ["Asphyxie", "HIE"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 2.17 – Hypothermiebehandlung bei Asphyxie",
+          "terms": ["Hypothermiebehandlung"]
+        },
+        {
+          "work": "leitlinien",
+          "where": "AWMF S2k – Neonatale Asphyxie/therapeutische Hypothermie",
+          "terms": ["Hypothermie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-020",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Bei einem Frühgeborenen der 26. SSW (5. Lebenstag) zeigt der Doppler der A. cerebri anterior einen **fehlenden bzw. retrograden enddiastolischen Fluss**. Welche Ursachen kommen in Betracht, was ist die wahrscheinlichste Erklärung, und welche Konsequenz ziehen Sie?",
+      "hints": ["Wohin fließt das Blut in der Diastole?", "Denken Sie an das Herz."],
+      "answer": "Ein fehlender oder retrograder diastolischer Fluss in den Hirnarterien bedeutet einen RI ≥ 1. Beim sehr unreifen Frühgeborenen in den ersten Lebenstagen ist die häufigste Ursache ein **hämodynamisch relevanter persistierender Ductus arteriosus** mit **diastolischem Steal** (Blut fließt in der Diastole über den Ductus in die Lungenstrombahn ab). Weitere Ursachen: **stark erhöhter intrakranieller Druck** (z. B. dekompensierter Hydrozephalus), schwere Hypokapnie, Aortenisthmusstenose/andere Herzfehler mit diastolischem Run-off, Hirntod. Konsequenz: **Echokardiographie** (Ductusgröße, Shuntrichtung, linksatriale Dilatation, Flussumkehr in der Aorta descendens bzw. Abdominalgefäßen), Bewertung im klinischen Kontext und Entscheidung über eine PDA-Behandlung nach Stationsstandard; Schädelsonographie auf Ventrikelweite und Blutung, Blutgase prüfen. Ein Steal kann die zerebrale und mesenteriale Perfusion beeinträchtigen.",
+      "keyPoints": [
+        "RI ≥ 1 durch diastolischen Run-off",
+        "Häufigste Ursache: hämodynamisch relevanter PDA (Steal)",
+        "DD: massiv erhöhter Hirndruck, Hypokapnie, andere Herzfehler, Hirntod",
+        "Echokardiographie und Ventrikelweite prüfen",
+        "PDA-Therapieentscheidung nach Standard"
+      ],
+      "tags": ["Doppler", "PDA"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 12.4 – Persistierender Ductus arteriosus",
+          "terms": ["PDA"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.4 – Echokardiografie",
+          "terms": ["Echokardiografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-021",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Warum werden **Kleinhirnblutungen** bei Frühgeborenen häufig übersehen, wie weisen Sie sie nach, und welche **Bedeutung** haben sie für die Entwicklung?",
+      "hints": ["Die große Fontanelle ist weit vom Kleinhirn entfernt.", "Das Kleinhirn ist nicht nur für Motorik wichtig."],
+      "answer": "Über die **große Fontanelle** liegt die hintere Schädelgrube weit entfernt und tangential zum Schallstrahl; kleine Blutungen werden daher häufig nicht erkannt. Nachweis über die **Mastoidfontanelle** (hintere Seitenfontanelle) mit Darstellung beider Kleinhirnhemisphären und des Wurms; das **MRT zum Termin** erkennt deutlich mehr – auch punktförmige Blutungen und eine Kleinhirnhypoplasie/-atrophie. Kleinhirnblutungen treten v. a. bei den unreifsten Frühgeborenen auf, oft zusammen mit supratentoriellen Blutungen. Die Folgen gehen über Motorik hinaus: Neben motorischen Störungen und Ataxie sind **kognitive, sprachliche, Verhaltens- und soziale Auffälligkeiten** beschrieben; das Ausmaß hängt von der Größe der Läsion ab. Konsequenz: Mastoidfenster routinemäßig einsetzen und Befund in die Nachsorgeplanung einbeziehen.",
+      "keyPoints": [
+        "Schlechte Darstellbarkeit über die große Fontanelle",
+        "Mastoidfontanelle als Standardfenster",
+        "MRT zum Termin sensitiver",
+        "Folgen: motorisch, kognitiv, sprachlich, Verhalten",
+        "Einbezug in Nachsorge"
+      ],
+      "tags": ["Kleinhirnblutung", "Schädelsonographie", "MRT"],
+      "exam": ["KM", "HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-022",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Bei welchen Frühgeborenen erwägen Sie ein **MRT zum errechneten Termin**, wie führen Sie es praktisch durch, und was ist bei der **Befundmitteilung an die Eltern** zu beachten?",
+      "hints": ["Routine oder gezielt – Zentren handhaben das unterschiedlich.", "Sedierung lässt sich meist vermeiden."],
+      "answer": "**Indikationen:** je nach Zentrum routinemäßig bei sehr unreifen Frühgeborenen (z. B. < 28 SSW), sonst gezielt bei auffälliger Sonographie (IVH Grad III/PVHI, PVL, Ventrikelerweiterung, Kleinhirnblutung), nach schweren Komplikationen (Sepsis, NEC, Operationen) oder bei auffälligem neurologischem Befund. **Durchführung:** um den errechneten Termin, meist **ohne Sedierung** („feed and wrap“: Füttern, Einwickeln/Vakuummatratze), Gehörschutz, Monitoring mit MR-tauglichem Equipment, ggf. MR-taugliche Inkubatoren; Sequenzen inkl. T1, T2, DWI, ggf. SWI. **Elterngespräch:** Befund gemeinsam mit Sonographie, Klinik und Verlauf einordnen; deutlich machen, dass das MRT **Wahrscheinlichkeiten, keine sicheren Vorhersagen** liefert (gute Vorhersage für schwere motorische Störungen, eingeschränkt für Kognition); keine unnötige Verunsicherung bei geringfügigen Befunden; daraus konkrete Nachsorge ableiten (Frühförderung, Physiotherapie, Entwicklungsdiagnostik).",
+      "keyPoints": [
+        "Routinemäßig bei sehr unreifen FG oder gezielt bei Pathologie (zentrumsabhängig)",
+        "Ohne Sedierung (feed and wrap), Gehörschutz, MR-taugliches Monitoring",
+        "Sequenzen T1, T2, DWI, SWI",
+        "Eltern: Wahrscheinlichkeiten statt Gewissheiten, Kontext",
+        "Konkrete Nachsorge ableiten"
+      ],
+      "tags": ["MRT", "Elternberatung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 3 – Bildgebende Diagnostik",
+          "terms": ["Sonografie", "Röntgen"]
+        }
+      ]
+    },
+    {
+      "id": "hirn-023",
+      "type": "open",
+      "difficulty": 2,
+      "question": "Was verstehen Sie unter **neuroprotektiver, entwicklungsfördernder Pflege** auf der neonatologischen Intensivstation? Nennen Sie konkrete Maßnahmen.",
+      "hints": ["Umgebung, Schmerz, Positionierung, Eltern.", "NIDCAP und Känguruhen."],
+      "answer": "Ziel ist, das sich entwickelnde Gehirn vor Überstimulation, Stress und Schmerz zu schützen und physiologische Entwicklung zu unterstützen. **Umgebung:** Lärm reduzieren (Alarme, Gespräche, Inkubatortüren), Licht dämpfen bzw. Tag-Nacht-Rhythmus, Inkubatorabdeckung. **Pflege:** individuelle, an Verhaltenssignalen orientierte Pflege (z. B. **NIDCAP**), gebündelte Maßnahmen mit Ruhephasen, Schlaf schützen, **„minimal handling“** in den ersten Tagen. **Positionierung:** gebeugte Mittellinienlagerung mit Nestchen, Lagewechsel, Kopfmittelstellung in der frühen Phase. **Schmerz:** systematische Schmerzerfassung, nicht-pharmakologische Maßnahmen (Saccharose, Muttermilch, „facilitated tucking“, nicht-nutritives Saugen), schmerzarme Prozeduren, Analgesie bei Bedarf. **Eltern:** **Känguruhen (Haut-zu-Haut-Kontakt)**, uneingeschränkte Anwesenheit, Einbeziehung in die Pflege (familienintegrierte Versorgung), Muttermilchernährung. Diese Maßnahmen verbessern Stabilität, Stillen und Bindung und werden mit günstigeren Entwicklungsergebnissen in Verbindung gebracht.",
+      "keyPoints": [
+        "Lärm- und Lichtreduktion, Schlaf schützen",
+        "Individuelle Pflege nach Verhaltenssignalen (NIDCAP), gebündelte Maßnahmen",
+        "Physiologische Lagerung",
+        "Schmerzerfassung und nicht-pharmakologische Analgesie",
+        "Känguruhen und familienintegrierte Versorgung"
+      ],
+      "tags": ["Entwicklungsfördernde Pflege", "Neuroprotektion"],
+      "exam": ["HK"]
+    },
+    {
+      "id": "hirn-024",
+      "type": "open",
+      "difficulty": 3,
+      "question": "Ein Frühgeborenes der 24+2 SSW hat am 3. Lebenstag eine **IVH Grad III rechts und eine ausgedehnte PVHI rechts frontoparietal**. Die Eltern bitten um ein Gespräch. Wie gestalten Sie es, und welche Inhalte vermitteln Sie?",
+      "hints": ["Rahmen, Sprache, Ehrlichkeit, Unsicherheit.", "Gibt es Konsequenzen für das Therapieziel?"],
+      "answer": "**Rahmen:** ruhiger Raum, beide Eltern bzw. Bezugspersonen, betreuende Pflegekraft, ggf. Dolmetscher; ohne Zeitdruck. **Vorgehen:** zunächst erfragen, was die Eltern bereits wissen; verständliche Sprache, Bilder der Sonographie können helfen. **Inhalte:** Blutung aus dem unreifen Gefäßnetz und zusätzliche Schädigung des Hirngewebes rechts; Risiko eines **Hydrozephalus** (engmaschige Ultraschallkontrollen, ggf. neurochirurgische Behandlung) und einer späteren **Bewegungsstörung der linken Körperseite** (unilaterale spastische Zerebralparese), ggf. Epilepsie und Lernprobleme; zugleich ehrlich benennen, dass das Ausmaß der Folgen **derzeit nicht sicher vorhersagbar** ist und von Verlauf, Ausdehnung und Plastizität des Gehirns abhängt. Je nach Gesamtsituation kann auch über das **Therapieziel** gesprochen werden (gemeinsame Entscheidungsfindung, keine einseitige Festlegung). Angebote: psychosoziale Unterstützung, Seelsorge, weitere Gespräche; Nachsorge mit Frühförderung und Physiotherapie in Aussicht stellen. Gespräch dokumentieren.",
+      "keyPoints": [
+        "Geschützter Rahmen, Pflege dabei, Vorwissen erfragen",
+        "Verständliche Erklärung von IVH und PVHI",
+        "Risiken: Hydrozephalus, unilaterale CP links, Epilepsie, Kognition",
+        "Ehrlich über Unsicherheit der Prognose",
+        "Ggf. Therapiezielgespräch, psychosoziale Unterstützung, Dokumentation"
+      ],
+      "tags": ["IVH", "PVHI", "Elternberatung"],
+      "exam": ["HK"],
+      "lookup": [
+        {
+          "work": "checkliste",
+          "where": "Kap. 15.2–15.4 – Hirnblutungen, Leukomalazie, Hydrozephalus",
+          "terms": ["Hirnblutung", "Leukomalazie", "Hydrozephalus"]
+        },
+        {
+          "work": "checkliste",
+          "where": "Kap. 3.2–3.3 – Zerebrale Sonografie und Doppler",
+          "terms": ["Schädelsonografie"]
+        }
+      ]
+    }
+  ]
+}
