@@ -5,5 +5,6 @@ window.NQ_CONFIG = {
   evaluateEndpoint: "/api/evaluate",
   oralEndpoint: "/api/oral",
   oralProtocolEndpoint: "/.netlify/functions/oral-protocol-background",
+  ttsEndpoint: "/api/tts",
   healthEndpoint: "/api/health",
 };

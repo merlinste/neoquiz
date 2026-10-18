@@ -20,3 +20,13 @@ test('leere Ergebnisse werden übersprungen', () => {
   assert.equal(collectSpeech(res([' '], ['Atemnotsyndrom Surfactant'])), 'Atemnotsyndrom Surfactant');
   assert.equal(collectSpeech([]), '');
 });
+
+test('Browserstimme: neuronal vor einfach, Deutschland vor Österreich, nur Deutsch', async () => {
+  const { pickGermanVoice } = await import('../public/lib/speech.js');
+  const v = (name, lang) => ({ name, lang });
+  assert.equal(pickGermanVoice([v('Anna', 'de-DE'), v('Microsoft Katja Online (Natural) - German (Germany)', 'de-DE'), v('Samantha', 'en-US')]).name,
+    'Microsoft Katja Online (Natural) - German (Germany)');
+  assert.equal(pickGermanVoice([v('Anna', 'de-DE'), v('Google Deutsch', 'de-DE')]).name, 'Google Deutsch');
+  assert.equal(pickGermanVoice([v('Michael', 'de-AT'), v('Anna', 'de-DE')]).name, 'Anna');
+  assert.equal(pickGermanVoice([v('Samantha', 'en-US')]), null);
+});
