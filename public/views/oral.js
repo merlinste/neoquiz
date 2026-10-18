@@ -7,6 +7,7 @@
  */
 import * as SR from "../lib/cards.js";
 import { collectSpeech, pickGermanVoice } from "../lib/speech.js";
+import { appendText, canRecord, createRecorder, fmtDuration } from "../lib/dictation.js";
 
 export const ORAL_MODES = {
   PG: {
@@ -186,6 +187,8 @@ export function createOralView(ctx) {
     let session = load();
     if (session && session.mode !== mode) session = null;
     ttsAvailable = Boolean(health.tts);
+    // Mit ElevenLabs Scribe erkennt der Server die Antwort genauer als die Browser-Erkennung und auch in Firefox und Safari.
+    const sttOn = Boolean(health.stt && settings.appKey && canRecord());
 
     $app.innerHTML = `
       <div class="exam-head">
@@ -205,7 +208,7 @@ export function createOralView(ctx) {
         <textarea id="oral-answer" rows="4" placeholder="Deine Antwort – so, wie du sie im Gespräch sagen würdest …"></textarea>
         <div class="row" style="margin-top:8px">
           <button class="btn primary" id="oral-send">Antworten</button>
-          ${SpeechRec ? '<button class="btn" id="oral-mic" title="Spracheingabe (de-DE)">🎤 Sprechen</button>' : '<span class="small muted">Spracheingabe wird von diesem Browser nicht unterstützt – bitte tippen.</span>'}
+          ${sttOn || SpeechRec ? '<button class="btn" id="oral-mic" title="Antwort einsprechen">🎤 Sprechen</button>' : '<span class="small muted">Spracheingabe wird von diesem Browser nicht unterstützt – bitte tippen.</span>'}
           <span class="small muted" id="oral-state"></span>
         </div>
       </div>
@@ -262,6 +265,7 @@ export function createOralView(ctx) {
     }
 
     async function sendAnswer() {
+      if (dictation?.busy) { alert("Die Aufnahme läuft noch – erst auf „Fertig“ tippen und den erkannten Text abwarten."); return; }
       const text = $answer.value.trim();
       if (!text) { alert("Bitte zuerst antworten – tippen oder sprechen."); return; }
       // Aufnahme beenden, sonst schreibt die Erkennung die alte Antwort wieder ins Feld.
@@ -462,7 +466,25 @@ export function createOralView(ctx) {
       rec.start();
     }
 
+    /** Diktat über /api/stt: aufnehmen, nach „Fertig“ erkennen lassen, Text ans Feld anhängen. */
+    const dictation = sttOn ? createRecorder({
+      endpoint: ctx.sttEndpoint,
+      headers: () => ({ ...headers(), "x-learner-code": settings.learnerCode || "" }),
+      alive: () => document.body.contains($answer) && !$answer.disabled,
+      onText: (text) => { $answer.value = appendText($answer.value, text); saveDraft(); $answer.focus(); },
+      onState: (state, info) => {
+        const $mic = document.getElementById("oral-mic");
+        if ($mic) {
+          $mic.classList.toggle("active", state === "recording");
+          $mic.disabled = state === "processing";
+          $mic.textContent = state === "recording" ? `⏹ Fertig ${fmtDuration(info)}` : state === "processing" ? "⏳ Erkenne …" : "🎤 Sprechen";
+        }
+        $state.textContent = state === "error" ? info : state === "recording" ? "Sprich jetzt – tippe auf „Fertig“, wenn du fertig bist." : "";
+      },
+    }) : null;
+
     document.getElementById("oral-mic")?.addEventListener("click", () => {
+      if (dictation) { stopSpeaking(); unlockAudio(); dictation.toggle(); return; }
       if (micWanted) { stopMic(); $state.textContent = ""; return; }
       stopSpeaking();
       micWanted = true;
@@ -511,7 +533,7 @@ export function createOralView(ctx) {
       await startConversation();
       update(); tick = setInterval(update, 1000);
     }
-    window.addEventListener("hashchange", () => { stopTick(); stopMic(true); stopSpeaking(); }, { once: true });
+    window.addEventListener("hashchange", () => { stopTick(); stopMic(true); stopSpeaking(); dictation?.stop(true); }, { once: true });
   }
 
   return { renderOral };
