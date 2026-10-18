@@ -7,6 +7,7 @@ Lern-Quiz zur Vorbereitung auf die **Prüfung zum Schwerpunkt Neonatologie** (Fa
 - **Ablauf:** Frage → (Hinweise) → eigene Antwort → Musterantwort + Kernpunkte → KI-Bewertung durch Claude als Prüfer, mit Nachfrage → Selbsteinschätzung → Wiedervorlage nach Lernstand.
 - **Aufgabentypen:** Freitext, Multiple Choice, Rechenaufgaben mit Endergebnis-Feld (Dosierungen, Perfusoren, Glukosezufuhr, parenterale und enterale Ernährung, Katheterlage) und Fallbesprechungen mit Teilaufgaben.
 - **Prüfungssimulation:** „Prüfung“ startet ein mündliches Prüfungsgespräch (30 min) oder ein kurzes Fallgespräch (15 min) mit Claude als Prüfungsausschuss, mit Spracheingabe (de-DE) und Protokoll am Ende; die Lücken landen als fällige Fragen in der Wiedervorlage.
+- **Diktat und Prüferstimme:** An jedem Antwortfeld lässt sich die Antwort einsprechen (🎤 Diktieren, ElevenLabs Scribe mit neonatologischen Fachbegriffen und Abkürzungen); im Prüfungsgespräch liest eine ElevenLabs-Stimme die Fragen vor. Ohne `ELEVENLABS_API_KEY` bleibt es bei Browser-Spracheingabe und -stimme.
 - **Literatur:** Nach jeder Antwort zeigt „📖 Nachlesen“ das passende Kapitel der Checkliste und die einschlägige Leitlinie (`data/literature.json`, Register über `npm run lookups`).
 - **Wiedervorlage:** FSRS (`ts-fsrs`) mit Karte je Frage, Tagesplan „Heute lernen“, Tagesquote auf den Prüfungstermin zurückgerechnet, gedeckelte Wiederholungen je Tagessitzung.
 - **Fortschritt:** lokal im Browser und in Supabase (über einen Lerner-Code, siehe Einstellungen in der App).
@@ -25,8 +26,8 @@ scripts/validate.mjs         prüft Fragen, Gebiete, Literatur und Prüfungsordn
 scripts/lookups.mjs          setzt die Fundstellen (lookup) aus data/literature.json an die Fragen
 scripts/build.mjs            kopiert data/ nach public/data/, erzeugt index.json und catalog.json
 public/                      Frontend ohne Build-Schritt (app.js, lib/, views/, vendor/ts-fsrs)
-netlify/functions/           evaluate.mts, oral.mts, oral-protocol-background.mts, tts.mts (Prüferstimme), health.mts
-netlify/shared/              questions.mts (Fragenbestand im Function-Bundle), guard.mts, oral.mts, tts.mts (ElevenLabs-Aufruf)
+netlify/functions/           evaluate.mts, oral.mts, oral-protocol-background.mts, tts.mts (Prüferstimme), stt.mts (Diktat), health.mts
+netlify/shared/              questions.mts (Fragenbestand im Function-Bundle), guard.mts, oral.mts, tts.mts und stt.mts (ElevenLabs-Aufrufe)
 supabase/migrations/         Schema nq_* (Lerner, Versuche, FSRS-Karten)
 ```
 
@@ -59,6 +60,8 @@ Eigene Netlify-Site, verbunden mit diesem Repository (Build: `npm run build`, Pu
 | `ELEVENLABS_VOICE_ID` | optional, Stimme aus der ElevenLabs-Voice-Library (vorher zu „My Voices“ hinzufügen). Standard ist die fertige Stimme „George“; eine deutschsprachige Stimme klingt deutlich echter. |
 | `ELEVENLABS_MODEL` | optional, Standard `eleven_v4_turbo` (Echtzeit, ca. 0,04 $ je 1000 Zeichen, ein 30-Minuten-Gespräch ≈ 6000 Zeichen) |
 | `TTS_RATE_LIMIT` | optional, vorgelesene Prüferzüge pro Stunde (Standard 120) |
+| `ELEVENLABS_STT_MODEL` | optional, Diktat-Modell, Standard `scribe_v2` (ca. 0,27 $ je Stunde Audio inklusive Fachbegriff-Liste). Das Diktat nutzt denselben `ELEVENLABS_API_KEY`. |
+| `STT_RATE_LIMIT` | optional, Diktate pro Stunde (Standard 120) |
 
 ## Supabase
 

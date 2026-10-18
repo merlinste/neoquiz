@@ -171,7 +171,8 @@ kbd { font-family: inherit; font-size: .8em; padding: 1px 5px; border: 1px solid
 .turn.pruefer .what { font-weight: 500; }
 .turn.kandidat .what { opacity: .85; }
 #oral-answer { width: 100%; }
-#oral-mic.active { background: var(--danger, #b91c1c); color: #fff; }
+#oral-mic.active, .btn.dictate.active { background: var(--danger, #b91c1c); color: #fff; border-color: transparent; }
+.dictate-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 6px; }
 
 /* Bilder in Aufgaben: Zoom, Marken, Großaufgaben */
 .q-figure { margin: 12px 0 0; }

@@ -3,6 +3,7 @@ import { checkSolution, parseNumber, extractFinalNumber } from "./lib/numbers.js
 import * as SR from "./lib/cards.js";
 import { createOralView } from "./views/oral.js";
 import { createLiteratureView, lookupHtml } from "./views/literature.js";
+import { attachDictation, canRecord } from "./lib/dictation.js";
 
 const CFG = window.NQ_CONFIG || {};
 const $app = document.getElementById("app");
@@ -206,6 +207,14 @@ function answerAreaHtml(q, mcOptions) {
     ${hint(withFinal ? "Deutsches Zahlenformat ist erlaubt (6,94)." : "")}`;
 }
 
+/** Diktat über ElevenLabs Scribe, wenn der Server es anbietet und der Browser aufnehmen kann. */
+const dictationOn = (health) => Boolean(health.stt && settings.appKey && canRecord());
+const dictate = (textarea) => attachDictation(textarea, {
+  endpoint: CFG.sttEndpoint || "/api/stt",
+  headers: () => ({ "x-app-key": settings.appKey, "x-learner-code": settings.learnerCode || "" }),
+});
+const DICTATION_BUSY = "Das Diktat läuft noch – erst auf „Fertig“ tippen und den erkannten Text abwarten.";
+
 /** Klartext für den KI-Status inklusive fehlendem Zugangscode. */
 function aiStatusText(health) {
   if (!health.apiKeyConfigured) return "KI-Bewertung nicht verfügbar – kein API-Schlüssel auf dem Server. Selbsteinschätzung anhand der Musterantwort.";
@@ -308,6 +317,7 @@ const oralView = createOralView({
   oralEndpoint: CFG.oralEndpoint || "/api/oral",
   oralProtocolEndpoint: CFG.oralProtocolEndpoint || "/.netlify/functions/oral-protocol-background",
   ttsEndpoint: CFG.ttsEndpoint || "/api/tts",
+  sttEndpoint: CFG.sttEndpoint || "/api/stt",
   getCards: () => cards,
   loadCatalog, loadHealth, markDue,
 });
@@ -639,6 +649,7 @@ async function renderQuiz() {
   document.querySelectorAll("#answer-area textarea").forEach((t) => t.addEventListener("keydown", submitOnCtrlEnter));
   $final?.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); $ans?.focus(); } else submitOnCtrlEnter(e); });
   ($final || $ans || document.querySelector("#answer-area textarea"))?.focus();
+  const dictations = dictationOn(health) ? [...document.querySelectorAll("#answer-area textarea")].map(dictate) : [];
 
   /** Endergebnis-Feld inklusive Einheit, so wie eingegeben. */
   const getFinal = (id = "final") => {
@@ -780,7 +791,9 @@ async function renderQuiz() {
         </div>`;
       $ai.appendChild($wrap);
       const $ta = $wrap.querySelector("#fu-answer");
+      const fuDictation = dictationOn(health) ? dictate($ta) : null;
       const send = async () => {
+        if (fuDictation?.busy) { alert(DICTATION_BUSY); return; }
         const answer = $ta.value.trim();
         if (!answer) { alert("Bitte zuerst auf die Nachfrage antworten."); return; }
         $wrap.querySelector("#fu-send").disabled = true; $ta.disabled = true;
@@ -838,6 +851,7 @@ async function renderQuiz() {
     s.i++; renderQuiz();
   }
   document.getElementById("submit").addEventListener("click", () => {
+    if (dictations.some((d) => d.busy)) { alert(DICTATION_BUSY); return; }
     const a = getAnswer();
     const empty = HAS_FINAL.has(q.type) ? !getFinal() && !a : a == null || a === "";
     if (empty) {
@@ -975,7 +989,8 @@ async function renderSettings() {
       <label class="toggle"><input type="checkbox" id="ai" ${settings.ai ? "checked" : ""}> KI-Bewertung verwenden</label>
       <label class="field" style="margin-top:10px"><span>Zugangscode (Pflicht – entspricht der Netlify-Variable APP_PASSWORD)</span><input type="password" id="appkey" value="${esc(settings.appKey)}" autocomplete="off"></label>
       <label class="toggle" style="margin-top:8px"><input type="checkbox" id="oralspeak" ${settings.oralSpeak ? "checked" : ""}> Im Prüfungsgespräch die Fragen des Prüfers vorlesen lassen</label>
-      <div class="small muted">Stimme: ${health.tts ? "ElevenLabs (auf dem Server eingerichtet)" : "die beste deutsche Stimme dieses Browsers – für eine natürlichere Stimme ELEVENLABS_API_KEY auf dem Server setzen"}.</div>
+      <div class="small muted">Stimme: ${health.tts ? "ElevenLabs (auf dem Server eingerichtet)" : "die beste deutsche Stimme dieses Browsers – für eine natürlichere Stimme ELEVENLABS_API_KEY auf dem Server setzen"}.
+        Diktat: ${health.stt ? (canRecord() ? "🎤 Diktieren an jedem Antwortfeld (ElevenLabs Scribe)" : "dieser Browser kann nicht aufnehmen") : "nicht eingerichtet (ELEVENLABS_API_KEY)"}.</div>
       ${health.apiKeyConfigured && health.passwordConfigured && !settings.appKey ? '<div class="notice warn small">Ohne Zugangscode antwortet der Server mit 401 und es gibt keine KI-Bewertung.</div>' : ""}
     </div>
     <div class="card">
