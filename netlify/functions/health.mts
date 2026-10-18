@@ -12,6 +12,7 @@ export default async () => {
     JSON.stringify({
       ok: true,
       ai: hasKey && hasPassword,
+      tts: hasPassword && Boolean(Netlify.env.get("ELEVENLABS_API_KEY")),
       apiKeyConfigured: hasKey,
       passwordRequired: true,
       passwordConfigured: hasPassword,

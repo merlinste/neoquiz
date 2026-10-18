@@ -6,7 +6,7 @@
  * genannten Fragen werden in der Wiedervorlage auf fällig gesetzt.
  */
 import * as SR from "../lib/cards.js";
-import { collectSpeech } from "../lib/speech.js";
+import { collectSpeech, pickGermanVoice } from "../lib/speech.js";
 
 export const ORAL_MODES = {
   PG: {
@@ -52,6 +52,36 @@ export function createOralView(ctx) {
       if (discard) { r.onresult = null; r.abort(); } else r.stop();
     }
     document.getElementById("oral-mic")?.classList.remove("active");
+  }
+
+  /*
+   * Sprachausgabe: bevorzugt ElevenLabs über /api/tts, sonst die beste deutsche
+   * Stimme des Browsers. Ein einziges Audio-Element für alle Züge, weil iOS nur
+   * Elemente abspielt, die einmal in einer Nutzeraktion gestartet wurden.
+   */
+  const audio = new Audio();
+  /** Text → Blob-URL, damit „nochmal anhören“ nicht erneut bezahlt wird. */
+  const voiceCache = new Map();
+  const VOICE_CACHE_MAX = 30;
+  /** 20 ms Stille, damit sich das Element in einer Nutzeraktion freischalten lässt. */
+  const SILENCE = "data:audio/wav;base64,UklGRsQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YaAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA";
+  let ttsAvailable = false;
+  let audioUnlocked = false;
+  /** Zählt jede neue Ausgabe hoch; eine verspätete Antwort von /api/tts spielt dann nicht mehr los. */
+  let speakSeq = 0;
+
+  function unlockAudio() {
+    if (audioUnlocked) return;
+    audioUnlocked = true;
+    if (!audio.paused) return; // spielt schon – nicht den laufenden Prüfer abschneiden
+    audio.src = SILENCE;
+    audio.play().catch(() => {});
+  }
+
+  function stopSpeaking() {
+    speakSeq++;
+    audio.pause();
+    window.speechSynthesis?.cancel();
   }
 
   /**
@@ -155,6 +185,7 @@ export function createOralView(ctx) {
     const cfg = ORAL_MODES[mode];
     let session = load();
     if (session && session.mode !== mode) session = null;
+    ttsAvailable = Boolean(health.tts);
 
     $app.innerHTML = `
       <div class="exam-head">
@@ -186,9 +217,9 @@ export function createOralView(ctx) {
     const $state = document.getElementById("oral-state");
 
     const renderLog = () => {
-      $log.innerHTML = (session?.transcript || []).map((t) => `
+      $log.innerHTML = (session?.transcript || []).map((t, i) => `
         <div class="turn ${t.role}">
-          <div class="who">${t.role === "pruefer" ? "Prüfer" : "Du"}</div>
+          <div class="who">${t.role === "pruefer" ? `Prüfer <button class="say-again" data-i="${i}" title="Nochmal anhören" aria-label="Nochmal anhören">🔊</button>` : "Du"}</div>
           <div class="what">${md(t.text)}</div>
         </div>`).join("") || '<p class="muted">Das Gespräch beginnt gleich …</p>';
       $topics.innerHTML = (session?.topics || []).map((t) => `<span class="badge">${esc(t)}</span>`).join("");
@@ -235,6 +266,8 @@ export function createOralView(ctx) {
       if (!text) { alert("Bitte zuerst antworten – tippen oder sprechen."); return; }
       // Aufnahme beenden, sonst schreibt die Erkennung die alte Antwort wieder ins Feld.
       stopMic(true);
+      stopSpeaking();
+      unlockAudio();
       session.transcript.push({ role: "kandidat", text });
       session.draft = "";
       save(session);
@@ -335,14 +368,64 @@ export function createOralView(ctx) {
     }
 
     /* --------------------------------------------------------------- Sprachaus- und -eingabe */
-    function speak(text) {
-      if (!settings.oralSpeak || !window.speechSynthesis) return;
+    async function fetchVoice(text) {
+      if (voiceCache.has(text)) return voiceCache.get(text);
+      const r = await fetch(ctx.ttsEndpoint, {
+        method: "POST",
+        headers: headers(),
+        body: JSON.stringify({ text, learnerCode: settings.learnerCode }),
+      });
+      if (!r.ok) throw apiError(await r.json().catch(() => ({})), r.status);
+      const url = URL.createObjectURL(await r.blob());
+      voiceCache.set(text, url);
+      if (voiceCache.size > VOICE_CACHE_MAX) {
+        const [oldest, oldUrl] = voiceCache.entries().next().value;
+        voiceCache.delete(oldest);
+        URL.revokeObjectURL(oldUrl);
+      }
+      return url;
+    }
+
+    /** `force` liest auch vor, wenn das Vorlesen in den Einstellungen aus ist (Klick auf 🔊). */
+    async function speak(text, force = false) {
+      if (!text || (!settings.oralSpeak && !force)) return;
+      stopSpeaking();
+      const seq = speakSeq;
+      if (ttsAvailable) {
+        try {
+          const url = await fetchVoice(text);
+          if (seq !== speakSeq) return;
+          audio.src = url;
+          await audio.play();
+          return;
+        } catch (e) {
+          if (seq !== speakSeq) return;
+          // Ohne Schlüssel oder Zugang bringt ein neuer Versuch nichts; bis zum nächsten Aufruf der Ansicht nur noch die Browserstimme.
+          if (e.code === "no_tts" || e.code === "unauthorized") ttsAvailable = false;
+          console.warn("[tts]", e.message);
+        }
+      }
+      browserSpeak(text);
+    }
+
+    function browserSpeak(text) {
+      if (!window.speechSynthesis) return;
       try {
         const u = new SpeechSynthesisUtterance(text);
-        u.lang = "de-DE";
+        const voice = pickGermanVoice(window.speechSynthesis.getVoices());
+        u.lang = voice?.lang || "de-DE";
+        if (voice) u.voice = voice;
         window.speechSynthesis.speak(u);
       } catch { /* Sprachausgabe ist Beiwerk */ }
     }
+
+    $log.addEventListener("click", (e) => {
+      const btn = e.target.closest(".say-again");
+      if (!btn) return;
+      unlockAudio();
+      speak(session?.transcript[Number(btn.dataset.i)]?.text, true);
+    });
+    document.addEventListener("pointerdown", unlockAudio, { once: true, capture: true });
 
     /**
      * Chrome beendet die Erkennung nach Sprechpausen von selbst (auf Android nach
@@ -381,7 +464,7 @@ export function createOralView(ctx) {
 
     document.getElementById("oral-mic")?.addEventListener("click", () => {
       if (micWanted) { stopMic(); $state.textContent = ""; return; }
-      if (window.speechSynthesis?.speaking) window.speechSynthesis.cancel();
+      stopSpeaking();
       micWanted = true;
       try { startRecognition(); } catch { stopMic(); $state.textContent = "Spracheingabe nicht möglich – bitte tippen."; return; }
       document.getElementById("oral-mic").classList.add("active");
@@ -428,7 +511,7 @@ export function createOralView(ctx) {
       await startConversation();
       update(); tick = setInterval(update, 1000);
     }
-    window.addEventListener("hashchange", () => { stopTick(); stopMic(true); }, { once: true });
+    window.addEventListener("hashchange", () => { stopTick(); stopMic(true); stopSpeaking(); }, { once: true });
   }
 
   return { renderOral };

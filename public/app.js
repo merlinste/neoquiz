@@ -307,6 +307,7 @@ const oralView = createOralView({
   $app, esc, md, LS, settings, shuffle, aiStatusText,
   oralEndpoint: CFG.oralEndpoint || "/api/oral",
   oralProtocolEndpoint: CFG.oralProtocolEndpoint || "/.netlify/functions/oral-protocol-background",
+  ttsEndpoint: CFG.ttsEndpoint || "/api/tts",
   getCards: () => cards,
   loadCatalog, loadHealth, markDue,
 });
@@ -974,6 +975,7 @@ async function renderSettings() {
       <label class="toggle"><input type="checkbox" id="ai" ${settings.ai ? "checked" : ""}> KI-Bewertung verwenden</label>
       <label class="field" style="margin-top:10px"><span>Zugangscode (Pflicht – entspricht der Netlify-Variable APP_PASSWORD)</span><input type="password" id="appkey" value="${esc(settings.appKey)}" autocomplete="off"></label>
       <label class="toggle" style="margin-top:8px"><input type="checkbox" id="oralspeak" ${settings.oralSpeak ? "checked" : ""}> Im Prüfungsgespräch die Fragen des Prüfers vorlesen lassen</label>
+      <div class="small muted">Stimme: ${health.tts ? "ElevenLabs (auf dem Server eingerichtet)" : "die beste deutsche Stimme dieses Browsers – für eine natürlichere Stimme ELEVENLABS_API_KEY auf dem Server setzen"}.</div>
       ${health.apiKeyConfigured && health.passwordConfigured && !settings.appKey ? '<div class="notice warn small">Ohne Zugangscode antwortet der Server mit 401 und es gibt keine KI-Bewertung.</div>' : ""}
     </div>
     <div class="card">

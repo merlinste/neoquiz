@@ -25,8 +25,8 @@ scripts/validate.mjs         prüft Fragen, Gebiete, Literatur und Prüfungsordn
 scripts/lookups.mjs          setzt die Fundstellen (lookup) aus data/literature.json an die Fragen
 scripts/build.mjs            kopiert data/ nach public/data/, erzeugt index.json und catalog.json
 public/                      Frontend ohne Build-Schritt (app.js, lib/, views/, vendor/ts-fsrs)
-netlify/functions/           evaluate.mts, oral.mts, oral-protocol-background.mts, health.mts
-netlify/shared/              questions.mts (Fragenbestand im Function-Bundle), guard.mts, oral.mts
+netlify/functions/           evaluate.mts, oral.mts, oral-protocol-background.mts, tts.mts (Prüferstimme), health.mts
+netlify/shared/              questions.mts (Fragenbestand im Function-Bundle), guard.mts, oral.mts, tts.mts (ElevenLabs-Aufruf)
 supabase/migrations/         Schema nq_* (Lerner, Versuche, FSRS-Karten)
 ```
 
@@ -55,6 +55,10 @@ Eigene Netlify-Site, verbunden mit diesem Repository (Build: `npm run build`, Pu
 | `CLAUDE_MODEL` | optional, Standard `claude-opus-5-5` |
 | `AI_RATE_LIMIT` | optional, KI-Bewertungen pro Stunde je Lerner-Code bzw. IP (Standard 60) |
 | `ORAL_RATE_LIMIT` | optional, Gesprächszüge pro Stunde (Standard 90) |
+| `ELEVENLABS_API_KEY` | optional, Prüferstimme im Prüfungsgespräch über ElevenLabs. Ohne Schlüssel liest der Browser mit seiner besten deutschen Stimme vor. |
+| `ELEVENLABS_VOICE_ID` | optional, Stimme aus der ElevenLabs-Voice-Library (vorher zu „My Voices“ hinzufügen). Standard ist die fertige Stimme „George“; eine deutschsprachige Stimme klingt deutlich echter. |
+| `ELEVENLABS_MODEL` | optional, Standard `eleven_v4_turbo` (Echtzeit, ca. 0,04 $ je 1000 Zeichen, ein 30-Minuten-Gespräch ≈ 6000 Zeichen) |
+| `TTS_RATE_LIMIT` | optional, vorgelesene Prüferzüge pro Stunde (Standard 120) |
 
 ## Supabase
 

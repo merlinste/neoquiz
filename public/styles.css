@@ -166,6 +166,8 @@ kbd { font-family: inherit; font-size: .8em; padding: 1px 5px; border: 1px solid
 .turn { display: grid; grid-template-columns: 72px 1fr; gap: 10px; padding: 8px 0; border-top: 1px solid rgba(128,128,128,.15); }
 .turn:first-child { border-top: 0; }
 .turn .who { font-size: .78em; opacity: .6; padding-top: 2px; }
+.turn .say-again { display: block; margin-top: 4px; padding: 2px 6px; border: 0; border-radius: 6px; background: rgba(128,128,128,.15); font-size: 1.1em; cursor: pointer; color: inherit; }
+.turn .say-again:hover { background: rgba(128,128,128,.3); }
 .turn.pruefer .what { font-weight: 500; }
 .turn.kandidat .what { opacity: .85; }
 #oral-answer { width: 100%; }
