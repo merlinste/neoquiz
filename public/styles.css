@@ -233,3 +233,4 @@ kbd { font-family: inherit; font-size: .8em; padding: 1px 5px; border: 1px solid
   .lit-sections th, .lit-sections td, .lit-register th, .lit-register td { display: block; width: auto; border-top: none; padding: 3px 10px; }
   .lit-sections tr, .lit-register tr { display: block; border-top: 1px solid var(--border); padding: 5px 0; }
 }
+.resume { margin-bottom: 14px; }
