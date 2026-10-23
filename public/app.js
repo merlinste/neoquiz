@@ -4,6 +4,7 @@ import * as SR from "./lib/cards.js";
 import { createOralView } from "./views/oral.js";
 import { createLiteratureView, lookupHtml } from "./views/literature.js";
 import { attachDictation, canRecord } from "./lib/dictation.js";
+import { serializeSession, reviveSession, sessionQuestionIds, canResume } from "./lib/session.js";
 
 const CFG = window.NQ_CONFIG || {};
 const $app = document.getElementById("app");
@@ -62,8 +63,13 @@ const settings = Object.assign({
   modules: [], // Kompetenzbereiche KM/HK nach WBO, leer = alle
   blocks: [],  // Lernplan-Blöcke A … F, leer = alle
 }, LS.get("settings", {}));
-if (!settings.learnerCode) { settings.learnerCode = randomCode(); LS.set("settings", settings); }
+const CODE_RE = /^[A-Za-z0-9_-]{16,64}$/;
+/** Verknüpfungslink #/code/<Lerner-Code> – auf einem neuen Gerät gleich als eigener Code übernehmen. */
+const linkedCode = /^#\/code\/([^/?#]+)$/.exec(location.hash)?.[1];
+if (!settings.learnerCode) { settings.learnerCode = CODE_RE.test(linkedCode || "") ? linkedCode : randomCode(); LS.set("settings", settings); }
 const saveSettings = () => LS.set("settings", settings);
+/** Link, mit dem ein weiteres Gerät denselben Lerner-Code übernimmt. */
+const deviceLink = (code) => `${location.origin}${location.pathname}#/code/${code}`;
 
 let progress = LS.get("progress", {}); // question_id -> {attempts,lastSelf,lastAi,bestSelf,bestAi,lastAt,area}
 const saveProgress = () => LS.set("progress", progress);
@@ -73,6 +79,34 @@ let cards = LS.get("cards", {});
 const saveCards = () => LS.set("cards", cards);
 
 const state = { index: null, catalog: null, questions: {}, health: null, session: null };
+
+/* ---------- Laufende Sitzung ---------- */
+/**
+ * Die Sitzung wird bei jedem Schritt im Browser gesichert: iOS verwirft
+ * Safari-Tabs im Hintergrund, und nach dem Neuladen geht es an derselben
+ * Stelle weiter – samt Antwortentwurf und KI-Bewertung der offenen Frage.
+ */
+const saveSession = () => LS.set("session", serializeSession(state.session));
+function setSession(s) { state.session = s; saveSession(); }
+function dropSession() { state.session = null; LS.set("session", null); }
+/** Gespeicherte Sitzung nach einem Neuladen wieder aufbauen. */
+async function restoreSession() {
+  if (state.session) return state.session;
+  const raw = LS.get("session", null);
+  if (!raw) return null;
+  try {
+    const qs = await loadQuestionsByIds(sessionQuestionIds(raw));
+    state.session = reviveSession(raw, new Map(qs.map((q) => [q.id, q])));
+  } catch (e) { console.warn("Sitzung nicht wiederherstellbar", e); }
+  return state.session;
+}
+/** Eine offene Sitzung nur nach Rückfrage durch eine neue ersetzen. */
+const confirmReplaceSession = () => !canResume(state.session) || confirm("Die offene Sitzung wird dabei verworfen. Neue Sitzung starten?");
+/** Hält den Antwortentwurf der offenen Frage fest, bevor der Browser die Seite verwirft. */
+let captureDraft = null;
+const flushDraft = () => captureDraft?.();
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flushDraft(); });
+window.addEventListener("pagehide", flushDraft);
 
 /* ---------- Supabase (nur RPC) ---------- */
 const sb = {
@@ -347,6 +381,7 @@ const routes = {
   "statistik": renderStats,
   "einstellungen": renderSettings,
   "fachgespraech": (rest) => oralView.renderOral(rest),
+  "code": renderDeviceLink,
   "gebiet": renderAreaSetup,
   "quiz": renderQuiz,
   "ergebnis": renderResult,
@@ -357,6 +392,7 @@ async function router() {
   const [name, ...rest] = hash.split("/");
   document.querySelectorAll(".nav a").forEach((a) => a.classList.toggle("active", a.dataset.nav === (name || "home")));
   const fn = routes[name] || renderHome;
+  flushDraft(); captureDraft = null;
   try { await fn(rest); window.scrollTo({ top: 0 }); }
   catch (e) { console.error(e); $app.innerHTML = `<div class="notice err">Fehler: ${esc(e.message)}</div>`; }
 }
@@ -383,9 +419,18 @@ async function renderHome() {
   const weak = catalog.filter((q) => isWeakCard(q.id)).length;
   const filtered = settings.modules?.length || settings.blocks?.length;
   const sessionSize = plan.quota + plan.reviews.length;
+  const open = await restoreSession();
+  const resume = canResume(open) ? `
+    <div class="notice resume">
+      <div class="row between">
+        <div><strong>Offene Sitzung:</strong> ${esc(open.title || "Sitzung")} – weiter mit Frage ${open.i + 1} von ${open.questions.length}${open.draft?.mode ? " (Antwort schon abgegeben)" : ""}.</div>
+        <div class="row"><a class="btn primary sm" href="#/quiz">▶︎ Fortsetzen</a><button class="btn ghost sm" id="drop-session">Verwerfen</button></div>
+      </div>
+    </div>` : "";
 
   $app.innerHTML = `
     <h1>Heute lernen</h1>
+    ${resume}
     <div class="card today">
       <div class="kpis">
         <div class="kpi"><div class="v">${plan.quota}</div><div class="l">neue Fragen heute</div></div>
@@ -426,6 +471,9 @@ async function renderHome() {
     <div class="grid">${areaCards}</div>`;
 
   document.getElementById("start-today")?.addEventListener("click", () => startDailySession(plan));
+  document.getElementById("drop-session")?.addEventListener("click", () => {
+    if (confirm("Offene Sitzung verwerfen? Bereits bewertete Fragen bleiben gespeichert.")) { dropSession(); renderHome(); }
+  });
   $app.querySelectorAll("[data-go]").forEach((el) => {
     const go = () => (location.hash = el.dataset.go);
     el.addEventListener("click", go); el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
@@ -437,8 +485,9 @@ async function startDailySession(plan) {
   const fresh = shuffle(plan.fresh).slice(0, plan.quota).map((q) => q.id);
   const ids = SR.interleave(fresh, plan.reviews.map((q) => q.id));
   if (!ids.length) { alert("Für heute ist nichts fällig – gönn dir eine Pause oder starte eine gemischte Sitzung."); return; }
+  if (!confirmReplaceSession()) return;
   const list = await loadQuestionsByIds(ids);
-  state.session = { source: "_heute", title: "Tagessitzung", questions: list, i: 0, results: [], startedAt: Date.now() };
+  setSession({ source: "_heute", title: "Tagessitzung", questions: list, i: 0, results: [], startedAt: Date.now() });
   location.hash = "#/quiz";
 }
 
@@ -504,7 +553,7 @@ async function renderAreaSetup([areaId]) {
     if (!cfg.types.length) { alert("Bitte mindestens einen Fragetyp wählen."); return; }
     if (!cfg.areas.length) { alert("Bitte mindestens ein Gebiet wählen."); return; }
     LS.set("sessCfg", { ...sessCfg, ...cfg, areas: special ? cfg.areas : sessCfg.areas });
-    await startSession(cfg, areaId);
+    await startSession(cfg, areaId, special || area.title);
   });
   if (area) {
     const qs = await loadArea(area.id);
@@ -512,7 +561,7 @@ async function renderAreaSetup([areaId]) {
   }
 }
 
-async function startSession(cfg, source) {
+async function startSession(cfg, source, title) {
   const now = new Date();
   let pool = [];
   for (const id of cfg.areas) pool.push(...(await loadArea(id)));
@@ -545,7 +594,8 @@ async function startSession(cfg, source) {
   else if (cfg.order === "weak") pool = shuffle(pool).sort((a, b) => weight(b) - weight(a));
   else pool = shuffle(pool).sort((a, b) => weight(b) * Math.random() - weight(a) * Math.random());
   const list = pool.slice(0, cfg.count);
-  state.session = { source, questions: list, i: 0, results: [], startedAt: Date.now() };
+  if (!confirmReplaceSession()) return;
+  setSession({ source, title, questions: list, i: 0, results: [], startedAt: Date.now() });
   location.hash = "#/quiz";
 }
 
@@ -591,9 +641,10 @@ async function evaluateWithAI(q, { userAnswer, hintsUsed, numericCheck, finalVal
 }
 
 async function renderQuiz() {
-  const s = state.session;
+  const s = state.session || await restoreSession();
   if (!s) { location.hash = "#/"; return; }
   if (s.i >= s.questions.length) { location.hash = "#/ergebnis"; return; }
+  if (s.ended) { s.ended = false; saveSession(); }
   const idx = await loadIndex();
   const q = s.questions[s.i];
   const area = idx.areas.find((a) => a.id === q.area);
@@ -604,12 +655,20 @@ async function renderQuiz() {
   const lookup = q.lookup?.length ? q.lookup : area?.lookup;
   const lookupNote = q.lookup?.length ? "" : area?.lookupNote || "";
   const useAI = health.ai && settings.ai && Boolean(settings.appKey) && q.type !== "mc";
-  const startedAt = Date.now();
+  // Entwurf dieser Frage – wird mit der Sitzung gesichert und nach einem Neuladen
+  // wieder eingesetzt: Eingaben, Hinweise, Abgabe, KI-Runden, Selbsteinschätzung.
+  if (s.draft?.qId !== q.id) s.draft = { qId: q.id, startedAt: Date.now(), values: {}, hintsShown: 0, mode: null, aiRounds: [], selfScore: null, selfByUser: false };
+  const d = s.draft;
+  const startedAt = d.startedAt;
   // `aiResult` bleibt die Bewertung der Ursprungsfrage (Runde 1) – Nachfragen werden
   // getrennt bewertet und nur in `aiRounds` gesammelt, damit die Punkte auf die Frage
   // durch eine Nachfrage weder steigen noch fallen.
-  let hintsShown = 0, submitted = false, selfScore = null, selfByUser = false, aiResult = null, aiRounds = [], userAnswer = "", finalValue = "", nc = null, autoResult = null, caseResults = null;
-  const mcOptions = q.type === "mc" ? shuffle(q.options.map((o, i) => ({ ...o, i }))) : null;
+  let hintsShown = 0, submitted = false, selfScore = null, selfByUser = false, aiResult = null, userAnswer = "", finalValue = "", nc = null, autoResult = null, caseResults = null;
+  const aiRounds = d.aiRounds;
+  const validOrder = q.type === "mc" && Array.isArray(d.mcOrder) && d.mcOrder.length === q.options.length && d.mcOrder.every((i) => q.options[i]);
+  const mcOptions = q.type === "mc" ? (validOrder ? d.mcOrder.map((i) => ({ ...q.options[i], i })) : shuffle(q.options.map((o, i) => ({ ...o, i })))) : null;
+  if (mcOptions) d.mcOrder = mcOptions.map((o) => o.i);
+  saveSession();
 
   $app.innerHTML = `
     <div class="quiz-head">
@@ -637,12 +696,29 @@ async function renderQuiz() {
     </div>`;
 
   const $hint = document.getElementById("hint"), $hints = document.getElementById("hints"), $reveal = document.getElementById("reveal");
-  $hint.addEventListener("click", () => {
+  const showHint = () => {
     if (hintsShown >= q.hints.length) return;
     $hints.insertAdjacentHTML("beforeend", `<div class="hint-box small"><strong>Hinweis ${hintsShown + 1}:</strong> ${md(q.hints[hintsShown])}</div>`);
     hintsShown++; $hint.textContent = `💡 Hinweis (${hintsShown}/${q.hints.length})`; if (hintsShown >= q.hints.length) $hint.disabled = true;
-  });
-  document.getElementById("abort").addEventListener("click", () => { if (confirm("Sitzung beenden? Bearbeitete Fragen bleiben gespeichert.")) location.hash = "#/ergebnis"; });
+  };
+  $hint.addEventListener("click", () => { showHint(); d.hintsShown = hintsShown; saveSession(); });
+  for (let k = 0; k < (d.hintsShown || 0); k++) showHint();
+  document.getElementById("abort").addEventListener("click", () => { if (confirm("Sitzung beenden? Bearbeitete Fragen bleiben gespeichert.")) { s.ended = true; saveSession(); location.hash = "#/ergebnis"; } });
+
+  // Eingaben aus dem Entwurf wieder einsetzen und jede Änderung sofort sichern.
+  const $area = document.getElementById("answer-area");
+  for (const [id, v] of Object.entries(d.values)) {
+    if (id === "opt") { if (v != null) { const r = $area.querySelector(`input[name=opt][value="${Number(v)}"]`); if (r) r.checked = true; } }
+    else { const el = document.getElementById(id); if (el && $area.contains(el) && v != null) el.value = v; }
+  }
+  captureDraft = () => {
+    if (s.draft !== d) return;
+    $area.querySelectorAll("textarea, input[type=text]").forEach((el) => { d.values[el.id] = el.value; });
+    if (q.type === "mc") d.values.opt = $area.querySelector("input[name=opt]:checked")?.value ?? null;
+    saveSession();
+  };
+  $area.addEventListener("input", captureDraft);
+  $area.addEventListener("change", captureDraft);
   const $ans = document.getElementById("ans");
   const $final = document.getElementById("final"), $unit = document.getElementById("final-unit");
   const submitOnCtrlEnter = (e) => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); document.getElementById("submit").click(); } };
@@ -674,8 +750,11 @@ async function renderQuiz() {
   /** Die Zahl, die tatsächlich gewertet wurde – für die Rückmeldung bei Abweichung. */
   const readFinal = () => (finalValue ? parseNumber(finalValue) : extractFinalNumber(userAnswer));
 
-  async function reveal(mode) {
+  /** `restored`: Die Antwort war vor einem Neuladen schon abgegeben. */
+  async function reveal(mode, restored = false) {
     if (submitted) return; submitted = true;
+    const saved = restored ? { selfScore: d.selfScore, selfByUser: d.selfByUser } : null;
+    captureDraft(); d.mode = mode; saveSession();
     const raw = getAnswer();
     document.getElementById("submit").disabled = true; document.getElementById("dontknow").disabled = true; $hint.disabled = true;
     let local = null; // lokale Bewertung
@@ -732,6 +811,7 @@ async function renderQuiz() {
       $reveal.querySelectorAll(".self-rate .btn[data-s]").forEach((b) => b.classList.toggle("active", Number(b.dataset.s) === v));
       document.getElementById("next").disabled = false;
       showSelfNote();
+      d.selfScore = selfScore; d.selfByUser = selfByUser; saveSession();
     };
     /** Hinweis, wenn die KI die Selbsteinschätzung deutlich anders sieht. */
     function showSelfNote() {
@@ -747,6 +827,7 @@ async function renderQuiz() {
     }
     $reveal.querySelectorAll(".self-rate .btn[data-s]").forEach((b) => b.addEventListener("click", () => setSelf(Number(b.dataset.s))));
     if (local != null) setSelf(local, q.type !== "open");
+    if (saved?.selfScore != null) setSelf(saved.selfScore, saved.selfByUser);
     document.getElementById("next").addEventListener("click", finish);
     $reveal.scrollIntoView({ behavior: "smooth", block: "start" });
 
@@ -791,6 +872,8 @@ async function renderQuiz() {
         </div>`;
       $ai.appendChild($wrap);
       const $ta = $wrap.querySelector("#fu-answer");
+      if (d.fuDraft) $ta.value = d.fuDraft;
+      $ta.addEventListener("input", () => { d.fuDraft = $ta.value; saveSession(); });
       const fuDictation = dictationOn(health) ? dictate($ta) : null;
       const send = async () => {
         if (fuDictation?.busy) { alert(DICTATION_BUSY); return; }
@@ -805,7 +888,8 @@ async function renderQuiz() {
           // Bewusst kein `aiResult = ...`: die Nachfrage wird getrennt gewertet und
           // verändert weder die Punkte der Ursprungsfrage noch die Wiedervorlage.
           const round = aiRounds.length + 1;
-          aiRounds.push({ round, scope: "followUp", question, answer, evaluation: res.evaluation });
+          aiRounds.push({ round, scope: "followUp", question, answer, evaluation: res.evaluation, model: res.model });
+          d.fuDraft = ""; saveSession();
           $busy.outerHTML = aiBox(res.evaluation, round, res.model);
           if (res.evaluation.followUp) attachFollowUp(res.evaluation.followUp);
         } catch (e) {
@@ -816,12 +900,27 @@ async function renderQuiz() {
       $ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); send(); } });
     }
 
-    if (useAI && mode !== "dontknow" && (userAnswer || finalValue)) {
+    if (restored && aiRounds.length) {
+      // Die Bewertung lag vor dem Neuladen schon vor – nicht noch einmal anfragen.
+      $ai.innerHTML = aiRounds.map((r) => {
+        if (r.scope === "question") aiResult = r.evaluation;
+        const asked = r.scope === "followUp" ? `<div class="small notice" style="margin-top:8px"><strong>Nachfrage des Prüfers:</strong> ${esc(r.question)}<br><strong>Deine Antwort:</strong> ${esc(r.answer)}</div>` : "";
+        return asked + aiBox(r.evaluation, r.round, r.model);
+      }).join("");
+      if (aiResult && !selfByUser && selfScore == null) setSelf(aiResult.score >= 80 ? 2 : aiResult.score >= 45 ? 1 : 0, false);
+      showSelfNote();
+      const last = aiRounds[aiRounds.length - 1].evaluation;
+      if (last.followUp) attachFollowUp(last.followUp);
+    } else if (useAI && mode !== "dontknow" && (userAnswer || finalValue)) {
       $ai.innerHTML = `<div class="ai-box"><span class="spinner"></span> Claude bewertet deine Antwort wie ein Prüfer …</div>`;
       try {
         const res = await evaluateWithAI(q, { userAnswer, hintsUsed: hintsShown, numericCheck: nc, finalValue });
         aiResult = res.evaluation;
-        aiRounds.push({ round: 1, scope: "question", evaluation: res.evaluation });
+        // Wer zwischendurch die Ansicht verlassen hat, hat die Frage womöglich schon
+        // ein zweites Mal bewerten lassen – gespeichert wird nur eine Runde 1.
+        if (!aiRounds.some((r) => r.scope === "question")) aiRounds.unshift({ round: 1, scope: "question", evaluation: res.evaluation, model: res.model });
+        saveSession();
+        if (!document.body.contains($ai)) return; // Ansicht inzwischen verlassen
         $ai.innerHTML = aiBox(res.evaluation, 1, res.model);
         // Die KI schlägt nur vor, wenn noch nichts gewählt ist – sie überschreibt nie.
         if (!selfByUser && selfScore == null) setSelf(res.evaluation.score >= 80 ? 2 : res.evaluation.score >= 45 ? 1 : 0, false);
@@ -848,7 +947,8 @@ async function renderQuiz() {
     const stored = finalValue ? `Endergebnis: ${finalValue}\n${userAnswer}` : userAnswer;
     await recordAttempt(q, q.area, { userAnswer: stored, selfScore, aiScore: aiResult?.score ?? null, aiFeedback: aiRounds.length ? { rounds: aiRounds } : null, hintsUsed: hintsShown, durationMs: Date.now() - startedAt, card: cards[q.id] });
     s.results.push({ q, selfScore, aiScore: aiResult?.score ?? null, hintsUsed: hintsShown, rating, intervalDays, downgraded });
-    s.i++; renderQuiz();
+    s.i++; s.draft = null; saveSession();
+    renderQuiz();
   }
   document.getElementById("submit").addEventListener("click", () => {
     if (dictations.some((d) => d.busy)) { alert(DICTATION_BUSY); return; }
@@ -863,11 +963,13 @@ async function renderQuiz() {
     reveal("submit");
   });
   document.getElementById("dontknow").addEventListener("click", () => reveal("dontknow"));
+  if (d.mode) reveal(d.mode, true);
 }
 
 async function renderResult() {
-  const s = state.session;
+  const s = state.session || await restoreSession();
   if (!s) { location.hash = "#/"; return; }
+  if (!s.ended) { s.ended = true; saveSession(); }
   const idx = await loadIndex();
   const n = s.results.length, ok = s.results.filter((r) => r.selfScore >= 2).length, mid = s.results.filter((r) => r.selfScore === 1).length, bad = n - ok - mid;
   const aiScores = s.results.filter((r) => r.aiScore != null).map((r) => r.aiScore);
@@ -892,7 +994,7 @@ async function renderResult() {
     </div>
     <h2>Fragen dieser Sitzung</h2>
     <div class="card"><ul class="result-list" style="list-style:none;padding:0;margin:0">${s.results.map((r) => `<li><span class="badge ${CLS[r.selfScore]}">${SYM[r.selfScore]}</span> <span class="muted small">${r.q.id}</span> ${esc(r.q.question.replace(/\*\*/g, "").slice(0, 120))}${r.aiScore != null ? ` <span class="badge">KI ${r.aiScore}</span>` : ""}${r.hintsUsed ? ` <span class="badge">💡 ${r.hintsUsed}</span>` : ""}${r.intervalDays != null ? ` <span class="badge" title="nächste Wiedervorlage">↻ ${esc(fmtInterval(r.intervalDays))}</span>` : ""}${r.downgraded ? ` <span class="badge mid" title="KI deutlich strenger als die Selbsteinschätzung">KI strenger</span>` : ""}</li>`).join("") || "<li class='muted'>Keine Fragen bearbeitet.</li>"}</ul></div>`;
-  document.getElementById("retry")?.addEventListener("click", () => { state.session = { source: s.source, questions: shuffle(weak), i: 0, results: [], startedAt: Date.now() }; location.hash = "#/quiz"; });
+  document.getElementById("retry")?.addEventListener("click", () => { setSession({ source: s.source, title: s.title, questions: shuffle(weak), i: 0, results: [], startedAt: Date.now() }); location.hash = "#/quiz"; });
   void idx;
 }
 
@@ -980,6 +1082,10 @@ async function renderSettings() {
       <h3 style="margin-top:0">Lernprofil (Cloud-Sync)</h3>
       <p class="small muted">Dein Fortschritt wird lokal und – über diesen Lerner-Code – in Supabase gespeichert. Trage denselben Code auf einem anderen Gerät ein, um dort weiterzulernen. Behandle den Code wie ein Passwort.</p>
       <label class="field"><span>Lerner-Code</span><div class="row"><input type="text" id="code" value="${esc(settings.learnerCode)}" style="flex:1;font-family:monospace"><button class="btn sm" id="copy">Kopieren</button><button class="btn sm" id="newcode">Neu erzeugen</button></div></label>
+      <div class="field"><span>Weiteres Gerät verknüpfen</span>
+        <div class="row"><input type="text" id="devlink" value="${esc(deviceLink(settings.learnerCode))}" readonly style="flex:1;font-family:monospace"><button class="btn sm" id="sharelink">${navigator.share ? "Link teilen" : "Link kopieren"}</button></div>
+        <div class="small muted">Den Link auf dem anderen Gerät öffnen – etwa per AirDrop oder als Nachricht an dich selbst. Danach lernen beide Geräte mit demselben Fortschritt. Der Link enthält deinen Lerner-Code: nicht an andere weitergeben.</div>
+      </div>
       <label class="field"><span>Name (optional)</span><input type="text" id="name" value="${esc(settings.name)}" placeholder="z. B. Dr. Muster"></label>
       <div class="small muted">Sync-Status: ${sb.ok ? "Supabase konfiguriert" : "nicht konfiguriert"}</div>
     </div>
@@ -1038,10 +1144,15 @@ async function renderSettings() {
   document.getElementById("newperday").addEventListener("input", updateQuotaHint);
   updateQuotaHint();
   document.getElementById("copy").addEventListener("click", () => navigator.clipboard?.writeText(document.getElementById("code").value));
+  document.getElementById("sharelink").addEventListener("click", async () => {
+    const url = deviceLink(settings.learnerCode);
+    if (navigator.share) { try { await navigator.share({ title: "Neoquiz – Gerät verknüpfen", url }); } catch { /* abgebrochen */ } }
+    else { await navigator.clipboard?.writeText(url); alert("Link kopiert."); }
+  });
   document.getElementById("newcode").addEventListener("click", () => { if (confirm("Neuen Code erzeugen? Der bisherige Cloud-Fortschritt ist dann nur noch über den alten Code erreichbar.")) document.getElementById("code").value = randomCode(); });
   document.getElementById("save").addEventListener("click", async () => {
     const code = document.getElementById("code").value.trim();
-    if (!/^[A-Za-z0-9_-]{16,64}$/.test(code)) { alert("Lerner-Code: 16–64 Zeichen (Buchstaben, Ziffern, - _)."); return; }
+    if (!CODE_RE.test(code)) { alert("Lerner-Code: 16–64 Zeichen (Buchstaben, Ziffern, - _)."); return; }
     const changed = code !== settings.learnerCode;
     settings.learnerCode = code; settings.name = document.getElementById("name").value.trim(); settings.ai = document.getElementById("ai").checked; settings.appKey = document.getElementById("appkey").value;
     settings.oralSpeak = document.getElementById("oralspeak").checked;
@@ -1052,12 +1163,28 @@ async function renderSettings() {
     settings.modules = [...document.querySelectorAll('input[name="module"]:checked')].map((el) => el.value);
     settings.blocks = [...document.querySelectorAll('input[name="block"]:checked')].map((el) => el.value);
     saveSettings();
-    if (changed) { progress = {}; saveProgress(); cards = {}; saveCards(); }
+    if (changed) resetLocalProgress();
     await syncFromCloud();
     location.hash = "#/";
   });
   document.getElementById("sync").addEventListener("click", async () => { await syncFromCloud(); alert("Fortschritt aktualisiert."); });
   document.getElementById("reset").addEventListener("click", () => { if (confirm("Lokalen Fortschritt und alle Karten wirklich löschen? (Cloud-Daten bleiben erhalten.)")) { progress = {}; saveProgress(); cards = {}; saveCards(); alert("Gelöscht."); } });
+}
+
+/** Lokalen Stand verwerfen, wenn der Lerner-Code wechselt – er kommt aus der Cloud neu. */
+function resetLocalProgress() { progress = {}; saveProgress(); cards = {}; saveCards(); dropSession(); }
+
+/** Verknüpfungslink #/code/<Lerner-Code>: dieses Gerät auf den Code aus dem Link umstellen. */
+async function renderDeviceLink([code]) {
+  if (!CODE_RE.test(code || "")) throw new Error("Der Verknüpfungslink ist unvollständig – bitte den Link aus den Einstellungen des anderen Geräts noch einmal öffnen.");
+  if (code !== settings.learnerCode) {
+    if (!confirm("Dieses Gerät mit dem Lerner-Code aus dem Link verknüpfen? Der Fortschritt dieses Codes wird geladen und ersetzt den Stand auf diesem Gerät. Der bisherige Code bleibt in der Cloud erhalten.")) { location.replace("#/"); return; }
+    settings.learnerCode = code; saveSettings();
+    resetLocalProgress();
+    await syncFromCloud();
+    alert(`Gerät verknüpft – ${Object.keys(progress).length} bearbeitete Fragen geladen.`);
+  }
+  location.replace("#/");
 }
 
 async function renderExamInfo() {

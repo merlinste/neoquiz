@@ -11,6 +11,8 @@ Lern-Quiz zur Vorbereitung auf die **Prüfung zum Schwerpunkt Neonatologie** (Fa
 - **Literatur:** Nach jeder Antwort zeigt „📖 Nachlesen“ das passende Kapitel der Checkliste und die einschlägige Leitlinie (`data/literature.json`, Register über `npm run lookups`).
 - **Wiedervorlage:** FSRS (`ts-fsrs`) mit Karte je Frage, Tagesplan „Heute lernen“, Tagesquote auf den Prüfungstermin zurückgerechnet, gedeckelte Wiederholungen je Tagessitzung.
 - **Fortschritt:** lokal im Browser und in Supabase (über einen Lerner-Code, siehe Einstellungen in der App).
+- **Laufende Sitzung:** wird bei jedem Schritt im Browser gesichert (`public/lib/session.js`) – samt Antwortentwurf, Hinweisen, KI-Bewertung und Selbsteinschätzung der offenen Frage. Lädt die Seite neu (iOS verwirft Safari-Tabs im Hintergrund), geht es an derselben Stelle weiter; die Startseite bietet „Fortsetzen“ an.
+- **Geräte verknüpfen:** Einstellungen → „Link teilen“ erzeugt `#/code/<Lerner-Code>`; auf dem anderen Gerät geöffnet, übernimmt es denselben Lerner-Code und Fortschritt.
 
 > **Hinweis:** Lernhilfe, kein Nachschlagewerk für die Klinik. Dosierungen, Grenzwerte und Vorgehen vor jeder Anwendung gegen Fachinformation, aktuelle Leitlinien und lokale Standards prüfen.
 
